@@ -1,0 +1,239 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2020-07-21/2021-1/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2020-07-21/2021-1/"></FRBRuri>
+          <FRBRdate date="2020-07-21" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2020-07-21/2021-1/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2020-07-21/2021-1/ara@/"></FRBRuri>
+          <FRBRdate date="2020-07-28" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2020-07-21/2021-1/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2020-07-21/2021-1/ara@.xml"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Economic and Social Council (2020-2021 : New York and Geneva)" showAs="UN. Economic and Social Council (2020-2021 : New York and Geneva)" dictionary="DHLAUTH"></keyword>
+        <keyword refersTo="agenda" value="2" showAs="Adoption of the agenda and other organizational matters." shortForm="UN. ECONOMIC AND SOCIAL COUNCIL (2020-2021 : NEW YORK)--AGENDA" dictionary="E/2021/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2020-07-16" outcome="draftResolution" as="E/2021/L.1" by="submitted by the President of the Council" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2020-07-28" outcome="adopted" as="Adopted under silence procedure" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2021/1</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">إن المجلس الاقتصادي والاجتماعي</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2020-07-28" class="rightSmall" refersTo="#dateOfIssuance">28 July 2020</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" eId="coverPage_1__session_1"></session>
+      </p>
+      <p>
+        <inline title="2" name="agenda item">البند 2 من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">إقرار جدول الأعمال ومسائل تنظيمية أخرى</inline>
+      </p>
+      <p>
+        <docTitle>قرار اتخذه المجلس الاقتصادي والاجتماعي في 21 تموز/يوليه 2020</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="Silence procedure">[(<inline name="originating document">E/2021/L.1</inline>)بناء على مقترح نظر فيه في إطار إجراء الموافقة الصامتة]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2021/1</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	ترتيبات العمل لدورة المجلس الاقتصادي والاجتماعي لعام 2021</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold italic">إن المجلس الاقتصادي والاجتماعي</span>،</p>
+      </formula>
+      <container name="إذ يشير" eId="container_2">
+        <p xml:space="preserve">	<span class="bold italic">إذ يشير</span> إلى قرارات الجمعية العامة <a href="https://undocs.org/ar/A/RES/61/16">61/16</a> المؤرخ 20 تشرين الثاني/نوفمبر 2006 و <a href="https://undocs.org/ar/A/RES/68/1">68/1</a> المؤرخ 20 أيلول/سبتمبر 2013 و <a href="https://undocs.org/ar/A/RES/72/305">72</a><a href="https://undocs.org/ar/A/RES/72/305">/305</a> المؤرخ 23 تموز/يوليه 2018 بشأن تعزيز المجلس الاقتصادي والاجتماعي،</p>
+      </container>
+      <container name="وإذ يعيد تأكيد" eId="container_3">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يعيد تأكيد</span> أنه يحق للمجلس، باعتباره من أجهزة الأمم المتحدة الرئيسية، أن يعقد اجتماعاتٍ مخصصة حسب الاقتضاء وعند اللزوم لمعالجة المستجدات العاجلة في الميادين الاقتصادية والاجتماعية والبيئية وما يتصل بها من ميادين، مع تلقي كل الدعم الفني وخدمات المؤتمرات، </p>
+      </container>
+      <container name="وإذ يقر" eId="container_4">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يقر</span> بأن المجلس، عند تحديد مواعيد دوراته واجتماعاته ومشاوراته، سيأخذ في الحسبان اجتماعات الهيئات الأخرى التي تتعامل مع القضايا الاقتصادية والاجتماعية والبيئية لتفادي أي تداخل لا داعي له بين جداول أعمالها وحشوها ببنود لا لزوم لها،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_5">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير</span> إلى اعتماد خطةِ عمل أديس أبابا الصادرة عن المؤتمر الدولي الثالث لتمويل التنمية<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	()	قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/69/313">69/313</a>، المرفق.</p></authorialNote><sup>)</sup> وخطةِ التنمية المستدامة لعام 2030<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	()	قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/70/1">70/1</a>.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ يشير أيضا" eId="container_6">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير أيضا</span> إلى أنه تقرر في الاستنتاجات والتوصيات المتفق عليها على الصعيد الحكومي الدولي الصادرة عن المنتدى المعني بمتابعة تمويل التنمية لعام 2020<sup>(</sup><authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	()	انظر <a href="https://undocs.org/ar/E/FFDF/2020/3">E/FFDF/2020/3</a>.</p></authorialNote><sup>)</sup> أن يعقد المنتدى السادس في الفترة من يوم الاثنين، 12 نيسان/أبريل، إلى يوم الخميس، 15 نيسان/أبريل 2021،</p>
+      </container>
+      <container name="وإذ يضع" eId="container_7">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يضع</span> في اعتباره الحاجة المحتملة إلى تعديل ترتيبات العمل في ضوء الأثر المستمر لجائحة فيروس كورونا (كوفيد-19) على عمل المجلس،</p>
+      </container>
+      <container name="وإذ يأخذ في اعتباره" eId="container_8">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يأخذ في اعتباره</span> الحاجة المحتملة إلى إجراء تعديلات في ضوء المقررات اللاحقة التي يتخذها المجلس و/أو الجمعية العامة، </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_9" class="SingleTxt">
+        <num>1 -</num>
+        <list eId="para_9_list">
+          <intro eId="para_9_list_intro">
+            <p xml:space="preserve">	<span class="bold italic">يقرر</span>، آخذا في اعتباره أنه قد يحتاج إلى عقد اجتماعات إضافية حسب الاقتضاء، ترتيبات العمل التالية لدورة المجلس الاقتصادي والاجتماعي لعام 2021:</p>
+          </intro>
+          <point eId="para_9_list_point_أ">
+            <num>(أ)</num>
+            <content eId="para_9_list_point_أ_content">
+              <p xml:space="preserve">	يُعقد منتدى الشباب يومي الأربعاء، 7 نيسان/أبريل، والخميس، 8 نيسان/أبريل 2021؛</p>
+            </content>
+          </point>
+          <point eId="para_9_list_point_ب">
+            <num>(ب)</num>
+            <content eId="para_9_list_point_ب_content">
+              <p xml:space="preserve">	تُعقد يوم الثلاثاء، 20 نيسان/أبريل 2021، اجتماعات الإدارة المكرسة لإجراء انتخابات لملء الشواغر في الهيئات الفرعية للمجلس والهيئات ذات الصلة؛</p>
+            </content>
+          </point>
+          <point eId="para_9_list_point_ج">
+            <num>(ج)</num>
+            <content eId="para_9_list_point_ج_content">
+              <p xml:space="preserve">	يُعقد الاجتماع الخاص الذي ينظمه المجلس لمدة يوم واحد بشأن التعاون الدولي في المسائل الضريبية يوم الخميس، 29 نيسان/أبريل 2021؛</p>
+            </content>
+          </point>
+          <point eId="para_9_list_point_د">
+            <num>(د)</num>
+            <content eId="para_9_list_point_د_content">
+              <p xml:space="preserve">	يعقد منتدى الشراكات يوم الاثنين، 3 أيار/مايو 2021؛</p>
+            </content>
+          </point>
+          <point eId="para_9_list_point_ه">
+            <num>(ه)</num>
+            <content eId="para_9_list_point_ه_content">
+              <p xml:space="preserve">	يُعقد المنتدى المتعدد أصحاب المصلحة المعني بتسخير العلم والتكنولوجيا والابتكار لأغراض أهداف التنمية المستدامة يومي الثلاثاء، 4 أيار/مايو، والأربعاء، 5 أيار/مايو 2021؛</p>
+            </content>
+          </point>
+          <point eId="para_9_list_point_و">
+            <num>(و)</num>
+            <content eId="para_9_list_point_و_content">
+              <p xml:space="preserve">	يُعقد منتدى التعاون الإنمائي يومي الخميس، 6 أيار/مايو، والجمعة، 7 أيار/مايو 2021؛</p>
+            </content>
+          </point>
+          <point eId="para_9_list_point_ز">
+            <num>(ز)</num>
+            <content eId="para_9_list_point_ز_content">
+              <p xml:space="preserve">	يُعقد الجزء المتعلق بالأنشطة التنفيذية من أجل التنمية من يوم الثلاثاء، 18 أيار/مايو، إلى يوم الخميس، 20 أيار/مايو 2021؛</p>
+            </content>
+          </point>
+          <point eId="para_9_list_point_ح">
+            <num>(ح)</num>
+            <content eId="para_9_list_point_ح_content">
+              <p xml:space="preserve">	تُعقد اجتماعات الجزء المتعلق بالإدارة أيام الثلاثاء، 8 حزيران/يونيه، والأربعاء، 9 حزيران/يونيه 2021؛ والأربعاء، 21 تموز/يوليه، والخميس، 22 تموز/يوليه 2021؛</p>
+            </content>
+          </point>
+          <point eId="para_9_list_point_ط">
+            <num>(ط)</num>
+            <content eId="para_9_list_point_ط_content">
+              <p xml:space="preserve">	يُعقد الجزء المتعلق بالشؤون الإنسانية من يوم الأربعاء، 23 حزيران/يونيه، إلى يوم الجمعة، 25 حزيران/يونيه 2021 في جنيف؛</p>
+            </content>
+          </point>
+          <point eId="para_9_list_point_ي">
+            <num>(ي)</num>
+            <content eId="para_9_list_point_ي_content">
+              <p xml:space="preserve">	يُعقد الجزء المتعلق بالتكامل يوم الجمعة، 2 تموز/يوليه 2021؛</p>
+            </content>
+          </point>
+          <point eId="para_9_list_point_ك">
+            <num>(ك)</num>
+            <content eId="para_9_list_point_ك_content">
+              <p xml:space="preserve">	يُعقد المنتدى السياسي الرفيع المستوى المعني بالتنمية المستدامة، الذي يُنظَّم تحت رعاية المجلس، من يوم الثلاثاء، 6 تموز/يوليه إلى يوم الاثنين، 12 تموز/يوليه 2021؛</p>
+            </content>
+          </point>
+          <point eId="para_9_list_point_ل">
+            <num>(ل)</num>
+            <content eId="para_9_list_point_ل_content">
+              <p xml:space="preserve">	يُعقد الجزء الرفيع المستوى للمجلس، بما في ذلك الجزء الوزاري الذي يستغرق ثلاثة أيام المنبثق عن المنتدى السياسي الرفيع المستوى المعني بالتنمية المستدامة الذي يُنظّم تحت رعاية المجلس، من يوم الثلاثاء، 13 تموز/يوليه، إلى يوم الجمعة، 16 تموز/يوليه 2021؛</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_10" class="SingleTxt">
+        <num>2 -</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve">	يقرر أيضا أن تُعقد الجلسة التنظيمية المتعلقة ببرنامج عمل المجلس للفترة من تموز/يوليه 2021 إلى تموز/يوليه 2022 يوم الجمعة، 23 تموز/يوليه 2021.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <docDate date="2020-07-21" refersTo="#adoptionDate">21 تموز/يوليه 2020</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
