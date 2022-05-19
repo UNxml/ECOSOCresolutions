@@ -1,0 +1,523 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2021-06-08/2021-10/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2021-06-08/2021-10/"></FRBRuri>
+          <FRBRdate date="2021-06-08" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2021-06-08/2021-10/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2021-06-08/2021-10/eng@/"></FRBRuri>
+          <FRBRdate date="2021-06-15" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2021-06-08/2021-10/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2021-06-08/2021-10/eng@.xml"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="SOCIAL JUSTICE" showAs="SOCIAL JUSTICE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="EQUALITY" showAs="EQUALITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DIGITAL TECHNOLOGY" showAs="DIGITAL TECHNOLOGY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOCIAL DEVELOPMENT" showAs="SOCIAL DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="19b" showAs="Social development." shortForm="SOCIAL DEVELOPMENT" dictionary="E/2021/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2021-03-03" as="E/2021/26" by="UN. Commission for Social Development" outcome="recommendedForAdoption"/>
+        <step date="2021-06-15" outcome="adopted" as="Adopted without vote, 8th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">21-07771 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2021/10</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Economic and Social Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2021-06-15" class="rightSmall" refersTo="#dateOfIssuance">15 June 2021</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2021" eId="coverPage_1__session_1">2021 session</session>
+      </p>
+      <p>
+        <inline title="19 (b)" name="agenda item">Agenda item 19 (b)</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Social and human rights questions: social development</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the Economic and Social Council on 8 June 2021</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="Commission for Social Development">[on the recommendation of the Commission for Social Development (<inline name="originating document">E/2021/26</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2021/10.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Socially just transition towards sustainable development: the role of digital technologies on social development and well-being of all</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Economic and Social Council</span>,</p>
+      </formula>
+      <container name="Recalling" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	Recalling</span> its decision 2020/212 of 18 June 2020, in which it decided that the priority theme of the 2021 session of the Commission for Social Development would be “Socially just transition towards sustainable development: the role of digital technologies on social development and well-being of all”,</p>
+      </container>
+      <container name="Recalling also" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	Recalling also</span> the outcomes of the World Summit for Social Development and the twenty-fourth special session of the General Assembly,</p>
+      </container>
+      <container name="Reaffirming" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">	Reaffirming</span> that the Copenhagen Declaration on Social Development and the Programme of Action of the World Summit for Social Development<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		<span class="italic">Report of the World Summit for Social Development, Copenhagen, 6–12 March 1995</span> (United Nations publication, Sales No. E.96.IV.8), chap. I, resolution 1, annexes I and II.</p></authorialNote> and the further initiatives for social development adopted by the General Assembly at its twenty-fourth special session<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		General Assembly resolution <a href="https://undocs.org/en/A/RES/S-24/2">S-24/2</a>, annex.</p></authorialNote> constitute the basic framework for the promotion of social development for all at the national and international levels, and encouraging the continued global dialogue on social development issues,</p>
+      </container>
+      <container name="Welcoming" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	Welcoming </span>the progress made towards the full implementation of the Copenhagen Declaration and the Programme of Action through concerted action at the national, regional and global levels, and expressing deep concern that, more than 20 years after the convening of the World Summit for Social Development, progress has been slow and uneven, and major gaps remain, and further welcoming the convening of the joint informal high-level meeting of the General Assembly and the Economic and Social Council to commemorate the twenty-fifth anniversary of the World Summit for Social Development, on 1 December 2020,</p>
+      </container>
+      <container name="Recalling" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">	Recalling</span> General Assembly resolution <a href="https://undocs.org/en/A/RES/70/1">70/1</a> of 25 September 2015, entitled “Transforming our world: the 2030 Agenda for Sustainable Development”, in which the Assembly adopted a comprehensive, far-reaching and people-centred set of universal and transformative Sustainable Development Goals and targets and affirmed its commitment to working tirelessly for the full implementation of the Agenda by 2030 with a view to leave no one behind and reach the furthest behind first, and its recognition that eradicating poverty in all its forms and dimensions, including extreme poverty, is the greatest global challenge and an indispensable requirement for sustainable development,</p>
+      </container>
+      <container name="Welcoming" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">	Welcoming</span> the adoption of General Assembly resolutions <a href="https://undocs.org/en/A/RES/74/270">74/270</a> of 2 April 2020 on global solidarity to fight the coronavirus disease (COVID-19), <a href="https://undocs.org/en/A/RES/74/274">74/274</a> of 20 April 2020 on international cooperation to ensure global access to medicines, vaccines and medical equipment to face COVID-19, <a href="https://undocs.org/en/A/RES/74/306">74/306</a> of 11 September 2020, entitled “Comprehensive and coordinated response to the coronavirus disease (COVID-19) pandemic”, and <a href="https://undocs.org/en/A/RES/74/307">74/307</a> of 11 September 2020, entitled “United response against global health threats: combating COVID-19”,</p>
+      </container>
+      <container name="Recalling" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">	Recalling</span> General Assembly resolution <a href="https://undocs.org/en/A/RES/69/313">69/313</a> of 27 July 2015 on the Addis Ababa Action Agenda of the Third International Conference on Financing for Development, which is an integral part of the 2030 Agenda for Sustainable Development,</p>
+      </container>
+      <container name="Recalling also" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">	Recalling also</span> General Assembly resolution <a href="https://undocs.org/en/A/RES/74/4">74/4</a> of 15 October 2019, entitled “Political declaration of the high-level political forum on sustainable development convened under the auspices of the General Assembly”,</p>
+      </container>
+      <container name="Recalling further" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">	Recalling further</span> the International Covenant on Economic, Social and Cultural Rights,<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		See General Assembly resolution <a href="https://undocs.org/en/A/RES/2200(XXI)">2200 A (XXI)</a>, annex.</p></authorialNote> which, inter alia, recognizes the right of everyone to an adequate standard of living for himself or herself and his or her family, the right to work, the right to social security and the right to education, and noting the relevance of these provisions to the formulation of social policies, including family-oriented social protection policies and measures,</p>
+      </container>
+      <container name="Noting" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Noting</span> the important work undertaken by the Statistical Commission pertaining to the 2030 Agenda for Sustainable Development, which has led to the formulation of global indicators, including on social protection,</p>
+      </container>
+      <container name="Recognizing" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">	Recognizing</span> the particular relevance of the International Labour Organization Centenary Declaration for the Future of Work<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		<a href="https://undocs.org/en/A/73/918">A/73/918</a>, annex.</p></authorialNote> for a socially just transition towards sustainable development, and recalling General Assembly resolution <a href="https://undocs.org/en/A/RES/73/327">73/327</a> of 25 July 2019, by which the Assembly decided to declare 2021 the International Year for the Elimination of Child Labour,</p>
+      </container>
+      <container name="Reaffirming" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> that the spread of information and communications technology and global interconnectedness has great potential to accelerate human progress, to bridge the digital divide and to develop knowledge societies, as does scientific and technological innovation across areas,</p>
+      </container>
+      <container name="Reaffirming also" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Reaffirming also</span> the importance of supporting Agenda 2063 of the African Union, as well as its first 10-year implementation plan, as a strategic framework for ensuring a positive socioeconomic transformation in Africa within the next 50 years, and its continental programme embedded in the resolutions of the General Assembly on the New Partnership for Africa’s Development<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		<a href="https://undocs.org/en/A/57/304">A/57/304</a>, annex.</p></authorialNote> and regional initiatives, such as the Comprehensive Africa Agriculture Development Programme,</p>
+      </container>
+      <container name="Recalling" eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">	Recalling</span> the guiding principles on extreme poverty and human rights<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		<a href="https://undocs.org/en/A/HRC/21/39">A/HRC/21/39</a>.</p></authorialNote> adopted by the Human Rights Council in its resolution <a href="https://undocs.org/en/A/HRC/RES/21/11">21/11</a>,<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		See <span class="italic">Official Records of the General Assembly, Sixty-seventh Session, Supplement No. 53A</span> (<a href="https://undocs.org/en/A/67/53/Add.1">A/67/53/Add.1</a>), chap. II.</p></authorialNote> as a useful tool for States in the formulation and implementation of poverty reduction and eradication policies, as appropriate, and encouraging States to implement the guiding principles,</p>
+      </container>
+      <container name="Recognizing" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> that the coronavirus disease (COVID-19) pandemic is one of the greatest global challenges in the history of the United Nations, and noting with deep concern its impact on physical and mental health and the loss of life and well-being, as well as the negative impact on global humanitarian needs, the enjoyment of human rights and across all spheres of society, including on livelihoods, food security and nutrition, and education, the exacerbation of poverty and hunger, disruption to economies, trade, societies and environments, and the exacerbation of economic and social inequalities within and among countries, which is reversing hard-won development gains and hampering progress towards achieving the 2030 Agenda for Sustainable Development and all its Goals and targets, and recognizing also that the COVID-19 pandemic requires a global response based on unity, solidarity and renewed multilateral cooperation,</p>
+      </container>
+      <container name="Stressing" eId="container_17">
+        <p xml:space="preserve">
+          <span class="italic">	Stressing</span> that at this critical moment in the decade of action to deliver the Sustainable Development Goals by 2030 the visions, principles and commitments made at the World Summit for Social Development remain valid and are central to addressing emerging global challenges, and recalling that social policies have a key role to play in addressing the immediate effects of socioeconomic crises and in the design of recovery strategies, </p>
+      </container>
+      <container name="Taking note" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of the report of the High-level Panel on Digital Cooperation, entitled “The age of digital interdependence”, submitted to the Secretary-General on 10 June 2019, and further taking note of the report of the Secretary-General entitled “Road map for digital cooperation”, presented on 11 June 2020,</p>
+      </container>
+      <container name="Recognizing" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> that information and communications technologies present new opportunities and challenges and that there is a pressing need to address the major impediments that developing countries face in accessing new technologies, stressing the need to address prevailing challenges to bridge the digital divides, including both between and within countries, the rural-urban digital divide, the gender digital divide, and between youth and older persons, and to harness information and communications technologies for development, and recalling the need to emphasize quality of access to bridge digital and knowledge divides, using a multidimensional approach that includes speed, stability, affordability, language, training, capacity-building, local content and accessibility for all, including for persons with disabilities,</p>
+      </container>
+      <container name="Stressing" eId="container_20">
+        <p xml:space="preserve">
+          <span class="italic">	Stressing</span> the urgent need to close digital divides, including with regard to such issues as the affordability of information and communications technologies and the Internet, and to ensure that the benefits of information and communications technologies, including new technologies, are available to all,</p>
+      </container>
+      <container name="Recalling" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> the commitment to significantly increasing access to information and communications technologies and striving to provide universal and affordable access to the Internet in the least developed countries, and noting the many efforts to help to bridge digital divides and expand access, including the Connect 2030 Agenda for Global Telecommunication/Information and Communication Technology, including Broadband, for Sustainable Development,</p>
+      </container>
+      <container name="Noting with grave concern" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">Noting with grave concern </span>that almost half of the world’s population, especially women and girls and people in vulnerable situations, as well as more than four in five people in the least developed countries, do not have access to the Internet, and noting that the impact of the COVID-19 pandemic exacerbates inequalities caused by the digital divides, since the poorest and the most vulnerable who are the hardest hit are also those who lag behind the most in access to information and communications technologies,</p>
+      </container>
+      <container name="Recognizing" eId="container_23">
+        <p xml:space="preserve">
+          <span class="italic">	Recognizing </span>that digital technologies have profoundly transformed society, promote innovation and offer unprecedented opportunities and that they have the potential to accelerate the realization of the 2030 Agenda and advancing social development by ensuring access to lifelong quality education, health-care services, decent work, affordable housing, social protection, especially for those who are vulnerable or in vulnerable situations, as well as fostering gender equality and the empowerment of all women and girls, and recognizing also the potential of digital technologies in the practice of sport and physical activity,</p>
+      </container>
+      <container name="Noting with concern" eId="container_24">
+        <p xml:space="preserve">
+          <span class="italic">	Noting with concern</span> that the people left behind in accessing technologies are typically those who can least afford it, and recognizing that a rural-urban digital divide is present across all regions, with approximately 60 per cent of the world’s population without access to the Internet living in rural areas, and that already those who are vulnerable or in vulnerable situations are overrepresented in this population,</p>
+      </container>
+      <container name="Recognizing" eId="container_25">
+        <p xml:space="preserve">
+          <span class="italic">	Recognizing</span> the importance of digital technologies in designing, implementing and monitoring social policies, including family-oriented policies, especially in the areas of poverty eradication, full employment, decent work, work-family balance, social integration and intergenerational solidarity,</p>
+      </container>
+      <container name="Noting with great concern" eId="container_26">
+        <p xml:space="preserve">	<span class="italic">Noting with great concern</span> the fact that a gender digital divide persists in women’s and girls’ access to and use of information and communications technologies, including in education, employment for women and other areas of economic and social development, and in this regard taking note of the many initiatives that focus on access, skills and leadership to promote the equal participation of women and girls in the digital age,</p>
+      </container>
+      <container name="Recognizing" eId="container_27">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> that new technologies increase the demand for digital skills and competencies and that is why investment in lifelong education, digital literacy and digital skills is required, including for boosting the employability of young people and fostering the social inclusion of older persons in our societies,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_28" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">	<span class="italic">Takes note</span> of the report of the Secretary-General;<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		<a href="https://undocs.org/en/E/CN.5/2021/3">E/CN.5/2021/3</a>.</p></authorialNote></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="italic">Acknowledges </span>the urgent need to accelerate action on all levels and by all stakeholders to fulfil the vision and Goals of the 2030 Agenda for Sustainable Development,<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		General Assembly resolution <a href="https://undocs.org/en/A/RES/70/1">70/1</a>.</p></authorialNote> and emphasizes that the international community, through the outcome documents of the major United Nations conferences and summits adopted by the General Assembly, has reinforced, inter alia, the urgency of eradicating poverty in all its forms and dimensions, combating inequality within and among countries, protecting the environment, creating sustained, inclusive and sustainable economic growth and fostering social inclusion within the United Nations development agenda, including the outcomes of the World Summit for Social Development, the Addis Ababa Action Agenda of the Third International Conference on Financing for Development,<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">		General Assembly resolution <a href="https://undocs.org/en/A/RES/69/313">69/313</a>, annex.</p></authorialNote> the Sendai Framework for Disaster Risk Reduction 2015–2030<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">		General Assembly resolution <a href="https://undocs.org/en/A/RES/69/283">69/283</a>, annex II.</p></authorialNote> and the New Urban Agenda;<authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">		General Assembly resolution <a href="https://undocs.org/en/A/RES/71/256">71/256</a>, annex.</p></authorialNote></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms</span> the commitment to implementing the 2030 Agenda for Sustainable Development for all by ensuring that no one would be left behind and reaching the furthest behind first, and by recognizing human rights and that the dignity of the human person is fundamental;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">
+            <span class="italic">	Calls upon</span> Member States to ensure the promotion and protection of all human rights, in accordance with their obligations under international human rights law;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_38__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> that the current trajectory of economic development has led not to shared prosperity for all, but to high and rising inequalities within and among countries, in particular in least developed and developing countries, aggravated by the COVID-19 pandemic, as well as environmental degradation, adverse effects of climate change, extreme weather events, including natural disasters, drought, desertification, biodiversity loss, food shortages, water scarcity, wildfires, sea level rise and depletion of the oceans, and unsustainable consumption and production patterns;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="italic">Also recognizes</span> that those consequences have taken a toll on social development and on people’s well-being, especially those who are vulnerable or in vulnerable situations, such as all children, youth, persons with disabilities, people living with HIV/AIDS, older persons, indigenous peoples, refugees and internally displaced persons and migrants;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">
+            <span class="italic">	Encourages</span> Member States to promote affordable and equitable access to basic services, in particular quality formal and non-formal education, at all levels, including programmes that promote equality and inclusion through the affirmation of the fundamental dignity of the human person, and health-care services, including through the acceleration of the transition towards equitable access to universal health coverage, as well as access to affordable housing, nutrition and food, and access to employment and decent work, information and communications technology and infrastructure, through advancing gender equality and the empowerment of all women and girls;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_56" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_56__content">
+          <p xml:space="preserve">	<span class="italic">Stresses</span> the importance of developing policies to expand work opportunities and productivity in both rural and urban sectors by achieving and recovering economic growth, investing in human resource development, promoting technologies that generate productive employment, and encouraging self-employment, entrepreneurship and small and medium-sized enterprises;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_64" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_64__content">
+          <p xml:space="preserve">
+            <span class="italic">	Invites</span> Member States to consider adopting labour market policies that strengthen institutions and provide adequate labour protection to all workers, including through social dialogue, especially the most disadvantaged, including through minimum wage policies, while taking into account the role of workers’ and employers’ organizations, as applicable, as part of policies to boost income growth for the vast majority of workers, taking into consideration the specific circumstances of each country;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_73" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_73__content">
+          <p xml:space="preserve">	<span class="italic">Stresses</span> the need to address challenges faced by those working in informal or vulnerable jobs, by investing in the creation of more decent work opportunities, including providing access to decent jobs in the formal sector;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_83" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_83__content">
+          <p xml:space="preserve">
+            <span class="italic">	Encourages</span> Member States to implement policies that ensure women’s economic empowerment by supporting the full and productive participation of women in the labour market, including women with disabilities and those living in poverty and female heads of household, and to promote equal pay for equal work or work of equal value, the equal sharing of responsibilities between parents, access to childcare facilities, work-family balance, including, inter alia, while caring for children, older persons, persons with disabilities, and by promoting their meaningful participation in the economy and in decision-making processes at all levels;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_94" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_94__content">
+          <p xml:space="preserve">	<span class="italic">Invites</span> Member States to support the digital entrepreneurship of women, including in e-commerce, including for micro-, small and medium-sized enterprises, to develop local solutions and relevant content and promote innovation and decent job creation;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_106" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_106__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> all Member States and other relevant stakeholders to promote inclusive economic transformation in rural areas that increases productivity while ensuring productive employment and decent work, access to quality public services, reliable and appropriate social protection systems, quality and resilient infrastructure, roads and telecommunications, as well as preparedness planning for crises, and reiterates that the COVID-19 pandemic has highlighted the important role of digital connectivity and access;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_119" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_119__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> that nationally appropriate social protection systems for all address multiple, often interrelated and complex causes of poverty and inequality by easing the burden of certain expenditure during periods of unemployment, contributing to health-related goals, gender equality and decent work, and facilitating the full inclusion of persons with disabilities;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_133" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_133__content">
+          <p xml:space="preserve">
+            <span class="italic">	Also recognizes</span> that nationally appropriate social protection systems make a critical contribution to the realization of human rights for all, in particular for those who are trapped in poverty and homelessness, and that promoting universal access to social services and providing nationally appropriate social protection floors can contribute to reducing inequality and poverty, addressing social exclusion and promoting inclusive economic growth, and in this regard takes note of the Social Protection Floors Recommendation, 2012 (No. 202), of the International Labour Organization;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_148" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_148__content">
+          <p xml:space="preserve">
+            <span class="italic">	Encourages</span> States, when designing, implementing, monitoring and evaluating social protection programmes for social development, to ensure gender mainstreaming throughout this process;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_164" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_164__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> the important role that families can play in combating social exclusion, and highlights the importance of investing in inclusive and responsive family-oriented policies and programmes in areas such as education, training, decent work, work-family balance, health-care services, social services, intergenerational relationships and solidarity and targeted cash transfers for vulnerable families, in order to reduce inequality and promote the well-being of all persons of all ages, as well as to contribute to better outcomes for children and other vulnerable family members in vulnerable situations and help to break the intergenerational transfer of poverty;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_181" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_181__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States to provide universal age-, disability-, gender-responsive and family-oriented social protection systems, which are key to ensuring poverty reduction, including, as appropriate, targeted cash transfers for people and families in vulnerable situations, such as when headed by a single parent, in particular those headed by women, and which are most effective in reducing poverty when accompanied by other measures, such as providing access to essential services, high-quality education and health-care services;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_199" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_199__content">
+          <p xml:space="preserve">
+            <span class="italic">	Stresses </span>the need to better coordinate social protection policies and measures with poverty reduction programmes and other social policies to avoid excluding people in informal or precarious jobs;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_218" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_218__content">
+          <p xml:space="preserve">
+            <span class="italic">	Invites</span> Member States, in the context of their national sustainable development frameworks and the associated integrated financing frameworks, to formulate and implement national strategies to extend social security and essential social services to all, that are responsive to shocks, sustainable in the long run and with a focus on those furthest below the poverty line and negatively affected by climate change and natural and human-made disasters, within their economic and fiscal capacities;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_238" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_238__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> that information and communications technologies have the potential to provide new solutions to development challenges, particularly in the context of globalization and the crisis caused by the COVID-19 pandemic, and can foster sustained, inclusive and equitable economic growth and sustainable development, competitiveness, access to information and knowledge, trade and development, poverty eradication and social inclusion, accordingly reaffirms its commitment to bridging the digital divide, and calls upon Member States to implement policies and to accelerate their efforts to close the digital divide, as a measure to attain the social inclusion of all, with a focus on children, youth, women, persons with disabilities and older persons, without any discrimination;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_259" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_259__content">
+          <p xml:space="preserve">
+            <span class="italic">	Urges</span> Member States, in collaboration with other stakeholders, to close the digital divides and promote digital inclusion, by taking into account national and regional contexts and addressing the challenges associated with access, affordability, digital literacy and digital skills, and awareness and by ensuring that the benefits of new technologies are available to all, taking into account the needs of those who are vulnerable or in vulnerable situations;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_281" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_281__content">
+          <p xml:space="preserve">	<span class="italic">Also urges</span> Member States, in collaboration with other stakeholders, to promote digital inclusion, by implementing inclusive policies and measures that aim to tackle the challenges associated with equal access, in particular, the lack of affordability, including by, where appropriate, considering providing targeted subsidies, proportionate taxation or the provision of a basic digital basket, as well as engage in multi-stakeholder cooperation, national and regional broadband strategies, and facilitate public-private partnerships in order to significantly increase access to information and communications technology, address specific barriers to inclusion by promoting the availability and supply of information and communications technology, and strive to provide universal and affordable access to the Internet, and also notes the potential of relevant regional and international initiatives to achieve this goal;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_304" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_304__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States, in collaboration with other stakeholders, to address the lack of efficient, affordable and accessible digital technology infrastructure, especially in rural and remote areas, and engaging the private sector as a relevant partner to enhance infrastructure finance and network deployment;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_328" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_328__content">
+          <p xml:space="preserve">	<span class="italic">Also encourages</span> Member States, in collaboration with other stakeholders, to seek to achieve universal connectivity to ensure that every person has affordable access to quality broadband Internet by 2030, including by catalysing essential partnerships, as well to apply an age-, disability-, gender-responsive and family-oriented approach to all interventions on digital technologies;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_353" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_353__content">
+          <p xml:space="preserve">	<span class="italic">Invites</span> Member States, in collaboration with the international community and United Nations entities, to develop, as appropriate, a holistic approach and targeted strategies and policies to address specific barriers to digital inclusion and close the digital divides, also in collaboration with other stakeholders, including the private sector, academia, science and civil society organizations, including representatives of those who face barriers to digital inclusion;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_379" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_379__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States, in collaboration with other stakeholders, to harness scientific research and expertise and realize the potential of technology and of rapid technological change to focus on, inter alia, the individual, social, educational and health implications of ageing, in particular in developing countries;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_406" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_406__content">
+          <p xml:space="preserve">	<span class="italic">Also encourages</span> Member States, in collaboration with other stakeholders, to increase access of all women and girls to digital technologies to foster their education and training to enhance their digital skills and competences, as well as the productivity and mobility of women in the labour market; enhance efficiency, accountability and transparency of social protection systems, public services and sustainable infrastructure through enhanced use of information and communications technologies for the benefit of all women and girls, including for those hardest to reach and who face multiple and intersecting forms of discrimination, and work towards closing the gender digital divide and promoting equal access to information and communications technologies and to the Internet for women and girls, explore appropriate ways to address any potential negative impact of new technologies on gender equality; and ensure that programmes, services and infrastructure are adaptable and suited to technological barriers, including literacy, and reaffirms the commitment to ensuring women’s full participation in decision-making processes related to information and communications technologies;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_434" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_434__content">
+          <p xml:space="preserve">	<span class="italic">Further encourages</span> Member States to, by 2030, reduce to less than 3 per cent the transaction costs of migrant remittances and eliminate corridors with costs higher than 5 per cent, including through the use of digital technologies;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_463" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_463__content">
+          <p xml:space="preserve">
+            <span class="italic">	Recognizes </span>that information and communications technologies present new opportunities and challenges and that there is a pressing need to address the major impediments that developing countries face in engaging with and accessing new technologies, such as an appropriate enabling environment, sufficient resources, infrastructure, education, capacity, investment and connectivity, as well as issues related to technology ownership, setting standards and technology flows, and in this regard urges all stakeholders to consider ensuring appropriate financing of digital development and adequate means of implementation, including strengthened capacity-building of developing countries, particularly the least developed countries, towards a digitally empowered society and knowledge economy;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_493" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_493__content">
+          <p xml:space="preserve">	<span class="italic">Also recognizes</span> that domestic resources mobilization, underscored by the principle of national ownership and supplemented by international assistance, as appropriate, will be critical to realizing sustainable development and achieving the Sustainable Development Goals;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_524" class="SingleTxt">
+        <num>32.</num>
+        <content eId="para_524__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms</span> the Addis Ababa Action Agenda, and recognizes the need to take steps to significantly increase investment to close resource gaps, including through the mobilization of financial resources from all sources, including public, private, domestic and international resource mobilization and allocation;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_556" class="SingleTxt">
+        <num>33.</num>
+        <content eId="para_556__content">
+          <p xml:space="preserve">	<span class="italic">Also reaffirms</span> that international cooperation has an essential role in assisting developing countries, including highly indebted poor countries, least developed countries, landlocked developing countries, small island developing States and middle-income countries, in strengthening their human, institutional and technological capacity;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_589" class="SingleTxt">
+        <num>34.</num>
+        <content eId="para_589__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> developed countries to implement their official development assistance commitments, including the commitment by many developed countries to achieve the target of 0.7 per cent of gross national income for official development assistance to developing countries and 0.15 to 0.20 per cent of gross national income for official development assistance to the least developed countries;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_623" class="SingleTxt">
+        <num>35.</num>
+        <content eId="para_623__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes </span>the contributions of South-South cooperation to poverty eradication and sustainable development, and reaffirms that South-South cooperation is an important element of international cooperation for development as a complement to, not a substitute for, North-South cooperation, and commits itself to strengthening South-South and triangular cooperation as a means of bringing relevant experience and expertise to bear in development cooperation;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_658" class="SingleTxt">
+        <num>36.</num>
+        <content eId="para_658__content">
+          <p xml:space="preserve">	<span class="italic">Stresses</span> the essential role that official development assistance plays in complementing, leveraging and sustaining financing for development efforts in developing countries and in facilitating the achievement of development objectives, including the internationally agreed development goals, in particular the Sustainable Development Goals, and welcomes steps to improve the effectiveness and quality of aid based on the fundamental principles of national ownership, alignment, harmonization, managing for results and mutual accountability;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_694" class="SingleTxt">
+        <num>37.</num>
+        <content eId="para_694__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the international community to intensify development cooperation, including through South-South, North-South and triangular cooperation, as well as multi-stakeholder partnerships, to support countries, especially developing countries, upon their request, in building their national capacity for science, technology and innovation for social development, as well as to support research networks that reach across borders, institutions and disciplines;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_731" class="SingleTxt">
+        <num>38.</num>
+        <content eId="para_731__content">
+          <p xml:space="preserve">	<span class="italic">Invites</span> all relevant stakeholders, including the United Nations system and civil society organizations, to continue to promote the exchange of information and good practices on programmes, policies and measures that successfully reduce inequality in all its dimensions;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_769" class="SingleTxt">
+        <num>39.</num>
+        <content eId="para_769__content">
+          <p xml:space="preserve">	<span class="italic">Invites</span> the United Nations system to continue to support Member States in their pursuit of socially just transitions towards sustainable development and facilitate international cooperation in the field of digital technologies for developing countries, upon their request, with the aim of achieving the 2030 Agenda for Sustainable Development for the common future of present and coming generations. </p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="8th">8th plenary meeting</inline>
+        <eol />
+        <docDate date="2021-06-08" refersTo="#adoptionDate">8 June 2021</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
