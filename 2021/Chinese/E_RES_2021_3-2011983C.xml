@@ -1,0 +1,149 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2020-09-14/2021-3/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2020-09-14/2021-3/"></FRBRuri>
+          <FRBRdate date="2020-09-14" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2020-09-14/2021-3/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2020-09-14/2021-3/zho@/"></FRBRuri>
+          <FRBRdate date="2020-09-18" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2020-09-14/2021-3/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2020-09-14/2021-3/zho@.xml"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. ESCWA" showAs="UN. ESCWA" dictionary="DHLAUTH"></keyword>
+        <keyword value="REGIONAL COMMISSIONS" showAs="REGIONAL COMMISSIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="WESTERN ASIA" showAs="WESTERN ASIA" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PROGRAMME PLANNING" showAs="PROGRAMME PLANNING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ORGANIZATIONAL CHANGE" showAs="ORGANIZATIONAL CHANGE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="15" showAs="Regional cooperation." shortForm="REGIONAL COOPERATION" dictionary="E/2021/100"></keyword>
+        <keyword refersTo="agenda" value="15[5]" showAs="REGIONAL COOPERATION--WESTERN ASIA" shortForm="REGIONAL COOPERATION--WESTERN ASIA" dictionary="E/2021/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2020-02-07" as="E/2020/12" by="UN. Secretary-General" outcome="recommendedForAdoption"/>
+        <step date="2020-09-18" outcome="adopted" as="Adopted without vote, 1st plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">20-11983 (C)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2021/3</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig"></docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2020-09-18" class="rightSmall" refersTo="#dateOfIssuance">18 September 2020</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2021" eId="coverPage_1__session_1">2021年届会</session>
+      </p>
+      <p>
+        <inline title="15" name="agenda item">议程项目15</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">区域合作</inline>
+      </p>
+      <p>
+        <docTitle>2020年9月14日经济及社会理事会决议</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="Economic and Social Commission for Western Asia">[根据西亚经济社会委员会的建议 (<inline name="originating document">E/2020/12</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2021/3.</docNumber>
+        <docTitle refersTo="#resolutionTitle">西亚经济社会委员会的新战略远景</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">经济及社会理事会，</p>
+      </formula>
+      <container name="表示注意到" eId="container_2">
+        <p xml:space="preserve">	表示注意到秘书长题为“西亚经济社会委员会的新战略远景”的说明，<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">			<a href="https://undocs.org/ch/E/2020/12">E/2020/12</a>。</p></authorialNote> </p>
+      </container>
+      <container name="又" eId="container_3">
+        <p xml:space="preserve">	又表示注意到西亚经济社会委员会关于经社会改革进展的文件<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="https://undocs.org/ch/E/ESCWA/S-6/14">E/ESCWA/S-6/14</a>。</p></authorialNote> 和关于2021年拟议方案计划的文件，<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		<a href="https://undocs.org/ch/E/ESCWA/S-6/16">E/ESCWA/S-6/16</a>。</p></authorialNote> </p>
+      </container>
+      <container name="还" eId="container_4">
+        <p xml:space="preserve">	还表示注意到西亚经济社会委员会2019年12月21日第335(S-VI)号决议，其中经社会通过其2021年方案计划，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_5" class="SingleTxt">
+        <content eId="para_5__content">
+        <p xml:space="preserve">	认可秘书长的说明载列的西亚经济社会委员会的新战略远景。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="第1次">第1次全体会议</inline>
+        <eol />
+        <docDate date="2020-09-14" refersTo="#adoptionDate">2020年9月14日</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

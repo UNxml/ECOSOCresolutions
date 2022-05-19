@@ -1,0 +1,511 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2020-09-14/2021-4/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2020-09-14/2021-4/"></FRBRuri>
+          <FRBRdate date="2020-09-14" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2020-09-14/2021-4/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2020-09-14/2021-4/zho@/"></FRBRuri>
+          <FRBRdate date="2020-09-21" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2020-09-14/2021-4/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2020-09-14/2021-4/zho@.xml"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="6" href="http://metadata.un.org/sdg/6" showAs="sdg_6" dictionary="SDGO"></keyword>
+        <keyword value="water" href="http://eurovoc.europa.eu/597" showAs="water" dictionary="EuroVoc"></keyword>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/030500" showAs="water" dictionary="UNBIS"></keyword>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/1006939" showAs="water" dictionary="UNBIS"></keyword>
+        <keyword value="sanitation" href="http://metadata.un.org/thesaurus/1005701" showAs="sanitation" dictionary="UNBIS"></keyword>
+        <keyword value="water_management" href="http://eurovoc.europa.eu/3144" showAs="water_management" dictionary="EuroVoc"></keyword>
+        <keyword value="water_management" href="http://metadata.un.org/thesaurus/1006948" showAs="water_management" dictionary="UNBIS"></keyword>
+        <keyword value="public_hygiene" href="http://eurovoc.europa.eu/3371" showAs="public_hygiene" dictionary="EuroVoc"></keyword>
+        <keyword value="use_of_water" href="http://eurovoc.europa.eu/4628" showAs="use_of_water" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="8" href="http://metadata.un.org/sdg/8" showAs="sdg_8" dictionary="SDGO"></keyword>
+        <keyword value="unemployment" href="http://eurovoc.europa.eu/5974" showAs="unemployment" dictionary="EuroVoc"></keyword>
+        <keyword value="unemployment" href="http://metadata.un.org/thesaurus/1006773" showAs="unemployment" dictionary="UNBIS"></keyword>
+        <keyword value="economic_growth" href="http://eurovoc.europa.eu/310" showAs="economic_growth" dictionary="EuroVoc"></keyword>
+        <keyword value="economic_growth" href="http://metadata.un.org/thesaurus/1001854" showAs="economic_growth" dictionary="UNBIS"></keyword>
+        <keyword value="employment" href="http://metadata.un.org/thesaurus/1002007" showAs="employment" dictionary="UNBIS"></keyword>
+        <keyword value="full_employment" href="http://eurovoc.europa.eu/2427" showAs="full_employment" dictionary="EuroVoc"></keyword>
+        <keyword value="full_employment" href="http://metadata.un.org/thesaurus/1002563" showAs="full_employment" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="15" href="http://metadata.un.org/sdg/15" showAs="sdg_15" dictionary="SDGO"></keyword>
+        <keyword value="land,_plant_and_soil_resources" href="http://metadata.un.org/thesaurus/030600" showAs="land,_plant_and_soil_resources" dictionary="UNBIS"></keyword>
+        <keyword value="deforestation" href="http://eurovoc.europa.eu/339" showAs="deforestation" dictionary="EuroVoc"></keyword>
+        <keyword value="deforestation" href="http://metadata.un.org/thesaurus/1001550" showAs="deforestation" dictionary="UNBIS"></keyword>
+        <keyword value="desertification" href="http://eurovoc.europa.eu/416" showAs="desertification" dictionary="EuroVoc"></keyword>
+        <keyword value="desertification" href="http://metadata.un.org/thesaurus/1001594" showAs="desertification" dictionary="UNBIS"></keyword>
+        <keyword value="biodiversity" href="http://eurovoc.europa.eu/5463" showAs="biodiversity" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="LIVING CONDITIONS" showAs="LIVING CONDITIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PALESTINIANS" showAs="PALESTINIANS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TERRITORIES OCCUPIED BY ISRAEL" showAs="TERRITORIES OCCUPIED BY ISRAEL" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="WEST BANK" showAs="WEST BANK" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GAZA STRIP" showAs="GAZA STRIP" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="EAST JERUSALEM (STATE OF PALESTINE)" showAs="EAST JERUSALEM (STATE OF PALESTINE)" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GOLAN HEIGHTS" showAs="GOLAN HEIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="16" showAs="Economic and social repercussions of the Israeli occupation on the living conditions of the Palestinian people in the Occupied Palestinian Territory, including East Jerusalem, and the Arab population in the occupied Syrian Golan." shortForm="PALESTINIANS--TERRITORIES OCCUPIED BY ISRAEL--LIVING CONDITIONS" dictionary="E/2021/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2020-09-04" outcome="draftResolution" as="E/2021/L.6" by="Guyana (on behalf of the States Members of the United Nations that are members of the Group of 77 and China)" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2020-09-21" outcome="adopted" as="Adopted 47-3-4, 1st plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedRecordedVote">
+            <count value="47" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">ANGOLA</organization>
+                <organization refersTo="memberState">ARMENIA</organization>
+                <organization refersTo="memberState">BANGLADESH</organization>
+                <organization refersTo="memberState">BELARUS</organization>
+                <organization refersTo="memberState">BENIN</organization>
+                <organization refersTo="memberState">BOTSWANA</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">COLOMBIA</organization>
+                <organization refersTo="memberState">CONGO</organization>
+                <organization refersTo="memberState">ECUADOR</organization>
+                <organization refersTo="memberState">EGYPT</organization>
+                <organization refersTo="memberState">EL SALVADOR</organization>
+                <organization refersTo="memberState">ETHIOPIA</organization>
+                <organization refersTo="memberState">FINLAND</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">GABON</organization>
+                <organization refersTo="memberState">GERMANY</organization>
+                <organization refersTo="memberState">GHANA</organization>
+                <organization refersTo="memberState">INDIA</organization>
+                <organization refersTo="memberState">IRAN (ISLAMIC REPUBLIC OF)</organization>
+                <organization refersTo="memberState">IRELAND</organization>
+                <organization refersTo="memberState">JAMAICA</organization>
+                <organization refersTo="memberState">JAPAN</organization>
+                <organization refersTo="memberState">KENYA</organization>
+                <organization refersTo="memberState">LATVIA</organization>
+                <organization refersTo="memberState">LUXEMBOURG</organization>
+                <organization refersTo="memberState">MALI</organization>
+                <organization refersTo="memberState">MALTA</organization>
+                <organization refersTo="memberState">MEXICO</organization>
+                <organization refersTo="memberState">MONTENEGRO</organization>
+                <organization refersTo="memberState">MOROCCO</organization>
+                <organization refersTo="memberState">NETHERLANDS</organization>
+                <organization refersTo="memberState">NICARAGUA</organization>
+                <organization refersTo="memberState">NORWAY</organization>
+                <organization refersTo="memberState">PAKISTAN</organization>
+                <organization refersTo="memberState">PANAMA</organization>
+                <organization refersTo="memberState">PARAGUAY</organization>
+                <organization refersTo="memberState">PHILIPPINES</organization>
+                <organization refersTo="memberState">REPUBLIC OF KOREA</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SAUDI ARABIA</organization>
+                <organization refersTo="memberState">SPAIN</organization>
+                <organization refersTo="memberState">SUDAN</organization>
+                <organization refersTo="memberState">SWITZERLAND</organization>
+                <organization refersTo="memberState">THAILAND</organization>
+                <organization refersTo="memberState">TURKMENISTAN</organization>
+                <organization refersTo="memberState">URUGUAY</organization>
+              </akn4un:voters>
+            </count>
+            <count value="3" refersTo="against">
+              <akn4un:voters>
+                <organization refersTo="memberState">AUSTRALIA</organization>
+                <organization refersTo="memberState">CANADA</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+              </akn4un:voters>
+            </count>
+            <count value="4" refersTo="abstaining">
+              <akn4un:voters>
+                <organization refersTo="memberState">BRAZIL</organization>
+                <organization refersTo="memberState">MALAWI</organization>
+                <organization refersTo="memberState">TOGO</organization>
+                <organization refersTo="memberState">UKRAINE</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">20-12077 (C)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2021/4</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig"></docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2020-09-21" class="rightSmall" refersTo="#dateOfIssuance">21 September 2020</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2021" eId="coverPage_1__session_1">2021年届会</session>
+      </p>
+      <p>
+        <inline title="16" name="agenda item">议程项目16</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">以色列占领对包括东耶路撒冷在内巴勒斯坦被占 领土上的巴勒斯坦人民和被占领叙利亚戈兰的 阿拉伯居民的生活条件造成的经济和社会影响</inline>
+      </p>
+      <p>
+        <docTitle>2020年9月14日经济及社会理事会决议</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#plenaryMeeting">[根据全体会议审议的提案 (<inline name="originating document">E/2021/L.6</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2021/4.</docNumber>
+        <docTitle refersTo="#resolutionTitle">以色列占领对包括东耶路撒冷在内巴勒斯坦被占领土上的巴勒斯坦人民和被占领叙利亚戈兰的阿拉伯居民的生活条件造成的经济和社会影响</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">经济及社会理事会，</span>
+        </p>
+      </formula>
+      <container name="回顾" eId="container_2">
+        <p xml:space="preserve">	<span class="bold">回顾</span>大会2019年12月13日第<a href="https://undocs.org/ch/A/RES/74/88">74/88</a>号和2019年12月19日第<a href="https://undocs.org/ch/A/RES/74/243">74/243</a>号决议，</p>
+      </container>
+      <container name="又回顾" eId="container_3">
+        <p xml:space="preserve">	<span class="bold">又回顾</span>其2019年7月23日第<a href="https://undocs.org/ch/E/RES/2019/29">2019/29</a>号决议，</p>
+      </container>
+      <container name="遵循" eId="container_4">
+        <p xml:space="preserve">	<span class="bold">遵循</span>《联合国宪章》申明不容许以武力获取领土的各项原则，并回顾安全理事会相关决议，包括1967年11月22日第<a href="https://undocs.org/ch/S/RES/242(1967)">242(1967)</a>号、1968年5月21日第<a href="https://undocs.org/ch/S/RES/252(1968)">252(1968)</a>号、1973年10月22日第<a href="https://undocs.org/ch/S/RES/338(1973)">338(1973)</a>号、1980年3月1日第<a href="https://undocs.org/ch/S/RES/465(1980)">465(1980)</a>号、1981年12月17日第<a href="https://undocs.org/ch/S/RES/497(1981)">497(1981)</a>号和2016年12月23日第<a href="https://undocs.org/ch/S/RES/2334(2016)">2334(2016)</a>号决议，</p>
+      </container>
+      <container name="回顾" eId="container_5">
+        <p xml:space="preserve">	<span class="bold">回顾</span>大会第十届紧急特别会议各项决议，包括2003年10月21日<a href="https://undocs.org/ch/A/RES/ES-10/13">ES-10/13</a>号、2003年12月8日<a href="https://undocs.org/ch/A/RES/ES-10/14">ES-10/14</a>号、2004年7月20日<a href="https://undocs.org/ch/A/RES/ES-10/15">ES-10/15</a>号和2006年12月15日<a href="https://undocs.org/ch/A/RES/ES-10/17">ES-10/17</a>号决议，</p>
+      </container>
+      <container name="表示注意到" eId="container_6">
+        <p xml:space="preserve">	<span class="bold">表示注意到</span>由秘书长转递的西亚经济社会委员会关于以色列占领对包括东耶路撒冷在内巴勒斯坦被占领土上的巴勒斯坦人民和被占领叙利亚戈兰的阿拉伯居民生活条件造成的经济和社会影响的报告，<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		<a href="https://undocs.org/ch/A/75/86">A/75/86-E/2020/62</a>。</p></authorialNote> </p>
+      </container>
+      <container name="重申" eId="container_7">
+        <p xml:space="preserve">	<span class="bold">重申</span>1949年8月12日《关于战时保护平民之日内瓦公约》<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		联合国，《条约汇编》，第75卷，第973号。</p></authorialNote> 适用于包括东耶路撒冷在内的巴勒斯坦被占领土和以色列自1967年以来占领的其他阿拉伯领土，</p>
+      </container>
+      <container name="回顾" eId="container_8">
+        <p xml:space="preserve">	<span class="bold">回顾</span>《公民权利和政治权利国际公约》、<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		见大会第<a href="https://undocs.org/ch/A/RES/2200A(XXI)">2200 A(XXI)</a>号决议，附件。</p></authorialNote> 《经济、社会、文化权利国际公约》<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		同上。</p></authorialNote>和《儿童权利公约》，<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		联合国，《条约汇编》，第1577卷，第27531号。</p></authorialNote> 并重申在包括东耶路撒冷在内的巴勒斯坦被占领土和被占领叙利亚戈兰可适用而且必须遵守这些人权文书，</p>
+      </container>
+      <container name="关切地注意到" eId="container_9">
+        <p xml:space="preserve">	<span class="bold">关切地注意到</span>自大会1947年11月29日通过第<a href="https://undocs.org/ch/A/RES/181(II)">181(II)</a>号决议至今已有70多年，而且包括东耶路撒冷在内的巴勒斯坦领土自1967年被占领至今已有53年，</p>
+      </container>
+      <container name="表示注意到" eId="container_10">
+        <p xml:space="preserve">	在这方面<span class="bold">表示注意到</span>巴勒斯坦加入了若干人权条约和核心人道主义法公约以及其他国际条约，</p>
+      </container>
+      <container name="又表示注意到" eId="container_11">
+        <p xml:space="preserve">	<span class="bold">又表示注意到</span>大会2012年11月29日第<a href="https://undocs.org/ch/A/RES/67/19">67/19</a>号决议，</p>
+      </container>
+      <container name="强调指出" eId="container_12">
+        <p xml:space="preserve">	<span class="bold">强调指出</span>亟需根据安全理事会第<a href="https://undocs.org/ch/S/RES/242(1967)">242(1967)</a>号、第<a href="https://undocs.org/ch/S/RES/338(1973)">338(1973)</a>号、1978年3月19日第<a href="https://undocs.org/ch/S/RES/425(1978)">425(1978)</a>号、2002年3月12日第<a href="https://undocs.org/ch/S/RES/1397(2002)">1397(2002)</a>号、2003年11月19日第<a href="https://undocs.org/ch/S/RES/1515(2003)">1515(2003)</a>号、2004年5月19日第<a href="https://undocs.org/ch/S/RES/1544(2004)">1544(2004)</a>号、2008年12月16日第<a href="https://undocs.org/ch/S/RES/1850(2008)">1850(2008)</a>号和第<a href="https://undocs.org/ch/S/RES/2334(2016)">2334(2016)</a>号决议、土地换和平的原则、《阿拉伯和平倡议》<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		<a href="https://undocs.org/ch/A/56/1026">A/56/1026-S/2002/932</a>，附件二，第<a href="https://undocs.org/ch/A/RES/14/221">14/221</a>号决议。</p></authorialNote> 以及《四方路线图》，<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		<a href="https://undocs.org/ch/S/2003/529">S/2003/529</a>，附件。</p></authorialNote> 并在遵守以色列政府与巴勒斯坦人民的代表巴勒斯坦解放组织达成的协定的基础上，毫不拖延地结束始于1967年的以色列占领，在所有轨道上实现公正、持久、全面的和平解决，</p>
+      </container>
+      <container name="重申" eId="container_13">
+        <p xml:space="preserve">	<span class="bold">重申</span>外国占领下的人民对其自然资源拥有永久主权的原则，在这方面表示关切占领国以色列和以色列定居者对包括东耶路撒冷在内巴勒斯坦被占领土和被占领叙利亚戈兰的自然资源的开发、危害和用尽，特别是按照国际法的规定属于非法、并且在本报告所述期间令人遗憾地仍在继续的定居点活动所造成的开发、危害和用尽，</p>
+      </container>
+      <container name="深信" eId="container_14">
+        <p xml:space="preserve">	<span class="bold">深信</span>以色列的占领严重阻碍了在包括东耶路撒冷在内巴勒斯坦被占领土和被占领叙利亚戈兰实现环境可持续发展和创造良好经济环境的努力，并表示严重关切由此造成的经济和生活条件恶化，</p>
+      </container>
+      <container name="表示震惊" eId="container_15">
+        <p xml:space="preserve">	在这方面<span class="bold">表示震惊</span>失业率尤其是加沙地带的失业率极高，依然超过40%，青年失业率达到60%，以色列实施的长期关闭和实际上等同于封锁的严厉的经济和流动限制更使失业问题加剧，而且在加沙地带的军事行动对经济和社会基础设施和生活条件造成持续的不良影响，</p>
+      </container>
+      <container name="赞扬" eId="container_16">
+        <p xml:space="preserve">	<span class="bold">赞扬</span>巴勒斯坦政府尽管遇到许多制约，包括以色列持续占领所施加的种种障碍，但仍为改善巴勒斯坦被占领土的经济及社会状况作出努力，特别是在治理、法治和人权、生计和生产部门、教育和文化、卫生、社会保障、基础设施和供水方面的努力，</p>
+      </container>
+      <container name="强调指出" eId="container_17">
+        <p xml:space="preserve">	<span class="bold">强调指出</span>联合国可持续发展合作框架的重要性，该框架旨在除其他外根据巴勒斯坦的国家优先事项加强对巴勒斯坦人民的发展支助和援助并加强机构能力，</p>
+      </container>
+      <container name="严重关切" eId="container_18">
+        <p xml:space="preserve">	<span class="bold">严重关切</span>以色列违反国际人道主义法和联合国相关决议，在巴勒斯坦被占领土(特别是东耶路撒冷及其周边地区)和被占领叙利亚戈兰加速建造定居点和采取其他相关措施，并强调指出此类非法措施是以色列其他违法违规行为及歧视性政策的主要根由，</p>
+      </container>
+      <container name="鼓励" eId="container_19">
+        <p xml:space="preserve">	<span class="bold">鼓励</span>所有国家和国际组织对以色列在包括东耶路撒冷在内的巴勒斯坦被占领土上的所有非法做法和措施，特别是以色列定居点问题，继续积极奉行确保尊重其国际法义务的政策，</p>
+      </container>
+      <container name="表示注意到" eId="container_20">
+        <p xml:space="preserve">	<span class="bold">表示注意到</span>调查以色列定居点对巴勒斯坦被占领土包括东耶路撒冷的巴勒斯坦人的公民、政治、经济、社会和文化权利影响的独立国际实况调查团的报告，<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		<a href="https://undocs.org/ch/A/HRC/22/63">A/HRC/22/63</a>。</p></authorialNote> </p>
+      </container>
+      <container name="深表关切" eId="container_21">
+          <p xml:space="preserve">	<span class="bold">深表关切</span>在包括东耶路撒冷在内的巴勒斯坦被占领土上发生的特别是以色列非法武装定居者针对巴勒斯坦平民包括儿童以及他们的财产包括家园、历史和宗教场所和农田的暴力、骚扰、挑衅、破坏和煽动行为不断增加，呼吁追究这类非法行为的责任，</p>
+      </container>
+      <container name="严重关切" eId="container_22">
+        <p xml:space="preserve">	<span class="bold">严重关切</span>以色列在巴勒斯坦被占领土内，包括在东耶路撒冷及其四周，建造隔离墙及实行相关制度对巴勒斯坦人民的经济和社会状况造成严重影响，从而侵犯了他们的经济和社会权利，包括工作、保健、教育、财产、适当生活水准以及出入和行动自由等权利，</p>
+      </container>
+      <container name="回顾" eId="container_23">
+        <p xml:space="preserve">	在这方面<span class="bold">回顾</span>2004年7月9日国际法院对在巴勒斯坦被占领土修建隔离墙的法律后果发表的咨询意见<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		见<a href="https://undocs.org/ch/A/ES-10/273">A/ES-10/273</a>和<a href="https://undocs.org/ch/A/ES-10/273/Corr.1">A/ES-10/273/Corr.1</a>。</p></authorialNote> 以及大会<a href="https://undocs.org/ch/A/RES/ES-10/15">ES-10/15</a>号决议，并强调指出需遵守其中规定的各项义务，</p>
+      </container>
+      <container name="痛惜" eId="container_24">
+        <p xml:space="preserve">	<span class="bold">痛惜</span>所有发生的无辜平民丧生情况以及数十名平民受伤情况，促请各方充分尊重国际法，包括人道主义法和人权法，以保护平民生命，促进人类安全、缓和局势、力行克制，包括克制挑衅言行，以及创造有利于争取和平的稳定环境等，</p>
+      </container>
+      <container name="表示严重关切" eId="container_25">
+        <p xml:space="preserve">	<span class="bold">表示严重关切</span>占领国以色列在包括东耶路撒冷在内的巴勒斯坦被占领土上大规模破坏财产，包括越来越多地毁坏住房、经济机构、历史地标、农田和果园，特别是在巴勒斯坦被占领土包括在东耶路撒冷及其周边地区违反国际法建造定居点和隔离墙以及没收土地所造成的广泛破坏，</p>
+      </container>
+      <container name="又表示严重关切" eId="container_26">
+        <p xml:space="preserve">	<span class="bold">又表示严重关切</span>由于在被占领的东耶路撒冷及周边地区持续实行和不断强化拆毁住房、驱赶居民、取消居住权的政策和进一步采取使该城与其自然的巴勒斯坦环境相隔绝的措施，造成巴勒斯坦人面临的已经十分严峻的社会经济状况严重恶化，使包括贝都因族群在内的巴勒斯坦平民继续被迫流离失所、被剥夺财产，</p>
+      </container>
+      <container name="还表示严重关切" eId="container_27">
+        <p xml:space="preserve">	<span class="bold">还表示严重关切</span>以色列在包括东耶路撒冷在内的整个巴勒斯坦被占领土上不断开展军事行动并实行关闭及严格限制人员和货物流动、强行关闭过境点、设置检查站和许可证制度的政策，以及由此对巴勒斯坦人民特别是巴勒斯坦难民的社会经济状况产生的不利影响，至今仍构成人道主义危机，</p>
+      </container>
+      <container name="表示严重关切" eId="container_28">
+        <p xml:space="preserve">	特别<span class="bold">表示严重关切</span>以色列实行的长期关闭和实际上等同于封锁的严厉的经济和行动限制造成加沙地带的持续危机，强调指出这一局面不可持续，正如2016年8月26日联合国国家工作队题为“加沙：2年后”的报告等无数报告所示，在这方面呼吁全面执行安全理事会2009年1月8日第<a href="https://undocs.org/ch/S/RES/1860(2009)">1860(2009)</a>号决议，以确保全面开放各过境点，使包括人道主义援助、商业流动和建筑材料在内的人员和货物得以持续、正常地通行，并强调需要保障所有平民的安全，</p>
+      </container>
+      <container name="痛惜" eId="container_29">
+        <p xml:space="preserve">	<span class="bold">痛惜</span>加沙地带及周边地区在2014年7月和8月发生冲突，造成平民伤亡，其中有包括儿童、妇女和老人在内的数千名巴勒斯坦平民死伤，并给数千栋住房以及包括学校、医院、供水、卫生和电力网络在内的重要民用基础设施、经济、工业和农业财产、公共机构、宗教场所以及联合国学校和设施造成广泛破坏或损坏，致使数十万平民在境内流离失所，以及这方面的任何违反国际法包括人道主义法和人权法的行为，</p>
+      </container>
+      <container name="严重关切" eId="container_30">
+        <p xml:space="preserve">	<span class="bold">严重关切</span>2014年7月和8月、2008年12月至2009年1月和2012年11月期间的军事行动对经济状况、社会服务的提供以及巴勒斯坦平民人口包括巴勒斯坦难民的社会、人道主义和物质生活状况造成长期、广泛的负面影响，</p>
+      </container>
+      <container name="回顾" eId="container_31">
+        <p xml:space="preserve">	在这方面<span class="bold">回顾</span>联合国的有关报告，包括经济及社会理事会、西亚经济社会委员会以及人权理事会的报告，</p>
+      </container>
+      <container name="深为关切" eId="container_32">
+        <p xml:space="preserve">	<span class="bold">深为关切</span>占领国以色列的这种普遍破坏和妨碍重建进程的行径对人道主义危机持续加深的加沙地带巴勒斯坦平民的社会经济和人道主义状况的短期和长期不利影响，在这方面呼吁在捐助国的援助下，立即在加沙地带加快并完成重建进程，包括支付2014年10月12日举行的主题为重建加沙的巴勒斯坦问题开罗国际会议上认捐的资金，</p>
+      </container>
+      <container name="严重关切" eId="container_33">
+        <p xml:space="preserve">	<span class="bold">严重关切</span>根据联合国和专门机构的各种报告，在包括东耶路撒冷在内巴勒斯坦被占领土上，长期关闭边界造成大量依赖援助，失业率极高，普遍贫困，存在包括粮食没有保障在内的严重人道主义困难，巴勒斯坦人特别是儿童中与健康有关的问题增加，包括营养不良情况严重，</p>
+      </container>
+      <container name="表示严重关切" eId="container_34">
+        <p xml:space="preserve">	<span class="bold">表示严重关切</span>包括儿童、妇女及和平示威者在内的平民伤亡情况，强调必须依照国际人道主义法保护巴勒斯坦平民人口，</p>
+      </container>
+      <container name="强调" eId="container_35">
+        <p xml:space="preserve">	<span class="bold">强调</span>所有平民的安全和福祉的重要性，并呼吁停止包括所有恐怖、挑衅、煽动和破坏在内的一切暴力行为，以及所有发射火箭的行为，</p>
+      </container>
+      <container name="深为关切" eId="container_36">
+        <p xml:space="preserve">	<span class="bold">深为关切</span>数千名巴勒斯坦人，包括很多儿童和妇女，继续被关押在以色列监狱或拘留中心，那里的恶劣条件损害他们的安康，包括卫生条件差、单独监禁、过度使用包括对儿童使用行政拘留手段、缺乏适当的医疗服务且普遍得不到医治(包括有生命危险的患病囚犯)、不准家属探访和剥夺适当法律程序，又深为关切巴勒斯坦囚犯和被拘留者受到的任何虐待和骚扰以及所有关于酷刑的报道，</p>
+      </container>
+      <container name="意识到" eId="container_37">
+        <p xml:space="preserve">	<span class="bold">意识到</span>迫切需要重建和发展包括东耶路撒冷在内巴勒斯坦被占领土的经济和社会基础设施，以及迫切需要应对巴勒斯坦人民面临的人道主义危机，包括为此确保不受阻碍地提供人道主义援助，人员和货物持续、正常地进出加沙地带，</p>
+      </container>
+      <container name="确认" eId="container_38">
+        <p xml:space="preserve">	<span class="bold">确认</span>巴勒斯坦政府正在国际支持下努力改革、发展和加强其机构和基础设施，强调尽管以色列的持续占领造成障碍，仍需要维护和进一步发展巴勒斯坦的机构和基础设施，在这方面赞扬持续努力通过执行《巴勒斯坦国家政策议程：国家优先事项、政策和政策干预措施》(2017-2022)等方式建立一个独立的巴勒斯坦国的体制，</p>
+      </container>
+      <container name="感到关切的是" eId="container_39">
+        <p xml:space="preserve">	<span class="bold">感到关切的是</span>，世界银行、国际货币基金组织、联合国和协调对巴勒斯坦人提供国际援助特设联络委员会等国际机构对建国准备情况的积极评价确认取得的重大成就由于巴勒斯坦政府当前面临的不稳定局面和财政危机所造成的负面影响以及依然缺乏可信的政治前景而面临风险，</p>
+      </container>
+      <container name="赞扬" eId="container_40">
+        <p xml:space="preserve">	在这方面<span class="bold">赞扬</span>联合国、专门机构和捐助界按照巴勒斯坦国家发展和立国计划，目前为支持巴勒斯坦人民的经济和社会发展所开展的重要工作以及在人道主义领域提供的关键援助，</p>
+      </container>
+      <container name="申明" eId="container_41">
+        <p xml:space="preserve">	<span class="bold">申明</span>需要支持巴勒斯坦全国共识政府对西岸和加沙地带、各个领域、以及通过其在加沙各过境点的存在，全面行使政府职责，支持巴勒斯坦民族和解，并强调需要尊重和维护包括东耶路撒冷在内的巴勒斯坦被占领土的领土完整和统一，</p>
+      </container>
+      <container name="促请" eId="container_42">
+        <p xml:space="preserve">	<span class="bold">促请</span>双方与四方合作，履行其根据路线图承担的义务，</p>
+      </container>
+      <container name="意识到" eId="container_43">
+        <p xml:space="preserve">	<span class="bold">意识到</span>在被占领状态下难以实现发展和促进健康的经济、社会和环境条件，只有在和平与稳定的环境下才能最好地促进发展和这些条件，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_44" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve">	<span class="bold">呼吁</span>根据安全理事会第<a href="https://undocs.org/ch/S/RES/1860(2009)">1860(2009)</a>号决议，全面开放加沙地带各过境点，确保人道主义准入以及人员和货物的持续、正常流动，并取消对巴勒斯坦人民的一切行动限制，包括因以色列正在采取军事行动和多层关闭制度而实施的限制，并呼吁采取其它紧急措施缓解巴勒斯坦被占领土上严重的人道主义状况，在加沙地带，人道主义状况十分严峻，又呼吁占领国以色列遵守其根据国际人道主义法和联合国决议在这方面承担的所有法律义务；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="bold">强调指出</span>必须维护包括东耶路撒冷在内巴勒斯坦被占领土的领土毗连、统一和完整，保证人员和货物在包括东耶路撒冷在内的整个巴勒斯坦被占领土自由流动及自由进出外部世界；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	<span class="bold">又强调指出</span>必须维护和发展巴勒斯坦国家机构和基础设施，以便为巴勒斯坦民众提供必不可少的公共服务，并为增进和保护包括经济和社会权利在内的各项人权作出贡献；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_50" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_50__content">
+          <p xml:space="preserve">	<span class="bold">要求</span>以色列遵守1994年4月29日在巴黎签署的《以色列政府和巴勒斯坦解放组织间经济关系议定书》；<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">		见<a href="https://undocs.org/ch/A/49/180">A/49/180-S/1994/727</a>，题为“关于加沙地带和杰里科地区的协定”的附件，附件四。</p></authorialNote> </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>以色列恢复和赔还其在巴勒斯坦被占领土的军事行动所破坏或毁坏的平民财产、关键基础设施、农田和政府机构；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_59" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_59__content">
+          <p xml:space="preserve">	<span class="bold">再次呼吁</span>全面执行2005年11月15日的《通行进出协议》，特别是紧急和不间断地重新开放进入加沙地带的所有过境点，这对确保运送食品和必需品，包括建筑材料和充分的燃料供应，以及确保联合国和有关机构及经济复苏所需的正常商业流动畅行无阻地进入巴勒斯坦被占领土和在该领土内通行都至关重要，并强调需要保障所有平民的安全；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_65" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_65__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>所有各方按照1949年8月12日《关于战时保护平民之日内瓦公约》，遵守国际人道主义法的规则，不对平民采取暴力行动；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_72" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_72__content">
+          <p xml:space="preserve">	<span class="bold">重申</span>巴勒斯坦人民和被占领叙利亚戈兰的阿拉伯民众对其所有自然资源和经济资源享有不可剥夺的权利，促请占领国以色列不要开采、危害、损耗或用尽这些资源；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_80" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_80__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>占领国以色列停止毁坏在包括东耶路撒冷在内巴勒斯坦被占领土和被占领叙利亚戈兰的家园和财产、经济设施、农田和果园，并防止以色列定居者实施这类非法行为；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_89" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_89__content">
+          <p xml:space="preserve">	<span class="bold">又促请</span>占领国以色列立即停止开发自然资源，包括水和矿物资源，并停止在包括东耶路撒冷在内巴勒斯坦被占领土和被占领叙利亚戈兰倾弃各种废料，这种行为严重威胁这些地方的自然资源，即水、土地和能源资源，给民众带来严重的环境危害和健康威胁，又促请占领国以色列消除妨碍实施加沙地带污水处理厂等重大环境项目的一切障碍，特别是向北加沙应急污水处理厂提供开工所需的电力，并在这方面强调指出迫切需要重建和发展供水基础设施，包括加沙地带的盐水淡化设施项目；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_99" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_99__content">
+          <p xml:space="preserve">	<span class="bold">呼吁</span>提供必要援助，安全排除加沙地带的所有未爆弹药，这些未爆弹药危及巴勒斯坦人的生命，并对环境以及重建和发展努力造成不利影响，欢迎联合国地雷行动处迄今作出的努力；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_110" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_110__content">
+          <p xml:space="preserve">	<span class="bold">重申</span>以色列在包括东耶路撒冷在内巴勒斯坦被占领土和被占领的叙利亚戈兰建造和扩大定居点和有关基础设施的行为均为非法，是经济和社会发展及实现和平的重大障碍，呼吁以色列遵守安全理事会第<a href="https://undocs.org/ch/S/RES/2334(2016)">2334(2016)</a>号决议等各项有关决议和国际法，包括《关于战时保护平民之日内瓦公约》，全面停止所有定居点和与定居点有关的活动，包括全面停止旨在改变被占领土特别是被占领的东耶路撒冷及周边地区的人口构成、法律地位和特征的所有措施；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_122" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_122__content">
+          <p xml:space="preserve">	<span class="bold">呼吁</span>追究以色列定居者在包括东耶路撒冷在内的巴勒斯坦被占领土实施的非法行为，在这方面回顾安全理事会1994年3月18日第<a href="https://undocs.org/ch/S/RES/904(1994)">904(1994)</a>号决议，并强调指出必须执行该决议；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_135" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_135__content">
+          <p xml:space="preserve">	<span class="bold">又呼吁</span>紧急关注囚犯和被拘留者的困境和国际法赋予的权利，并呼吁双方为进一步释放囚犯和被拘留者作出努力，对扣留死者尸体的做法深感遗憾，呼吁根据国际人道主义法和人权法交出尚未归还亲属的尸体，以确保符合其宗教信仰和传统的有尊严的归宿；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_149" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_149__content">
+          <p xml:space="preserve">	<span class="bold">重申</span>以色列在包括东耶路撒冷及其周边地区在内的巴勒斯坦被占领土持续建造隔离墙的行为违反国际法，是在孤立东耶路撒冷，分割西岸，严重削弱巴勒斯坦人民的经济和社会发展能力，在这方面要求充分遵守国际法院2004年7月9日的咨询意见和大会<a href="https://undocs.org/ch/A/RES/ES-10/15">ES-10/15</a>号决议及此后的相关决议中提到的法律义务；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_164" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_164__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>以色列遵守《关于战时保护平民之日内瓦公约》的条款，并为被占领叙利亚戈兰的叙利亚公民通过库奈特拉入口探访居住在祖国阿拉伯叙利亚共和国的家属提供便利；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_180" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_180__content">
+          <p xml:space="preserve">	<span class="bold">强调</span>联合国各组织和机构在包括东耶路撒冷在内的巴勒斯坦被占领土上的工作十分重要，联合国中东和平进程特别协调员兼秘书长派驻巴勒斯坦解放组织和巴勒斯坦权力机构个人代表的工作也十分重要；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_197" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_197__content">
+          <p xml:space="preserve">	<span class="bold">欢迎并敦促</span>秘书长和联合国特别协调员进一步参与其中，与有关伙伴合作，协助努力满足基础设施、人道主义和经济发展方面的迫切需要，包括为此实施协调对巴勒斯坦人提供国际援助特设联络委员会核可的项目；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_215" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_215__content">
+          <p xml:space="preserve">	<span class="bold">感谢</span>已经和继续向巴勒斯坦人民提供经济和人道主义援助的会员国、联合国机构以及政府间组织、区域组织和非政府组织，这种援助帮助缓解巴勒斯坦人民严峻的经济和社会状况，敦促与巴勒斯坦官方机构合作并根据巴勒斯坦国家发展计划，继续提供与社会经济和人道主义需求增长相匹配的援助；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_234" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_234__content">
+          <p xml:space="preserve">	<span class="bold">重申</span>必须根据包括安全理事会第<a href="https://undocs.org/ch/S/RES/242(1967)">242(1967)</a>、<a href="https://undocs.org/ch/S/RES/338(1973)">338(1973)</a>、<a href="https://undocs.org/ch/S/RES/425(1978)">425(1978)</a>、<a href="https://undocs.org/ch/S/RES/1397(2002)">1397(2002)</a>、<a href="https://undocs.org/ch/S/RES/1515(2003)">1515(2003)</a>、<a href="https://undocs.org/ch/S/RES/1544(2004)">1544(2004)</a>、<a href="https://undocs.org/ch/S/RES/1850(2008)">1850(2008)</a>和<a href="https://undocs.org/ch/S/RES/2334(2016)">2334(2016)</a>号决议在内的联合国相关决议、马德里会议、土地换和平原则、《阿拉伯和平倡议》和《四方路线图》，并在遵守以色列政府与巴勒斯坦人民的代表巴勒斯坦解放组织达成的协定的基础上，增强和恢复国际努力，以便为实现以色列和巴勒斯坦在以1967年前边界为基础的公认边界内和平、安全地毗邻共存的两国解决方案，并为实现公正、持久、全面的和平解决铺平道路；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_254" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_254__content">
+          <p xml:space="preserve">	<span class="bold">请</span>秘书长与联合国相关机构协作，通过经济及社会理事会，就本决议执行情况向大会第七十五届会议提交报告，并继续在联合国特别协调员的报告中列入有关巴勒斯坦人民生活条件的最新资料；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_275" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_275__content">
+          <p xml:space="preserve">	<span class="bold">决定</span>将题为“以色列占领对包括东耶路撒冷在内巴勒斯坦被占领土上的巴勒斯坦人民和被占领叙利亚戈兰的阿拉伯居民生活条件造成的经济和社会影响”的项目列入其2022年届会议程。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="第1次">第1次全体会议</inline>
+        <eol />
+        <docDate date="2020-09-14" refersTo="#adoptionDate">2020年9月14日</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
