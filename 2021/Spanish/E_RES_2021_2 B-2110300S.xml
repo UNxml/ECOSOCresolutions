@@ -1,0 +1,459 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2021-07-21/2021-2B/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2021-07-21/2021-2B/"></FRBRuri>
+          <FRBRdate date="2021-07-21" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2021-07-21/2021-2B/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2021-07-21/2021-2B/spa@/"></FRBRuri>
+          <FRBRdate date="2021-07-28" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2021-07-21/2021-2B/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2021-07-21/2021-2B/spa@.xml"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="14" href="http://metadata.un.org/sdg/14" showAs="sdg_14" dictionary="SDGO"></keyword>
+        <keyword value="marine_resources" href="http://metadata.un.org/thesaurus/030800" showAs="marine_resources" dictionary="UNBIS"></keyword>
+        <keyword value="marine_resources" href="http://metadata.un.org/thesaurus/1003922" showAs="marine_resources" dictionary="UNBIS"></keyword>
+        <keyword value="oceans_and_seas" href="http://metadata.un.org/thesaurus/170600" showAs="oceans_and_seas" dictionary="UNBIS"></keyword>
+        <keyword value="ocean" href="http://eurovoc.europa.eu/2107" showAs="ocean" dictionary="EuroVoc"></keyword>
+        <keyword value="ocean" href="http://metadata.un.org/thesaurus/1004576" showAs="ocean" dictionary="UNBIS"></keyword>
+        <keyword value="sea" href="http://eurovoc.europa.eu/1870" showAs="sea" dictionary="EuroVoc"></keyword>
+        <keyword value="marine_environment" href="http://eurovoc.europa.eu/5742" showAs="marine_environment" dictionary="EuroVoc"></keyword>
+        <keyword value="marine_environment" href="http://metadata.un.org/thesaurus/1003911" showAs="marine_environment" dictionary="UNBIS"></keyword>
+        <keyword value="marine_life" href="http://eurovoc.europa.eu/3149" showAs="marine_life" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="6" href="http://metadata.un.org/sdg/6" showAs="sdg_6" dictionary="SDGO"></keyword>
+        <keyword value="water" href="http://eurovoc.europa.eu/597" showAs="water" dictionary="EuroVoc"></keyword>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/030500" showAs="water" dictionary="UNBIS"></keyword>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/1006939" showAs="water" dictionary="UNBIS"></keyword>
+        <keyword value="sanitation" href="http://metadata.un.org/thesaurus/1005701" showAs="sanitation" dictionary="UNBIS"></keyword>
+        <keyword value="public_hygiene" href="http://eurovoc.europa.eu/3371" showAs="public_hygiene" dictionary="EuroVoc"></keyword>
+        <keyword value="water_management" href="http://eurovoc.europa.eu/3144" showAs="water_management" dictionary="EuroVoc"></keyword>
+        <keyword value="water_management" href="http://metadata.un.org/thesaurus/1006948" showAs="water_management" dictionary="UNBIS"></keyword>
+        <keyword value="use_of_water" href="http://eurovoc.europa.eu/4628" showAs="use_of_water" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="Declaration on the Granting of Independence to Colonial Countries and Peoples (1960)" showAs="Declaration on the Granting of Independence to Colonial Countries and Peoples (1960)" dictionary="DHLAUTH"></keyword>
+        <keyword value="DECOLONIZATION" showAs="DECOLONIZATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="NON-SELF-GOVERNING TERRITORIES" showAs="NON-SELF-GOVERNING TERRITORIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SELF-DETERMINATION OF PEOPLES" showAs="SELF-DETERMINATION OF PEOPLES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DEVELOPMENT ASSISTANCE" showAs="DEVELOPMENT ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SPECIALIZED AGENCIES" showAs="SPECIALIZED AGENCIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COORDINATION WITHIN UN SYSTEM" showAs="COORDINATION WITHIN UN SYSTEM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="14" showAs="Implementation of the Declaration on the Granting of Independence to Colonial Countries and Peoples by the specialized agencies and the international institutions associated with the United Nations." shortForm="DECOLONIZATION" dictionary="E/2021/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2021-07-15" outcome="draftResolution" as="E/2021/L.31" by="Antigua and Barbuda, Belize, Bolivia (Plurinational State of), Cuba, Dominica, Ecuador, Eritrea, Fiji, Gambia, Grenada, India, Indonesia, Iraq, Nicaragua, Papua New Guinea, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Sierra Leone, Syrian Arab Republic, Uganda, United Republic of Tanzania and Venezuela (Bolivarian Republic of)" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2021-07-21" outcome="adopted" as="Adopted 19-0-26, 12th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedRecordedVote">
+            <quorum value=""></quorum>
+            <count value="19" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">ANGOLA</organization>
+                <organization refersTo="memberState">BOLIVIA (PLURINATIONAL STATE OF)</organization>
+                <organization refersTo="memberState">BOTSWANA</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">EGYPT</organization>
+                <organization refersTo="memberState">ETHIOPIA</organization>
+                <organization refersTo="memberState">GUATEMALA</organization>
+                <organization refersTo="memberState">INDONESIA</organization>
+                <organization refersTo="memberState">IRAN (ISLAMIC REPUBLIC OF)</organization>
+                <organization refersTo="memberState">JAMAICA</organization>
+                <organization refersTo="memberState">LIBYA</organization>
+                <organization refersTo="memberState">MEXICO</organization>
+                <organization refersTo="memberState">NICARAGUA</organization>
+                <organization refersTo="memberState">NIGERIA</organization>
+                <organization refersTo="memberState">PAKISTAN</organization>
+                <organization refersTo="memberState">PANAMA</organization>
+                <organization refersTo="memberState">PARAGUAY</organization>
+                <organization refersTo="memberState">THAILAND</organization>
+                <organization refersTo="memberState">ZIMBABWE</organization>
+              </akn4un:voters>
+            </count>
+            <count value="26" refersTo="abstaining">
+              <akn4un:voters>
+                <organization refersTo="memberState">ARGENTINA</organization>
+                <organization refersTo="memberState">ARMENIA</organization>
+                <organization refersTo="memberState">AUSTRALIA</organization>
+                <organization refersTo="memberState">AUSTRIA</organization>
+                <organization refersTo="memberState">BRAZIL</organization>
+                <organization refersTo="memberState">BULGARIA</organization>
+                <organization refersTo="memberState">CANADA</organization>
+                <organization refersTo="memberState">COLOMBIA</organization>
+                <organization refersTo="memberState">FINLAND</organization>
+                <organization refersTo="memberState">GERMANY</organization>
+                <organization refersTo="memberState">JAPAN</organization>
+                <organization refersTo="memberState">KENYA</organization>
+                <organization refersTo="memberState">LATVIA</organization>
+                <organization refersTo="memberState">LUXEMBOURG</organization>
+                <organization refersTo="memberState">MADAGASCAR</organization>
+                <organization refersTo="memberState">MALI</organization>
+                <organization refersTo="memberState">MONTENEGRO</organization>
+                <organization refersTo="memberState">NETHERLANDS</organization>
+                <organization refersTo="memberState">NORWAY</organization>
+                <organization refersTo="memberState">PORTUGAL</organization>
+                <organization refersTo="memberState">REPUBLIC OF KOREA</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SWITZERLAND</organization>
+                <organization refersTo="memberState">UKRAINE</organization>
+                <organization refersTo="memberState">UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND</organization>
+                <organization refersTo="memberState">UNITED STATES OF AMERICA.</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">21-10300 (S)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Naciones Unidas</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2021/2 B</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Consejo Económico y Social</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2021-07-28" class="rightSmall" refersTo="#dateOfIssuance">28 de julio de 2021</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" eId="coverPage_1__session_1"></session>
+      </p>
+      <p>
+        <inline title="14" name="agenda item">Tema 14 del programa</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Aplicación de la Declaración sobre la Concesión de la Independencia a los Países y Pueblos Coloniales por los organismos especializados y las instituciones internacionales relacionadas con las Naciones Unidas</inline>
+      </p>
+      <p>
+        <docTitle>Resolución aprobada por el Consejo Económico y Social el 21 de julio de 2021</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#plenaryMeeting">[sobre la base de una propuesta examinada en sesión plenaria (<inline name="originating document">E/2021/L.31</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2021/2.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Apoyo a los Territorios No Autónomos por los organismos especializados y las instituciones internacionales relacionadas con las Naciones Unidas</span>
+        </docTitle>
+      </p>
+      <p>            
+        <docNumber>B</docNumber><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">La resolución 2021/2, de 14 de septiembre de 2020, pasa a ser la resolución 2021/2 A.</p></authorialNote>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">El Consejo Económico y Social</span>,</p>
+      </formula>
+      <container name="Habiendo examinado" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Habiendo examinado</span> el informe del Secretario General<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="https://undocs.org/es/A/76/68">A/76/68</a>.</p></authorialNote> y el informe de la Presidencia del Consejo Económico y Social en que figura la información presentada por los organismos especializados y otras organizaciones del sistema de las Naciones Unidas sobre sus actividades relativas a la aplicación de la Declaración sobre la Concesión de la Independencia a los Países y Pueblos Coloniales<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		<a href="https://undocs.org/es/E/2021/8">E/2021/8</a>.</p></authorialNote>, </p>
+      </container>
+      <container name="Habiendo escuchado" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Habiendo escuchado</span> la exposición del representante del Comité Especial encargado de Examinar la Situación con respecto a la Aplicación de la Declaración sobre la Concesión de la Independencia a los Países y Pueblos Coloniales<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		Véase <a href="https://undocs.org/es/E/2021/SR.12">E/2021/SR.12</a>.</p></authorialNote>, </p>
+      </container>
+      <container name="Recordando" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Recordando</span> las resoluciones de la Asamblea General <a href="https://undocs.org/es/A/RES/1514(XV)">1514 (XV)</a>, de 14 de diciembre de 1960, y <a href="https://undocs.org/es/A/RES/1541(XV)">1541 (XV)</a>, de 15 de diciembre de 1960, las resoluciones del Comité Especial y otras resoluciones y decisiones pertinentes, incluida, en particular, la resolución <a href="https://undocs.org/es/E/RES/2021/2">2021/2</a> A del Consejo Económico y Social, de 14 de septiembre de 2020, </p>
+      </container>
+      <container name="Teniendo presentes" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Teniendo presentes</span> las disposiciones pertinentes de los documentos finales de las sucesivas Conferencias de Jefes de Estado o de Gobierno de los Países No Alineados y de las resoluciones aprobadas por la Asamblea de Jefes de Estado y de Gobierno de la Unión Africana, el Foro de las Islas del Pacífico y la Comunidad del Caribe,</p>
+      </container>
+      <container name="Consciente" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Consciente </span>de la necesidad de facilitar la aplicación de la Declaración sobre la Concesión de la Independencia a los Países y Pueblos Coloniales, que figura en la resolución <a href="https://undocs.org/es/A/RES/1514(XV)">1514 (XV)</a> de la Asamblea General,</p>
+      </container>
+      <container name="Acogiendo con beneplácito" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Acogiendo con beneplácito</span> el hecho de que los Territorios No Autónomos que son miembros asociados de las comisiones regionales participen en calidad de observadores en las conferencias mundiales sobre cuestiones económicas y sociales, con sujeción a lo dispuesto en el Reglamento de la Asamblea General y de conformidad con las resoluciones y decisiones pertinentes de las Naciones Unidas, incluidas las de la Asamblea y el Comité Especial relativas a Territorios concretos,</p>
+      </container>
+      <container name="Observando" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Observando</span> que solo algunos organismos especializados y organizaciones del sistema de las Naciones Unidas han prestado asistencia a los Territorios No Autónomos,</p>
+      </container>
+      <container name="Acogiendo con beneplácito" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Acogiendo con beneplácito</span> la asistencia que han prestado a los Territorios No Autónomos algunos organismos especializados y otras organizaciones del sistema de las Naciones Unidas,</p>
+      </container>
+      <container name="Destacando" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Destacando</span> que, por ser limitadas sus posibilidades de desarrollo, los pequeños Territorios No Autónomos insulares se enfrentan con problemas especiales en la planificación y consecución del desarrollo sostenible y tendrán dificultades para solucionar esos problemas si no cuentan con la cooperación y la asistencia constantes de los organismos especializados y otras organizaciones del sistema de las Naciones Unidas,</p>
+      </container>
+      <container name="Destacando también" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Destacando también</span> la importancia de obtener los recursos necesarios para financiar los programas ampliados de asistencia a los pueblos en cuestión y la necesidad de conseguir el apoyo de todas las principales instituciones de financiación del sistema de las Naciones Unidas con ese fin,</p>
+      </container>
+      <container name="Reafirmando" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Reafirmando</span> los mandatos que tienen los organismos especializados y otras organizaciones del sistema de las Naciones Unidas de adoptar todas las medidas que corresponda, en sus respectivas esferas de competencia, a fin de lograr la plena aplicación de la resolución <a href="https://undocs.org/es/A/RES/1514(XV)">1514 (XV)</a> de la Asamblea General y otras resoluciones pertinentes,</p>
+      </container>
+      <container name="Expresando su reconocimiento" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Expresando su reconocimiento</span> a la Unión Africana, el Foro de las Islas del Pacífico, la Comunidad del Caribe y otras organizaciones regionales por la cooperación y la asistencia constantes que han prestado al respecto a los organismos especializados y otras organizaciones del sistema de las Naciones Unidas,</p>
+      </container>
+      <container name="Expresando su convicción" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Expresando su convicción</span> de que las consultas y los contactos más estrechos entre los organismos especializados y otras organizaciones del sistema de las Naciones Unidas y las organizaciones regionales ayudan a facilitar la formulación efectiva de los programas de asistencia a los Territorios No Autónomos de que se trata,</p>
+      </container>
+      <container name="Consciente" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Consciente</span> de la necesidad imperiosa de mantener en examen permanente las actividades de los organismos especializados y de otras organizaciones del sistema de las Naciones Unidas relacionadas con la aplicación de las diversas decisiones de las Naciones Unidas sobre descolonización,</p>
+      </container>
+      <container name="Teniendo presentes" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Teniendo presentes</span> la extrema fragilidad de la economía de los pequeños Territorios No Autónomos insulares y su vulnerabilidad a los desastres naturales, como los huracanes, los ciclones y el aumento del nivel del mar, y recordando las resoluciones pertinentes de la Asamblea General,</p>
+      </container>
+      <container name="Recordando" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Recordando</span> la resolución <a href="https://undocs.org/es/A/RES/75/122">75/122</a> de la Asamblea General, de 10 de diciembre de 2020, titulada “Aplicación de la Declaración sobre la Concesión de la Independencia a los Países y Pueblos Coloniales”,</p>
+      </container>
+      <container name="Tomando nota" eId="container_18">
+        <p xml:space="preserve">
+          <span class="italic">	Tomando nota</span> de las resoluciones de la Asamblea General <a href="https://undocs.org/es/A/RES/74/270">74/270</a>, de 2 de abril de 2020, titulada “Solidaridad mundial para luchar contra la enfermedad por coronavirus de 2019 (COVID‑19)”, <a href="https://undocs.org/es/A/RES/74/274">74/274</a>, de 20 de abril de 2020, titulada “Cooperación internacional para garantizar el acceso mundial a los medicamentos, las vacunas y el equipo médico con los que hacer frente a la COVID‑19”, <a href="https://undocs.org/es/A/RES/74/306">74/306</a>, de 11 de septiembre de 2020, titulada “Respuesta integral y coordinada a la pandemia de enfermedad por coronavirus (COVID‑19)”, <a href="https://undocs.org/es/A/RES/74/307">74/307</a>, de 11 de septiembre de 2020, titulada “Respuesta unificada contra las amenazas para la salud mundial: la lucha contra la COVID‑19”, <a href="https://undocs.org/es/A/RES/75/156">75/156</a>, de 16 de diciembre de 2020, titulada “Fortalecimiento de la respuesta rápida a nivel nacional e internacional al impacto de la enfermedad por coronavirus (COVID‑19) en las mujeres y las niñas”, y <a href="https://undocs.org/es/A/RES/75/157">75/157</a>, de 16 de diciembre de 2020, titulada “Las mujeres y las niñas y la respuesta a la enfermedad por coronavirus (COVID‑19)”, así como otras resoluciones pertinentes,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_19" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="italic">Toma nota</span> del informe de la Presidencia del Consejo Económico y Social y hace suyas las observaciones y sugerencias contenidas en él;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">	<span class="italic">Toma nota también</span> del informe del Secretario General;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">	<span class="italic">Recomienda</span> a todos los Estados que redoblen sus esfuerzos en el seno de los organismos especializados y otras organizaciones del sistema de las Naciones Unidas de los que sean miembros para asegurar la plena y eficaz aplicación de la Declaración sobre la Concesión de la Independencia a los Países y Pueblos Coloniales, que figura en la resolución <a href="https://undocs.org/es/A/RES/1514(XV)">1514 (XV)</a> de la Asamblea General, y de otras resoluciones pertinentes de las Naciones Unidas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">Reafirma</span> que los organismos especializados y otras organizaciones e instituciones del sistema de las Naciones Unidas deben seguir guiándose por las resoluciones pertinentes de las Naciones Unidas en sus esfuerzos por contribuir a la aplicación de la Declaración y de todas las demás resoluciones pertinentes de la Asamblea General;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="italic">Reafirma también</span> que el reconocimiento por la Asamblea General, el Consejo de Seguridad y otros órganos de las Naciones Unidas de la legítima aspiración de los pueblos de los Territorios No Autónomos a ejercer su derecho a la libre determinación entraña, como corolario, la prestación de toda la asistencia apropiada a esos pueblos, caso por caso;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="italic">Expresa su reconocimiento</span> a los organismos especializados y otras organizaciones del sistema de las Naciones Unidas que han seguido cooperando con las Naciones Unidas y las organizaciones regionales y subregionales en la aplicación de la resolución <a href="https://undocs.org/es/A/RES/1514(XV)">1514 (XV)</a> de la Asamblea General y otras resoluciones pertinentes de las Naciones Unidas, y solicita a todos los organismos especializados y otras organizaciones del sistema de las Naciones Unidas que apliquen las disposiciones pertinentes de esas resoluciones;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve">	<span class="italic">Solicita</span> a los organismos especializados y otras organizaciones del sistema de las Naciones Unidas, así como a las organizaciones internacionales y regionales, que examinen y analicen las condiciones imperantes en cada Territorio No Autónomo para que puedan tomar las medidas adecuadas, caso por caso, a fin de acelerar el progreso de esos Territorios en los sectores económico y social;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	<span class="italic">Insta</span> a los organismos especializados y las organizaciones del sistema de las Naciones Unidas que aún no hayan prestado asistencia a los Territorios No Autónomos a que lo hagan lo antes posible, caso por caso;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_55" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_55__content">
+          <p xml:space="preserve">	<span class="italic">Solicita</span> a los organismos especializados y otras organizaciones y órganos del sistema de las Naciones Unidas, así como a las organizaciones regionales, que intensifiquen las medidas de apoyo existentes y formulen programas de asistencia adecuados para los Territorios No Autónomos restantes, caso por caso, en el marco de sus respectivos mandatos, a fin de acelerar el progreso de esos Territorios en los sectores económico y social;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_64" class="SingleTxt">
+        <num>10.</num>
+        <list eId="para_64_list">
+          <intro eId="para_64_list_intro">
+            <p xml:space="preserve">	<span class="italic">Solicita</span> a los organismos especializados y otras organizaciones competentes del sistema de las Naciones Unidas que proporcionen información sobre:</p>
+          </intro>
+          <point eId="para_64_list_point_a">
+            <num>a)</num>
+            <content eId="para_64_list_point_a_content">
+              <p xml:space="preserve">	Los problemas ambientales que enfrentan los Territorios No Autónomos;</p>
+            </content>
+          </point>
+          <point eId="para_64_list_point_b">
+            <num>b)</num>
+            <content eId="para_64_list_point_b_content">
+              <p xml:space="preserve">	Las consecuencias que tengan en esos Territorios los desastres naturales, como los huracanes y las erupciones volcánicas, y otros problemas ambientales, como la erosión de las playas y costas y las sequías;</p>
+            </content>
+          </point>
+          <point eId="para_64_list_point_c">
+            <num>c)</num>
+            <content eId="para_64_list_point_c_content">
+              <p xml:space="preserve">	Los medios de prestar asistencia a esos Territorios en la lucha contra el tráfico de drogas, el blanqueo de dinero y otras actividades ilícitas y delictivas;</p>
+            </content>
+          </point>
+          <point eId="para_64_list_point_d">
+            <num>d)</num>
+            <content eId="para_64_list_point_d_content">
+              <p xml:space="preserve">	La explotación ilícita de los recursos marinos y otros recursos naturales de los Territorios y la necesidad de utilizar esos recursos en beneficio de los pueblos de esos Territorios;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_74" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_74__content">
+          <p xml:space="preserve">	<span class="italic">Recomienda</span> que los jefes ejecutivos de los organismos especializados y otras organizaciones del sistema de las Naciones Unidas formulen, con la cooperación activa de las organizaciones regionales que corresponda y caso por caso, propuestas concretas para lograr la plena aplicación de las resoluciones pertinentes de las Naciones Unidas, y presenten esas propuestas a sus órganos rectores y legislativos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_85" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_85__content">
+          <p xml:space="preserve">	<span class="italic">Recomienda también</span> que los organismos especializados y otras organizaciones del sistema de las Naciones Unidas sigan examinando, en las reuniones ordinarias de sus órganos rectores, la aplicación de la resolución <a href="https://undocs.org/es/A/RES/1514(XV)">1514 (XV)</a> de la Asamblea General y otras resoluciones pertinentes de las Naciones Unidas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_97" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_97__content">
+          <p xml:space="preserve">	<span class="italic">Recuerda</span> que el Departamento de Información Pública y el Departamento de Asuntos Políticos de la Secretaría, en consulta con el Programa de las Naciones Unidas para el Desarrollo, los organismos especializados y el Comité Especial encargado de Examinar la Situación con respecto a la Aplicación de la Declaración sobre la Concesión de la Independencia a los Países y Pueblos Coloniales, han preparado un folleto informativo sobre los programas de asistencia que se ofrecen a los Territorios No Autónomos y su versión en línea actualizada, y solicita que se les dé la difusión más amplia posible;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_110" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_110__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> que el Programa de las Naciones Unidas para el Desarrollo siga esforzándose por mantener contactos estrechos entre los organismos especializados y otras organizaciones del sistema de las Naciones Unidas, incluidas la Comisión Económica para América Latina y el Caribe y la Comisión Económica y Social para Asia y el Pacífico, y por prestar asistencia a los pueblos de los Territorios No Autónomos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_124" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_124__content">
+          <p xml:space="preserve">	<span class="italic">Alienta</span> a los Territorios No Autónomos a que adopten medidas para establecer instituciones y políticas dedicadas a la preparación y gestión en casos de desastre y mejorar las ya existentes;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_139" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_139__content">
+          <p xml:space="preserve">	<span class="italic">Solicita</span> a las respectivas Potencias administradoras que prosigan su cooperación con los organismos especializados y otras organizaciones del sistema de las Naciones Unidas, en el marco de las responsabilidades establecidas en el Artículo 73 de la Carta de las Naciones Unidas, en particular el apartado <span class="italic">d</span>, y que, cuando proceda, faciliten la participación de los representantes designados y elegidos de los Territorios No Autónomos en las correspondientes reuniones y conferencias de los organismos especializados y otras organizaciones del sistema de las Naciones Unidas, de conformidad con las resoluciones y decisiones pertinentes de las Naciones Unidas, en particular las de la Asamblea General y el Comité Especial relativas a determinados Territorios, de manera que puedan beneficiarse de las actividades conexas de esos organismos y organizaciones;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_155" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_155__content">
+          <p xml:space="preserve">	<span class="italic">Recomienda</span> que todos los Gobiernos intensifiquen sus esfuerzos en el seno de los organismos especializados y otras organizaciones del sistema de las Naciones Unidas de los que sean miembros para que se dé prioridad a la prestación de asistencia a los pueblos de los Territorios No Autónomos caso por caso;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_172" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_172__content">
+          <p xml:space="preserve">	<span class="italic">Señala a la atención</span> del Comité Especial la presente resolución, así como los debates celebrados sobre este tema en el período de sesiones de 2021 del Consejo Económico y Social;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_190" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_190__content">
+          <p xml:space="preserve">	<span class="italic">Recuerda</span> que la Comisión Económica para América Latina y el Caribe aprobó el 16 de mayo de 1998 su resolución 574 (XXVII)<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		Véase <span class="italic">Documentos Oficiales del Consejo Económico y Social, 1998, Suplemento núm. 21</span> (<a href="https://undocs.org/es/E/1998/41">E/1998/41</a>), cap. III, secc. G.</p></authorialNote>, en la que pedía que se establecieran los mecanismos necesarios para que sus miembros asociados, incluidos los Territorios No Autónomos, participaran, con sujeción a lo dispuesto en el Reglamento de la Asamblea General, en los períodos extraordinarios de sesiones de la Asamblea dedicados a examinar y evaluar la aplicación de los planes de acción de las conferencias mundiales de las Naciones Unidas en las que los Territorios hubieran participado inicialmente en calidad de observadores, así como en la labor del Consejo y de sus órganos subsidiarios;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_209" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_209__content">
+          <p xml:space="preserve">	<span class="italic">Solicita</span> a la Presidencia del Consejo que siga manteniendo contactos estrechos sobre estas cuestiones con la Presidencia del Comité Especial y que lo informe al respecto;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_229" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_229__content">
+          <p xml:space="preserve">	<span class="italic">Solicita</span> al Secretario General que haga un seguimiento de la aplicación de la presente resolución, prestando especial atención a las disposiciones sobre cooperación e integración adoptadas para aumentar al máximo la eficiencia de las actividades de asistencia realizadas por diversas organizaciones del sistema de las Naciones Unidas, y que lo informe al respecto en su período de sesiones de 2022;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_250" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_250__content">
+          <p xml:space="preserve">	<span class="italic">Decide</span> seguir examinando estas cuestiones.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="12a">12a sesión plenaria</inline>
+        <eol />
+        <docDate date="2021-07-21" refersTo="#adoptionDate">21 de julio de 2021</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

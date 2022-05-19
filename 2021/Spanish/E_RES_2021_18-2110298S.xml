@@ -1,0 +1,161 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2021-07-21/2021-18/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2021-07-21/2021-18/"></FRBRuri>
+          <FRBRdate date="2021-07-21" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2021-07-21/2021-18/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2021-07-21/2021-18/spa@/"></FRBRuri>
+          <FRBRdate date="2021-07-28" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2021-07-21/2021-18/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2021-07-21/2021-18/spa@.xml"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Economic and Social Council. Ad Hoc Advisory Group on Haiti" showAs="UN. Economic and Social Council. Ad Hoc Advisory Group on Haiti" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Mission for Justice Support in Haiti" showAs="UN Mission for Justice Support in Haiti" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Integrated Office in Haiti" showAs="UN Integrated Office in Haiti" dictionary="DHLAUTH"></keyword>
+        <keyword value="AID COORDINATION" showAs="AID COORDINATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COORDINATION WITHIN UN SYSTEM" showAs="COORDINATION WITHIN UN SYSTEM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HAITI" showAs="HAITI" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="12d" showAs="Long-term programme of support for Haiti." shortForm="ECONOMIC ASSISTANCE--HAITI" dictionary="E/2021/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2021-07-14" outcome="draftResolution" as="E/2021/L.29" by="Argentina, Bahamas, Belize, Brazil, Canada, Chile, Colombia, Dominican Republic, El Salvador, France, Haiti, Mexico, Peru, Spain, Trinidad and Tobago, United States of America and Uruguay" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2021-07-28" outcome="adopted" as="Adopted without vote, 12th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">21-10298 (S)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Naciones Unidas</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2021/18</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Consejo Económico y Social</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2021-07-28" class="rightSmall" refersTo="#dateOfIssuance">28 de julio de 2021</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" eId="coverPage_1__session_1"></session>
+      </p>
+      <p>
+        <inline title="12 d)" name="agenda item">Tema 12 d) del programa</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Cuestiones de coordinación y de programas y otras cuestiones: Programa a largo plazo en apoyo de Haití</inline>
+      </p>
+      <p>
+        <docTitle>Resolución aprobada por el Consejo Económico y Social el 21 de julio de 2021</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#plenaryMeeting">[sobre la base de una propuesta examinada en sesión plenaria (<inline name="originating document">E/2021/L.29</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2021/18.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Grupo Asesor Especial sobre Haití</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">El Consejo Económico y Social</span>,</p>
+      </formula>
+      <container name="Recordando" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recordando </span>sus resoluciones 2004/52, de 23 de julio de 2004, 2005/46, de 27 de julio de 2005, 2006/10, de 26 de julio de 2006, 2007/13, de 25 de julio de 2007, 2008/10, de 23 de julio de 2008, 2009/4, de 23 de julio de 2009, 2010/28, de 23 de julio de 2010, <a href="https://undocs.org/es/E/RES/2012/21">2012/21</a>, de 26 de julio de 2012, <a href="https://undocs.org/es/E/RES/2013/15">2013/15</a>, de 23 de julio de 2013, <a href="https://undocs.org/es/E/RES/2014/37">2014/37</a>, de 18 de noviembre de 2014, <a href="https://undocs.org/es/E/RES/2015/18">2015/18</a>, de 21 de julio de 2015, <a href="https://undocs.org/es/E/RES/2016/28">2016/28</a>, de 27 de julio de 2016, <a href="https://undocs.org/es/E/RES/2017/26">2017/26</a>, de 25 de julio de 2017, <a href="https://undocs.org/es/E/RES/2018/19">2018/19</a>, de 24 de julio de 2018, <a href="https://undocs.org/es/E/RES/2019/32">2019/32</a>, de 24 de julio de 2019, y <a href="https://undocs.org/es/E/RES/2020/11">2020/11</a>, de 17 de julio de 2020, y sus decisiones 2004/322, de 11 de noviembre de 2004, 2009/211, de 20 de abril de 2009, 2009/267, de 15 de diciembre de 2009, 2011/207, de 17 de febrero de 2011, 2011/211, de 26 de abril de 2011, 2011/268, de 28 de julio de 2011, 2013/209, de 15 de febrero de 2013, 2014/207, de 30 de enero de 2014, 2014/210, de 23 de abril de 2014, 2014/221, de 13 de junio de 2014, 2017/214, de 19 de abril de 2017, y 2021/238, de 9 de junio de 2021, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_3" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_3__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> el informe del Grupo Asesor Especial sobre Haití<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	 	<a href="https://undocs.org/es/E/2021/65">E/2021/65</a>.</p></authorialNote> y la atención que presta a los efectos multidimensionales de la actual pandemia de enfermedad por coronavirus (COVID‑19) en Haití y en su situación humanitaria y socioeconómica;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_4" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_4__content">
+          <p xml:space="preserve">	<span class="italic">Decide </span>prorrogar el mandato del Grupo Asesor Especial sobre Haití hasta la conclusión del período de sesiones de 2022, con el fin de que siga de cerca y proporcione asesoramiento sobre la estrategia de desarrollo a largo plazo de Haití para promover la recuperación socioeconómica, la reconstrucción y la estabilidad, prestando especial atención a la necesidad de asegurar la coherencia y la sostenibilidad del apoyo internacional para Haití, sobre la base de las prioridades nacionales de desarrollo a largo plazo y del Plan Estratégico de Desarrollo de Haití, y destacando la necesidad de evitar la superposición y duplicación con los mecanismos existentes;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_6" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_6__content">
+          <p xml:space="preserve">	<span class="italic">Solicita </span>al Grupo Asesor Especial sobre Haití que le presente un informe sobre sus actividades, con las recomendaciones que proceda, para examinarlo en su período de sesiones de 2022.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="12a">12a sesión plenaria</inline>
+        <eol />
+        <docDate date="2021-07-21" refersTo="#adoptionDate">21 de julio de 2021</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
