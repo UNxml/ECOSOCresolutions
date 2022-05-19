@@ -1,0 +1,658 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2021-07-22/2021-29/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2021-07-22/2021-29/"></FRBRuri>
+          <FRBRdate date="2021-07-22" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2021-07-22/2021-29/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2021-07-22/2021-29/rus@/"></FRBRuri>
+          <FRBRdate date="2021-08-02" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2021-07-22/2021-29/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2021-07-22/2021-29/rus@.xml"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="9" href="http://metadata.un.org/sdg/9" showAs="sdg_9" dictionary="SDGO"></keyword>
+        <keyword value="innovation" href="http://eurovoc.europa.eu/1439" showAs="innovation" dictionary="EuroVoc"></keyword>
+        <keyword value="innovation" href="http://metadata.un.org/thesaurus/1003223" showAs="innovation" dictionary="UNBIS"></keyword>
+        <keyword value="industrialization" href="http://metadata.un.org/thesaurus/1003177" showAs="industrialization" dictionary="UNBIS"></keyword>
+        <keyword value="industrial_infrastructure" href="http://eurovoc.europa.eu/1434" showAs="industrial_infrastructure" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Commission on Science and Technology for Development" showAs="UN. Commission on Science and Technology for Development" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNCTAD" showAs="UNCTAD" dictionary="DHLAUTH"></keyword>
+        <keyword value="SCIENCE AND TECHNOLOGY" showAs="SCIENCE AND TECHNOLOGY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INFORMATION TECHNOLOGY" showAs="INFORMATION TECHNOLOGY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNOLOGY TRANSFER" showAs="TECHNOLOGY TRANSFER" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INNOVATIONS" showAs="INNOVATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SCIENCE AND TECHNOLOGY POLICY" showAs="SCIENCE AND TECHNOLOGY POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CAPACITY BUILDING" showAs="CAPACITY BUILDING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNICAL COOPERATION" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="18b" showAs="Science and technology for development." shortForm="SCIENCE AND TECHNOLOGY--DEVELOPMENT" dictionary="E/2021/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2021-06-07" as="E/2021/31" by="UN. Commission on Science and Technology for Development" outcome="recommendedForAdoption"/>
+        <step date="2021-08-02" outcome="adopted" as="Adopted without vote, 13th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">21-10340 (R)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2021/29</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Экономический и Социальный Совет</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2021-08-02" class="rightSmall" refersTo="#dateOfIssuance">2 August 2021</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" eId="coverPage_1__session_1"></session>
+      </p>
+      <p>
+        <inline title="18 b)" name="agenda item">Пункт 18 b) повестки дня</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Экономические и экологические вопросы: наука и техника в целях развития</inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Экономическим и Социальным Советом 22 июля 2021 года</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="Commission on Science and Technology for Development">[по рекомендации Комиссии по науке и технике в целях развития (<inline name="originating document">E/2021/31</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2021/29.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Наука, техника и инновации в целях развития</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Экономический и Социальный Совет</span>,</p>
+      </formula>
+      <container name="признавая" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">признавая </span>роль, которую Комиссия по науке и технике в целях развития — ведущая структура Организации Объединенных Наций по вопросам науки, техники и инноваций в целях развития и координационный центр Организации Объединенных Наций по вопросам науки, техники и инноваций в интересах развития — играет в изучении благотворного воздействия науки, техники и инноваций, включая информационно-коммуникационные технологии, на осуществление Повестки дня в области устойчивого развития на период до 2030 года<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		Резолюция <a href="https://undocs.org/ru/A/RES/70/1">70/1</a> Генеральной Ассамблеи.</p></authorialNote>, служа форумом для стратегического планирования, распространения накопленного опыта и передовых методов и прогнозирования важнейших тенденций в области науки, техники и инноваций применительно к ключевым секторам экономики, окружающей среде и обществу, а также для привлечения внимания к новым и зарождающимся технологиям,</p>
+      </container>
+      <container name="признавая также" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">признавая также</span> исключительно важную роль науки, техники и инноваций в укреплении и поддержании конкурентоспособности стран в мировой экономике, решении глобальных проблем и обеспечении устойчивого развития и их вклад в достижение этих целей,</p>
+      </container>
+      <container name="признавая далее" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">признавая далее</span> основополагающую роль информационно-коммуникационных технологий в пропаганде научно-технических достижений и инноваций и расширении возможностей их использования в целях развития,</p>
+      </container>
+      <container name="напоминая" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">напоминая</span> об Итоговом документе Всемирного саммита 2005 года<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		Резолюция <a href="https://undocs.org/ru/A/RES/60/1">60/1</a> Генеральной Ассамблеи.</p></authorialNote> и резолюции <a href="https://undocs.org/ru/A/RES/70/125">70/125</a> Генеральной Ассамблеи от 16 декабря 2015 года под названием «Итоговый документ совещания высокого уровня Генеральной Ассамблеи, посвященного общему обзору хода осуществления решений Всемирной встречи на высшем уровне по вопросам информационного общества», в которой было признано, что наука и техника, включая информационно-коммуникационные технологии, имеют крайне важное значение для достижения согласованных на международном уровне целей в области развития, и подтверждая содержащиеся в указанных документах обязательства, </p>
+      </container>
+      <container name="напоминая также" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">напоминая также</span> о вступлении в силу 4 ноября 2016 года Парижского соглашения, принятого на основе Рамочной конвенции Организации Объединенных Наций об изменении климата<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		См. <a href="https://undocs.org/ru/FCCC/CP/2015/10/Add.1">FCCC/CP/2015/10/Add.1</a>, решение 1/CP.21, приложение.</p></authorialNote>, </p>
+      </container>
+      <container name="напоминая далее" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">напоминая далее</span>, что секретариатом Комиссии является Конференция Организации Объединенных Наций по торговле и развитию, </p>
+      </container>
+      <container name="учитывая" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">учитывая</span>, что Генеральная Ассамблея в своей резолюции <a href="https://undocs.org/ru/A/RES/74/229">74/229</a> от 19 декабря 2019 года о науке, технике и инновациях в целях развития рекомендовала Конференции Организации Объединенных Наций по торговле и развитию продолжать проведение обзоров научно-технической и инновационной политики в целях оказания развивающимся странам содействия в определении мер, необходимых для увязки научно-технической и инновационной политики с их национальными стратегиями развития, и обеспечении того, чтобы такая политика и соответствующие программы способствовали осуществлению национальной повестки дня в области развития, </p>
+      </container>
+      <container name="ссылаясь" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">ссылаясь</span> на решение 2015/242 Экономического и Социального Совета от 22 июля 2015 года, в котором предусматривается продление срока действия мандата Консультативного совета по гендерным вопросам Комиссии до 2020 года, а также на резолюции Генеральной Ассамблеи <a href="https://undocs.org/ru/A/RES/70/132">70/132</a> от 17 декабря 2015 года и <a href="https://undocs.org/ru/A/RES/70/213">70/213</a> и <a href="https://undocs.org/ru/A/RES/70/219">70/219</a> от 22 декабря 2015 года, касающиеся, соответственно, устранения барьеров на пути к обеспечению равного доступа женщин и девочек к научно-технической сфере и всестороннего учета гендерной проблематики в политике и программах в области развития,</p>
+      </container>
+      <container name="ссылаясь также" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">ссылаясь также</span> на согласованные выводы Комиссии по положению женщин о расширении экономических прав и возможностей женщин в контексте изменений в сфере труда, которые были приняты Комиссией на ее шестьдесят первой сессии<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		<span class="italic">Официальные отчеты Экономического и Социального Совета, 2017 года, Дополнение № 7</span> (<a href="https://undocs.org/ru/E/2017/27">E/2017/27</a>), гл. I, разд. A.</p></authorialNote> и в которых она, в частности, подчеркнула необходимость использования достижений техники и цифровых технологий в целях расширения экономических прав и возможностей женщин, в частности в целях укрепления потенциала развивающихся стран, с тем чтобы женщины могли использовать науку и технику для расширения своих экономических прав и возможностей в контексте изменений в сфере труда,</p>
+      </container>
+      <container name="ссылаясь" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">ссылаясь</span> на итоговый документ форума, проведенного 11 и 12 февраля 2019 года в Нью‑Йорке по случаю Международного дня женщин и девочек в науке, под названием «Инвестирование в обеспечение участия женщин и девочек в научной деятельности в интересах инклюзивного зеленого роста»<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		<a href="https://undocs.org/ru/A/73/798">A/73/798</a>, приложение I.</p></authorialNote>,</p>
+      </container>
+      <container name="ссылаясь также" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">ссылаясь также</span> на работу членов Комиссии по науке и технике в целях развития на практикуме по вопросам применения гендерного подхода в области науки, техники и инноваций, состоявшемся 18 января 2019 года в Вене,</p>
+      </container>
+      <container name="принимая во внимание" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">принимая во внимание</span> важность учета в политике и программах, призванных содействовать научно-техническому прогрессу и инновациям, различных аспектов цифрового разрыва, особенно гендерного цифрового разрыва, на ликвидацию которого направлены глобальное партнерство «Равные» (EQUALS) и инициатива Группы двадцати под названием #eSkills4Girls,</p>
+      </container>
+      <container name="считая важным" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">считая важным</span> проведение инициатив по активизации роли женщин в области науки, техники и инноваций в развивающихся странах, включая присуждаемую «Л’Ореаль» и ЮНЕСКО премию «Женщины в науке», осуществляемую организацией «Женщины в науке для развивающегося мира» программу стажировок для молодых специалисток и премию им. Кваме Нкрумы, учрежденную Африканским союзом для поощрения женщин за выдающиеся научные достижения,</p>
+      </container>
+      <container name="признавая" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">признавая</span>, что потенциальные возможности, такие как базовое образование и навыки в сфере научных, технических, инженерных и математических дисциплин, а также в области проектирования, управления и предпринимательской деятельности, имеют ключевое значение для эффективного внедрения инноваций, но при этом неравномерно распределяются между странами, что наличие и физическая и финансовая доступность качественного образования по научным, техническим и математическим направлениям на начальном, среднем и высшем уровнях имеют существенно важное значение и что необходимо разъяснять их важность, уделять их обеспечению первоочередное внимание и координировать связанные с этим усилия в целях создания в обществе условий, благоприятствующих развитию науки, техники и инноваций,</p>
+      </container>
+      <container name="ссылаясь" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">ссылаясь</span> на резолюцию <a href="https://undocs.org/ru/A/RES/70/1">70/1</a> Генеральной Ассамблеи от 25 сентября 2015 года под названием «Преобразование нашего мира: Повестка дня в области устойчивого развития на период до 2030 года», в которой Ассамблея утвердила всеобъемлющий, рассчитанный на перспективу и предусматривающий учет интересов людей набор универсальных и ориентированных на преобразования целей и задач в области устойчивого развития,</p>
+      </container>
+      <container name="признавая" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">признавая</span> решающую роль науки, техники и инноваций и информационно-коммуникационных технологий в достижении ряда целей в области устойчивого развития и особо отмечая роль науки, техники и инноваций, а также информационно-коммуникационных технологий как инструментов, способствующих осуществлению Повестки дня на период до 2030 года в целях продолжения работы по решению глобальных проблем,</p>
+      </container>
+      <container name="ссылаясь" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">ссылаясь</span> на резолюцию <a href="https://undocs.org/ru/A/RES/69/313">69/313</a> Генеральной Ассамблеи от 27 июля 2015 года, содержащую Аддис-Абебскую программу действий третьей Международной конференции по финансированию развития, и напоминая также о создании Механизма содействия развитию технологий,</p>
+      </container>
+      <container name="особо отмечая" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">особо отмечая</span> вклад, который Комиссия по науке и технике в целях развития может внести в работу Механизма содействия развитию технологий с учетом ее мандата на поощрение многостороннего сотрудничества и партнерских связей на основе обмена информацией, опытом и примерами передовой практики и вынесения рекомендаций по вопросам политики государствам-членам, гражданскому обществу, частному сектору, научному сообществу, учреждениям Организации Объединенных Наций и другим соответствующим заинтересованным сторонам в интересах достижения целей в области устойчивого развития с использованием научно-технических достижений и инноваций,</p>
+      </container>
+      <container name="напоминая" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">напоминая</span>, что в своей резолюции <a href="https://undocs.org/ru/A/RES/72/228">72/228</a> от 20 декабря 2017 года Генеральная Ассамблея рекомендовала Комиссии, руководствуясь духом Повестки дня на период до 2030 года и Аддис-Абебской программы действий, содействовать развитию международного сотрудничества в области науки и техники в целях развития,</p>
+      </container>
+      <container name="напоминая также" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">напоминая также</span>, что в той же резолюции Генеральная Ассамблея рекомендовала Комиссии обсуждать и изучать новаторские модели финансирования в качестве средства привлечения новых заинтересованных сторон, новаторов и источников инвестиционного капитала для поиска научно-технических, инженерных и новаторских решений в сотрудничестве, когда это необходимо, с другими организациями,</p>
+      </container>
+      <container name="отмечая" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">отмечая</span>, что стремительный технический прогресс может способствовать ускоренной реализации Повестки дня на период до 2030 года за счет повышения реальных доходов, ускорения и расширения усилий по внедрению новаторских решений для преодоления социально-экономических и экологических трудностей, содействия более инклюзивным формам участия в социально-экономической жизни, замены экологически затратных моделей производства на более устойчивые модели или предоставления директивным органам мощных инструментов для разработки и планирования мер в области развития,</p>
+      </container>
+      <container name="отмечая также" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">отмечая также</span>, что новые технологии способствуют созданию новых рабочих мест и новых возможностей в области развития, стимулируя тем самым рост спроса на навыки и профессиональные знания в сфере цифровых технологий, и подчеркивая важность развития навыков и профессиональных знаний в сфере цифровых технологий, позволяющих обществам адаптироваться к технологическим изменениям и получать обусловленные ими выгоды,</p>
+      </container>
+      <container name="ссылаясь" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">ссылаясь</span> на резолюцию Генеральной Ассамблеи <a href="https://undocs.org/ru/A/RES/72/242">72/242</a> от 22 декабря 2017 года и <a href="https://undocs.org/ru/A/RES/73/17">73/17</a> от 26 ноября 2018 года, в которых Ассамблея просила Механизм содействия развитию технологий и Комиссию при содействии Экономического и Социального Совета уделять должное внимание воздействию решающих стремительных технологических изменений на достижение целей в области устойчивого развития в рамках их соответствующих мандатов и имеющихся ресурсов,</p>
+      </container>
+      <container name="приветствуя" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">приветствуя</span> работу Комиссии по двум текущим приоритетным темам: «Использование науки, техники и инноваций для устранения отставания в достижении цели 3 в области устойчивого развития, касающейся обеспечения здорового образа жизни и содействия благополучию» и «Использование технологии блокчейн в целях устойчивого развития: перспективы и проблемы»,</p>
+      </container>
+      <container name="ссылаясь" eId="container_26">
+        <p xml:space="preserve">	<span class="italic">ссылаясь</span> на рамки национальных обзоров научно-технической и инновационной политики, разработанные Конференцией Организации Объединенных Наций по торговле и развитию для оказания странам поддержки в целях более эффективной увязки научно-технической и инновационной политики с Повесткой дня на период до 2030 года и целями в области устойчивого развития<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		Конференция Организации Объединенных Наций по торговле и развитию, документ UNCTAD/DTL/STICT/2019/4.</p></authorialNote>,</p>
+      </container>
+      <container name="признавая" eId="container_27">
+        <p xml:space="preserve">	<span class="italic">признавая</span> необходимость инновационных подходов, которые были бы направлены на удовлетворение потребностей бедных, наиболее многочисленных и маргинализированных групп населения в развивающихся и развитых странах — в условиях обеспечения защиты их личных данных от неправомерного использования и уважения их права собственности на личные данные — и на привлечение их к участию в процессах внедрения инноваций и которые предусматривали бы наращивание потенциала в области науки, техники и инноваций в качестве одного из важнейших компонентов национальных планов развития, в частности на основе сотрудничества между соответствующими министерствами и регулирующими органами,</p>
+      </container>
+      <container name="признавая также" eId="container_28">
+        <p xml:space="preserve">	<span class="italic">признавая также</span> важность защиты данных и неприкосновенности частной жизни в контексте науки и техники в целях развития,</p>
+      </container>
+      <container name="признавая далее" eId="container_29">
+        <p xml:space="preserve">	<span class="italic">признавая далее</span>, что мероприятия по техническому прогнозированию и оценке, включая технологии, учитывающие гендерные и экологические аспекты, могли бы помочь директивным органам и заинтересованным сторонам в осуществлении Повестки дня на период до 2030 года, поскольку они позволяют выявлять трудности и возможности, которые могут быть рассмотрены в стратегической плоскости, и что тенденции в области развития технологий следует анализировать с учетом общих социально-экономических условий,</p>
+      </container>
+      <container name="признавая" eId="container_30">
+        <p xml:space="preserve">	<span class="italic">признавая</span>, что основополагающее значение для эффективного цифрового развития и содействия росту научно-технического и инновационного потенциала имеет наличие хорошо развитых систем инновационной деятельности и цифровых экосистем<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		Цифровая экосистема включает такие компоненты, как технологическая, информационная, финансовая и институциональная инфраструктура и человеческий капитал.</p></authorialNote>,</p>
+      </container>
+      <container name="учитывая" eId="container_31">
+        <p xml:space="preserve">	<span class="italic">учитывая</span> активизацию усилий в области региональной интеграции во всем мире и связанные с этим региональные аспекты научно-технической и инновационной проблематики,</p>
+      </container>
+      <container name="ссылаясь" eId="container_32">
+        <p xml:space="preserve">	<span class="italic">ссылаясь</span> на итоговый документ Конференции Организации Объединенных Наций по устойчивому развитию, проведенной 20–22 июня 2012 года в Рио-де-Жанейро, Бразилия, под названием «Будущее, которого мы хотим»<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		Резолюция <a href="https://undocs.org/ru/A/RES/66/288">66/288</a> Генеральной Ассамблеи, приложение.</p></authorialNote>, включая принципы, которые в нем упоминаются,</p>
+      </container>
+      <container name="признавая" eId="container_33">
+        <p xml:space="preserve">	<span class="italic">признавая</span> необходимость мобилизации и увеличения объема финансирования инноваций, особенно в развивающихся странах, для содействия достижению целей в области устойчивого развития,</p>
+      </container>
+      <container name="признавая также" eId="container_34">
+        <p xml:space="preserve">	<span class="italic">признавая также</span>, что люди во всем мире подвержены потрясениям — от экономических кризисов до чрезвычайных ситуаций в сфере здравоохранения, от социальных конфликтов и войн до бедствий, вызванных опасными природными явлениями, — и что эти потрясения оказывают серьезное воздействие на усилия по достижению устойчивого развития,</p>
+      </container>
+      <container name="напоминая" eId="container_35">
+        <p xml:space="preserve">	<span class="italic">напоминая</span>, что в своей резолюции <a href="https://undocs.org/ru/A/RES/74/306">74/306</a> от 11 сентября 2020 года Генеральная Ассамблея призвала государства-члены и все соответствующие заинтересованные стороны содействовать инициативам в области научных исследований и создания потенциала, а также расширять сотрудничество и доступ к науке, инновациям, технологиям, технической помощи и обмену знаниями, в том числе путем улучшения координации между существующими механизмами, особенно с развивающимися странами, на основе сотрудничества, координации и транспарентности и на взаимосогласованных условиях в ответ на пандемию коронавирусного заболевания (COVID‑19) и в интересах продвижения вперед в деле достижения целей в области устойчивого развития,</p>
+      </container>
+      <container name="признавая" eId="container_36">
+        <p xml:space="preserve">	<span class="italic">признавая</span> вклад науки, техники и инноваций в формирование жизнестойких сообществ путем расширения прав и возможностей людей, включая наиболее уязвимые группы населения, и учета их мнений с помощью таких мер, как расширение доступа к образованию и здравоохранению, мониторинг экологических и социальных рисков, установление связей между людьми, содействие созданию систем раннего предупреждения, стимулирование экономической диверсификации и экономического развития, и рассматривая при этом негативные последствия для окружающей среды,</p>
+      </container>
+      <container name="отмечая" eId="container_37">
+        <p xml:space="preserve">	<span class="italic">отмечая</span> значительные достижения в области науки, техники и инноваций и информационно-коммуникационных технологий и сохраняющийся потенциал их использования для содействия обеспечению благополучия людей, экономического процветания и занятости,</p>
+      </container>
+      <container name="отмечая также" eId="container_38">
+        <p xml:space="preserve">	<span class="italic">отмечая также</span>, что стратегии в области науки, техники и инновационной деятельности должны быть увязаны с тремя компонентами устойчивого развития, а именно экономическим развитием, социальным прогрессом и охраной окружающей среды,</p>
+      </container>
+      <container name="принимая во внимание" eId="container_39">
+        <p xml:space="preserve">	<span class="italic">принимая во внимание</span>, что традиционные знания могут составлять основу для технического прогресса и обеспечения рационального управления природными ресурсами и их рационального использования,</p>
+      </container>
+      <container name="признавая" eId="container_40">
+        <p xml:space="preserve">	<span class="italic">признавая</span>, что гражданская наука может благотворно влиять на исследовательскую деятельность, вносить огромный вклад в работу по сбору данных, поощрять интерес и внимание граждан к окружающему их миру природы и популяризировать науку и научные наблюдения,</p>
+      </container>
+      <container name="призывая" eId="container_41">
+        <p xml:space="preserve">	<span class="italic">призывая</span> к разработке и осуществлению государственных стратегий, учитывающих влияние стремительного технического прогресса на достижение целей в области устойчивого развития,</p>
+      </container>
+      <container name="отмечая" eId="container_42">
+        <p xml:space="preserve">	<span class="italic">отмечая</span>, что успешной реализации технической и инновационной политики на национальном уровне способствует, в частности, создание такого нормативно-правового поля, которое позволяет учебным заведениям и научно-исследовательским учреждениям, деловым и промышленным кругам заниматься инновационной и инвестиционной деятельностью и обеспечивать на основе научно-технических достижений и инноваций занятость и экономический рост с охватом всех взаимосвязанных элементов, включая передачу знаний,</p>
+      </container>
+      <container name="отмечая также" eId="container_43">
+        <p xml:space="preserve">	<span class="italic">отмечая также</span> различные текущие и будущие инициативы в области науки, техники и инноваций, в рамках которых рассматриваются важные вопросы, имеющие отношение к целям в области устойчивого развития, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_44" class="SingleTxt">
+        <content eId="para_44__content">
+          <p xml:space="preserve">	<span class="italic">предлагает</span> правительствам стран, Комиссии по науке и технике в целях развития и Конференции Организации Объединенных Наций по торговле и развитию рассмотреть следующие рекомендации: </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxt">
+        <num>a)</num>
+        <list eId="para_45_list">
+          <intro eId="para_45_list_intro">
+            <p xml:space="preserve">	правительствам рекомендуется — в индивидуальном порядке и на совместной основе — учесть выводы Комиссии и рассмотреть возможность принятия следующих мер:</p>
+          </intro>
+          <point eId="para_45_list_point_i">
+            <num>i)</num>
+            <content eId="para_45_list_point_i_content">
+              <p xml:space="preserve">	обеспечить тесную увязку научно-технической и инновационной деятельности со стратегиями в области устойчивого развития, включив наращивание потенциала в области информационно-коммуникационных технологий и научно-технического и инновационного потенциала в число важных задач в контексте национального планирования развития;</p>
+            </content>
+          </point>
+          <point eId="para_45_list_point_ii">
+            <num>ii)</num>
+            <content eId="para_45_list_point_ii_content">
+              <p xml:space="preserve">	содействовать наращиванию инновационного потенциала на местном уровне для обеспечения всеохватного и устойчивого экономического развития посредством комплексного использования местных научных, профессионально-технических и инженерно-технических знаний, мобилизации ресурсов по различным каналам, совершенствования базовой информационно-коммуникационной инфраструктуры и поддержки усилий по развитию инфраструктуры, включая «умную» инфраструктуру, на основе взаимодействия с соответствующими национальными программами и между ними;</p>
+            </content>
+          </point>
+          <point eId="para_45_list_point_iii">
+            <num>iii)</num>
+            <content eId="para_45_list_point_iii_content">
+              <p xml:space="preserve">	поощрять и поддерживать научно-техническую и инновационную деятельность, направленную на развитие инфраструктуры и выработку политики в поддержку глобального расширения информационно-коммуникационной инфраструктуры и комплекса соответствующих продуктов и услуг, включая широкополосный доступ к Интернету для всех людей, в особенности для женщин, девочек, молодежи, людей с особыми потребностями и людей, проживающих в удаленных и сельских районах, посредством активизации усилий разных заинтересованных сторон по обеспечению доступа к Интернету 1,5 миллиарда новых пользователей к 2020 году и принятия мер по повышению ценовой доступности таких продуктов и услуг;</p>
+            </content>
+          </point>
+          <point eId="para_45_list_point_iv">
+            <num>iv)</num>
+            <content eId="para_45_list_point_iv_content">
+              <p xml:space="preserve">	проводить системную исследовательскую работу, включая изучение гендерных аспектов, в целях прогнозирования новых тенденций в области науки, техники и инноваций и информационно-коммуникационных технологий и их воздействия на процессы развития, особенно в контексте Повестки дня в области устойчивого развития на период до 2030 года;</p>
+            </content>
+          </point>
+          <point eId="para_45_list_point_v">
+            <num>v)</num>
+            <content eId="para_45_list_point_v_content">
+              <p xml:space="preserve">	разрабатывать, принимать и осуществлять научно-техническую и инновационную политику, направленную на содействие достижению целей в области устойчивого развития, опираясь на участие целого ряда заинтересованных сторон, включая профильные учреждения Организации Объединенных Наций и все соответствующие учреждения и форумы, такие как Комиссия и многосторонний форум заинтересованных сторон по науке, технике и инновациям в интересах достижения целей в области устойчивого развития;</p>
+            </content>
+          </point>
+          <point eId="para_45_list_point_vi">
+            <num>vi)</num>
+            <content eId="para_45_list_point_vi_content">
+              <p xml:space="preserve">	продолжать уделять надлежащее внимание воздействию решающих стремительных технологических изменений на достижение целей в области устойчивого развития в рамках соответствующих мандатов и имеющихся ресурсов в соответствии с резолюциями <a href="https://undocs.org/ru/A/RES/72/242">72/242</a> и <a href="https://undocs.org/ru/A/RES/73/17">73/17</a> Генеральной Ассамблеи;</p>
+            </content>
+          </point>
+          <point eId="para_45_list_point_vii">
+            <num>vii)</num>
+            <content eId="para_45_list_point_vii_content">
+              <p xml:space="preserve">	использовать мероприятия по стратегическому прогнозированию для выявления потенциальных пробелов в области образования в среднесрочной и долгосрочной перспективе и устранять такие пробелы путем проведения в жизнь комплексной политики, включая поощрение научного, технического, инженерного и математического образования, профессионально-технического обучения и обучения цифровой и информационной грамотности с учетом гендерных аспектов;</p>
+            </content>
+          </point>
+          <point eId="para_45_list_point_viii">
+            <num>viii)</num>
+            <content eId="para_45_list_point_viii_content">
+              <p xml:space="preserve">	использовать процесс стратегического прогнозирования для стимулирования систематизированных дискуссий между всеми заинтересованными сторонами, включая представителей правительства, научных и промышленных кругов, гражданского общества и частного сектора, особенно малых и средних предприятий, в целях выработки единого понимания долгосрочных вопросов, таких как изменение характера трудовой деятельности, и формирования консенсуса по будущим направлениям политики и содействовать удовлетворению существующего и прогнозируемого спроса на квалифицированных сотрудников, способных адаптироваться к переменам;</p>
+            </content>
+          </point>
+          <point eId="para_45_list_point_ix">
+            <num>ix)</num>
+            <content eId="para_45_list_point_ix_content">
+              <p xml:space="preserve">	включать обучение цифровым навыкам, в том числе в области предпринимательства, и дополнительным навыкам работы с людьми в программы формального обучения и инициативы по обучению на протяжении всей жизни, принимая во внимание передовую практику, местные условия и потребности и не отдавая предпочтения каким-либо конкретным технологиям в процессе образования;</p>
+            </content>
+          </point>
+          <point eId="para_45_list_point_x">
+            <num>x)</num>
+            <content eId="para_45_list_point_x_content">
+              <p xml:space="preserve">	принимать меры в связи с последствиями существенных изменений, обусловленных развитием цифровой экономики, для рынков труда;</p>
+            </content>
+          </point>
+          <point eId="para_45_list_point_xi">
+            <num>xi)</num>
+            <content eId="para_45_list_point_xi_content">
+              <p xml:space="preserve">	предпринимать через регулярные промежутки времени инициативы по стратегическому прогнозированию глобальных и региональных проблем и осуществлять сотрудничество в целях создания системы отображения данных для проведения обзора результатов технического прогнозирования, в том числе по линии экспериментальных проектов, и обмена ими с другими государствами-членами, используя при этом существующие региональные механизмы во взаимодействии с соответствующими заинтересованными сторонами;</p>
+            </content>
+          </point>
+          <point eId="para_45_list_point_xii">
+            <num>xii)</num>
+            <content eId="para_45_list_point_xii_content">
+              <p xml:space="preserve">	проводить мероприятия по технической оценке и прогнозированию с целью стимулировать систематизированные обсуждения с участием всех заинтересованных сторон, направленные на формирование единого понимания последствий стремительного технического прогресса;</p>
+            </content>
+          </point>
+          <point eId="para_45_list_point_xiii">
+            <num>xiii)</num>
+            <content eId="para_45_list_point_xiii_content">
+              <p xml:space="preserve">	содействовать проведению обзора прогресса в деле увязки научно-технической и инновационной деятельности с достижением целей в области устойчивого развития;</p>
+            </content>
+          </point>
+          <point eId="para_45_list_point_xiv">
+            <num>xiv)</num>
+            <content eId="para_45_list_point_xiv_content">
+              <p xml:space="preserve">	проводить через регулярные промежутки времени, опираясь на результаты стратегического прогнозирования и учитывая гендерные аспекты, оценку состояния национальных систем инновационной деятельности, включая цифровые экосистемы, для выявления существующих в них недостатков и принимать действенные меры на уровне политики для укрепления их более слабых компонентов, а также обмениваться информацией о соответствующих результатах с другими государствами-членами и на добровольной основе оказывать финансовую и экспертную поддержку в целях внедрения в заинтересованных развивающихся странах рамок национальных обзоров научно-технической и инновационной политики;</p>
+            </content>
+          </point>
+          <point eId="para_45_list_point_xv">
+            <num>xv)</num>
+            <content eId="para_45_list_point_xv_content">
+              <p xml:space="preserve">	признать необходимость содействия динамичному функционированию систем инновационной деятельности и других соответствующих методологий с помощью разнообразных инструментов политики, направленных на поддержку приоритетных направлений развития науки, техники и инноваций, для повышения согласованности таких систем в интересах устойчивого развития;</p>
+            </content>
+          </point>
+          <point eId="para_45_list_point_xvi">
+            <num>xvi)</num>
+            <content eId="para_45_list_point_xvi_content">
+              <p xml:space="preserve">	побуждать представителей «цифрового поколения» играть ключевую роль в деле применения общинного подхода, включая учитывающие гендерные аспекты подходы, к наращиванию потенциала в научно-технической и инновационной областях и содействовать использованию информационно-коммуникационных технологий в контексте Повестки дня на период до 2030 года;</p>
+            </content>
+          </point>
+          <point eId="para_45_list_point_xvii">
+            <num>xvii)</num>
+            <content eId="para_45_list_point_xvii_content">
+              <p xml:space="preserve">	с учетом того, что новейшие цифровые технологии могут значительно превзойти возможности существующих технологий, используемых в целях развития, проводить в жизнь политику в поддержку развития цифровых экосистем, носящую всеохватный характер, учитывающую социально-экономические и политические особенности стран и направленную на привлечение и поддержку частных инвестиций и инноваций, особенно в плане содействия разработке местного информационного наполнения и развитию местного предпринимательства, и обеспечивать доступ к источникам дезагрегированных данных о науке, технике и инновациях;</p>
+            </content>
+          </point>
+          <point eId="para_45_list_point_xviii">
+            <num>xviii)</num>
+            <content eId="para_45_list_point_xviii_content">
+              <p xml:space="preserve">	осуществлять инициативы и программы, направленные на поощрение и облегчение планомерного инвестирования в цифровую экономику и участия в ней;</p>
+            </content>
+          </point>
+          <point eId="para_45_list_point_xix">
+            <num>xix)</num>
+            <content eId="para_45_list_point_xix_content">
+              <p xml:space="preserve">	поддерживать взаимодействие со всеми соответствующими заинтересованными сторонами, содействовать применению информационно-коммуникационных технологий во всех секторах, повышать уровень экологической устойчивости, стимулировать создание надлежащих объектов для утилизации и удаления электронных отходов и поощрять рациональные модели потребления и производства;</p>
+            </content>
+          </point>
+          <point eId="para_45_list_point_xx">
+            <num>xx)</num>
+            <content eId="para_45_list_point_xx_content">
+          <p xml:space="preserve">	поощрять научное, техническое, инженерное и математическое образование и статистическую грамотность, особенно среди девочек и женщин, признавая также важность дополнительных навыков работы с людьми, таких как навыки предпринимательства, посредством поощрения наставничества и поддержки других усилий по обеспечению привлекательности этих сфер и областей для женщин и девочек и их представленности в них, а также посредством учета гендерных аспектов при разработке и осуществлении политики, направленной на использование научно-технических достижений и инноваций;</p>
+            </content>
+          </point>
+          <point eId="para_45_list_point_xxi">
+            <num>xxi)</num>
+            <content eId="para_45_list_point_xxi_content">
+          <p xml:space="preserve">	оказывать развивающимся странам поддержку в их политике и деятельности в научно-технической сфере в рамках сотрудничества Север — Юг и сотрудничества Юг — Юг, которые дополняют, но не заменяют друг друга, посредством поощрения предоставления финансовой и технической помощи, наращивания потенциала, передачи технологий на взаимосогласованных условиях и организации программ или курсов технической подготовки;</p>
+            </content>
+          </point>
+          <point eId="para_45_list_point_xxii">
+            <num>xxii)</num>
+            <content eId="para_45_list_point_xxii_content">
+          <p xml:space="preserve">	стимулировать страны к постепенному повышению темпов формирования качественных и квалифицированных людских ресурсов на всех уровнях путем создания условий для формирования критической массы кадрового потенциала, а также путем использования научно-технических достижений и инноваций для создания добавленной стоимости, решения проблем и повышения благополучия человека и путем эффективного участия в применении научно-технических достижений и инноваций в этих целях;</p>
+            </content>
+          </point>
+          <point eId="para_45_list_point_xxiii">
+            <num>xxiii)</num>
+            <content eId="para_45_list_point_xxiii_content">
+          <p xml:space="preserve">	усилить поддержку исследований и разработок, связанных со стремительным техническим прогрессом, и обеспечить согласованность политики в области науки, техники и инноваций и стратегий по вопросам стремительного технического прогресса с более широкой национальной повесткой дня в области развития;</p>
+            </content>
+          </point>
+          <point eId="para_45_list_point_xxiv">
+            <num>xxiv)</num>
+            <content eId="para_45_list_point_xxiv_content">
+          <p xml:space="preserve">	рассмотреть вопрос об участии в открытой для всех глобальной дискуссии, касающейся всех аспектов стремительного технического прогресса и его воздействия на устойчивое развитие;</p>
+            </content>
+          </point>
+          <point eId="para_45_list_point_xxv">
+            <num>xxv)</num>
+            <content eId="para_45_list_point_xxv_content">
+          <p xml:space="preserve">	разработать и проводить в жизнь стратегии в области науки, техники и инноваций и другие соответствующие стратегии с учетом задачи создания жизнестойких сообществ;</p>
+            </content>
+          </point>
+          <point eId="para_45_list_point_xxvi">
+            <num>xxvi)</num>
+            <content eId="para_45_list_point_xxvi_content">
+          <p xml:space="preserve">	поддерживать политику, направленную на расширение доступа к финансовым услугам, укрепление источников финансирования и увеличение объема прямых инвестиций в инновации, способствующие достижению целей в области устойчивого развития;</p>
+            </content>
+          </point>
+          <point eId="para_45_list_point_xxvii">
+            <num>xxvii)</num>
+            <content eId="para_45_list_point_xxvii_content">
+          <p xml:space="preserve">	обеспечить, чтобы процессом внедрения инноваций охватывались все слои населения, особенно местные общины, женщины и молодежь, с тем чтобы расширение применения новых технологий и их распространение были всеохватными и не усиливали расслоение в обществе;</p>
+            </content>
+          </point>
+          <point eId="para_45_list_point_xxviii">
+            <num>xxviii)</num>
+            <content eId="para_45_list_point_xxviii_content">
+          <p xml:space="preserve">	поддерживать Банк технологий для наименее развитых стран в качестве механизма, призванного улучшать научно-исследовательскую и инновационную базу наименее развитых стран, содействовать контактам между исследователями и исследовательскими учреждениями, помогать наименее развитым странам в получении и использовании важнейших технологий, объединять двусторонние инициативы и меры поддержки со стороны многосторонних учреждений и частного сектора, а также осуществлять проекты, способствующие использованию достижений в области науки, техники и инноваций в интересах экономического развития в наименее развитых странах;</p>
+        </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_100" class="SingleTxt">
+        <num>b)</num>
+        <list eId="para_100_list">
+          <intro eId="para_100_list_intro">
+            <p xml:space="preserve">	Комиссии рекомендуется: </p>
+          </intro>
+          <point eId="para_100_list_point_i">
+            <num>i)</num>
+            <content eId="para_100_list_point_i_content">
+              <p xml:space="preserve">	продолжать играть роль ведущей структуры по вопросам науки, техники и инноваций и оказывать Экономическому и Социальному Совету и Генеральной Ассамблее высококвалифицированную консультационную помощь по актуальным научным, техническим и инженерно-техническим вопросам и вопросам инноваций, а также в этой связи способствовать проведению тематических прений высокого уровня по вопросу о влиянии стремительного технического прогресса на реализацию целей и задач в области устойчивого развития, которые будут созваны Председателем Генеральной Ассамблеи на ее семьдесят четвертой сессии, и обсуждению хода осуществлении резолюции <a href="https://undocs.org/ru/A/RES/73/17">73/17</a> Ассамблеи, которое будет проведено на ее семьдесят пятой сессии;</p>
+            </content>
+          </point>
+          <point eId="para_100_list_point_ii">
+            <num>ii)</num>
+            <content eId="para_100_list_point_ii_content">
+              <p xml:space="preserve">	содействовать отражению важной роли информационно-коммуникационных технологий и науки, техники и инноваций как инструментов, способствующих осуществлению Повестки дня на период до 2030 года, и с этой целью выполнять функции форума для стратегического планирования и прогнозирования важнейших тенденций в области науки, техники и инноваций в ключевых секторах экономики и для привлечения внимания к новым и зарождающимся технологиям;</p>
+            </content>
+          </point>
+          <point eId="para_100_list_point_iii">
+            <num>iii)</num>
+            <content eId="para_100_list_point_iii_content">
+              <p xml:space="preserve">	изучать вопрос о том, как ее работа согласуется с деятельностью других международных форумов по вопросам науки, техники и инноваций и усилиями в поддержку осуществления Повестки дня на период до 2030 года, перекликается с ними и дополняет их; </p>
+            </content>
+          </point>
+          <point eId="para_100_list_point_iv">
+            <num>iv)</num>
+            <content eId="para_100_list_point_iv_content">
+              <p xml:space="preserve">	повышать осведомленность и содействовать налаживанию связей и партнерских отношений между различными организациями и сетями, занимающимися прогнозированием технического развития, во взаимодействии с другими заинтересованными сторонами; </p>
+            </content>
+          </point>
+          <point eId="para_100_list_point_v">
+            <num>v)</num>
+            <content eId="para_100_list_point_v_content">
+              <p xml:space="preserve">	поддерживать, руководствуясь Повесткой дня на период до 2030 года и Аддис-Абебской программой действий третьей Международной конференции по финансированию развития<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		Резолюция <a href="https://undocs.org/ru/A/RES/69/313">69/313</a> Генеральной Ассамблеи, приложение.</p></authorialNote>, международное сотрудничество в области науки и техники в целях развития, включая создание потенциала и передачу технологий на взаимно согласованных условиях;</p>
+            </content>
+          </point>
+          <point eId="para_100_list_point_vi">
+            <num>vi)</num>
+            <content eId="para_100_list_point_vi_content">
+              <p xml:space="preserve">	повышать осведомленность директивных органов об инновационном процессе и выявлять конкретные возможности для использования таких инноваций развивающимися странами, уделяя особое внимание новым тенденциям в инновационной деятельности, которые могут открыть принципиально новые возможности для развивающихся стран; </p>
+            </content>
+          </point>
+          <point eId="para_100_list_point_vii">
+            <num>vii)</num>
+            <content eId="para_100_list_point_vii_content">
+              <p xml:space="preserve">	поддерживать многостороннее сотрудничество, направленное на укрепление потенциала в плане изучения политики и на развитие технологий;</p>
+            </content>
+          </point>
+          <point eId="para_100_list_point_viii">
+            <num>viii)</num>
+            <content eId="para_100_list_point_viii_content">
+              <p xml:space="preserve">	поддерживать усилия по наращиванию потенциала в сфере разработки, использования и применения новых и существующих технологий в развивающихся странах, прежде всего в наименее развитых странах, малых островных развивающихся государствах и развивающихся странах, не имеющих выхода к морю;</p>
+            </content>
+          </point>
+          <point eId="para_100_list_point_ix">
+            <num>ix)</num>
+            <content eId="para_100_list_point_ix_content">
+              <p xml:space="preserve">	инициативно укреплять и активизировать глобальные научно-технические и инновационные партнерства в интересах устойчивого развития, что предполагает участие Комиссии в работе, направленной: a) на определение, с опорой на результаты технического прогнозирования, сферы охвата конкретных международных проектов в области проведения целенаправленных научных исследований, разработки и внедрения технологий и осуществления инициатив по наращиванию потенциала людских ресурсов в интересах науки, техники и инноваций; и b) на изучение возможностей использования инновационных моделей финансирования и других ресурсов, способствующих укреплению потенциала развивающихся стран в области осуществления совместных проектов и инициатив в сфере науки, техники и инноваций;</p>
+            </content>
+          </point>
+          <point eId="para_100_list_point_x">
+            <num>x)</num>
+            <content eId="para_100_list_point_x_content">
+              <p xml:space="preserve">	изучать способы и средства проведения международной технической оценки и прогнозирования в отношении существующих, новых и зарождающихся технологий и их значения для устойчивого развития и создания жизнестойких сообществ, включая обсуждение моделей регулирования для новых областей развития науки и техники;</p>
+            </content>
+          </point>
+          <point eId="para_100_list_point_xi">
+            <num>xi)</num>
+            <content eId="para_100_list_point_xi_content">
+              <p xml:space="preserve">	оказывать странам поддержку в их усилиях по выявлению будущих тенденций с точки зрения потребностей в области укрепления потенциала, в том числе на основе прогнозирования;</p>
+            </content>
+          </point>
+          <point eId="para_100_list_point_xii">
+            <num>xii)</num>
+            <content eId="para_100_list_point_xii_content">
+              <p xml:space="preserve">	обсуждать и изучать во взаимодействии, когда это уместно, с другими организациями новаторские модели финансирования, такие как социально значимое инвестирование, в качестве средства привлечения новых заинтересованных сторон, новаторов и источников инвестиционного капитала для поиска научно-технических, инженерных и новаторских решений;</p>
+            </content>
+          </point>
+          <point eId="para_100_list_point_xiii">
+            <num>xiii)</num>
+            <content eId="para_100_list_point_xiii_content">
+              <p xml:space="preserve">	способствовать укреплению потенциала и сотрудничества в области исследований и разработок во взаимодействии с соответствующими учреждениями, включая профильные учреждения Организации Объединенных Наций, в целях укрепления систем инновационной деятельности, которые поддерживают новаторов, особенно в развивающихся странах, с тем чтобы активизировать их усилия в поддержку устойчивого развития;</p>
+            </content>
+          </point>
+          <point eId="para_100_list_point_xiv">
+            <num>xiv)</num>
+            <content eId="para_100_list_point_xiv_content">
+              <p xml:space="preserve">	обеспечивать форум для обмена информацией о достигнутых успехах и передовой практике, равно как и о неудачах и основных трудностях, а также для извлечения уроков из работы по прогнозированию, успешных местных инновационных моделей, тематических исследований и опыта использования — в неразрывной связи с информационно-коммуникационными технологиями — достижений науки и техники и инженерно-технических разработок в инновационной деятельности, включая применение новых и зарождающихся технологий, в интересах обеспечения всеохватного и устойчивого развития, а также обмениваться информацией о сделанных выводах со всеми соответствующими структурами Организации Объединенных Наций, в том числе через Механизм содействия развитию технологий и его многосторонний форум по использованию научно-технических достижений и новаторства в интересах достижения целей в области устойчивого развития;</p>
+            </content>
+          </point>
+          <point eId="para_100_list_point_xv">
+            <num>xv)</num>
+            <content eId="para_100_list_point_xv_content">
+              <p xml:space="preserve">	продолжать играть активную роль в обеспечении осведомленности о потенциальном вкладе науки, техники и инноваций в осуществление Повестки дня на период до 2030 года, внося, сообразно обстоятельствам, предметный вклад в процессы и работу соответствующих органов Организации Объединенных Наций, и обеспечивать обмен информацией о связанных с наукой, техникой и инновациями выводах и передовой практике между государствами-членами и другими сторонами;</p>
+            </content>
+          </point>
+          <point eId="para_100_list_point_xvi">
+            <num>xvi)</num>
+            <content eId="para_100_list_point_xvi_content">
+              <p xml:space="preserve">	акцентировать внимание на важности работы Комиссии, связанной с осуществлением решений и последующей деятельности, касающихся информационно-коммуникационных технологий и науки, техники и инноваций в контексте достижения целей в области устойчивого развития, и обеспечить представление Председателем Комиссии докладов Экономическому и Социальному Совету в ходе проведения соответствующих обзоров и совещаний, политическому форуму высокого уровня по устойчивому развитию и другим профильным форумам;</p>
+            </content>
+          </point>
+          <point eId="para_100_list_point_xvii">
+            <num>xvii)</num>
+            <content eId="para_100_list_point_xvii_content">
+              <p xml:space="preserve">	укреплять и углублять сотрудничество между Комиссией по науке и технике в целях развития и Комиссией по положению женщин, в том числе обмен информацией о передовой практике и извлеченных уроках, касающихся учета гендерных аспектов при выработке и осуществлении политики в области науки, техники и инноваций, и в этой связи продолжать принимать меры по итогам работы, проделанной Комиссией по науке и технике в целях развития в ходе практикума по теме «Взгляд на вопросы развития научно-технической и инновационной деятельности сквозь призму гендерной проблематики», состоявшегося 18 января 2019 года в Вене;</p>
+            </content>
+          </point>
+          <point eId="para_100_list_point_xviii">
+            <num>xviii)</num>
+            <content eId="para_100_list_point_xviii_content">
+              <p xml:space="preserve">	играть активную роль в обеспечении осведомленности о Банке технологий для наименее развитых стран;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_111" class="SingleTxt">
+        <num>c)</num>
+        <list eId="para_111_list">
+          <intro eId="para_111_list_intro">
+            <p xml:space="preserve">	Конференции Организации Объединенных Наций по торговле и развитию рекомендуется:</p>
+          </intro>
+          <point eId="para_111_list_point_i">
+            <num>i)</num>
+            <content eId="para_111_list_point_i_content">
+              <p xml:space="preserve">	инициативно изыскивать финансовые средства на цели расширения обзоров научно-технической и инновационной политики, уделяя повышенное внимание исключительно важной роли информационно-коммуникационных технологий в создании дополнительных возможностей использования науки, техники и инноваций и наращивании и использовании инженерно-технического потенциала, а также на цели выполнения рекомендаций по итогам этих обзоров, действуя, сообразно обстоятельствам, в тесном сотрудничестве с учреждениями Организации Объединенных Наций и международными организациями;</p>
+            </content>
+          </point>
+          <point eId="para_111_list_point_ii">
+            <num>ii)</num>
+            <content eId="para_111_list_point_ii_content">
+              <p xml:space="preserve">	изучить целесообразность включения элементов стратегического прогнозирования и оценки цифровых экосистем в обзоры научно-технической и инновационной политики и политики в области информационно-коммуникационных технологий — возможно, с добавлением главы, посвященной этим темам;</p>
+            </content>
+          </point>
+          <point eId="para_111_list_point_iii">
+            <num>iii)</num>
+            <content eId="para_111_list_point_iii_content">
+              <p xml:space="preserve">	внедрять в максимальной степени рамки национальных обзоров научно-технической и инновационной политики в целях учета в них целей в области устойчивого развития, в частности уделять особое внимание подходам к инновационной деятельности, учитывающим интересы наименее обеспеченной части населения, а также социальной интеграции;</p>
+            </content>
+          </point>
+          <point eId="para_111_list_point_iv">
+            <num>iv)</num>
+            <content eId="para_111_list_point_iv_content">
+              <p xml:space="preserve">	планировать периодическое рассмотрение хода выполнения рекомендаций в странах, по которым были проведены обзоры научно-технической и инновационной политики, и предлагать этим странам представлять Комиссии по науке и технике в целях развития доклады о ходе выполнения рекомендаций, извлеченных уроках и трудностях, возникших в процессе их выполнения;</p>
+            </content>
+          </point>
+          <point eId="para_111_list_point_v">
+            <num>v)</num>
+            <content eId="para_111_list_point_v_content">
+              <p xml:space="preserve">	обратиться к Консультативному совету по гендерным вопросам Комиссии с просьбой представлять материалы для обсуждений и документов Комиссии по программным вопросам, информировать Комиссию о ходе работы на ее ежегодных сессиях и полнее учитывать гендерные аспекты при проведении обзоров научно-технической и инновационной политики;</p>
+            </content>
+          </point>
+          <point eId="para_111_list_point_vi">
+            <num>vi)</num>
+            <content eId="para_111_list_point_vi_content">
+              <p xml:space="preserve">	обратиться также к Консультативному совету по гендерным вопросам Комиссии с просьбой разработать предложения относительно обновленной программы работы и представить доклад по этому вопросу на двадцать пятой ежегодной сессии Комиссии;</p>
+            </content>
+          </point>
+          <point eId="para_111_list_point_vii">
+            <num>vii)</num>
+            <content eId="para_111_list_point_vii_content">
+              <p xml:space="preserve">	поощрять правительства к использованию Банка технологий для наименее развитых стран в качестве механизма поддержки науки, техники и инноваций в наименее развитых странах, а также к оказанию таким странам помощи в целях дальнейшего развития их технологий. </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="13-e">13-e пленарное заседание</inline>
+        <eol />
+        <docDate date="2021-07-22" refersTo="#adoptionDate">22 июля 2021 года</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

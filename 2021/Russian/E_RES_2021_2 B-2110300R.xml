@@ -1,0 +1,458 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2021-07-21/2021-2B/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2021-07-21/2021-2B/"></FRBRuri>
+          <FRBRdate date="2021-07-21" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2021-07-21/2021-2B/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2021-07-21/2021-2B/rus@/"></FRBRuri>
+          <FRBRdate date="2021-07-28" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2021-07-21/2021-2B/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2021-07-21/2021-2B/rus@.xml"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="14" href="http://metadata.un.org/sdg/14" showAs="sdg_14" dictionary="SDGO"></keyword>
+        <keyword value="marine_resources" href="http://metadata.un.org/thesaurus/030800" showAs="marine_resources" dictionary="UNBIS"></keyword>
+        <keyword value="marine_resources" href="http://metadata.un.org/thesaurus/1003922" showAs="marine_resources" dictionary="UNBIS"></keyword>
+        <keyword value="oceans_and_seas" href="http://metadata.un.org/thesaurus/170600" showAs="oceans_and_seas" dictionary="UNBIS"></keyword>
+        <keyword value="ocean" href="http://eurovoc.europa.eu/2107" showAs="ocean" dictionary="EuroVoc"></keyword>
+        <keyword value="ocean" href="http://metadata.un.org/thesaurus/1004576" showAs="ocean" dictionary="UNBIS"></keyword>
+        <keyword value="sea" href="http://eurovoc.europa.eu/1870" showAs="sea" dictionary="EuroVoc"></keyword>
+        <keyword value="marine_environment" href="http://eurovoc.europa.eu/5742" showAs="marine_environment" dictionary="EuroVoc"></keyword>
+        <keyword value="marine_environment" href="http://metadata.un.org/thesaurus/1003911" showAs="marine_environment" dictionary="UNBIS"></keyword>
+        <keyword value="marine_life" href="http://eurovoc.europa.eu/3149" showAs="marine_life" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="6" href="http://metadata.un.org/sdg/6" showAs="sdg_6" dictionary="SDGO"></keyword>
+        <keyword value="water" href="http://eurovoc.europa.eu/597" showAs="water" dictionary="EuroVoc"></keyword>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/030500" showAs="water" dictionary="UNBIS"></keyword>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/1006939" showAs="water" dictionary="UNBIS"></keyword>
+        <keyword value="sanitation" href="http://metadata.un.org/thesaurus/1005701" showAs="sanitation" dictionary="UNBIS"></keyword>
+        <keyword value="public_hygiene" href="http://eurovoc.europa.eu/3371" showAs="public_hygiene" dictionary="EuroVoc"></keyword>
+        <keyword value="water_management" href="http://eurovoc.europa.eu/3144" showAs="water_management" dictionary="EuroVoc"></keyword>
+        <keyword value="water_management" href="http://metadata.un.org/thesaurus/1006948" showAs="water_management" dictionary="UNBIS"></keyword>
+        <keyword value="use_of_water" href="http://eurovoc.europa.eu/4628" showAs="use_of_water" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="Declaration on the Granting of Independence to Colonial Countries and Peoples (1960)" showAs="Declaration on the Granting of Independence to Colonial Countries and Peoples (1960)" dictionary="DHLAUTH"></keyword>
+        <keyword value="DECOLONIZATION" showAs="DECOLONIZATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="NON-SELF-GOVERNING TERRITORIES" showAs="NON-SELF-GOVERNING TERRITORIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SELF-DETERMINATION OF PEOPLES" showAs="SELF-DETERMINATION OF PEOPLES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DEVELOPMENT ASSISTANCE" showAs="DEVELOPMENT ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SPECIALIZED AGENCIES" showAs="SPECIALIZED AGENCIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COORDINATION WITHIN UN SYSTEM" showAs="COORDINATION WITHIN UN SYSTEM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="14" showAs="Implementation of the Declaration on the Granting of Independence to Colonial Countries and Peoples by the specialized agencies and the international institutions associated with the United Nations." shortForm="DECOLONIZATION" dictionary="E/2021/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2021-07-15" outcome="draftResolution" as="E/2021/L.31" by="Antigua and Barbuda, Belize, Bolivia (Plurinational State of), Cuba, Dominica, Ecuador, Eritrea, Fiji, Gambia, Grenada, India, Indonesia, Iraq, Nicaragua, Papua New Guinea, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Sierra Leone, Syrian Arab Republic, Uganda, United Republic of Tanzania and Venezuela (Bolivarian Republic of)" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2021-07-21" outcome="adopted" as="Adopted 19-0-26, 12th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedRecordedVote">
+            <quorum value=""></quorum>
+            <count value="19" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">ANGOLA</organization>
+                <organization refersTo="memberState">BOLIVIA (PLURINATIONAL STATE OF)</organization>
+                <organization refersTo="memberState">BOTSWANA</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">EGYPT</organization>
+                <organization refersTo="memberState">ETHIOPIA</organization>
+                <organization refersTo="memberState">GUATEMALA</organization>
+                <organization refersTo="memberState">INDONESIA</organization>
+                <organization refersTo="memberState">IRAN (ISLAMIC REPUBLIC OF)</organization>
+                <organization refersTo="memberState">JAMAICA</organization>
+                <organization refersTo="memberState">LIBYA</organization>
+                <organization refersTo="memberState">MEXICO</organization>
+                <organization refersTo="memberState">NICARAGUA</organization>
+                <organization refersTo="memberState">NIGERIA</organization>
+                <organization refersTo="memberState">PAKISTAN</organization>
+                <organization refersTo="memberState">PANAMA</organization>
+                <organization refersTo="memberState">PARAGUAY</organization>
+                <organization refersTo="memberState">THAILAND</organization>
+                <organization refersTo="memberState">ZIMBABWE</organization>
+              </akn4un:voters>
+            </count>
+            <count value="26" refersTo="abstaining">
+              <akn4un:voters>
+                <organization refersTo="memberState">ARGENTINA</organization>
+                <organization refersTo="memberState">ARMENIA</organization>
+                <organization refersTo="memberState">AUSTRALIA</organization>
+                <organization refersTo="memberState">AUSTRIA</organization>
+                <organization refersTo="memberState">BRAZIL</organization>
+                <organization refersTo="memberState">BULGARIA</organization>
+                <organization refersTo="memberState">CANADA</organization>
+                <organization refersTo="memberState">COLOMBIA</organization>
+                <organization refersTo="memberState">FINLAND</organization>
+                <organization refersTo="memberState">GERMANY</organization>
+                <organization refersTo="memberState">JAPAN</organization>
+                <organization refersTo="memberState">KENYA</organization>
+                <organization refersTo="memberState">LATVIA</organization>
+                <organization refersTo="memberState">LUXEMBOURG</organization>
+                <organization refersTo="memberState">MADAGASCAR</organization>
+                <organization refersTo="memberState">MALI</organization>
+                <organization refersTo="memberState">MONTENEGRO</organization>
+                <organization refersTo="memberState">NETHERLANDS</organization>
+                <organization refersTo="memberState">NORWAY</organization>
+                <organization refersTo="memberState">PORTUGAL</organization>
+                <organization refersTo="memberState">REPUBLIC OF KOREA</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SWITZERLAND</organization>
+                <organization refersTo="memberState">UKRAINE</organization>
+                <organization refersTo="memberState">UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND</organization>
+                <organization refersTo="memberState">UNITED STATES OF AMERICA.</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">21-10300 (R)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2021/2 B</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Экономический и Социальный Совет</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2021-07-28" class="rightSmall" refersTo="#dateOfIssuance">28 July 2021</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" eId="coverPage_1__session_1"></session>
+      </p>
+      <p>
+        <inline title="14" name="agenda item">Пункт 14 повестки дня</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Осуществление Декларации о предоставлении независимости колониальным странам и народам специализированными учреждениями и международными организациями, связанными с Организацией Объединенных Наций</inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Экономическим и Социальным Советом 21 июля 2021 года</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#plenaryMeeting">[по предложению, рассмотренному на пленарном заседании (<inline name="originating document">E/2021/L.31</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2021/2.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Поддержка несамоуправляющихся территорий специализированными учреждениями и международными организациями, связанными с Организацией Объединенных Наций</span>
+        </docTitle>
+      </p>
+      <p>            
+        <docNumber>B</docNumber><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">Резолюция 2021/2 от 14 сентября 2020 года становится резолюцией 2021/2 A.</p></authorialNote>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Экономический и Социальный Совет</span>,</p>
+      </formula>
+      <container name="рассмотрев" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">рассмотрев</span> доклад Генерального секретаря<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="https://undocs.org/ru/A/75/68">A/75/68</a>.</p></authorialNote> и доклад Председателя Экономического и Социального Совета, содержащий информацию, представленную специализированными учреждениями и другими организациями системы Организации Объединенных Наций, об их деятельности, касающейся осуществления Декларации о предоставлении независимости колониальным странам и народам<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		<a href="https://undocs.org/ru/E/2021/8">E/2021/8</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="заслушав" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">заслушав </span>заявление представителя Специального комитета по вопросу о ходе осуществления Декларации о предоставлении независимости колониальным странам и народам<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		См. <a href="https://undocs.org/ru/E/2021/SR.12">E/2021/SR.12</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="ссылаясь" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">ссылаясь </span>на резолюции Генеральной Ассамблеи <a href="https://undocs.org/ru/A/RES/1514(XV)">1514 (XV)</a> от 14 декабря 1960 года и <a href="https://undocs.org/ru/A/RES/1541(XV)">1541 (XV)</a> от 15 декабря 1960 года, резолюции Специального комитета и другие соответствующие резолюции и решения, включая, в частности, резолюцию <a href="https://undocs.org/ru/E/RES/2021/2">2021/2</a> A Экономического и Социального Совета от 14 сентября 2020 года,</p>
+      </container>
+      <container name="принимая во внимание" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">принимая во внимание</span> соответствующие положения итоговых документов ряда конференций глав государств и правительств неприсоединившихся стран и резолюций, принятых Ассамблеей глав государств и правительств Африканского союза, Форумом тихоокеанских островов и Карибским сообществом,</p>
+      </container>
+      <container name="сознавая" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">сознавая </span>необходимость содействовать осуществлению Декларации о предоставлении независимости колониальным странам и народам, содержащейся в резолюции <a href="https://undocs.org/ru/A/RES/1514(XV)">1514 (XV)</a> Генеральной Ассамблеи,</p>
+      </container>
+      <container name="выражая удовлетворение" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">выражая удовлетворение</span> в связи с тем, что те несамоуправляющиеся территории, которые являются ассоциированными членами региональных комиссий, участвуют в настоящее время в качестве наблюдателей в работе всемирных конференций в экономической и социальной сфере при соблюдении правил процедуры Генеральной Ассамблеи и согласно соответствующим резолюциям и решениям Организации Объединенных Наций, включая резолюции и решения Ассамблеи и Специального комитета по конкретным территориям,</p>
+      </container>
+      <container name="отмечая" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">отмечая</span>, что лишь некоторые специализированные учреждения и организации системы Организации Объединенных Наций участвуют в оказании помощи несамоуправляющимся территориям,</p>
+      </container>
+      <container name="приветствуя" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">приветствуя </span>помощь, оказываемую несамоуправляющимся территориям отдельными специализированными учреждениями и другими организациями системы Организации Объединенных Наций,</p>
+      </container>
+      <container name="подчеркивая" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">подчеркивая</span>, что из‑за ограниченности возможностей для развития у малых островных несамоуправляющихся территорий они сталкиваются с особыми проблемами в области планирования и обеспечения устойчивого развития и что в отсутствие постоянного содействия и помощи со стороны специализированных учреждений и других организаций системы Организации Объединенных Наций эти территории будут испытывать трудности в решении этих проблем,</p>
+      </container>
+      <container name="подчеркивая также" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">подчеркивая также</span> важность мобилизации необходимых ресурсов для финансирования расширенных программ помощи в интересах соответствующих народов и необходимость заручиться поддержкой в этом отношении со стороны всех основных финансирующих учреждений в рамках системы Организации Объединенных Наций,</p>
+      </container>
+      <container name="вновь подтверждая" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">вновь подтверждая</span> мандаты специализированных учреждений и других организаций системы Организации Объединенных Наций, предусматривающие принятие всех надлежащих мер в рамках их соответствующей компетенции в целях обеспечения полного осуществления резолюции <a href="https://undocs.org/ru/A/RES/1514(XV)">1514 (XV)</a> Генеральной Ассамблеи и других соответствующих резолюций,</p>
+      </container>
+      <container name="выражая свою признательность" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">выражая свою признательность</span> Африканскому союзу, Форуму тихоокеанских островов, Карибскому сообществу и другим региональным организациям за содействие и помощь, постоянно оказываемые ими в этой связи специализированным учреждениям и другим организациям системы Организации Объединенных Наций,</p>
+      </container>
+      <container name="выражая убежденность" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">выражая убежденность</span> в том, что более тесные контакты и консультации между специализированными учреждениями и другими организациями системы Организации Объединенных Наций и региональными организациями содействуют эффективной разработке программ помощи для соответствующих несамоуправляющихся территорий,</p>
+      </container>
+      <container name="сознавая" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">сознавая </span>настоятельную необходимость постоянно держать в поле зрения деятельность специализированных учреждений и других организаций системы Организации Объединенных Наций, связанную с выполнением различных решений Организации Объединенных Наций, касающихся деколонизации,</p>
+      </container>
+      <container name="учитывая" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">учитывая </span>крайнюю неустойчивость экономики малых островных несамоуправляющихся территорий и их уязвимость в отношении таких стихийных бедствий, как ураганы, циклоны и повышение уровня моря, и ссылаясь на соответствующие резолюции Генеральной Ассамблеи,</p>
+      </container>
+      <container name="ссылаясь" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">ссылаясь </span>на резолюцию <a href="https://undocs.org/ru/A/RES/75/122">75/122</a> Генеральной Ассамблеи от 10 декабря 2020 года, озаглавленную «Осуществление Декларации о предоставлении независимости колониальным странам и народам»,</p>
+      </container>
+      <container name="принимая к сведению" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">принимая к сведению</span> резолюцию <a href="https://undocs.org/ru/A/RES/74/270">74/270</a> Генеральной Ассамблеи от 2 апреля 2020 года, озаглавленную «Глобальная солидарность в борьбе с коронавирусным заболеванием 2019 года (COVID‑19)», ее резолюцию <a href="https://undocs.org/ru/A/RES/74/274">74/274</a> от 20 апреля 2020 года, озаглавленную «Международное сотрудничество в целях обеспечения глобального доступа к лекарствам, вакцинам и медицинскому оборудованию для противодействия COVID‑19», ее резолюцию <a href="https://undocs.org/ru/A/RES/74/306">74/306</a> от 11 сентября 2020 года, озаглавленную «Всеобъемлющие и скоординированные меры реагирования на пандемию коронавирусного заболевания (COVID‑19)», ее резолюцию <a href="https://undocs.org/ru/A/RES/74/307">74/307</a> от 11 сентября 2020 года, озаглавленную «Объединенный ответ на глобальные угрозы здоровью: борьба с коронавирусным заболеванием 2019 года (COVID‑19)», ее резолюцию <a href="https://undocs.org/ru/A/RES/75/156">75/156</a> от 16 декабря 2020 года, озаглавленную «Укрепление национальных и международных мер быстрого реагирования в связи с воздействием коронавирусного заболевания (COVID‑19) на женщин и девочек», и резолюцию <a href="https://undocs.org/ru/A/RES/75/157">75/157</a> от 16 декабря 2020 года, озаглавленную «Женщины и девочки и меры реагирования на коронавирусное заболевание (COVID‑19)», а также другие соответствующие резолюции, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_19" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="italic">принимает к сведению</span> доклад Председателя Экономического и Социального Совета и одобряет изложенные в нем замечания и рекомендации;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">	<span class="italic">принимает к сведению также</span> доклад Генерального секретаря;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует </span>всем государствам активизировать свои усилия в рамках специализированных учреждений и других организаций системы Организации Объединенных Наций, членами которых они являются, в целях обеспечения полного и эффективного осуществления Декларации о предоставлении независимости колониальным странам и народам, содержащейся в резолюции <a href="https://undocs.org/ru/A/RES/1514(XV)">1514 (XV)</a> Генеральной Ассамблеи, и других соответствующих резолюций Организации Объединенных Наций;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">вновь подтверждает</span>, что специализированные учреждения и другие организации и органы системы Организации Объединенных Наций должны и впредь руководствоваться соответствующими резолюциями Организации Объединенных Наций в своих усилиях по содействию осуществлению Декларации и всех других соответствующих резолюций Генеральной Ассамблеи;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="italic">вновь подтверждает также</span>, что признание Генеральной Ассамблеей, Советом Безопасности и другими органами Организации Объединенных Наций законности стремления народов несамоуправляющихся территорий к осуществлению своего права на самоопределение логически предполагает в каждом конкретном случае предоставление этим народам всей соответствующей помощи;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="MercuryDocument">
+        <num>6.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="italic">выражает признательность</span> тем специализированным учреждениям и другим организациям системы Организации Объединенных Наций, которые продолжают сотрудничать с Организацией Объединенных Наций и региональными и субрегиональными организациями в деле осуществления резолюции <a href="https://undocs.org/ru/A/RES/1514(XV)">1514 (XV)</a> Генеральной Ассамблеи и других соответствующих резолюций Организации Объединенных Наций, и просит все специализированные учреждения и другие организации системы Организации Объединенных Наций выполнять соответствующие положения этих резолюций;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="MercuryDocument">
+        <num>7.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve">	<span class="italic">просит </span>специализированные учреждения и другие организации системы Организации Объединенных Наций и международные и региональные организации изучать и анализировать условия в каждой несамоуправляющейся территории, с тем чтобы они могли в индивидуальном порядке принимать надлежащие меры для ускорения прогресса в экономическом и социальном секторах этих территорий;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="MercuryDocument">
+        <num>8.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает</span> те специализированные учреждения и организации системы Организации Объединенных Наций, которые еще не оказывают помощь несамоуправляющимся территориям, начать делать это как можно скорее на индивидуальной основе;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_55" class="MercuryDocument">
+        <num>9.</num>
+        <content eId="para_55__content">
+          <p xml:space="preserve">	<span class="italic">просит </span>специализированные учреждения и другие организации и органы системы Организации Объединенных Наций, а также региональные организации, действуя в рамках своих соответствующих мандатов, усилить принимаемые меры поддержки и разработать надлежащие программы помощи тем территориям, которые остаются несамоуправляющимися, на индивидуальной основе для ускорения прогресса в экономическом и социальном секторах этих территорий;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_64" class="MercuryDocument">
+        <num>10.</num>
+        <list eId="para_64_list">
+          <intro eId="para_64_list_intro">
+            <p xml:space="preserve">	<span class="italic">просит </span>соответствующие специализированные учреждения и другие организации системы Организации Объединенных Наций предоставлять информацию относительно:</p>
+          </intro>
+          <point eId="para_64_list_point_a">
+            <num>a)</num>
+            <content eId="para_64_list_point_a_content">
+              <p xml:space="preserve">	экологических проблем, с которыми сталкиваются несамоуправляющиеся территории;</p>
+            </content>
+          </point>
+          <point eId="para_64_list_point_b">
+            <num>b)</num>
+            <content eId="para_64_list_point_b_content">
+              <p xml:space="preserve">	последствий для этих территорий таких стихийных бедствий, как ураганы и извержения вулканов, и таких экологических проблем, как эрозия пляжей и прибрежной полосы и засухи;</p>
+            </content>
+          </point>
+          <point eId="para_64_list_point_c">
+            <num>c)</num>
+            <content eId="para_64_list_point_c_content">
+              <p xml:space="preserve">	путей и средств оказания территориям содействия в борьбе с оборотом наркотиков, отмыванием денег и другими незаконными и преступными видами деятельности;</p>
+            </content>
+          </point>
+          <point eId="para_64_list_point_d">
+            <num>d)</num>
+            <content eId="para_64_list_point_d_content">
+              <p xml:space="preserve">	незаконной эксплуатации морских и других природных ресурсов территорий и необходимости использовать эти ресурсы на благо народов этих территорий;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_74" class="MercuryDocument">
+        <num>11.</num>
+        <content eId="para_74__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует </span>административным руководителям специализированных учреждений и других организаций системы Организации Объединенных Наций разработать, при активном содействии со стороны соответствующих региональных организаций и на индивидуальной основе, конкретные предложения по полному осуществлению соответствующих резолюций Организации Объединенных Наций и представить эти предложения их руководящим и директивным органам;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_85" class="MercuryDocument">
+        <num>12.</num>
+        <content eId="para_85__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует также</span> специализированным учреждениям и другим организациям системы Организации Объединенных Наций продолжать рассматривать на очередных совещаниях их руководящих органов вопрос об осуществлении резолюции <a href="https://undocs.org/ru/A/RES/1514(XV)">1514 (XV)</a> Генеральной Ассамблеи и других соответствующих резолюций Организации Объединенных Наций;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_97" class="MercuryDocument">
+        <num>13.</num>
+        <content eId="para_97__content">
+          <p xml:space="preserve">	<span class="italic">напоминает </span>о том, что Департаментом общественной информации и Департаментом по политическим вопросам Секретариата в консультации с Программой развития Организации Объединенных Наций, специализированными учреждениями и Специальным комитетом по вопросу о ходе осуществления Декларации о предоставлении независимости колониальным странам и народам были подготовлены информационный бюллетень о программах помощи, которыми могут воспользоваться несамоуправляющиеся территории, и его обновленная онлайн-версия, и просит обеспечить как можно более широкое распространение этих материалов;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_110" class="MercuryDocument">
+        <num>14.</num>
+        <content eId="para_110__content">
+          <p xml:space="preserve">	<span class="italic">приветствует</span> неустанные усилия Программы развития Организации Объединенных Наций по поддержанию тесных контактов между специализированными учреждениями и другими организациями системы Организации Объединенных Наций, включая Экономическую комиссию для Латинской Америки и Карибского бассейна и Экономическую и социальную комиссию для Азии и Тихого океана, и по оказанию помощи народам несамоуправляющихся территорий;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_124" class="MercuryDocument">
+        <num>15.</num>
+        <content eId="para_124__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует </span>несамоуправляющимся территориям принять меры по созданию или укреплению институциональной и нормативной базы, обеспечивающей подготовленность к бедствиям и ликвидацию их последствий;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_139" class="MercuryDocument">
+        <num>16.</num>
+        <content eId="para_139__content">
+          <p xml:space="preserve">	<span class="italic">просит </span>соответствующие управляющие державы продолжать сотрудничать со специализированными учреждениями и другими организациями системы Организации Объединенных Наций в рамках обязательств, закрепленных в статье 73 Устава Организации Объединенных Наций, в частности в подпункте <span class="italic">d</span>, и содействовать, когда это целесообразно, участию назначенных и избранных представителей несамоуправляющихся территорий в работе соответствующих совещаний и конференций специализированных учреждений и других организаций системы Организации Объединенных Наций согласно соответствующим резолюциям и решениям Организации Объединенных Наций, включая резолюции и решения Генеральной Ассамблеи и Специального комитета по конкретным территориям, с тем чтобы эти территории могли извлекать пользу из соответствующей деятельности указанных учреждений и организаций;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_155" class="MercuryDocument">
+        <num>17.</num>
+        <content eId="para_155__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> всем правительствам активизировать свои усилия в специализированных учреждениях и других организациях системы Организации Объединенных Наций, членами которых они являются, с тем чтобы вопросу предоставления помощи народам несамоуправляющихся территорий на индивидуальной основе уделялось первоочередное внимание;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_172" class="MercuryDocument">
+        <num>18.</num>
+        <content eId="para_172__content">
+          <p xml:space="preserve">	<span class="italic">обращает внимание</span> Специального комитета на настоящую резолюцию и обсуждение этого вопроса, состоявшееся на сессии Экономического и Социального Совета 2021 года;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_190" class="MercuryDocument">
+        <num>19.</num>
+        <content eId="para_190__content">
+          <p xml:space="preserve">	<span class="italic">напоминает </span>о принятии 16 мая 1998 года Экономической комиссией для Латинской Америки и Карибского бассейна резолюции 574 (XXVII)<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		См. <span class="italic">Официальные отчеты Экономического и Социального Совета, 1998 год, Дополнение № 21</span> (<a href="https://undocs.org/ru/E/1998/41">E/1998/41</a>), гл. III, разд. G.</p></authorialNote>, в которой Комиссия призвала создать необходимые механизмы, позволяющие ее ассоциированным членам, включая несамоуправляющиеся территории, участвовать, при соблюдении правил процедуры Генеральной Ассамблеи, в специальных сессиях Ассамблеи по обзору и оценке хода осуществления планов действий тех всемирных конференций Организации Объединенных Наций, в работе которых данные территории первоначально участвовали в качестве наблюдателей, и в работе Совета и его вспомогательных органов;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_209" class="MercuryDocument">
+        <num>20.</num>
+        <content eId="para_209__content">
+          <p xml:space="preserve">	<span class="italic">просит </span>Председателя Совета продолжать поддерживать тесные контакты по этим вопросам с Председателем Специального комитета и представлять Совету соответствующую информацию;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_229" class="MercuryDocument">
+        <num>21.</num>
+        <content eId="para_229__content">
+          <p xml:space="preserve">	<span class="italic">просит </span>Генерального секретаря следить за выполнением настоящей резолюции, уделяя особое внимание механизмам сотрудничества и интеграции для получения максимальной отдачи от деятельности по оказанию помощи, осуществляемой различными организациями системы Организации Объединенных Наций, и представить Совету доклад по этому вопросу на его сессии 2022 года;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_250" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_250__content">
+          <p xml:space="preserve">	<span class="italic">постановляет </span>постоянно держать перечисленные выше вопросы в поле зрения.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="12-e">12-e пленарное заседание</inline>
+        <eol />
+        <docDate date="2021-07-21" refersTo="#adoptionDate">21 июля 2021 года</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

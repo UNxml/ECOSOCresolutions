@@ -1,0 +1,746 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2021-06-25/2021-17/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2021-06-25/2021-17/"></FRBRuri>
+          <FRBRdate date="2021-06-25" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2021-06-25/2021-17/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2021-06-25/2021-17/rus@/"></FRBRuri>
+          <FRBRdate date="2021-07-14" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2021-06-25/2021-17/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2021-06-25/2021-17/rus@.xml"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Office for the Coordination of Humanitarian Affairs" showAs="UN. Office for the Coordination of Humanitarian Affairs" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Under-Secretary-General for Humanitarian Affairs and Emergency Relief Coordinator" showAs="UN. Under-Secretary-General for Humanitarian Affairs and Emergency Relief Coordinator" dictionary="DHLAUTH"></keyword>
+        <keyword value="Central Emergency Response Fund" showAs="Central Emergency Response Fund" dictionary="DHLAUTH"></keyword>
+        <keyword value="HUMANITARIAN ASSISTANCE" showAs="HUMANITARIAN ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="AID COORDINATION" showAs="AID COORDINATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COORDINATION WITHIN UN SYSTEM" showAs="COORDINATION WITHIN UN SYSTEM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMANITARIAN EMERGENCIES" showAs="HUMANITARIAN EMERGENCIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="EMERGENCY RELIEF" showAs="EMERGENCY RELIEF" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="9" showAs="Special economic, humanitarian and disaster relief assistance." shortForm="HUMANITARIAN ASSISTANCE" dictionary="E/2021/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2021-06-16" outcome="draftResolution" as="E/2021/L.24" by="submitted by the Vice-President of the Council, Pascale Baeriswyl (Switzerland) and on the basis of informal consultations" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2021-07-09" outcome="adopted" as="Adopted without vote, 10th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">21-09397 (R)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2021/17</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Экономический и Социальный Совет</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2021-07-14" class="rightSmall" refersTo="#dateOfIssuance">14 July 2021</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" eId="coverPage_1__session_1"></session>
+      </p>
+      <p>
+        <inline title="9" name="agenda item">Пункт 9 повестки дня</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Специальная экономическая и гуманитарная помощь и чрезвычайная помощь в случае бедствий</inline>
+      </p>
+      <p>
+        <docTitle></docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#plenaryMeeting">[по предложению, рассмотренному на пленарном заседании (<inline name="originating document">E/2021/L.24</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2021/17.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Укрепление координации в области чрезвычайной гуманитарной помощи Организации Объединенных Наций</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Экономический и Социальный Совет</span>,</p>
+      </formula>
+      <container name="подтверждая" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">подтверждая</span> резолюцию <a href="https://undocs.org/ru/A/RES/46/182">46/182</a> Генеральной Ассамблеи от 19 декабря 1991 года и руководящие принципы, содержащиеся в приложении к ней, и ссылаясь на другие соответствующие резолюции Ассамблеи и соответствующие резолюции и согласованные выводы Экономического и Социального Совета,</p>
+      </container>
+      <container name="подтверждая также" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">подтверждая также</span> принципы гуманности, нейтральности, беспристрастности и независимости при оказании гуманитарной помощи и необходимость того, чтобы все субъекты, занимающиеся оказанием гуманитарной помощи в условиях сложных чрезвычайных ситуаций, затяжных кризисов и стихийных бедствий, поддерживали и в полной мере соблюдали эти принципы,</p>
+      </container>
+      <container name="ссылаясь" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">ссылаясь</span> на свое решение 2021/222 от 20 апреля 2021 года, в котором он постановил, что тема для этапа рассмотрения гуманитарных вопросов на его сессии 2021 года будет называться «Укрепление гуманитарной помощи для преодоления трудностей в 2021 году и в последующий период: мобилизация усилий для соблюдения международного гуманитарного права, инклюзия, гендер, новаторство и партнерства» и что в рамках этого этапа он проведет три дискуссионных форума,</p>
+      </container>
+      <container name="выражая серьезную озабоченность" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">выражая серьезную озабоченность</span> по поводу возрастающих проблем, особенно в развивающихся странах, — проблем, которые вызваны тем, что бедствиями и другими чрезвычайными ситуациями гуманитарного характера затронуто беспрецедентное количество людей, и которые усугубляют экономическую отсталость, нищету и неравенство и повышают степень уязвимости населения при одновременном ослаблении его способности противостоять чрезвычайным ситуациям гуманитарного характера, особо отмечая необходимость действенного и эффективного предоставления на устойчивой основе ресурсов на цели снижения риска бедствий, обеспечения готовности к ним и оказания гуманитарной помощи, в том числе в развивающихся странах, и особо отмечая также, что для повышения устойчивости к потрясениям, в том числе в городах, субъектам, занимающимся деятельностью в области развития и в гуманитарной сфере, необходимо лучше взаимодействовать в вопросах предупреждения, обеспечения готовности и реагирования,</p>
+      </container>
+      <container name="выражая глубочайшую озабоченность" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">	выражая глубочайшую озабоченность</span> по поводу краткосрочных и долгосрочных гуманитарных последствий пандемии коронавирусной инфекции (COVID‑19) и создаваемых ею рисков, в том числе уже значительных уровней гуманитарных потребностей и потребностей в области развития и страданий затронутых людей и сообществ, признавая несоразмерное воздействие пандемии на женщин, детей и людей в уязвимом положении, будучи глубоко озабочен ростом потребностей в гуманитарной помощи и защите, в том числе из‑за роста насилия, включая сексуальное и гендерное насилие и насилие в отношении детей, и значительным воздействием на образование, особенно для девочек, а также высоким уровнем отсутствия продовольственной безопасности и недоедания и возрастающими рисками голода, потери средств к существованию и всеми негативными последствиями для здоровья, включая психическое здоровье, которые также усугубляются ослаблением систем здравоохранения, и последствиями вынужденного перемещения и связанными с ним рисками, учитывая усиление этих рисков и последствий в связи с вооруженными конфликтами, бедностью, стихийными бедствиями, насилием, негативными последствиями изменения климата и другими экологическими проблемами и учитывая также усилия и меры, предложенные Генеральным секретарем в ответ на последствия пандемии COVID‑19,</p>
+      </container>
+      <container name="подчеркивая" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">	подчеркивая</span>, что глобальная пандемия COVID‑19 требует эффективных глобальных ответных мер на основе единства, солидарности и активизации многостороннего сотрудничества, подчеркивая особую важность гуманитарной помощи в рамках этих мер и в этой связи учитывая усилия государств-членов по борьбе с пандемией COVID‑19, включая оказание гуманитарной помощи, и выражая признательность за усилия и поддержку системе Организации Объединенных Наций, Межучрежденческому постоянному комитету, Международному движению Красного Креста и Красного Полумесяца, неправительственным организациям, религиозным организациям, женским организациям, местным гуманитарным структурам, добровольцам и другим медицинским и гуманитарным организациям, а также медицинским и гуманитарным работникам, действующим на переднем крае гуманитарного реагирования в условиях пандемии, за их жизненно важную работу и подчеркивая важность принятия мер по обеспечению их защиты, выражая признательность находящимся на передовой и жизненно необходимым работникам по всему миру за их усилия, учитывая также всеобъемлющие меры реагирования на пандемию COVID‑19, включая активизацию сотрудничества и повышение согласованности, координации и взаимодополняемости действий гуманитарных организаций и организаций, занимающихся вопросами развития, в полном соответствии с их мандатами, и в этой связи подчеркивая важность сотрудничества в целях уменьшения нужды, уязвимости и рисков в течение многих лет и повышения устойчивости к потрясениям исходя из общего понимания обстоятельств и оперативных преимуществ каждой структуры,</p>
+      </container>
+      <container name="выражая серьезную озабоченность также" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">выражая серьезную озабоченность также </span>по поводу беспрецедентного числа людей, пострадавших и подвергнувшихся перемещению из‑за чрезвычайных ситуаций гуманитарного характера, в том числе зачастую затяжному перемещению в результате чрезвычайных ситуаций гуманитарного характера, которые становятся все более многочисленными, масштабными и тяжелыми и превышают имеющиеся возможности гуманитарного реагирования, признавая необходимость совместного несения расходов и с признательностью отмечая усилия, предпринимаемые на национальном и международном уровне для содействия созданию национального потенциала для решения связанных с этим сложных задач,</p>
+      </container>
+      <container name="отмечая" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">отмечая</span> необходимость повышения уровня информированности международного сообщества о проблеме внутреннего перемещения во всем мире, в том числе о положении миллионов людей, для которых эта ситуация приобрела затяжной характер, и о настоятельной необходимости оказания надлежащей гуманитарной помощи и предоставления защиты внутренне перемещенным лицам, оказания поддержки принимающим их сообществам, устранения коренных причин перемещения на раннем этапе, поиска долговременных решений в интересах внутренне перемещенных лиц в их собственных странах и устранения возможных препятствий в этом отношении, притом что на национальные власти возлагается основная обязанность и ответственность за предоставление защиты и гуманитарной помощи внутренне перемещенным лицам, находящимся под их юрисдикцией, с учетом особых потребностей таких лиц, равно как и за изыскание долгосрочных решений в их интересах, и признавая, что долговременные решения могут включать добровольное возвращение в безопасных и достойных условиях, а также добровольную местную интеграцию в тех районах, в которые эти лица были перемещены, или добровольное расселение в другой части страны, без ущерба для права внутренне перемещенных лиц на выезд из страны или поиск убежища,</p>
+      </container>
+      <container name="учитывая" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">учитывая</span> исключительно важную роль принимающих стран и сообществ, особенно в развивающихся странах, в деле удовлетворения потребностей населения, затронутого чрезвычайными ситуациями гуманитарного характера, и подтверждая необходимость оказания международным сообществом оперативной и скоординированной поддержки принимающим сторонам и затронутым странам, с тем чтобы в соответствующих случаях ускорить их развитие, повысить устойчивость к потрясениям и расширить возможности на национальном и местном уровнях для удовлетворения гуманитарных потребностей затронутого населения в соответствии с гуманитарными принципами,</p>
+      </container>
+      <container name="подчеркивая" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">подчеркивая</span> важность того, чтобы государства-члены, Организация Объединенных Наций и другие соответствующие субъекты продолжали прилагать усилия в целях повышения эффективности гуманитарной помощи с учетом потребностей, в том числе путем, в надлежащих случаях, укрепления потенциала гуманитарного реагирования, улучшения координации гуманитарной деятельности, совершенствования совместных оценок потребностей и анализа, составления планов гуманитарного реагирования с расстановкой приоритетов с учетом потребностей, отбора и применения соответствующих новшеств в деятельности по обеспечению готовности к гуманитарным кризисам, реагированию на них и ликвидации их последствий, повышения уровня транспарентности, уменьшения дублирования и управленческих расходов, укрепления, в надлежащих случаях, партнерских отношений с местными и национальными структурами, занимающимися оказанием помощи, повышения гибкости, предсказуемости и достаточности финансирования и усиления подотчетности всех заинтересованных сторон,</p>
+      </container>
+      <container name="учитывая" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">учитывая</span>, что развивающиеся страны, особенно наименее развитые страны и малые островные развивающиеся государства, по‑прежнему крайне уязвимы для неблагоприятных последствий изменения климата, повышения интенсивности и частотности экстремальных погодных и климатических явлений, а также для воздействия явлений Эль‑Ниньо и Ла‑Нинья, ухудшения состояния окружающей среды и людских и экономических потерь в результате опасных природных явлений, учитывая также рост интенсивности и частотности бедствий, которые в некоторых случаях могут вызвать перемещение населения, и учитывая далее необходимость углублять понимание многоаспектного характера бедствий и неблагоприятных последствий изменения климата для эффективного управления риском бедствий и, в надлежащих случаях, развивать международное сотрудничество в целях формирования и повышения их устойчивости к соответствующим потрясениям, включая обмен информацией, опытом и передовой практикой между странами, и отмечая созванный Генеральным секретарем в 2019 году в Нью‑Йорке саммит по мерам в области изменения климата,</p>
+      </container>
+      <container name="подтверждая" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">подтверждая</span> необходимость действенного осуществления Сендайской рамочной программы по снижению риска бедствий на 2015‒2030 годы<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		Резолюция <a href="https://undocs.org/ru/A/RES/69/283">69/283</a> Генеральной Ассамблеи, приложение II.</p></authorialNote>, особо отмечая, что решающее значение для снижения риска и уменьшения последствий бедствий и уменьшения подверженности опасным явлениям имеют обеспечение и повышение устойчивости к потрясениям на местном, национальном и региональном уровнях и в этой связи, с учетом того, что повышение устойчивости, в том числе посредством снижения риска бедствий и обеспечения готовности к ним, является многогранным процессом, который включает поддержку долгосрочного развития как гуманитарными организациями, так и организациями, занимающимися вопросами развития, подчеркивая необходимость увеличения инвестиций в создание национального и местного потенциала в области многоаспектных систем раннего оповещения, обеспечения готовности, предотвращения, смягчения последствий, реагирования, восстановления и реабилитации, особенно в развивающихся странах, а также инвестиций в создание регионального потенциала,</p>
+      </container>
+      <container name="учитывая" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">учитывая</span> в этой связи особое значение Парижского соглашения, принятого в контексте Рамочной конвенции Организации Объединенных Наций об изменении климата<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		См. <a href="https://undocs.org/ru/FCCC/CP/2015/10/Add.1">FCCC/CP/2015/10/Add.1</a>, решение 1/CP.21, приложение.</p></authorialNote>,</p>
+      </container>
+      <container name="ссылаясь" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">ссылаясь</span> на Женевские конвенции от 12 августа 1949 года<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		United Nations, <span class="italic">Treaty Series</span>, vol. 75, Nos. 970–973.</p></authorialNote> и Дополнительные протоколы к ним 1977 года<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		Ibid., vol. 1125, Nos. 17512 and 17513.</p></authorialNote> и напоминая об обязательстве при любых обстоятельствах соблюдать международное гуманитарное право и обеспечивать его соблюдение, а также об обязанности всех сторон в вооруженных конфликтах строго выполнять обязанности, применимые к ним согласно нормам международного гуманитарного права,</p>
+      </container>
+      <container name="подтверждая" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">подтверждая</span> непреходящую значимость Женевских конвенций, которые содержат жизненно необходимую правовую базу для защиты гражданского населения во время войны, включая оказание гуманитарной помощи,</p>
+      </container>
+      <container name="ссылаясь" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">ссылаясь</span> на применимые положения Женевских конвенций 1949 года и Дополнительных протоколов к ним 1977 и 2005 годов<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		Ibid., vol. 2404, No. 43425.</p></authorialNote>, а также на соответствующие нормы международного обычного права, касающиеся защиты раненых и больных, медицинского персонала и гуманитарного персонала, выполняющего исключительно медицинские обязанности, его транспортных средств и оборудования, а также больниц и других медицинских учреждений, и напоминая об обязательстве сторон в вооруженных конфликтах при любых обстоятельствах соблюдать международное гуманитарное право и обеспечивать его соблюдение и отмечая применимые нормы международного гуманитарного права, касающиеся ненаказания любых лиц, осуществляющих медицинскую деятельность в соответствии с врачебной этикой,</p>
+      </container>
+      <container name="решительно осуждая все" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">решительно осуждая все</span> нападения, угрозы и другие акты насилия в отношении раненых и больных, медицинского персонала и гуманитарного персонала, выполняющего исключительно медицинские обязанности, его транспортных средств, оборудования и материалов, а также больниц и других медицинских учреждений и выражая сожаление по поводу долгосрочных последствий таких нападений для гражданского населения и систем здравоохранения соответствующих стран,</p>
+      </container>
+      <container name="решительно осуждая также" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">решительно осуждая также</span> все нападения, угрозы и другие акты насилия в отношении гуманитарного персонала, а также его объектов, оборудования, транспортных средств и материалов и выражая глубокую обеспокоенность по поводу последствий таких нападений для предоставления гуманитарной помощи затронутому населению,</p>
+      </container>
+      <container name="решительно осуждая далее" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">решительно осуждая далее</span> все нападения, угрозы и другие акты насилия в отношении гражданских объектов, осуществляемые в нарушение применимых норм международного гуманитарного права,</p>
+      </container>
+      <container name="рекомендуя" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">рекомендуя</span> государствам-членам и соответствующим гуманитарным организациям вести с национальными учреждениями, включая в соответствующих случаях местные органы власти и частный сектор, совместную работу по изучению эффективных и отвечающих конкретным обстоятельствам путей повышения готовности к участившимся в городских районах чрезвычайным ситуациям, способным оказывать воздействие на предоставление основных услуг, от которых зависит жизнь людей, в частности на водо- и энергоснабжение и медицинское обслуживание,</p>
+      </container>
+      <container name="выражая глубокую обеспокоенность" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">выражая глубокую обеспокоенность</span> по поводу всех актов сексуального и гендерного насилия и с огромной обеспокоенностью отмечая, что акты насилия в отношении гражданского населения, включая сексуальное и гендерное насилие и насилие в отношении детей, продолжают преднамеренно совершаться в чрезвычайных ситуациях и что именно гражданские лица являются основными жертвами нарушений международного гуманитарного права, совершаемых сторонами в вооруженных конфликтах, и принимая во внимание, что, хотя от сексуального и гендерного насилия в непропорциональной мере страдают женщины и девочки, мужчины и мальчики также могут быть его жертвами и/или пережившими его лицами,</p>
+      </container>
+      <container name="учитывая" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">учитывая</span>, что чрезвычайные гуманитарные ситуации могут в непропорциональной мере сказываться на женщинах и девочках и что существенно важно обеспечивать расширение прав и возможностей женщин для того, чтобы они могли принимать реальное и значимое участие в процессах руководства и принятия решений, относящихся к таким чрезвычайным ситуациям, в том числе в деятельности по снижению риска бедствий, и при необходимости определять конкретные потребности и интересы женщин и девочек, в том числе в сфере образования и здравоохранения, и обеспечивать их надежный и надлежащий учет в стратегиях и мерах реагирования, а также поощрять и защищать права женщин и девочек в чрезвычайных ситуациях гуманитарного характера,</p>
+      </container>
+      <container name="подтверждая" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">подтверждая</span>, что конкретные потребности и приоритеты, а также возможности женщин, девочек, мужчин и мальчиков разного возраста следует выявлять, удовлетворять и всесторонне учитывать в программах гуманитарной помощи на всех этапах на комплексной и последовательной основе, принимая во внимание, что в чрезвычайных ситуациях гуманитарного характера существуют конкретные и повышенные риски для их безопасности, здоровья и благополучия,</p>
+      </container>
+      <container name="отмечая с серьезной обеспокоенностью" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">отмечая с серьезной обеспокоенностью</span>, что в условиях чрезвычайных ситуаций гуманитарного характера дети и молодые люди по‑прежнему не имеют доступа к инклюзивному и справедливому качественному образованию и возможности учиться в безопасной обстановке, принимая во внимание право ребенка на получение образования в условиях чрезвычайных ситуаций и то, что в результате влияния чрезвычайных ситуаций гуманитарного характера на образование возникают проблемы в области развития и проблемы гуманитарного характера, особо отмечая настоятельную необходимость увеличения объема финансирования и более эффективной организации качественного образования в условиях чрезвычайных ситуаций гуманитарного характера в качестве вклада в достижение целей в области устойчивого развития и в обеспечение инклюзивного и справедливого качественного образования и создание возможностей для обучения на протяжении всей жизни для всех, и обеспечения качественного образования для всех, включая дошкольное образование, а также высшее образование, профессиональную подготовку и образование, и в этой связи подтверждая, что образование должно быть направлено на содействие поддержанию мира, может способствовать восстановлению и реконструкции и ведет к созданию устойчивых к потрясениям и динамично развивающихся обществ,</p>
+      </container>
+      <container name="принимая во внимание" eId="container_26">
+        <p xml:space="preserve">	<span class="italic">принимая во внимание</span>, что качественное образование различными путями способствует повышению стойкости отдельных людей, сообществ и учреждений в условиях чрезвычайных гуманитарных ситуаций благодаря сохранению и упрочению социального капитала, наращиванию человеческого капитала и углублению знаний населения о гуманитарном реагировании, и принимая также во внимание, что благодаря тому, что качественное образование создает ощущение нормальной жизни, стабильности, упорядоченности и надежды на будущее, оно может способствовать смягчению социально-психологического воздействия вооруженных конфликтов и стихийных бедствий, и в этой связи особо отмечая ту важную роль, которую образование может также сыграть в поддержке предпринимаемых в чрезвычайных ситуациях усилий по предупреждению и смягчению последствий всяких актов насилия и жестокого обращения,</p>
+      </container>
+      <container name="принимая также во внимание" eId="container_27">
+        <p xml:space="preserve">	<span class="italic">принимая также во внимание</span> ту важную и позитивную роль, которую в оказании гуманитарной помощи играют молодые люди, которые могут быть проводниками инноваций и творческих решений, и необходимость привлекать молодых людей к деятельности в области реагирования, в том числе с помощью добровольческих программ,</p>
+      </container>
+      <container name="учитывая" eId="container_28">
+        <p xml:space="preserve">	<span class="italic">учитывая</span> опасности, с которыми пожилые люди сталкиваются в условиях чрезвычайных ситуаций гуманитарного характера, и то, что за годы жизни они накопили обширные знания, навыки и житейскую мудрость, которые имеют неоценимое значение для усилий по снижению риска бедствий и должны учитываться при разработке политики, планов и механизмов, в том числе в области раннего оповещения и снижения риска бедствий, и учитывая также необходимость принимать во внимание особые потребности пожилых людей,</p>
+      </container>
+      <container name="учитывая также" eId="container_29">
+        <p xml:space="preserve">	<span class="italic">учитывая также</span>, что чрезвычайные ситуации гуманитарного характера в несоразмерной степени сказываются на инвалидах, которые сталкиваются в таких ситуациях с многочисленными препятствиями в получении доступа к гуманитарной помощи, считая необходимым обеспечить, чтобы при осуществлении гуманитарной деятельности принимались во внимание соображения доступности и интересы инвалидов, подчеркивая в этой связи важность недискриминации, предметного участия в процессах принятия решений, а также сотрудничества и координации при оказании помощи в целях удовлетворения их потребностей и в связи с этим напоминая о Хартии об учете особых потребностей инвалидов в рамках гуманитарной деятельности,</p>
+      </container>
+      <container name="учитывая далее" eId="container_30">
+        <p xml:space="preserve">	<span class="italic">учитывая далее</span> первостепенную роль государств-членов в обеспечении готовности к вспышкам инфекционных заболеваний, в том числе к тем, которые перерастают в гуманитарные кризисы, и реагировании на них, особо отмечая исключительно важную роль, которую играют государства-члены, Всемирная организация здравоохранения в качестве направляющего и координирующего органа, руководящего международной работой в области здравоохранения согласно Международным медико-санитарным правилам (2005 год)<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		Всемирная организация здравоохранения, документ WHA58/2005/REC/1, резолюция 58.3, приложение.</p></authorialNote>, принятым Всемирной ассамблеей здравоохранения, гуманитарная система Организации Объединенных Наций, соответствующие международные и региональные организации, неправительственные организации, частный сектор и другие гуманитарные субъекты в деле оказания финансовой и технической помощи и помощи в натуральной форме для того, чтобы эти эпидемии или пандемии были взяты под контроль, и учитывая также необходимость укрепления местных и национальных систем здравоохранения, систем раннего уведомления и раннего оповещения, готовности, межсекторального потенциала реагирования и устойчивости к потрясениям в связи со вспышками инфекционных заболеваний, в том числе посредством наращивания потенциала в интересах развивающихся стран,</p>
+      </container>
+      <container name="с глубокой обеспокоенностью отмечая" eId="container_31">
+        <p xml:space="preserve">	<span class="italic">с глубокой обеспокоенностью отмечая</span>, что миллионы людей страдают острой или критической нехваткой продовольствия, и отмечая, что вооруженные конфликты, засуха, нищета и изменчивость цен на сырьевые товары относятся к числу факторов, вызывающих или усугубляющих голод и острое отсутствие продовольственной безопасности, и что для решения этой проблемы срочно необходимы дополнительные усилия, в том числе международная поддержка,</p>
+      </container>
+      <container name="подчеркивая" eId="container_32">
+        <p xml:space="preserve">	<span class="italic">подчеркивая</span>, что международному сообществу следует скоординированно поддерживать национальные и региональные усилия на основе оказания помощи, необходимой для увеличения устойчивого производства продуктов питания, а также доступности и потребления здоровой и питательной пищи, при полном учете важности гуманитарных принципов для гуманитарной помощи,</p>
+      </container>
+      <container name="учитывая" eId="container_33">
+        <p xml:space="preserve">	<span class="italic">учитывая</span>, что решающее значение для спасения человеческих жизней имеют вложение средств, когда это возможно, в создание учитывающих риски и устойчивых к потрясениям систем социальной защиты, защита источников средств к существованию и оказание чрезвычайной сельскохозяйственной помощи,</p>
+      </container>
+      <container name="учитывая также" eId="container_34">
+        <p xml:space="preserve">	<span class="italic">учитывая также</span> очевидную связь между реагированием на чрезвычайные ситуации, восстановлением, реконструкцией и развитием и подтверждая, что для укрепления слаженности действий и обеспечения плавного перехода от оказания чрезвычайной помощи к восстановлению, реконструкции и развитию помощь в чрезвычайных ситуациях будет оказываться таким образом, чтобы она способствовала восстановлению и долгосрочному развитию и чтобы в сочетании с мерами чрезвычайного характера принимались меры по обеспечению развития, что станет шагом в направлении устойчивого развития затронутых государств, и в этой связи особо отмечая важность более тесного сотрудничества между национальными заинтересованными сторонами, включая, сообразно обстоятельствам, частный сектор, и организациями, занимающимися гуманитарной деятельностью и вопросами развития,</p>
+      </container>
+      <container name="учитывая далее" eId="container_35">
+        <p xml:space="preserve">	<span class="italic">учитывая далее</span>, что непреложным условием для обеспечения устойчивости к потрясениям является наличие основы, обеспечивающей согласованность и взаимодополняемость гуманитарных подходов и подходов в области развития,</p>
+      </container>
+      <container name="рекомендуя" eId="container_36">
+        <p xml:space="preserve">	<span class="italic">рекомендуя</span> организациям, занимающимся гуманитарной деятельностью и вопросами развития, чтобы они, действуя на основе координации с государствами-членами, укрепляли сотрудничество в целях обеспечения того, чтобы все соответствующие субъекты, руководствуясь своими мандатами, работали сообща для достижения общих результатов, обеспечивающих уменьшение нужды, уязвимости и риска на многие годы вперед, на основе общего понимания конкретного контекста и оперативных преимуществ каждого субъекта в поддержку национальных приоритетов при полном учете важности гуманитарных принципов для гуманитарной деятельности,</p>
+      </container>
+      <container name="вновь заявляя" eId="container_37">
+        <p xml:space="preserve">	<span class="italic">вновь заявляя</span>, что государствам-членам, соответствующим организациям системы Организации Объединенных Наций и другим соответствующим субъектам необходимо повысить подотчетность на всех уровнях за удовлетворение нужд затронутого населения, и учитывая важность сделать процесс принятия решений инклюзивным,</p>
+      </container>
+      <container name="считая" eId="container_38">
+        <p xml:space="preserve">	<span class="italic">считая</span>, что государствам-членам и системе Организации Объединенных Наций необходимо продолжать работу в поддержку деятельности на национальном уровне на основе, в частности, укрепления партнерских связей на всех уровнях с соответствующими заинтересованными сторонами, включая, сообразно обстоятельствам, региональные организации, гражданское общество и частный сектор, и обеспечивать при этом, чтобы их совместные усилия соответствовали гуманитарным принципам,</p>
+      </container>
+      <container name="подчеркивая" eId="container_39">
+        <p xml:space="preserve">	<span class="italic">подчеркивая</span> необходимость того, чтобы государства-члены, Организация Объединенных Наций и соответствующие заинтересованные стороны сообща работали над тем, чтобы полнее удовлетворять особые потребности наиболее уязвимых групп населения, и тем самым способствовали достижению целей Повестки дня в области устойчивого развития на период до 2030 года<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		Резолюция <a href="https://undocs.org/ru/A/RES/70/1">70/1</a> Генеральной Ассамблеи.</p></authorialNote>, включая призыв никого не забыть,</p>
+      </container>
+      <container name="учитывая" eId="container_40">
+        <p xml:space="preserve">	<span class="italic">учитывая</span>, что для предотвращения стихийных бедствий и других чрезвычайных ситуаций и обеспечения готовности к ним необходимы всеохватный экономический рост и устойчивое развитие,</p>
+      </container>
+      <container name="подтверждая" eId="container_41">
+        <p xml:space="preserve">	<span class="italic">подтверждая</span> резолюцию <a href="https://undocs.org/ru/A/RES/70/1">70/1</a> Генеральной Ассамблеи от 25 сентября 2015 года под названием «Преобразование нашего мира: Повестка дня в области устойчивого развития на период до 2030 года», в которой она утвердила всеобъемлющий, рассчитанный на перспективу и предусматривающий учет интересов людей набор универсальных и ориентированных на преобразования целей и задач в области устойчивого развития, свое обязательство прилагать неустанные усилия для полного осуществления Повестки дня к 2030 году, признание ею того, что ликвидация нищеты во всех ее формах и проявлениях, включая крайнюю нищету, является важнейшей глобальной задачей и одним из необходимых условий устойчивого развития, и свою приверженность обеспечению устойчивого развития во всех трех его измерениях — экономическом, социальном и экологическом — сбалансированным и комплексным образом, развитию успехов, достигнутых в реализации целей в области развития, сформулированных в Декларации тысячелетия, и завершению работы, оставшейся незавершенной, в контексте этих целей,</p>
+      </container>
+      <container name="подтверждая также" eId="container_42">
+        <p xml:space="preserve">	<span class="italic">подтверждая также</span> резолюцию <a href="https://undocs.org/ru/A/RES/69/313">69/313</a> Генеральной Ассамблеи от 27 июля 2015 года, посвященную Аддис-Абебской программе действий третьей Международной конференции по финансированию развития, которая является неотъемлемой частью Повестки дня в области устойчивого развития на период до 2030 года, подкрепляет и дополняет ее и содействует адаптации предусмотренных в ней задач в отношении средств осуществления к конкретным стратегиям и мерам,</p>
+      </container>
+      <container name="ссылаясь" eId="container_43">
+        <p xml:space="preserve">	<span class="italic">ссылаясь </span>на Нью‑Йоркскую декларацию о беженцах и мигрантах, принятую на пленарном заседании высокого уровня Генеральной Ассамблеи для решения проблемы перемещений больших групп беженцев и мигрантов, состоявшемся 19 сентября 2016 года<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		Резолюция <a href="https://undocs.org/ru/A/RES/71/1">71/1</a> Генеральной Ассамблеи.</p></authorialNote>, включая комплекс мер в отношении беженцев, изложенный в приложении I к Нью‑Йоркской декларации, и с признательностью принимая к сведению глобальный договор о беженцах<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		<span class="italic">Официальные отчеты Генеральной Ассамблеи, семьдесят третья сессия, Дополнение № 12</span> (<a href="https://undocs.org/ru/A/73/12%20(Part%20I)">A/73/12 (Part I)</a> и <a href="https://undocs.org/ru/A/73/12 (Part II)">A/73/12 (Part II)</a>), часть II.</p></authorialNote>,</p>
+      </container>
+      <container name="приветствуя" eId="container_44">
+        <p xml:space="preserve">	<span class="italic">приветствуя</span> созыв Межправительственной конференции, состоявшейся 10 и 11 декабря 2018 года в Марракеше, Марокко, и напоминая о том, что ею был принят Глобальный договор о безопасной, упорядоченной и легальной миграции, известный также как Марракешский договор о миграции<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">		Резолюция <a href="https://undocs.org/ru/A/RES/73/195">73/195</a> Генеральной Ассамблеи, приложение.</p></authorialNote>,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_45" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="italic">принимает к сведению</span> доклад Генерального секретаря<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">		<a href="https://undocs.org/ru/A/76/74">A/76/74-E/2021/54</a>.</p></authorialNote>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> гуманитарной системе Организации Объединенных Наций, гуманитарным организациям и другим соответствующим организациям в процессе укрепления координации гуманитарной помощи на местах продолжать работать в тесной координации с национальными правительствами, принимая во внимание главную роль затронутого государства в принятии решения о такой помощи и в ее организации, координации и предоставлении на его территории;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> Организации Объединенных Наций продолжать укреплять усилия в области координации, готовности и реагирования, а также повышать качество и эффективность гуманитарной деятельности, в том числе за счет более активной поддержки и повышения взаимодополняемости усилий соответствующих заинтересованных сторон, участвующих в деятельности по реагированию, таких как правительства затронутых стран, региональные организации, доноры, организации, занимающиеся вопросами развития, гражданское общество и частный сектор, с тем чтобы использовать их сравнительные преимущества и ресурсы;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает</span>, что системе Организации Объединенных Наций следует продолжать укреплять и более эффективно использовать существующие возможности, знания и институты в гуманитарной области, в том числе, в соответствующих случаях, путем передачи на взаимосогласованных условиях технологий и предоставления специальных знаний развивающимся странам, рекомендует международному сообществу, соответствующим структурам системы Организации Объединенных Наций и другим соответствующим учреждениям и организациям оказывать национальным властям поддержку в реализации их программ по наращиванию потенциала, в том числе на основе технического сотрудничества и долгосрочных партнерских связей, а также посредством расширения их возможностей в плане повышения устойчивости к потрясениям, снижения риска бедствий, обеспечения готовности к бедствиям и реагирования на них и снижения риска перемещения людей в связи с бедствиями, и рекомендует государствам-членам создавать и укреплять благоприятные условия для наращивания потенциала их национальных и местных органов власти, национальных обществ Международного движения Красного Креста и Красного Полумесяца и национальных и местных неправительственных и общественных организаций в деле своевременного предоставления гуманитарной помощи;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_55" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_55__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> организациям, занимающимся гуманитарной деятельностью и вопросами развития, и другим соответствующим субъектам, сообразно обстоятельствам, по возможности рассматривать, действуя на основе консультаций с правительствами, общие задачи, в том числе задачи, которые касаются управления рисками и устойчивости к потрясениям и для решения которых требуются многолетнее планирование и увеличение инвестиций в обеспечение готовности на основе определения очередности потребностей и в соответствии с гуманитарными принципами, с тем чтобы уменьшить страдания, ущерб и совокупные последствия гуманитарных кризисов, и в этой связи особо отмечает, что для укрепления слаженности действий и обеспечения плавного перехода от оказания чрезвычайной помощи к долгосрочному развитию гуманитарное реагирование, особенно в условиях затяжных кризисов, должно планироваться в рамках соответствующего многолетнего цикла и увязываться с процессами планирования развития, в том числе направленного на устойчивое восстановление и обеспечение жизнестойкости, с одновременным привлечением основных заинтересованных сторон, включая, сообразно обстоятельствам, правительства, региональные организации и международные финансовые учреждения;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_60" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_60__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает</span> учреждения Организации Объединенных Наций и международные организации в рамках оказания гуманитарной помощи продолжать совершенствовать цикл программирования гуманитарной деятельности, включая разработку на основе консультаций с затронутыми государствами и более последовательное использование согласованных и комплексных инструментов оценки потребностей, таких как первоначальная многосекторальная оперативная оценка, проведение совместных объективных и своевременных оценок потребностей и составление планов гуманитарного реагирования с установленной приоритетностью потребностей, и в целях укрепления координации гуманитарной деятельности рекомендует международным гуманитарным организациям и соответствующим субъектам продолжать сотрудничать с национальными центральными и местными органами власти, а также с организациями гражданского общества и затронутыми группами населения, и признает роль затронутого населения в определении неотложных нужд и потребностей в целях обеспечения их эффективного удовлетворения;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_66" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_66__content">
+          <p xml:space="preserve">	<span class="italic">просит</span> Координатора чрезвычайной помощи продолжать направлять усилия по укреплению координации и повышению эффективности, результативности и контроля и учета гуманитарной помощи на основе, в частности, поддержания и расширения диалога с государствами-членами, в том числе по вопросам, касающимся процедур, деятельности и решений Межучрежденческого постоянного комитета, и дальнейшего укрепления — в рамках имеющихся ресурсов и мандатов — возможностей Координатора по гуманитарным вопросам в плане координации и в этой связи рекомендует государствам-членам, соответствующим организациям системы Организации Объединенных Наций и другим межправительственным организациям и соответствующим заинтересованным сторонам продолжать улучшать сотрудничество с Управлением по координации гуманитарных вопросов Секретариата с целью обеспечить действенное и эффективное оказание гуманитарной помощи пострадавшим;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_73" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_73__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает</span> расширять сотрудничество и шире координировать деятельность гуманитарных структур Организации Объединенных Наций, других соответствующих гуманитарных организаций и стран-доноров с затронутыми государствами, признает, что формы оказания гуманитарной помощи должны способствовать быстрому восстановлению, устойчивой реабилитации, реконструкции и долгосрочному развитию, и напоминает о том, что для быстрого восстановления требуется обеспечить своевременное, эффективное и предсказуемое финансирование, в зависимости от обстоятельств, гуманитарной деятельности или деятельности в области развития, с тем чтобы решить сохраняющие свою актуальность приоритетные задачи, связанные с оказанием гуманитарной помощи, восстановлением и выходом из кризиса, не забывая при этом об укреплении потенциала и устойчивости к потрясениям на национальном и местном уровнях;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_81" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_81__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span>, чтобы Организация Объединенных Наций и соответствующие гуманитарные организации, действуя в сотрудничестве и координации с государствами-членами и с учетом их национальных приоритетов, а также в соответствии с гуманитарными принципами гуманности, нейтральности, беспристрастности и независимости, поддерживали и укрепляли потенциал на национальном и местном уровнях, в том числе путем увеличения предсказуемого и при необходимости прямого финансирования партнеров на национальном и местном уровнях, включая женские группы, уделяя внимание возможностям обеспечения готовности, реагирования, восстановления и координации, и рекомендует государствам-членам продолжать предоставлять финансовые средства для гуманитарных объединенных фондов на уровне стран;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_90" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_90__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span>, чтобы государства-члены, система Организации Объединенных Наций и организации, занимающиеся гуманитарной деятельностью и вопросами развития, действуя согласно их соответствующим мандатам, продолжали оказывать государствам-членам, особенно развивающимся странам, поддержку в развитии новаторства как средства создания инструментов повышения готовности и сокращения факторов уязвимости и риска путем, в частности, увеличения инвестиций в национальный и местный потенциал в области научных исследований и разработок, способствующих новаторским решениям и доступу к информационно-коммуникационным технологиям, и выявляли, распространяли и применяли передовую практику и накопленный опыт, в частности в том, что касается систем раннего оповещения, научно обоснованных методов и реагирования на бедствия, информационно-коммуникационных систем, партнерских связей, закупок, сотрудничества и координации между учреждениями и организациями, и в этой связи отмечает важность того, чтобы в приоритетном порядке поощрять и поддерживать научный потенциал для содействия новаторству и созданию возможностей на местах, и рекомендует также проводить научные исследования и осуществлять меры реагирования на бедствия, и приветствует новаторские методы работы, основанные на знаниях людей, затронутых чрезвычайными ситуациями гуманитарного характера, и направленные на выработку рациональных с местной точки зрения решений и организацию производства жизненно необходимых товаров на местах без значительных материально-технических и инфраструктурных потребностей в сотрудничестве с учреждениями на национальном или, в зависимости от обстоятельств, местном уровне, с организациями, системами раннего оповещения и поставщиками услуг так, чтобы это по возможности способствовало их укреплению;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_100" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_100__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> государствам, а также Организации Объединенных Наций и гуманитарным организациям, согласно их мандатам, в соответствии с гуманитарными принципами и с учетом уроков пандемии COVID‑19, продолжать расширять применение упреждающих подходов, систем раннего оповещения и раннего реагирования, прогнозирования, профилактических мер и мер обеспечения готовности к чрезвычайным ситуациям, совершенствовать прогнозирование и анализ данных о рисках в различных секторах и укреплять систематический мониторинг рисков и системы раннего оповещения и повышать потенциал готовности на местном, национальном, региональном и глобальном уровнях, в том числе в том, что касается устранения рисков для здравоохранения и борьбы со вспышками заболеваний, и принимает к сведению соответствующие рамочные принципы и инициативы Организации Объединенных Наций, относящиеся к готовности к чрезвычайным ситуациям в области здравоохранения;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_111" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_111__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> государствам-членам и фондам, программам и специализированным учреждениям Организации Объединенных Наций более эффективно реагировать на потребности, связанные с гуманитарными ситуациями, в частности путем более широкого использования политики социальной защиты и механизмов денежных переводов, где это целесообразно, включая при необходимости разработку и осуществление программ многоцелевой денежной помощи в поддержку развития местных рынков и в интересах укрепления национального и местного потенциала, и в этой связи призывает гуманитарные организации системы Организации Объединенных Наций продолжать укреплять возможности в плане систематического предложения программ денежной помощи в дополнение к другим формам гуманитарной помощи, и принимает к сведению прилагаемые системой Организации Объединенных Наций усилия по повышению эффективности и результативности кассовых операций и укрепления подотчетности в связи с ними, включая переход к единой системе предоставления денежной помощи для приобретения продовольствия и непродовольственных товаров, а также доступа к услугам и другим видам поддержки наряду с прочими видами гуманитарной помощи;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_123" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_123__content">
+          <p xml:space="preserve">	<span class="italic">просит</span> Генерального секретаря представить в его следующем докладе, касающемся настоящей резолюции, обновленную информацию о применении упреждающих подходов к финансированию в связи с чрезвычайными ситуациями гуманитарного характера и рассмотреть вопрос о том, какие дополнительные усилия в этой связи могли бы быть предприняты гуманитарной системой Организации Объединенных Наций и другими соответствующими заинтересованными сторонами;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_136" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_136__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> государствам-членам, системе Организации Объединенных Наций и другим соответствующим организациям совершенствовать, где это возможно, оперативные и гибкие механизмы финансирования деятельности по обеспечению готовности, заблаговременных мер, раннего реагирования и быстрого восстановления и в этой связи рекомендует изучать, разрабатывать и, в соответствующих случаях, укреплять новаторские и упреждающие механизмы и подходы, как то финансирование с учетом прогнозов и финансирование деятельности по уменьшению риска, включая страхование риска бедствий, в целях уменьшения воздействия бедствий и удовлетворения гуманитарных потребностей;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_150" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_150__content">
+          <p xml:space="preserve">	<span class="italic">подтверждает</span>, что вложение средств в развитие навыков, систем и знаний на национальном и местном уровнях для повышения устойчивости к потрясениям и готовности позволит спасти жизнь людей, сократить расходы и сохранить достигнутые в области развития результаты, и в этой связи рекомендует изучать новаторские методы, включая механизмы финансирования с учетом упреждающих прогнозов, механизмы заблаговременных мер и страхование риска бедствий, для увеличения объема доступных государствам-членам ресурсов до того, как о возникновении бедствия можно будет говорить с полной уверенностью;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_165" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_165__content">
+          <p xml:space="preserve">	<span class="italic">считает необходимым</span> повышать гибкость финансирования, с тем чтобы можно было применять взаимодополняющий подход для результативного удовлетворения в достаточном объеме насущных потребностей всего населения, затронутого чрезвычайными ситуациями, включая ситуации, на урегулирование которых выделяется недостаточно средств, а также «забытые» и затяжные чрезвычайные ситуации, и для устранения глубинных причин кризисов, и рекомендует государствам-членам, системе Организации Объединенных Наций, частному сектору и другим соответствующим структурам в достаточной мере финансировать и вкладывать средства в обеспечение готовности и повышение устойчивости к потрясениям, используя для этого, в частности, средства на цели гуманитарной деятельности и деятельности в области развития, в соответствующих случаях реже прибегать к целевому финансированию и шире использовать методы многолетнего, коллективного и гибкого планирования и многолетнего финансирования, учитывая при этом необходимость обеспечения прозрачности в использовании основных и нецелевых средств;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_181" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_181__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает</span> необходимость активизации усилий по мобилизации ресурсов для решения проблем, обусловленных растущим дефицитом возможностей и ресурсов, в том числе с помощью дополнительных взносов со стороны нетрадиционных доноров, изучения новаторских механизмов, таких как упреждающее принятие решений с учетом рисков, гибкое финансирование в контексте призывов к предоставлению ресурсов на многолетней основе с использованием действующих инструментов, включая призывы к совместным действиям и срочные призывы, Центральный фонд реагирования на чрезвычайные ситуации и другие фонды, в частности объединенные фонды на уровне стран, а также дальнейшего расширения партнерских связей с государственным и частным секторами и базы доноров, с тем чтобы повысить предсказуемость и эффективность финансирования, диверсифицировать источники поступлений и содействовать развитию сотрудничества Юг — Юг и горизонтального и трехстороннего сотрудничества в глобальном масштабе, и в этой связи рекомендует государствам-членам, сообразно обстоятельствам, вносить средства в контексте гуманитарных призывов Организации Объединенных Наций;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_198" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_198__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением отмечает</span> значительные достижения Центрального фонда реагирования на чрезвычайные ситуации в деле обеспечения более своевременного и предсказуемого реагирования на чрезвычайные ситуации гуманитарного характера и в связи с этим приветствует призыв Генерального секретаря вдвое увеличить объем Фонда до 1 млрд долл. США и в этой связи рекомендует государствам-членам, а также другим соответствующим заинтересованным сторонам оказывать Фонду поддержку, и особо отмечает необходимость расширения и диверсификации базы поступлений Фонда;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_216" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_216__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает</span> государства-члены и соответствующие заинтересованные стороны мобилизовать ресурсы для поддержки планов гуманитарного реагирования на пандемию COVID‑19 и ее последствия, подчеркивая важность быстрого, гибкого, предсказуемого, достаточного и результативного финансирования, и для пополнения Центрального фонда реагирования на чрезвычайные ситуации и совместных страновых фондов, которые играют существенную роль в гуманитарном реагировании на COVID‑19, и призывает Организацию Объединенных Наций и соответствующих партнеров продолжать обеспечивать приоритетность наиболее насущных гуманитарных потребностей, с тем чтобы эти усилия не подменяли другую гуманитарную помощь и не отвлекали ресурсы от ранее существовавших гуманитарных потребностей, и рекомендует приложить усилия по обеспечению прозрачности в отношении того, где и как это финансирование приносит результаты;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_235" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_235__content">
+          <p xml:space="preserve">	<span class="italic">признает</span>, что эффективная гуманитарная помощь и подотчетность неотделимы друг от друга, и особо отмечает необходимость повышения уровня подотчетности участников гуманитарной деятельности на всех этапах оказания гуманитарной помощи;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_255" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_255__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> Организацию Объединенных Наций и ее партнеров по гуманитарной деятельности повышать подотчетность перед государствами-членами, включая затронутые государства, и всеми другими заинтересованными сторонами, включая местные органы власти, соответствующие местные организации и затронутое население, и продолжать наращивать усилия по гуманитарному реагированию, в том числе путем мониторинга и оценки деятельности по оказанию ими гуманитарной помощи, учета накопленного опыта при разработке и осуществлении программ и проведения консультаций с затронутым населением в интересах надлежащего удовлетворения его различных конкретных потребностей;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_276" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_276__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает</span> организации системы Организации Объединенных Наций и гуманитарные организации продолжать содействовать повышению эффективности оказания помощи посредством сокращения управленческих расходов, унификации соглашений о партнерстве, составления транспарентных и сопоставимых структур расходов и укрепления усилий по повышению подотчетности путем принятия дополнительных мер в целях уменьшения случаев мошенничества, расточительства, ненадлежащего применения, злоупотреблений и нецелевого использования предназначенной затронутому населению помощи и определения путей распространения, сообразно обстоятельствам, информации о соответствующих инцидентах и других данных среди учреждений Организации Объединенных Наций;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_298" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_298__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> организациям, занимающимся гуманитарной деятельностью и вопросами развития, рассмотреть вопрос о применении в координации с национальными органами власти инструментов управления рисками для улучшения использования исходных данных и анализа рисков, включая анализ глубинных причин кризисов, потребностей в финансировании гуманитарной деятельности, различных факторов уязвимости стран и регионов и опасностей, которым подвергается затронутое население, и в этой связи отмечает дальнейшее совершенствование существующих инструментов и новаторских механизмов, таких как упреждающие механизмы и механизмы финансирования деятельности по уменьшению риска и соответствующие подходы, создание сетей центров по снижению риска бедствий, комплексные меры по обеспечению готовности и индекс для управления рисками, посредством включения в них большего объема данных в разбивке по полу, возрасту и инвалидности, а также информацию о национальных и региональных условиях с учетом воздействия на окружающую среду;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_321" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_321__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает</span> необходимость действенного осуществления Сендайской рамочной программы по снижению риска бедствий на 2015–2030 годы<sup>1</sup> посредством, в частности, разработанных с учетом риска бедствий всеохватных мер в области политики, программ и инвестиций и других мер упреждающего характера, направленных на укрепление устойчивости к потрясениям, предотвращение новых и снижение существующих рисков, с тем чтобы свести к минимуму потребности в гуманитарной помощи, и обращает особое внимание на важность устранения коренных причин, обусловливающих риск бедствий, учета последствий изменения климата и включения проблематики снижения риска бедствий в деятельность по обеспечению готовности, реагированию и восстановлению с учетом долгосрочных климатических прогнозов и многокомпонентных оценок риска и особым вниманием к людям, находящимся в уязвимом положении, и в этой связи приветствует проведение в мае 2019 года в Женеве сессии Глобальной платформы действий по уменьшению опасности бедствий, и с удовлетворением принимает к сведению информацию о региональных и субрегиональных платформах по снижению риска бедствий, приведенную в пункте 37 резолюции <a href="https://undocs.org/ru/A/RES/73/231">73/231</a> Генеральной Ассамблеи от 20 декабря 2018 года о снижении риска бедствий;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_345" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_345__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует, </span>чтобы государства-члены и соответствующие региональные и международные организации, действуя в соответствии с их конкретными мандатами, продолжали содействовать адаптации к последствиям изменения климата и их смягчению и укреплять системы снижения риска бедствий и системы раннего оповещения, охватывающие разные виды угроз, в целях сведения к минимуму гуманитарных последствий стихийных бедствий, в том числе тех, которые связаны с сохраняющимся неблагоприятным воздействием изменения климата и другими причинами стихийных бедствий, такими как экстремальные метеорологические явления и сейсмическая активность, особенно для тех стран, которые находятся в наиболее уязвимом положении, что будет также способствовать достижению целей в области устойчивого развития, и призывает все соответствующие заинтересованные стороны продолжать поддерживать усилия государств-членов, особенно развивающихся стран, по укреплению своего потенциала в плане подготовки к бедствиям и реагирования на них и по выявлению и мониторингу риска бедствий, в том числе подверженности опасным природным явлениям;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_370" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_370__content">
+          <p xml:space="preserve">	<span class="italic">считает необходимым</span> укреплять международное сотрудничество, особенно с наименее развитыми странами и малыми островными развивающимися государствами и их населением, для того чтобы на устойчивой основе предупреждать возникновение факторов уязвимости, связанных с изменением климата и стихийными бедствиями, сокращать число этих факторов и устранять их;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_396" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_396__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает</span> государства-члены, гуманитарные организации и организации по вопросам развития, а также другие заинтересованные стороны обеспечивать применение на глобальном, региональном, национальном и местном уровнях комплексного и последовательного подхода в отношении явлений Эль‑Ниньо и Ла‑Нинья и подобных или связанных с ними явлений, в том числе путем совершенствования работы в областях прогнозирования, раннего предупреждения, предотвращения, обеспечения готовности, повышения жизнестойкости и своевременного реагирования, дополняемой эффективным руководством и предсказуемым, достаточным и своевременным финансированием, когда это возможно, в регионах, странах и населенных пунктах, которые могут быть затронуты этими явлениями, отмечает работу специальных посланников Генерального секретаря по явлению Эль‑Ниньо и по проблеме изменения климата и принимает к сведению подготовленный ими план действий и разработанные Межучрежденческим постоянным комитетом стандартные оперативные процедуры в отношении явления «Эль‑Ниньо — южное колебание»;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_423" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_423__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает</span> государства-члены, Организацию Объединенных Наций и организации, занимающиеся гуманитарной деятельностью и вопросами развития, к тому, чтобы они, действуя в соответствии с их конкретными мандатами, продолжали поддерживать системы раннего оповещения, охватывающие разные виды угроз, и содействовать усилиям по заблаговременному реагированию, в том числе посредством основанного на прогнозах финансирования на глобальном, региональном и национальном уровнях, предоставления климатологических услуг, составления карт подверженных рискам и уязвимых районов, использования новых технологий и протоколов связи, а также учета соображений климатоустойчивости в работе механизмов заблаговременного реагирования и повышения готовности к принятию мер реагирования, с тем чтобы находящиеся в уязвимом положении люди, подверженные рискам опасных природных явлений, в том числе в географически удаленных районах, получали от систем раннего оповещения своевременную, достоверную, точную и имеющую практическую ценность информацию для заблаговременного реагирования, и рекомендует международному сообществу при необходимости продолжать поддерживать национальные усилия в этой связи;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_451" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_451__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает</span> Организацию Объединенных Наций и гуманитарные организации еще более активизировать усилия в поддержку действий национальных правительств по определению имеющихся возможностей в плане готовности к чрезвычайным ситуациям и реагирования на них на страновом и региональном уровнях, с тем чтобы лучше сочетать имеющиеся на национальном и международном уровнях возможности реагирования на бедствия, и в этой связи рекомендует государствам-членам при необходимости способствовать применению Руководства по внутригосударственному содействию и регулированию международной помощи при чрезвычайных ситуациях и помощи в проведении первичных восстановительных работ и включать управление рисками в национальные планы развития;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_480" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_480__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует </span>государствам-членам тесно взаимодействовать с Организацией Объединенных Наций и другими соответствующими субъектами, включая, сообразно обстоятельствам, частный сектор и местные структуры, в целях содействия более результативному обеспечению готовности к чрезвычайным ситуациям в городских районах и реагированию на них и в этой связи ссылается на Новую программу развития городов, принятую на Конференции Организации Объединенных Наций по жилью и устойчивому городскому развитию (Хабитат III), состоявшейся 17–20 октября 2016 года в Кито, Эквадор<authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">		Резолюция <a href="https://undocs.org/ru/A/RES/71/256">71/256</a> Генеральной Ассамблеи, приложение.</p></authorialNote>, и принимает к сведению обязательства, которые в ней взяли на себя государства-члены в отношении лиц, затрагиваемых гуманитарными кризисами в городских районах;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_510" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_510__content">
+          <p xml:space="preserve">	<span class="italic">призывает </span>все стороны вооруженных конфликтов соблюдать нормы международного гуманитарного права, а все государства — обеспечивать их соблюдение и выполнять свои обязательства согласно применимым нормам права прав человека и беженского права;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_541" class="SingleTxt">
+        <num>32.</num>
+        <content eId="para_541__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует </span>государствам активизировать усилия по эффективному осуществлению Женевских конвенций от 12 августа 1949 года<sup>3</sup>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_573" class="SingleTxt">
+        <num>33.</num>
+        <content eId="para_573__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> все государства и стороны соблюдать положения международного гуманитарного права, в том числе все Женевские конвенции от 12 августа 1949 года, в частности Женевскую конвенцию о защите гражданского населения во время войны<authorialNote marker="13" placement="bottom" eId="authorialNote_13"><p xml:space="preserve">		United Nations, <span class="italic">Treaty Series</span>, vol. 75, No. 973.</p></authorialNote>, для защиты гражданского населения на оккупированных территориях и оказания ему помощи и в этой связи настоятельно призывает международное сообщество и соответствующие организации системы Организации Объединенных Наций расширять гуманитарную помощь гражданскому населению в таких ситуациях;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_606" class="SingleTxt">
+        <num>34.</num>
+        <content eId="para_606__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает</span> всех субъектов, занимающихся оказанием гуманитарной помощи, полностью поддерживать и должным образом соблюдать руководящие принципы, содержащиеся в приложении к резолюции <a href="https://undocs.org/ru/A/RES/46/182">46/182</a> Генеральной Ассамблеи, в том числе гуманитарные принципы гуманности, нейтральности и беспристрастности, а также принцип независимости, закрепленный Ассамблеей в ее резолюции <a href="https://undocs.org/ru/A/RES/58/114">58/114</a> от 17 декабря 2003 года;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_640" class="SingleTxt">
+        <num>35.</num>
+        <content eId="para_640__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> все государства и стороны в сложных чрезвычайных гуманитарных ситуациях, в частности в условиях вооруженного конфликта и в постконфликтных ситуациях, в странах, где действует гуманитарный персонал, руководствоваться соответствующими положениями международного права и национального законодательства, всецело сотрудничать с Организацией Объединенных Наций и другими гуманитарными учреждениями и организациями и обеспечивать безопасный и беспрепятственный доступ гуманитарного персонала, а также доставку предметов снабжения и оборудования, с тем чтобы такой персонал мог эффективно выполнять свою задачу по оказанию помощи пострадавшему гражданскому населению, в том числе беженцам и внутренне перемещенным лицам;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_675" class="SingleTxt">
+        <num>36.</num>
+        <content eId="para_675__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> государствам-членам, Организации Объединенных Наций и гуманитарным организациям и далее общими усилиями обеспечивать понимание и удовлетворение различных потребностей пострадавшего населения, особенно наиболее уязвимых его групп, в защите в условиях гуманитарных кризисов и добиваться надлежащего учета этих потребностей в работе по обеспечению готовности, реагированию и восстановлению;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_711" class="SingleTxt">
+        <num>37.</num>
+        <content eId="para_711__content">
+          <p xml:space="preserve">	<span class="italic">подтверждает</span> обязанность всех государств и сторон вооруженных конфликтов защищать гражданское население в соответствии с международным гуманитарным правом, призывает государства, являющиеся сторонами вооруженного конфликта, принимать все необходимые меры для усиления защиты гражданского населения и предлагает всем государствам поощрять культуру защиты, принимая во внимание особые потребности женщин, детей, пожилых людей и инвалидов;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_748" class="SingleTxt">
+        <num>38.</num>
+        <content eId="para_748__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает</span> государства-члены продолжать принимать необходимые меры для обеспечения защиты раненых и больных, а также безопасности и защиты медицинского персонала и гуманитарного персонала, выполняющего исключительно медицинские обязанности, его объектов, оборудования, транспортных средств и материалов, в том числе путем разработки эффективных мер по предотвращению и пресечению актов насилия, нападений и угроз в отношении него, и в этой связи подтверждает, что государствам необходимо обеспечивать, чтобы лица, виновные в нарушении международного гуманитарного права, не действовали безнаказанно, и настоятельно призывает государства проводить в пределах их юрисдикции полные, оперативные, беспристрастные и результативные расследования нарушений норм международного гуманитарного права в целях привлечения виновных к ответственности согласно национальным законам и обязательствам по международному праву;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_786" class="SingleTxt">
+        <num>39.</num>
+        <content eId="para_786__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает также</span> государства-члены наращивать усилия по обеспечению безопасности и защиты гуманитарного персонала, в том числе национального и набираемого на местах персонала, его объектов, оборудования, транспортных средств и материалов, в том числе путем разработки эффективных мер по предотвращению и пресечению актов насилия, нападений и угроз в отношении него, просит Генерального секретаря активизировать работу по усилению безопасности и защиты персонала, участвующего в гуманитарных операциях Организации Объединенных Наций, и в этой связи подтверждает, что государствам необходимо обеспечивать, чтобы лица, виновные в нарушении международного гуманитарного права, не действовали безнаказанно, и настоятельно призывает далее государства проводить в пределах их юрисдикции полные, оперативные, беспристрастные и результативные расследования нарушений норм международного гуманитарного права в целях привлечения виновных к ответственности согласно национальным законам и обязательствам по международному праву;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_825" class="SingleTxt">
+        <num>40.</num>
+        <content eId="para_825__content">
+          <p xml:space="preserve">	<span class="italic">самым решительным образом осуждает</span> вызывающее тревогу увеличение числа угроз в отношении гуманитарного персонала, персонала Организации Объединенных Наций и связанного с ней персонала и умышленных нападений на такой персонал, акты терроризма и нападения на гуманитарные колонны и беспрецедентное увеличение масштабов и усложняющийся характер угроз, которым подвергается такой персонал, в частности вызывающую беспокойство тенденцию к совершению нападений на него по политическим или уголовным мотивам, включая нападения экстремистов;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_865" class="SingleTxt">
+        <num>41.</num>
+        <content eId="para_865__content">
+          <p xml:space="preserve">	<span class="italic">обращает особое внимание</span> на исключительную важность того, чтобы гражданские лица, особенно женщины и дети, были защищены от любых форм надругательств и эксплуатации, включая торговлю людьми, и могли получать надлежащую помощь, приветствует решимость Генерального секретаря в полной мере осуществлять принятую в Организации Объединенных Наций политику абсолютной нетерпимости в отношении сексуальной эксплуатации и сексуальных надругательств в рамках всей системы, отмечает принятые Межучрежденческим постоянным комитетом шесть основных принципов, касающихся сексуальной эксплуатации и сексуальных надругательств<authorialNote marker="14" placement="bottom" eId="authorialNote_14"><p xml:space="preserve">		<a href="https://undocs.org/ru/A/57/465">A/57/465</a>, приложение I, п. 10 а).</p></authorialNote>, подчеркивает, что в центре таких усилий должны быть интересы жертв и пострадавших, и рекомендует государствам-членам активизировать усилия по предупреждению эксплуатации и надругательств и обеспечить привлечение виновных к ответственности;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_906" class="SingleTxt">
+        <num>42.</num>
+        <content eId="para_906__content">
+          <p xml:space="preserve">	<span class="italic">просит </span>государства-члены, соответствующие организации и других соответствующих субъектов содействовать обеспечению гендерного равенства и расширению прав и возможностей женщин и девочек на всех этапах гуманитарного реагирования посредством равноценного учета конкретных потребностей женщин, девочек, мужчин и мальчиков, проблем, с которыми они сталкиваются, и их возможностей справляться с ними, принимая во внимание возраст и инвалидность, в том числе за счет совершенствования сбора, анализа, представления и применения данных в разбивке по полу, возрасту и инвалидности, а также с учетом информации, предоставляемой затронутыми государствами, и обеспечить всестороннее, эффективное и полноценное участие женщин в процессах принятия решений в интересах повышения эффективности гуманитарной деятельности и рекомендует шире применять на протяжении всего цикла программирования гуманитарной деятельности гендерно-возрастной маркер и другие, в том числе учитывающие возраст и инвалидность, инструменты;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_948" class="SingleTxt">
+        <num>43.</num>
+        <content eId="para_948__content">
+          <p xml:space="preserve">	<span class="italic">признает </span>исключительно важную роль, которую женщины могут играть в составе групп оперативного реагирования, и рекомендует государствам-членам в сотрудничестве с соответствующими гуманитарными организациями системы Организации Объединенных Наций поощрять лидерство женщин и их участие в процессах планирования, разработки, осуществления и координации стратегий реагирования, в том числе на основе укрепления долгосрочных партнерских связей с национальными и местными учреждениями, включая, сообразно обстоятельствам, национальные и местные женские организации и субъектов гражданского общества, и их потенциала, а также посредством дальнейшего содействия программированию гуманитарной деятельности с учетом гендерного фактора;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_991" class="SingleTxt">
+        <num>44.</num>
+        <content eId="para_991__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает</span> государства-члены с момента возникновения чрезвычайных ситуаций обеспечивать, действуя в сотрудничестве с соответствующими организациями системы Организации Объединенных Наций и другими гуманитарными организациями, надежный и безопасный доступ к услугам по охране сексуального и репродуктивного здоровья, а также к базовым медицинским услугам и услугам психосоциальной поддержки и в этой связи принимает во внимание важность соответствующих услуг для результативного удовлетворения потребностей женщин и девочек-подростков и детей раннего возраста и их защиты от предотвратимой смертности и заболеваемости в связи с чрезвычайными ситуациями гуманитарного характера;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1035" class="SingleTxt">
+        <num>45.</num>
+        <content eId="para_1035__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает</span> государства-члены продолжать принимать меры по предупреждению актов сексуального и гендерного насилия в условиях чрезвычайных ситуаций гуманитарного характера, расследованию таких актов и при необходимости судебному преследованию за них, обеспечивая при этом безопасность людей, ставших жертвами такого насилия и переживших его, и призывает государства-члены с момента возникновения чрезвычайной ситуации укреплять меры реагирования в сотрудничестве с соответствующими организациями, например, при необходимости, с местными женскими организациями, в том числе с помощью мер, призванных обеспечить реальный доступ к качественным медицинским, юридическим и психосоциальным услугам и услугам материальной поддержки всем лицам, пострадавшим от такого насилия, пережившим его и затронутых им — с учетом конкретных потребностей женщин, мужчин, девочек и мальчиков — и действий, имеющих целью обеспечить снижение риска сексуального и гендерного насилия в процессе оказания гуманитарной помощи, призывает государства-члены и соответствующие организации совершенствовать координацию и укреплять потенциал и в этой связи настоятельно призывает все соответствующие заинтересованные стороны рассмотреть вопрос о том, чтобы включиться в работу в этой области, в том числе путем принятия мер по предотвращению, смягчению последствий и реагированию, и призывает государства-члены лучше использовать имеющиеся механизмы сбора данных и отмечает инициативу «Призыв к действиям»;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1080" class="SingleTxt">
+        <num>46.</num>
+        <content eId="para_1080__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает также</span> государства-члены продолжать предпринимать усилия в целях предупреждения нарушений и злоупотреблений в отношении детей в чрезвычайных ситуациях гуманитарного характера, реагирования на них, их расследования и судебного преследования за них, призывает государства-члены и соответствующие организации укреплять службы оказания поддержки детям, затронутым чрезвычайными ситуациями гуманитарного характера, включая детей, пострадавших от насилия и злоупотреблений, и призывает принимать более действенные меры реагирования, включая меры по защите, руководствуясь Конвенцией о правах ребенка<authorialNote marker="15" placement="bottom" eId="authorialNote_15"><p xml:space="preserve">		United Nations, <span class="italic">Treaty Series</span>, vol. 1577, No. 27531.</p></authorialNote>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1126" class="SingleTxt">
+        <num>47.</num>
+        <content eId="para_1126__content">
+          <p xml:space="preserve">	<span class="italic">подтверждает </span>право на образование для всех и важность обеспечения в условиях чрезвычайных гуманитарных ситуаций безопасной и благоприятной для учебы обстановки и качественного образования на всех уровнях и для всех возрастных групп, в том числе для девочек, включая, по возможности, профессионально-техническое образование, в частности за счет обеспечения достаточного объема финансирования и инвестиций в инфраструктуру, в интересах всеобщего благополучия, в этой связи признает, что доступ к качественному образованию в условиях чрезвычайных гуманитарных ситуаций может способствовать достижению долгосрочных целей в области развития, и вновь заявляет о необходимости защиты учебных заведений и уважительного отношения к ним в соответствии с нормами международного гуманитарного права, решительно осуждает все нападения на школы и использование школ в военных целях, когда это делается в нарушение норм международного гуманитарного права, и поощряет усилия по обеспечению безопасной и защищенной среды в школах в условиях чрезвычайных гуманитарных ситуаций;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1173" class="SingleTxt">
+        <num>48.</num>
+        <content eId="para_1173__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает</span> государства-члены, Организацию Объединенных Наций и соответствующие гуманитарные организации расширить поддержку гуманитарных программ и мер реагирования в целях обеспечения безопасного, общедоступного, справедливого и качественного образования на всех уровнях и для всех возрастов, чтобы смягчить прямые и косвенные последствия закрытия школ и других учебных заведений вследствие, помимо прочего, пандемии COVID‑19, и обеспечить дальнейшее предоставление образовательных услуг, в особенности для женщин и детей, особенно девочек;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1221" class="SingleTxt">
+        <num>49.</num>
+        <content eId="para_1221__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает</span> государства-члены, систему Организации Объединенных Наций и другие соответствующие гуманитарные организации обеспечивать значимое участие инвалидов во всех процессах, консультациях и этапах принятия решений по вопросам готовности к гуманитарным кризисам и реагирования на них, принимать все надлежащие меры для ликвидации дискриминации в отношении инвалидов, включая множественные и перекрестные формы дискриминации, своевременно оказывать инвалидам надлежащую помощь в рамках мер гуманитарного реагирования с учетом их особых потребностей посредством предоставления полноценного доступа к услугам здравоохранения, образования, психологической поддержки, реинтеграции и реабилитации и принимать упреждающие меры для защиты их от злоупотреблений и эксплуатации и в этой связи ссылается на Конвенцию о правах инвалидов<authorialNote marker="16" placement="bottom" eId="authorialNote_16"><p xml:space="preserve">		Ibid., vol. 2515, No. 44910.</p></authorialNote>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1270" class="SingleTxt">
+        <num>50.</num>
+        <content eId="para_1270__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует </span>государствам-членам обеспечивать в сотрудничестве с соответствующими гуманитарными организациями системы Организации Объединенных Наций, чтобы основные гуманитарные потребности затронутого населения, в том числе в чистой воде, продовольствии, жилье, энергии, медицинском обслуживании, включая охрану сексуального и репродуктивного здоровья, в питании, включая программы школьного питания, образовании и защите, удовлетворялись в рамках гуманитарного реагирования, в частности посредством своевременного предоставления достаточных ресурсов, и обеспечивать при этом полное соответствие их совместных усилий гуманитарным принципам;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1320" class="SingleTxt">
+        <num>51.</num>
+        <content eId="para_1320__content">
+          <p xml:space="preserve">	<span class="italic">учитывает</span>, что чрезвычайные ситуации гуманитарного характера ослабляют способность систем здравоохранения оказывать необходимую для спасения людей помощь и удовлетворять текущие потребности людей, страдающих от неинфекционных заболеваний, и создают препятствия для развития здравоохранения, учитывает также, что устойчивые к потрясениям системы здравоохранения могут смягчить последствия бедствий и других чрезвычайных ситуаций гуманитарного характера, подчеркивает необходимость создания на национальном, региональном и глобальном уровнях устойчивых к потрясениям систем здравоохранения, особенно создания потенциала, в частности в интересах развивающихся стран, призывает Всемирную организацию здравоохранения, гуманитарную систему Организации Объединенных Наций, другие гуманитарные организации и других соответствующих субъектов продолжать укреплять сотрудничество и координацию и потенциал реагирования, с тем чтобы оказывать государствам-членам по их просьбе помощь в деле эффективного реагирования на вспышки инфекционных заболеваний и чрезвычайные ситуации, чреватые последствиями для здоровья в соответствующих гуманитарных ситуациях, в соответствии с Международными медико-санитарными правилами (2005 год), принятыми Всемирной организацией здравоохранения<sup>6</sup>, не допуская того, чтобы оказание гуманитарной помощи вело к непреднамеренному ослаблению систем здравоохранения, и принимает к сведению пересмотренный общесистемный протокол введения в действие расширенных общесистемных мер гуманитарного реагирования для контроля за вспышками инфекционных заболеваний;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1371" class="SingleTxt">
+        <num>52.</num>
+        <content eId="para_1371__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает </span>необходимость содействовать обеспечению готовности на глобальном уровне и поддерживать разработку мер, включая механизмы быстрого реагирования, в целях реагирования на чрезвычайные ситуации в сфере здравоохранения и настоятельно призывает государства-члены активизировать усилия по укреплению глобального потенциала реагирования;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1423" class="SingleTxt">
+        <num>53.</num>
+        <content eId="para_1423__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает</span> государства-члены и гуманитарные организации в рамках гуманитарного реагирования учитывать риски для защиты и здоровья людей в процессах оценки гуманитарных потребностей и планирования, осуществления и мониторинга гуманитарной работы и оценки ее результатов, а также активизировать усилия по укреплению местных и национальных систем, потенциала и местных сообществ и структур, включая организации, возглавляемые женщинами;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1476" class="SingleTxt">
+        <num>54.</num>
+        <content eId="para_1476__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно</span> призывает государства-члены, Организацию Объединенных Наций и гуманитарные организации активизировать усилия по предоставлению и финансированию межсекторальных услуг по охране психического здоровья и психосоциальной поддержке, которые должны быть качественными, учитывать контекст и предоставляться с соблюдением прав человека, должны учитываться в оценках гуманитарных потребностей и гуманитарных программах по обеспечению готовности, реагированию и восстановлению, с тем чтобы удовлетворить потребности всех пострадавших групп населения в гуманитарных ситуациях, и поддерживать местные и общественные усилия, значение которых будет возрастать в деле смягчения и устранения дополнительных психологических последствий пандемии COVID‑19, и призывает Организацию Объединенных Наций и все соответствующие гуманитарные организации соответствующим образом расширить возможности для охраны психического здоровья и психосоциальной поддержки и сообщать о программах и финансировании в области охраны психического здоровья и психосоциальной поддержки, предназначенных для восстановления и повышения устойчивости психического здоровья и психосоциального благополучия всех пострадавших, учитывая при этом также последствия для гуманитарного персонала и добровольцев;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1530" class="SingleTxt">
+        <num>55.</num>
+        <content eId="para_1530__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> к укреплению национальных и многосторонних подходов и международного сотрудничества, в частности Инициативы по ускорению доступа к средствам для борьбы с COVID‑19 (ACT-A) с ее механизмом COVAX и других соответствующих инициатив, с тем чтобы обеспечить справедливый, равноправный, эффективный и недорогой доступ к безопасным, действенным и эффективным вакцинам от COVID‑19, и подчеркивает значение широкой иммунизации против COVID‑19 как глобального общественного блага в области здравоохранения, необходимого для того, чтобы предотвратить, сдержать и остановить передачу инфекции и таким образом положить конец пандемии, отмечает также важность общедоступных национальных программ вакцинации, охватывающих перемещенных лиц, мигрантов и беженцев, и призывает учреждения Организации Объединенных Наций и другие соответствующие заинтересованные стороны оказывать государствам-членам поддержку в полной координации с соответствующим национальным правительством;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1585" class="SingleTxt">
+        <num>56.</num>
+        <content eId="para_1585__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> все государства и стороны в сложных чрезвычайных гуманитарных ситуациях, особенно в вооруженных конфликтах и постконфликтных ситуациях, обеспечивать безопасный и беспрепятственный доступ для гуманитарного и медицинского персонала, в том числе направленного в связи с пандемией COVID‑19, а также их транспортных средств, материалов и оборудования и содействовать работе и обеспечивать возможность функционирования транспорта и каналов материально-технического снабжения, с тем чтобы такой персонал мог эффективно и безопасно выполнять возложенную на него задачу оказания помощи пострадавшему населению, и в этой связи подтверждает также необходимость принятия мер для того, чтобы обеспечить уважение статуса и защиту такого персонала, больниц и других медицинских учреждений, а также их транспортных средств, материалов и оборудования, и призывает все стороны вооруженных конфликтов в соответствии с международным гуманитарным правом защищать гражданскую инфраструктуру, необходимую для оказания гуманитарной помощи и основных услуг, включая вакцинацию и соответствующее медицинское обслуживание;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1641" class="SingleTxt">
+        <num>57.</num>
+        <content eId="para_1641__content">
+          <p xml:space="preserve">	<span class="italic">призывает </span>государства-члены, Организацию Объединенных Наций, организации, занимающиеся гуманитарной деятельностью и вопросами развития, и других соответствующих субъектов без промедления и действенно реагировать на обострение проблемы отсутствия продовольственной безопасности в мире, которая затрагивает миллионы людей, особенно тех, кто страдает от голода или сталкивается с его реальной угрозой, и принимать меры по ее предупреждению и подготовке к ней, в том числе посредством расширения сотрудничества в гуманитарной области и в области развития и предоставления крайне необходимых средств для удовлетворения потребностей затронутого населения, и призывает государства-члены и стороны вооруженных конфликтов соблюдать нормы международного гуманитарного права и обеспечивать безопасный и беспрепятственный гуманитарный доступ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1698" class="SingleTxt">
+        <num>58.</num>
+        <content eId="para_1698__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> государства-члены, стороны вооруженных конфликтов, Организацию Объединенных Наций и другие организации, занимающиеся гуманитарной деятельностью и вопросами развития, международные финансовые учреждения и других соответствующих субъектов срочно активизировать меры по предотвращению голода и сокращению и решению проблемы острого отсутствия продовольственной безопасности, которая усугубляется последствиями пандемии COVID‑19, и в этой связи решительно осуждает умышленное совершение действий, подвергающих гражданское население голоду, в качестве метода ведения войны, запрещенного международным гуманитарным правом, и призывает активнее применять упреждающие подходы с использованием межсекторального раннего оповещения и анализа, подчеркивает необходимость устранения коренных причин отсутствия продовольственной безопасности, в том числе посредством инвестирования в гуманитарную помощь и защиту, сельское хозяйство, производство продовольствия и доступ к безопасной, достаточной и питательной пище, источники средств к существованию, адаптацию к изменению климата, здравоохранение, водоснабжение, санитарию и гигиену, питание, энергетику, сокращение бедности и устранение вооруженных конфликтов, и призывает активизировать усилия по расширению прав и возможностей сельских женщин как основных участников процесса достижения продовольственной безопасности и улучшения питания;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1756" class="SingleTxt">
+        <num>59.</num>
+        <content eId="para_1756__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает</span> государства-члены, Организацию Объединенных Наций и другие соответствующие организации предпринимать дальнейшие шаги по налаживанию в чрезвычайных ситуациях скоординированного реагирования на потребности пострадавшего населения в продовольствии и питании и по обеспечению надлежащего питания для женщин, детей, в особенности в период беременности и кормления, когда увеличиваются потребности в питательных веществах, уделяя особое внимание питанию в первые 1000 дней жизни, и стремиться при этом обеспечивать, чтобы такие шаги способствовали осуществлению национальных стратегий и программ, направленных на укрепление продовольственной безопасности и улучшение питания;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1815" class="SingleTxt">
+        <num>60.</num>
+        <content eId="para_1815__content">
+          <p xml:space="preserve">	<span class="italic">призывает </span>государства-члены принять меры в целях обеспечения международной защиты и уважения прав беженцев, в том числе соблюдения принципа невыдворения и надлежащих стандартов обращения в соответствии с международным правом, включая, когда это применимо, Конвенцию о статусе беженцев 1951 года<authorialNote marker="17" placement="bottom" eId="authorialNote_17"><p xml:space="preserve">		Ibid., vol. 189, No. 2545.</p></authorialNote> и международные обязательства в области прав человека;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1875" class="SingleTxt">
+        <num>61.</num>
+        <content eId="para_1875__content">
+          <p xml:space="preserve">	<span class="italic">принимает к сведению</span>, что для решения проблем, связанных с перемещением множества беженцев и затяжным характером беженских ситуаций, в 15 странах и двух регионах был реализован комплекс мер в отношении беженцев;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1936" class="SingleTxt">
+        <num>62.</num>
+        <content eId="para_1936__content">
+          <p xml:space="preserve">	<span class="italic">просит </span>государства-члены активизировать усилия по усилению защиты внутренне перемещенных лиц, оказанию им помощи и повышению их самостоятельности и устойчивости к потрясениям, в том числе на основе соответствующего сотрудничества с организациями системы Организации Объединенных Наций и другими соответствующими субъектами, включая частный сектор и международные финансовые учреждения, особенно в ситуациях длительного пребывания людей в положении перемещенных лиц, путем принятия и осуществления по возможности на многолетней основе политики и стратегий в соответствии с национальными и региональными рамочными документами, принимая при этом во внимание Руководящие принципы по вопросу о перемещении лиц внутри страны<authorialNote marker="18" placement="bottom" eId="authorialNote_18"><p xml:space="preserve">		<a href="https://undocs.org/ru/E/CN.4/1998/53/Add.2">E/CN.4/1998/53/Add.2</a>, приложение.</p></authorialNote>, которые являются важным международным рамочным документом по защите внутренне перемещенных лиц, и рекомендует активизировать взаимодействие в интересах урегулирования и решения проблемы внутреннего перемещения и в этой связи признает центральную роль национальных и местных органов власти и институтов в деле удовлетворения конкретных потребностей внутренне перемещенных лиц, дальнейшем устранении барьеров и препятствий, сказывающихся на оказании поддержки внутренне перемещенным лицам и принимающих их сообществам, включая наблюдающиеся в городских условиях трудности, и в поиске долговременных решений проблемы перемещения посредством, в частности, продолжения и расширения международной помощи в ответ на соответствующие просьбы в целях наращивания потенциала государств;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1998" class="SingleTxt">
+        <num>63.</num>
+        <content eId="para_1998__content">
+          <p xml:space="preserve">	<span class="italic">принимает во внимание</span> возрастание интенсивности и частоты бедствий, в том числе связанных с негативными последствиями изменения климата, которые в некоторых случаях могут вызвать перемещение населения и создать дополнительную нагрузку на принимающие сообщества, рекомендует Организации Объединенных Наций и всем соответствующим субъектам активизировать усилия, направленные на удовлетворение потребностей лиц, перемещенных из‑за подобных бедствий, и отмечает в этой связи важность обмена передовыми наработками для предотвращения таких перемещений и подготовки к ним;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2061" class="SingleTxt">
+        <num>64.</num>
+        <content eId="para_2061__content">
+          <p xml:space="preserve">	<span class="italic">принимает во внимание также </span>значительное увеличение масштабов вынужденного перемещения во всем мире и подчеркивает необходимость применять комплексный подход к удовлетворению конкретных потребностей беженцев, внутренне перемещенных лиц и принимающих их сообществ при планировании гуманитарной деятельности и деятельности в области развития;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2125" class="SingleTxt">
+        <num>65.</num>
+        <content eId="para_2125__content">
+          <p xml:space="preserve">	<span class="italic">призывает </span>государства-члены, соответствующие организации и соответствующих субъектов учитывать и устранять последствия чрезвычайных ситуаций гуманитарного характера для мигрантов, в частности мигрантов, которые находятся в уязвимом положении, и активизировать согласованные международные действия по предоставлению им помощи и защиты в сотрудничестве с национальными властями;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2190" class="SingleTxt">
+        <num>66.</num>
+        <content eId="para_2190__content">
+          <p xml:space="preserve">	<span class="italic">учитывает</span> важность ранней регистрации и эффективных систем регистрации как инструмента защиты и средства количественной оценки и анализа потребностей для предоставления и распределения гуманитарной помощи, отмечает многочисленные и разнообразные трудности, с которыми сталкиваются беженцы, по‑прежнему не имеющие каких-либо документов, подтверждающих их статус, и обращает особое внимание на важность повышения ответственности за обеспечение того, чтобы гуманитарная помощь доходила до тех, кому она предназначена;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2256" class="SingleTxt">
+        <num>67.</num>
+        <content eId="para_2256__content">
+          <p xml:space="preserve">	<span class="italic">отмечает</span>, что 23 и 24 мая 2016 года в Стамбуле, Турция, был проведен первый Всемирный гуманитарный саммит;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2323" class="SingleTxt">
+        <num>68.</num>
+        <content eId="para_2323__content">
+          <p xml:space="preserve">	<span class="italic">просит </span>Организацию Объединенных Наций продолжать изыскивать решения для повышения ее способности набирать и оперативно и гибко использовать обладающий надлежащей квалификацией и опытом гуманитарный персонал старшего звена, уделяя первоочередное внимание соответствию самым высоким стандартам работоспособности, компетентности и добросовестности с должным учетом соображений гендерного равенства и подбором сотрудников на как можно более широкой географической основе;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2391" class="SingleTxt">
+        <num>69.</num>
+        <content eId="para_2391__content">
+          <p xml:space="preserve">	<span class="italic">признает</span>, что разнообразие состава гуманитарного персонала полезно для гуманитарной деятельности и понимания специфики положения в развивающихся странах, и просит Генерального секретаря продолжать решать проблему недостаточного географического разнообразия и недостаточной гендерной сбалансированности гуманитарного персонала Секретариата и других гуманитарных учреждений Организации Объединенных Наций, в особенности персонала категории специалистов и выше, и сообщать о конкретных мерах, принятых в этой связи, в своем ежегодном докладе;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2460" class="SingleTxt">
+        <num>70.</num>
+        <content eId="para_2460__content">
+          <p xml:space="preserve">	<span class="italic">просит </span>Генерального секретаря сообщить о конкретных принятых мерах и успехах, достигнутых в осуществлении настоящей резолюции и последующих мер в связи с ней, в его следующем докладе Экономическому и Социальному Совету и Генеральной Ассамблее об укреплении координации в области чрезвычайной гуманитарной помощи Организации Объединенных Наций;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2530" class="SingleTxt">
+        <num>71.</num>
+        <content eId="para_2530__content">
+          <p xml:space="preserve">	<span class="italic">просит </span>председателей Экономического и Социального Совета и Генеральной Ассамблеи продолжать следить за тем, чтобы резолюции Совета и Ассамблеи об укреплении координации в области чрезвычайной гуманитарной помощи Организации Объединенных Наций не дублировали, а дополняли друг друга.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="10-e">10-e пленарное заседание</inline>
+        <eol />
+        <docDate date="2021-06-25" refersTo="#adoptionDate">25 июня 2021 года</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
