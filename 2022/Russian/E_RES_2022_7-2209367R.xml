@@ -1,0 +1,596 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-06-08/2022-7/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-06-08/2022-7/"></FRBRuri>
+          <FRBRdate date="2022-06-08" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-06-08/2022-7/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-06-08/2022-7/rus@/"></FRBRuri>
+          <FRBRdate date="2022-06-20" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-06-08/2022-7/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-06-08/2022-7/rus@.xml"></FRBRuri>
+          <FRBRdate date="2022-07-05" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="1" href="http://metadata.un.org/sdg/1" showAs="sdg_1" dictionary="SDGO"></keyword>
+        <keyword value="poverty" href="http://eurovoc.europa.eu/2281" showAs="poverty" dictionary="EuroVoc"></keyword>
+        <keyword value="poverty" href="http://metadata.un.org/thesaurus/1005064" showAs="poverty" dictionary="UNBIS"></keyword>
+        <keyword value="poverty_mitigation" href="http://metadata.un.org/thesaurus/1005065" showAs="poverty_mitigation" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="2030 Agenda for Sustainable Development" showAs="2030 Agenda for Sustainable Development" dictionary="DHLAUTH"></keyword>
+        <keyword value="SOCIAL DEVELOPMENT" showAs="SOCIAL DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ECONOMIC DEVELOPMENT" showAs="ECONOMIC DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="POVERTY MITIGATION" showAs="POVERTY MITIGATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COVID-19" showAs="COVID-19" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUNGER" showAs="HUNGER" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="19b" showAs="Social development." shortForm="SOCIAL DEVELOPMENT" dictionary="E/2022/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="0001-01-01" as="E/2022/26" by="​UN. Commission for Social Development" outcome="recommendedForAdoption"/>
+        <step date="2022-06-20" outcome="adopted" as="Adopted without vote, 20th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">22-09367 (R)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2022/7</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Экономический и Социальный Совет</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-06-20" class="rightSmall" refersTo="#dateOfIssuance">20 June 2022</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" eId="coverPage_1__session_1"></session>
+      </p>
+      <p>
+        <inline title="19 b)" name="agenda item">Пункт 19 b) повестки дня</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Социальные вопросы и вопросы прав человека: социальное развитие</inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Экономическим и Социальным Советом 8 июня 2022 года</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="Commission for Social Development">[по рекомендации Комиссии социального развития (<inline name="originating document">E/2022/26</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2022/7.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Всеохватное и устойчивое восстановление после COVID‑19 для создания стабильных источников средств к существованию и обеспечения благополучия и достоинства для всех: ликвидация нищеты и голода во всех их формах и проявлениях в интересах достижения целей Повестки дня на период до 2030 года</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Экономический и Социальный Совет,</span>
+        </p>
+      </formula>
+      <container name="ссылаясь" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">ссылаясь</span> на свое решение 2021/8 от 8 июня 2021 года, в котором он постановил, что приоритетная тема сессии Комиссии социального развития 2022 года будет называться «Всеохватное и устойчивое восстановление после COVID‑19 для создания стабильных источников средств к существованию и обеспечения благополучия и достоинства для всех: ликвидация нищеты и голода во всех их формах и проявлениях в интересах достижения целей Повестки дня на период до 2030 года»,</p>
+      </container>
+      <container name="ссылаясь также" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">ссылаясь также</span> на решения Всемирной встречи на высшем уровне в интересах социального развития и двадцать четвертой специальной сессии Генеральной Ассамблеи, </p>
+      </container>
+      <container name="вновь подтверждая" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">вновь подтверждая</span>, что Копенгагенская декларация о социальном развитии и Программа действий Всемирной встречи на высшем уровне в интересах социального развития<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		<span class="italic">Доклад Всемирной встречи на высшем уровне в интересах социального развития, Копенгаген, 6–12 марта 1995 года</span> (издание Организации Объединенных Наций, в продаже под № R.96.IV.8), гл. I, резолюция 1, приложения I и II.</p></authorialNote> и дальнейшие инициативы в интересах социального развития, принятые Генеральной Ассамблеей на ее двадцать четвертой специальной сессии<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		Резолюция <a href="https://undocs.org/ru/A/RES/S-24/2">S-24/2</a> Генеральной Ассамблеи, приложение.</p></authorialNote>, являются основой для деятельности по поощрению социального развития для всех на национальном и международном уровнях, и призывая к продолжению глобального диалога по вопросам социального развития, </p>
+      </container>
+      <container name="приветствуя" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">приветствуя</span> прогресс, достигнутый на пути к полному осуществлению Копенгагенской декларации и Программы действий на основе согласованных действий на национальном, региональном и глобальном уровнях, и выражая обеспокоенность по поводу того, что по прошествии более 20 лет после проведения Всемирной встречи на высшем уровне в интересах социального развития прогресс остается медленным и неравномерным и что сохраняются крупные пробелы, и приветствуя далее созыв 1 декабря 2020 года совместного неофициального совещания высокого уровня Генеральной Ассамблеи и Экономического и Социального Совета в ознаменование двадцать пятой годовщины Всемирной встречи на высшем уровне в интересах социального развития,</p>
+      </container>
+      <container name="ссылаясь" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">ссылаясь</span> на резолюцию <a href="https://undocs.org/ru/A/RES/70/1">70/1</a> Генеральной Ассамблеи «Преобразование нашего мира: Повестка дня в области устойчивого развития на период до 2030 года» от 25 сентября 2015 года, в которой Ассамблея утвердила всеобъемлющий, рассчитанный на перспективу и предусматривающий учет интересов людей набор универсальных и ориентированных на преобразования целей и задач в области устойчивого развития и подтвердила свое обязательство прилагать неустанные усилия для полного осуществления Повестки дня к 2030 году и обеспечения того, чтобы никто не был забыт, а также признала, что ликвидация нищеты во всех ее формах и проявлениях, включая крайнюю нищету, является важнейшей глобальной задачей и одним из необходимых условий устойчивого развития,</p>
+      </container>
+      <container name="ссылаясь также" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">ссылаясь также</span> на резолюцию <a href="https://undocs.org/ru/A/RES/69/313">69/313</a> Генеральной Ассамблеи от 27 июля 2015 года, касающуюся Аддис-Абебской программы действий третьей Международной конференции по финансированию развития, которая является неотъемлемой частью Повестки дня в области устойчивого развития на период до 2030 года, </p>
+      </container>
+      <container name="ссылаясь далее" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">ссылаясь далее</span> на резолюции Генеральной Ассамблеи <a href="https://undocs.org/ru/A/RES/74/270">74/270</a> от 2 апреля 2020 года о глобальной солидарности в борьбе с коронавирусным заболеванием (COVID‑19), <a href="https://undocs.org/ru/A/RES/74/274">74/274</a> от 20 апреля 2020 года о международном сотрудничестве в целях обеспечения глобального доступа к лекарствам, вакцинам и медицинскому оборудованию для противодействия COVID‑19, <a href="https://undocs.org/ru/A/RES/74/306">74/306</a> «Всеобъемлющие и скоординированные меры реагирования на пандемию коронавирусного заболевания (COVID‑19)» от 11 сентября 2020 года и <a href="https://undocs.org/ru/A/RES/74/307">74/307</a> «Объединенный ответ на глобальные угрозы здоровью: борьба с коронавирусным заболеванием 2019 года (COVID‑19)» от 11 сентября 2020 года,</p>
+      </container>
+      <container name="ссылаясь" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">ссылаясь </span>на резолюцию <a href="https://undocs.org/ru/A/RES/74/4">74/4</a> Генеральной Ассамблеи «Политическая декларация политического форума высокого уровня по устойчивому развитию, созванного под эгидой Генеральной Ассамблеи» от 15 октября 2019 года,</p>
+      </container>
+      <container name="ссылаясь также" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">ссылаясь также</span> на декларацию министров, принятую на этапе заседаний высокого уровня сессии Экономического и Социального Совета 2021 года и на созываемом под эгидой Совета политическом форуме высокого уровня по устойчивому развитию 2021 года на тему «Устойчивое и прочное восстановление после пандемии COVID‑19, способствующее устойчивому развитию в его экономическом, социальном и экологическом аспектах: разработка инклюзивного и эффективного курса на выполнение Повестки дня на период до 2030 года в контексте десятилетия действий и свершений во имя устойчивого развития»,</p>
+      </container>
+      <container name="ссылаясь далее" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">ссылаясь далее</span> на Международный пакт об экономических, социальных и культурных правах<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		См. резолюцию <a href="https://undocs.org/ru/A/RES/2200(XXI)">2200 A (XXI)</a> Генеральной Ассамблеи, приложение.</p></authorialNote>, в котором, в частности, признается право каждого человека на достаточный жизненный уровень для него самого и его семьи, право на труд, право на социальное обеспечение и право на образование, и отмечая актуальность этих положений для разработки социальной политики, в том числе ориентированных на семью политики и мер в области социальной защиты, </p>
+      </container>
+      <container name="отмечая" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">отмечая</span> важную работу, проделанную Статистической комиссией в связи с Повесткой дня в области устойчивого развития на период до 2030 года, в результате которой были разработаны глобальные показатели, включая показатели уровня социальной защиты, </p>
+      </container>
+      <container name="учитывая" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">учитывая</span> особую актуальность Декларации столетия Международной организации труда о будущем сферы труда<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		<a href="https://undocs.org/ru/A/73/918">A/73/918</a>, приложение.</p></authorialNote> для социально справедливого перехода к устойчивому развитию и ссылаясь на резолюцию <a href="https://undocs.org/ru/A/RES/73/327">73/327</a> Генеральной Ассамблеи от 25 июля 2019 года, в которой Ассамблея постановила объявить 2021 год Международным годом ликвидации детского труда,</p>
+      </container>
+      <container name="подтверждая" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">подтверждая</span> важность поддержки осуществления Повестки дня Африканского союза на период до 2063 года, а также первого десятилетнего плана ее осуществления, которые представляют собой стратегическую программу действий по обеспечению позитивных социально-экономических преобразований в Африке на протяжении следующих 50 лет и его континентальной программы, отраженной в резолюциях Генеральной Ассамблеи по вопросу о Новом партнерстве в интересах развития Африки<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		<a href="https://undocs.org/ru/A/57/304">A/57/304</a>, приложение.</p></authorialNote>, и региональных инициатив, таких как Комплексная программа развития сельского хозяйства в Африке, </p>
+      </container>
+      <container name="ссылаясь" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">ссылаясь</span> на руководящие принципы по вопросу о крайней бедности и правах человека<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		<a href="https://undocs.org/ru/A/HRC/21/39">A/HRC/21/39</a>.</p></authorialNote>, принятые Советом по правам человека в его резолюции <a href="https://undocs.org/ru/A/HRC/RES/21/11">21/11</a><authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		См. <span class="italic">Официальные отчеты Генеральной Ассамблеи, шестьдесят седьмая сессия, Дополнение № 53А</span> (<a href="https://undocs.org/ru/A/67/53/Add.1">A/67/53/Add.1</a>), гл. II. </p></authorialNote> и призванные служить полезным инструментом для государств-членов в деле разработки и осуществления, в зависимости от обстоятельств, политики в области сокращения масштабов и ликвидации нищеты, и призывая государства-члены следовать этим руководящим принципам, </p>
+      </container>
+      <container name="считая" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">считая</span>, что пандемия коронавирусного заболевания (COVID‑19) является одной из величайших в истории Организации Объединенных Наций общемировых проблем, и отмечая с глубокой обеспокоенностью ее последствия для физического и психического здоровья и благополучия людей и смертность, вызванную этой пандемией, а также ее негативное воздействие на удовлетворение глобальных гуманитарных потребностей, осуществление прав человека и положение во всех сферах жизни общества, в том числе на возможность получать средства к существованию, продовольственную безопасность и питание и образование, обострение проблем нищеты и голода, дестабилизацию экономики, торговли, общественных систем и окружающей среды и усиление экономического и социального неравенства внутри стран и между ними, что сводит на нет с таким трудом достигнутые успехи в области развития и препятствует прогрессу в осуществлении Повестки дня в области устойчивого развития на период до 2030 года и реализации всех ее целей и задач, и учитывая также, что пандемия COVID‑19 требует принятия ответных мер всеми странами мира на основе единства, солидарности и активизации многостороннего сотрудничества,</p>
+      </container>
+      <container name="подчеркивая" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">подчеркивая</span>, что в этот критический момент десятилетия действий по достижению целей в области устойчивого развития к 2030 году концепции, принципы и обязательства, изложенные на Всемирной встрече на высшем уровне в интересах социального развития, сохраняют свою актуальность и играют центральную роль в решении возникающих глобальных проблем, и напоминая, что социальная политика играет ключевую роль в устранении непосредственных последствий социально-экономических кризисов и в разработке стратегий выхода из них, </p>
+      </container>
+      <container name="подтверждая" eId="container_18">
+        <p xml:space="preserve">
+          <span class="italic">	подтверждая</span> обязательство ликвидировать нищету во всех ее формах и проявлениях, в том числе путем искоренения крайней нищеты к 2030 году, что все люди должны пользоваться правом на базовый уровень жизни, в том числе благодаря системам социальной защиты, а также обязательство покончить с голодом, достичь продовольственной безопасности и положить конец всем формам недоедания, </p>
+      </container>
+      <container name="учитывая" eId="container_19">
+        <p xml:space="preserve">
+          <span class="italic">	учитывая</span>, что для достижения целей в области устойчивого развития осталось менее 10 лет, а пандемия COVID‑19 замедлила прогресс в достижении многих целей к 2030 году, включая цель 1, предусматривающую повсеместную ликвидацию нищеты во всех ее формах, цель 2, предусматривающую ликвидацию голода, обеспечение продовольственной безопасности и улучшение питания и содействие устойчивому развитию сельского хозяйства, и цель 10, предусматривающую сокращение неравенства внутри стран и между ними, и учитывая также, что от пандемии больше всего пострадали те, кто относится к уязвимым группам или находится в уязвимом положении,</p>
+      </container>
+      <container name="с глубокой озабоченностью отмечая" eId="container_20">
+        <p xml:space="preserve">
+          <span class="italic">	с глубокой озабоченностью отмечая</span>, что пандемия COVID‑19 увеличила количество живущих в нищете людей, а также привела к дальнейшему обнищанию тех, кто и до этого жил в нищете, и с глубокой озабоченностью отмечая также, что те, кто относится к уязвимым группам или находится в уязвимом положении, особенно женщины, дети, в том числе девочки, молодежь, пожилые люди, лица с инвалидностью, лица африканского происхождения и коренные народы, испытывают трудности и продолжают сталкиваться с последствиями пандемии COVID‑19, </p>
+      </container>
+      <container name="выражая глубокую обеспокоенность" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">выражая глубокую обеспокоенность</span> по поводу того, что, хотя на долю женщин приходится более 50 процентов объема производства продовольствия во всем мире, они составляют 70 процентов людей, страдающих от голода во всем мире, что женщины и девочки в несоразмерно большей степени страдают от голода, отсутствия продовольственной безопасности и нищеты, отчасти в результате гендерного неравенства и дискриминации, что во многих странах смертность от недоедания и поддающихся профилактике детских заболеваний среди девочек в два раза выше, чем среди мальчиков, и что, согласно оценкам, число женщин, страдающих от недоедания, почти вдвое превышает число страдающих от него мужчин, </p>
+      </container>
+      <container name="учитывая" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">учитывая</span> ключевую роль сельских жительниц, в том числе мелких земельных собственниц и женщин, занимающихся фермерством, и представительниц коренных народов и местных сообществ, а также их традиционных знаний в ускорении развития сельского хозяйства и сельских районов, повышении продовольственной безопасности и ликвидации сельской нищеты и их вклад в эти процессы, </p>
+      </container>
+      <container name="принимая во внимание" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">принимая во внимание</span> значительный прогресс в деле борьбы с нищетой во всех ее формах и проявлениях, достигнутый в ряде регионов мира, но в то же время будучи глубоко обеспокоена тем, что нищета сохраняется и, как прогнозируется, усилится под воздействием пандемии COVID‑19 во всех странах мира, независимо от их экономической, социальной и культурной ситуации, и тем, что она особенно сильна в развивающихся странах и имеет своим следствием, среди прочего, социальную изоляцию, голод, дискриминацию, феминизацию нищеты, уязвимость в том, что касается торговли людьми, сексуальной эксплуатации и надругательств, детских, ранних и принудительных браков, детского труда и заболеваний, отсутствие адекватного жилья, отсутствие доступа к основным услугам, отсутствие социальной мобильности вверх и неграмотность и находит выражение в этих явлениях, </p>
+      </container>
+      <container name="выражая глубокую обеспокоенность" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">выражая глубокую обеспокоенность</span> по поводу того, что прогресс в деле сокращения масштабов нищеты остается неравномерным и что число людей, продолжающих жить в условиях многомерной нищеты, по‑прежнему является значительным и неприемлемо большим, составляя 1,3 миллиарда человек, тогда как в ряде стран уровень неравенства в доходах, богатстве и возможностях остается высоким или растет, и серьезную обеспокоенность по‑прежнему вызывают не связанные с доходами аспекты нищеты и лишений, например доступ к качественному образованию или базовым медицинским услугам, и относительная нищета, и подчеркивает важность национальных и глобальных усилий по созданию условий для устойчивого развития, всеохватного и поступательного экономического роста, всеобщего процветания и достойной работы для всех членов общества с учетом различных уровней национального потенциала стран в области развития,</p>
+      </container>
+      <container name="отмечая" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">отмечая</span>, что содействие благополучию всех людей на протяжении их жизненного цикла должно лежать в основе любых усилий по сокращению масштабов нищеты и голода и является одним из важнейших компонентов всеохватного и устойчивого восстановления, и признавая, что создание эффективных, инклюзивных, надежных и экологически устойчивых продовольственных систем имеет решающее значение для обеспечения продовольственной безопасности и доступа к безопасному, питательному и достаточному продовольствию для всех, одновременно решая другие взаимосвязанные задачи, такие как ликвидация голода, нехватка продовольствия и недоедание, а также повышение потенциала противодействия с точки зрения обеспеченности населения средствами к существованию, еще более укрепляя глобальное партнерство в интересах устойчивого развития и не оставляя никого без внимания,</p>
+      </container>
+      <container name="принимая к сведению" eId="container_26">
+        <p xml:space="preserve">	<span class="italic">принимая к сведению</span> предпринятые Председателем Генеральной Ассамблеи на ее семьдесят четвертой сессии усилия по созданию Альянса за ликвидацию нищеты, который является актуальной и значимой платформой, по‑прежнему используемой для обмена идеями, директивными установками и передовым опытом в том, что касается ликвидации нищеты, и подчеркивая важность рассмотрения проблемы нищеты, в том числе сельской нищеты, поскольку сельская беднота может иметь меньше возможностей для преодоления последствий пандемии COVID‑19, восстановления после него и получения доступа к надлежащим санитарно-техническим системам, продовольствию и питанию, медицинским услугам, образованию, интернету, информационно-коммуникационным технологиям, социальной защите, финансовым услугам и государственной инфраструктуре,</p>
+      </container>
+      <container name="принимая во внимание" eId="container_27">
+        <p xml:space="preserve">	<span class="italic">принимая во внимание</span>, что социальная интеграция людей, живущих в нищете и голоде, должна предусматривать учет и удовлетворение их основных человеческих потребностей, в частности в безопасной, разнообразной, питательной и достаточной пище, охране здоровья, безопасной питьевой воде и санитарии, жилье и доступе к качественному образованию, возможностям обучения в течение жизни, полной и производительной занятости и достойной работе, посредством осуществления комплексных стратегий развития,</p>
+      </container>
+      <container name="подтверждая" eId="container_28">
+        <p xml:space="preserve">	<span class="italic">подтверждая</span>, что, поскольку крайняя нищета как широко распространенное явление препятствует полному и эффективному осуществлению всех прав человека и может в определенных ситуациях представлять угрозу для права на жизнь, незамедлительное сокращение ее масштабов и ее окончательная ликвидация должны оставаться для международного сообщества задачей первостепенной важности,</p>
+      </container>
+      <container name="учитывая" eId="container_29">
+        <p xml:space="preserve">	<span class="italic">учитывая</span> значимость более глубокого понимания многогранного характера развития и нищеты, подчеркивая в то же время необходимость использования средства многомерного анализа, в том числе индексов многомерной нищеты и анализа рисков для отражения взаимосвязанного характера лишений и уязвимости, а также для понимания динамики нищеты и определения политического курса, и учитывая также, что соответствующие национальные индексы многомерной нищеты позволяют странам разрабатывать более целенаправленные меры по ликвидации нищеты, а также координировать и отслеживать осуществление этих мер,</p>
+      </container>
+      <container name="отмечая" eId="container_30">
+        <p xml:space="preserve">	<span class="italic">отмечая</span>, что для проведения эффективной политики искоренения нищеты необходимо налаживать партнерские связи между национальными и местными органами власти и организациями гражданского общества, и признавая, что организации гражданского общества могут помочь в выявлении и удовлетворении потребностей тех, кто относится к уязвимым группам или находится в уязвимом положении, и привлечь внимание к неохваченным категориям населения, а также облегчить их выявление и установление контакта и взаимодействия с ними,</p>
+      </container>
+      <container name="учитывая" eId="container_31">
+        <p xml:space="preserve">	<span class="italic">учитывая</span> важный вклад, который предпринимательство вносит в устойчивое развитие за счет создания рабочих мест, стимулирования всеохватного экономического роста и новаторства, улучшения социальных условий и решения экономических, социальных и экологических проблем в контексте Повестки дня на период до 2030 года, и особо отмечая, что в условиях восстановления после пандемии COVID‑19 и в последующий период роль предпринимательства, включая социальное предпринимательство, а также микро-, малых и средних предприятий в социально-экономическом развитии является как никогда важной,</p>
+      </container>
+      <container name="учитывая также" eId="container_32">
+        <p xml:space="preserve">	<span class="italic">учитывая также</span>, что спорт является фактором социального развития и может быть использован как средство обеспечения доступа к качественному образованию и достойной работе, пропаганды здорового образа жизни и благополучия, укрепления солидарности и социальной сплоченности, борьбы с социальной изоляцией и стереотипами, а также создания экономических возможностей для всех, что может способствовать избавлению людей от нищеты,</p>
+      </container>
+      <container name="констатируя" eId="container_33">
+        <p xml:space="preserve">	<span class="italic">констатируя</span> необходимость борьбы с незаконными финансовыми потоками и укрепления передовой практики в вопросах возвращения активов в качестве одного из источников финансирования развития в целях сокращения масштабов голода, обеспечения продовольственной безопасности и улучшения питания, а также содействия устойчивому развитию сельского хозяйства,</p>
+      </container>
+      <container name="подтверждая" eId="container_34">
+        <p xml:space="preserve">	<span class="italic">подтверждая</span> право каждого человека на доступ к безопасной питательной пище в достаточном количестве в соответствии с правом на достаточное питание и основополагающим правом каждого человека быть свободным от голода, с тем чтобы иметь возможность в полной мере развивать и поддерживать свои физические и умственные способности, и обращая особое внимание на необходимость принятия специальных мер для удовлетворения потребностей в питании, в первую очередь женщин, детей, пожилых людей, представителей коренных народов и инвалидов, а также тех, кто находится в уязвимом положении,</p>
+      </container>
+      <container name="с признательностью принимая к сведению" eId="container_35">
+        <p xml:space="preserve">	<span class="italic">с признательностью принимая к сведению</span> изданную Продовольственной и сельскохозяйственной организацией Объединенных Наций, Всемирной организацией здравоохранения, Международным фондом сельскохозяйственного развития, Всемирной продовольственной программой и Детским фондом Организации Объединенных Наций публикацию “The State of Food Security and Nutrition in the World 2021: Transforming Food Systems for Food Security, Improved Nutrition and Affordable Healthy Diets For All” («Положение дел в области продовольственной безопасности и питания в мире, 2021 год: преобразование продовольственных систем в целях обеспечения продовольственной безопасности, улучшения питания и обеспечения недорогого и здорового питания для всех»),</p>
+      </container>
+      <container name="подчеркивая" eId="container_36">
+        <p xml:space="preserve">	<span class="italic">подчеркивая</span> необходимость разработки устойчивых продовольственных систем и учитывая, что внедрение сельскохозяйственных технологий и переход на цифровые технологии могут способствовать обеспечению продовольственной безопасности и питания и способствовать укреплению потенциала противодействия бедствиям,</p>
+      </container>
+      <container name="все также выражая глубокую обеспокоенность" eId="container_37">
+          <p xml:space="preserve">	<span class="italic">все также выражая глубокую обеспокоенность </span>тем, что, по последним оценкам Продовольственной и сельскохозяйственной организации Объединенных Наций, Всемирной продовольственной программы, Международного фонда сельскохозяйственного развития, Всемирной организации здравоохранения и Детского фонда Организации Объединенных Наций, во всем мире число людей, хронически страдающих от недоедания, возросло в 2020 году до 811 миллионов человек, что на 161 миллион больше, чем в 2019 году, и что общемировые проблемы в области питания становятся все сложнее, поскольку множественные формы недоедания, включая задержку роста, истощение, пониженный вес, дефицит содержания микроэлементов в продуктах питания, избыточный вес и ожирение, могут сосуществовать в рамках одной страны или домашнего хозяйства,</p>
+      </container>
+      <container name="выражая глубокую обеспокоенность" eId="container_38">
+        <p xml:space="preserve">	<span class="italic">выражая глубокую обеспокоенность</span> непропорциональным воздействием пандемии COVID‑19 на детей, особенно девочек, в том числе на их доступ к основным услугам здравоохранения и образованию, признавая, что закрытие школ сильнее всего ударило по самым бедным и наиболее уязвимым детям и их семьям, что, возможно, немало детей никогда не вернутся к учебе, поскольку их принуждают к детским бракам или детскому труду, и что перебои в системах продовольствия и здравоохранения способствуют обращению вспять прогресса в области охраны здоровья матери и ребенка, росту показателей всех видов неполноценного питания, а также тому, что в 2020 году число детей, живущих в домохозяйствах с низким уровнем дохода, выросло на 142 миллиона человек,</p>
+      </container>
+      <container name="ссылаясь" eId="container_39">
+        <p xml:space="preserve">	<span class="italic">ссылаясь</span> на резолюцию <a href="https://undocs.org/ru/A/RES/72/239">72/239</a> Генеральной Ассамблеи от 20 декабря 2017 года, в которой она провозгласила период 2019–2028 годов Десятилетием семейных фермерских хозяйств Организации Объединенных Наций, благодаря чему повышается осведомленность о роли семейных фермерских хозяйств в содействии осуществлению Повестки дня на период до 2030 года и усилиям по обеспечению продовольственной безопасности и улучшению питания,</p>
+      </container>
+      <container name="с признательностью принимая к сведению" eId="container_40">
+        <p xml:space="preserve">	<span class="italic">с признательностью принимая к сведению</span> проведение Саммита Организации Объединенных Наций по продовольственным системам 2021 года, созванного Генеральным секретарем 23 и 24 сентября 2021 года, и предшествовавшего Саммиту мероприятия, состоявшегося 26–28 июля 2021 года в Риме, и отмечая также подготовленные Генеральным секретарем резюме Председателя и заявление о действиях,</p>
+      </container>
+      <container name="принимая к сведению" eId="container_41">
+        <p xml:space="preserve">	<span class="italic">принимая к сведению</span> Глобальный договор по вопросу о взаимосвязи питания и роста, который подписали более 100 стран, компаний и организаций гражданского общества и цель которого заключается в сокращении к 2020 году числа детей с задержкой роста на 20 миллионов человек, и финансовые обязательства, принятые в поддержку достижения этой цели, а также проведение в ноябре 2017 года в Милане, Италия, третьего Саммита по вопросу о взаимосвязи питания и роста и проведение в 2021 году в Токио саммита по вопросу о взаимосвязи питания и роста,</p>
+      </container>
+      <container name="напоминая" eId="container_42">
+        <p xml:space="preserve">	<span class="italic">напоминая</span> о состоявшемся в Марокко 13 июля 2021 года Африканском региональном диалоге, который был проведен в преддверии Саммита по продовольственным системам с целью ускорить укрепление продовольственных систем с учетом региональной специфики, обусловленной африканскими сельскохозяйственными и продовольственными системами, африканскими рационами, условиями жизни африканского населения и амбициями африканских обществ,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_43" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="italic">принимает к сведению</span> доклад Генерального секретаря<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		<a href="https://undocs.org/ru/E/CN.5/2022/3">E/CN.5/2022/3</a>.</p></authorialNote>; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve">	<span class="italic">принимает во внимание</span> настоятельную необходимость активизации деятельности на всех уровнях и всеми заинтересованными сторонами для реализации концепции Повестки дня в области устойчивого развития на период до 2030 года<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		Резолюция <a href="https://undocs.org/ru/A/RES/70/1">70/1</a> Генеральной Ассамблеи.</p></authorialNote> и достижения предусмотренных в ней целей и особо отмечает, что в принятых Генеральной Ассамблеей итоговых документах крупных конференций и встреч на высшем уровне Организации Объединенных Наций международное сообщество подтвердило, в частности, настоятельную необходимость ликвидации нищеты во всех ее формах и проявлениях, борьбы с неравенством внутри стран и между странами, охраны окружающей среды, обеспечения поступательного, всеохватного и устойчивого экономического роста и содействия социальной интеграции на основе программных документов Организации Объединенных Наций в области развития, включая итоговые документы Всемирной встречи на высшем уровне в интересах социального развития, Аддис-Абебскую программу действий третьей Международной конференции по финансированию развития<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">		Резолюция <a href="https://undocs.org/ru/A/RES/69/313">69/313</a> Генеральной Ассамблеи, приложение. </p></authorialNote>, Сендайскую рамочную программу действий по снижению риска бедствий на 2015–2030 годы<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">		Резолюция <a href="https://undocs.org/ru/A/RES/69/283">69/283</a> Генеральной Ассамблеи, приложение II.</p></authorialNote> и Новую программу развития городов<authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">		Резолюция <a href="https://undocs.org/ru/A/RES/71/256">71/256</a> Генеральной Ассамблеи, приложение.</p></authorialNote>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve">	<span class="italic">подтверждает</span> приверженность осуществлению Повестки дня в области устойчивого развития на период до 2030 года в интересах всех на основе обеспечения того, чтобы никто не был обойден вниманием и чтобы в первую очередь оказать помощь самым обездоленным, а также на основе признания прав человека и того, что достоинство человеческой личности имеет основополагающее значение; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> государства-члены обеспечить поощрение и защиту всех прав человека в соответствии с их обязательствами по международному праву прав человека; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_53" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_53__content">
+          <p xml:space="preserve">	<span class="italic">подтверждает</span>, что ликвидация нищеты во всех ее формах и проявлениях, включая избавление всех людей во всем мире от крайней нищеты, является важнейшей глобальной задачей и одним из необходимых условий устойчивого развития, а также одной из главных задач Повестки дня в области устойчивого развития на период до 2030 года, неотъемлемой частью которой является Аддис-Абебская программа действий третьей Международной конференции по финансированию развития, подкрепляющая и дополняющая ее; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve">	<span class="italic">считает</span>, что восстановление после пандемии COVID‑19 дает дополнительную возможность разработать комплексные основы долгосрочной политики, направленной на достижение целей в области устойчивого развития, и что такая политика должна разрабатываться в целях одновременного искоренения нищеты и голода, а также недоедания, борьбы с неравенством, повышения возможностей и благосостояния людей, содействия ускорению действий на национальном, региональном и международном уровнях и обеспечения устойчивых средств к существованию для всех, а также признает, что в основу разрабатываемых стратегий восстановления должны быть положены результаты многомерного анализа проблем нищеты и голода;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_64" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_64__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> государствам-членам содействовать обеспечению справедливого доступа к недорогим базовым услугам, в частности к качественному формальному и неформальному образованию на всех уровнях, в том числе путем проведения программ, содействующих обеспечению равенства и социальной интеграции на основе подтверждения основополагающей ценности человеческой личности, и к медицинскому обслуживанию, в том числе путем ускоренного перехода к применению принципа равного доступа к всеобщему медицинскому обслуживанию, а также обеспечению доступа к недорогому жилью, питанию и продовольствию, занятости и достойной работе, информационно-коммуникационным технологиям и инфраструктуре, посредством достижения дальнейшего прогресса в деле обеспечения гендерного равенства и расширения прав и возможностей всех женщин и девочек; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_71" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_71__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> правительствам и далее прилагать свои усилия по выработке стратегий и программ, направленных на укрепление национального потенциала, который позволяет заниматься национальными приоритетами, касающимися ориентированной на семью политики, и во взаимодействии с соответствующими заинтересованными сторонами активизировать деятельность по достижению этих целей, в частности в таких областях, как борьба с нищетой и голодом, чтобы не допускать межпоколенческой передачи и феминизации нищеты и обеспечивать благополучие для всех в любом возрасте, ориентируясь на осуществление Повестки дня в области устойчивого развития на период до 2030 года;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает</span> важность разработки политики, направленной на расширение возможностей для трудоустройства и повышение производительности труда как в сельском, так и в городском секторах, посредством обеспечения и восстановления экономического роста, инвестирования в развитие людских ресурсов, пропаганды технологий, обеспечивающих производительную занятость, и поощрения самозанятости, предпринимательства и создания малых и средних предприятий;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_88" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_88__content">
+          <p xml:space="preserve">	<span class="italic">предлагает</span> государствам-членам рассмотреть вопрос о принятии стратегий регулирования рынка труда, направленных на укрепление государственных учреждений и предоставление надлежащей защиты в сфере труда, в том числе путем проведения социального диалога, всем трудящимся, особенно находящимся в наиболее неблагоприятном положении, в том числе путем принятия положений о минимальной заработной плате, учитывая при этом роль организаций трудящихся и работодателей там, где они имеются, в качестве составной части политики, направленной на стимулирование роста доходов подавляющего большинства трудящихся, и принимая во внимание конкретные условия каждой страны; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_98" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_98__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает</span> необходимость решать проблемы, с которыми сталкиваются лица, работающие в неформальном секторе или в условиях нестабильной занятости, посредством инвестирования в создание более достойных рабочих мест, включая предоставление доступа к достойной занятости в формальном секторе; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_109" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_109__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> государствам-членам проводить политику, обеспечивающую расширение экономических прав и возможностей женщин путем содействия всестороннему и продуктивному участию женщин на рынке труда, включая женщин-инвалидов, женщин, живущих в нищете, и женщин, возглавляющих домохозяйства, и содействовать обеспечению равной оплаты за равный или равноценный труд, равному распределению обязанностей между родителями, доступу к учреждениям по уходу за детьми, обеспечению гармоничного сочетания трудовых и семейных обязанностей, в том числе, в частности, в ходе ухода за детьми, пожилыми людьми, инвалидами, и поощряя их конструктивное участие в экономике и в процессах принятия решений на всех уровнях; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_121" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_121__content">
+          <p xml:space="preserve">	<span class="italic">отмечает</span> важность разработки и осуществления стратегий и программ, призванных способствовать предпринимательству, особенно с привлечением женщин и молодежи, и особо отмечает, что в условиях восстановления после пандемии COVID‑19 и в последующий период роль предпринимательства, включая социальное предпринимательство, а также микро-, малых и средних предприятий в социально-экономическом развитии является как никогда важной;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_134" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_134__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> государства-члены уважать, поощрять и реализовывать право на труд и предотвращать и искоренять насилие, жестокое обращение и сексуальные домогательства, признавая, что насилие и домогательства представляют собой угрозу равным возможностям, являются неприемлемыми и несовместимыми с достойной работой и могут препятствовать доступу женщин на рынок труда, сохранению ими работы и их карьерному росту;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_148" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_148__content">
+          <p xml:space="preserve">	<span class="italic">констатирует</span>, что обострение нищеты во время пандемии COVID‑19 привело к росту масштабов детского труда, и настоятельно призывает государства-члены принять немедленные и эффективные меры, обеспечивающие запрещение и ликвидацию детского труда во всех его формах не позднее 2025 года;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_163" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_163__content">
+          <p xml:space="preserve">	<span class="italic">считает</span>, что соответствующие национальным условиям системы социальной защиты для всех направлены на устранение многочисленных, зачастую взаимосвязанных и сложных причин нищеты и неравенства путем облегчения бремени некоторых расходов в периоды безработицы, содействия достижению целей в области здравоохранения, обеспечению гендерного равенства и предоставлению достойной работы и облегчения полноценной интеграции инвалидов; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_179" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_179__content">
+          <p xml:space="preserve">	<span class="italic">считает также</span>, что соответствующие национальным условиям системы социальной защиты вносят чрезвычайно важный вклад в осуществление прав человека для всех, в частности для лиц, которые не могут вырваться из тисков нищеты и голода, и что содействие обеспечению всеобщего доступа к социальным услугам и установление минимального уровня социальной защиты, соответствующего национальным условиям, может способствовать сокращению неравенства и масштабов нищеты благодаря преодолению социальной изоляции и поощрению всеохватного экономического роста, и в этой связи принимает к сведению Рекомендацию Международной организации труда 2012 года о минимальных уровнях социальной защиты (№ 202); </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_196" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_196__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> государствам-членам при разработке, осуществлении, контроле за реализацией и оценке программ социальной защиты в интересах социального развития обеспечивать учет гендерной проблематики на протяжении всего этого процесса; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_214" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_214__content">
+          <p xml:space="preserve">	<span class="italic">учитывает</span> важную роль семьи в борьбе с социальной изолированностью и особо указывает на важность вложения средств в осуществление всеохватных и гибких стратегий и программ, ориентированных на интересы семьи, в таких областях, как образование, профессиональная подготовка, достойная занятость, гармоничное сочетание трудовых и семейных обязанностей, здравоохранение, оказание социальных услуг, взаимоотношения и солидарность поколений и адресные денежные переводы для находящихся в уязвимом положении семей, в целях сокращения неравенства и улучшения благополучия всех людей всех возрастов, а также для того, чтобы содействовать улучшению положения детей и других уязвимых членов семьи, находящихся в неблагоприятной ситуации, и помочь им вырваться из нищеты, передающейся из поколения в поколение; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_233" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_233__content">
+          <p xml:space="preserve">	<span class="italic">принимает во внимание</span> жизненно важную роль, которую играют устойчивые системы социальной защиты в борьбе с пандемией COVID‑19, и призывает государства-члены содействовать тому, чтобы восстановление после пандемии COVID‑19 обеспечило соответствующим странам возможность принять меры для устранения значительных пробелов в охвате населения программами социальной защиты, добиваясь прогресса в создании всеобщих, достаточных, комплексных и устойчивых систем социальной защиты, вводя, в соответствии с национальным законодательством, базовый доход, пособия на детей, пособия по беременности и родам, пособия по болезни, пособия по инвалидности, пособия по безработице и пенсии по старости, а также тому, чтобы эти системы социальной защиты выявляли и устраняли пробелы в охвате, особенно для тех, кто находится в уязвимом положении, включая работников неформального сектора, мигрантов и неоплачиваемых работников сферы ухода;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_253" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_253__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> государствам-членам обеспечить функционирование всеобщих систем социальной защиты, учитывающих возрастной фактор, наличие инвалидности, гендерный аспект и интересы семьи, которые играют важнейшую роль в деле сокращения масштабов нищеты, в том числе с предоставлением в соответствующих случаях адресных денежных переводов лицам и семьям, находящимся в уязвимом положении, в частности семьям с одним родителем, особенно семьям, возглавляемым женщинами, и которые являются наиболее эффективным средством сокращения масштабов нищеты в том случае, если сопровождаются другими мерами, включая обеспечение доступа к основным услугам, высококачественному образованию и медицинскому обслуживанию; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_274" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_274__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает</span> необходимость более эффективной координации политики и мер в области социальной защиты с программами сокращения масштабов нищеты и другими видами социальной политики для предотвращения социальной изоляции лиц, занятых в неформальном секторе или находящихся в условиях ненадежной занятости, и признает необходимость содействия их переходу в формальный сектор экономики, расширив и модернизировав существующие программы социального обеспечения за счет увеличения размера выплат и охвата ими работников неформального сектора, в том числе сезонных и временных работников в сельских районах; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_296" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_296__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> государствам-членам разработать долгосрочные, учитывающие известные риски, всеохватные и предусматривающие превентивный подход планы восстановления в области социального развития, которые позволят укрепить потенциал и повысить благосостояние людей путем инвестирования в социальные услуги и качественную, надежную, экологичную и устойчивую к потрясениям инфраструктуру, включая базовую школьную инфраструктуру, услуги здравоохранения, безопасную питьевую воду и санитарию, доступное жилье, обеспечение достойной занятости, адекватного охвата социальной защиты, а также недорогостоящего и надежного доступа к цифровым технологиям и в интернет; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_319" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_319__content">
+          <p xml:space="preserve">	<span class="italic">выражает глубокую обеспокоенность</span> по поводу разрыва в показателях вакцинации, в частности между развитыми и развивающимися странами, особенно африканскими странами, и с большой обеспокоенностью отмечает, что пандемия COVID‑19 оказывает серьезное негативное воздействие на состояние здоровья, безопасность и благосостояние людей, а также серьезно нарушает жизнь общества и функционирование экономики и имеет катастрофические последствия для жизни людей и их возможностей в плане получения средств к существованию и что в наибольшей степени от пандемии страдают беднейшие и наиболее уязвимые слои населения, подтверждает стремление вернуться на путь, ведущий к достижению целей в области устойчивого развития, посредством разработки и реализации стратегий устойчивого и всеохватного восстановления для ускоренного осуществления Повестки дня в области устойчивого развития на период до 2030 года в полном объеме и содействия снижению риска будущих потрясений, кризисов и пандемий и повышения устойчивости к ним, в том числе за счет укрепления систем здравоохранения и обеспечения всеобщего охвата услугами здравоохранения, и признает, что одним из важнейших элементов принятия всеми странами мира ответных мер на основе единства, солидарности, активизации многостороннего сотрудничества и принципа «ни о ком не забыть» является предоставление всем справедливого и своевременного доступа к безопасным, качественным, эффективным и недорогим средствам диагностики и лечения COVID‑19 и вакцинам от него; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_343" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_343__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> государства-члены содействовать конструктивному участию и расширению прав и возможностей тех, кто находится в уязвимом положении, включая тех, кто живет в нищете, в разработке и реализации планов восстановления после пандемии COVID‑19 и отслеживании прогресса в этом отношении;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_368" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_368__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает</span> государства-члены принимать меры по борьбе с различными причинами возникновения нищеты, голода и неравенства, и в частности создавать возможности для достойной работы; укреплять устойчивость к потрясениям; обеспечивать более тесную увязку мер социальной защиты с политикой продовольственной безопасности и питания; предоставлять целевые денежные переводы; повышать доступность цифровых технологий и финансовых услуг и информации о них; обеспечивать равные возможности и доступ к здоровому рациону на базе продуктов из устойчивых продовольственных систем, качественному образованию и обучению на протяжении всей жизни; бороться со всеми формами дискриминации; расширять права и возможности всех людей и создавать благоприятные условия для полноправной социальной включенности и участия тех, кто сталкивается с многочисленными и пересекающимися формами дискриминации; и в приоритетном порядке выделять средства на удовлетворение потребностей детей младшего возраста в образовании, питании и уходе для предотвращения передачи нищеты из поколения в поколение; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_394" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_394__content">
+          <p xml:space="preserve">	<span class="italic">особо отмечает</span>, что устойчивое сельскохозяйственное производство, продовольственная безопасность, безопасность пищевой продукции и питание имеют важнейшее значение для ликвидации нищеты во всех ее формах и проявлениях, и призывает активизировать усилия по поступательному повышению производственного потенциала сельского хозяйства, его продуктивности и продовольственной безопасности в развивающихся странах; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_421" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_421__content">
+          <p xml:space="preserve">	<span class="italic">отмечает</span> необходимость дальнейшего анализа различных концепций, в частности концепции «продовольственного суверенитета», и их взаимосвязи с продовольственной безопасностью и правом на питание с учетом необходимости избегать любых негативных последствий для осуществления права на питание для всех людей во все времена; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_449" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_449__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> государствам-членам укреплять продовольственные системы, в том числе с помощью всестороннего подхода к продовольственным системам, чтобы они стали более эффективными, инклюзивными, жизнестойкими и устойчивыми, обеспечивая здоровое питание для искоренения голода и улучшения продовольственной безопасности и питания; инвестировать ресурсы в научно-техническую и инновационную деятельность, в том числе в области цифровых технологий, для повышения эффективности производства сельского хозяйства, его сопротивляемости негативным внешним воздействиям и устойчивости, а также для снижения риска бедствий; обеспечивать более тесную увязку и координацию деятельности государственных органов и учреждений, ответственных за социальную защиту, сельское хозяйство, продовольственную безопасность и вопросы питания; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_478" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_478__content">
+          <p xml:space="preserve">	<span class="italic">подтверждает</span>, что изменение климата является одной из крупнейших проблем нашего времени, испытывает серьезную обеспокоенность в связи с тем, что все страны, особенно развивающиеся, уязвимы для неблагоприятных последствий изменения климата и уже ощущают их усиление, включая постоянные засухи и экстремальные погодные явления, утрату биоразнообразия, деградацию земель, опустынивание, повышение уровня моря, береговую эрозию, подкисление океана и отступление горных ледников, что создает еще большую угрозу для продовольственной безопасности, запасов воды и источников средств к существованию, признает значительные риски, которые изменение климата создает для здоровья, и обращает особое внимание на необходимость устранения экономических, социальных и экологических последствий изменения климата и особо отмечает необходимость принятия на всех уровнях мер, в том числе в рамках деятельности по смягчению последствий и адаптации к изменениям для повышения устойчивости, что может способствовать искоренению нищеты во всех ее формах и проявлениях и ликвидации голода; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_508" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_508__content">
+          <p xml:space="preserve">	<span class="italic">учитывает</span> прилагаемые на всех уровнях усилия по разработке и укреплению мер и программ социальной защиты, включая национальные системы социального обеспечения и такие программы защиты нуждающихся и уязвимых групп населения, как программы оплаты труда продовольствием и наличными, программы денежных трансфертов и ваучеров, программы организации школьного питания и программы питания для матери и ребенка, и в этой связи обращает особое внимание на важность увеличения объема капиталовложений, укрепления потенциала и развития систем; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_539" class="SingleTxt">
+        <num>32.</num>
+        <content eId="para_539__content">
+          <p xml:space="preserve">	<span class="italic">особо отмечает</span> важность расширения прав и возможностей людей и создания благоприятных условий для принятия обоснованных решений, касающихся выбора пищевых продуктов для здорового рациона питания, повышая качество информации и образования в области здравоохранения и питания;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_571" class="SingleTxt">
+        <num>33.</num>
+        <content eId="para_571__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> государства-члены бороться с последствиями пандемии COVID‑19, решая долгосрочные структурные проблемы, с которыми сталкивается сельское население, и создавать системы социальной защиты, ориентированные на сельских жителей, уделять внимание всему комплексу проблем в области продовольственной безопасности в сельских районах, выделить ресурсы на устойчивое развитие сельского хозяйства и совершенствовать многосекторальную политику и национальные планы действий для укрепления потенциала противодействия мелких производителей и семейных фермеров и повышения их адаптивности;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_604" class="SingleTxt">
+        <num>34.</num>
+        <content eId="para_604__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает</span> государства-члены добиться гендерного равенства и расширения прав и возможностей всех женщин и девочек, гарантировав равный доступ к возможностям и социальной защите для всех, в частности тех, кто принадлежит к уязвимым группам либо находится в уязвимом положении, в том числе путем учета гендерного аспекта в программах продовольственной безопасности, особенно для женщин и девочек, подвергающихся множественным и взаимосвязанным формам дискриминации и насилия, с учетом того, что расширение прав и возможностей находящихся в различных ситуациях и условиях женщин и девочек внесет решающий вклад в реализацию всех целей и задач Повестки дня на период до 2030 года; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_638" class="SingleTxt">
+        <num>35.</num>
+        <content eId="para_638__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> государства-члены принять меры для признания, сокращения и перераспределения непропорционально высокой доли нагрузки, приходящейся на женщин и девочек, занятых неоплачиваемой работой по уходу и домашним трудом, в контексте феминизации нищеты, которая усугубляется пандемией COVID‑19, в том числе с помощью мер по ликвидации нищеты, политики в сфере труда, государственных услуг и программ социальной защиты, учитывающих гендерные аспекты; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_673" class="SingleTxt">
+        <num>36.</num>
+        <content eId="para_673__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> государства-члены содействовать повышению цифровой и финансовой грамотности и вовлеченности женщин и их равному доступу к формальным финансовым услугам, включая своевременные и доступные кредиты, займы, сбережения, страхование и схемы перевода денежных средств; интегрировать гендерные аспекты в правила и положения финансового сектора в соответствии с национальными приоритетами и законодательством, поощрять финансовые учреждения — в том числе коммерческие банки, банки развития, сельскохозяйственные банки, микрофинансовые учреждения, операторов мобильной связи, агентские сети, кооперативы, почтовые банки и сберегательные банки — предоставлять доступ к финансовым продуктам, услугам и информации для женщин и поощрять использование инновационных инструментов и платформ, включая банковские услуги онлайн и по мобильной связи; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_709" class="SingleTxt">
+        <num>37.</num>
+        <content eId="para_709__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> государства-члены предотвращать пагубные последствия пандемии COVID‑19 для детей, смягчая негативное социально-экономическое воздействие, в том числе путем обеспечения непрерывности ориентированных на детей услуг и стратегий на основе равного и достижимого доступа, отстаивания права ребенка на качественное образование на основе предоставления равных возможностей и недискриминации и поддержки инклюзивного, справедливого и доступного образования путем осуществления соответствующих мер по оказанию поддержки семьям в деле возвращения детей, в частности девочек и детей, находящихся в уязвимом положении, в школу, как только это будет безопасно, и по обеспечению доступа к возможностям, позволяющим наверстать упущенное в учебе, и в период изоляции оказывать поддержку школьным системам, учителям и семьям в обеспечении надежного источника ежедневного питания и использовании доступных и всеохватных решений в области дистанционного обучения для преодоления разных форм цифрового разрыва, обеспечивая при этом защиту детей от насилия, жестокого обращения и эксплуатации в интернете и в реальной жизни, и напоминая, что ни один ребенок не должен подвергаться произвольному или незаконному посягательству на неприкосновенность его частной жизни и семьи; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_746" class="SingleTxt">
+        <num>38.</num>
+        <content eId="para_746__content">
+          <p xml:space="preserve">	<span class="italic">призывает также</span> все государства-члены и при необходимости соответствующие международные организации осуществлять политику и программы, направленные на сокращение и искоренение предотвратимой смертности и заболеваемости в результате недоедания среди детей в возрасте до 5 лет, и в этой связи настоятельно призывает государства-члены распространять техническое руководство, подготовленное Управлением Верховного комиссара Организации Объединенных Наций по правам человека в сотрудничестве со Всемирной организацией здравоохранения<authorialNote marker="13" placement="bottom" eId="authorialNote_13"><p xml:space="preserve">		<a href="https://undocs.org/ru/A/HRC/27/31">A/HRC/27/31</a>; см. также резолюцию <a href="https://undocs.org/ru/A/HRC/RES/33/11">33/11</a> Совета по правам человека (см. <span class="italic">Официальные отчеты Генеральной Ассамблеи, семьдесят первая сессия, Дополнение № 53А</span> и исправление (<a href="https://undocs.org/ru/A/71/53/Add.1">A/71/53/Add.1</a> и <a href="https://undocs.org/ru/A/71/53/Add.1/Corr.1">A/71/53/Add.1/Corr.1</a>), глава II).</p></authorialNote>, и применять его, сообразно обстоятельствам, в процессе разработки, осуществления, оценки и мониторинга законов, политики, программ, бюджетов и механизмов правовой защиты и устранения последствий недоедания, направленных на искоренение предотвратимой смертности и заболеваемости детей в возрасте до 5 лет;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_784" class="SingleTxt">
+        <num>39.</num>
+        <content eId="para_784__content">
+          <p xml:space="preserve">	<span class="italic">считает</span>, что для обеспечения на деле устойчивого развития и достижения целей в области устойчивого развития крайне важна подкрепляемая принципом национальной ответственности мобилизация внутренних ресурсов, которые в необходимых случаях должна дополнять международная помощь;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_823" class="SingleTxt">
+        <num>40.</num>
+        <content eId="para_823__content">
+          <p xml:space="preserve">	<span class="italic">подтверждает</span> Аддис-Абебскую программу действий и считает необходимым предпринять шаги по значительному увеличению инвестиций для восполнения дефицита ресурсов, в том числе путем мобилизации финансовых ресурсов из всех источников, включая мобилизацию и распределение государственных, частных, внутренних и международных ресурсов; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_863" class="SingleTxt">
+        <num>41.</num>
+        <content eId="para_863__content">
+          <p xml:space="preserve">	<span class="italic">подтверждает также</span>, что необходимым элементом помощи развивающимся странам, включая бедные страны с высоким уровнем задолженности, наименее развитые страны, развивающиеся страны, не имеющие выхода к морю, малые островные развивающиеся государства и страны со средним уровнем дохода, в укреплении их человеческого, институционального и технического потенциала является международное сотрудничество; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_904" class="SingleTxt">
+        <num>42.</num>
+        <content eId="para_904__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> развитым странам выполнять свои обязательства по оказанию официальной помощи в целях развития, в том числе взятое многими развитыми странами обязательство достичь целевого показателя выделения официальной помощи в целях развития на уровне 0,7 процента валового национального дохода для развивающихся стран и выделения официальной помощи в целях развития на уровне 0,15–0,20 процента валового национального дохода для наименее развитых стран; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_946" class="SingleTxt">
+        <num>43.</num>
+        <content eId="para_946__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением отмечает</span> вклад сотрудничества Юг — Юг в ликвидацию нищеты и устойчивое развитие и вновь подтверждает, что сотрудничество Юг — Юг является важным элементом международного сотрудничества в целях развития, не подменяя, а дополняя собой сотрудничество Север — Юг, и обязуется укреплять сотрудничество Юг — Юг и трехстороннее сотрудничество как средство привнесения соответствующего опыта и знаний в сотрудничество в целях развития; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_989" class="SingleTxt">
+        <num>44.</num>
+        <content eId="para_989__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает</span>, что для дополнения, стимулирования и поддержки усилий по финансированию процесса развития в развивающихся странах и содействия достижению целей в области развития, включая цели, согласованные на международном уровне, в частности цели в области устойчивого развития, необходима официальная помощь в целях развития, и приветствует шаги, направленные на повышение эффективности и качества помощи на базе основополагающих принципов национальной ответственности, увязки, согласованности, ориентированного на результаты управления и взаимной подотчетности;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1033" class="SingleTxt">
+        <num>45.</num>
+        <content eId="para_1033__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> международному сообществу активизировать сотрудничество в целях развития, в том числе в рамках сотрудничества Юг — Юг, Север — Юг и трехстороннего сотрудничества, а также партнерства с участием многих заинтересованных сторон, оказывать поддержку странам, особенно развивающимся странам, по их просьбе, в наращивании их национального потенциала в области науки, техники и инноваций в интересах социального развития, а также поддерживать исследовательские сети, охватывающие различные страны, учреждения и дисциплины;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1078" class="SingleTxt">
+        <num>46.</num>
+        <content eId="para_1078__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> международное сообщество укреплять многостороннее сотрудничество, мобилизуя ресурсы для всестороннего восстановления и используя специальные права заимствования и их добровольное распределение среди наиболее нуждающихся стран, признает роль Организации Объединенных Наций и международных финансовых учреждений, согласно их соответствующим мандатам, и призывает их продолжать поддерживать глобальные усилия по обеспечению поступательного и всеохватного роста, устойчивого развития и приемлемости внешней задолженности развивающихся стран;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1124" class="SingleTxt">
+        <num>47.</num>
+        <content eId="para_1124__content">
+          <p xml:space="preserve">	<span class="italic">предлагает</span> всем соответствующим заинтересованным сторонам, в том числе системе Организации Объединенных Наций и организациям гражданского общества, продолжать содействовать обмену информацией и передовой практикой относительно программ, политики и мер, которые ведут к успешному сокращению неравенства во всех его аспектах;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1171" class="SingleTxt">
+        <num>48.</num>
+        <content eId="para_1171__content">
+          <p xml:space="preserve">	<span class="italic">предлагает также</span> организациям системы Организации Объединенных Наций продолжать оказывать поддержку государствам-членам, по их просьбе, в их стремлении к всеохватному и устойчивому восстановлению после пандемии COVID‑19, направленному на создание стабильных источников средств к существованию и обеспечение благополучия и достоинства для всех, а также содействовать международному сотрудничеству в области ликвидации голода и искоренения нищеты во всех ее формах и проявлениях в целях осуществления Повестки дня в области устойчивого развития на период до 2030 года в интересах общего будущего нынешнего и грядущих поколений.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="20-е">20‑е пленарное заседание</inline>
+        <eol />
+        <docDate date="2022-06-08" refersTo="#adoptionDate">8 июня 2022 года</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
