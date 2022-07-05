@@ -1,0 +1,549 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-06-08/2022-7/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-06-08/2022-7/"></FRBRuri>
+          <FRBRdate date="2022-06-08" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-06-08/2022-7/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-06-08/2022-7/ara@/"></FRBRuri>
+          <FRBRdate date="2022-06-20" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-06-08/2022-7/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-06-08/2022-7/ara@.xml"></FRBRuri>
+          <FRBRdate date="2022-07-05" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="1" href="http://metadata.un.org/sdg/1" showAs="sdg_1" dictionary="SDGO"></keyword>
+        <keyword value="poverty" href="http://eurovoc.europa.eu/2281" showAs="poverty" dictionary="EuroVoc"></keyword>
+        <keyword value="poverty" href="http://metadata.un.org/thesaurus/1005064" showAs="poverty" dictionary="UNBIS"></keyword>
+        <keyword value="poverty_mitigation" href="http://metadata.un.org/thesaurus/1005065" showAs="poverty_mitigation" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="2030 Agenda for Sustainable Development" showAs="2030 Agenda for Sustainable Development" dictionary="DHLAUTH"></keyword>
+        <keyword value="SOCIAL DEVELOPMENT" showAs="SOCIAL DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ECONOMIC DEVELOPMENT" showAs="ECONOMIC DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="POVERTY MITIGATION" showAs="POVERTY MITIGATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COVID-19" showAs="COVID-19" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUNGER" showAs="HUNGER" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="19b" showAs="Social development." shortForm="SOCIAL DEVELOPMENT" dictionary="E/2022/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="0001-01-01" as="E/2022/26" by="​UN. Commission for Social Development" outcome="recommendedForAdoption"/>
+        <step date="2022-06-20" outcome="adopted" as="Adopted without vote, 20th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">22-09367 (A)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2022/7</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">إن المجلس الاقتصادي والاجتماعي</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-06-20" class="rightSmall" refersTo="#dateOfIssuance">20 June 2022</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" eId="coverPage_1__session_1"></session>
+      </p>
+      <p>
+        <inline title="19 (ب)" name="agenda item">البند 19 (ب) من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">المسائل الاجتماعية ومسائل حقوق الإنسان: التنمية الاجتماعية</inline>
+      </p>
+      <p>
+        <docTitle>قرار اتخذه المجلس الاقتصادي والاجتماعي في 8 حزيران/يونيه 2022</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="Commission for Social Development">[بناء على توصية لجنة التنمية الاجتماعية (<inline name="originating document">E/2022/26</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2022/7</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	التعافي من جائحة كوفيد-19 بطريقة لا يُستثنى فيها أحد وتتوفر لها مقومات الاستمرارية بما يكفل سبل العيش المستدام والرفاه والكرامة للجميع: القضاء على الفقر والجوع بجميع أشكاله وأبعاده لتحقيق خطة التنمية المستدامة لعام 2030</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">إن المجلس الاقتصادي والاجتماعي</span>،</p>
+      </formula>
+      <container name="إذ يشير" eId="container_2">
+        <p xml:space="preserve">
+          <span class="bold italic">	إذ يشير </span>إلى مقرره <a href="https://undocs.org/ar/E/RES/2021/8">2021</a><a href="https://undocs.org/ar/E/RES/2021/8">/</a><a href="https://undocs.org/ar/E/RES/2021/8">8</a> المؤرخ 8 حزيران/يونيه 2021 الذي قرر بموجبه أن يكون الموضوع ذو الأولوية لدورة لجنة التنمية الاجتماعية لعام 2022 هو ”التعافي من جائحة كوفيد-19 بطريقة لا يُستثنى فيها أحد وتتوفر لها مقومات الاستمرارية بما يكفل سبل العيش المستدام والرفاه والكرامة للجميع: القضاء على الفقر والجوع بجميع أشكاله وأبعاده لتحقيق خطة التنمية المستدامة لعام 2030“،</p>
+      </container>
+      <container name="وإذ يشير أيضا" eId="container_3">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يشير أيضا </span>إلى نتائج مؤتمر القمة العالمي للتنمية الاجتماعية والدورة الاستثنائية الرابعة والعشرين للجمعية العامة،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_4">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يؤكد من جديد </span>أن إعلان كوبنهاغن بشأن التنمية الاجتماعية وبرنامج عمل مؤتمر القمة العالمي للتنمية الاجتماعية<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	()	<span class="italic">تقرير مؤتمر القمة العالمي للتنمية الاجتماعية، كوبنهاغن</span>، <span class="italic">6-12 آذار/مارس 1995</span> (منشورات الأمم المتحدة، رقم المبيع A.96.IV.8)، الفصل الأول، القرار 1، المرفقان الأول والثاني.</p></authorialNote><sup>)</sup> والمبادرات الأخرى من أجل التنمية الاجتماعية التي اعتمدتها الجمعية العامة في دورتها الاستثنائية الرابعة والعشرين<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	()	قرار الجمعية العامة دإ-<a href="https://undocs.org/ar/A/RES/24/2">24/2</a>، المرفق.</p></authorialNote><sup>)</sup> تشكل الإطار الأساسي لتعزيز التنمية الاجتماعية للجميع على الصعيدين الوطني والدولي، وإذ يشجع على مواصلة الحوار العالمي بشأن مسائل التنمية الاجتماعية،</p>
+      </container>
+      <container name="وإذ يرحب" eId="container_5">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يرحب </span>بالتقدم المحرز نحو التنفيذ الكامل لإعلان كوبنهاغن وبرنامج العمل من خلال العمل المتضافر على كل من الصعيد الوطني والإقليمي والعالمي، وإذ يعرب عن قلقه العميق من بطء التقدم المحرز وتفاوته ومن استمرار وجود فجوات كبرى بعد مرور أكثر من 20 عاما على انعقاد مؤتمر القمة العالمي للتنمية الاجتماعية، وإذ يرحب كذلك بعقد الاجتماع المشترك غير الرسمي الرفيع المستوى للجمعية العامة والمجلس الاقتصادي والاجتماعي للاحتفال بالذكرى السنوية الخامسة والعشرين لمؤتمر القمة العالمي للتنمية الاجتماعية، في 1 كانون الأول/ديسمبر 2020،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_6">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير </span>إلى قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/70/1">70</a><a href="https://undocs.org/ar/A/RES/70/1">/</a><a href="https://undocs.org/ar/A/RES/70/1">1</a> المؤرخ 25 أيلول/سبتمبر 2015، المعنون ”تحويل عالمنا: خطة التنمية المستدامة لعام 2030“، الذي اعتمدت فيه الجمعية مجموعة من الأهداف والغايات العالمية الشاملة والبعيدة المدى المتعلقة بالتنمية المستدامة، التي تركز على الناس وتفضي إلى التحول، وأكدت فيه التزامها بالعمل دون كلل من أجل تنفيذ هذه الخطة بالكامل بحلول عام 2030 بغية عدم ترك أي أحد خلف الركب والوصول أولاً إلى مَن هم أشدّ تخلفًا عن الركب، وإدراكها أنّ القضاء على الفقر بجميع صوره وأبعاده، بما في ذلك الفقر المدقع، هو أكبر تحد يواجهه العالم وشرطٌ لا غنى عنه لتحقيق التنمية المستدامة،</p>
+      </container>
+      <container name="وإذ يشير أيضا" eId="container_7">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير أيضا </span>إلى قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/69/313">69</a><a href="https://undocs.org/ar/A/RES/69/313">/</a><a href="https://undocs.org/ar/A/RES/69/313">313</a> المؤرخ 27 تموز/يوليه 2015 بشأن خطة عمل أديس أبابا الصادرة عن المؤتمر الدولي الثالث لتمويل التنمية، التي تشكل جزءا لا يتجزأ من خطة التنمية المستدامة لعام 2030،</p>
+      </container>
+      <container name="وإذ يشير كذلك" eId="container_8">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يشير كذلك </span>إلى قرارات الجمعية العامة <a href="https://undocs.org/ar/A/RES/74/270">74</a><a href="https://undocs.org/ar/A/RES/74/270">/</a><a href="https://undocs.org/ar/A/RES/74/270">270</a> المؤرخ 2 نيسان/أبريل 2020 بشأن التضامن العالمي لمكافحة مرض فيروس كورونا (كوفيد-19) و <a href="https://undocs.org/ar/A/RES/74/274">74</a><a href="https://undocs.org/ar/A/RES/74/274">/</a><a href="https://undocs.org/ar/A/RES/74/274">274</a> المؤرخ 20 نيسان/أبريل 2020 بشأن التعاون الدولي من أجل ضمان الحصول على الصعيد العالمي على الأدوية واللقاحات والمعدات الطبية اللازمة لمكافحة كوفيد-19 و <a href="https://undocs.org/ar/A/RES/74/306">74</a><a href="https://undocs.org/ar/A/RES/74/306">/</a><a href="https://undocs.org/ar/A/RES/74/306">306</a> المؤرخ 11 أيلول/سبتمبر 2020 والمعنون ”اتخاذ تدابير شاملة ومنسقة لمواجهة جائحة مرض فيروس كورونا (كوفيد-19)“ و <a href="https://undocs.org/ar/A/RES/74/307">74</a><a href="https://undocs.org/ar/A/RES/74/307">/</a><a href="https://undocs.org/ar/A/RES/74/307">307</a> المؤرخ 11 أيلول/سبتمبر 2020 والمعنون ”توحيد الجهود في مواجهة التهديدات الصحية العالمية: مكافحة كوفيد-19“،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_9">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير </span>إلى قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/74/4">74</a><a href="https://undocs.org/ar/A/RES/74/4">/</a><a href="https://undocs.org/ar/A/RES/74/4">4</a> المؤرخ 15 تشرين الأول/أكتوبر 2019 المعنون ”الإعلان السياسي للمنتدى السياسي الرفيع المستوى المعني بالتنمية المستدامة الذي يعقد تحت رعاية الجمعية العامة“،</p>
+      </container>
+      <container name="وإذ يشير أيضا" eId="container_10">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير أيضا </span>إلى الإعلان الوزاري الذي اعتمد في الجزء الرفيع المستوى من دورة المجلس الاقتصادي والاجتماعي لعام 2021 والمنتدى السياسي الرفيع المستوى المعني بالتنمية المستدامة لعام 2021، الذي عقد تحت رعاية المجلس، حول موضوع ”التعافي المستدام والمرن من آثار جائحة كوفيد-19 على نحو يعزز الأبعاد الاقتصادية والاجتماعية والبيئية للتنمية المستدامة: بناء مسار شامل وفعال لتحقيق خطة عام 2030 في سياق عقد العمل والإنجاز من أجل التنمية المستدامة“،</p>
+      </container>
+      <container name="وإذ يشير كذلك" eId="container_11">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير كذلك </span>إلى العهد الدولي الخاص بالحقوق الاقتصادية والاجتماعية والثقافية<sup>(</sup><authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	()	انظر قرار الجمعية العامة 2200 (د-21)، المرفق.</p></authorialNote><sup>)</sup> الذي يعترف، في جملة أمور، بحق كل فرد في مستوى معيشي لائق له ولأسرته، وبالحق في العمل، والحق في الضمان الاجتماعي، والحق في التعليم، وإذ يلاحظ صلة هذه الأحكام بصياغة السياسات الاجتماعية، بما في ذلك سياسات وتدابير الحماية الاجتماعية ذات المنحى الأسري،</p>
+      </container>
+      <container name="وإذ يلاحظ" eId="container_12">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يلاحظ </span>العمل الهام الذي اضطلعت به اللجنة الإحصائية فيما يتعلق بخطة التنمية المستدامة لعام 2030، والذي أدى إلى صياغة مؤشرات عالمية، منها ما يتعلق بالحماية الاجتماعية،</p>
+      </container>
+      <container name="وإذ يسلّم" eId="container_13">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يسلّم </span>بالأهمية الخاصة لإعلان مئوية منظمة العمل الدولية من أجل مستقبل العمل<sup>(</sup><authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/A/73/918">A/73/918</a>، المرفق.</p></authorialNote><sup>)</sup> بالنسبة لانتقال عادل اجتماعيا نحو التنمية المستدامة، وإذ يشير إلى قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/73/327">73</a><a href="https://undocs.org/ar/A/RES/73/327">/</a><a href="https://undocs.org/ar/A/RES/73/327">327</a> المؤرخ 25 تموز/يوليه 2019، الذي قررت الجمعية بموجبه إعلان عام 2021 سنة دولية للقضاء على عمل الأطفال،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد أهمية" eId="container_14">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يؤكد من جديد أهمية </span>دعم خطة الاتحاد الأفريقي لعام 2063، وكذلك خطته العشرية الأولى لتنفيذها، باعتبارهما إطارا استراتيجيا لضمان إحداث تحوّل اجتماعي اقتصادي إيجابي في أفريقيا في غضون السنوات الخمسين القادمة، وبرنامجه القاري الوارد في قرارات الجمعية العامة بشأن الشراكة الجديدة من أجل تنمية أفريقيا<sup>(</sup><authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/A/57/304">A/57/304</a>، المرفق.</p></authorialNote><sup>)</sup>، ومبادراته الإقليمية، من قبيل البرنامج الشامل للتنمية الزراعية في أفريقيا،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_15">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير </span>إلى المبادئ التوجيهية المتعلقة بالفقر المدقع وحقوق الإنسان<sup>(</sup><authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/A/HRC/21/39">A/HRC/21/39</a>.</p></authorialNote><sup>)</sup>، التي اعتمدها مجلس حقوق الإنسان في قراره <a href="https://undocs.org/ar/A/HRC/RES/21/11">21</a><a href="https://undocs.org/ar/A/HRC/RES/21/11">/</a><a href="https://undocs.org/ar/A/HRC/RES/21/11">11</a><sup>(</sup><authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">	()	انظر <span class="italic">الوثائق الرسمية للجمعية العامة، الدورة السابعة والستون، الملحق رقم 53 ألف</span> (<a href="https://undocs.org/ar/A/67/53/Add.1">A/67/53/Add.1</a>)، الفصل الثاني.</p></authorialNote><sup>)</sup>، باعتبارها أداة مفيدة يمكن أن تستعين بها الدول الأعضاء، حسب الاقتضاء، في صياغة سياسات الحد من الفقر والقضاء عليه وتنفيذها، وإذ يشجع الدول على تنفيذ المبادئ التوجيهية،</p>
+      </container>
+      <container name="وإذ يسلّم" eId="container_16">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يسلّم </span>بأن جائحة مرض فيروس كورونا (كوفيد-19) تشكل أحد أكبر التحديات العالمية في تاريخ الأمم المتحدة، وإذ يلاحظ مع القلق البالغ أثرها من حيث الصحة البدنية والعقلية والأرواح المفقودة والرفاه، فضلا عن أثرها السلبي على الاحتياجات الإنسانية على الصعيد العالمي، والتمتع بحقوق الإنسان، وفي جميع الميادين الاجتماعية، بما في ذلك على سبل العيش، والأمن الغذائي والتغذية، والتعليم، واستفحال الفقر والجوع، وتعطيل الاقتصادات، والتجارة، والمجتمعات والبيئات، وتفاقم مظاهر التفاوت الاقتصادي والاجتماعي داخل البلدان وفيما بينها، مما يؤدي إلى عكس مسار المكاسب الإنمائية التي تحققت بشق الأنفس ويعوق التقدم نحو تحقيق خطة التنمية المستدامة لعام 2030 وجميع أهدافها وغاياتها، وإذ يسلّم أيضا بأن جائحة كوفيد-19 تتطلب اتخاذ تدابير عالمية تقوم على الوحدة والتضامن وتجديد التعاون المتعدد الأطراف،</p>
+      </container>
+      <container name="وإذ يؤكد" eId="container_17">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يؤكد </span>أن الرؤى والمبادئ المعتمدة والالتزامات المقطوعة في مؤتمر القمة العالمي للتنمية الاجتماعية لا تزال صالحة في هذه اللحظة الحرجة من عقد العمل على تحقيق أهداف التنمية المستدامة بحلول عام 2030، ولها أهمية محورية في التصدي للتحديات العالمية الناشئة، وإذ يشير إلى أن السياسات الاجتماعية لها دور رئيسي في معالجة الآثار المباشرة للأزمات الاجتماعية والاقتصادية وفي تصميم استراتيجيات الانتعاش،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_18">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يؤكد من جديد </span>الالتزام بالقضاء على الفقر بجميع صوره وأبعاده، بما في ذلك من خلال القضاء على الفقر المدقع بحلول عام 2030، وبضرورة أن يتمتع الجميع بمستويات المعيشة الأساسية، عن طريق وسائل منها نظم الحماية الاجتماعية، وبالقضاء على الجوع وتحقيق الأمن الغذائي على سبيل الأولوية ووضع حد لجميع أشكال سوء التغذية،</p>
+      </container>
+      <container name="وإذ يقر" eId="container_19">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يقر </span>بأن جائحة كوفيد-19 أدت، في وقت لا يتبقى سوى أقل من 10 سنوات من أجل تحقيق أهداف التنمية المستدامة، إلى إبطاء إحراز التقدم في تحقيق العديد من أهداف التنمية المستدامة بحلول عام 2030، بما في ذلك الهدف 1، القضاء على الفقر بجميع أشكاله في كل مكان، والهدف 2، القضاء على الجوع وتوفير الأمن الغذائي والتغذية المحسنة وتعزيز الزراعة المستدامة، والهدف 10، الحد من عدم المساواة داخل البلدان وفيما بينها، وإذ يسلّم بأن الضعفاء أو الذين يعيشون في أوضاع هشة هم أكثر الفئات تضررا من الجائحة،</p>
+      </container>
+      <container name="وإذ يشير بقلق بالغ" eId="container_20">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير بقلق بالغ </span>إلى أن جائحة كوفيد-19 زادت من عدد أولئك الذين يعيشون في فقر وأدت أيضا إلى زيادة إفقار من يعيشون بالفعل في فقر، وإذ يلاحظ أيضا بقلق بالغ أن الضعفاء أو الذين يعيشون في أوضاع هشة، ولا سيما النساء والأطفال، بمن فيهم الفتيات والشباب وكبار السن والأشخاص ذوو الإعاقة والأشخاص المنحدرون من أصل أفريقي والشعوب الأصلية، يعانون من تداعيات جائحة كوفيد-19 ولا يزالون يواجهونها،</p>
+      </container>
+      <container name="وإذ يعرب عن بالغ القلق" eId="container_21">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يعرب عن بالغ القلق </span>لأن النساء، رغم أنهن يساهمن بأكثر من 50 في المائة من إنتاج الأغذية على صعيد العالم، يمثلن 70 في المائة من الجياع في العالم، ولأن النساء والفتيات يتعرضن أكثر من غيرهن للجوع وانعدام الأمن الغذائي والفقر، وهو ما يعزى جزئيا إلى انعدام المساواة بين الجنسين والتمييز، ولأن احتمالات وفاة الفتيات في العديد من البلدان من جراء سوء التغذية والإصابة بأمراض الطفولة التي يمكن الوقاية منها هي ضعف احتمالات وفاة الفتيان، ولأن التقديرات تشير إلى أن نسبة النساء اللاتي يعانين من سوء التغذية تناهز ضعف نسبة الرجال،</p>
+      </container>
+      <container name="وإذ يسلّم" eId="container_22">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يسلّم </span>بالدور والمساهمة الحاسمي الأهمية للنساء الريفيات، بمن فيهن صاحبات الملكيات الصغيرة والمزارعات الصغيرات، ونساء الشعوب الأصلية ونساء المجتمعات المحلية، ولمعارفهن التقليدية في تعزيز التنمية الزراعية والريفية وتحسين مستوى الأمن الغذائي والقضاء على الفقر في الريف،</p>
+      </container>
+      <container name="وإذ يقر" eId="container_23">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يقر </span>بالتقدم الكبير الذي أحرز في عدة أنحاء من العالم في مجال مكافحة الفقر بجميع صوره وأبعاده، وإذ يساوره بالغ القلق مع ذلك لأن الفقر لا يزال منتشرا ويتفاقم بفعل آثار جائحة كوفيد-19 في جميع بلدان العالم، بصرف النظر عن حالتها الاقتصادية والاجتماعية والثقافية، ولأنه شديد الحدة في البلدان النامية، ونطاقه يتسع ومظاهره تتبدّى في أشكال شتى تشمل الاستبعاد الاجتماعي، والجوع، والتمييز، وتأنيث الفقر، وقلة المنعة أمام الاتجار بالبشر والاستغلال والانتهاك الجنسيين، وزواج الأطفال والزواج المبكر والزواج القسري وعمل الأطفال، والمرض، والافتقار إلى السكن اللائق وإلى فرص الحصول على الخدمات الأساسية، وغياب الارتقاء الاجتماعي، والأمية،</p>
+      </container>
+      <container name="وإذ يعرب عن بالغ القلق" eId="container_24">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يعرب عن بالغ القلق</span> لأن التقدم المحرز في الحد من الفقر لا يزال متفاوتا، حيث لا يزال 1,3 بليون شخص يعيشون في فقر متعدد الأبعاد، ولأن هذا العدد لا يزال مرتفعا بشكل كبير وغير مقبول، في حين أن مستويات التفاوت في الدخل والثروة والفرص لا تزال مرتفعة أو آخذة في الازدياد في عدد من البلدان، وأبعاد الفقر والحرمان غير المتّصلة بالدخل، من قبيل إمكانية الحصول على التعليم الجيد أو الخدمات الصحية الأساسية، والفقر النسبي لا تزال تشكل مصادر قلق رئيسية، وإذ يشدد على أهمية الجهود الوطنية والعالمية الرامية إلى تهيئة الظروف المواتية للتنمية المستدامة، وللنمو الاقتصادي الشامل والمطرد، والازدهار العميم وفرص العمل الكريم للكافة في المجتمع، مع مراعاة مختلف مستويات القدرات الإنمائية الوطنية،</p>
+      </container>
+      <container name="وإذ يلاحظ" eId="container_25">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يلاحظ </span>أن تعزيز رفاه الناس جميعا على مدى دورة حياتهم ينبغي أن يكون في صميم أي جهود ترمي إلى الحد من الفقر والجوع، وأنه عنصر أساسي من عناصر التعافي بطريقة لا يُستثنى فيها أحد وتتوفر لها مقومات الاستمرارية، وإذ يسلم بأن بناء نظم غذائية تتسم بالكفاءة والشمول والقدرة على الصمود والاستدامة أمر بالغ الأهمية لضمان الأمن الغذائي وكفالة سبل حصول الجميع على الغذاء المأمون والمغذي والكافي، مع التصدي للتحديات المترابطة الأخرى مثل القضاء على الجوع وانعدام الأمن الغذائي وسوء التغذية وزيادة القدرة على صمود سبل العيش من خلال زيادة تعزيز الشراكة العالمية من أجل التنمية المستدامة وعدم ترك أي أحد خلف الركب،</p>
+      </container>
+      <container name="وإذ يحيط علما" eId="container_26">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يحيط علما </span>بما بذله رئيس الجمعية العامة في دورتها الرابعة والسبعين من جهود لإطلاق التحالف من أجل القضاء على الفقر، وهي مبادرة هادفة أتت في وقتها وما زالت تشكل منتدى لتبادل الأفكار والسياسات وأفضل الممارسات بشأن القضاء على الفقر، وإذ يشدد على أهمية التصدي للفقر، بما في ذلك المسائل المتصلة بالفقر في المناطق الريفية، بالنظر إلى أن فقراء الأرياف قد يكونون أقل استعدادا لمواجهة آثار جائحة كوفيد-19 والتعافي منها وأقل استفادة من مستوى كاف من الخدمات المتصلة بالصرف الصحي والغذاء والتغذية والرعاية الصحية والتعليم والإنترنت وتكنولوجيات المعلومات والاتصالات والحماية الاجتماعية والخدمات المالية والبنية التحتية العامة،</p>
+      </container>
+      <container name="وإذ يقر" eId="container_27">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يقر </span>بأن الإدماج الاجتماعي للأشخاص الذين يعانون من الفقر والجوع ينبغي أن يشمل التصدي لاحتياجاتهم الإنسانية الأساسية وتلبيتها، بما في ذلك الغذاء المأمون والمتنوع والمغذي والكافي، والصحة، ومياه الشرب المأمونة والمرافق الصحية، والسكن، وسبل الحصول على التعليم الجيد، وفرص التعلم مدى الحياة، والعمالة الكاملة والمنتجة، والعمل اللائق، من خلال استراتيجيات إنمائية متكاملة،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_28">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يؤكد من جديد </span>أنه لما كان انتشار الفقر المدقع على نطاق واسع يعوق التمتع بجميع حقوق الإنسان على نحو كامل وفعلي وقد يشكل في بعض الحالات خطراً يهدد الحق في الحياة، فلا بد أن يظل التخفيف من حدته فورا والقضاء عليه في نهاية المطاف في صدارة أولويات المجتمع الدولي،</p>
+      </container>
+      <container name="وإذ يسلّم" eId="container_29">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يسلّم </span>بأهمية فهم طبيعة التنمية والفقر المتعددة الأبعاد بشكل أفضل، وإذ يشدد في الوقت ذاته على الحاجة إلى استخدام أدوات تحليلية متعددة الأبعاد، بما في ذلك مؤشرات الفقر المتعددة الأبعاد وتحليل المخاطر من أجل الوقوف على الترابط القائم بحكم الطبيعة بين أشكال الحرمان وأوجه الضعف وفهم ديناميات الفقر وصياغة السياسات، وإذ يسلم بأن مؤشرات الفقر الوطنية المناسبة المتعددة الأبعاد تتيح للبلدان أن تستهدف تدابير القضاء على الفقر وتنسقها وترصدها على نحو أفضل،</p>
+      </container>
+      <container name="وإذ يلاحظ" eId="container_30">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يلاحظ </span>أن سياسات القضاء على الفقر الفعالة تتطلب إقامة شراكات بين الحكومات الوطنية والمحلية ومنظمات المجتمع المدني، وإذ يسلم بأن منظمات المجتمع المدني يمكنها أن تسهم في تحديد احتياجات الضعفاء أو الذين يعيشون في أوضاع هشة وتلبيتها، وأن تسترعي الانتباه إلى من يتركون خلف الركب، وأن تيسر تحديد تلك الفئات والتعامل والتواصل معها،</p>
+      </container>
+      <container name="وإذ يسلّم" eId="container_31">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يسلّم </span>بالإسهام الهام لجهود ريادة الأعمال في تحقيق التنمية المستدامة عن طريق إيجاد فرص العمل، وحفز النمو والابتكار في المجال الاقتصادي على نحو يشمل الجميع، وتحسين الظروف الاجتماعية، والتصدي للتحديات الاقتصادية والاجتماعية والبيئية في سياق خطة عام 2030، وإذ يؤكد أن الدور الذي تؤديه ريادة الأعمال، بما في ذلك ريادة المشاريع الاجتماعية والمشاريع البالغة الصغر والصغيرة والمتوسطة الحجم، في تحقيق التنمية الاجتماعية والاقتصادية يكتسي أهمية أكثر من أي وقت مضى في مرحلة التعافي من كوفيد-19 وما بعدها،</p>
+      </container>
+      <container name="وإذ يسلّم أيضا" eId="container_32">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يسلّم أيضا </span>بأن الرياضة تشكل عاملا مساعدا لتحقيق التنمية الاجتماعية ويمكن أن تستخدم كوسيلة للحصول على التعليم الجيد وفرص العمل اللائق، وتعزيز أنماط الحياة الصحية والرفاه، وتعزيز التضامن والتماسك الاجتماعي، ومكافحة الاستبعاد الاجتماعي والقوالب النمطية، وتهيئة فرص اقتصادية للجميع، مما يمكن أن يسهم في انتشال الناس من براثن الفقر،</p>
+      </container>
+      <container name="وإذ يقر" eId="container_33">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يقر </span>بضرورة مكافحة التدفقات المالية غير المشروعة وتوطيد الممارسات الجيدة بشأن إعادة الأصول كأحد مصادر تمويل التنمية بهدف الحد من الجوع وتحقيق الأمن الغذائي وتحسين التغذية وتشجيع الزراعة المستدامة،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_34">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يؤكد من جديد </span>حق كل فرد في الحصول على طعام مأمون وكاف ومغذ، بما يتفق مع الحق في الحصول على غذاء كاف والحق الأساسي لكل فرد في أن يكون في مأمن من الجوع، لكي يتمكن من النمو على نحو كامل والحفاظ على قدراته البدنية والعقلية، وإذ يشدد على ضرورة بذل جهود خاصة لتلبية الاحتياجات التغذوية، ولا سيما احتياجات النساء والأطفال والمسنين والشعوب الأصلية والأشخاص ذوي الإعاقة واحتياجات من يعيشون في أوضاع هشة،</p>
+      </container>
+      <container name="وإذ يحيط علما مع التقدير" eId="container_35">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يحيط علما مع التقدير </span>بالمنشور المعنون <span class="italic">حالة الأمن الغذائي والتغذية في العالم 2021: تحويل المنظومات الغذائية من أجل تحقيق الأمن الغذائي وتحسين التغذية وتوفير أنظمة غذائية صحية ميسورة الكلفة للجميع</span>، الذي أصدرته منظمة الأغذية والزراعة للأمم المتحدة ومنظمة الصحة العالمية والصندوق الدولي للتنمية الزراعية وبرنامج الأغذية العالمي ومنظمة الأمم المتحدة للطفولة،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_36">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشدد </span>على الحاجة إلى تهيئة نظم غذائية مستدامة، وإذ يسلّم بأن التكنولوجيا الزراعية والرقمنة يمكن أن تسهما في الأمن الغذائي والتغذية وتساعدا على بناء القدرة على الصمود،</p>
+      </container>
+      <container name="وإذ لا يزال يساوره بالغ القلق" eId="container_37">
+        <p xml:space="preserve">	<span class="bold italic">وإذ لا يزال يساوره بالغ القلق</span> لأن أحدث تقديرات منظمة الأغذية والزراعة للأمم المتحدة وبرنامج الأغذية العالمي والصندوق الدولي للتنمية الزراعية ومنظمة الصحة العالمية ومنظمة الأمم المتحدة للطفولة تفيد بأن عدد الأشخاص الذين يعانون من نقص التغذية المزمن في العالم ارتفع إلى 811 مليون شخص في عام 2020، أي بما يزيد على عام 2019 بـ 161 مليون شخص، وبأن التحديات العالمية المتعلقة بالتغذية تزداد تعقيدا، إذ يمكن أن تتواجد في آن معا في البلد نفسه أو في الأسرة المعيشية نفسها أشكال متعددة من سوء التغذية، ومنها توقف النمو، والهزال، ونقص الوزن، وحالات النقص في المغذيات الدقيقة، والوزن الزائد، والسمنة،</p>
+      </container>
+      <container name="وإذ يساوره بالغ القلق" eId="container_38">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يساوره بالغ القلق </span>إزاء تأثير جائحة كوفيد-19 غير المتناسب على الأطفال، ولا سيما الفتيات، بما في ذلك فيما يتصل بحصولهم على خدمات الرعاية الصحية الأساسية والتعليم، وإذ يسلّم بأن إغلاق المدارس كان له أشد الوقع على أكثر الأطفال فقرا وضعفا وأسرهم، وبأن العديد من الأطفال قد لا يستأنفون أبدا تعليمهم بسبب إكراههم على الزواج أو العمل، وبأن الاضطرابات في النظم الغذائية والصحية قد أسهمت في تراجع التقدم المحرز في مجال صحة الأم والطفل وفي زيادة جميع أشكال سوء التغذية، وفي التحاق 142 مليون طفل إضافي في عام 2020 بصفوف الأطفال الذين يعيشون في أسر معيشية ضعيفة الدخل،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_39">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير </span>إلى قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/72/239">72/239</a> المؤرخ 20 كانون الأول/ديسمبر 2017، الذي أعلنت فيه الفترة 2019-2028 عقدا للأمم المتحدة للزراعة الأسرية، مما يبرز دور الزراعة الأسرية في المساهمة في تنفيذ خطة عام 2030 وتحقيق الأمن الغذائي وتحسين التغذية،</p>
+      </container>
+      <container name="وإذ يحيط علما مع التقدير" eId="container_40">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يحيط علما مع التقدير </span>بمؤتمر قمة الأمم المتحدة المعني بالمنظومات الغذائية لعام 2021 الذي عقد بدعوة من الأمين العام في 23 و 24 أيلول/سبتمبر 2021، وكذلك بالاجتماع السابق لمؤتمر القمة الذي عقد في الفترة من 26 إلى 28 تموز/يوليه 2021 في روما، وإذ يلاحظ أيضا موجز الرئيس وبيان العمل بشأن مؤتمر قمة الأمم المتحدة المعني بالمنظومات الغذائية، اللذين أصدرهما الأمين العام،</p>
+      </container>
+      <container name="وإذ يحيط علما" eId="container_41">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يحيط علما </span>بالاتفاق العالمي للتغذية من أجل النمو، الذي وقّعته أكثر من 100 من البلدان والشركات ومنظمات المجتمع المدني، لخفض عدد الأطفال الذين يعانون من توقف النمو بمقدار 20 مليون طفل بحلول عام 2020، وبالالتزامات المالية المعلنة دعما لهذا الهدف، وكذلك بمؤتمر القمة الثالث المعني بالتغذية من أجل النمو، الذي عقد في ميلانو، إيطاليا، في تشرين الثاني/نوفمبر 2017، وبمؤتمر القمة المعني بالتغذية من أجل النمو، الذي عقد في طوكيو في عام 2021،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_42">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير </span>إلى الحوار الإقليمي الأفريقي الذي عقد في المغرب في 13 تموز/يوليه 2021، قبل انعقاد مؤتمر قمة الأمم المتحدة المعني بالمنظومات الغذائية، بهدف التعجيل بتعزيز المنظومات الغذائية بالاستناد إلى خصوصية إقليمية تستمد جوهرها من النظم الزراعية ونظم الأغذية الأفريقية، والنظام الغذائي الأفريقي، وظروف عيش السكان الأفارقة، وطموحات المجتمعات الأفريقية،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_43" class="SingleTxt">
+        <content eId="para_43__content">
+          <p xml:space="preserve">	1 -	<span class="bold italic">يحيط علما </span>بتقرير الأمين العام<sup>(</sup><authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/E/CN.5/2022/3">E/CN.5/2022/3</a>.</p></authorialNote><sup>)</sup>؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="SingleTxt">
+        <content eId="para_44__content">
+          <p xml:space="preserve">	2 -	<span class="bold italic">يدرك </span>الحاجة الملحة إلى الإسراع بخطى العمل على جميع المستويات ومن جانب جميع الجهات صاحبة المصلحة من أجل تحقيق رؤية خطة التنمية المستدامة لعام 2030 وأهدافها<sup>(</sup><authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">	()	قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/70/1">70/1</a>.</p></authorialNote><sup>)</sup>، ويشدد على أن المجتمع الدولي، من خلال ما اعتمدته الجمعية العامة من الوثائق الختامية للمؤتمرات الرئيسية ومؤتمرات القمة التي عقدتها الأمم المتحدة، قد عزز في جملة أمور الأهمية الملحة للقضاء على الفقر بجميع صوره وأبعاده، ومكافحة انعدام المساواة داخل البلدان وفيما بينها، وحماية البيئة، وتحقيق النمو الاقتصادي المطرد والشامل والمستدام، وتعزيز الإدماج الاجتماعي في إطار خطة الأمم المتحدة للتنمية، بما في ذلك نتائج مؤتمر القمة العالمي للتنمية الاجتماعية، وخطة عمل أديس أبابا الصادرة عن المؤتمر الدولي الثالث لتمويل التنمية<sup>(</sup><authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">	()	قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/69/313">69/313</a>، المرفق.</p></authorialNote><sup>)</sup>، وإطار سِنداي للحد من مخاطر الكوارث للفترة 2015-2030<sup>(</sup><authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">	()	قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/69/283">69/283</a>، المرفق الثاني.</p></authorialNote><sup>)</sup>، والخطة الحضرية الجديدة<sup>(</sup><authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">	()	قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/71/256">71/256</a>، المرفق.</p></authorialNote><sup>)</sup>؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxt">
+        <content eId="para_45__content">
+          <p xml:space="preserve">	3 -<span class="bold italic">	يؤكد من جديد </span>الالتزام بتنفيذ خطة التنمية المستدامة لعام 2030 للجميع عن طريق ضمان عدم ترك أي أحد خلف الركب والوصول أولا إلى من هم أشد تخلفا عن الركب، والاعتراف بحقوق الإنسان وبأن كرامة الإنسان أمر أساسي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="SingleTxt">
+        <content eId="para_46__content">
+          <p xml:space="preserve">	4 -	<span class="bold italic">يهيب </span>بالدول الأعضاء أن تكفل تعزيز جميع حقوق الإنسان وحمايتها، وفقا لالتزاماتها بموجب القانون الدولي لحقوق الإنسان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxt">
+        <content eId="para_47__content">
+          <p xml:space="preserve">	5 -<span class="bold italic">	يؤكد من جديد </span>أن القضاء على الفقر بجميع صوره وأبعاده، بما في ذلك الفقر المدقع، لجميع الناس في كل مكان، هو أكبر تحد عالمي وشرط لا غنى عنه لتحقيق التنمية المستدامة، وهو كذلك هدف من الأهداف الرئيسية لخطة التنمية المستدامة لعام 2030، التي تشكل خطة عمل أديس أبابا الصادرة عن المؤتمر الدولي الثالث لتمويل التنمية جزءا لا يتجزأ منها يدعمها ويكملها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="SingleTxt">
+        <content eId="para_48__content">
+          <p xml:space="preserve">	6 -	<span class="bold italic">يقر </span>بأن التعافي من جائحة كوفيد-19 يتيح فرصة إضافية لوضع أطر سياساتية متكاملة طويلة الأجل لتحقيق أهداف التنمية المستدامة، وبأن هذه الأطر ينبغي أن تهدف في الوقت نفسه إلى القضاء على الفقر والجوع وسوء التغذية، ومكافحة أوجه عدم المساواة، وتعزيز قدرات الناس ورفاههم، وتعزيز إجراءات إسراع خطى العمل على الصعد الوطني والإقليمي والدولي، وكفالة سبل العيش المستدامة للجميع، ويدرك أيضا أن التحليل المتعدد الأبعاد للفقر والجوع ينبغي أن يسترشد به في استراتيجيات التعافي تلك؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxt">
+        <content eId="para_49__content">
+          <p xml:space="preserve">	7 -	<span class="bold italic">يشجع </span>الدول الأعضاء على الترويج لإمكانية الحصول العادل والميسور التكلفة على الخدمات الأساسية، ولا سيما التعليم الجيد في القطاعين النظامي وغير النظامي، على جميع المستويات، بما يشمل وضع برامج تعزز المساواة والإدماج عن طريق تأكيد كرامة الإنسان الأساسية، وخدمات الرعاية الصحية، باتباع سبل منها إسراع خطى التحول نحو المساواة في الحصول على التغطية الصحية الشاملة، إضافة إلى الحصول على السكن والغذاء والتغذية بتكلفة ميسورة، والاستفادة من العمالة والعمل اللائق، وتكنولوجيا المعلومات والاتصالات، والبنى التحتية، من خلال النهوض بالمساواة بين الجنسين وتمكين جميع النساء والفتيات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_50" class="SingleTxt">
+        <content eId="para_50__content">
+          <p xml:space="preserve">	8 -	<span class="bold italic">يشجع </span>الحكومات على مواصلة بذل جهودها لوضع استراتيجيات وبرامج ترمي إلى تعزيز القدرات الوطنية اللازمة لمعالجة الأولويات الوطنية المتصلة بالسياسات الأسرية المنحى وتكثيف الجهود التي تبذلها، بالتعاون مع أصحاب المصلحة المعنيين، لتنفيذ تلك الأهداف، ولا سيما في مجالات مكافحة الفقر والجوع، للحيلولة دون توارث الفقر بين الأجيال ودون تأنيث الفقر وكفالة رفاه الجميع بكل أعمارهم في سبيل تحقيق خطة التنمية المستدامة لعام 2030؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="SingleTxt">
+        <content eId="para_51__content">
+          <p xml:space="preserve">	9 -	<span class="bold italic">يؤكد </span>أهمية وضع سياسات لتوسيع فرص العمل والإنتاجية في كل من القطاعين الريفي والحضري عن طريق تحقيق النمو الاقتصادي وإنعاشه، والاستثمار في تنمية الموارد البشرية، وتشجيع التكنولوجيات التي تولد العمالة المنتجة، وتشجيع العمل الحر، وريادة الأعمال، والمشاريع الصغيرة والمتوسطة الحجم؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxt">
+        <content eId="para_52__content">
+          <p xml:space="preserve">	10 -<span class="bold italic">	يدعو </span>الدول الأعضاء إلى النظر في اعتماد سياسات سوق العمل التي تعزز المؤسسات وتوفر الحماية الكافية في مجال العمل لجميع العمال، بسبل منها الحوار الاجتماعي، ولا سيما لأكثرهم معاناة من الحرمان، بوسائل منها سياسات الحد الأدنى للأجور، مع مراعاة الدور الذي تضطلع به منظمات العمال وأرباب العمل، حسب الاقتضاء، في إطار السياسات الرامية إلى تعزيز نمو الدخل للغالبية العظمى من العمال، في ظل مراعاة الظروف المحددة لكل بلد؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_53" class="SingleTxt">
+        <content eId="para_53__content">
+          <p xml:space="preserve">	11 -	<span class="bold italic">يؤكد </span>ضرورة التصدي للتحديات التي يواجهها من يعملون في القطاع غير النظامي أو في الوظائف الهشة بالاستثمار في إيجاد المزيد من فرص العمل اللائق، بما في ذلك توفير إمكانية الحصول على فرص العمل اللائق في القطاع النظامي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxt">
+        <content eId="para_54__content">
+          <p xml:space="preserve">	12 -	<span class="bold italic">يشجع </span>الدول الأعضاء على تنفيذ سياسات تكفل تمكين المرأة اقتصاديا من خلال دعم مشاركة النساء الكاملة والمنتجة في سوق العمل، بمن فيهن النساء ذوات الإعاقة والنساء اللائي يعشن في فقر وربات الأسر المعيشية، وعلى تحقيق المساواة في الأجر عن العمل المتساوي أو العمل المتساوي القيمة، وتقاسم المسؤوليات بالتساوي بين الوالدين، والوصول إلى مرافق رعاية الأطفال، والتوازن بين العمل والأسرة، بما في ذلك، في جملة أمور، عند رعاية الأطفال وكبار السن والأشخاص ذوي الإعاقة، وتعزيز مشاركتها المجدية في الاقتصاد وفي عمليات صنع القرار على جميع المستويات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_55" class="SingleTxt">
+        <content eId="para_55__content">
+          <p xml:space="preserve">	13 -	<span class="bold italic">يبرز </span>أهمية وضع وتنفيذ سياسات وبرامج لدعم ريادة الأعمال، لا سيما لأجل النساء والشباب، ويشدد على أن دور ريادة الأعمال، بما في ذلك ريادة المشاريع الاجتماعية والمشاريع الصغيرة والمتوسطة الحجم، في التنمية الاجتماعية والاقتصادية، هو أكثر أهمية من أي وقت مضى في مرحلة التعافي من كوفيد-19 وما بعدها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_56" class="SingleTxt">
+        <content eId="para_56__content">
+          <p xml:space="preserve">	14 -<span class="bold italic">	يشجع </span>الدول الأعضاء على احترام الحق في العمل وتعزيزه وإعماله وعلى منع أعمال العنف والاعتداء والتحرش الجنسي والقضاء عليها، مع التسليم في الوقت نفسه بأن أعمال العنف والتحرش لا يجوز قبولها وأنها تشكل تهديدا لتكافؤ الفرص وتتنافى مع العمل اللائق، ويمكن أن تحول دون وصول المرأة إلى سوق العمل ودون الاستمرار في سوق العمل والارتقاء فيه؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_57" class="SingleTxt">
+        <content eId="para_57__content">
+          <p xml:space="preserve">	15 -<span class="bold italic">	يقر </span>بأن تفاقم الفقر خلال جائحة كوفيد-19 قد أدى إلى زيادة في عمل الأطفال، ويحث الدول الأعضاء على اتخاذ تدابير فورية وفعالة لضمان حظر عمل الأطفال بجميع أشكاله وضمان القضاء عليه، بحلول عام 2025 على أبعد تقدير؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxt">
+        <content eId="para_58__content">
+          <p xml:space="preserve">	16 -	<span class="bold italic">يسلّم </span>بأن توفير نُظم الحماية الاجتماعية للجميع وفق ما يلائم الظروف الوطنية يعالج أسباب الفقر واللامساواة المتعددة والمتشابكة والمعقدة في كثير من الأحيان عن طريق تخفيف عبء نفقات معينة خلال فترات البطالة، والمساهمة في تحقيق الأهداف المتعلقة بالصحة، وتحقيق المساواة بين الجنسين وتوفير العمل اللائق، وتيسير الإدماج الكامل للأشخاص ذوي الإعاقة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_59" class="SingleTxt">
+        <content eId="para_59__content">
+          <p xml:space="preserve">	17 -	<span class="bold italic">يسلّم أيضا </span>بأن نظم الحماية الاجتماعية الملائمة للظروف الوطنية تساهم مساهمة حاسمة في إعمال حقوق الإنسان الواجبة للجميع، ولا سيما للأشخاص الواقعين في براثن الفقر والجوع، وأن تشجيع حصول الجميع على الخدمات الاجتماعية وتوفير حدود دنيا من الحماية الاجتماعية الملائمة للظروف الوطنية يمكن أن يسهما في الحد من أوجه عدم المساواة والفقر وفي التصدي للاستبعاد الاجتماعي وتعزيز النمو الاقتصادي الشامل، ويحيط علما في هذا الصدد بتوصية منظمة العمل الدولية بشأن الحدود الدنيا للحماية الاجتماعية لعام 2012 (رقم 202)؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_60" class="SingleTxt">
+        <content eId="para_60__content">
+          <p xml:space="preserve">	18 -	<span class="bold italic">يشجع </span>الدول الأعضاء على أن تكفل، لدى وضع برامج الحماية الاجتماعية وتنفيذها ورصدها وتقييمها لأغراض التنمية الاجتماعية، تعميم مراعاة المنظور الجنساني في جميع مراحل هذه العملية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_61" class="SingleTxt">
+        <content eId="para_61__content">
+          <p xml:space="preserve">	19 -<span class="bold italic">	يسلِّم </span>بالدور الهام الذي يمكن أن تؤديه الأسر في مكافحة الاستبعاد الاجتماعي، ويبرز أهمية الاستثمار في السياسات والبرامج الشاملة للجميع المتسمة بالتجاوب وذات المنحى الأسري في مجالات مثل التعليم، والتدريب، والعمل اللائق، والتوازن بين العمل والأسرة، وخدمات الرعاية الصحية، والخدمات الاجتماعية، والعلاقات والتضامن بين الأجيال، والتحويلات النقدية الموجهة للأسر الضعيفة، وذلك من أجل الحد من عدم المساواة، وتعزيز رفاه جميع الأشخاص من جميع الأعمار، فضلا عن الإسهام في تحقيق نتائج أفضل لصالح الأطفال وغيرهم من أفراد الأسرة الضعفاء الذين يعيشون في أوضاع هشة والمساعدة في كسر دائرة الفقر المتوارث بين الأجيال؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_62" class="SingleTxt">
+        <content eId="para_62__content">
+          <p xml:space="preserve">	20 -<span class="bold italic">	يقر </span>بالدور الحيوي الذي تؤديه نظم الحماية الاجتماعية المستدامة في التصدي لجائحة كوفيد-19، ويشجع الدول الأعضاء على كفالة أن يفسح التعافي من جائحة كوفيد-19 للبلدان المعنية المجال على مستوى السياسات للتصدي للثغرات الكبيرة التي تعاني منها على صعيد تغطية الحماية الاجتماعية من خلال إحراز التقدم نحو إقامة نظم للحماية الاجتماعية تكون معممة وكافية وشاملة ومستدامة، وتكون شاملة، وفقا لتشريعاتها الوطنية، للدخل الأساسي واستحقاقات الأطفال واستحقاقات الأمومة واستحقاقات المرض واستحقاقات العجز واستحقاقات البطالة ومعاشات الشيخوخة، وأن تحدد نظم الحماية الاجتماعية تلك مكامن الثغرات في التغطية وتسدها، ولا سيما فيما يخص أولئك الذين يعيشون في أوضاع هشة، بمن فيهم العمال في القطاع غير النظامي والمهاجرون ومقدمو الرعاية غير المأجورين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_63" class="SingleTxt">
+        <content eId="para_63__content">
+          <p xml:space="preserve">	21 -<span class="bold italic">	يشجع </span>الدول الأعضاء على توفير نظم الحماية الاجتماعية الشاملة المراعية للعمر والإعاقة ونوع الجنس وذات المنحى الأسرى، التي هي بالغة الأهمية لضمان الحد من الفقر، بما في ذلك، حسب الاقتضاء، التحويلات النقدية الموجهة لمن يعيشون من الأشخاص والأسر في أوضاع هشة، مثل الأسر التي يعيلها أحد الوالدين، ولا سيما الأسر التي تعيلها نساء، والتي هي فعالة للغاية في الحد من الفقر عندما تصحبها تدابير أخرى، مثل توفير إمكانية الحصول على الخدمات الأساسية والتعليم العالي الجودة وخدمات الرعاية الصحية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_64" class="SingleTxt">
+        <content eId="para_64__content">
+          <p xml:space="preserve">	22 -	<span class="bold italic">يشدد </span>على ضرورة تنسيق أفضل لسياسات وتدابير الحماية الاجتماعية مع برامج الحد من الفقر والسياسات الاجتماعية الأخرى لتجنب استبعاد الأشخاص العاملين في القطاع غير النظامي أو في وظائف غير ثابتة، ويسلّم بالحاجة إلى تشجيع عمليات الانتقال نحو الاقتصاد النظامي، وتوسيع برامج المساعدة الاجتماعية القائمة والارتقاء بها بزيادة مستوى الاستحقاقات والتغطية المقدمة إلى العمال غير النظاميين، بما في ذلك العمال الموسميون والعرضيون في المناطق الريفية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_65" class="SingleTxt">
+        <content eId="para_65__content">
+          <p xml:space="preserve">	23 -<span class="bold italic">	يشجع </span>الدول الأعضاء على وضع خطط طويلة الأجل لانتعاش التنمية الاجتماعية تكون واعية بالمخاطر وشاملة للجميع وموجهة نحو الوقاية تؤدي إلى تحسين قدرات الناس ورفاههم، من خلال الاستثمار في الخدمات الاجتماعية والبنية التحتية الجيدة والموثوقة والمستدامة والقادرة على الصمود، بما في ذلك البنية التحتية المدرسية الأساسية، وخدمات الرعاية الصحية، ومياه الشرب المأمونة والصرف الصحي، والسكن الميسور التكلفة، وضمان فرص العمل اللائق، والتغطية الكافية بالحماية الاجتماعية، وتوفير التكنولوجيا الرقمية والربط بالإنترنت على نحو موثوق وميسور التكلفة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_66" class="SingleTxt">
+        <content eId="para_66__content">
+          <p xml:space="preserve">	24 -<span class="bold italic">	يلاحظ بقلق بالغ </span>التفاوت في معدلات التلقيح، ولا سيما بين البلدان المتقدمة النمو والبلدان النامية، وخاصة منها البلدان الأفريقية، ويلاحظ بقلق بالغ الوقع السلبي الحاد لجائحة كوفيد-19 على صحة الإنسان وسلامته ورفاهه وما تعرضت له المجتمعات والاقتصادات من اختلالات شديدة، وما ألحقته الجائحة من دمار بحياة الناس وسبل عيشهم، وأن أشد الفئات فقرا وضعفا هي الأكثر تضررا من آثارها، ويؤكد من جديد الطموح للعودة إلى المسار الصحيح لتحقيق أهداف التنمية المستدامة عن طريق وضع وتنفيذ استراتيجيات للتعافي تتسم بالاستدامة والشمول من أجل التعجيل بالتقدم صوب تنفيذ خطة عام 2030 تنفيذا كاملا والمساعدة على الحد من مخاطر الصدمات والأزمات والجوائح في المستقبل وبناء القدرة على الصمود في وجهها، بسبل من بينها تعزيز النظم الصحية وتوفير التغطية الصحية الشاملة، ويسلم بأن حصول الجميع على نحو منصف وفي الوقت المناسب على اللقاحات ووسائل العلاج والتشخيص المتعلقة بكوفيد-19 التي تكون مأمونة وجيدة وفعالة وميسورة التكلفة هو جزء صميم من التدابير العالمية المتخَذة على أساس الوحدة والتضامن والتعاون المتعدد الأطراف المتجدد والمبدأ القاضي بألا يترك أحد خلف الركب؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_67" class="SingleTxt">
+        <content eId="para_67__content">
+          <p xml:space="preserve">	25 -	<span class="bold italic">يشجع </span>الدول الأعضاء على تيسير تمكين الأشخاص الذين يعيشون في أوضاع هشة، بمن فيهم الذين يعيشون في فقر، ومشاركتهم المجدية لأجل وضع وتنفيذ ورصد خطط التعافي من كوفيد-19؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_68" class="SingleTxt">
+        <content eId="para_68__content">
+          <p xml:space="preserve">	26 -	<span class="bold italic">يحث </span>الدول الأعضاء على معالجة الأسباب المتعددة للفقر والجوع وعدم المساواة عن طريق إيجاد فرص العمل اللائق؛ وزيادة القدرة على الصمود؛ وتحسين الاتساق بين الحماية الاجتماعية والأمن الغذائي وسياسات التغذية؛ وتوفير التحويلات النقدية الموجهة؛ وتعزيز وتعميم الإلمام بالتكنولوجيا الرقمية وبالأمور المالية؛ وضمان تكافؤ الفرص والحصول على أنظمة غذائية صحية على أساس نظم غذائية مستدامة، والتعليم الجيد والتعلم مدى الحياة؛ ومكافحة جميع أشكال التمييز؛ وتمكين جميع الناس وتيسير الإدماج الاجتماعي لمن يواجهون أشكال متعددة ومتقاطعة من التمييز ومشاركتهم؛ وإعطاء الأولوية للاستثمار في التعليم والتغذية والرعاية في مرحلة الطفولة المبكرة لكسر دائرة الفقر المتوارث بين الأجيال؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="SingleTxt">
+        <content eId="para_69__content">
+          <p xml:space="preserve">	27 -<span class="bold italic">	يؤكد </span>أن الإنتاج الزراعي المستدام والأمن الغذائي وسلامة الأغذية والتغذية عناصر أساسية للقضاء على الفقر بجميع صوره وأبعاده، ويدعو إلى بذل المزيد من الجهود من أجل تعزيز قدرات البلدان النامية في مجال الإنتاج الزراعي وإنتاجيتها والأمن الغذائي فيها على نحو مستدام؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_70" class="SingleTxt">
+        <content eId="para_70__content">
+          <p xml:space="preserve">	28 -<span class="bold italic">	يلاحظ </span>ضرورة مواصلة دراسة مفاهيم شتى، من قبيل مفهوم ”السيادة الغذائية“، وعلاقة هذه المفاهيم بالأمن الغذائي والحق في الغذاء، مع مراعاة ضرورة تجنب أي تأثير سلبي في تمتع جميع الناس بالحق في الغذاء في جميع الأوقات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_71" class="SingleTxt">
+        <content eId="para_71__content">
+          <p xml:space="preserve">	29 -<span class="bold italic">	يشجع </span>الدول الأعضاء على تعزيز النظم الغذائية، بسبل منها اتباع نهج شامل إزاء النظم الغذائية، بحيث تصبح أكثر كفاءة وشمولا وقدرة على الصمود واستدامة، وذلك بتوفير أنظمة غذائية صحية للقضاء على الجوع وتحسين الأمن الغذائي والتغذية؛ والاستثمار في العلوم والتكنولوجيا والابتكار، بما في ذلك الابتكار الرقمي، بغية زيادة الإنتاجية الزراعية والقدرة على الصمود والاستدامة والحد من مخاطر الكوارث؛ وتعزيز اتساق وتنسيق السياسات بين الوكالات والمؤسسات الحكومية المسؤولة عن الحماية الاجتماعية والزراعة والأمن الغذائي والتغذية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_72" class="SingleTxt">
+        <content eId="para_72__content">
+          <p xml:space="preserve">	30 -<span class="bold italic">	يؤكد من جديد </span>أن تغير المناخ هو أحد أكبر التحديات في عصرنا، ولا يزال يساوره بالغ القلق لأن جميع البلدان، ولا سيما البلدان النامية، معرضة للآثار الضارة لتغير المناخ وتعاني بالفعل من تفاقم في هذه الآثار، بما في ذلك الجفاف المستمر والظواهر الجوية البالغة الشدة، وفقدان التنوع البيولوجي، وتدهور الأراضي، والتصحر، وارتفاع مستوى سطح البحر، وتآكل السواحل، وتحمض المحيطات، وانحسار الكتل الجليدية الجبلية، مما يزيد من تهديد الأمن الغذائي وتوافر المياه وسبل العيش، ويسلم بالمخاطر الجسيمة لتغير المناخ على الصحة، ويؤكد ضرورة التصدي للآثار الاقتصادية والاجتماعية والبيئية لتغير المناخ، ويشدد على ضرورة اتخاذ إجراءات على جميع المستويات، بسبل منها بذل الجهود للتخفيف من حدة تغير المناخ والتكيف معه، من أجل بناء القدرة على الصمود الكفيلة بالإسهام في القضاء على الفقر بجميع صوره وأبعاده وإنهاء الجوع؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_73" class="SingleTxt">
+        <content eId="para_73__content">
+          <p xml:space="preserve">	31 -<span class="bold italic">	يسلّم </span>بالجهود المبذولة على جميع المستويات لوضع تدابير وبرامج لتوفير الحماية الاجتماعية ولتعزيز هذه التدابير والبرامج، بما في ذلك شبكات الأمان الوطنية وبرامج الحماية الوطنية للمحتاجين والضعفاء، مثل برامج تقديم الأغذية والنقود مقابل العمل، وبرامج التحويلات النقدية والقسائم، وبرامج التغذية المدرسية، وبرامج تغذية الأمهات والأطفال، ويؤكد في هذا الصدد أهمية زيادة الاستثمار وبناء القدرات وتطوير النظم؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_74" class="SingleTxt">
+        <content eId="para_74__content">
+          <p xml:space="preserve">	32 -	<span class="bold italic">يشدد </span>على أهمية تمكين الناس وتهيئة بيئة مواتية للأخذ باختيارات مستنيرة بشأن المنتجات الغذائية من أجل اتباع ممارسات غذائية صحية من خلال تحسين المعلومات والتثقيف في مجالي الصحة والتغذية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_75" class="SingleTxt">
+        <content eId="para_75__content">
+          <p xml:space="preserve">	33 -	<span class="bold italic">يشجع </span>الدول الأعضاء على معالجة آثار كوفيد-19 عن طريق التصدي للتحديات البنيوية الطويلة الأجل التي يواجهها سكان الريف، وعلى إنشاء نظم شاملة للحماية الاجتماعية مكيفة وفقا لاحتياجات سكان الريف، ومعالجة الأبعاد المتعددة لانعدام الأمن الغذائي في المناطق الريفية، والاستثمار في تنمية الزراعة المستدامة، وتوطيد السياسات المتعددة القطاعات وخطط العمل الوطنية من أجل تعزيز قدرة صغار المنتجين والأسر المزارعة على الصمود والتكيف؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_76" class="SingleTxt">
+        <content eId="para_76__content">
+          <p xml:space="preserve">	34 -<span class="bold italic">	يحث </span>الدول الأعضاء على تحقيق المساواة بين الجنسين وتمكين جميع النساء والفتيات عن طريق ضمان تكافؤ الفرص والحماية الاجتماعية للجميع، ولا سيما من يعيشون في أوضاع هشة، بسبل منها تعميم مراعاة المنظور الجنساني في برامج الأمن الغذائي، وخاصة لفائدة النساء والفتيات اللاتي يعانين من أشكال متعددة ومتقاطعة من التمييز والعنف، بالنظر إلى أن تمكين النساء والفتيات اللاتي يعشن في ظل أوضاع وظروف متنوعة من شأن يسهم بشكل حاسم في إحراز التقدم على صعيد جميع أهداف وغايات خطة عام 2030؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_77" class="SingleTxt">
+        <content eId="para_77__content">
+          <p xml:space="preserve">	35 -	<span class="bold italic">يهيب </span>بالدول الأعضاء أن تتخذ تدابير من أجل الاعتراف بما تتحمله النساء والفتيات من عبء غير متناسب من الأعمال غير المدفوعة الأجر في مجالي الرعاية والعمل المنزلي، ولتقليص هذا العبء وإعادة توزيعه، والحد من تأنيث الفقر الذي يتفاقم من جراء جائحة كوفيد-19، بما في ذلك عن طريق تدابير القضاء على الفقر وسياسات العمل والخدمات العامة وبرامج الحماية الاجتماعية المراعية للمنظور الجنساني؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_78" class="SingleTxt">
+        <content eId="para_78__content">
+          <p xml:space="preserve">	36 -	<span class="bold italic">يشجع </span>الدول الأعضاء على تيسير إلمام المرأة بالتكنولوجيا الرقمية وبالأمور المالية وإشراكها في الخدمات المالية في القطاع النظامي واستفادتها منها على قدم المساواة، بما في ذلك استفادتها في الوقت المناسب وبتكلفة ميسورة من خطط الائتمان والقرض والادخار والتأمين والتحويلات النقدية؛ وإدماج المنظور الجنساني في سياسات ولوائح القطاع المالي، وفقا للأولويات والتشريعات الوطنية، وتشجيع المؤسسات المالية، مثل المصارف التجارية ومصارف التنمية والمصارف الزراعية ومؤسسات التمويل البالغ الصغر ومشغلي شبكات الهاتف المحمول وشبكات الوكلاء والتعاونيات والمصارف البريدية ومصارف الادخار، على توفير سبل حصول النساء على المنتجات والخدمات والمعلومات المالية، وتشجيع استخدام الأدوات والمنصات المبتكرة، بما في ذلك الخدمات المصرفية عبر الإنترنت والهاتف المحمول؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="SingleTxt">
+        <content eId="para_79__content">
+          <p xml:space="preserve">	37 -<span class="bold italic">	يهيب </span>بالدول الأعضاء أن تحمي الأطفال من الآثار الضارة الناجمة عن جائحة كوفيد-19 عن طريق التخفيف من الآثار الاجتماعية والاقتصادية الضارة، بما في ذلك بالعمل على كفالة استمرارية الخدمات والسياسات التي تركز على الأطفال مع ضمان المساواة في الاستفادة منها وسهولة الوصول إليها، وصون حق الأطفال في التعليم الجيد على أساس تكافؤ الفرص وعدم التمييز، ودعم التعليم الشامل والمنصف والمتاح بتنفيذ التدابير المناسبة الكفيلة بمساعدة الأسر لدى عودة الأطفال إلى المدارس، وخاصة الفتيات ومن يعيش من الأطفال في ظروف هشة، متى أمكن القيام بذلك بأمان، وإتاحة الاستفادة من فرص تعويض ما فقد من تعلم، وأن تقوم في أوقات العزل بمساعدة النظم المدرسية والمدرسين والأسر لضمان مصدر موثوق للتغذية اليومية ولاستخدام حلول ميسَّرة وشاملة للتعلم عن بعد بهدف سد الفجوة الرقمية، مع حماية الأطفال من العنف وسوء المعاملة والاستغلال على شبكة الإنترنت وخارجها، ويذكِّر أنه لا يجوز أن يتعرض الأطفال لأي تدخل تعسفي أو غير قانوني يمسهم في حياتهم الخاصة أو في بيئتهم الأسرية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_80" class="SingleTxt">
+        <content eId="para_80__content">
+          <p xml:space="preserve">	38 -<span class="bold italic">	يهيب </span>بجميع الدول الأعضاء، وعند الاقتضاء، بالمنظمات الدولية ذات الصلة أن تنفذ سياسات وبرامج للحد من الوفيات والأمراض التي يمكن الوقاية منها، نتيجة لسوء التغذية لدى الأطفال دون سن الخامسة، والقضاء عليها، ويحث في هذا الصدد الدول على تعميم الإرشادات التقنية التي أعدتها مفوضية الأمم المتحدة لحقوق الإنسان بالتعاون مع منظمة الصحة العالمية<sup>(</sup><authorialNote marker="13" placement="bottom" eId="authorialNote_13"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/A/HRC/27/31">A/HRC/27/31</a>؛ انظر أيضا قرار مجلس حقوق الإنسان <a href="https://undocs.org/ar/A/HRC/RES/33/11">33/11</a> (انظر <span class="italic">الوثائق الرسمية للجمعية العامة، الدورة الحادية والسبعون، الملحق رقم 53 ألف </span>والتصويب (<a href="https://undocs.org/ar/A/71/53/Add.1">A/71/53/Add.1</a> و <a href="https://undocs.org/ar/A/71/53/Add.1/Corr.1">A/71/53/Add.1/Corr.1</a>)، الفصل الثاني).</p></authorialNote><sup>)</sup>، وتطبيقها، حسب الاقتضاء، في تصميم وتنفيذ وتقييم ورصد القوانين والسياسات والبرامج والميزانيات وآليات الانتصاف والجبر الرامية إلى القضاء على الوفيات والأمراض التي يمكن الوقاية منها لدى الأطفال دون سن الخامسة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_81" class="SingleTxt">
+        <content eId="para_81__content">
+          <p xml:space="preserve">	39 -<span class="bold italic">	يسلّم </span>بأن تعبئة الموارد المحلية، التي يؤكدها مبدأ تولي السلطات الوطنية زمام الأمور وتكملها المساعدة الدولية، حسب الاقتضاء، ستكتسي أهمية حاسمة في تحقيق التنمية المستدامة وبلوغ أهداف التنمية المستدامة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_82" class="SingleTxt">
+        <content eId="para_82__content">
+          <p xml:space="preserve">	40 -<span class="bold italic">	يؤكد من جديد </span>خطة عمل أديس أبابا، ويسلِّم بضرورة اتخاذ خطوات لتحقيق زيادة كبيرة في الاستثمار من أجل سد الثغرات في الموارد، بوسائل منها تعبئة الموارد المالية من جميع المصادر، بما في ذلك تعبئة وتخصيص الموارد العامة والخاصة والمحلية والدولية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_83" class="SingleTxt">
+        <content eId="para_83__content">
+          <p xml:space="preserve">	41 -	<span class="bold italic">يؤكد من جديد أيضا </span>أن للتعاون الدولي دورا أساسيا في مساعدة البلدان النامية، ومن بينها البلدان الفقيرة المثقلة بالديون وأقل البلدان نموا والبلدان النامية غير الساحلية والدول الأعضاء الجزرية الصغيرة النامية والبلدان المتوسطة الدخل، على تعزيز قدراتها البشرية والمؤسسية والتكنولوجية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_84" class="SingleTxt">
+        <content eId="para_84__content">
+          <p xml:space="preserve">	42 -	<span class="bold italic">يشجع </span>البلدان المتقدمة على الوفاء بالتزاماتها المتصلة بالمساعدة الإنمائية الرسمية، بما في ذلك التزام بلدان متقدمة كثيرة بإنجاز الهدف المتمثل في تخصيص نسبة 0,7 في المائة من الدخل القومي الإجمالي للمساعدة الإنمائية الرسمية المقدمة إلى البلدان النامية ونسبة تتراوح بين 0,15 و 0,20 في المائة من الدخل القومي الإجمالي للمساعدة الإنمائية الرسمية المقدمة إلى أقل البلدان نموا؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_85" class="SingleTxt">
+        <content eId="para_85__content">
+          <p xml:space="preserve">	43 -<span class="bold italic">	يرحب </span>بما يقدمه التعاون بين بلدان الجنوب من مساهمات في القضاء على الفقر وتحقيق التنمية المستدامة، ويؤكد من جديد أن التعاون بين بلدان الجنوب يشكل عنصرا مهما من عناصر التعاون الدولي من أجل التنمية باعتباره مكمّلا للتعاون بين الشمال والجنوب، لا بديلا عنه، ويلتزم بتعزيز التعاون بين بلدان الجنوب والتعاون الثلاثي كوسيلة لتسخير التجارب والخبرات ذات الصلة لخدمة التعاون الإنمائي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_86" class="SingleTxt">
+        <content eId="para_86__content">
+          <p xml:space="preserve">	44 -<span class="bold italic">	يؤكد </span>أن للمساعدة الإنمائية الرسمية دورا أساسيا في تكملة تمويل الجهود المبذولة من أجل التنمية في البلدان النامية وتسخيره وكفالة استدامته وفي تيسير تحقيق الأهداف الإنمائية، بما فيها الأهداف الإنمائية المتفق عليها دوليا، وبخاصة أهداف التنمية المستدامة، ويرحب بالخطوات المتخذة لتحسين فعالية المعونة ونوعيتها بناء على المبادئ الأساسية المتمثلة في تولي السلطات الوطنية زمام الأمور والمواءمة والتنسيق والإدارة من أجل تحقيق النتائج والمساءلة المتبادلة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_87" class="SingleTxt">
+        <content eId="para_87__content">
+          <p xml:space="preserve">	45 -<span class="bold italic">	يشجع </span>المجتمع الدولي على تكثيف التعاون الإنمائي، بطرق منها التعاون فيما بين بلدان الجنوب والتعاون بين الشمال والجنوب والتعاون الثلاثي، وكذلك الشراكات بين أصحاب المصلحة المتعددين، لدعم البلدان، ولا سيما البلدان النامية، بناء على طلبها، في بناء قدراتها الوطنية في مجال تسخير العلم والتكنولوجيا والابتكار لأغراض التنمية الاجتماعية، وكذلك لدعم شبكات البحوث التي يمتد نطاقها عبر الحدود والمؤسسات والتخصصات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_88" class="SingleTxt">
+        <content eId="para_88__content">
+          <p xml:space="preserve">	46 -<span class="bold italic">	يهيب </span>بالمجتمع الدولي أن يعزز التعاون المتعدد الأطراف، بتعبئة الموارد من أجل تحقيق التعافي الشامل للجميع واستخدام حقوق السحب الخاصة ومخصصاتها الموجهة طوعا لأشد البلدان احتياجا، ويسلم بالدور الذي تؤديه الأمم المتحدة والمؤسسات المالية الدولية، كل وفقا لولايته، ويشجعها على مواصلة دعم الجهود العالمية المبذولة في سبيل النمو المطرد الشامل للجميع، والتنمية المستدامة، وقدرة البلدان النامية على تحمل الديون الخارجية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_89" class="SingleTxt">
+        <content eId="para_89__content">
+          <p xml:space="preserve">	47 -	<span class="bold italic">يدعو </span>كافة الجهات المعنية صاحبة المصلحة، بما فيها منظومة الأمم المتحدة ومنظمات المجتمع المدني، إلى مواصلة تشجيع تبادل المعلومات والممارسات الجيدة بشأن البرامج والسياسات والتدابير التي تحد بنجاح من أوجه عدم المساواة بجميع أبعاده؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_90" class="SingleTxt">
+        <content eId="para_90__content">
+          <p xml:space="preserve">	48 -	<span class="bold italic">يدعو </span>منظومة الأمم المتحدة إلى مواصلة دعم الدول الأعضاء، بناء على طلبها، في سعيها إلى التعافي من جائحة كوفيد-19 بطريقة لا يُستثنى فيها أحد وتتوفر لها مقومات الاستمرارية بما يكفل سبل العيش المستدام والرفاه والكرامة للجميع، وتيسير التعاون الدولي على إنهاء الجوع والقضاء على الفقر بجميع صوره وأبعاده، بهدف تحقيق خطة التنمية المستدامة لعام 2030 من أجل المستقبل المشترك للأجيال الحاضرة والقادمة.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="20">الجلسة العامة 20</inline>
+        <eol />
+        <docDate date="2022-06-08" refersTo="#adoptionDate">8 حزيران/يونيه 2022</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
