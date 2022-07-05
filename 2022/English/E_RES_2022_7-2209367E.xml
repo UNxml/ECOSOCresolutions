@@ -1,0 +1,611 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-06-08/2022-7/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-06-08/2022-7/"></FRBRuri>
+          <FRBRdate date="2022-06-08" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-06-08/2022-7/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-06-08/2022-7/eng@/"></FRBRuri>
+          <FRBRdate date="2022-06-20" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-06-08/2022-7/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-06-08/2022-7/eng@.xml"></FRBRuri>
+          <FRBRdate date="2022-07-05" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="1" href="http://metadata.un.org/sdg/1" showAs="sdg_1" dictionary="SDGO"></keyword>
+        <keyword value="poverty" href="http://eurovoc.europa.eu/2281" showAs="poverty" dictionary="EuroVoc"></keyword>
+        <keyword value="poverty" href="http://metadata.un.org/thesaurus/1005064" showAs="poverty" dictionary="UNBIS"></keyword>
+        <keyword value="poverty_mitigation" href="http://metadata.un.org/thesaurus/1005065" showAs="poverty_mitigation" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="2030 Agenda for Sustainable Development" showAs="2030 Agenda for Sustainable Development" dictionary="DHLAUTH"></keyword>
+        <keyword value="SOCIAL DEVELOPMENT" showAs="SOCIAL DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ECONOMIC DEVELOPMENT" showAs="ECONOMIC DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="POVERTY MITIGATION" showAs="POVERTY MITIGATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COVID-19" showAs="COVID-19" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUNGER" showAs="HUNGER" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="19b" showAs="Social development." shortForm="SOCIAL DEVELOPMENT" dictionary="E/2022/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="0001-01-01" as="E/2022/26" by="​UN. Commission for Social Development" outcome="recommendedForAdoption"/>
+        <step date="2022-06-20" outcome="adopted" as="Adopted without vote, 20th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">22-09367 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2022/7</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Economic and Social Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-06-20" class="rightSmall" refersTo="#dateOfIssuance">20 June 2022</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2022" eId="coverPage_1__session_1">2022 session</session>
+      </p>
+      <p>
+        <inline title="19 (b)" name="agenda item">Agenda item 19 (b)</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Social and human rights questions: social development</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the Economic and Social Council on 8 June 2022</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="Commission for Social Development">[on the recommendation of the Commission for Social Development (<inline name="originating document">E/2022/26</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2022/7.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Inclusive and resilient recovery from COVID-19 for sustainable livelihoods, well-being and dignity for all: eradicating poverty and hunger in all its forms and dimensions to achieve the 2030 Agenda</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Economic and Social Council</span>,</p>
+      </formula>
+      <container name="Recalling" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	Recalling</span> its decision 2021/8 of 8 June 2021, in which it decided that the priority theme of the 2022 session of the Commission for Social Development would be “Inclusive and resilient recovery from COVID-19 for sustainable livelihoods, well-being and dignity for all: eradicating poverty and hunger in all its forms and dimensions to achieve the 2030 Agenda”,</p>
+      </container>
+      <container name="Recalling also" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Recalling also</span> the outcomes of the World Summit for Social Development and the twenty-fourth special session of the General Assembly,</p>
+      </container>
+      <container name="Reaffirming" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">	Reaffirming</span> that the Copenhagen Declaration on Social Development and the Programme of Action of the World Summit for Social Development<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		<span class="italic">Report of the World Summit for Social Development, Copenhagen, 6–12 March 1995</span> (United Nations publication, Sales No. E.96.IV.8), chap. I, resolution 1, annexes I and II.</p></authorialNote> and the further initiatives for social development adopted by the General Assembly at its twenty-fourth special session<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		General Assembly resolution <a href="https://undocs.org/en/A/RES/S-24/2">S-24/2</a>, annex.</p></authorialNote> constitute the basic framework for the promotion of social development for all at the national and international levels, and encouraging the continued global dialogue on social development issues,</p>
+      </container>
+      <container name="Welcoming" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	Welcoming </span>the progress made towards the full implementation of the Copenhagen Declaration and the Programme of Action through concerted action at the national, regional and global levels, and expressing deep concern that, more than 20 years after the convening of the World Summit for Social Development, progress has been slow and uneven, and major gaps remain, and further welcoming the convening of the joint informal high-level meeting of the General Assembly and the Economic and Social Council to commemorate the twenty-fifth anniversary of the World Summit for Social Development, on 1 December 2020,</p>
+      </container>
+      <container name="Recalling" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">	Recalling</span> General Assembly resolution <a href="https://undocs.org/en/A/RES/70/1">70/1</a> of 25 September 2015, entitled “Transforming our world: the 2030 Agenda for Sustainable Development”, in which the Assembly adopted a comprehensive, far-reaching and people-centred set of universal and transformative Sustainable Development Goals and targets and affirmed its commitment to working tirelessly for the full implementation of the Agenda by 2030 with a view to leave no one behind and reach the furthest behind first, and its recognition that eradicating poverty in all its forms and dimensions, including extreme poverty, is the greatest global challenge and an indispensable requirement for sustainable development,</p>
+      </container>
+      <container name="Recalling also" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">	Recalling also</span> General Assembly resolution <a href="https://undocs.org/en/A/RES/69/313">69/313</a> of 27 July 2015 on the Addis Ababa Action Agenda of the Third International Conference on Financing for Development, which is an integral part of the 2030 Agenda for Sustainable Development,</p>
+      </container>
+      <container name="Recalling further" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">	Recalling further</span> General Assembly resolutions <a href="https://undocs.org/en/A/RES/74/270">74/270</a> of 2 April 2020 on global solidarity to fight the coronavirus disease (COVID-19), <a href="https://undocs.org/en/A/RES/74/274">74/274</a> of 20 April 2020 on international cooperation to ensure global access to medicines, vaccines and medical equipment to face COVID-19, <a href="https://undocs.org/en/A/RES/74/306">74/306</a> of 11 September 2020, entitled “Comprehensive and coordinated response to the coronavirus disease (COVID-19) pandemic”, and <a href="https://undocs.org/en/A/RES/74/307">74/307</a> of 11 September 2020, entitled “United response against global health threats: combating COVID-19”,</p>
+      </container>
+      <container name="Recalling" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">	Recalling</span> General Assembly resolution <a href="https://undocs.org/en/A/RES/74/4">74/4</a> of 15 October 2019, entitled “Political declaration of the high-level political forum on sustainable development convened under the auspices of the General Assembly”,</p>
+      </container>
+      <container name="Recalling also" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Recalling also</span> the ministerial declaration adopted at the high-level segment of the 2021 session of the Economic and Social Council and the 2021 high-level political forum on sustainable development, convened under the auspices of the Council, on the theme “Sustainable and resilient recovery from the COVID-19 pandemic that promotes the economic, social and environmental dimensions of sustainable development: building an inclusive and effective path for the achievement of the 2030 Agenda in the context of the decade of action and delivery for sustainable development”,</p>
+      </container>
+      <container name="Recalling further" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">	Recalling further</span> the International Covenant on Economic, Social and Cultural Rights,<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		See General Assembly resolution <a href="https://undocs.org/en/A/RES/2200(XXI)">2200 A (XXI)</a>, annex.</p></authorialNote> which, inter alia, recognizes the right of everyone to an adequate standard of living for himself or herself and his or her family, the right to work, the right to social security and the right to education, and noting the relevance of these provisions to the formulation of social policies, including family-oriented social protection policies and measures,</p>
+      </container>
+      <container name="Noting" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Noting</span> the important work undertaken by the Statistical Commission pertaining to the 2030 Agenda for Sustainable Development, which has led to the formulation of global indicators, including on social protection,</p>
+      </container>
+      <container name="Recognizing" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">	Recognizing</span> the particular relevance of the International Labour Organization Centenary Declaration for the Future of Work<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		<a href="https://undocs.org/en/A/73/918">A/73/918</a>, annex.</p></authorialNote> for a socially just transition towards sustainable development, and recalling General Assembly resolution <a href="https://undocs.org/en/A/RES/73/327">73/327</a> of 25 July 2019, by which the Assembly decided to declare 2021 the International Year for the Elimination of Child Labour,</p>
+      </container>
+      <container name="Reaffirming" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Reaffirming </span>the importance of supporting Agenda 2063 of the African Union, as well as its first 10-year implementation plan, as a strategic framework for ensuring a positive socioeconomic transformation in Africa within the next 50 years, and its continental programme embedded in the resolutions of the General Assembly on the New Partnership for Africa’s Development<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		<a href="https://undocs.org/en/A/57/304">A/57/304</a>, annex.</p></authorialNote> and regional initiatives, such as the Comprehensive Africa Agriculture Development Programme,</p>
+      </container>
+      <container name="Recalling" eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">	Recalling</span> the guiding principles on extreme poverty and human rights<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		<a href="https://undocs.org/en/A/HRC/21/39">A/HRC/21/39</a>.</p></authorialNote> adopted by the Human Rights Council in its resolution <a href="https://undocs.org/en/A/HRC/RES/21/11">21/11</a>,<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		See <span class="italic">Official Records of the General Assembly, Sixty-seventh Session, Supplement No. 53A</span> (<a href="https://undocs.org/en/A/67/53/Add.1">A/67/53/Add.1</a>), chap. II.</p></authorialNote> as a useful tool for Member States in the formulation and implementation of poverty reduction and eradication policies, as appropriate, and encouraging Member States to implement the guiding principles,</p>
+      </container>
+      <container name="Recognizing" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> that the coronavirus disease (COVID-19) pandemic is one of the greatest global challenges in the history of the United Nations, and noting with deep concern its impact on physical and mental health and the loss of life and well-being, as well as the negative impact on global humanitarian needs, the enjoyment of human rights and across all spheres of society, including on livelihoods, food security and nutrition, and education, the exacerbation of poverty and hunger, disruption to economies, trade, societies and environments, and the exacerbation of economic and social inequalities within and among countries, which is reversing hard-won development gains and hampering progress towards achieving the 2030 Agenda for Sustainable Development and all its Goals and targets, and recognizing also that the COVID-19 pandemic requires a global response based on unity, solidarity and renewed multilateral cooperation,</p>
+      </container>
+      <container name="Stressing" eId="container_17">
+        <p xml:space="preserve">
+          <span class="italic">	Stressing</span> that at this critical moment in the decade of action to deliver the Sustainable Development Goals by 2030 the visions, principles and commitments made at the World Summit for Social Development remain valid and are central to addressing emerging global challenges, and recalling that social policies have a key role to play in addressing the immediate effects of socioeconomic crises and in the design of recovery strategies,</p>
+      </container>
+      <container name="Reaffirming" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> the commitment to end poverty in all its forms and dimensions, including by eradicating extreme poverty by 2030, that all people must enjoy a basic standard of living, including through social protection systems, and to end hunger and to achieve food security as a matter of priority and to end all forms of malnutrition,</p>
+      </container>
+      <container name="Acknowledging" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">Acknowledging</span> that, with less than 10 years left to achieve the Sustainable Development Goals, the COVID-19 pandemic has slowed down the progress in achieving many of the Goals by 2030, including Goal 1, which aims to end poverty in all its forms everywhere, and Goal 2, which aims to end hunger, achieve food security and improved nutrition and promote sustainable agriculture, as well as Goal 10, which aims to reduce inequality within and among countries, and recognizing that those who are vulnerable or in vulnerable situations are the hardest hit by the pandemic,</p>
+      </container>
+      <container name="Noting with great concern" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">Noting with great concern</span> that the COVID-19 pandemic increased the number of those living in poverty and has also led to further impoverishment of those already living in poverty, and noting with great concern also that those who are vulnerable or in vulnerable situations, particularly women, children, including girls, youth, older persons, persons with disabilities, people of African descent and indigenous peoples, have struggled with and continue to face the consequences of the COVID-19 pandemic,</p>
+      </container>
+      <container name="Expressing deep concern" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">Expressing deep concern</span> that, while women contribute more than 50 per cent of the food produced worldwide, they also account for 70 per cent of the world’s hungry, that women and girls are disproportionately affected by hunger, food insecurity and poverty, in part as a result of gender inequality and discrimination, that in many countries girls are twice as likely as boys to die from malnutrition and preventable childhood diseases, and that it is estimated that almost twice as many women as men suffer from malnutrition,</p>
+      </container>
+      <container name="Recognizing" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">Recognizing </span>the critical role and contribution of rural women, including smallholders and women farmers, and indigenous women and women in local communities, and their traditional knowledge in enhancing agricultural and rural development, improving food security and eradicating rural poverty,</p>
+      </container>
+      <container name="Acknowledging" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">Acknowledging</span> the significant progress made in several parts of the world in combating poverty in all its forms and dimensions, deeply concerned, however, that poverty persists and has increased because of the effects of the COVID-19 pandemic, in all countries of the world, regardless of their economic, social and cultural situation, and is particularly severe in developing countries, and that it extends to and manifests itself in, among other things, social exclusion, hunger, discrimination, the feminization of poverty, vulnerability to trafficking in persons, sexual exploitation and abuse, child, early and forced marriage, child labour and disease, lack of adequate shelter, lack of access to basic services, lack of upward social mobility, and illiteracy,</p>
+      </container>
+      <container name="Expressing its deep concern" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">Expressing its deep concern</span> that the progress in reducing poverty remains uneven, with 1.3 billion people still living in multidimensional poverty, and that this number continues to be significant and unacceptably high, whereas the levels of inequality in income, wealth and opportunities remain high or are increasing in a number of countries, and the non-income dimensions of poverty and deprivation, such as access to quality education or basic health services, and relative poverty remain major concerns, and stressing the importance of national and global efforts to create conditions for sustainable development, inclusive and sustained economic growth, shared prosperity and decent work for all in society, taking into account different levels of national development capacities,</p>
+      </container>
+      <container name="Noting" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">Noting</span> that the promotion of well-being for all people over their life cycle should be at the core of any efforts to reduce poverty and hunger and is an essential component of inclusive and resilient recovery, and recognizing that building efficient, inclusive, resilient and sustainable food systems is critical for guaranteeing food security and ensuring access to safe, nutritious and sufficient food by all, while addressing other interlinked challenges such as eliminating hunger, food insecurity and malnutrition and increasing the resilience of livelihoods by further strengthening global partnership for sustainable development and leaving no one behind,</p>
+      </container>
+      <container name="Taking note" eId="container_26">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of the efforts of the President of the General Assembly at its seventy-fourth session to launch the Alliance for Poverty Eradication, which is timely and meaningful and continues to serve as a platform for the exchange of ideas, policies and best practices on poverty eradication, and stressing the importance of addressing poverty, including rural poverty issues, as the rural poor might be less prepared to deal with the effects of and recover from the COVID-19 pandemic and could have less access to adequate sanitation, food and nutrition, health-care services, education, the Internet, information and communications technologies, social protection, financial services and public infrastructure,</p>
+      </container>
+      <container name="Acknowledging" eId="container_27">
+        <p xml:space="preserve">	<span class="italic">Acknowledging</span> that the social integration of people living in poverty and hunger should encompass addressing and meeting their basic human needs, including safe, diverse, nutritious and sufficient food, health, safe drinking water and sanitation, housing and access to quality education, life-learning opportunities, full and productive employment, and decent work, through integrated development strategies,</p>
+      </container>
+      <container name="Reaffirming" eId="container_28">
+        <p xml:space="preserve">	<span class="italic">Reaffirming </span>that, since the existence of widespread extreme poverty inhibits the full and effective enjoyment of all human rights and may, in some situations, constitute a threat to the right to life, its immediate alleviation and eventual eradication must remain a high priority for the international community,</p>
+      </container>
+      <container name="Recognizing" eId="container_29">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> the relevance of better understanding the multidimensional nature of development and poverty while stressing the need to use multidimensional analytical tools, including multidimensional poverty indices and risk analysis to capture the interlinked nature of deprivations and vulnerabilities as well as understand poverty dynamics and shape policy, and recognizing that appropriate national multidimensional poverty indices allow countries to better target, coordinate and monitor poverty eradication measures,</p>
+      </container>
+      <container name="Noting" eId="container_30">
+        <p xml:space="preserve">	<span class="italic">Noting</span> that effective poverty eradication policies require partnerships between national and local governments and civil society organizations, and recognizing that civil society organizations can help in identifying and addressing the needs of those who are vulnerable or in vulnerable situations, and draw attention to who is being left behind, as well as facilitate the identification of, outreach to and communication with them,</p>
+      </container>
+      <container name="Recognizing" eId="container_31">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> the important contribution that entrepreneurship makes to sustainable development by creating jobs, driving inclusive economic growth and innovation, improving social conditions and addressing economic, social and environmental challenges in the context of the 2030 Agenda, and emphasizing that the role of entrepreneurship, including social entrepreneurship, and micro-, small and medium-sized enterprises in social and economic development is more critical than ever in the post-COVID-19 recovery and beyond,</p>
+      </container>
+      <container name="Recognizing also" eId="container_32">
+        <p xml:space="preserve">	<span class="italic">Recognizing also</span> that sport is an enabler of social development and can be used as a means to access quality education and decent jobs, promote healthy lifestyles and well-being, reinforce solidarity and social cohesion, fight social exclusion and stereotypes and create economic opportunities for all, which can contribute to lifting people out of poverty,</p>
+      </container>
+      <container name="Acknowledging" eId="container_33">
+        <p xml:space="preserve">	<span class="italic">Acknowledging</span> the need to combat illicit financial flows and strengthen good practices on assets return and recovery as one of the sources of financing for development with a view to reducing hunger, achieving food security and improved nutrition and promoting sustainable agriculture,</p>
+      </container>
+      <container name="Reaffirming" eId="container_34">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> the right of everyone to have access to safe, sufficient and nutritious food, consistent with the right to adequate food and the fundamental right of everyone to be free from hunger, so as to be able to fully develop and maintain their physical and mental capacities, and underlining the need to make special efforts to meet nutritional needs, especially of women, children, older persons, indigenous peoples and persons with disabilities, as well as of those living in vulnerable situations,</p>
+      </container>
+      <container name="Taking note with appreciation" eId="container_35">
+        <p xml:space="preserve">	<span class="italic">Taking note with appreciation</span> of the publication entitled <span class="italic">The State of Food Security and Nutrition in the World 2021: Transforming Food Systems for Food Security, Improved Nutrition and Affordable Healthy Diets for All</span>, issued by the Food and Agriculture Organization of the United Nations, the World Health Organization, the International Fund for Agricultural Development, the World Food Programme and the United Nations Children’s Fund,</p>
+      </container>
+      <container name="Stressing" eId="container_36">
+        <p xml:space="preserve">	<span class="italic">Stressing</span> the need to design sustainable food systems, and recognizing that agricultural technology and digitalization can contribute to food security and nutrition and help to build resilience,</p>
+      </container>
+      <container name="Remaining deeply concerned" eId="container_37">
+        <p xml:space="preserve">	<span class="italic">Remaining deeply concerned</span> that, according to the most recent estimates of the Food and Agriculture Organization of the United Nations, the World Food Programme, the International Fund for Agricultural Development, the World Health Organization and the United Nations Children’s Fund, the number of chronically undernourished people in the world increased to 811 million, or as many as 161 million more in 2020 than in 2019, and that global nutrition challenges are increasingly complex as multiple forms of malnutrition, including stunting, wasting, underweight, micronutrient deficiencies, overweight and obesity, may coexist within the same country or household,</p>
+      </container>
+      <container name="Deeply concerned" eId="container_38">
+        <p xml:space="preserve">	<span class="italic">Deeply concerned</span> about the disproportionate impact of the COVID-19 pandemic on children, especially girls, including on their access to essential health-care services and education, acknowledging that school closures have hit the poorest and most vulnerable children and their families the hardest, that many children may never return to education as they are forced into child marriage or child labour, and that disruptions to food and health systems have contributed to a reversal in progress on maternal and child health and an increase in all forms of malnutrition, and contributed to an additional 142 million children living in income-poor households in 2020,</p>
+      </container>
+      <container name="Recalling" eId="container_39">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> General Assembly resolution <a href="https://undocs.org/en/A/RES/72/239">72/239</a> of 20 December 2017, in which it proclaimed 2019–2028 the United Nations Decade of Family Farming, which raises the profile of the role of family farming in contributing to the implementation of the 2030 Agenda and to the achievement of food security and improved nutrition,</p>
+      </container>
+      <container name="Taking note with appreciation" eId="container_40">
+        <p xml:space="preserve">	<span class="italic">Taking note with appreciation</span> of the 2021 United Nations Food Systems Summit, convened by the Secretary-General on 23 and 24 September 2021, as well as its pre-Summit, held from 26 to 28 July 2021 in Rome, and noting also the Chair’s Summary and Statement of Action on the United Nations Food Systems Summit, issued by the Secretary-General,</p>
+      </container>
+      <container name="Taking note" eId="container_41">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of the Global Nutrition for Growth Compact, signed by more than 100 countries, companies and civil society organizations, to reduce the number of stunted children by 20 million by 2020 and the financial commitments made to support this goal, as well as the third Nutrition for Growth summit, held in Milan, Italy, in November 2017, and the Nutrition for Growth summit held in Tokyo in 2021,</p>
+      </container>
+      <container name="Recalling" eId="container_42">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> the African Regional Dialogue, held in Morocco on 13 July 2021 ahead of the United Nations Food System Summit, with the aim of accelerating the strengthening of food systems with a regional specificity that takes its substance in African agricultural and food systems, African diets, the living conditions of African populations and the ambitions of African societies,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_43" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="italic">Takes note</span> of the report of the Secretary-General;<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		<a href="https://undocs.org/en/E/CN.5/2022/3">E/CN.5/2022/3</a>.</p></authorialNote></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve">	<span class="italic">Acknowledges </span>the urgent need to accelerate action on all levels and by all stakeholders to fulfil the vision and Goals of the 2030 Agenda for Sustainable Development,<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		General Assembly resolution <a href="https://undocs.org/en/A/RES/70/1">70/1</a>.</p></authorialNote> and emphasizes that the international community, through the outcome documents of the major United Nations conferences and summits adopted by the General Assembly, has reinforced, inter alia, the urgency of eradicating poverty in all its forms and dimensions, combating inequality within and among countries, protecting the environment, creating sustained, inclusive and sustainable economic growth and fostering social inclusion within the United Nations development agenda, including the outcomes of the World Summit for Social Development, the Addis Ababa Action Agenda of the Third International Conference on Financing for Development,<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">		General Assembly resolution <a href="https://undocs.org/en/A/RES/69/313">69/313</a>, annex.</p></authorialNote> the Sendai Framework for Disaster Risk Reduction 2015–2030<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">		General Assembly resolution <a href="https://undocs.org/en/A/RES/69/283">69/283</a>, annex II.</p></authorialNote> and the New Urban Agenda;<authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">		General Assembly resolution <a href="https://undocs.org/en/A/RES/71/256">71/256</a>, annex.</p></authorialNote></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms</span> the commitment to implementing the 2030 Agenda for Sustainable Development for all by ensuring that no one would be left behind and reaching the furthest behind first, and by recognizing human rights and that the dignity of the human person is fundamental;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> Member States to ensure the promotion and protection of all human rights, in accordance with their obligations under international human rights law;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_53" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_53__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms</span> that eradicating poverty in all its forms and dimensions, including extreme poverty, for all people everywhere, is the greatest global challenge and an indispensable requirement for sustainable development, as well as an overarching objective of the 2030 Agenda for Sustainable Development, of which the Addis Ababa Action Agenda of the Third International Conference on Financing for Development is an integral part, supporting and complementing it;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve">	<span class="italic">Acknowledges</span> that recovery from the COVID-19 pandemic gives additional opportunity to develop integrated long-term policy frameworks to achieve the Sustainable Development Goals, and that such frameworks should aim to simultaneously eradicate poverty and hunger as well as malnutrition, combat inequalities, enhance people’s capabilities and well-being, promote acceleration actions at the national, regional and international levels and ensure sustainable livelihoods for all, and also recognizes that a multidimensional analysis of poverty and hunger should inform these recovery strategies;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_64" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_64__content">
+          <p xml:space="preserve">
+            <span class="italic">	Encourages</span> Member States to promote affordable and equitable access to basic services, in particular quality formal and non-formal education, at all levels, including programmes that promote equality and inclusion through the affirmation of the fundamental dignity of the human person, and health-care services, including through the acceleration of the transition towards equitable access to universal health coverage, as well as access to affordable housing, nutrition and food, and access to employment and decent work, information and communications technology and infrastructure, through advancing gender equality and the empowerment of all women and girls;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_71" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_71__content">
+          <p xml:space="preserve">
+            <span class="italic">	Encourages </span>Governments to continue their efforts to develop strategies and programmes aimed at strengthening national capacities to address national priorities relating to family-oriented policies and to step up their efforts, in collaboration with relevant stakeholders, to implement those objectives, in particular in the areas of fighting poverty and hunger, to prevent the intergenerational transfer and feminization of poverty and ensure the well-being of all at all ages in order to achieve the 2030 Agenda for Sustainable Development;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve">	<span class="italic">Stresses</span> the importance of developing policies to expand work opportunities and productivity in both rural and urban sectors by achieving and recovering economic growth, investing in human resource development, promoting technologies that generate productive employment, and encouraging self-employment, entrepreneurship and small and medium-sized enterprises;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_88" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_88__content">
+          <p xml:space="preserve">
+            <span class="italic">	Invites</span> Member States to consider adopting labour market policies that strengthen institutions and provide adequate labour protection to all workers, including through social dialogue, especially the most disadvantaged, including through minimum wage policies, while taking into account the role of workers’ and employers’ organizations, as applicable, as part of policies to boost income growth for the vast majority of workers, taking into consideration the specific circumstances of each country;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_98" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_98__content">
+          <p xml:space="preserve">	<span class="italic">Stresses</span> the need to address challenges faced by those working in informal or vulnerable jobs, by investing in the creation of more decent work opportunities, including providing access to decent jobs in the formal sector;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_109" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_109__content">
+          <p xml:space="preserve">
+            <span class="italic">	Encourages</span> Member States to implement policies that ensure women’s economic empowerment by supporting the full and productive participation of women in the labour market, including women with disabilities, and those living in poverty and female heads of household, and to promote equal pay for equal work or work of equal value, the equal sharing of responsibilities between parents, access to childcare facilities, work-family balance, including, inter alia, while caring for children, older persons, persons with disabilities, and by promoting their meaningful participation in the economy and in decision-making processes at all levels;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_121" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_121__content">
+          <p xml:space="preserve">	<span class="italic">Highlights</span> the importance of developing and implementing policies and programmes to support entrepreneurship, especially for women and youth, and emphasizes that the role of entrepreneurship, including social entrepreneurship, and micro-, small and medium-sized enterprises in social and economic development is more critical than ever in the post-COVID-19 recovery and beyond;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_134" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_134__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States to respect, promote and realize the right to work and to prevent and eliminate violence, abuse and sexual harassment, while recognizing that violence and harassment is a threat to equal opportunities, is unacceptable and incompatible with decent work and it may prevent women from accessing, remaining and advancing in the labour market;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_148" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_148__content">
+          <p xml:space="preserve">	<span class="italic">Acknowledges</span> that the exacerbation of poverty during the COVID-19 pandemic has resulted in an increase in child labour, and urges Member States to take immediate and effective measures to secure the prohibition and ensure the elimination of child labour in all its forms, by 2025 at the latest;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_163" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_163__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> that nationally appropriate social protection systems for all address multiple, often interrelated and complex causes of poverty and inequality by easing the burden of certain expenditure during periods of unemployment, contributing to health-related goals, gender equality and decent work, and facilitating the full inclusion of persons with disabilities;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_179" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_179__content">
+          <p xml:space="preserve">
+            <span class="italic">	Also recognizes</span> that nationally appropriate social protection systems make a critical contribution to the realization of human rights for all, in particular for those who are trapped in poverty and hunger, and that promoting universal access to social services and providing nationally appropriate social protection floors can contribute to reducing inequality and poverty, addressing social exclusion and promoting inclusive economic growth, and in this regard takes note of the Social Protection Floors Recommendation, 2012 (No. 202), of the International Labour Organization;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_196" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_196__content">
+          <p xml:space="preserve">
+            <span class="italic">	Encourages</span> Member States, when designing, implementing, monitoring and evaluating social protection programmes for social development, to ensure gender mainstreaming throughout this process;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_214" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_214__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> the important role that families can play in combating social exclusion, and highlights the importance of investing in inclusive and responsive family-oriented policies and programmes in areas such as education, training, decent work, work-family balance, health-care services, social services, intergenerational relationships and solidarity and targeted cash transfers for vulnerable families, in order to reduce inequality and promote the well-being of all persons of all ages, as well as to contribute to better outcomes for children and other vulnerable family members in vulnerable situations and help to break the intergenerational transfer of poverty;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_233" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_233__content">
+          <p xml:space="preserve">	<span class="italic">Acknowledges</span> the vital role that sustainable social protection systems play in the COVID-19 pandemic response<span class="italic">, </span>and encourages Member States to ensure that recovery from the COVID-19 pandemic provides a policy window for the countries concerned to address their significant gaps in social protection coverage by making progress towards universal, adequate, comprehensive and sustainable social protection systems, by including, in accordance with their national legislations, basic income, child benefits, maternity benefits, sickness benefits, disability benefits, unemployment benefits and old-age pension, and that these social protection systems should identify and close coverage gaps, especially for those who are in vulnerable situations, including informal workers, migrants and unpaid carers;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_253" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_253__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States to provide universal age-, disability-, gender-responsive and family-oriented social protection systems, which are key to ensuring poverty reduction, including, as appropriate, targeted cash transfers for people and families in vulnerable situations, such as when headed by a single parent, in particular those headed by women, and which are most effective in reducing poverty when accompanied by other measures, such as providing access to essential services, high-quality education and health-care services;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_274" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_274__content">
+          <p xml:space="preserve">
+            <span class="italic">	Stresses </span>the need to better coordinate social protection policies and measures with poverty reduction programmes and other social policies to avoid excluding people in informal or precarious jobs, and recognizes the need to promote transitions towards the formal economy, expanding and upgrading existing social assistance programmes by increasing benefit level and coverage to informal workers, including seasonal and casual labourers in rural areas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_296" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_296__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States to develop long-term, risk-informed, inclusive and prevention-oriented social development recovery plans that will improve people’s capacities and well-being, through investing in social services and quality, reliable, sustainable and resilient infrastructure, including basic school infrastructure, and health-care services, safe drinking water and sanitation, affordable housing, ensuring decent employment, adequate social protection coverage and affordable and reliable digital technology and Internet access;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_319" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_319__content">
+          <p xml:space="preserve">	<span class="italic">Expresses deep concern</span> for the gap in vaccination rates, particularly between developed and developing countries, especially African countries, and notes with great concern the severe negative impact on human health, safety and well-being caused by the COVID-19 pandemic, as well as the severe disruption to societies and economies and the devastating impact on lives and livelihoods, and that the poorest and most vulnerable are the hardest hit by the pandemic, reaffirms the ambition to get back on track to achieve the Sustainable Development Goals by designing and implementing sustainable and inclusive recovery strategies to accelerate progress towards the full implementation of the 2030 Agenda for Sustainable Development and to help to reduce the risk of and build resilience to future shocks, crises and pandemics, including by strengthening health systems and achieving universal health coverage, and recognizes that equitable and timely access for all to safe, quality, effective and affordable COVID-19 vaccines, therapeutics and diagnostics are an essential part of a global response based on unity, solidarity, renewed multilateral cooperation and the principle of leaving no one behind;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_343" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_343__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States to facilitate the meaningful participation and empowerment of those in vulnerable situations, including those living in poverty, in the design, implementation and monitoring of COVID-19 recovery plans;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_368" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_368__content">
+          <p xml:space="preserve">
+            <span class="italic">	Urges</span> Member States to address multiple causes of poverty, hunger and inequality, by creating decent work; increasing resilience; improving coherence between social protection, food security and nutrition policies; providing targeted cash transfers; promoting digital and financial literacy and inclusion; ensuring equal opportunities and access to healthy diets from sustainable food systems, quality education and lifelong learning; combating all forms of discrimination; empowering all people and facilitating the social inclusion and participation of those who face multiple and intersecting forms of discrimination; and prioritizing investment in early childhood education, nutrition and care to break intergenerational poverty;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_394" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_394__content">
+          <p xml:space="preserve">	<span class="italic">Emphasizes</span> that sustainable agricultural production, food security, food safety and nutrition are key elements for the eradication of poverty in all its forms and dimensions, and calls for greater efforts to sustainably enhance the agricultural production capacities, productivity and food security of developing countries;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_421" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_421__content">
+          <p xml:space="preserve">	<span class="italic">Notes </span>the need to further examine various concepts, such as “food sovereignty”, and their relation to food security and the right to food, bearing in mind the need to avoid any negative impact on the enjoyment of the right to food for all people at all times;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_449" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_449__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States to strengthen food systems, including through a holistic food systems approach, so that they become more efficient, inclusive, resilient and sustainable, by delivering healthy diets to end hunger and improve food security and nutrition; investing in science, technology and innovation, including digital innovation, to increase agricultural productivity, resilience and sustainability and reduce disaster risk; and strengthening policy coherence and coordination among government agencies and institutions responsible for social protection, agriculture, food security and nutrition;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_478" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_478__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms</span> that climate change is one of the greatest challenges of our time, remains deeply concerned that all countries, particularly developing countries, are vulnerable to the adverse impacts of climate change and are already experiencing an increase in such impacts, including persistent drought and extreme weather events, biodiversity loss, land degradation, desertification, sea level rise, coastal erosion, ocean acidification and the retreat of mountain glaciers, further threatening food security, water availability and livelihoods, recognizes the substantial risks posed by climate change to health, and underlines the need to address the economic, social and environmental impacts of climate change, and emphasizes the need for action at all levels, including through mitigation and adaptation efforts, to build resilience that can contribute to eradicating poverty in all its forms and dimensions and ending hunger;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_508" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_508__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> the efforts at all levels to establish and strengthen social protection measures and programmes, including national safety nets and protection programmes for the needy and vulnerable, such as food and cash-for-work, cash transfer and voucher programmes, school feeding programmes and mother-and-child nutrition programmes, and in this regard underlines the importance of increasing investment, capacity-building and systems development;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_539" class="SingleTxt">
+        <num>32.</num>
+        <content eId="para_539__content">
+          <p xml:space="preserve">	<span class="italic">Emphasizes</span> the importance of empowering people and creating an enabling environment for making informed choices about food products for healthy dietary practices through improved health and nutrition information and education;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_571" class="SingleTxt">
+        <num>33.</num>
+        <content eId="para_571__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States to address the impacts of COVID-19 by tackling the long-term structural challenges faced by rural populations, and to establish social protection systems that are adapted to rural populations, address the multiple dimensions of food insecurity in rural areas, invest in sustainable agricultural development and enhance multisectoral policies and national action plans to strengthen the resilience and adaptability of small-scale producers and family farmers;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_604" class="SingleTxt">
+        <num>34.</num>
+        <content eId="para_604__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> Member States to achieve gender equality and the empowerment of all women and girls by guaranteeing equal access to opportunities and social protection for all, in particular for those in vulnerable situations, including by mainstreaming a gender perspective in food security programmes, especially for women and girls who experience multiple and intersecting forms of discrimination and violence, considering that the empowerment of women and girls in diverse situations and conditions will make a crucial contribution to progress across all the Goals and targets of the 2030 Agenda;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_638" class="SingleTxt">
+        <num>35.</num>
+        <content eId="para_638__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> Member States to adopt measures to recognize, reduce and redistribute women’s and girls’ disproportionate share of unpaid care and domestic work and the feminization of poverty, which is exacerbated by the COVID-19 pandemic, including through poverty eradication measures, labour policies, public services and gender-responsive social protection programmes;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_673" class="SingleTxt">
+        <num>36.</num>
+        <content eId="para_673__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States to facilitate the digital and financial literacy and inclusion of women and their equal access to formal financial services, including timely and affordable credit, loans, savings, insurance and remittance transfer schemes; integrate a gender perspective into finance sector policy and regulations, in accordance with national priorities and legislation, encourage financial institutions, such as commercial banks, development banks, agricultural banks, microfinance institutions, mobile network operators, agent networks, cooperatives, postal banks and savings banks, to provide access to financial products, services and information to women and encourage the use of innovative tools and platforms, including online and mobile banking;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_709" class="SingleTxt">
+        <num>37.</num>
+        <content eId="para_709__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> Member States to prevent the harmful effects of the COVID‑19 pandemic on children by mitigating the damaging socioeconomic impacts, including by ensuring the continuity of child-centred services and policies on an equal and attainable access basis, upholding the right of the child to quality education on the basis of equal opportunity and non-discrimination and supporting education that is inclusive, equitable and accessible by implementing appropriate measures to ensure supporting families in the return of children, particularly girls and children in vulnerable situations, to school, when it is safe to do so, and access to opportunities to catch up on lost learning and while in confinement, to support school systems, teachers and families in ensuring a reliable source of daily nutrition and using accessible and inclusive distance-learning solutions to close the digital divides, while protecting children from violence, abuse and exploitation, online and offline, and recalling that no child shall be subjected to arbitrary or unlawful interference with his or her privacy and family;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_746" class="SingleTxt">
+        <num>38.</num>
+        <content eId="para_746__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> all Member States and, where appropriate, relevant international organizations to implement policies and programmes to reduce and eliminate preventable mortality and morbidity, as a result of malnutrition, of children under 5 years of age, and in this regard urges Member States to disseminate the technical guidance prepared by the Office of the United Nations High Commissioner for Human Rights, in collaboration with the World Health Organization,<authorialNote marker="13" placement="bottom" eId="authorialNote_13"><p xml:space="preserve">		<a href="https://undocs.org/en/A/HRC/27/31">A/HRC/27/31</a>; see also Human Rights Council resolution <a href="https://undocs.org/en/A/HRC/RES/33/11">33/11</a> (see <span class="italic">Official Records of the General Assembly, Seventy-first Session, Supplement No. 53A</span> and corrigendum (<a href="https://undocs.org/en/A/71/53/Add.1">A/71/53/Add.1</a> and <a href="https://undocs.org/en/A/71/53/Add.1/Corr.1">A/71/53/Add.1/Corr.1</a>), chap. II).</p></authorialNote> and to apply it, as appropriate, in the design, implementation, evaluation and monitoring of laws, policies, programmes, budgets and mechanisms for remedy and redress aimed at eliminating preventable mortality and morbidity of children under 5 years of age;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_784" class="SingleTxt">
+        <num>39.</num>
+        <content eId="para_784__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> that domestic resources mobilization, underscored by the principle of national ownership and supplemented by international assistance, as appropriate, will be critical to realizing sustainable development and achieving the Sustainable Development Goals;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_823" class="SingleTxt">
+        <num>40.</num>
+        <content eId="para_823__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms</span> the Addis Ababa Action Agenda, and recognizes the need to take steps to significantly increase investment to close resource gaps, including through the mobilization of financial resources from all sources, including public, private, domestic and international resource mobilization and allocation;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_863" class="SingleTxt">
+        <num>41.</num>
+        <content eId="para_863__content">
+          <p xml:space="preserve">	<span class="italic">Also reaffirms</span> that international cooperation has an essential role in assisting developing countries, including highly indebted poor countries, least developed countries, landlocked developing countries, small island developing Member States and middle-income countries, in strengthening their human, institutional and technological capacity;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_904" class="SingleTxt">
+        <num>42.</num>
+        <content eId="para_904__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> developed countries to implement their official development assistance commitments, including the commitment by many developed countries to achieve the target of 0.7 per cent of gross national income for official development assistance to developing countries and 0.15 to 0.20 per cent of gross national income for official development assistance to the least developed countries;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_946" class="SingleTxt">
+        <num>43.</num>
+        <content eId="para_946__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes </span>the contributions of South-South cooperation to poverty eradication and sustainable development, and reaffirms that South-South cooperation is an important element of international cooperation for development as a complement to, not a substitute for, North-South cooperation, and commits itself to strengthening South-South and triangular cooperation as a means of bringing relevant experience and expertise to bear in development cooperation;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_989" class="SingleTxt">
+        <num>44.</num>
+        <content eId="para_989__content">
+          <p xml:space="preserve">	<span class="italic">Stresses</span> the essential role that official development assistance plays in complementing, leveraging and sustaining financing for development efforts in developing countries and in facilitating the achievement of development objectives, including the internationally agreed development goals, in particular the Sustainable Development Goals, and welcomes steps to improve the effectiveness and quality of aid based on the fundamental principles of national ownership, alignment, harmonization, managing for results and mutual accountability;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1033" class="SingleTxt">
+        <num>45.</num>
+        <content eId="para_1033__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the international community to intensify development cooperation, including through South-South, North-South and triangular cooperation, as well as multi-stakeholder partnerships, to support countries, especially developing countries, upon their request, in building their national capacity for science, technology and innovation for social development, as well as to support research networks that reach across borders, institutions and disciplines;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1078" class="SingleTxt">
+        <num>46.</num>
+        <content eId="para_1078__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> the international community to strengthen multilateral cooperation, by mobilizing resources for an inclusive recovery and making use of special drawing rights and its voluntary channelling allocation to countries most in need, and recognizes the role of the United Nations and of the international financial institutions, in accordance with their respective mandates, and encourages them to continue to support global efforts towards sustained and inclusive growth, sustainable development and the external debt sustainability of developing countries;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1124" class="SingleTxt">
+        <num>47.</num>
+        <content eId="para_1124__content">
+          <p xml:space="preserve">	<span class="italic">Invites</span> all relevant stakeholders, including the United Nations system and civil society organizations, to continue to promote the exchange of information and good practices on programmes, policies and measures that successfully reduce inequality in all its dimensions;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1171" class="SingleTxt">
+        <num>48.</num>
+        <content eId="para_1171__content">
+          <p xml:space="preserve">	<span class="italic">Invites</span> the United Nations system to continue to support Member States, upon their request, in their pursuit of inclusive and resilient recovery from the COVID-19 pandemic for sustainable livelihoods, well-being and dignity for all, and facilitate international cooperation to end hunger and eradicate poverty in all its forms and dimensions, with the aim of achieving the 2030 Agenda for Sustainable Development for the common future of present and coming generations.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="20th">20th plenary meeting</inline>
+        <eol />
+        <docDate date="2022-06-08" refersTo="#adoptionDate">8 June 2022</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
