@@ -1,0 +1,670 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-06-23/2022-10/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-06-23/2022-10/"></FRBRuri>
+          <FRBRdate date="2022-06-23" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-06-23/2022-10/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-06-23/2022-10/ara@/"></FRBRuri>
+          <FRBRdate date="2022-07-01" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-06-23/2022-10/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-06-23/2022-10/ara@.xml"></FRBRuri>
+          <FRBRdate date="2022-07-12" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Office for the Coordination of Humanitarian Affairs" showAs="UN. Office for the Coordination of Humanitarian Affairs" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Under-Secretary-General for Humanitarian Affairs and Emergency Relief Coordinator" showAs="UN. Under-Secretary-General for Humanitarian Affairs and Emergency Relief Coordinator" dictionary="DHLAUTH"></keyword>
+        <keyword value="Central Emergency Response Fund" showAs="Central Emergency Response Fund" dictionary="DHLAUTH"></keyword>
+        <keyword value="HUMANITARIAN ASSISTANCE" showAs="HUMANITARIAN ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="AID COORDINATION" showAs="AID COORDINATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COORDINATION WITHIN UN SYSTEM" showAs="COORDINATION WITHIN UN SYSTEM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMANITARIAN EMERGENCIES" showAs="HUMANITARIAN EMERGENCIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="EMERGENCY RELIEF" showAs="EMERGENCY RELIEF" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="9" showAs="Special economic, humanitarian and disaster relief assistance." shortForm="HUMANITARIAN ASSISTANCE" dictionary="E/2022/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-06-16" outcome="draftResolution" as="E/2022/L.11" by="submitted by the Vice-President of the Council, Diego Pary Rodríguez (Plurinational State of Bolivia) and on the basis of informal consultations" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-07-01" outcome="adopted" as="Adopted without vote, 29th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2022/10</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">إن المجلس الاقتصادي والاجتماعي</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-07-01" class="rightSmall" refersTo="#dateOfIssuance">1 July 2022</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" eId="coverPage_1__session_1"></session>
+      </p>
+      <p>
+        <inline name="agenda item">البند 9 من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">المساعدة الاقتصادية الخاصة والمساعدة الإنسانية والمساعدة الغوثية في حالات الكوارث</inline>
+      </p>
+      <p>
+        <docTitle>قرار اتخذه المجلس الاقتصادي والاجتماعي في 23 حزيران/يونيه 2022</docTitle>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2022/10</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	تعزيز تنسيق المســاعدة الإنســانية التي تقدمها الأمم المتحـــدة في حالات الطوارئ</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold italic">إن المجلس الاقتصادي والاجتماعي</span>،</p>
+      </formula>
+      <container name="إذ يؤكد من جديد" eId="container_2">
+        <p xml:space="preserve">	<span class="bold italic">إذ يؤكد من جديد</span> قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/46/182">46/182</a> المؤرخ 19 كانون الأول/ديسمبر 1991 والمبادئ التوجيهية الواردة في مرفقه، وإذ يشير إلى قرارات الجمعية الأخرى ذات الصلة وقرارات المجلس الاقتصادي والاجتماعي ذات الصلة واستنتاجاته المتفق عليها،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد أيضا" eId="container_3">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يؤكد من جديد أيضا</span> مبادئ الإنسانية والحياد والنـزاهة والاستقلال في تقديم المساعدة الإنسانية وضرورة أن تقوم جميع الجهات الفاعلة المشاركة في تقديم المساعدة الإنسانية في حالات الطوارئ المعقدة والأزمات الممتدة والكوارث الطبيعية بتعزيز تلك المبادئ واحترامها احتراما تاما،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_4">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير</span> إلى مقرره 2022/322 المؤرخ 28 نيسان/أبريل 2022 الذي قرر فيه أن يكون موضوع الجزء المتعلق بالشؤون الإنسانية من دورته لعام 2022 هو ”تعزيز المساعدة الإنسانية: الممارسات الجيدة والتعبئة من أجل العمل عند تطبيق القانون الدولي الإنساني، والتعافي من جائحة مرض فيروس كورونا (كوفيد-19)، والتصدي لأزمة المناخ“، وأن يَعقِد في إطار هذا الجزء ثلاث حلقات نقاش،</p>
+      </container>
+      <container name="وإذ يعرب عن بالغ القلق" eId="container_5">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يعرب عن بالغ القلق</span> إزاء التحديات المتزايدة، ولا سيما في البلدان النامية، الناجمة عن العدد غير المسبوق من الأشخاص المتضررين من الكوارث وغيرها من حالات الطوارئ الإنسانية، التي تفاقم التخلف، والفقر، وعدم المساواة، وتزيد من ضعف الناس وتقلل في الوقت نفسه من قدرتهم على مواجهة حالات الطوارئ الإنسانية، وإذ يؤكد الحاجة إلى الكفاءة والفعالية في توفير الموارد المستديمة اللازمة للحد من أخطار الكوارث وفي التأهب لها وتقديم المساعدة الإنسانية، بما في ذلك في البلدان النامية، وإذ يؤكد أيضا ضرورة أن تتعاون الجهات الفاعلة في المجالين الإنساني والإنمائي بشكل أفضل من أجل تعزيز القدرة على الصمود، بما في ذلك قدرة المناطق الحضرية على الصمود، من حيث الوقاية والتأهب والاستجابة،</p>
+      </container>
+      <container name="وإذ يعرب عن أشد القلق" eId="container_6">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يعرب عن أشد القلق</span> من الأثر الإنساني وما تشكله آثار جائحة مرض فيروس كورونا (كوفيد-19) من مخاطر في الأجلين القصير والطويل، بما في ذلك على المستويات الكبيرة بالفعل من الاحتياجات الإنسانية والإنمائية اللازمة ومعاناة الأشخاص المتضررين والمجتمعات المتضررة، وإذ يسلّم بالتأثير غير المتناسب للجائحة على النساء والأطفال والأشخاص الذين يعانون من أوضاع هشة، وإذ يساوره بالغ القلق من تزايد الاحتياجات المتعلقة بالمساعدة الإنسانية وتوفير الحماية، لأسباب منها تزايد العنف، بما في ذلك العنف الجنسي والعنف الجنساني ضد الأطفال، والأثر الكبير الذي يلحق بالتعليم، ولا سيما تعليم الفتيات، وكذلك ارتفاع مستويات انعدام الأمن الغذائي وسوء التغذية وتزايد مخاطر المجاعة، وفقدان سبل العيش، وجميع الآثار السلبية التي تلحق بالصحة، بما في ذلك الصحة العقلية، والتي تتفاقم أيضا بسبب ضعف نظم الصحة، وآثار ومخاطر النزوح؛ وإذ يدرك المخاطر والآثار المضاعفة الناجمة عن النزاعات المسلحة والفقر والكوارث الطبيعية والعنف، والآثار الضارة لتغير المناخ والتحديات البيئية الأخرى؛ وإذ يسلّم كذلك بالجهود والتدابير التي اقترحها الأمين العام في ما يتعلق بالتصدي لأثر جائحة كوفيد-19،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_7">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشدد</span> على أن جائحة كوفيد-19 العالمية تتطلب استجابة عالمية فعالة تقوم على الوحدة والتضامن والتعاون المتعدد الأطراف المتجدد، وإذ يؤكد أهمية المساعدة الإنسانية بوصفها جزءا حيويا من تلك الاستجابة، وإذ يسلّم في هذا الصدد بالجهود التي تبذلها الدول الأعضاء، بما في ذلك في ما يتعلق بتقديم المساعدة الإنسانية، في التصدي لجائحة كوفيد-19 وإذ يعرب عن تقديره لجهود ودعم منظومة الأمم المتحدة، واللجنة الدائمة المشتركة بين الوكالات، وحركة الصليب الأحمر والهلال الأحمر الدولية، والمنظمات غير الحكومية، والمنظمات الدينية، والمنظمات التي تقودها نساء، والجهات المحلية الفاعلة في المجال الإنساني، والمتطوعين والمنظمات الأخرى العاملة في المجالين الصحي والإنساني، وللعمل الأساسي الذي يقوم به موظفو الخدمات الطبية والإنسانية العاملون في الخطوط الأمامية للاستجابة الإنسانية لمكافحة الجائحة، وإذ يشدد على أهمية اتخاذ التدابير اللازمة لضمان حمايتهم، وإذ يعرب عن تقديره لجهود العاملين في الخطوط الأمامية والعاملين الأساسيين في جميع أنحاء العالم، وإذ يسلم أيضا بشمولية التدابير المتخذة للتصدي لجائحة كوفيد-19، بما في ذلك زيادة التعاون والاتساق والتنسيق والتكامل بين الجهات الفاعلة في المجالين الإنساني والإنمائي، في ظل امتثال تام لولاية كل منها، ويؤكد في هذا الصدد أهمية التعاون بهدف تقليل الاحتياجات والضعف والمخاطر على مدى سنوات متعددة وبناء القدرة على الصمود، على أساس فهم مشترك للسياق ولنقاط القوة التشغيلية لكل جهة من الجهات الفاعلة،</p>
+      </container>
+      <container name="وإذ يعرب عن بالغ القلق" eId="container_8">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يعرب عن بالغ القلق </span>إزاء العدد غير المسبوق من الأشخاص المتضررين من حالات الطوارئ الإنسانية والمشردين بسببها، بما فيها حالات التشرد المطوّلة في كثير من الأحيان بسبب حالات الطوارئ الإنسانية، التي تتزايد من حيث العدد والنطاق والشدة وتشكل ضغطا على قدرات الاستجابة الإنسانية، وإذ يُسلِّم بضرورة تقاسم الأعباء، وإذ يلاحظ مع التقدير الجهود المبذولة على الصعيدين الوطني والدولي لتعزيز بناء القدرات الوطنية على التصدي للتحديات المعقدة في هذا الصدد،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_9">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير</span> إلى ضرورة زيادة وعي المجتمع الدولي بمسألة التشرد الداخلي في جميع أنحاء العالم، بما في ذلك حالة الملايين الذين يعيشون في حالات تشرد مطوّلة، وإلى الحاجة الماسَّة لتزويد المشردين داخليا بالمساعدة الإنسانية الكافية وبالحماية، ودعم المجتمعات المضيفة، ومعالجة الأسباب الجذرية للتشرد في وقت مبكر، وإيجاد حلول دائمة للمشردين داخليا في بلدانهم والتصدي للعقبات المحتملة في هذا الصدد، حيث تقع على عاتق السلطات الوطنية الواجبات والمسؤوليات الرئيسية لتوفير الحماية والمساعدة الإنسانية وإيجاد الحلول الدائمة للمشردين داخليا في حدود ولايتها القضائية، مع مراعاة احتياجاتهم الخاصة، وإذ يُسلِّم بأن الحلول الدائمة تشمل العودة الطوعية بأمان وكرامة، فضلا عن الاندماج المحلي الطوعي في المناطق التي شرد إليها الأشخاص أو التوطين الطوعي في جزء آخر من البلد، دون الإخلال بحق المشردين داخليا في مغادرة بلدهم أو التماس اللجوء،</p>
+      </container>
+      <container name="وإذ يسلّم" eId="container_10">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يسلّم</span> بالدور الحاسم الذي تضطلع به البلدان والمجتمعات المحلية المضيفة، ولا سيما البلدان النامية، في تلبية احتياجات السكان المتضررين بحالات الطوارئ الإنسانية، وإذ يعيد تأكيد الحاجة إلى تقديم الدعم الآني والمنسق من جانب المجتمع الدولي إلى البلدان المضيفة والمتضررة لتعزيز تنميتها وقدرتها على الصمود وتعزيز القدرات الوطنية والمحلية، حسب الاقتضاء، من أجل تلبية الاحتياجات الإنسانية للسكان المتضررين وفق المبادئ الإنسانية،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_11">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشدد</span> على أهمية أن تواصل الدول الأعضاء والأمم المتحدة والجهات الفاعلة الأخرى ذات الصلة بذل الجهود من أجل تحسين فعالية المساعدة الإنسانية على ضوء الاحتياجات، وذلك بطرق منها تعزيز قدرات الاستجابة للحالات الإنسانية وتحسين تنسيق المساعدة الإنسانية، وتحسين التقييم المشترك للاحتياجات، والتحليل حسب الاقتضاء، وترتيب الأولويات على أساس الاحتياجات في خطط الاستجابة الإنسانية، والتعرّف على الابتكارات المناسبة ودمجها ضمن عمليات التأهب لمواجهة الحالات الإنسانية والاستجابة لها والتعافي منها، وزيادة الشفافية والحد من الازدواجية وتكاليف الإدارة، وتعزيز الشراكات مع الجهات المستجيبة على الصعيدين المحلي والوطني، حسب الاقتضاء، وتعزيز سبل توفير التمويل الكافي والمرن الذي يمكن التنبؤ به وتعزيز مساءلة جميع أصحاب المصلحة،</p>
+      </container>
+      <container name="وإذ يسلّم" eId="container_12">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يسلّم</span> بأنّ البلدان النامية، ولا سيما أقل البلدان نموا والدول الجزرية الصغيرة النامية، لا تزال معرضة بشدة للآثار الضارة لتغير المناخ، ولزيادة حدة وتواتر الظواهر القاسية المناخية والمرتبطة بالمناخ، وأيضا لآثار ظاهرتي النينيو والنينيا، والتدهور البيئي والخسائر البشرية والاقتصادية الناجمة عن الأخطار الطبيعية، وإذ يسلّم أيضا بزيادة الكوارث من حيث الشّدة والتواتر، التي قد تسهم ضمن ظروف معينة في النزوح، وإذ يسلّم كذلك بضرورة تحسين فهم الطبيعة متعددة الأبعاد للكوارث والآثار الضارة لتغير المناخ من أجل إدارة مخاطر الكوارث بفعالية، وبالحاجة إلى التعاون الدولي، حسب الاقتضاء، لتطوير وتعزيز قدرة هذه البلدان على الصمود بهذا الخصوص، بما يشمل تبادل المعلومات والخبرات وأفضل الممارسات فيما بين البلدان، وإذ يحيط علما بمؤتمر القمة للعمل المناخي الذي عقده الأمين العام في نيويورك في عام 2019،</p>
+      </container>
+      <container name="وإذ يؤكد" eId="container_13">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يؤكد</span> الحاجة إلى التنفيذ الفعال لإطار سِنداي للحد من مخاطر الكوارث للفترة 2015-2030<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	()	قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/69/283">69/283</a>، المرفق الثاني.</p></authorialNote><sup>)</sup>، وإذ يشدد على أنّ بناء القدرة على الصمود وتعزيزها محليا ووطنيا وإقليميا أمران في غاية الأهمية بالنسبة للحد من خطر وأثر الكوارث وأوجه الضعف أمام الأخطار، وإذ يسلّم في هذا الصدد بأنّ بناء القدرة على الصمود، بوسائل تشمل الحد من مخاطر الكوارث والتأهب لها، هو عملية متعددة الأبعاد تشمل دعم الجهات الفاعلة الإنسانية والإنمائية للتنمية الطويلة الأجل، وإذ يشدد على ضرورة تعزيز الاستثمار في بناء القدرات الوطنية والمحلية على استخدام نظم الإنذار المبكر بالأخطار المتعددة، وعلى التأهب للكوارث والوقاية منها وتخفيف حدتها والتصدي لها وتحقيق التعافي والانتعاش منها، ولا سيما في البلدان النامية، وأيضا على الحاجة إلى الاستثمار في بناء القدرات الإقليمية،</p>
+      </container>
+      <container name="وإذ يسلّم" eId="container_14">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يسلّم</span> في هذا الصدد بالأهمية الخاصة التي يتسم بها اتفاق باريس الذي اعتُمد في إطار اتفاقية الأمم المتحدة الإطارية بشأن تغير المناخ<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	()	انظر FCCP/CP/2015/10/Add.1، المقرر 1/م أ-21، المرفق.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_15">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير</span> إلى اتفاقيات جنيف المؤرخة 12 آب/أغسطس 1949<sup>(</sup><authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	()	United Nations, <span class="italic">Treaty Series</span>, vol. 75, Nos. 970–973.</p></authorialNote><sup>)</sup> وبروتوكوليها الإضافيين لعام 1977<sup>(</sup><authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">	()	المرجع نفسه، المجلد 1125، الرقمان 17512 و 17513.</p></authorialNote><sup>)</sup>، وإلى واجب احترام القانون الدولي الإنساني وكفالة احترامه في جميع الظروف، وواجب كل أطراف النـزاعات المسلحة في الامتثال بصرامة للالتزامات المنطبقة عليها بموجب القانون الدولي الإنساني،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_16">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يؤكد من جديد</span> استمرار أهمية هذه الاتفاقيات، التي تنطوي على إطار قانوني حيوي لحماية المدنيين وقت الحرب، بما في ذلك تقديم المساعدة الإنسانية لهم،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_17">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير</span> إلى اتفاقيات جنيف لعام 1949 وبروتوكولاتها الإضافية لعامي 1977 و 2005<sup>(</sup><authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">	()	المرجع نفسه، المجلد 2404، الرقم 43425.</p></authorialNote><sup>)</sup>، حسب الاقتضاء، وإلى القانون الدولي العرفي ذي الصلة المتعلق بحماية الجرحى والمرضى والعاملين في المجال الطبي والعاملين في مجال تقديم المساعدة الإنسانية الذين يقتصر عملهم على المهام الطبية، وبحماية وسائل نقلهم ومعداتهم، وكذلك المستشفيات وسائر المرافق الطبية، وإلى الالتزام الواقع على عاتق الأطراف في النـزاعات المسلحة الذي يحملها على احترام وكفالة احترام القانون الدولي الإنساني في جميع الظروف، وإذ يلاحظ قواعد القانون الدولي الإنساني الواجبة التطبيق المتعلقة بعدم معاقبة أي شخص على القيام بأنشطة طبية متسقة مع أخلاقيات مهنة الطب،</p>
+      </container>
+      <container name="وإذ يدين بشدة" eId="container_18">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يدين بشدة</span> جميع الهجمات والتهديدات وغيرها من أعمال العنف المرتكبة ضد الجرحى والمرضى والعاملين في المجال الطبي والعاملين في مجال تقديم المساعدة الإنسانية الذين يقتصر عملهم على المهام الطبية، وضد وسائل نقلهم ومعداتهم ولوازمهم، وكذلك ضد المستشفيات وسائر المرافق الطبية، وإذ يعرب عن استيائه من العواقب الطويلة الأجل التي تطال السكان المدنيين ونُظم الرعاية الصحية في البلدان المعنية من جراء هذه الهجمات،</p>
+      </container>
+      <container name="وإذ يدين بشدة أيضا" eId="container_19">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يدين بشدة أيضا</span> جميع الهجمات والتهديدات وغيرها من أعمال العنف المرتكبة ضد العاملــين في مجال تقديم المساعدة الإنسانية ومرافقهم ومعداتهم ووسائل نقلهم وإمداداتهم، وإذ يعرب عن بالغ القلق إزاء ما يترتب على تلك الهجمات من تبعات على تقديم المساعدة الإنسانية إلى السكان المتضررين،</p>
+      </container>
+      <container name="وإذ يدين بشدة كذلك" eId="container_20">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يدين بشدة كذلك</span> جميع الهجمات والتهديدات وغيرها من أعمال العنف ضد المرافق المدنية، المنفذة في انتهاك لأحكام القانون الإنساني الدولي المنطبقة،</p>
+      </container>
+      <container name="وإذ يشجع" eId="container_21">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشجع</span> الدول الأعضاء والمنظمات الإنسانية المعنية على العمل على نحو وثيق مع المؤسسات الوطنية، بما في ذلك الحكومات المحلية والقطاع الخاص، حسب الاقتضاء، من أجل إيجاد طرق فعالة تجعلها ضمن سياقات مضبوطة على أتم الاستعداد للاستجابة لحالات الطوارئ المتزايدة في المناطق الحضرية وللتعافي من هذه الحالات التي قد تؤثر على توفير الخدمات الأساسية المنقذة للحياة مثل الماء والطاقة والرعاية الصحية،</p>
+      </container>
+      <container name="وإذ يعرب عن بالغ قلقه" eId="container_22">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يعرب عن بالغ قلقه</span> إزاء جميع أعمال العنف الجنسي والجنساني، وإذ يلاحظ بقلق بالغ أنّ العنف، بما في ذلك العنف الجنسي والجنساني والعنف ضد الأطفال، ما زال يُمارَس عمدا على السكان المدنيين في حالات الطوارئ، وأنّ المدنيين يشكلون الضحايا الرئيسيين لانتهاكات القانون الدولي الإنساني التي ترتكبها الأطراف في النـزاعات المسلحة، وإذ يدرك أنّ النساء والفتيات يتعرضن أكثر من غيرهن للعنف الجنسي والجنساني، ولكنّ الرجال والفتيان قد يكونون أيضا من بين ضحايا هذا العنف و/أو من الناجين من آثاره،</p>
+      </container>
+      <container name="وإذ يسلّم" eId="container_23">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يسلّم</span> بأن حالات الطوارئ الإنسانية قد تؤثر بشكل غير متناسب على النساء والفتيات وأنه من الضروري الحرص على تمكين المرأة من المشاركة بفعالية ونجاعة في عمليات القيادة وصنع القرار ذات الصلة بهذه الحالات، ويشمل ذلك عمليات الحد من مخاطر الكوارث، والحرص على تحديد الاحتياجات والمصالح الخاصة للنساء والفتيات، بما في ذلك ما يتعلق منها بالتعليم والصحة، ومعالجتها بشكل آمن ومناسب في الاستراتيجيات والاستجابات، حسب الاقتضاء، وتعزيز حقوق النساء والفتيات وحمايتهن في حالات الطوارئ الإنسانية،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_24">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يؤكد من جديد</span> ضرورة التعرّف على الاحتياجات الخاصة والأولويات والقدرات لدى النساء والفتيات والرجال والفتيان من مختلف الأعمار، والاستجابة لها وإدماجها في برامج المساعدة الإنسانية في جميع المراحل بطريقة شاملة ومتسقة، وإذ يُسلِّم بأنّ حالات الطوارئ الإنسانية تنطوي على مخاطر محددة وكبيرة تهدد سلامتهم وصحتهم ورفاههم،</p>
+      </container>
+      <container name="وإذ يلاحظ ببالغ القلق" eId="container_25">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يلاحظ ببالغ القلق</span> أنّ الأطفال والشباب لا يزالون يفتقرون إلى التعليم الجيد المنصف والشامل وللبيئات المدرسية الآمنة في حالات الطوارئ الإنسانية، وإذ يُسلِّم بحق الطفل في التعليم خلال حالات الطوارئ وبأن تأثير حالات الطوارئ الإنسانية على التعليم يطرح رهانات إنمائية وإنسانية، وإذ يؤكد الحاجة الملحة إلى زيادة التمويل وزيادة كفاءة تقديم التعليم الجيد في حالات الطوارئ الإنسانية، وذلك كمساهمة في تحقيق أهداف التنمية المستدامة وكفالة التعليم الجيد والمنصف والشامل وتعزيز فرص التعلم مدى الحياة للجميع، بما في ذلك التعليم في مرحلة الطفولة المبكرة، والتعليم العالي، والتدريب على المهارات والتعليم المهني، وإذ يؤكد من جديد في هذا الصدد أنّ التعليم ينبغي أن يُسهم في تحقيق السلام وبوسعه أن يقوم بدور المحفز على الإنعاش وإعادة البناء وأن يبني المجتمعات العتيدة القادرة على الصمود،</p>
+      </container>
+      <container name="وإذ يسلّم" eId="container_26">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يسلّم</span> بأن التعليم الجيد يسهم بطرق شتى في بناء قدرة الأفراد والمجتمعات والمؤسسات على الاستجابة لحالات الطوارئ الإنسانية وذلك من خلال دعم وتعزيز رأس المال الاجتماعي، وتطوير رأس المال البشري، وتعزيز المعارف المجتمعية المتعلقة بالاستجابة الإنسانية، وإذ يسلم أيضا بأن التعليم الجيد يمكن أن يخفّف من وطأة الآثار النفسية للنزاعات المسلحة والكوارث الطبيعية من خلال إعطاء شعور بوجود حياة طبيعية واستقرار وانتظام وأمل في المستقبل، وإذ يشدد، في هذا الصدد، على أهمية الدور الذي يمكن للتعليم أن يؤديه أيضا في دعم الجهود المبذولة في حالات الطوارئ لمنع جميع أعمال العنف والإيذاء وللتخفيف من آثارها،</p>
+      </container>
+      <container name="وإذ يسلّم أيضا" eId="container_27">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يسلّم أيضا</span> بدور الشباب الهام والإيجابي في المساعدة الإنسانية، حيث يستطيع أن يكون عنصرا محرّكا للابتكار وللحلول الإبداعية، وبضرورة إشراكه في جهود الاستجابة، بوسائل منها برامج المتطوعين،</p>
+      </container>
+      <container name="وإذ يسلّم كذلك" eId="container_28">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يسلّم كذلك</span> بما يواجه كبار السن من مخاطر في حالات الطوارئ الإنسانية، وبما لدى هؤلاء من سنوات من المعارف والمهارات والحكمة، التي تشكل مصادر لا تقدر بثمن للحد من مخاطر الكوارث، وبأنه ينبغي إشراكهم في وضع السياسات والخطط والآليات، بما في ذلك ما يتعلق منها بالإنذار المبكر والحد من مخاطر الكوارث، وإذ يسلم أيضا بضرورة مراعاة احتياجاتهم الخاصة،</p>
+      </container>
+      <container name="وإذ يسلّم" eId="container_29">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يسلّم</span> بأنّ الأشخاص ذوي الإعاقة يتضررون في حالات الطوارئ الإنسانية أكثر من غيرهم ويواجهون عقبات متعددة في الحصول على المساعدة الإنسانية، وإذ يُسلِّم أيضاً بضرورة جعل العمل الإنساني ميسورا شاملا للأشخاص ذوي الإعاقة، وإذ يؤكد في هذا الصدد أهمية ضمان عدم التمييز والمشاركة المجدية في عمليات صنع القرار، فضلا عن التعاون والتنسيق في تقديم المساعدة لضمان تلبية احتياجاتهم، وإذ يشير في هذا الصدد إلى ميثاق إدماج الأشخاص ذوي الإعاقة في العمل الإنساني،</p>
+      </container>
+      <container name="وإذ يسلّم أيضا" eId="container_30">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يسلّم أيضا</span> بالدور الأساسي الذي تضطلع به الدول الأعضاء في الاستعداد لحالات تفشي الأمراض المعدية والتصدي لها، بما في ذلك الحالات التي تفضي إلى أزمات إنسانية، وإذ يُبرِز الدور الحاسم الذي تضطلع به الدول الأعضاء، ومنظمة الصحة العالمية بوصفها السلطة التوجيهية والتنسيقية في مجال العمل الصحي الدولي، بما يتماشى مع اللوائح الصحية الدولية (2005) التي اعتمدتها جمعية الصحة العالمية<sup>(</sup><authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">	()	منظمة الصحة العالمية، الوثيقة WHA58/2005/REC/1، القرار 58-3، المرفق.</p></authorialNote><sup>)</sup>، ومنظومة الأمم المتحدة للعمل الإنساني، والمنظمات الدولية والإقليمية ذات الصلة، والمنظمات غير الحكومية، والقطاع الخاص، والجهات الفاعلة الإنسانية الأخرى في تقديم الدعم المالي والتقني والعيني من أجل مكافحة الأوبئة أو الجوائح، وإذ يُسلِّم أيضا بالحاجة إلى تعزيز النُّظم الصحية المحلية والوطنية ونظم الإبلاغ المبكر والإنذار المبكر، والتأهب، وقدرات الاستجابة الشاملة لعدة قطاعات، والقدرة على الصمود المرتبطة بحالات تفشي الأمراض المعدية، بوسائل تشمل بناء القدرات لدى البلدان النامية،</p>
+      </container>
+      <container name="وإذ يلاحظ بقلق بالغ" eId="container_31">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يلاحظ بقلق بالغ</span> أنّ الملايين من الناس يواجهون انعدام الأمن الغذائي الحاد الذي بلغ مستوى الأزمة أو أسوأ من ذلك، وإذ يلاحظ أن النزاعات المسلحة والجفاف والفقر والتقلبات في أسعار السلع الأساسية هي من العوامل التي تُسبِّب أو تُفاقم حدة المجاعة وانعدام الأمن الغذائي الشديد، وأن هناك حاجة ماسة إلى بذل مزيد من الجهود، بما في ذلك الدعم الدولي، لمعالجة هذه الحالة،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_32">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشدد</span> على أنه ينبغي للمجتمع الدولي أن يقدم، بطريقة منسقة، الدعم للجهود الوطنية والإقليمية من خلال تقديم المساعدة اللازمة لزيادة إنتاج الأغذية بشكل مستدام والحصول على الأطعمة الصحية والمغذية واستخدامها، مع الاحترام الكامل لأهمية المبادئ الإنسانية للمساعدة الإنسانية،</p>
+      </container>
+      <container name="وإذ يسلّم" eId="container_33">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يسلّم</span> بأن الاستثمار، عند الإمكان، في نظم الحماية الاجتماعية الواعية بالمخاطر والقادرة على الاستجابة، وحمايةَ سبل العيش، وتوفيرَ الدعم للزراعة في حالات الطوارئ هي أمورٌ تتسم بالأهمية الحاسمة لإنقاذ الأرواح،</p>
+      </container>
+      <container name="وإذ يسلّم أيضا" eId="container_34">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يسلّم أيضا</span> بالصلة الواضحة بين الاستجابة لحالات الطوارئ والتأهيل والتعمير والتنمية، وإذ يؤكد من جديد أنّه من أجل تعزيز الاتساق وضمان الانتقال السلس من الإغاثة إلى التأهيل والتعمير والتنمية، لا بُد للمساعدة في حالات الطوارئ من أن تُقدّم بطرق تدعم الإنعاش والتنمية في الأجل الطويل، ولا بد من اقتران التدابير المتخذة في حالات الطوارئ بتدابير إنمائية، كخطوة نحو تحقيق التنمية المستدامة للبلدان المتضررة، وإذ يؤكد في هذا الصدد أهمية توثيق التعاون بين الأطراف صاحبة المصلحة على الصعيد الوطني، بما في ذلك القطاع الخاص إذا اقتضى الأمر، والجهات الفاعلة في مجالي تقديم المساعدة الإنسانية والتنمية،</p>
+      </container>
+      <container name="وإذ يسلّم كذلك" eId="container_35">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يسلّم كذلك</span> بأن وضع إطار تعاوني وتكاملي بين النهجين الإنساني والإنمائي يشكل ركناً أساسياً في بناء القدرة على الصمود،</p>
+      </container>
+      <container name="وإذ يشجع" eId="container_36">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشجع</span> على إقامة تعاون أوثق بين الجهات الفاعلة في المجالين الانمائي والانساني، بالتنسيق مع الدول الأعضاء، حتى تعمل جميع الجهات الفاعلة ذات الصلة معا، وفقا لولايتها، على تحقيق نتائج مشتركة بهدف تقليل الحاجة والضعف والمخاطر على مدى سنوات متعددة، وذلك على أساس الفهم المشترك للسياق ونقاط القوة التشغيلية لكل جهة فاعلة، دعما للأولويات الوطنية، مع الاحترام الكامل لأهمية المبادئ الإنسانية للعمل الإنساني،</p>
+      </container>
+      <container name="وإذ يعيد التأكيد" eId="container_37">
+          <p xml:space="preserve">	<span class="bold italic">وإذ يعيد التأكيد</span> على ضرورة قيام الدول الأعضاء ومؤسسات الأمم المتحدة ذات الصلة والجهات الفاعلة الأخرى المعنية بتحسين المساءلة على جميع المستويات من أجل تلبية احتياجات السكان المتضررين، وإذ يُسلِّم بأهمية المشاركة الشاملة للجميع في صنع القرار،</p>
+      </container>
+      <container name="وإذ يسلّم" eId="container_38">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يسلّم</span> بضرورة أن تواصل الدول الأعضاء ومنظومة الأمم المتحدة عملها بوسائل منها تعزيز الشراكات على جميع المستويات مع الجهات صاحبة المصلحة ذات الصلة، ومنها المنظمات الاقليمية والمجتمع المدني والقطاع الخاص، حسب الاقتضاء، وذلك دعما للجهود الوطنية، مع ضرورة الحرص على أن تتقيد جهودها التعاونية بالمبادئ الإنسانية،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_39">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشدد</span> على ضرورة قيام الدول الأعضاء والأمم المتحدة والجهات صاحبة المصلحة المعنية بالعمل معا من أجل تقليل احتياجات الأشخاص الأكثر ضعفا، والإسهام بذلك في تحقيق أهداف خطة التنمية المستدامة لعام 2030<sup>(</sup><authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">	()	قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/70/1">70/1</a>.</p></authorialNote><sup>)</sup>، بما في ذلك الدعوة إلى عدم ترك أي أحد خلف الركب،</p>
+      </container>
+      <container name="وإذ يسلّم" eId="container_40">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يسلّم</span> بأن النمو الاقتصادي الشامل والتنمية المستدامة هما أمران أساسيان للوقاية من الكوارث الطبيعية وحالات الطوارئ الأخرى والتأهب لها،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_41">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يؤكد من جديد</span> قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/70/1">70/1</a> المؤرخ 25 أيلول/سبتمبر 2015 والمعنون: ”تحويل عالمنا: خطة التنمية المستدامة لعام 2030“، الذي اعتمدت فيه الجمعية مجموعة من الأهداف والغايات العالمية الشاملة والبعيدة المدى المتعلقة بالتنمية المستدامة، التي تركز على الناس وتفضي إلى التحول، وأكدت من جديد التزامها بالعمل دون هوادة من أجل تنفيذ هذه الخطة بالكامل بحلول عام 2030، وإدراكها أن القضاء على الفقر بجميع صوره وأبعاده، بما في ذلك الفقر المدقع، هو أكبر تحد يواجهه العالم وشرطٌ لا غنى عنه لتحقيق التنمية المستدامة، والتزامها بتحقيق التنمية المستدامة بأبعادها الثلاثة - الاقتصادي والاجتماعي والبيئي - على نحو متوازن ومتكامل، والاستفادة من الإنجازات التي تحققت في إطار الأهداف الإنمائية للألفية والسعي إلى استكمال ما لم ينفذ من تلك الأهداف،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد أيضا" eId="container_42">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يؤكد من جديد أيضا</span> قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/69/313">69/313</a> المؤرخ 27 تموز/يوليه 2015 بشأن خطة عمل أديس أبابا الصادرة عن المؤتمر الدولي الثالث لتمويل التنمية، التي تشكل جزءا لا يتجزأ من خطة التنمية المستدامة لعام 2030 وتدْعمُها وتكملُها وتساعدُ في توضيح سياق غاياتها المتعلقة بوسائل التنفيذ من خلال سياسات وإجراءات عملية،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_43">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير</span> إلى إعلان نيويورك من أجل اللاجئين والمهاجرين، المعتمد في الاجتماع العام الرفيع المستوى للجمعية العامة المعني بالتعامل مع حركات النزوح الكبرى للاجئين والمهاجرين، الذي عقد في 19 أيلول/سبتمبر 2016<sup>(</sup><authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">	()	قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/71/1">71/1</a>.</p></authorialNote><sup>)</sup>، بما في ذلك إطار الاستجابة الشاملة للاجئين، على النحو المبين في المرفق الأول لإعلان نيويورك، وإذ يحيط علما مع التقدير بالاتفاق العالمي بشأن اللاجئين<sup>(</sup><authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">	()	<span class="italic">الوثائق الرسمية للجمعية العامة، الدورة الثالثة والسبعون، الملحق رقم 12</span> (<a href="https://undocs.org/ar/A/73/12 (Part I)">A/73/12 (Part I)</a> و <a href="https://undocs.org/ar/A/73/12(PartII)">A/73/12 (Part II)</a>)، الجزء الثاني.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ يرحب" eId="container_44">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يرحب</span> بانعقاد المؤتمر الحكومي الدولي يومي 10 و 11 كانون الأول/ديسمبر 2018 في مراكش، المغرب، وإذ يشير إلى أنّ المؤتمر قد اعتمد الاتفاق العالمي من أجل الهجرة الآمنة والمنظمة والنظامية المعروف أيضا باسم اتفاق مراكش بشأن الهجرة<sup>(</sup><authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">	()	قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/73/195">73/195</a>، المرفق.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_45" class="SingleTxt">
+        <content eId="para_45__content">
+          <p xml:space="preserve">	1 -	<span class="bold italic">يحيط علما</span> بتقرير الأمين العام<sup>(</sup><authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/A/77/72–E/2022/50">A/77/72–E/2022/50</a>.</p></authorialNote><sup>)</sup>؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="SingleTxt">
+        <content eId="para_46__content">
+          <p xml:space="preserve">	2 -	<span class="bold italic">يشجع</span> منظومة الأمم المتحدة للعمل الإنساني والمؤسسات العاملة في مجال تقديم المساعدة الإنسانية والمنظمات الأخرى ذات الصلة على أن تعزز تنسيق المساعدة الإنسانية في الميدان وتواصل في الوقت نفسه التنسيق عن كثب مع الحكومات الوطنية، آخذة في الاعتبار ما للدول المتضررة من دور رئيسي في الشروع في تقديم هذه المساعدة وتنظيمها وتنسيقها وإيصالها داخل إقليمها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxt">
+        <content eId="para_47__content">
+          <p xml:space="preserve">	3 -	<span class="bold italic">يشجع</span> الأمم المتحدة على مواصلة تعزيز جهود التنسيق والتأهب والاستجابة وعلى تحسين نوعية وفعالية العمل الإنساني، بوسائل منها تعزيز التكامل مع من يشارك في جهود الاستجابة من أصحاب المصلحة المعنيين وفيما بينهم، مثل الحكومات المتضررة والمنظمات الإقليمية والجهات المانحة والمنظمات الإنمائية والمجتمع المدني والقطاع الخاص، وذلك حتى يستفيد هؤلاء مما لديهم من مزايا نسيبة وموارد؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="SingleTxt">
+        <content eId="para_48__content">
+          <p xml:space="preserve">	4 -	<span class="bold italic">يؤكد</span> ضرورة أن تواصل منظومة الأمم المتحدة تعزيز القدرات والمعارف والمؤسسات الإنسانية القائمة وتحسين كفاءتها، وذلك بوسائل منها، حسب الاقتضاء، نقل التكنولوجيا بشروط مقبولة على نحو متبادل وكذلك الخبرة إلى البلدان النامية، ويُشجِّع المجتمع الدولي والكيانات ذات الصلة في منظومة الأمم المتحدة وفي سائر المؤسسات والمنظمات المعنية على دعم السلطات الوطنية في تنفيذ البرامج التي تضطلع بها لبناء القدرات، وذلك بسبل منها التعاون التقني وإقامة شراكات طويلة الأجل وتعزيز قدراتها على مواجهة الكوارث والحد من أخطارها والتأهب والتصدي لها والحد من خطر التشرد في سياقها، ويُشجِّع الدول الأعضاء على تهيئة وتوطيد بيئة مواتية لبناء قدرات سلطاتها الوطنية والمحلية وقدرات الجمعيات الوطنية التابعة لحركة الصليب الأحمر والهلال الأحمر الدولية وقدرات المنظمات غير الحكومية والمنظمات المجتمعية الوطنية والمحلية على تقديم المساعدة الإنسانية في الوقت المناسب؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxt">
+        <content eId="para_49__content">
+          <p xml:space="preserve">	5 -	<span class="bold italic">يشجع</span> المنظمات الإنسانية والإنمائية وسائر الجهات الفاعلة ذات الصلة، حسب الاقتضاء، على أن تنظر بالتشاور مع الحكومات، وحسب الإمكان، في تحديد أهداف مشتركة تشمل الأهداف المتعلقة بإدارة المخاطر والقدرة على مجابهتها، التي يمكن تحقيقها من خلال التخطيط لعدة سنوات وزيادة الاستثمار في التأهب للكوارث، على أن يجرى ذلك استنادا إلى ترتيب أولويات الاحتياجات وبما يتماشى مع المبادئ الإنسانية، وذلك بغية الحد من المعاناة والخسائر والأثر العام الناجم عن الأزمات الإنسانية، ويؤكد في هذا الصدد أنه ينبغي، من أجل توطيد الاتساق وضمان الانتقال السلس من الإغاثة إلى التنمية الأطول أجلا، التخطيطُ للاستجابة الإنسانية، لا سيما في الأزمات المطوّلة، وفق إطار متعدد السنوات، حسب الاقتضاء، وربط هذه الاستجابة بعمليات التخطيط الإنمائي، بما في ذلك تحقيق الانتعاش المستدام والقدرة على الصمود مع إشراك الجهات الرئيسة صاحبة المصلحة مثل الحكومات والمنظمات الإقليمية والمؤسسات المالية الدولية، حسب الاقتضاء؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_50" class="SingleTxt">
+        <content eId="para_50__content">
+          <p xml:space="preserve">	6 -	<span class="bold italic">يحث</span> وكالات الأمم المتحدة والمنظمات الدولية، في إطار الجهود التي تبذلها في مجال المساعدة الإنسانية، على مواصلة تحسين دورة البرامج الإنسانية، بما في ذلك وضع أدوات منسقة وشاملة لتقييم الاحتياجات، مثل التقييمات الأولية السريعة المتعددة القطاعات، واستخدامها بمزيد الاتساق، وتنفيذ تقييمات مشتركة ونزيهة وآنية للاحتياجات، وترتيب الأولويات على أساس الاحتياجات في خطط الاستجابة الإنسانية، وذلك بالتشاور مع الدول المتضررة، ويُشجِّع المنظمات الإنسانية الدولية والجهات الفاعلة ذات الصلة على مواصلة العمل مع السلطات الوطنية والمحلية وأيضا مع المجتمع المدني والسكان المتضررين من أجل تنسيق العمل الإنساني، ويعترف بدور المجتمعات المحلية المتضررة في تحديد الاحتياجات والمتطلبات الملحة للتأكد من الاستجابة بشكل فعال؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="SingleTxt">
+        <content eId="para_51__content">
+          <p xml:space="preserve">	7 -	<span class="bold italic">يطلب</span> إلى منسِّق الإغاثة في حالات الطوارئ أن يواصل قيادة الجهود الرامية إلى تحسين تنسيق المساعدة الإنسانية والرفع من فعاليتها وجدواها وزيادة المساءلة عنها، وذلك بوسائل من بينها مواصلة وتعزيز الحوار مع الدول الأعضاء، بشأن مسائل تشمل عمليات اللجنة الدائمة المشتركة بين الوكالات وأنشطتها وقراراتها، ومواصلة العمل في حدود الموارد والولايات القائمة على تعزيز قدرات منسق الشؤون الإنسانية على التنسيق، ويُشجِّعُ في هذا الصدد الدولَ الأعضاء ومؤسسات الأمم المتحدة ذات الصلة وغيرها من المنظمات الحكومية الدولية وأصحاب المصلحة المعنيين على مواصلة تحسين التعاون مع مكتب تنسيق الشؤون الإنسانية التابع للأمانة العامة من أجل ضمان الفعالية والكفاءة في الاستجابة للحالات الإنسانية من أجل الأشخاص المتضررين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxt">
+        <content eId="para_52__content">
+          <p xml:space="preserve">	8 -	<span class="bold italic">يحث</span> على بذل الجهود اللازمة لتعزيز التعاون والتنسيق بين كيانات الأمم المتحدة والمنظمات المعنية الأخرى العاملة في مجال تقديم المساعدة الإنسانية والبلدان المانحة من جهة والدول المتضررة من جهة أخرى، ويُسلِّم بأن المساعدة الإنسانية ينبغي أن تقدم بطرق تدعم الإنعاش المبكر واستدامة الإصلاح والتعمير والتنمية في الأجل الطويل، ويشير إلى أنّ الإنعاش المبكر يتطلب التمويل في الوقت المناسب وبالقدر الفعال والمتوقع عبر تمويل أنشطة المساعدة الإنسانية والأنشطة الإنمائية، حسب الاقتضاء، لتلبية الأولويات الدائمة في مجال المساعدة الإنسانية والإنعاش وأولويات ما بعد الأزمات وفي الوقت نفسه بناء القدرات والقدرة على الصمود وطنيا ومحليا؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_53" class="SingleTxt">
+        <content eId="para_53__content">
+          <p xml:space="preserve">	9 -	<span class="bold italic">يشجع</span> الأمم المتحدة والمنظمات الإنسانية ذات الصلة، بالتعاون والتنسيق مع الدول الأعضاء، وفي إطار احترام أولوياتها الوطنية، وبما يتسق مع المبادئ الإنسانية لاحترام الذات الإنسانية والنـزاهة والحياد والاستقلال، على دعم وبناء القدرات الوطنية والمحلية، بوسائل تشمل زيادة التمويل الذي يمكن التنبؤ به والتمويل المباشر، حسب الاقتضاء، للشركاء الوطنيين والمحليين، بما يشمل الجماعات النسائية، مع التركيز على قدرات التأهب والاستجابة والإنعاش والتنسيق، ويُشجِّع الدول الأعضاء على مواصلة تقديم التمويل إلى صناديق العمل الإنساني القطرية المشتركة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxt">
+        <content eId="para_54__content">
+          <p xml:space="preserve">	10 -	<span class="bold italic">يشجع</span> الدول الأعضاء ومنظومة الأمم المتحدة والمنظمات الإنسانية والإنمائية على أن تواصل، وفقاً لولاية كل منها، تقديم الدعم إلى الدول الأعضاء، وبخاصة إلى البلدان النامية، حتى تشجّع الابتكار باعتباره وسيلة لتطوير الأدوات التي تزيد من التأهب وتقلل من الضعف والمخاطر عبر جملة من الوسائل من بينها زيادة الاستثمار في القدرات الوطنية والمحلية على البحث العلمي والتطوير الذي يفضي إلى الابتكار والاستفادة من تكنولوجيات المعلومات والاتصالات، وعلى أن تحدِّد أفضل الممارسات والدروس المستفادة وأن تروج لها وتدمجها في ما يتعلق بمسائل منها نظم الإنذار المبكر، والممارسات القائمة على الأدلة في الاستجابة للكوارث، ونظم المعلومات والاتصالات، والشراكات والمشتريات والتعاون والتنسيق بين الوكالات والمنظمات، ويلاحظ في هذا الصدد أهمية تعزيز ودعم القدرات العلمية من أجل إنارة الابتكار وتطوير القدرات المحلية على سبيل الأولوية، ويشجّع أيضا على البحث العلمي والاستجابة للكوارث، ويرحب بالممارسات الابتكارية التي تستفيد من معارف الأشخاص المتضررين من حالات الطوارئ الإنسانية في إيجاد الحلول المستدامة المحلية وإنتاج المواد المنقِذة للحياة محلياً بأدنى حد من الآثار من حيث اللوجستيات والبنى التحتية، وذلك بالعمل مع المؤسسات الوطنية والمحلية، حسب الاقتضاء، ومع المنظمات ونظم الإنذار المبكر والأطراف المقدّمة للخدمات، وبتعزيز هذه المؤسسات والمنظمات والنظم والأطراف قدر الإمكان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_55" class="SingleTxt">
+        <content eId="para_55__content">
+          <p xml:space="preserve">	11 -	<span class="bold italic">يشجع</span> الدول، وكذلك الأمم المتحدة والمنظمات الإنسانية، وفقا لولايات كل منها ووفقا للمبادئ الإنسانية، وعلى أساس التعلم من تجربة جائحة كوفيد-19، على مواصلة توسيع نطاق النهج الاستباقية، ونظم الإنذار المبكر واتخاذ الإجراءات المبكرة، والتنبؤ، والاستجابات الوقائية والتأهب لحالات الطوارئ، وتحسين تحليلات البيانات المتعلقة بالتنبؤ والمخاطر على صعيد القطاعات، وتعزيز الرصد المنهجي للمخاطر، والقدرات المتصلة بالإنذار المبكر والتأهب على كل من المستوى المحلي والوطني والإقليمي والعالمي، بما في ذلك ما يرتبط منها بالمخاطر الصحية وتفشي الأمراض، ويحيط علما بأطر الأمم المتحدة ومبادراتها المهمة المتعلقة بالتأهب للطوارئ الصحية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_56" class="SingleTxt">
+        <content eId="para_56__content">
+          <p xml:space="preserve">	12 -	<span class="bold italic">يشجع</span> الدول الأعضاء وصناديق الأمم المتحدة وبرامجها والوكالات المتخصصة على توخي المزيد من الفعالية في تلبية الاحتياجات ضمن السياقات الإنسانية، وذلك بسبل منها توسيع دائرة سياسات الحماية الاجتماعية والارتقاء بمستوى آليات التحويل النقدي، كلما كان ذلك ممكناً، ويشمل ذلك البرامج النقدية المتعددة الأغراض، حسب الاقتضاء، من أجل دعم تطوير الأسواق المحلية، وتعزيز القدرات الوطنية والمحلية، ويهيب في هذا الصدد بالمنظمات الإنسانية التابعة للأمم المتحدة إلى مواصلة بناء قدراتها من أجل النظر بصورة منهجية في برامج التحويلات النقدية، إلى جانب أشكال أخرى من المساعدة الإنسانية، ويحيط علما بالجهود التي تبذلها منظومة الأمم المتحدة لزيادة فعالية ونجاعة العمليات النقدية والمساءلة عنها، بما في ذلك الانتقال إلى نظام موحد لتوفير المساعدة النقدية في الحصول على الغذاء والمواد غير الغذائية وفي الاستفادة من الخدمات وغيرها من أشكال الدعم والأنواع الأخرى من المساعدات الإنسانية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_57" class="SingleTxt">
+        <content eId="para_57__content">
+          <p xml:space="preserve">	13 -	<span class="bold italic">يطلب</span> إلى الأمين العام أن يستمر ضمن تقريره المقبل عن هذا القرار في تقديم معلومات مستكملة عن استخدام نُهج التمويل الاستباقية فيما يتعلق بحالات الطوارئ الإنسانية، وأن ينظر في إمكانية أن تبذل منظومة الأمم المتحدة للعمل الإنساني وسائر الجهات المعنية صاحبة المصلحة جهودا أخرى بهذا الشأن؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxt">
+        <content eId="para_58__content">
+          <p xml:space="preserve">	14 -	<span class="bold italic">يشجع</span> الدول الأعضاء ومنظومة الأمم المتحدة والمنظمات المعنية الأخرى على أن تحسن، حيثما أمكن، التمويل السريع والمرن لجهود التأهب والإجراءات المبكرة والاستجابة المبكرة والإنعاش المبكر، ويشجع في هذا الصدد على استكشاف آليات ونهُج ابتكارية واستباقية، مثل التمويل القائم على التنبؤ وتمويل المخاطر، بما في ذلك التأمين ضد مخاطر الكوارث، للحد من تأثير الكوارث وتلبية الاحتياجات الإنسانية، ويشجع على وضع آليات ونهج من هذا القبيل وتعزيز القائم منها، حيثما كان ذلك مناسبا؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_59" class="SingleTxt">
+        <content eId="para_59__content">
+          <p xml:space="preserve">	15 -	<span class="bold italic">يؤكد من جديد</span> أن الاستثمار في المهارات والنظم والمعارف الوطنية والمحلية من أجل بناء القدرة على الصمود والتأهب من شأنه أن ينقذ الأرواح ويخفض التكاليف ويحافظ على المكاسب الإنمائية، ويُشجِّع في هذا الصدد على استكشاف طرق مبتكرة، بما في ذلك آليات التمويل الاستباقية القائمة على التنبؤ، والإجراءات المبكرة، وآليات التأمين ضد مخاطر الكوارث، لزيادة توافر الموارد للدول الأعضاء مسبقا عندما يُتوقع على نحو معقول أن كارثة ستحدث؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_60" class="SingleTxt">
+        <content eId="para_60__content">
+          <p xml:space="preserve">	16 -	<span class="bold italic">يسلّم</span> بأنه من الضروري أن يتسم التمويل بمرونة أكبر تتيح اتباع نهج تكميلي بهدف تحقيق الفعالية والكفاية في تلبية الاحتياجات العاجلة لجميع السكان المتضررين في حالات الطوارئ، بما في ذلك حالات الطوارئ التي تعاني من نقص في التمويل والحالات المنسية وذات الطابع الطويل الأجل، والأسباب الكامنة وراء الأزمات، ويُشجِّع الدول الأعضاء ومنظومة الأمم المتحدة والقطاع الخاص وغيرها من الكيانات ذات الصلة على تقديم التمويل الكافي والاستثمار في بناء التأهب والقدرة على المجابهة، بما في ذلك من ميزانيات العمل الإنساني والتنمية، والتقليل من تحديد أوجه إنفاق الأموال وزيادة التخطيط التعاوني المرن المتعدد السنوات والتمويل المتعدد السنوات، حسب الاقتضاء، مع التسليم بالحاجة إلى الشفافية في الكيفية التي يُستخدم بها التمويل الأساسي وغير المخصص؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_61" class="SingleTxt">
+        <content eId="para_61__content">
+          <p xml:space="preserve">	17 -	<span class="bold italic">يشدد</span> على ضرورة تعزيز جهود حشد الموارد بهدف معالجة الفجوة المتزايدة في القدرات والموارد، بوسائل منها تقديم تبرعات إضافية من الجهات المانحة غير التقليدية، واستكشاف الآليات المبتكرة، من قبيل اتخاذ القرارات بشكل استباقي على أساس الإلمام بالمخاطر، والتمويل المرن للنداءات المتعددة السنوات من خلال الأدوات القائمة مثل النداءات الموحدة والعاجلة، والصندوق المركزي لمواجهة الطوارئ وغيره من الصناديق، مثل الصناديق القطرية المشتركة، ومواصلة توسيع شراكات القطاعين العام والخاص وقاعدة الجهات المانحة من أجل زيادة القدرة على التنبؤ بالتمويل وفعاليته، وتنويع الإيرادات، وتشجيع التعاون في ما بين بلدان الجنوب والتعاون الأفقي والتعاون الثلاثي على الصعيد العالمي، ويشجِّع في هذا الصدد الدول الأعضاء على المساهمة، حسب الاقتضاء، في النداءات الإنسانية التي تصدرها الأمم المتحدة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_62" class="SingleTxt">
+        <content eId="para_62__content">
+          <p xml:space="preserve">	18 -	<span class="bold italic">يرحب</span> بالإنجازات الهامة التي حققها الصندوق المركزي لمواجهة الطوارئ في كفالة الاستجابة على نحو أفضل من حيث توقيتها وإمكانية التنبؤ بها لحالات الطوارئ الإنسانية، ويرحب من ثمَّ بدعوة الأمين العام إلى مضاعفة رصيد الصندوق إلى بليون دولار من دولارات الولايات المتحدة، ويُشجِّع في هذا الصدد الدول الأعضاء، وكذلك سائر أصحاب المصلحة ذوي الصلة، على دعم الصندوق، ويؤكد الحاجة إلى توسيع وتنويع قاعدة إيرادات الصندوق؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_63" class="SingleTxt">
+        <content eId="para_63__content">
+          <p xml:space="preserve">	19 -	<span class="bold italic">يحث</span> الدول الأعضاء وأصحاب المصلحة المعنيين على تعبئة الموارد لدعم خطط الاستجابة الإنسانية التي تتصدى لجائحة كوفيد-19 وعواقبها، ويؤكد أهمية توفير تمويل سريع ومرن ويمكن التنبؤ به وكاف وفعال، وتقديم الدعم للصندوق المركزي لمواجهة الطوارئ وللصناديق القطرية المشتركة التي تؤدي دورا رئيسيا في الاستجابة الإنسانية لجائحة كوفيد-19، ويهيب بالأمم المتحدة والشركاء المعنيين أن يواصلوا كفالة إعطاء الأولوية للاحتياجات الإنسانية الأكثر أهمية، حتى لا تحل هذه الجهود محل الاحتياجات الإنسانية الموجودة من قبل أو تحوِّل الموارد عنها، ويشجع الجهود المبذولة لتوفير الشفافية بشأن المجالات التي يحقق فيها هذا التمويل الأثر المنشود وكيفية تحقيقه؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_64" class="SingleTxt">
+        <content eId="para_64__content">
+          <p xml:space="preserve">	20 -	<span class="bold italic">يسلّم</span> بأن المساءلة جزء لا يتجزأ من عملية تقديم المساعدة الإنسانية على نحو فعال، ويشدد على ضرورة تعزيز مساءلة الجهات الفاعلة في هذا المجال في جميع مراحل تقديم المساعدة الإنسانية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_65" class="SingleTxt">
+        <content eId="para_65__content">
+          <p xml:space="preserve">	21 -	<span class="bold italic">يهيب</span> بالأمم المتحدة وشركائها العاملين في المجال الإنساني إلى تعزيز الخضوع للمساءلة أمام الدول الأعضاء، بما في ذلك الدول المتضررة وجميع الأطراف الأخرى صاحبة المصلحة، بما في ذلك الحكومات المحلية والمنظمات المحلية ذات الصلة، إضافة إلى السكان المتضررين، ومواصلة تعزيز جهود الاستجابة في الحالات الإنسانية، بطرق منها رصد وتقييم المساعدة الإنسانية التي تقدمها، مع إدماج الدروس المستفادة في عمليات البرمجة والتشاور مع السكان المتضررين لكفالة تلبية احتياجاتهم الخاصة والمختلفة على النحو المناسب؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_66" class="SingleTxt">
+        <content eId="para_66__content">
+          <p xml:space="preserve">	22 -	<span class="bold italic">يحث</span> الأمم المتحدة والمنظمات الإنسانية على المضي قدماً في تحقيق الكفاءة في تقديم المساعدة من خلال خفض تكاليف الإدارة، وتنسيق اتفاقات الشراكة، وتوفير هياكل للتكاليف تكون شفافة وقابلة للمقارنة، وتعزيز التدابير الرامية إلى تحقيق قدر أكبر من المساءلة باتخاذ مزيد من الإجراءات للحد من الغش والهدر وإساءة الاستعمال والتجاوزات واختلاس المساعدات الموجَّهة للمتضرِّرين، وتحديد السبل الكفيلة بتبادل تقارير الحوادث والمعلومات الأخرى فيما بين وكالات الأمم المتحدة، حسب الاقتضاء؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_67" class="SingleTxt">
+        <content eId="para_67__content">
+          <p xml:space="preserve">	23 -	<span class="bold italic">يشجع</span> المنظمات الإنسانية والإنمائية على أن تنظر، بالتنسيق مع السلطات الوطنية، في تطبيق أدوات إدارة المخاطر بما يتيح تحسين استخدام المعلومات الأساسية وتحليل المخاطر، بما في ذلك تحليل الأسباب الكامنة وراء الأزمات، واحتياجات تمويل العمل الإنساني، ومختلف أوجه الضعف التي تعاني منها البلدان والمناطق، وجوانب التعرض للمخاطر التي تمس السكان المتضررين، ويلاحظ في هذا الصدد مواصلة تطوير الأدوات القائمة والآليات الابتكارية، من قبيل آليات ونهُج التمويل الاستباقي وتمويل المخاطر، وإقامة شبكات لمراكز الحد من مخاطر الكوارث، وتدابير التأهب الشاملة، ومؤشر إدارة المخاطر، لتشمل تلك الأدوات والآليات مزيدا من البيانات المصنفة حسب نوع الجنس والسن والإعاقة ومعلومات عن السياقات الوطنية والإقليمية، مع مراعاة الأثر البيئي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_68" class="SingleTxt">
+        <content eId="para_68__content">
+          <p xml:space="preserve">	24 -	<span class="bold italic">يؤكد</span> الحاجة إلى التنفيذ الفعال لإطار سِنداي للحد من مخاطر الكوارث للفترة 2015-2030 بوسائل منها تنفيذ سياسات وبرامج واستثمارات تراعي مخاطر الكوارث وتكون شاملة للجميع، وغير ذلك من التدابير الاستباقية التي تهدف إلى تعزيز القدرة على الصمود، ومنع نشوء مخاطر جديدة والتخفيف من حدة المخاطر القائمة، بغية التقليل إلى أدنى حد من الاحتياجات الإنسانية، ويؤكد أهمية معالجة العوامل الكامنة وراء مخاطر الكوارث، ومراعاة تداعيات تغير المناخ، وإدماج منظور للحد من مخاطر الكوارث في أعمال التأهب والتصدي والإنعاش، مع مراعاة التوقعات المناخية الطويلة الأجل وتقييمات المخاطر المتعددة الأوجه، مع التركيز على من يوجد من الناس في أوضاع هشة، ويرحب في هذا الصدد بعقد الدورة السابعة للمنتدى العالمي للحد من مخاطر الكوارث في بالي، بإندونيسيا، في أيار/مايو 2022، ويحيط علما مع التقدير بالمنتديات الإقليمية ودون الإقليمية للحد من مخاطر الكوارث، على النحو المذكور في الفقرة 49 من قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/76/204">7</a><a href="https://undocs.org/ar/A/RES/76/204">6</a><a href="https://undocs.org/ar/A/RES/76/204">/204</a> المؤرخ 17 كانون الأول/ديسمبر 2021 المتعلق بالحد من مخاطر الكوارث؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="SingleTxt">
+        <content eId="para_69__content">
+          <p xml:space="preserve">	25 -	<span class="bold italic">يشجع</span> الدول الأعضاء، وكذلك المنظمات الإقليمية والدولية ذات الصلة، على أن تواصل، وفقا للولايات المحددة لكل منها، دعم التكيف مع آثار تغير المناخ وتخفيفها وتعزيز الحد من مخاطر الكوارث وتطوير نظم الإنذار المبكر بالأخطار المتعددة بهدف التقليل من الآثار الإنسانية للكوارث الطبيعية إلى أدنى حد ممكن، بما في ذلك ما يتصل منها بالآثار الضارة المستمرة لتغير المناخ والأسباب الأخرى للكوارث الطبيعية، مثل الظواهر الجوية القصوى والنشاط الزلزالي، وبخاصة في البلدان الأكثر تعرضا لتلك الآثار، والإسهام بذلك أيضا في تحقيق أهداف التنمية المستدامة، ويهيب بجميع أصحاب المصلحة ذوي الصلة إلى مواصلة دعم الجهود التي تبذلها الدول الأعضاء، ولا سيما البلدان النامية، لتعزيز قدراتها على التأهب للكوارث والتصدي لها، وتحديد مخاطر الكوارث ورصدها، بما في ذلك قابلية التضرر من الأخطار الطبيعية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_70" class="SingleTxt">
+        <content eId="para_70__content">
+          <p xml:space="preserve">	26 -	<span class="bold italic">يسلّم</span> بضرورة تعزيز التعاون الدولي لمنع وخفض ومعالجة أوجه الضعف المتعلقة بتغير المناخ والكوارث الطبيعية على نحو مستدام، ولا سيما مع أقل البلدان نموا والدول الجزرية الصغيرة النامية ومجتمعاتها المحلية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_71" class="SingleTxt">
+        <content eId="para_71__content">
+          <p xml:space="preserve">	27 -	<span class="bold italic">يحث</span> الدول الأعضاء والمنظمات الإنسانية والإنمائية وسائر الجهات صاحبة المصلحة على كفالة اتباع نهج شامل ومتماسك على الصعد العالمي والإقليمي والوطني والمحلي إزاء ظاهرتي النينيو والنينيا والأحداث المماثلة أو ذات الصلة، بطرق منها تعزيز التنبؤ، والإنذار المبكر، والوقاية، والتأهب، وبناء القدرة على الصمود، والاستجابة في الوقت المناسب، بدعم من قيادة فعالة وتمويل قابل للتنبؤ به وكافٍ ومبكر، متى أمكن ذلك، في المناطق والبلدان والمجتمعات المحلية التي يحتمل تضرُّرها، ويلاحظ العمل الذي يضطلع به المبعوثان الخاصان للأمين العام المعنيان بكل من ظاهرة النينيو والمناخ ومخطط العمل الذي أعدّاه، وإجراءات التشغيل الموحدة التي وضعتها اللجنة الدائمة المشتركة بين الوكالات فيما يخصّ الأحداث المتصلة بظاهرة النينيو/التذبذب الجنوبي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_72" class="SingleTxt">
+        <content eId="para_72__content">
+          <p xml:space="preserve">	28 -	<span class="bold italic">يحث</span> الدول الأعضاء والأمم المتحدة والمنظمات الإنسانية والإنمائية، وفقا لولاية كل منها، على مواصلة دعم نظم الإنذار المبكر بالأخطار المتعددة والجهود المبذولة لاتخاذ إجراءات مبكرة، بأساليب تشمل التمويل القائم على التنبؤات على الصعد العالمي والإقليمي والوطني، والخدمات المناخية، ورسم خرائط التعرض للمخاطر وأوجه الضعف، والتكنولوجيات وبروتوكولات الاتصالات الجديدة، بالإضافة إلى إدماج القدرة على التأقلم مع آثار تغير المناخ في الإجراءات المبكرة ورفع درجة التأهب للاستجابة، لكي يتلقى الأشخاص الذين يعيشون في أوضاع هشة ويتعرضون لأخطار طبيعية، بما في ذلك في المواقع النائية جغرافيا، معلومات دقيقة وموثوقة تقدم في حينها ويُستند إليها في اتخاذ إجراءات بشأن الإنذار المبكر ليتمكنوا من اتخاذ إجراءات مبكرة، ويشجع المجتمع الدولي على مواصلة تقديم الدعم، حسب الاقتضاء، للجهود الوطنية المبذولة في هذا الصدد؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_73" class="SingleTxt">
+        <content eId="para_73__content">
+          <p xml:space="preserve">	29 -	<span class="bold italic">يحث</span> الأمم المتحدة والمنظمات الإنسانية على مواصلة تعزيز جهودها في دعم الحكومات الوطنية على تخطيط قدراتها في مجالي التأهب والاستجابة لحالات الطوارئ على الصعيدين القطري والإقليمي، بهدف تيسير تكامل جهود مواجهة الكوارث بين القدرات الوطنية والدولية على نحو أفضل، ويُشجِّع في هذا الصدد الدولَ الأعضاء على أن تروج، حسب الاقتضاء، لتنفيذ المبادئ التوجيهية لتسهيل العمليات الدولية للإغاثة والانتعاش الأولي في حالات الكوارث وتنظيمها على الصعيد الوطني وعلى أن تدمج إدارة المخاطر في خطط التنمية الوطنية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_74" class="SingleTxt">
+        <content eId="para_74__content">
+          <p xml:space="preserve">	30 -	<span class="bold italic">يشجع</span> الدول الأعضاء على العمل بشكل وثيق مع الأمم المتحدة وغيرها من الجهات الفاعلة ذات الصلة، بما في ذلك القطاع الخاص والكيانات المحلية، حسب الاقتضاء، على تعزيز الفعالية في التأهب والاستجابة لحالات الطوارئ في المناطق الحضرية، وتنفيذ سياسات تكفل الحد من مخاطر الكوارث ومعالجة مخاطرها بفعالية أكبر، ويشير في هذا الصدد إلى الخطة الحضرية الجديدة المعتمدة في مؤتمر الأمم المتحدة المعني بالإسكان والتنمية الحضرية المستدامة (الموئل الثالث)، الذي عقد في كيتو بإكوادور في الفترة من 17 إلى 20 تشرين الأول/أكتوبر 2016<sup>(</sup><authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">	()	قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/71/256">71/256</a>، المرفق.</p></authorialNote><sup>)</sup>، وإلى الالتزامات التي تعهدت بها الدول الأعضاء في ما يتعلق بالأشخاص المتضررين من الأزمات الإنسانية في المناطق الحضرية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_75" class="SingleTxt">
+        <content eId="para_75__content">
+          <p xml:space="preserve">	31 -	<span class="bold italic">يهيب</span> بجميع الأطراف في النـزاعات المسلحة أن تحترم القانون الدولي الإنساني، وبجميع الدول أن تكفل احترامه، وكذلك أن تفي بالتزاماتها بموجب القانون الدولي لحقوق الإنسان والقانون الدولي للاجئين، حسب الاقتضاء؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_76" class="SingleTxt">
+        <content eId="para_76__content">
+          <p xml:space="preserve">	32 -	<span class="bold italic">يشجع</span> الدول على تجديد جهودها الرامية إلى تحقيق التنفيذ الفعال لاتفاقيات جنيف المؤرخة 12 آب/أغسطس 1949؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_77" class="SingleTxt">
+        <content eId="para_77__content">
+          <p xml:space="preserve">	33 -	<span class="bold italic">يهيب</span> بجميع الدول والأطراف الامتثال لأحكام القانون الدولي الإنساني، بما في ذلك جميع اتفاقيات جنيف المؤرخة 12 آب/أغسطس 1949، وبخاصة اتفاقية جنيف المتعلقة بحماية المدنيين وقت الحرب<sup>(</sup><authorialNote marker="13" placement="bottom" eId="authorialNote_13"><p xml:space="preserve">	()	United Nations, <span class="italic">Treaty Series</span>, vol. 75, No. 973.</p></authorialNote><sup>)</sup>، بهدف حماية المدنيين في الأراضي المحتلة ومساعدتهم، ويحُثُّ في هذا الصدد المجتمع الدولي والمؤسسات ذات الصلة في منظومة الأمم المتحدة على تعزيز المساعدة الإنسانية المقدمة إلى المدنيين في تلك الحالات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_78" class="SingleTxt">
+        <content eId="para_78__content">
+          <p xml:space="preserve">	34 -	<span class="bold italic">يحث</span> جميع الجهات الفاعلة العاملة في مجال تقديم المساعدة الإنسانية على الامتثال على نحو تام للمبادئ التوجيهية الواردة في مرفق قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/46/182">46/182</a> واحترامها على النحو الواجب، بما في ذلك تقديم المساعدة الإنسانية وفقاً لمبادئ الإنسانية والحياد والنـزاهة ولمبدأ الاستقلال، على النحو الذي أقرته الجمعية في قرارها <a href="https://undocs.org/ar/A/RES/58/114">58/114</a> المؤرخ 17 كانون الأول/ديسمبر 2003؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="SingleTxt">
+        <content eId="para_79__content">
+          <p xml:space="preserve">	35 -	<span class="bold italic">يهيب</span> بجميع الدول والأطراف في حالات الطوارئ الإنسانية المعقدة، وبخاصة حالات النـزاع المسلح وحالات ما بعد انتهاء النـزاع، في البلدان التي يؤدي فيها العاملون في مجال تقديم المساعدة الإنسانية مهامهم، أن تتعاون بصورة تامة، وفقاً للأحكام ذات الصلة من القانون الدولي والقوانين الوطنية، مع الأمم المتحدة والوكالات والمنظمات الأخرى العاملة في مجال تقديم المساعدة الإنسانية، وأن تكفل وصول العاملين في مجال تقديم المساعدة الإنسانية إلى مقاصدهم وإيصال الإمدادات والمعدات بصورة آمنة ودون عراقيل كي يتسنى لهم الاضطلاع بكفاءة بمهمتهم المتمثلة في تقديم المساعدة إلى السكان المدنيين المتضررين، بمن فيهم اللاجئون والمشردون داخلياً؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_80" class="SingleTxt">
+        <content eId="para_80__content">
+          <p xml:space="preserve">	36 -	<span class="bold italic">يشجع</span> الدول الأعضاء والأمم المتحدة والمنظمات الإنسانية على مواصلة العمل معا من أجل فهم وتلبية الاحتياجات المتباينة إلى الحماية التي تنشأ في الأزمات الإنسانية لدى السكان المتضررين، ولا سيما أشدهم ضعفاً، وكفالة إدماج هذه الاحتياجات على نحو وافٍ في جهود التأهب والاستجابة والإنعاش؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_81" class="SingleTxt">
+        <content eId="para_81__content">
+          <p xml:space="preserve">	37 -	<span class="bold italic">يؤكد من جديد</span> الواجب الذي يحتِّم على جميع الدول والأطراف في أي نزاع مسلح أن تحمي المدنيين، وفقاً للقانون الدولي الإنساني، ويُشجِّع الدول الأطراف في أي نزاع مسلح على اتخاذ جميع التدابير اللازمة لتعزيز حماية المدنيين، ويدعو جميع الدول إلى تعزيز ثقافة الحماية، مع مراعاة الاحتياجات الخاصة للنساء والأطفال وكبار السن والأشخاص ذوي الإعاقة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_82" class="SingleTxt">
+        <content eId="para_82__content">
+          <p xml:space="preserve">	38 -	<span class="bold italic">يحث</span> الدول الأعضاء على مواصلة اتخاذ الخطوات اللازمة لكفالة حماية الجرحى والمرضى فضلاً عن سلامة وأمن العاملين في المجال الطبي والعاملين في مجال تقديم المساعدة الإنسانية الذين يزاولون حصراً مهام طبية ومرافقهم ومعداتهم ووسائل نقلهم ولوازمهم، بوسائل تشمل وضع تدابير فعالة لمنع أعمال العنف والهجمات والتهديدات الموجهة إليهم والتصدي لها، ويؤكد من جديد في هذا الصدد ضرورة أن تكفل الدول عدم إفلات المسؤولين عن انتهاكات القانون الدولي الإنساني من العقاب، ويحُثُّ الدول على إجراء تحقيقات كاملة وسريعة ونزيهة وفعالة، في نطاق ولايتها القضائية، في انتهاكات القانون الدولي الإنساني بهدف كفالة مساءلة مرتكبيها، وذلك على النحو المنصوص عليه في القوانين الوطنية والالتزامات التي ينص عليها القانون الدولي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_83" class="SingleTxt">
+        <content eId="para_83__content">
+          <p xml:space="preserve">	39 -	<span class="bold italic">يحث أيضا</span> الدول الأعضاء على مضاعفة الجهود لكفالة سلامة وأمن العاملين في مجال تقديم المساعدة الإنسانية، بما في ذلك الوطنيون منهم والموظفون محليا، ومرافقهم ومعداتهم ووسائل نقلهم ولوازمهم، بوسائل تشمل اتخاذ تدابير فعالة لمنع أعمال العنف والهجمات والتهديدات الموجهة إليهم والتصدي لها، ويطلب إلى الأمين العام أن يعجل بجهوده الرامية إلى تعزيز سلامة وأمن الأفراد المشاركين في العمليات الإنسانية التابعة للأمم المتحدة، ويؤكد من جديد، في هذا الصدد، ضرورة قيام الدول بكفالة عدم إفلات المسؤولين عن انتهاكات القانون الدولي الإنساني من العقاب، ويحثُّ كذلك الدول على إجراء تحقيقات كاملة وسريعة ونزيهة وفعالة في نطاق ولايتها القضائية لانتهاكات القانون الدولي الإنساني بهدف كفالة مساءلة مرتكبيها، على النحو المنصوص عليه في القوانين الوطنية والالتزامات التي ينص عليها القانون الدولي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_84" class="SingleTxt">
+        <content eId="para_84__content">
+          <p xml:space="preserve">	40 -	<span class="bold italic">يدين بأشد العبارات الممكنة</span> الزيادةَ المثيرة للجزع في التهديدات الموجهة للعاملين في مجال تقديم المساعدة الإنسانية ولموظفي الأمم المتحدة والأفراد المرتبطين بها واستهدافَهم بشكل متعمد، والأعمالَ الإرهابية والاعتداءات التي تستهدف قوافل المساعدة الإنسانية، والزيادةَ غير المسبوقة في نطاق التهديدات التي تواجه هؤلاء الموظفين وطابعها الذي ما فتئ يزداد تعقيداً، من قبيل الاتجاه المثير للقلق المتمثل في الاعتداءات التي تُشن بدوافع سياسية وإجرامية، بما في ذلك الاعتداءات التي يشنها المتطرفون ضدهم؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_85" class="SingleTxt">
+        <content eId="para_85__content">
+          <p xml:space="preserve">	41 -	<span class="bold italic">يشدد</span> على أنه من الأهمية بمكان حماية المدنيين، لا سيما النساء والأطفال، من أي شكل من أشكال الانتهاك أو الاستغلال، بما في ذلك الاتجار بالأشخاص، وتمكينهم من الحصول على المساعدة المناسبة، ويرحب بعزم الأمين العام على التنفيذ التام لسياسة الأمم المتحدة القائمة على عدم التسامح إطلاقاً مع الاستغلال والانتهاك الجنسيين على صعيد المنظومة برمتها، ويشير إلى المبادئ الأساسية الستة المتعلقة بالاستغلال والانتهاك الجنسيين التي اعتمدتها اللجنة الدائمة المشتركة بين الوكالات<sup>(</sup><authorialNote marker="14" placement="bottom" eId="authorialNote_14"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/A/57/465">A/57/465</a>، المرفق الأول، الفقرة 10 (أ).</p></authorialNote><sup>)</sup>، ويؤكد على ضرورة أن يكون الضحايا والناجون في صميم تلك الجهود، ويشجع الدول الأعضاء على بذل المزيد من الجهود لمنع الاستغلال والانتهاك وضمان مساءلة الجناة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_86" class="SingleTxt">
+        <content eId="para_86__content">
+          <p xml:space="preserve">	42 -	<span class="bold italic">يطلب</span> إلى الدول الأعضاء والمنظمات ذات الصلة وغيرها من الجهات الفاعلة المعنية أن تعزِّز المساواة بين الجنسين وتمكين المرأة والفتاة في جميع مراحل الاستجابة الإنسانية من خلال تلبية الاحتياجات الخاصة للنساء والفتيات والرجال والفتيان ومعالجة تحدياتهم وقدراتهم على المواجهة على قدم المساواة، مع أخذ عامليْ السن والإعاقة في الاعتبار، وذلك بوسائل منها تحسين جمع البيانات المصنفة حسب نوع الجنس والسن والإعاقة وتحليلها والإبلاغ عنها واستخدامها، ومع مراعاة المعلومات المقدَّمة من الدول المتضررة، وأن تكفل مشاركة المرأة في عمليات صنع القرار مشاركة كاملة وفعالة ومجدية من أجل زيادة فعالية العمل الإنساني، ويُشجِّع على زيادة استخدام مؤشر المساواة بين الجنسين مع إدماج السن وغيره من أدوات الرصد، بما في ذلك الأدوات المراعية لعامل السن والإعاقة، طوال دورة البرامج الإنسانية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_87" class="SingleTxt">
+        <content eId="para_87__content">
+          <p xml:space="preserve">	43 -	<span class="bold italic">يسلّم</span> بالدور الحاسم الذي يمكن أن تؤديه المرأة كمُسعِفَة أولية، ويُشجِّع الدول الأعضاء على أن تقوم، بالتعاون مع المنظمات الإنسانية ذات الصلة التابعة للأمم المتحدة، بتعزيز دور المرأة القيادي ومشاركتها في التخطيط لاستراتيجيات الاستجابة وتصميمها وتنفيذها وتنسيقها، بأساليب منها تعزيز الشراكات الطويلة الأجل مع المؤسسات الوطنية والمحلية وتعزيز قدراتها، بما في ذلك المنظمات النسائية الوطنية والمحلية والجهات الفاعلة في المجتمع المدني، حسب الاقتضاء، وعن طريق زيادة تعزيز البرامج الإنسانية المراعية للمنظور الجنساني؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_88" class="SingleTxt">
+        <content eId="para_88__content">
+          <p xml:space="preserve">	44 -	<span class="bold italic">يحث</span> الدول الأعضاء على أن تكفل، بالتعاون مع المنظمات الإنسانية ذات الصلة التابعة للأمم المتحدة وغيرها من المنظمات الإنسانية، سبل الحصول على خدمات الرعاية الصحية الجنسية والإنجابية بصورة آمنة وموثوق بها، وعلى خدمات الرعاية الصحية الأساسية، والدعم النفسي والاجتماعي منذ بداية حالات الطوارئ، ويُسلِّم في هذا الصدد بأن الخدمات ذات الصلة مهمةٌ من أجل تلبية احتياجات النساء والفتيات المراهقات والرضع على نحو فعال وحمايتهم من حالات الوفاة التي يمكن تجنبها وحالات الاعتلال التي تحدث في حالات الطوارئ الإنسانية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_89" class="SingleTxt">
+        <content eId="para_89__content">
+          <p xml:space="preserve">	45 -	<span class="bold italic">يحث</span> الدول الأعضاء على مواصلة منع أعمال العنف الجنسي والجنساني في حالات الطوارئ الإنسانية والتحقيق فيها وعلى محاكمة مرتكبيها، حسب الاقتضاء، مع ضمان سلامة الضحايا والناجين، ويهيب بالدول الأعضاء أن تعزِّز استجابتها بالتعاون مع المنظمات ذات الصلة، مثل المنظمات النسائية المحلية، حسب الاقتضاء، منذ بداية حالة الطوارئ بطرق تشمل السعي إلى ضمان وصول جميع ضحايا هذا العنف ومن تعرضوا له ومن تضرروا منه إلى الخدمات الطبية والقانونية والنفسية والاجتماعية وسبل كسب الرزق الجيدة، بصورة مجدية - وفقاً للاحتياجات الخاصة للنساء والرجال والفتيات والفتيان - والعمل على ضمان تقديم المساعدة الإنسانية بطريقة تخفِّف من مخاطر العنف الجنسي والجنساني، ويهيب بالدول الأعضاء والمنظمات المعنية أن تحسِّن التنسيق وتعزِّز القدرات، ويحُثُّ في هذا الصدد جميع أصحاب المصلحة على النظر في المشاركة في هذا المجال بوسائل تشمل اتخاذ تدابير للمنع والتخفيف والتصدي، ويشجِّع الدول الأعضاء على استخدام آليات جمع البيانات القائمة على نحو أفضل، ويحيط علما بمبادرة الدعوة إلى العمل؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_90" class="SingleTxt">
+        <content eId="para_90__content">
+          <p xml:space="preserve">	46 -	<span class="bold italic">يحث أيضا</span> الدول الأعضاء على مواصلة السعي لمنع الانتهاكات والاعتداءات ضد الأطفال في حالات الطوارئ الإنسانية، والتصدي لها والتحقيق فيها ومحاكمة مرتكبيها، ويهيب بالدول الأعضاء والمنظمات المعنية إلى تعزيز خدمات الدعم المقدَّمة للأطفال المتضررين من حالات الطوارئ الإنسانية، بمن فيهم الذين تعرضوا للانتهاكات والاعتداءات، ويدعو إلى اتخاذ تدابير استجابة أكثر فعالية، بما في ذلك الحماية، مع الاسترشاد باتفاقية حقوق الطفل<sup>(</sup><authorialNote marker="15" placement="bottom" eId="authorialNote_15"><p xml:space="preserve">	()	United Nations, <span class="italic">Treaty Series</span>, vol. 1577, No. 27531.</p></authorialNote><sup>)</sup>؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_91" class="SingleTxt">
+        <content eId="para_91__content">
+          <p xml:space="preserve">	47 -	<span class="bold italic">يؤكد من جديد</span> الحق في التعليم للجميع وأهمية ضمان توفير بيئات آمنة ومواتية للتعلم في حالات الطوارئ الإنسانية، وكذلك توفير التعليم الجيد في جميع المستويات والأعمار، بما في ذلك من أجل الفتيات، بما يشمل فرص التدريب المهني والتقني، حيثما كان ذلك ممكناً، بما في ذلك من خلال توفير التمويل الكافي والاستثمارات في الهياكل الأساسية بغية تحقيق الرفاه للجميع، ويسلم، في هذا الصدد، بأن إمكانية الحصول على التعليم الجيد في حالات الطوارئ الإنسانية يمكن أن يساهم في تحقيق الأهداف الإنمائية الطويلة الأجل، ويكرر تأكيد ضرورة حماية واحترام المرافق التعليمية وفقا للقانون الدولي الإنساني، ويدين بشدة جميع الهجمات الموجهة ضد المدارس وتسخيرها في الأغراض العسكرية عندما يتم ذلك انتهاكا للقانون الدولي الإنساني، ويشجع على بذل جهود من أجل تعزيز سلامة المباني المدرسية وحمايتها في حالات الطوارئ الإنسانية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_92" class="SingleTxt">
+        <content eId="para_92__content">
+          <p xml:space="preserve">	48 -	<span class="bold italic">يحث</span> الدول الأعضاء والأمم المتحدة والجهات الفاعلة الإنسانية المعنية على زيادة الدعم المقدم للبرامج والاستجابة الإنسانية من أجل توفير تعليم آمن وشامل ومنصف وجيد النوعية على جميع المستويات والأعمار، بهدف التخفيف من الآثار المباشرة وغير المباشرة الناجمة عن إغلاق المدارس وغيرها من المؤسسات التعليمية بسبب جائحة كوفيد-19، من بين أسباب أخرى، لضمان استمرار الخدمات التعليمية، لا سيما للنساء والأطفال، وخاصة الفتيات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_93" class="SingleTxt">
+        <content eId="para_93__content">
+          <p xml:space="preserve">	49 -	<span class="bold italic">يحث</span> الدول الأعضاء ومنظومة الأمم المتحدة وغيرها من المنظمات الإنسانية المعنية على إشراك الأشخاص ذوي الإعاقة على نحو مُجدٍ في جميع العمليات والمشاورات ومراحل صنع القرار في مجال التأهب والتصدي للأزمات الإنسانية، وعلى اتخاذ جميع التدابير المناسبة للقضاء على التمييز ضد الأشخاص ذوي الإعاقة، بما في ذلك أشكال التمييز المتعددة والمتداخلة، وعلى تقديم المساعدة اللازمة في الوقت المناسب للأشخاص ذوي الإعاقة، مع ضمان تلبية احتياجاتهم الخاصة في الاستجابات الإنسانية من خلال إتاحة فرص الوصول الحقيقي إلى خدمات من قبيل خدمات الرعاية الصحية والتعليم والدعم النفسي والاجتماعي، والمساعدة بإعادة الإدماج والتأهيل، وعلى الحيلولة دون الإساءة إليهم واستغلالهم، ويشير في هذا الصدد إلى اتفاقية حقوق الأشخاص ذوي الإعاقة<sup>(</sup><authorialNote marker="16" placement="bottom" eId="authorialNote_16"><p xml:space="preserve">	()	المرجع نفسه، المجلد 2515، الرقم 44910.</p></authorialNote><sup>)</sup>؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_94" class="SingleTxt">
+        <content eId="para_94__content">
+          <p xml:space="preserve">	50 -	<span class="bold italic">يشجع</span> الدول الأعضاء على أن تكفل، بالتعاون مع المنظمات الإنسانية ذات الصلة التابعة للأمم المتحدة، تلبية الاحتياجات الإنسانية الأساسية للسكان المتضررين، بما في ذلك المياه النقية والغذاء والمأوى والطاقة والصحة، بما في ذلك الصحة الجنسية والإنجابية، والتغذية، بما في ذلك برامج التغذية المدرسية، والتعليم والحماية، باعتبارها من عناصر الاستجابة في الحالات الإنسانية، وذلك بسبل منها توفير ما يكفي من الموارد في الوقت المناسب، مع كفالة التقيُّد التام بالمبادئ الإنسانية في ما تبذله من جهود التعاون؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_95" class="SingleTxt">
+        <content eId="para_95__content">
+          <p xml:space="preserve">	51 -	<span class="bold italic">يسلّم</span> بأن حالات الطوارئ الإنسانية تضعف من قدرة النظم الصحية على تقديم المساعدة الأساسية المنقذة للحياة وتلبية الاحتياجات المستمرة للمصابين بالأمراض غير المعدية، وتفضي إلى انتكاسات في التنمية الصحية، ويُسلِّم أيضاً بأن النظم الصحية المرنة يمكن أن تقلل من أثر الكوارث وحالات الطوارئ الإنسانية الأخرى، ويؤكد الحاجة إلى إقامة نظم صحية مرنة على كل من الصعيد الوطني والإقليمي والعالمي، ولا سيما بناء القدرات، في البلدان النامية على وجه التحديد، ويهيب في هذا الصدد بمنظمة الصحة العالمية ومنظومة الأمم المتحدة للعمل الإنساني والمنظمات الإنسانية الأخرى، وغيرها من الجهات الفاعلة ذات الصلة، إلى مواصلة تعزيز التعاون والتنسيق في ما بينها والرفع من قدراتها على التصدي بهدف مساعدة الدول الأعضاء، بناء على طلبها، في التصدي بفعالية لتفشي الأمراض المعْدِية وحالات الطوارئ ذات العواقب الصحية في السياقات الإنسانية وفقاً للوائح الصحية الدولية (2005) التي اعتمدتها جمعية الصحة العالمية، مع ضمان ألاَّ تؤدي المساعدات الإنسانية إلى إضعاف النظم الصحية عن غير قصد، ويحيط علماً بإجراءات تشغيل المستوى الثالث الخاصة بأحداث الأمراض المعْدِية؛ ويحيط علماً بالصيغة المنقحة لبروتوكول رفع حالة التأهب الإنساني على نطاق المنظومة للسيطرة على أحداث الأمراض المعدية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_96" class="SingleTxt">
+        <content eId="para_96__content">
+          <p xml:space="preserve">	52 -	<span class="bold italic">يشدد</span> على ضرورة تعزيز التأهب العالمي ودعم وضع تدابير للاستجابة لحالات الطوارئ الصحية، بما في ذلك آليات الاستجابة السريعة، ويحُثُّ الدول الأعضاء على زيادة جهودها لتعزيز قدرات الاستجابة العالمية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_97" class="SingleTxt">
+        <content eId="para_97__content">
+          <p xml:space="preserve">	53 -	<span class="bold italic">يحث</span> الدول الأعضاء والمنظمات الإنسانية على إدماج الحماية والمخاطر الصحية، بوصفها عناصر للاستجابة الإنسانية، في تقييم العمل الإنساني والتخطيط له وتنفيذه ورصده وتقديره، وزيادة الجهود المبذولة لتعزيز النظم والقدرات والمجتمعات المحلية والجهات الفاعلة على الصعيدين المحلي والوطني، بما في ذلك المنظمات التي تقودها نساء؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_98" class="SingleTxt">
+        <content eId="para_98__content">
+          <p xml:space="preserve">	54 -	<span class="bold italic">يحث</span> الدول الأعضاء والأمم المتحدة والمنظمات الإنسانية على زيادة الجهود الرامية إلى توفير وتمويل خدمات شاملة لعدة قطاعات خاصة بالصحة العقلية والدعم النفسي الاجتماعي تكون ذات نوعية جيدة، وتراعي السياق، وتقدم في ظل احترام حقوق الإنسان، وتكون مدرجة في تقييمات الاحتياجات الإنسانية وبرامج العمل الإنساني المتعلقة بالتأهب والاستجابة والإنعاش، لتلبية احتياجات جميع السكان المتضررين في السياقات الإنسانية، وعلى تعزيز الجهود المحلية والمجتمعية، التي ستكون أكثر أهمية في التخفيف من الآثار النفسية الإضافية المشهودة في سياق جائحة كوفيد-19 والتصدي لها، ويهيب بالأمم المتحدة وجميع المنظمات الإنسانية المعنية إلى زيادة القدرة على تقديم الدعم في مجالي الصحة العقلية والدعم النفسي الاجتماعي بناء على ذلك، وإلى تقديم تقارير عن برامج الصحة العقلية والدعم النفسي الاجتماعي وما يقدم من تمويل لدعم التعافي والقدرة على الصمود من أجل تحقيق العافية من الناحيتين العقلية والنفسية الاجتماعية لجميع المتضررين، مع التسليم أيضا بالآثار التي تلحق بالعاملين والمتطوعين في المجال الإنساني؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_99" class="SingleTxt">
+        <content eId="para_99__content">
+          <p xml:space="preserve">	55 -	<span class="bold italic">يدعو</span> إلى تعزيز النهج الوطنية والمتعددة الأطراف والتعاون الدولي، مثل مبادرة تسريع إتاحة أدوات مكافحة كوفيد-19 ومرفق كوفاكس التابع لها، والمبادرات الأخرى ذات الصلة بالموضوع من أجل توفير سبل الحصول بشكل عادل ومنصف وفعال وميسور التكلفة على لقاحات كوفيد-19 المأمونة والفعالة والناجعة، ويؤكد دور التحصين على نطاق واسع في مكافحة كوفيد-19 بوصفه منفعة عامة عالمية تخص الصحة لمنع انتقال العدوى واحتوائها ووقفها سعيا إلى وضع حد للجائحة، ويشير في الوقت نفسه إلى أهمية برامج التحصين الوطنية الشاملة التي تتيح استفادة النازحين والمهاجرين واللاجئين، ويشجع وكالات الأمم المتحدة وغيرها من أصحاب المصلحة المعنيين على دعم الدول الأعضاء، بتنسيق كامل مع حكوماتها الوطنية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_100" class="SingleTxt">
+        <content eId="para_100__content">
+          <p xml:space="preserve">	56 –	<span class="bold italic">يهيب</span> بجميع الدول والأطراف في حالات الطوارئ الإنسانية المعقدة، ولا سيما في حالات النزاع المسلح وما بعد النزاع، إلى ضمان وصول العاملين في المجالين الإنساني والطبي بأمان ودون عوائق إلى مقاصدهم، بمن فيهم العاملون في إطار مكافحة جائحة كوفيد-19، وكذلك وصول وسائل نقلهم ومعداتهم، ودعم خطوط النقل والإمداد اللوجستي وتيسيرها وتمكينها، من أجل تمكين هؤلاء الأفراد من أداء مهامهم بكفاءة وأمان في مساعدة السكان المدنيين المتضررين، ويؤكد من جديد أيضا في هذا الصدد ضرورة اتخاذ التدابير اللازمة لاحترام وحماية هؤلاء الأفراد والمستشفيات والمرافق الطبية الأخرى، وكذلك وسائل نقلهم وإمداداتهم ومعداتهم؛ ويحث جميع أطراف النزاعات المسلحة على أن تحمي، وفقا للقانون الدولي الإنساني، البنى التحتية المدنية الحيوية لإيصال المساعدة الإنسانية من أجل توفير الخدمات الأساسية، بما في ذلك لأغراض التحصين والرعاية الطبية المتصلة به؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_101" class="SingleTxt">
+        <content eId="para_101__content">
+          <p xml:space="preserve">	57 -	<span class="bold italic">يهيب</span> بالدول الأعضاء والأمم المتحدة والمنظمات الإنسانية والإنمائية وغيرها من الجهات الفاعلة ذات الصلة إلى التصدي بشكل عاجل وفعال لانعدام الأمن الغذائي العالمي المتزايد الذي يؤثر على الملايين من البشر والوقاية منه والتأهب له، ولا سيما بالنسبة للأشخاص الذين يواجهون المجاعة أو الخطر المحدق بحدوث مجاعة، وذلك بطرق تشمل تعزيز التعاون في المجالين الإنساني والإنمائي وتوفير التمويل العاجل للاستجابة لاحتياجات السكان المتضررين، ويهيب بالدول الأعضاء والأطراف في النزاعات المسلحة أن تحترم القانون الدولي الإنساني وتكفل وصول المساعدات الإنسانية بصورة آمنة ودون إعاقة إلى وجهاتها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_102" class="SingleTxt">
+        <content eId="para_102__content">
+          <p xml:space="preserve">	58 -	<span class="bold italic">يهيب</span> بالدول الأعضاء والأطراف في النزاعات المسلحة والأمم المتحدة والجهات الأخرى الفاعلة في المجالين الإنساني والإنمائي والمؤسسات المالية الدولية وغيرها من الجهات الفاعلة المعنية أن تزيد على الفور ما تتخذه من تدابير لمنع المجاعة والتخفيف من انعدام الأمن الغذائي الحاد والتصدي له، إذ يتفاقم بفعل آثار جائحة كوفيد-19، ويدين بشدة في هذا الصدد استخدام تجويع المدنيين، الذي يحظره القانون الدولي الإنساني، كوسيلة للحرب، ويشجع على اتباع نهج استباقية معززة، مدعومة بإنذار مبكر وتحليل شاملين لقطاعات متعددة؛ ويشدد على ضرورة معالجة الأسباب الجذرية لانعدام الأمن الغذائي، بوسائل منها الاستثمار في المساعدة الإنسانية والحماية، والزراعة، والإنتاج الغذائي، والحصول على الغذاء المأمون والكافي والمغذي، وسبل العيش، والتكيف مع المناخ، والصحة، والمياه، والصرف الصحي والنظافة الصحية، والتغذية، والطاقة، والحد من الفقر، وتسوية النزاعات المسلحة، ويشجع على تعزيز الجهود الرامية إلى تمكين النساء الريفيات بوصفهن عناصر فاعلة أساسية في تحقيق الأمن الغذائي وتحسين التغذية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_103" class="SingleTxt">
+        <content eId="para_103__content">
+          <p xml:space="preserve">	59 -	<span class="bold italic">يحث</span> الدول الأعضاء والأمم المتحدة والمنظمات المعنية الأخرى على اتخاذ مزيد من الخطوات لكفالة استجابة منسقة لحالة الطوارئ المتعلقة بالاحتياجات الغذائية والتغذوية للسكان المتضررين، وعلى تعزيز التغذية الكافية للنساء والأطفال، وبخاصة أثناء فترة الحمل والرضاعة التي تزيد فيها المتطلبات الغذائية، مع إيلاء اهتمام خاص لأول 000 1 يوم، مع السعي في الوقت ذاته إلى ضمان أن تكون هذه الخطوات داعمة للاستراتيجيات والبرامج الوطنية الرامية إلى تحسين الأمن الغذائي والتغذية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_104" class="SingleTxt">
+        <content eId="para_104__content">
+          <p xml:space="preserve">	60 -	<span class="bold italic">يهيب</span> بالدول الأعضاء أن تتخذ الخطوات اللازمة لضمان الحماية الدولية للاجئين واحترام حقوقهم، بما في ذلك احترام مبدأ عدم الإعادة القسرية ومعايير المعاملة اللائقة وفقاً للقانون الدولي، بما في ذلك، حسب الاقتضاء، اتفاقية عام 1951 الخاصة بوضع اللاجئين<sup>(</sup><authorialNote marker="17" placement="bottom" eId="authorialNote_17"><p xml:space="preserve">	()	المرجع نفسه، المجلد 189، الرقم 2545.</p></authorialNote><sup>)</sup>، والالتزامات الدولية المتعلقة بحقوق الإنسان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_105" class="SingleTxt">
+        <content eId="para_105__content">
+          <p xml:space="preserve">	61 -	<span class="bold italic">يحيط علما</span> بتنفيذ إطار التعامل الشامل مع مسألة اللاجئين في 15 بلداً وفي سياقيْن إقليميين للتصدي لموجات النزوح الكبرى للاجئين ولحالات اللاجئين التي طال أمدها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_106" class="SingleTxt">
+        <content eId="para_106__content">
+          <p xml:space="preserve">	62 -	<span class="bold italic">يطلب</span> إلى الدول الأعضاء أن تكثِّف من جهودها الرامية إلى ضمان مستوى أفضل من الحماية للمشردين داخلياً وتحسين المساعدة المقدَّمة لهم وتمكينهم من الاعتماد على الذات والقدرة على المجابهة، بوسائل تشمل التعاون المناسب مع مؤسسات الأمم المتحدة وغيرها من الجهات الفاعلة ذات الصلة، بما فيها القطاع الخاص والمؤسسات المالية الدولية، وأن تعالج بوجه خاص الطابع الطويل الأجل للتشرد من خلال اعتماد وتنفيذ سياسات واستراتيجيات، على مدى عدة سنوات إن أمكن، تتوافق مع الأطر الوطنية والإقليمية، مع التسليم بأن المبادئ التوجيهية بشأن التشريد الداخلي<sup>(</sup><authorialNote marker="18" placement="bottom" eId="authorialNote_18"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/E/CN.4/1998/53/Add.2">E/CN.4/1998/53/Add.2</a>، المرفق.</p></authorialNote><sup>)</sup> تشكل إطاراً دولياً مهماً لحماية المشردين داخلياً، ويشجِّع على تعزيز التعاون بغية التصدي لتحديات التشرد الداخلي وحلها، ويُسلِّم في هذا الصدد بالدور المحوري الذي تضطلع به السلطات والمؤسسات الوطنية والمحلية في تلبية الاحتياجات الخاصة للمشردين داخلياً وفي مواصلة التصدي للعقبات والعوائق التي تمس بسبل تقديم الدعم للمشردين داخلياً والمجتمعات المحلية التي تستضيفهم، بما في ذلك الثغرات القائمة في السياقات الحضرية، وفي إيجاد حلول دائمة للتشرد الداخلي بوسائل منها مواصلة الدعم الدولي وتعزيزه، بناء على الطلب، من أجل بناء قدرات الدول؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_107" class="SingleTxt">
+        <content eId="para_107__content">
+          <p xml:space="preserve">	63 -	<span class="bold italic">يدرك</span> أن الكوارث في تزايد من حيث حدتها وتواترها، بما فيها تلك المتصلة بالآثار الضارة لتغير المناخ، والتي قد تسهم في بعض الحالات في تشريد السكان وتلقي بمزيد من الضغط على المجتمعات التي تستضيفهم، ويُشجِّع الأمم المتحدة وجميع الجهات الفاعلة ذات الصلة على تعزيز الجهود الرامية إلى تلبية احتياجات الأشخاص المشردين في سياق هذه الكوارث، ويشير في هذا الصدد إلى أهمية تبادل أفضل الممارسات لمنع حدوث حالات تشرد من هذا القبيل والتأهب لها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_108" class="SingleTxt">
+        <content eId="para_108__content">
+          <p xml:space="preserve">	64 -	<span class="bold italic">يدرك أيضا</span> الزيادة الكبيرة في النزوح القسري في جميع أنحاء العالم، ويؤكد الحاجة إلى استجابة شاملة للاحتياجات الخاصة باللاجئين والمشردين داخلياً والمجتمعات التي تستضيفهم في إطار التخطيط للأعمال الإنسانية والأنشطة الإنمائية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_109" class="SingleTxt">
+        <content eId="para_109__content">
+          <p xml:space="preserve">	65 -	<span class="bold italic">يهيب</span> بالدول الأعضاء والمنظمات والجهات الفاعلة المعنية أن تعترف بالعواقب التي تخلفها حالات الطوارئ الإنسانية على المهاجرين، وبخاصة من يعيش منهم في أوضاع هشة وأن تعالج هذه العواقب، وأن تزيد من تنسيق الجهود الدولية الرامية إلى مساعدتهم وحمايتهم بالتعاون مع السلطات الوطنية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_110" class="SingleTxt">
+        <content eId="para_110__content">
+          <p xml:space="preserve">	66 -	<span class="bold italic">يسلّم</span> بأهمية التسجيل المبكر وفعالية نظم التسجيل باعتبارها أداة للحماية ووسيلة لإجراء القياس الكمي للاحتياجات وتقديرها من أجل تقديم المساعدات الإنسانية وتوزيعها، ويشير إلى التحديات الكثيرة والمتنوعة التي يواجهها اللاجئون الذين لا يحملون أي وثائق تُثبت وضعهم القانوني، ويؤكد أهمية زيادة المساءلة لضمان وصول المساعدات الإنسانية إلى من يُراد استفادتهم منها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_111" class="SingleTxt">
+        <content eId="para_111__content">
+          <p xml:space="preserve">	67 -	<span class="bold italic">يشير</span> إلى عقد مؤتمر القمة العالمي الأول للعمل الإنساني، في اسطنبول بتركيا يومي 23 و 24 أيار/مايو 2016؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_112" class="SingleTxt">
+        <content eId="para_112__content">
+          <p xml:space="preserve">	68 -	<span class="bold italic">يطلب</span> إلى الأمم المتحدة أن تواصل إيجاد الحلول لتعزيز قدرتها على استقدام موظفين لشغل مناصب عليا في مجال تقديم المساعدة الإنسانية ممن تتوافر فيهم المهارة والخبرة، ونشرهم بسرعة ومرونة وعلى النحو المناسب، على أن تراعي في المقام الأول أعلى معايير الكفاءة والمقدرة والنـزاهة، مع إيلاء الاهتمام على النحو الواجب للمساواة بين الجنسين ولاستقدام الموظفين على أساس أوسع قاعدة جغرافية ممكنة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_113" class="SingleTxt">
+        <content eId="para_113__content">
+          <p xml:space="preserve">	69 -	<span class="bold italic">يسلّم</span> بأن تنوع الموظفين العاملين في مجال تقديم المساعدة الإنسانية يضفي قيمة على العمل الإنساني وفهم سياقات البلدان النامية، ويطلب إلى الأمين العام أن يمضي قدماً في معالجة نقص التنوع في التمثيل الجغرافي والتوازن بين الجنسين في المجموعة المؤلف منها موظفو الأمانة العامة وغيرها من الوكالات الإنسانية التابعة للأمم المتحدة العاملون في مجال تقديم المساعدة الإنسانية، وبخاصة في ما يتعلق بالموظفين من الفئة الفنية والموظفين الرفيعي المستوى، وأن يقدم تقريراً عن التدابير الملموسة المتخذة في هذا الصدد في تقريره السنوي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_114" class="SingleTxt">
+        <content eId="para_114__content">
+          <p xml:space="preserve">	70 -	<span class="bold italic">يطلب</span> إلى الأمين العام أن يبيِّن التدابير الملموسة التي اتخذت والتقدم المحرز في تنفيذ هذا القرار ومتابعته في تقريره المقبل إلى المجلس الاقتصادي والاجتماعي والجمعية العامة عن تعزيز تنسيق المساعدة الإنسانية التي تقدِّمها الأمم المتحدة في حالات الطوارئ؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_115" class="SingleTxt">
+        <content eId="para_115__content">
+          <p xml:space="preserve">	71 -	<span class="bold italic">يطلب</span> إلى رئيسي المجلس الاقتصادي والاجتماعي والجمعية العامة أن يواصلا جهودهما بهدف إزالة الازدواجية بين قرارات المجلس والجمعية في ما يتعلق بتعزيز تنسيق المساعدة الإنسانية التي تقدمها الأمم المتحدة في حالات الطوارئ، مع تعزيز التكامل بين تلك القرارات.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="29">الجلسة العامة 29</inline>
+        <eol />
+        <docDate date="2022-06-23" refersTo="#adoptionDate">23 حزيران/يونيه 2022</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
