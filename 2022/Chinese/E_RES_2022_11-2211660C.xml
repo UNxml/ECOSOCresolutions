@@ -1,0 +1,1067 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-11/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-11/"></FRBRuri>
+          <FRBRdate date="2022-07-21" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-11/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-11/zho@/"></FRBRuri>
+          <FRBRdate date="2022-07-29" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-11/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-11/zho@.xml"></FRBRuri>
+          <FRBRdate date="2022-08-09" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="6" href="http://metadata.un.org/sdg/6" showAs="sdg_6" dictionary="SDGO"></keyword>
+        <keyword value="water" href="http://eurovoc.europa.eu/597" showAs="water" dictionary="EuroVoc"></keyword>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/030500" showAs="water" dictionary="UNBIS"></keyword>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/1006939" showAs="water" dictionary="UNBIS"></keyword>
+        <keyword value="sanitation" href="http://metadata.un.org/thesaurus/1005701" showAs="sanitation" dictionary="UNBIS"></keyword>
+        <keyword value="public_hygiene" href="http://eurovoc.europa.eu/3371" showAs="public_hygiene" dictionary="EuroVoc"></keyword>
+        <keyword value="water_management" href="http://eurovoc.europa.eu/3144" showAs="water_management" dictionary="EuroVoc"></keyword>
+        <keyword value="water_management" href="http://metadata.un.org/thesaurus/1006948" showAs="water_management" dictionary="UNBIS"></keyword>
+        <keyword value="use_of_water" href="http://eurovoc.europa.eu/4628" showAs="use_of_water" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="14" href="http://metadata.un.org/sdg/14" showAs="sdg_14" dictionary="SDGO"></keyword>
+        <keyword value="marine_resources" href="http://metadata.un.org/thesaurus/030800" showAs="marine_resources" dictionary="UNBIS"></keyword>
+        <keyword value="marine_resources" href="http://metadata.un.org/thesaurus/1003922" showAs="marine_resources" dictionary="UNBIS"></keyword>
+        <keyword value="oceans_and_seas" href="http://metadata.un.org/thesaurus/170600" showAs="oceans_and_seas" dictionary="UNBIS"></keyword>
+        <keyword value="ocean" href="http://eurovoc.europa.eu/2107" showAs="ocean" dictionary="EuroVoc"></keyword>
+        <keyword value="ocean" href="http://metadata.un.org/thesaurus/1004576" showAs="ocean" dictionary="UNBIS"></keyword>
+        <keyword value="marine_environment" href="http://eurovoc.europa.eu/5742" showAs="marine_environment" dictionary="EuroVoc"></keyword>
+        <keyword value="marine_environment" href="http://metadata.un.org/thesaurus/1003911" showAs="marine_environment" dictionary="UNBIS"></keyword>
+        <keyword value="marine_life" href="http://eurovoc.europa.eu/3149" showAs="marine_life" dictionary="EuroVoc"></keyword>
+        <keyword value="sea" href="http://eurovoc.europa.eu/1870" showAs="sea" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="8" href="http://metadata.un.org/sdg/8" showAs="sdg_8" dictionary="SDGO"></keyword>
+        <keyword value="unemployment" href="http://eurovoc.europa.eu/5974" showAs="unemployment" dictionary="EuroVoc"></keyword>
+        <keyword value="unemployment" href="http://metadata.un.org/thesaurus/1006773" showAs="unemployment" dictionary="UNBIS"></keyword>
+        <keyword value="economic_growth" href="http://eurovoc.europa.eu/310" showAs="economic_growth" dictionary="EuroVoc"></keyword>
+        <keyword value="economic_growth" href="http://metadata.un.org/thesaurus/1001854" showAs="economic_growth" dictionary="UNBIS"></keyword>
+        <keyword value="employment" href="http://metadata.un.org/thesaurus/1002007" showAs="employment" dictionary="UNBIS"></keyword>
+        <keyword value="full_employment" href="http://eurovoc.europa.eu/2427" showAs="full_employment" dictionary="EuroVoc"></keyword>
+        <keyword value="full_employment" href="http://metadata.un.org/thesaurus/1002563" showAs="full_employment" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. ESCAP" showAs="UN. ESCAP" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. ESCAP" showAs="UN. ESCAP" dictionary="DHLAUTH"></keyword>
+        <keyword value="2030 Agenda for Sustainable Development" showAs="2030 Agenda for Sustainable Development" dictionary="DHLAUTH"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="REGIONAL COMMISSIONS" showAs="REGIONAL COMMISSIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ASIA AND THE PACIFIC" showAs="ASIA AND THE PACIFIC" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CONFERENCES" showAs="CONFERENCES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COVID-19" showAs="COVID-19" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="15" showAs="Regional cooperation." shortForm="REGIONAL COOPERATION" dictionary="E/2022/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="E/2022/15" by="UN. ESCAP" />
+        <step date="2022-07-29" outcome="adopted" as="Adopted without vote, 33rd plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">22-11660 (C)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2022/11</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">经济及社会理事会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-07-29" class="rightSmall" refersTo="#dateOfIssuance">29 July 2022</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" eId="coverPage_1__session_1"></session>
+      </p>
+      <p>
+        <inline title="15" name="agenda item">议程项目15</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">区域合作</inline>
+      </p>
+      <p>
+        <docTitle>2022年7月21日经济及社会理事会决议</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="Economic and Social Commission for Asia and the Pacific">[根据亚洲及太平洋经济社会委员会的建议 (<inline name="originating document">E/2022/15/Add.1</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2022/11.</docNumber>
+        <docTitle refersTo="#resolutionTitle">旨在推进可持续发展的亚洲及太平洋经济社会委员会会议结构</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">经济及社会理事会</span>，</p>
+      </formula>
+      <container name="表示注意到" eId="container_2">
+        <p xml:space="preserve">	<span class="bold">表示注意到</span>亚洲及太平洋经济社会委员会2022年5月27日第78/2号决议，其中通过了旨在推进可持续发展的经社会会议结构，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_3" class="SingleTxt">
+        <content eId="para_3__content">
+          <p xml:space="preserve">	<span class="bold">核可</span>本决议附件所载旨在推进可持续发展的亚洲及太平洋经济社会委员会会议结构。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="第33次">第33次全体会议</inline>
+        <eol />
+        <docDate date="2022-07-21" refersTo="#adoptionDate">2022年7月21日</docDate>
+      </p>
+    </conclusions>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-11/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-11/"></FRBRuri>
+                <FRBRdate date="2022-07-21" name="adoption"></FRBRdate>
+                <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-11/zho@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-11/zho@/"></FRBRuri>
+                <FRBRdate date="2022-07-29" name="publication"></FRBRdate>
+                <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="zho"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-11/zho@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-11/zho@.xml"></FRBRuri>
+                <FRBRdate date="2022-08-09" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_5" class="H23">
+              <subheading>附件</subheading>
+            </paragraph>
+            <paragraph eId="para_6" class="H23">
+              <subheading>第78/2号决议</subheading>
+            </paragraph>
+            <paragraph eId="para_7" class="H23">
+              <subheading>旨在推进可持续发展的亚洲及太平洋经济社会委员会会议结构</subheading>
+            </paragraph>
+            <paragraph eId="para_8" class="SingleTxt">
+              <content eId="para_8__content">
+                <p xml:space="preserve">	<span class="bold">亚洲及太平洋经济社会委员会</span>，</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_9" class="SingleTxt">
+              <content eId="para_9__content">
+                <p xml:space="preserve">	<span class="bold">回顾</span>其关于与《2030年可持续发展议程》相匹配的亚洲及太平洋经济社会委员会会议结构的2017年5月19日第73/1号决议，经社会在该决议中决定，除其他外，在2022年第七十八届会议上对会议结构进行审查(在2019年第七十五届会议上开展中期审查)，并请执行秘书在这两次审查中各提交一份以经社会方案领域为重点的报告，作为这次审查的依据，</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_10" class="SingleTxt">
+              <content eId="para_10__content">
+                <p xml:space="preserve">	<span class="bold">又回顾</span>其关于经社会年度会议工作安排的2019年5月31日第75/16号决定和关于经社会会议结构审查的2019年5月31日第75/17号决定，<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		见《经济及社会理事会正式记录，2019年，补编第19号》(<a href="https://undocs.org/ch/E/2019/39">E/2019/39</a>)，第一章，B节。</p></authorialNote></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_11" class="SingleTxt">
+              <content eId="para_11__content">
+                <p xml:space="preserve">	<span class="bold">还回顾</span>其关于将可持续农业促进减贫中心转型为联合国系统外政府间组织的2018年5月16日第74/5号决议，</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_12" class="SingleTxt">
+              <content eId="para_12__content">
+                <p xml:space="preserve">	<span class="bold">重点指出</span>加快行动实现《2030年可持续发展议程》的重要性，<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		大会第<a href="https://undocs.org/ch/A/RES/70/1">70/1</a>号决议。</p></authorialNote> 并强调，从冠状病毒病(COVID-19)大流行中复苏可为推动亚洲及太平洋的可持续发展提供机遇，</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_13" class="SingleTxt">
+              <content eId="para_13__content">
+                <p xml:space="preserve">	<span class="bold">审议了</span>秘书处关于根据第73/1号决议审查经社会会议结构的说明，<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		ESCAP/78/31。</p></authorialNote></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_14" class="SingleTxt">
+              <content eId="para_14__content">
+                <p xml:space="preserve">	<span class="bold">又审议了</span>各区域机构理事会和各委员会的报告以及亚太可持续发展论坛的报告和自经社会第七十三届会议以来举行的部长级会议的报告，</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_15" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_15__content">
+                <p xml:space="preserve">	<span class="bold">决定</span>立即修订其会议结构，以加快落实《2030年可持续发展议程》，特别是更新本决议附件所载的、亚洲及太平洋经济社会委员会各附属委员会的职权范围和拟审议的问题；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_16" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_16__content">
+                <p xml:space="preserve">	<span class="bold">又决定</span>将贸易和投资委员会重组为贸易、投资、企业和商业创新委员会，每两年举行一次会议；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_17" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_17__content">
+                <p xml:space="preserve">	<span class="bold">回顾</span>其关于经社会会议结构改革的1992年4月23日第48/2号决议和2008年4月30日第64/1号决议，以及关于旨在促进亚洲及太平洋包容性可持续发展的经社会会议结构的2013年5月1日第69/1号决议，并决定将“最不发达国家、内陆发展中国家和太平洋岛屿发展中国家特别小组”更名为“最不发达国家、内陆发展中国家和小岛屿发展中国家特别小组”，并在经社会届会的部长级会议部分期间进行特别小组的审议工作；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_18" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_18__content">
+                <p xml:space="preserve">	<span class="bold">重申</span>经社会的会议结构须符合本决议附件中阐述的格局；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_19" class="SingleTxt">
+              <num>5.</num>
+              <content eId="para_19__content">
+                <p xml:space="preserve">	<span class="bold">请</span>执行秘书继续酌情加强并推动亚洲及太平洋的联合国发展系统相关组织与其他利益攸关方在支持经社会成员和准成员实施《2030年可持续发展议程》方面的合作和协作，从而最大限度地提高实施工作的效率和效力；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_20" class="SingleTxt">
+              <num>6.</num>
+              <content eId="para_20__content">
+                <p xml:space="preserve">	<span class="bold">又请</span>执行秘书继续系统地监测和评价会议结构及其与经社会方案优先事项的一致性，以期提高经社会工作的效率、效力和协同作用；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_21" class="SingleTxt">
+              <num>7.</num>
+              <content eId="para_21__content">
+                <p xml:space="preserve">	<span class="bold">决定</span>在2027年第八十三届会议上对其会议结构进行一次审查，并在2025年第八十一届会议上进行一次中期审查，并请执行秘书每次向经社会提交一份报告，侧重于经社会的方案领域，以此作为审查的基础。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_22" class="H23">
+              <subheading>第78/2号决议附件</subheading>
+            </paragraph>
+            <paragraph eId="para_23" class="H23">
+              <subheading>亚洲及太平洋经济社会委员会会议结构</subheading>
+            </paragraph>
+            <paragraph eId="para_24" class="H23">
+              <subheading>一.	亚洲及太平洋经济社会委员会</subheading>
+            </paragraph>
+            <paragraph eId="para_25" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_25__content">
+                <p xml:space="preserve">	亚洲及太平洋经济社会委员会应每年就成员国选定的一个统领性主题召开一届会议，每届会议应由高级官员会议部分和部长级会议部分组成，会期总共五个工作日，每个会议部分的会期应由秘书处与成员国磋商决定，讨论与本区域包容性可持续发展相关的重要问题并作出决定，就其附属机构以及经社会执行秘书提出的建议作出决定，审查并认可拟议战略框架和工作方案，并根据其职权范围作出任何其他必要的决定。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_26" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_26__content">
+                <p xml:space="preserve">	最不发达国家、内陆发展中国家和小岛屿发展中国家特别小组的审议工作应在部长级会议部分期间进行，会期最长为一天。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_27" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_27__content">
+                <p xml:space="preserve">	经社会届会可包括一次杰出人士讲座；可邀请联合国机构高级代表参加在届会期间举行的小组讨论会，并可根据经社会的议事规则酌情邀请企业领导人和民间社会组织参加届会。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_28" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_28__content">
+                <p xml:space="preserve">	在经社会届会之前举行会议的常驻代表和经社会成员指派的其他代表咨询委员会决议草案非正式工作组应在高级官员会议部分期间成为决议草案工作组，具有与全体委员会相等的地位。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_29" class="SingleTxt">
+              <num>5.</num>
+              <content eId="para_29__content">
+                <p xml:space="preserve">	全体委员会、包括与其地位相等的机构在经社会年会高级官员会议部分期间举行的平行会议次数不得超过两次。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_30" class="SingleTxt">
+              <num>6.</num>
+              <content eId="para_30__content">
+                <p xml:space="preserve">	决议草案应反映成员国的实质性审议情况；此外，在不违反议事规则第31条的情况下，大力鼓励打算向经社会提交决议草案的经社会成员在经社会会议召开之前提前至少一个月向执行秘书提交其决议草案，以便经社会成员和准成员有足够的时间进行审议，而对于在经社会届会开始前一周内提交的决议草案，经社会将不予以审议。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_31" class="SingleTxt">
+              <num>7.</num>
+              <content eId="para_31__content">
+                <p xml:space="preserve">	经社会的报告将由经社会的决定和决议组成。由秘书处编制的经社会会议记录草稿将在届会结束后15天内分发给成员和准成员征求意见。成员和准成员的意见须在收到会议记录草稿后15天内提出。在考虑了成员和准成员的相关意见后，秘书处的经社会届会会议记录终稿将在届会结束后两个月内发布。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_32" class="SingleTxt">
+              <num>8.</num>
+              <content eId="para_32__content">
+                <p xml:space="preserve">	经社会应成为整合各委员会部门性观点的区域平台，以便平等地推进可持续发展的三个方面。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_33" class="SingleTxt">
+              <num>9.</num>
+              <content eId="para_33__content">
+                <p xml:space="preserve">	作为一项一般原则，在不影响经社会议事规则第13条的情况下，经社会主席应由经社会的五个次区域轮流担任。<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		经社会的五个次区域是：东亚和东北亚、北亚和中亚、南亚和西南亚、东南亚、太平洋(<a href="https://undocs.org/ch/A/62/708">A/62/708</a>，第321段)。</p></authorialNote></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_34" class="H23">
+              <subheading>二.	附属机构</subheading>
+            </paragraph>
+            <paragraph eId="para_35" class="SingleTxt">
+              <num>10.</num>
+              <content eId="para_35__content">
+                <p xml:space="preserve">	经社会附属机构包括下列九个委员会：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_36" class="SingleTxt">
+              <content eId="para_36__content">
+                <p xml:space="preserve">	(a)	宏观经济政策、减贫和发展筹资委员会；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_37" class="SingleTxt">
+              <content eId="para_37__content">
+                <p xml:space="preserve">	(b)	贸易、投资、企业和商业创新委员会；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_38" class="SingleTxt">
+              <content eId="para_38__content">
+                <p xml:space="preserve">	(c)	交通运输委员会；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_39" class="SingleTxt">
+              <content eId="para_39__content">
+                <p xml:space="preserve">	(d)	环境与发展委员会；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_40" class="SingleTxt">
+              <content eId="para_40__content">
+                <p xml:space="preserve">	(e)	信息和通信技术、科学、技术与创新委员会；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_41" class="SingleTxt">
+              <content eId="para_41__content">
+                <p xml:space="preserve">	(f)	减少灾害风险委员会；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_42" class="SingleTxt">
+              <content eId="para_42__content">
+                <p xml:space="preserve">	(g)	社会发展委员会；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_43" class="SingleTxt">
+              <content eId="para_43__content">
+                <p xml:space="preserve">	(h)	统计委员会；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_44" class="SingleTxt">
+              <content eId="para_44__content">
+                <p xml:space="preserve">	(i)	能源委员会。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_45" class="SingleTxt">
+              <num>11.</num>
+              <content eId="para_45__content">
+                <p xml:space="preserve">	这九个委员会各自每两年召开一届会议，每届会议的会期至多3天，在可能及可取的情况下，多个委员会可召开联席全体会议，讨论跨领域的问题。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_46" class="SingleTxt">
+              <num>12.</num>
+              <content eId="para_46__content">
+                <p xml:space="preserve">	如果某一特定议题成为本区域的紧急事项，经社会可以指派某一委员会或多个委员会在轮空年份召开会议。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_47" class="SingleTxt">
+              <num>13.</num>
+              <content eId="para_47__content">
+                <p xml:space="preserve">	在各自职权范围内，各委员会应：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_48" class="SingleTxt">
+              <content eId="para_48__content">
+                <p xml:space="preserve">	(a)	审查和分析《2030年可持续发展议程》实施工作背景下的区域趋势；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_49" class="SingleTxt">
+              <content eId="para_49__content">
+                <p xml:space="preserve">	(b)	与成员国协商，确定各自在具有韧性和包容性的可持续发展方面的优先事项和新出现的问题，并就区域做法进行协商，同时考虑到次区域层面；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_50" class="SingleTxt">
+              <content eId="para_50__content">
+                <p xml:space="preserve">	(c)	推动次区域协同作用等方面的区域对话(酌情推动区域间对话)以及政策和方案方面的经验交流；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_51" class="SingleTxt">
+              <content eId="para_51__content">
+                <p xml:space="preserve">	(d)	审议共同的区域立场，将其作为对全球进程的投入，并推动区域后续落实全球进程的成果；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_52" class="SingleTxt">
+              <content eId="para_52__content">
+                <p xml:space="preserve">	(e)	提出可能作为决议依据的议题，供经社会审议；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_53" class="SingleTxt">
+              <content eId="para_53__content">
+                <p xml:space="preserve">	(f)	监测经社会决议的执行情况；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_54" class="SingleTxt">
+              <content eId="para_54__content">
+                <p xml:space="preserve">	(g)	推动各国政府与民间社会、私营部门以及区域和次区域级别的联合国组织和其他国际组织之间酌情采取协作做法，应对本区域的发展挑战。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_55" class="SingleTxt">
+              <num>14.</num>
+              <content eId="para_55__content">
+                <p xml:space="preserve">	此外，各委员会应在其各自的职权范围内，向秘书处，包括其区域机构，提供审查拟议战略框架和工作方案的指导。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_56" class="SingleTxt">
+              <num>15.</num>
+              <content eId="para_56__content">
+                <p xml:space="preserve">	应将下列领域纳入所有委员会的工作主流：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_57" class="SingleTxt">
+              <content eId="para_57__content">
+                <p xml:space="preserve">	(a)	落实国际商定发展目标、尤其是可持续发展目标并监测进展情况，平衡整合可持续发展的三个方面；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_58" class="SingleTxt">
+              <content eId="para_58__content">
+                <p xml:space="preserve">	(b)	减少贫困，并从巨大冲击中持续复苏，建设更加公平的亚洲及太平洋；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_59" class="SingleTxt">
+              <content eId="para_59__content">
+                <p xml:space="preserve">	(c)	性别平等；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_60" class="SingleTxt">
+              <content eId="para_60__content">
+                <p xml:space="preserve">	(d)	最不发达国家、内陆发展中国家和小岛屿发展中国家的优先需求；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_61" class="SingleTxt">
+              <content eId="para_61__content">
+                <p xml:space="preserve">	(e)	科学、技术与创新、尤其是数字技术促进安全和包容的数字转型。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_62" class="SingleTxt">
+              <num>16.</num>
+              <content eId="para_62__content">
+                <p xml:space="preserve">	在与成员国协商后，可根据经社会议事规则酌情邀请民间社会和私营部门的代表参加委员会会议。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_63" class="SingleTxt">
+              <num>17.</num>
+              <content eId="para_63__content">
+                <p xml:space="preserve">	九个委员会各自在履行上述职能方面要处理的具体问题载于本文件附录一。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_64" class="SingleTxt">
+              <num>18.</num>
+              <content eId="para_64__content">
+                <p xml:space="preserve">	经社会的附属机构还应包括亚太可持续发展论坛。论坛的职权范围载于本文件附录二。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_65" class="H23">
+              <subheading>三.	特设部长级会议和其他政府间会议</subheading>
+            </paragraph>
+            <paragraph eId="para_66" class="SingleTxt">
+              <num>19.</num>
+              <content eId="para_66__content">
+                <p xml:space="preserve">	经经社会同意，可就具体问题和跨部门问题举行特设部长级会议和其他政府间会议。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_67" class="SingleTxt">
+              <num>20.</num>
+              <content eId="para_67__content">
+                <p xml:space="preserve">	每两年期期间，除常规政府间会议日历外，特设部长级会议和其他政府间会议的次数不应超过八次，且总天数不得超过十六天，除非经社会另有决定。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_68" class="SingleTxt">
+              <num>21.</num>
+              <content eId="para_68__content">
+                <p xml:space="preserve">	如果在某些年份部长级会议或政府间会议所讨论的议题与某一委员会通常讨论的议题相同，则在这些年份无须召开相应的委员会会议。经经社会批准，委员会可召开部长级特设会议，以确保待处理的事项获得高级别审议。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_69" class="H23">
+              <subheading>四.	常驻代表和经社会成员指派的其他代表咨询委员会</subheading>
+            </paragraph>
+            <paragraph eId="para_70" class="SingleTxt">
+              <num>22.</num>
+              <content eId="para_70__content">
+                <p xml:space="preserve">	常驻代表和经社会成员指派的其他代表咨询委员会的职能应符合本文件附录三所载的职权范围。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_71" class="SingleTxt">
+              <num>23.</num>
+              <content eId="para_71__content">
+                <p xml:space="preserve">	咨询委员会可根据需要设立自身的工作组，审议具体问题。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_72" class="SingleTxt">
+              <num>24.</num>
+              <content eId="para_72__content">
+                <p xml:space="preserve">	咨询委员会应就主题题材召开足够次数的正式会议和非正式会议，尤其是经社会届会之前。咨询委员会每个日历年举行正式会议的次数不应少于6次或多于12次。任何额外的正式会议或非正式会议须与咨询委员会和执行秘书协商后方可举行，秘书处无须提供文件服务，除非咨询委员会另行要求。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_73" class="SingleTxt">
+              <num>25.</num>
+              <content eId="para_73__content">
+                <p xml:space="preserve">	在需要征求联合国实体和其他政府间组织对咨询委员会所关心议题的意见时，如能达成共识，咨询委员会成员可要求秘书处邀请某些特定的联合国实体或其他政府间组织的代表出席咨询委员会随后举行的会议。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_74" class="SingleTxt">
+              <num>26.</num>
+              <content eId="para_74__content">
+                <p xml:space="preserve">	咨询委员会应定期审议次区域办事处和区域机构的工作，并积极跟进和报告成员国执行各项决议的情况。秘书处应编写必要的准则和模板，为报告决议执行情况提供便利。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_75" class="H23">
+              <subheading>五.	经社会附属区域机构</subheading>
+            </paragraph>
+            <paragraph eId="para_76" class="SingleTxt">
+              <num>27.</num>
+              <content eId="para_76__content">
+                <p xml:space="preserve">	经社会下列附属机构须根据各自的章程和职权范围继续运作：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_77" class="SingleTxt">
+              <content eId="para_77__content">
+                <p xml:space="preserve">	(a)	亚洲及太平洋技术转让中心；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_78" class="SingleTxt">
+              <content eId="para_78__content">
+                <p xml:space="preserve">	(b)	亚洲及太平洋统计研究所；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_79" class="SingleTxt">
+              <content eId="para_79__content">
+                <p xml:space="preserve">	(c)	可持续农业机械化中心；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_80" class="SingleTxt">
+              <content eId="para_80__content">
+                <p xml:space="preserve">	(d)	亚洲及太平洋信息和通信技术促进发展培训中心；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_81" class="SingleTxt">
+              <content eId="para_81__content">
+                <p xml:space="preserve">	(e)	亚洲及太平洋灾害信息管理发展中心。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_82" class="SingleTxt">
+              <num>28.</num>
+              <content eId="para_82__content">
+                <p xml:space="preserve">	经社会可设立更多区域机构，为实现其战略和方案目标提供支持。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_83" class="H23">
+              <subheading>六.	一般规定</subheading>
+            </paragraph>
+            <paragraph eId="para_84" class="H23">
+              <num>A.</num>
+              <subheading>	议事规则</subheading>
+            </paragraph>
+            <paragraph eId="para_85" class="SingleTxt">
+              <num>29.</num>
+              <content eId="para_85__content">
+                <p xml:space="preserve">	除经社会另有规定外，经社会的议事规则，包括那些与决策程序有关的议事规则，经适当变通后适用于在其会议结构下召开的各委员会会议和其他各种大小会议。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_86" class="H23">
+              <num>B.</num>
+              <subheading>	非正式会议</subheading>
+            </paragraph>
+            <paragraph eId="para_87" class="SingleTxt">
+              <num>30.</num>
+              <content eId="para_87__content">
+                <p xml:space="preserve">	在每届经社会会议部长级会议部分期间，可安排举行一次各代表团团长之间的非正式会议，但不应制度化。非正式会议的议程应以协商一致方式予以决定，议程说明应在会议召开前至少提前30天送达各成员，以确保会议的效率和效力。应为会议提供同声传译。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_88" class="H23">
+              <subheading>附录一</subheading>
+            </paragraph>
+            <paragraph eId="para_89" class="H23">
+              <subheading>亚洲及太平洋经济社会委员会附属委员会需要处理的议题</subheading>
+            </paragraph>
+            <paragraph eId="para_90" class="SingleTxt">
+              <content eId="para_90__content">
+                <p xml:space="preserve">	下面列出的议题是每个委员会需要处理的主要议题。亚洲及太平洋经济社会委员会可在任何时候酌情调整任何一个委员会的议题清单；而各相关委员会应保留同样的灵活性，处理由秘书处经与成员国协商后提请其关注的新议题或新出现的议题。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_91" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_91__content">
+                <p xml:space="preserve">	宏观经济政策、减贫和发展筹资委员会：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_92" class="SingleTxt">
+              <content eId="para_92__content">
+                <p xml:space="preserve">	(a)	旨在支持落实《2030年可持续发展议程》和减贫的宏观经济政策；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_93" class="SingleTxt">
+              <content eId="para_93__content">
+                <p xml:space="preserve">	(b)	就宏观经济和发展筹资议题开展区域合作，并制定共同的区域立场，作为对全球进程的投入，同时确保区域后续落实全球进程的成果；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_94" class="SingleTxt">
+              <content eId="para_94__content">
+                <p xml:space="preserve">	(c)	发展筹资，包括旨在实现可持续发展目标的筹资战略，如国内财政资源、可持续的创新数字融资工具和机制以及资本市场开发等。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_95" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_95__content">
+                <p xml:space="preserve">	贸易、投资、企业和商业创新委员会：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_96" class="SingleTxt">
+              <content eId="para_96__content">
+                <p xml:space="preserve">	(a)	作为发展引擎的国际贸易和投资，包括区域贸易和贸易便利化合作机制与协定，如《亚太贸易协定》和《亚洲及太平洋跨境无纸贸易便利化框架协定》；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_97" class="SingleTxt">
+              <content eId="para_97__content">
+                <p xml:space="preserve">	(b)	国内和国际公私伙伴关系、商业伙伴关系、投资以及中小企业发展和融资；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_98" class="SingleTxt">
+              <content eId="para_98__content">
+                <p xml:space="preserve">	(c)	创新(包括数字经济)、包容性商业、影响力投资以及创新政策和法规；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_99" class="SingleTxt">
+              <content eId="para_99__content">
+                <p xml:space="preserve">	(d)	开发、转让、改造和应用与本区域有关的技术。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_100" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_100__content">
+                <p xml:space="preserve">	交通运输委员会：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_101" class="SingleTxt">
+              <content eId="para_101__content">
+                <p xml:space="preserve">	(a)	通过《亚洲公路网政府间协定》、《泛亚铁路网政府间协定》和《政府间陆港协定》等国际运输协定实现高效而有韧性的交通运输、物流、流动性和互联互通以及航运和海运；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_102" class="SingleTxt">
+              <content eId="para_102__content">
+                <p xml:space="preserve">	(b)	可持续、高效和无害环境的交通运输系统和服务以及政策和战略、可持续城市流动性及智能交通技术应用；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_103" class="SingleTxt">
+              <content eId="para_103__content">
+                <p xml:space="preserve">	(c)	安全而包容的交通运输和流动性，包括加强道路安全、促进性别平等的交通运输以及提高交通运输系统包容性和普及性的政策和战略；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_104" class="SingleTxt">
+              <content eId="para_104__content">
+                <p xml:space="preserve">	(d)	统一运输标准和单证。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_105" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_105__content">
+                <p xml:space="preserve">	环境与发展委员会：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_106" class="SingleTxt">
+              <content eId="para_106__content">
+                <p xml:space="preserve">	(a)	以全面统筹方式提高发展的环境可持续性，包括但不限于开展气候行动、减少空气污染、可持续利用海洋和可持续管理水资源；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_107" class="SingleTxt">
+              <content eId="para_107__content">
+                <p xml:space="preserve">	(b)	推动自然资源可持续管理；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_108" class="SingleTxt">
+              <content eId="para_108__content">
+                <p xml:space="preserve">	(c)	推动包容、可持续的城市发展；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_109" class="SingleTxt">
+              <content eId="para_109__content">
+                <p xml:space="preserve">	(d)	推动可持续生产和消费，包括借助于可持续农业机械化和技术转让实现国际商定的发展目标。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_110" class="SingleTxt">
+              <num>5.</num>
+              <content eId="para_110__content">
+                <p xml:space="preserve">	信息和通信技术、科学、技术与创新委员会：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_111" class="SingleTxt">
+              <content eId="para_111__content">
+                <p xml:space="preserve">	(a)	借助于互联网普及等手段使用信息和通信技术、数字技术和创新，并通过亚太信息高速公路倡议等促进数字社会、数字转型和包容；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_112" class="SingleTxt">
+              <content eId="para_112__content">
+                <p xml:space="preserve">	(b)	应用空间技术和综合地理空间信息促进可持续发展；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_113" class="SingleTxt">
+              <content eId="para_113__content">
+                <p xml:space="preserve">	(c)	在数字时代使用信息和通信技术以及数字技术应用支持可持续发展方面开发人员技能和机构能力。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_114" class="SingleTxt">
+              <num>6.</num>
+              <content eId="para_114__content">
+                <p xml:space="preserve">	减少灾害风险委员会：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_115" class="SingleTxt">
+              <content eId="para_115__content">
+                <p xml:space="preserve">	(a)	开展区域合作，减少和减轻多灾种灾害风险，适应气候变化并建设复原力；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_116" class="SingleTxt">
+              <content eId="para_116__content">
+                <p xml:space="preserve">	(b)	区域加强灾害风险管理和建设抗灾能力的合作机制；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_117" class="SingleTxt">
+              <content eId="para_117__content">
+                <p xml:space="preserve">	(c)	多灾种风险综合评估、防范、预警和灾害风险应对，包括借助于创新技术工具减轻与生物危害和其他自然灾害相关的级联风险；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_118" class="SingleTxt">
+              <content eId="para_118__content">
+                <p xml:space="preserve">	(d)	灾害信息管理和多灾种(包括沙尘暴)预警。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_119" class="SingleTxt">
+              <num>7.</num>
+              <content eId="para_119__content">
+                <p xml:space="preserve">	社会发展委员会：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_120" class="SingleTxt">
+              <content eId="para_120__content">
+                <p xml:space="preserve">	(a)	审查本区域落实国际商定社会发展目标和承诺的情况；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_121" class="SingleTxt">
+              <content eId="para_121__content">
+                <p xml:space="preserve">	(b)	评估人口与发展趋势，包括国际移民和人口老龄化及其对发展的影响；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_122" class="SingleTxt">
+              <content eId="para_122__content">
+                <p xml:space="preserve">	(c)	应对不平等问题，并加强社会保护和卫生系统；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_123" class="SingleTxt">
+              <content eId="para_123__content">
+                <p xml:space="preserve">	(d)	推动性别平等并增强妇女权能；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_124" class="SingleTxt">
+              <content eId="para_124__content">
+                <p xml:space="preserve">	(e)	推动社会对老年人、残疾人和其他弱势群体的包容。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_125" class="SingleTxt">
+              <num>8.</num>
+              <content eId="para_125__content">
+                <p xml:space="preserve">	统计委员会：鉴于《2030年可持续发展议程》对统计提出的迫切而不断变化的需求十分重要，应推动并加强国家统计系统的能力，以领导开发并提供创新、可信和及时的产品与服务，同时铭记题为“为实现《2030年可持续发展议程》推进官方统计：亚太区域统计界制订的共同愿景和行动框架”的文件中的行动领域。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_126" class="SingleTxt">
+              <num>9.</num>
+              <content eId="para_126__content">
+                <p xml:space="preserve">	能源委员会：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_127" class="SingleTxt">
+              <content eId="para_127__content">
+                <p xml:space="preserve">	(a)	根据《2030年可持续发展议程》、尤其是可持续发展目标7和《巴黎协定》实现亚洲及太平洋的能源转型；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_128" class="SingleTxt">
+              <content eId="para_128__content">
+                <p xml:space="preserve">	(b)	开展区域合作，包括通过能源互联互通推动人人享有可负担、可靠和可持续的现代能源；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_129" class="SingleTxt">
+              <content eId="para_129__content">
+                <p xml:space="preserve">	(c)	通过区域协定和任务、包括亚洲及太平洋能源论坛开展区域合作，加强能源安全和能源的可持续利用；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_130" class="SingleTxt">
+              <content eId="para_130__content">
+                <p xml:space="preserve">	(d)	评估和审查能源转型的潜在影响。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_131" class="H23">
+              <subheading>附录二</subheading>
+            </paragraph>
+            <paragraph eId="para_132" class="H23">
+              <subheading>亚太可持续发展论坛的职权范围</subheading>
+            </paragraph>
+            <paragraph eId="para_133" class="H23">
+              <subheading>一.	总体职能</subheading>
+            </paragraph>
+            <paragraph eId="para_134" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_134__content">
+                <p xml:space="preserve">	亚太可持续发展论坛是一个包容性政府间年度论坛。论坛为经济及社会理事会和大会背景下的可持续发展高级别政治论坛筹备工作提供支持。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_135" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_135__content">
+                <p xml:space="preserve">	作为一个区域平台，论坛将用于：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_136" class="SingleTxt">
+              <content eId="para_136__content">
+                <p xml:space="preserve">	(a)	向各国、尤其是特需国家提供支持，包括提高其实施《2030年可持续发展议程》的能力；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_137" class="SingleTxt">
+              <content eId="para_137__content">
+                <p xml:space="preserve">	(b)	就实施《2030年可持续发展议程》提供区域观点，查明区域趋势，整合和分享最佳做法及经验教训，同时考虑到区域层面的联合国系统其他机构、其他区域和次区域组织以及相关利益攸关方的贡献；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_138" class="SingleTxt">
+              <content eId="para_138__content">
+                <p xml:space="preserve">	(c)	通过以下举措，支持在区域层面开展《2030年议程》和可持续发展目标后续跟进和进展审评工作：评估进展情况，并提供机会，就高级别政治论坛将审议的主题和目标开展同行学习；支持提交自愿国别评估报告；以及定期审查亚洲及太平洋实施《2030年可持续发展议程》路线图的进展情况。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_139" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_139__content">
+                <p xml:space="preserve">	通过联合国亚太区域协调机制等方式提供机构间支助，可使上述职能受益匪浅。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_140" class="H23">
+              <subheading>二.	论坛活动</subheading>
+            </paragraph>
+            <paragraph eId="para_141" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_141__content">
+                <p xml:space="preserve">	作为亚洲及太平洋经济社会委员会会议结构的组成部分，论坛这一包容性政府间论坛每年在高级别政治论坛之前举行会议。论坛的主题应与高级别政治论坛的主题相一致，且有待深入审议的目标群应与高级别政治论坛确定的目标群相同。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_142" class="SingleTxt">
+              <num>5.</num>
+              <content eId="para_142__content">
+                <p xml:space="preserve">	论坛不会超前于高级别政治论坛的决定，不会高级别政治论坛的决定预先做出判断，不会加重成员国的报告负担，也不会在大会业已批准的范围之外增加经社会的经常预算。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_143" class="SingleTxt">
+              <num>6.</num>
+              <content eId="para_143__content">
+                <p xml:space="preserve">	目前的形式、包括每届会议主席团的选举办法可以保留，并酌情与成员国协商，为多利益攸关方参与实施《2030年可持续发展议程》提供空间。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_144" class="SingleTxt">
+              <num>7.</num>
+              <content eId="para_144__content">
+                <p xml:space="preserve">	论坛成果将采取报告形式并附有主席摘要。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_145" class="SingleTxt">
+              <num>8.</num>
+              <content eId="para_145__content">
+                <p xml:space="preserve">	论坛可对论坛所讨论主题的次区域观点进行审议。可在现有资源范围内召开利益攸关方筹备会议。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_146" class="SingleTxt">
+              <num>9.</num>
+              <content eId="para_146__content">
+                <p xml:space="preserve">	在相互之间没有冲突的情况下，将依照经社会的议事规则以及经济及社会理事会主持下的高级别政治论坛模式举行论坛会议，包括开展利益攸关方互动。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_147" class="SingleTxt">
+              <num>10.</num>
+              <content eId="para_147__content">
+                <p xml:space="preserve">	每届论坛会议期间，上届会议主席团的一名成员可报告闭会期间高级别政治论坛的讨论情况以及论坛上届会议的结论。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_148" class="SingleTxt">
+              <num>11.</num>
+              <content eId="para_148__content">
+                <p xml:space="preserve">	论坛活动将避免与其他区域论坛和平台相互重叠；为效率起见，论坛将酌情与其他论坛和平台相互协调或协作举行会议。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_149" class="H23">
+              <subheading>三.	论坛与经社会会议结构的关系</subheading>
+            </paragraph>
+            <paragraph eId="para_150" class="SingleTxt">
+              <num>12.</num>
+              <content eId="para_150__content">
+                <p xml:space="preserve">	论坛主席或副主席将提请之后举行的经社会届会注意第7段所述的论坛报告。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_151" class="SingleTxt">
+              <num>13.</num>
+              <content eId="para_151__content">
+                <p xml:space="preserve">	论坛可接受经社会下属委员会以及其他相关利益攸关方的投入。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_152" class="SingleTxt">
+              <num>14.</num>
+              <content eId="para_152__content">
+                <p xml:space="preserve">	论坛可借鉴常驻代表和经社会成员指派的其他代表咨询委员会提供的咨询意见，作为论坛闭会期间与各成员国咨商的一种模式。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_153" class="SingleTxt">
+              <num>15.</num>
+              <content eId="para_153__content">
+                <p xml:space="preserve">	在大会主持下每四年举行一次高级别政治论坛峰会的年份，亚太论坛会议可与经社会届会在4月或5月联合举行，并且经社会和论坛将酌情采用相同主题。在经济及社会理事会主持下举行高级别政治论坛会议的其他年份，应在高级别技术层面举行论坛会议。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_154" class="SingleTxt">
+              <num>16.</num>
+              <content eId="para_154__content">
+                <p xml:space="preserve">	如成员国提出要求，根据论坛的建议并经经社会认可，同时兼顾高级别政治论坛的新投入，并依据成员国的定期审查情况，可对论坛的职权范围进行修订。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_155" class="H23">
+              <subheading>附录三</subheading>
+            </paragraph>
+            <paragraph eId="para_156" class="H23">
+              <subheading>常驻代表和经社会成员指派的其他代表咨询委员会的职权范围</subheading>
+            </paragraph>
+            <paragraph eId="para_157" class="SingleTxt">
+              <content eId="para_157__content">
+                <p xml:space="preserve">	常驻代表和经社会成员指派的其他代表咨询委员会具有下列职能：</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_158" class="SingleTxt">
+              <content eId="para_158__content">
+                <p xml:space="preserve">	(a)	加强成员国与秘书处之间的密切合作和协商，包括为此提供咨询意见和指导意见，供执行秘书在开展相关活动时考虑；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_159" class="SingleTxt">
+              <content eId="para_159__content">
+                <p xml:space="preserve">	(b)	成为实质性意见交流的一个审议论坛，并就经社会议程的制订工作以及会对亚太区域产生影响的经济和社会发展动态提供指导意见；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_160" class="SingleTxt">
+              <content eId="para_160__content">
+                <p xml:space="preserve">	(c)	在执行秘书根据经社会的指导意见拟订关于战略框架、工作方案和经社会届会主题的提议时，向其提供咨询意见和指导意见；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_161" class="SingleTxt">
+              <content eId="para_161__content">
+                <p xml:space="preserve">	(d)	定期听取有关经社会行政和财务运作情况的介绍；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_162" class="SingleTxt">
+              <content eId="para_162__content">
+                <p xml:space="preserve">	(e)	就监测和评价亚太经社会工作方案和资源分配的执行情况向执行秘书提供咨询和指导意见；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_163" class="SingleTxt">
+              <content eId="para_163__content">
+                <p xml:space="preserve">	(f)	在向经社会年会提交会议日历草案之前，审议该草案；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_164" class="SingleTxt">
+              <content eId="para_164__content">
+                <p xml:space="preserve">	(g)	就经社会会议和经社会附属委员会会议的临时议程向执行秘书提供咨询和指导意见，同时需要确保议程内容侧重成果、突出重点，并与各成员国界定的发展优先重点以及经社会议事规则第二章的内容保持一致；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_165" class="SingleTxt">
+              <content eId="para_165__content">
+                <p xml:space="preserve">	(h)	就确定要纳入临时议程的新出现经济社会问题和其他相关问题以及制订经社会届会附加说明的临时议程，向执行秘书提供咨询意见和指导意见；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_166" class="SingleTxt">
+              <content eId="para_166__content">
+                <p xml:space="preserve">	(i)	听取关于秘书处与其他相关国际和区域组织之间的协作和相关安排的情况介绍，尤其是关于长期合作方案和联合举措、包括由执行秘书提出并在区域协调机制主持下开展的方案和举措的情况介绍；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_167" class="SingleTxt">
+              <content eId="para_167__content">
+                <p xml:space="preserve">	(j)	执行经社会委托的任何其他任务。</p>
+              </content>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>
