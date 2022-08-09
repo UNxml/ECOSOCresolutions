@@ -1,0 +1,1086 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-11/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-11/"></FRBRuri>
+          <FRBRdate date="2022-07-21" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-11/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-11/fra@/"></FRBRuri>
+          <FRBRdate date="2022-07-29" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-11/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-11/fra@.xml"></FRBRuri>
+          <FRBRdate date="2022-08-09" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="6" href="http://metadata.un.org/sdg/6" showAs="sdg_6" dictionary="SDGO"></keyword>
+        <keyword value="water" href="http://eurovoc.europa.eu/597" showAs="water" dictionary="EuroVoc"></keyword>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/030500" showAs="water" dictionary="UNBIS"></keyword>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/1006939" showAs="water" dictionary="UNBIS"></keyword>
+        <keyword value="sanitation" href="http://metadata.un.org/thesaurus/1005701" showAs="sanitation" dictionary="UNBIS"></keyword>
+        <keyword value="public_hygiene" href="http://eurovoc.europa.eu/3371" showAs="public_hygiene" dictionary="EuroVoc"></keyword>
+        <keyword value="water_management" href="http://eurovoc.europa.eu/3144" showAs="water_management" dictionary="EuroVoc"></keyword>
+        <keyword value="water_management" href="http://metadata.un.org/thesaurus/1006948" showAs="water_management" dictionary="UNBIS"></keyword>
+        <keyword value="use_of_water" href="http://eurovoc.europa.eu/4628" showAs="use_of_water" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="14" href="http://metadata.un.org/sdg/14" showAs="sdg_14" dictionary="SDGO"></keyword>
+        <keyword value="marine_resources" href="http://metadata.un.org/thesaurus/030800" showAs="marine_resources" dictionary="UNBIS"></keyword>
+        <keyword value="marine_resources" href="http://metadata.un.org/thesaurus/1003922" showAs="marine_resources" dictionary="UNBIS"></keyword>
+        <keyword value="oceans_and_seas" href="http://metadata.un.org/thesaurus/170600" showAs="oceans_and_seas" dictionary="UNBIS"></keyword>
+        <keyword value="ocean" href="http://eurovoc.europa.eu/2107" showAs="ocean" dictionary="EuroVoc"></keyword>
+        <keyword value="ocean" href="http://metadata.un.org/thesaurus/1004576" showAs="ocean" dictionary="UNBIS"></keyword>
+        <keyword value="marine_environment" href="http://eurovoc.europa.eu/5742" showAs="marine_environment" dictionary="EuroVoc"></keyword>
+        <keyword value="marine_environment" href="http://metadata.un.org/thesaurus/1003911" showAs="marine_environment" dictionary="UNBIS"></keyword>
+        <keyword value="marine_life" href="http://eurovoc.europa.eu/3149" showAs="marine_life" dictionary="EuroVoc"></keyword>
+        <keyword value="sea" href="http://eurovoc.europa.eu/1870" showAs="sea" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="8" href="http://metadata.un.org/sdg/8" showAs="sdg_8" dictionary="SDGO"></keyword>
+        <keyword value="unemployment" href="http://eurovoc.europa.eu/5974" showAs="unemployment" dictionary="EuroVoc"></keyword>
+        <keyword value="unemployment" href="http://metadata.un.org/thesaurus/1006773" showAs="unemployment" dictionary="UNBIS"></keyword>
+        <keyword value="economic_growth" href="http://eurovoc.europa.eu/310" showAs="economic_growth" dictionary="EuroVoc"></keyword>
+        <keyword value="economic_growth" href="http://metadata.un.org/thesaurus/1001854" showAs="economic_growth" dictionary="UNBIS"></keyword>
+        <keyword value="employment" href="http://metadata.un.org/thesaurus/1002007" showAs="employment" dictionary="UNBIS"></keyword>
+        <keyword value="full_employment" href="http://eurovoc.europa.eu/2427" showAs="full_employment" dictionary="EuroVoc"></keyword>
+        <keyword value="full_employment" href="http://metadata.un.org/thesaurus/1002563" showAs="full_employment" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. ESCAP" showAs="UN. ESCAP" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. ESCAP" showAs="UN. ESCAP" dictionary="DHLAUTH"></keyword>
+        <keyword value="2030 Agenda for Sustainable Development" showAs="2030 Agenda for Sustainable Development" dictionary="DHLAUTH"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="REGIONAL COMMISSIONS" showAs="REGIONAL COMMISSIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ASIA AND THE PACIFIC" showAs="ASIA AND THE PACIFIC" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CONFERENCES" showAs="CONFERENCES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COVID-19" showAs="COVID-19" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="15" showAs="Regional cooperation." shortForm="REGIONAL COOPERATION" dictionary="E/2022/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="E/2022/15" by="UN. ESCAP" />
+        <step date="2022-07-29" outcome="adopted" as="Adopted without vote, 33rd plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">22-11660 (F)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2022/11</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Conseil économique et social</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-07-29" class="rightSmall" refersTo="#dateOfIssuance">29 juillet 2022</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2022" eId="coverPage_1__session_1">Session de 2022</session>
+      </p>
+      <p>
+        <inline title="15" name="agenda item">Point 15 de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Coopération régionale</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par le Conseil économique et social le 21 juillet 2022</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="Economic and Social Commission for Asia and the Pacific">[sur recommandation de la Commission économique et sociale pour l’Asie et le Pacifique (<inline name="originating document">E/2022/15/Add.1</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2022/11.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Un appareil de conférence de la Commission économique et sociale pour l’Asie et le Pacifique permettant de faire progresser le développement durable</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Le Conseil économique et social</span>,</p>
+      </formula>
+      <container name="Prenant note" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	Prenant note </span>de la résolution 78/2 de la Commission économique et sociale pour l’Asie et le Pacifique, en date du 27 mai 2022, par laquelle la Commission a adopté un appareil de conférence de la Commission permettant de faire progresser le développement durable,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_3" class="SingleTxt">
+        <content eId="para_3__content">
+          <p xml:space="preserve">
+            <span class="italic">	Approuve</span> l’appareil de conférence de la Commission économique et sociale pour l’Asie et le Pacifique permettant de faire progresser le développement durable, tel qu’il est présenté dans l’annexe à la présente résolution.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="33e">33e séance plénière</inline>
+        <eol />
+        <docDate date="2022-07-21" refersTo="#adoptionDate">21 juillet 2022</docDate>
+      </p>
+    </conclusions>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-11/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-11/"></FRBRuri>
+                <FRBRdate date="2022-07-21" name="adoption"></FRBRdate>
+                <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-11/fra@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-11/fra@/"></FRBRuri>
+                <FRBRdate date="2022-07-29" name="publication"></FRBRdate>
+                <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="fra"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-11/fra@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-11/fra@.xml"></FRBRuri>
+                <FRBRdate date="2022-08-09" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_5" class="H23">
+              <subheading>Annexe</subheading>
+            </paragraph>
+            <paragraph eId="para_6" class="H23">
+              <subheading>Résolution 78/2</subheading>
+            </paragraph>
+            <paragraph eId="para_7" class="H23">
+              <subheading>Un appareil de conférence de la Commission économique et sociale pour l’Asie et le Pacifique permettant de faire progresser le développement durable</subheading>
+            </paragraph>
+            <paragraph eId="para_8" class="SingleTxt">
+              <content eId="para_8__content">
+                <p xml:space="preserve">	<span class="italic">La Commission économique et sociale pour l’Asie et le Pacifique</span>,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_9" class="SingleTxt">
+              <content eId="para_9__content">
+                <p xml:space="preserve">
+                  <span class="italic">	Rappelant </span>sa résolution 73/1 du 19 mai 2017 sur l’alignement de l’appareil de conférence de la Commission sur le Programme de développement durable à l’horizon 2030, dans laquelle elle a décidé, notamment, de conduire un examen de son appareil de conférence à sa soixante-dix-huitième session, en 2022, un examen à mi‑parcours étant effectué à sa soixante-quinzième session, en 2019, et a prié la Secrétaire exécutive d’établir dans les deux cas un rapport axé sur les domaines d’activité de la Commission, qui servirait de base à cet examen, </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_10" class="SingleTxt">
+              <content eId="para_10__content">
+                <p xml:space="preserve">
+                  <span class="italic">	Rappelant également</span> ses décisions 75/16 du 31 mai 2019 sur l’organisation des sessions annuelles de la Commission et 75/17 du 31 mai 2019 sur l’examen de l’appareil de conférence de la Commission<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		Voir <span class="italic">Documents officiels du Conseil économique et social, 2019, Supplément n</span><span class="italic"><sup>o</sup></span><span class="italic"> 19 </span>(<a href="https://undocs.org/fr/E/2019/39">E/2019/39</a>), chap. I, sect. B.</p></authorialNote>,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_11" class="SingleTxt">
+              <content eId="para_11__content">
+                <p xml:space="preserve">
+                  <span class="italic">	Rappelant en outre</span> sa résolution 74/5 du 16 mai 2018 sur la transformation du Centre pour la réduction de la pauvreté par l’agriculture durable en une organisation intergouvernementale non rattachée au système des Nations Unies,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_12" class="SingleTxt">
+              <content eId="para_12__content">
+                <p xml:space="preserve">
+                  <span class="italic">	Soulignant </span>qu’il importe de réaliser plus rapidement le Programme de développement durable à l’horizon 2030<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/70/1">70/1</a> de l’Assemblée générale.</p></authorialNote>, et insistant sur le fait que le relèvement après la pandémie de maladie à coronavirus (COVID‑19) offre une occasion de faire progresser le développement durable en Asie et dans le Pacifique,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_13" class="SingleTxt">
+              <content eId="para_13__content">
+                <p xml:space="preserve">
+                  <span class="italic">	Ayant examiné</span> la note du secrétariat sur l’examen de l’appareil de conférence de la Commission en application de la résolution 73/1<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		ESCAP/78/31.</p></authorialNote>,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_14" class="SingleTxt">
+              <content eId="para_14__content">
+                <p xml:space="preserve">
+                  <span class="italic">	Ayant examiné également</span> les rapports des conseils d’administration des institutions régionales et des comités, ainsi que les rapports issus des Forums Asie-Pacifique pour le développement durable et des conférences ministérielles tenues depuis la soixante-treizième session de la Commission,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_15" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_15__content">
+                <p xml:space="preserve">	<span class="italic">Décide</span> de réviser avec effet immédiat son appareil de conférence afin d’accélérer la mise en œuvre du Programme de développement durable à l’horizon 2030, en particulier d’actualiser le mandat de ses comités subsidiaires et les questions que ceux-ci sont appelés à examiner, tels qu’ils figurent à l’annexe de la présente résolution ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_16" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_16__content">
+                <p xml:space="preserve">	<span class="italic">Décide également </span>de reconstituer le Comité du commerce et de l’investissement qui deviendra le Comité du commerce, de l’investissement, des entreprises et de l’innovation commerciale, qui se réunira tous les deux ans ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_17" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_17__content">
+                <p xml:space="preserve">	<span class="italic">Rappelle </span>ses résolutions 48/2 du 23 avril 1992 et 64/1 du 30 avril 2008 sur la restructuration de l’appareil de conférence de la Commission et 69/1 du 1<sup>er</sup> mai 2013 sur un appareil de conférence de la Commission pour le développement inclusif et durable de l’Asie et du Pacifique, et décide de renommer l’Organe spécial pour les pays les moins avancés, les pays en développement sans littoral et les pays insulaires en développement du Pacifique qui deviendra l’Organe spécial pour les pays les moins avancés, les pays en développement sans littoral et les petits États insulaires en développement, et d’organiser les délibérations de l’Organe spécial pendant le débat ministériel des sessions de la Commission ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_18" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_18__content">
+                <p xml:space="preserve">	<span class="italic">Réaffirme </span>que l’appareil de conférence de la Commission sera conforme à l’agencement décrit dans l’annexe à la présente résolution ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_19" class="SingleTxt">
+              <num>5.</num>
+              <content eId="para_19__content">
+                <p xml:space="preserve">	<span class="italic">Prie</span> la Secrétaire exécutive de continuer à promouvoir et à renforcer la coopération et la collaboration entre les organisations pertinentes du système des Nations Unies pour le développement en Asie et dans le Pacifique et les autres parties prenantes, selon qu’il convient, à l’appui de la mise en œuvre du Programme de développement durable à l’horizon 2030 par les membres et les membres associés de la Commission, l’objectif étant d’assurer l’efficacité et l’efficience maximales de cette mise en œuvre ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_20" class="SingleTxt">
+              <num>6.</num>
+              <content eId="para_20__content">
+                <p xml:space="preserve">	<span class="italic">Prie également </span>la Secrétaire exécutive de continuer à effectuer un suivi et une évaluation systématiques de l’appareil de conférence et de sa conformité avec les priorités de la Commission au titre des programmes, afin d’accroître l’efficience, l’efficacité et les synergies des travaux de la Commission ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_21" class="SingleTxt">
+              <num>7.</num>
+              <content eId="para_21__content">
+                <p xml:space="preserve">	<span class="italic">Décide </span>de conduire un examen de son appareil de conférence à sa quatre-vingt-troisième session, en 2027, et un examen à mi‑parcours à sa quatre-vingt-unième session, en 2025, et prie la Secrétaire exécutive de lui soumettre, dans les deux cas, un rapport axé sur les domaines d’activité de la Commission, qui servira de base à cet examen.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_22" class="H23">
+              <subheading>Annexe à la résolution 78/2</subheading>
+            </paragraph>
+            <paragraph eId="para_23" class="H23">
+              <subheading>Un appareil de conférence de la Commission économique et sociale pour l’Asie et le Pacifique</subheading>
+            </paragraph>
+            <paragraph eId="para_24" class="H23">
+              <num>I.</num>
+              <subheading>	Commission économique et sociale pour l’Asie et le Pacifique</subheading>
+            </paragraph>
+            <paragraph eId="para_25" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_25__content">
+                <p xml:space="preserve">	La Commission économique et sociale pour l’Asie et le Pacifique tient une session par an sur un thème général choisi par les États membres, comportant un débat des hauts responsables suivi d’un débat ministériel, représentant une durée totale de cinq jours de travail, la durée de chaque débat étant déterminée par le secrétariat en consultation avec les États membres, afin de discuter et de statuer sur d’importantes questions relatives au développement inclusif et durable dans la région, de se prononcer sur les recommandations de ses organes subsidiaires et du Secrétaire exécutif ou de la Secrétaire exécutive, d’examiner et d’entériner le projet de cadre stratégique et de programme de travail et de prendre toutes autres décisions voulues conformément à son mandat.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_26" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_26__content">
+                <p xml:space="preserve">	Les délibérations de l’Organe spécial pour les pays les moins avancés, les pays en développement sans littoral et les petits États insulaires en développement ne durent pas plus d’un jour et ont lieu pendant le débat ministériel.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_27" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_27__content">
+                <p xml:space="preserve">	La session de la Commission peut comprendre un exposé d’une personnalité éminente. Des représentants de haut niveau d’organismes des Nations Unies peuvent être invités à participer aux tables rondes organisées durant la session, et des chefs d’entreprise et des organisations de la société civile peuvent être invités à participer à la session selon qu’il convient, conformément au Règlement intérieur de la Commission.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_28" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_28__content">
+                <p xml:space="preserve">	Le Groupe de travail informel des projets de résolution du Comité consultatif des représentants permanents et autres représentants désignés par les membres de la Commission, qui se réunit avant la session de la Commission, est reconstitué en tant que Groupe de travail des projets de résolution pendant le débat des hauts responsables et a le même statut que les comités pléniers.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_29" class="SingleTxt">
+              <num>5.</num>
+              <content eId="para_29__content">
+                <p xml:space="preserve">	Le nombre de séances des comités pléniers et des organes dotés du même statut ayant lieu simultanément pendant le débat des hauts responsables de la session annuelle ne dépasse pas deux.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_30" class="SingleTxt">
+              <num>6.</num>
+              <content eId="para_30__content">
+                <p xml:space="preserve">	Les projets de résolution sont le reflet des débats de fond des États membres. De plus, sans préjudice de l’article 31 du Règlement intérieur de la Commission, les membres de la Commission qui le souhaitent sont vivement encouragés à soumettre un projet de résolution au Secrétaire exécutif ou à la Secrétaire exécutive au moins un mois avant le début de la session de la Commission afin de laisser aux membres et aux membres associés suffisamment de temps pour l’examiner. La Commission n’examine pas les projets de résolution soumis moins d’une semaine avant le premier jour de sa session.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_31" class="SingleTxt">
+              <num>7.</num>
+              <content eId="para_31__content">
+                <p xml:space="preserve">	Le rapport de la Commission comprend les décisions et les résolutions de la Commission. Le projet de compte rendu des travaux de la session de la Commission est élaboré par le secrétariat et distribué aux membres et aux membres associés dans les 15 jours qui suivent la clôture de la session afin de recueillir leurs observations. Les membres et les membres associés sont priés de communiquer leurs observations au plus tard 15 jours après avoir reçu le projet de compte rendu des travaux. La version finale du compte rendu des travaux de la session de la Commission sera publiée par le secrétariat dans les deux mois suivant la clôture de la session, en tenant compte des observations pertinentes des membres et des membres associés.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_32" class="SingleTxt">
+              <num>8.</num>
+              <content eId="para_32__content">
+                <p xml:space="preserve">	La Commission fait fonction de plateforme régionale pour l’intégration des branches sectorielles des comités, en vue de promouvoir le développement durable de manière équitable dans chacune de ses trois dimensions.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_33" class="SingleTxt">
+              <num>9.</num>
+              <content eId="para_33__content">
+                <p xml:space="preserve">	À titre de principe général, et sans préjudice de l’article 13 du Règlement intérieur de la Commission, la présidence de ses sessions est assurée à tour de rôle par le représentant ou la représentante de chacune des cinq  sous-régions<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		Les cinq sous-régions de la Commission sont : l’Asie de l’Est et du Nord-Est ; l’Asie du Nord et l’Asie centrale ; l’Asie du Sud et du Sud-Ouest ; l’Asie du Sud-Est ; le Pacifique (<a href="https://undocs.org/fr/A/62/708">A/62/708</a>, par. 321).</p></authorialNote>.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_34" class="H23">
+              <num>II.</num>
+              <subheading>	Appareil de conférence subsidiaire</subheading>
+            </paragraph>
+            <paragraph eId="para_35" class="SingleTxt">
+              <num>10.</num>
+              <content eId="para_35__content">
+                <p xml:space="preserve">	L’appareil de conférence subsidiaire de la Commission comprend les neuf comités suivants :</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_36" class="SingleTxt">
+              <content eId="para_36__content">
+                <p xml:space="preserve">	a) Comité des politiques macroéconomiques, de la réduction de la pauvreté et du financement du développement ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_37" class="SingleTxt">
+              <content eId="para_37__content">
+                <p xml:space="preserve">	b) Comité du commerce, de l’investissement, des entreprises et de l’innovation commerciale ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_38" class="SingleTxt">
+              <content eId="para_38__content">
+                <p xml:space="preserve">	c) Comité des transports ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_39" class="SingleTxt">
+              <content eId="para_39__content">
+                <p xml:space="preserve">	d) Comité de l’environnement et du développement ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_40" class="SingleTxt">
+              <content eId="para_40__content">
+                <p xml:space="preserve">	e) Comité des technologies de l’information et de la communication, de la science, de la technologie et de l’innovation ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_41" class="SingleTxt">
+              <content eId="para_41__content">
+                <p xml:space="preserve">	f) Comité de la réduction des risques de catastrophe ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_42" class="SingleTxt">
+              <content eId="para_42__content">
+                <p xml:space="preserve">	g) Comité du développement social ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_43" class="SingleTxt">
+              <content eId="para_43__content">
+                <p xml:space="preserve">	h) Comité de statistique ; </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_44" class="SingleTxt">
+              <content eId="para_44__content">
+                <p xml:space="preserve">	i) Comité de l’énergie.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_45" class="SingleTxt">
+              <num>11.</num>
+              <content eId="para_45__content">
+                <p xml:space="preserve">	Chacun des neuf comités se réunit une fois tous les deux ans, pour une session de trois jours au maximum, et des sessions plénières conjointes entre plusieurs comités sont organisées pour débattre de questions intersectorielles, lorsque cela est possible et souhaitable.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_46" class="SingleTxt">
+              <num>12.</num>
+              <content eId="para_46__content">
+                <p xml:space="preserve">	La Commission peut prescrire la réunion d’un ou de plusieurs comités donnés au cours de l’année d’intervalle si un sujet particulier devient une question urgente pour la région.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_47" class="SingleTxt">
+              <num>13.</num>
+              <content eId="para_47__content">
+                <p xml:space="preserve">	Dans leurs domaines de compétence respectifs, les comités :</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_48" class="SingleTxt">
+              <content eId="para_48__content">
+                <p xml:space="preserve">	a) Examinent et analysent les tendances régionales dans le contexte de la mise en œuvre du Programme de développement durable à l’horizon 2030 ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_49" class="SingleTxt">
+              <content eId="para_49__content">
+                <p xml:space="preserve">	b) Déterminent, en consultation avec les États membres, les priorités et les problèmes émergents en ce qui concerne le développement résilient, inclusif et durable et délibèrent sur les approches régionales, en tenant compte des aspects sous-régionaux ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_50" class="SingleTxt">
+              <content eId="para_50__content">
+                <p xml:space="preserve">	c) Encouragent le dialogue régional et, le cas échéant, le dialogue interrégional, notamment les synergies sous-régionales et l’échange de données d’expérience sur les politiques et les programmes ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_51" class="SingleTxt">
+              <content eId="para_51__content">
+                <p xml:space="preserve">	d) Examinent des positions régionales communes en tant que contributions aux processus mondiaux et encouragent le suivi régional de leurs résultats ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_52" class="SingleTxt">
+              <content eId="para_52__content">
+                <p xml:space="preserve">	e) Proposent à la Commission des questions pouvant faire l’objet de résolutions ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_53" class="SingleTxt">
+              <content eId="para_53__content">
+                <p xml:space="preserve">	f) Suivent l’application des résolutions de la Commission ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_54" class="SingleTxt">
+              <content eId="para_54__content">
+                <p xml:space="preserve">	g) Encouragent l’adoption d’une approche concertée de l’examen des problèmes de développement des pays de la région, le cas échéant, entre les gouvernements et la société civile, le secteur privé, ainsi que les organismes des Nations Unies et les autres organisations internationales aux niveaux régional et sous-régional.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_55" class="SingleTxt">
+              <num>14.</num>
+              <content eId="para_55__content">
+                <p xml:space="preserve">	Dans leurs domaines de compétence respectifs, les comités donnent en outre au secrétariat et à ses institutions régionales des directives pour l’examen du cadre stratégique et du programme de travail proposés.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_56" class="SingleTxt">
+              <num>15.</num>
+              <content eId="para_56__content">
+                <p xml:space="preserve">	Les questions suivantes sont intégrées dans l’ensemble des activités de tous les comités :</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_57" class="SingleTxt">
+              <content eId="para_57__content">
+                <p xml:space="preserve">	a) Mise en œuvre et suivi des progrès accomplis dans la réalisation des objectifs de développement pertinents arrêtés au niveau international, en particulier les objectifs de développement durable, et intégration équilibrée des trois dimensions du développement durable ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_58" class="SingleTxt">
+              <content eId="para_58__content">
+                <p xml:space="preserve">	b) Réduction de la pauvreté et relèvement durable après de grands bouleversements pour rendre l’Asie et le Pacifique plus équitables ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_59" class="SingleTxt">
+              <content eId="para_59__content">
+                <p xml:space="preserve">	c) Égalité des sexes ; </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_60" class="SingleTxt">
+              <content eId="para_60__content">
+                <p xml:space="preserve">	d) Besoins prioritaires des pays les moins avancés, des pays en développement sans littoral et des petits États insulaires en développement ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_61" class="SingleTxt">
+              <content eId="para_61__content">
+                <p xml:space="preserve">	e) Science, technologie et innovation, en particulier technologie numérique pour une transformation numérique sûre et inclusive. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_62" class="SingleTxt">
+              <num>16.</num>
+              <content eId="para_62__content">
+                <p xml:space="preserve">	Après consultation avec les États membres, des représentants de la société civile et du secteur privé peuvent être invités à participer aux sessions des comités selon qu’il convient, conformément au Règlement intérieur de la Commission.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_63" class="SingleTxt">
+              <num>17.</num>
+              <content eId="para_63__content">
+                <p xml:space="preserve">	La liste des questions examinées par chacun des neuf comités dans l’accomplissement des fonctions énumérées ci‑dessus figure à l’appendice I du présent document.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_64" class="SingleTxt">
+              <num>18.</num>
+              <content eId="para_64__content">
+                <p xml:space="preserve">	L’appareil subsidiaire de la Commission comprend également le Forum Asie-Pacifique pour le développement durable. Le mandat de ce forum est indiqué à l’appendice II du présent document.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_65" class="H23">
+              <num>III.</num>
+              <subheading>	Conférences ministérielles et autres réunions intergouvernementales spéciales</subheading>
+            </paragraph>
+            <paragraph eId="para_66" class="SingleTxt">
+              <num>19.</num>
+              <content eId="para_66__content">
+                <p xml:space="preserve">	Sous réserve de l’accord de la Commission, des conférences ministérielles et d’autres réunions intergouvernementales spéciales peuvent être organisées sur des questions spécifiques et des questions intersectorielles.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_67" class="SingleTxt">
+              <num>20.</num>
+              <content eId="para_67__content">
+                <p xml:space="preserve">	Au maximum huit conférences ministérielles ou autres réunions intergouvernementales spéciales peuvent être organisées outre le calendrier régulier des réunions intergouvernementales pour chaque période biennale, pour une durée totale ne dépassant pas 16 jours, à moins que la Commission n’en décide autrement.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_68" class="SingleTxt">
+              <num>21.</num>
+              <content eId="para_68__content">
+                <p xml:space="preserve">	Les années durant lesquelles une conférence ministérielle ou une réunion intergouvernementale est organisée sur des questions relevant normalement d’un comité, il n’y a pas lieu de réunir ce comité. Sous réserve de l’approbation de la Commission, un comité peut être convoqué au niveau ministériel de façon ponctuelle pour assurer un engagement de haut niveau concernant les questions qu’il traite.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_69" class="H23">
+              <num>IV.</num>
+              <subheading>	Comité consultatif des représentants permanents et autres représentants désignés par les membres de la Commission</subheading>
+            </paragraph>
+            <paragraph eId="para_70" class="SingleTxt">
+              <num>22.</num>
+              <content eId="para_70__content">
+                <p xml:space="preserve">	Les fonctions du Comité consultatif des représentants permanents et autres représentants désignés par les membres de la Commission correspondent au mandat figurant à l’appendice III du présent document.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_71" class="SingleTxt">
+              <num>23.</num>
+              <content eId="para_71__content">
+                <p xml:space="preserve">	Le Comité consultatif peut, au besoin, créer ses propres groupes de travail pour l’examen de questions précises.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_72" class="SingleTxt">
+              <num>24.</num>
+              <content eId="para_72__content">
+                <p xml:space="preserve">	Le Comité consultatif se réunit à une fréquence suffisante sous forme de sessions formelles ou informelles sur des questions d’actualité, en particulier avant la session de la Commission. Le Comité consultatif tient au moins 6 et pas plus de 12 réunions officielles par année civile. Toute réunion formelle ou informelle supplémentaire est organisée en consultation avec le Comité consultatif et le Secrétaire exécutif ou la Secrétaire exécutive, et le secrétariat n’établit pas alors de documentation, sauf à la demande expresse du Comité consultatif.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_73" class="SingleTxt">
+              <num>25.</num>
+              <content eId="para_73__content">
+                <p xml:space="preserve">	S’il est nécessaire de recueillir les vues des entités du système des Nations Unies et d’autres organisations intergouvernementales sur des questions relevant du Comité consultatif, ses membres peuvent, s’il y a consensus entre eux à ce propos, demander au secrétariat d’inviter les représentants d’une entité des Nations Unies ou d’une autre organisation intergouvernementale à assister à une session ultérieure du Comité consultatif.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_74" class="SingleTxt">
+              <num>26.</num>
+              <content eId="para_74__content">
+                <p xml:space="preserve">	Le Comité consultatif passe périodiquement en revue les travaux des bureaux sous-régionaux et des institutions régionales, et suit activement la mise en œuvre des résolutions par les États membres et fait rapport à ce sujet. Le secrétariat facilite l’élaboration de rapports sur les résolutions en établissant les directives et les modèles pertinents.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_75" class="H23">
+              <num>V.</num>
+              <subheading>	Institutions régionales opérant sous les auspices de la Commission</subheading>
+            </paragraph>
+            <paragraph eId="para_76" class="SingleTxt">
+              <num>27.</num>
+              <content eId="para_76__content">
+                <p xml:space="preserve">	Les institutions ci‑après, qui opèrent sous les auspices de la Commission, continueront à fonctionner de la manière prévue dans leurs statuts et mandats respectifs :</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_77" class="SingleTxt">
+              <content eId="para_77__content">
+                <p xml:space="preserve">	a) Centre de l’Asie et du Pacifique pour le transfert de technologie ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_78" class="SingleTxt">
+              <content eId="para_78__content">
+                <p xml:space="preserve">	b) Institut de statistique pour l’Asie et le Pacifique ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_79" class="SingleTxt">
+              <content eId="para_79__content">
+                <p xml:space="preserve">	c) Centre pour la mécanisation agricole durable ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_80" class="SingleTxt">
+              <content eId="para_80__content">
+                <p xml:space="preserve">	d) Centre Asie-Pacifique de formation aux technologies de l’information et de la communication pour le développement ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_81" class="SingleTxt">
+              <content eId="para_81__content">
+                <p xml:space="preserve">	e) Centre Asie-Pacifique pour le développement de la gestion de l’information sur les catastrophes.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_82" class="SingleTxt">
+              <num>28.</num>
+              <content eId="para_82__content">
+                <p xml:space="preserve">	La Commission peut constituer d’autres institutions régionales visant à appuyer la réalisation de ses objectifs stratégiques et programmatiques.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_83" class="H23">
+              <num>VI.</num>
+              <subheading>	Dispositions générales</subheading>
+            </paragraph>
+            <paragraph eId="para_84" class="H23">
+              <num>A.</num>
+              <subheading>	Règlement intérieur</subheading>
+            </paragraph>
+            <paragraph eId="para_85" class="SingleTxt">
+              <num>29.</num>
+              <content eId="para_85__content">
+                <p xml:space="preserve">	Sauf si la Commission en dispose autrement, le Règlement intérieur de la Commission et notamment les règles régissant la prise de décisions s’appliquent, <span class="italic">mutatis mutandis</span>, à ses comités et aux réunions et conférences convoquées dans le cadre de son appareil de conférence.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_86" class="H23">
+              <num>B.</num>
+              <subheading>	Session informelle</subheading>
+            </paragraph>
+            <paragraph eId="para_87" class="SingleTxt">
+              <num>30.</num>
+              <content eId="para_87__content">
+                <p xml:space="preserve">	Une session informelle des chefs de délégation peut être organisée pendant le débat ministériel de chaque session de la Commission mais ne doit pas être institutionnalisée. Son ordre du jour est décidé par consensus et son ordre du jour annoté est soumis aux membres 30 jours au moins avant l’ouverture de la session afin d’assurer l’efficacité et l’efficience des travaux. L’interprétation simultanée des débats est assurée.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_88" class="H23">
+              <subheading>Appendice I</subheading>
+            </paragraph>
+            <paragraph eId="para_89" class="H23">
+              <subheading>Questions qui seront examinées par les comités subsidiaires de la Commission économique et sociale pour l’Asie et le Pacifique</subheading>
+            </paragraph>
+            <paragraph eId="para_90" class="SingleTxt">
+              <content eId="para_90__content">
+                <p xml:space="preserve">	Les principales questions que les différents comités auront à traiter sont énumérées ci‑après. La Commission économique et sociale pour l’Asie et le Pacifique peut modifier la liste des questions relevant d’un comité à tout moment, selon qu’il convient ; les comités ont de même la possibilité de traiter de questions nouvelles ou émergentes portées à leur attention par le secrétariat après consultation avec les États membres.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_91" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_91__content">
+                <p xml:space="preserve">	Comité des politiques macroéconomiques, de la réduction de la pauvreté et du financement du développement :</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_92" class="SingleTxt">
+              <content eId="para_92__content">
+                <p xml:space="preserve">	a) Politiques macroéconomiques visant à appuyer la mise en œuvre du Programme de développement durable à l’horizon 2030 et la réduction de la pauvreté ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_93" class="SingleTxt">
+              <content eId="para_93__content">
+                <p xml:space="preserve">	b) Coopération régionale sur les questions macroéconomiques et de financement du développement et élaboration de positions régionales communes en tant que contributions aux consultations mondiales tout en assurant le suivi régional des recommandations qui y sont faites ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_94" class="SingleTxt">
+              <content eId="para_94__content">
+                <p xml:space="preserve">	c) Ressources pour le développement, notamment stratégies de financement pour atteindre les objectifs de développement durable, telles que les ressources budgétaires nationales, les instruments et mécanismes de financement novateurs, durables et ayant recours au numérique, et développement des marchés de capitaux.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_95" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_95__content">
+                <p xml:space="preserve">	Comité du commerce, de l’investissement, des entreprises et de l’innovation commerciale :</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_96" class="SingleTxt">
+              <content eId="para_96__content">
+                <p xml:space="preserve">	a) Commerce international et investissement, moteurs du développement, notamment les mécanismes de coopération régionale et les accords sur le commerce et la facilitation des échanges, tels que l’Accord commercial Asie-Pacifique et l’Accord-cadre sur la facilitation du commerce transfrontière sans papier en Asie et dans le Pacifique ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_97" class="SingleTxt">
+              <content eId="para_97__content">
+                <p xml:space="preserve">	b) Partenariats public-privé nationaux et internationaux, partenariats commerciaux, investissement, et développement et financement des petites et moyennes entreprises ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_98" class="SingleTxt">
+              <content eId="para_98__content">
+                <p xml:space="preserve">	c) Innovation, notamment via l’économie numérique, les entreprises inclusives, l’investissement à impact et les politiques et réglementations en matière d’innovation ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_99" class="SingleTxt">
+              <content eId="para_99__content">
+                <p xml:space="preserve">	d) Développement, transfert, adaptation et application de technologies pertinentes pour la région.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_100" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_100__content">
+                <p xml:space="preserve">	Comité des transports :</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_101" class="SingleTxt">
+              <content eId="para_101__content">
+                <p xml:space="preserve">	a) Des transports, une logistique, une mobilité et une connectivité efficaces et résilients, notamment dans le cadre d’accords internationaux sur les transports, tels que les Accords intergouvernementaux sur le Réseau routier asiatique, le Réseau ferroviaire transasiatique et les ports secs, ainsi que les liaisons et le transport maritime ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_102" class="SingleTxt">
+              <content eId="para_102__content">
+                <p xml:space="preserve">	b) Systèmes, services et politiques et stratégies de transport durables, efficaces et respectueux de l’environnement, mobilité urbaine durable et application de technologies de transport intelligentes ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_103" class="SingleTxt">
+              <content eId="para_103__content">
+                <p xml:space="preserve">	c) Des transports et une mobilité sûrs et inclusifs, notamment politiques et stratégies visant à améliorer la sécurité routière, transports tenant compte des questions de genre et amélioration de l’inclusivité et de l’accessibilité universelle des systèmes de transport ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_104" class="SingleTxt">
+              <content eId="para_104__content">
+                <p xml:space="preserve">	d) Harmonisation des normes et des documents de transport.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_105" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_105__content">
+                <p xml:space="preserve">	Comité de l’environnement et du développement :</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_106" class="SingleTxt">
+              <content eId="para_106__content">
+                <p xml:space="preserve">	a) Renforcer la durabilité environnementale du développement d’une manière globale et intégrée, notamment, mais pas exclusivement, par l’action climatique, la réduction de la pollution atmosphérique, l’utilisation durable des océans et des mers et la gestion durable des ressources en eau ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_107" class="SingleTxt">
+              <content eId="para_107__content">
+                <p xml:space="preserve">	b) Promouvoir la gestion durable des ressources naturelles ; </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_108" class="SingleTxt">
+              <content eId="para_108__content">
+                <p xml:space="preserve">	c) Promouvoir un développement urbain inclusif et durable ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_109" class="SingleTxt">
+              <content eId="para_109__content">
+                <p xml:space="preserve">	d) Promouvoir la production et la consommation durables, notamment par la mécanisation agricole durable et le transfert de technologies en vue d’atteindre les objectifs de développement arrêtés au niveau international.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_110" class="SingleTxt">
+              <num>5.</num>
+              <content eId="para_110__content">
+                <p xml:space="preserve">	Comité des technologies de l’information et de la communication, de la science, de la technologie et de l’innovation :</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_111" class="SingleTxt">
+              <content eId="para_111__content">
+                <p xml:space="preserve">	a) Accès aux technologies de l’information et de la communication et aux techniques et innovations numériques, notamment par l’accès universel à Internet, l’avènement de la société numérique, la transformation et l’inclusion numériques, notamment dans le cadre de l’initiative de l’Autoroute Asie-Pacifique de l’information ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_112" class="SingleTxt">
+              <content eId="para_112__content">
+                <p xml:space="preserve">	b) Application des techniques spatiales et des informations géospatiales intégrées au service du développement durable ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_113" class="SingleTxt">
+              <content eId="para_113__content">
+                <p xml:space="preserve">	c) Amélioration des compétences humaines et des capacités institutionnelles dans l’utilisation des technologies de l’information et de la communication et des applications de la technologie numérique pour que l’ère du numérique favorise le développement durable.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_114" class="SingleTxt">
+              <num>6.</num>
+              <content eId="para_114__content">
+                <p xml:space="preserve">	Comité de la réduction des risques de catastrophe :</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_115" class="SingleTxt">
+              <content eId="para_115__content">
+                <p xml:space="preserve">	a) Coopération régionale pour la réduction et l’atténuation des effets des catastrophes multirisques, l’adaptation au climat et la résilience ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_116" class="SingleTxt">
+              <content eId="para_116__content">
+                <p xml:space="preserve">	b) Mécanismes de coopération régionale pour le renforcement de la gestion des risques de catastrophe et de la résilience ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_117" class="SingleTxt">
+              <content eId="para_117__content">
+                <p xml:space="preserve">	c) Évaluation intégrée des risques multiples, préparation aux catastrophes, alerte et intervention rapides en cas de catastrophe, notamment atténuation de l’accumulation des risques liés aux agents biologiques et autres aléas naturels, notamment par l’utilisation d’outils exploitant des techniques innovantes ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_118" class="SingleTxt">
+              <content eId="para_118__content">
+                <p xml:space="preserve">	d) Gestion de l’information sur les catastrophes et alerte rapide multirisque, notamment pour les tempêtes de sable et de poussière.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_119" class="SingleTxt">
+              <num>7.</num>
+              <content eId="para_119__content">
+                <p xml:space="preserve">	Comité du développement social :</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_120" class="SingleTxt">
+              <content eId="para_120__content">
+                <p xml:space="preserve">	a) Examiner la mise en œuvre régionale des objectifs et engagements internationalement convenus en matière de développement social ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_121" class="SingleTxt">
+              <content eId="para_121__content">
+                <p xml:space="preserve">	b) Évaluer les tendances en matière de population et de développement, y compris les migrations internationales et le vieillissement de la population et leurs incidences sur le développement ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_122" class="SingleTxt">
+              <content eId="para_122__content">
+                <p xml:space="preserve">	c) S’attaquer aux problèmes d’inégalité et renforcer les systèmes de protection sociale et de santé ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_123" class="SingleTxt">
+              <content eId="para_123__content">
+                <p xml:space="preserve">	d) Promouvoir l’égalité des sexes et l’autonomisation des femmes ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_124" class="SingleTxt">
+              <content eId="para_124__content">
+                <p xml:space="preserve">	e) Promouvoir l’inclusion sociale des personnes âgées, des personnes handicapées et des autres personnes en situation de vulnérabilité.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_125" class="SingleTxt">
+              <num>8.</num>
+              <content eId="para_125__content">
+                <p xml:space="preserve">	Comité de statistique : doter les systèmes statistiques nationaux des capacités et des moyens d’élaborer et de fournir en temps utile des produits et services novateurs et fiables compte tenu de l’importance de répondre aux besoins de statistiques urgents et en constante évolution du Programme de développement durable à l’horizon 2030, tout en gardant à l’esprit les domaines d’action du document intitulé « Faire progresser les statistiques officielles pour le Programme de développement durable à l’horizon 2030 : vision et cadre d’action collectifs de la communauté statistique de l’Asie-Pacifique ».</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_126" class="SingleTxt">
+              <num>9.</num>
+              <content eId="para_126__content">
+                <p xml:space="preserve">	Comité de l’énergie :</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_127" class="SingleTxt">
+              <content eId="para_127__content">
+                <p xml:space="preserve">	a) Transition énergétique en Asie et dans le Pacifique, conformément au Programme de développement durable à l’horizon 2030, en particulier l’objectif de développement durable n<sup>o</sup> 7, et à l’Accord de Paris ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_128" class="SingleTxt">
+              <content eId="para_128__content">
+                <p xml:space="preserve">	b) Coopération régionale en vue de favoriser l’accès de tous à des services énergétiques fiables, durables et modernes, à un coût abordable, notamment grâce à la connectivité énergétique ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_129" class="SingleTxt">
+              <content eId="para_129__content">
+                <p xml:space="preserve">	c) Coopération régionale pour une sécurité énergétique renforcée et l’utilisation durable de l’énergie au moyen d’accords régionaux et de mandats, notamment le Forum Asie-Pacifique de l’énergie ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_130" class="SingleTxt">
+              <content eId="para_130__content">
+                <p xml:space="preserve">	d) Évaluer et examiner les implications de la transition énergétique.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_131" class="H23">
+              <subheading>Appendice II</subheading>
+            </paragraph>
+            <paragraph eId="para_132" class="H23">
+              <subheading>Mandat du Forum Asie-Pacifique pour le développement durable</subheading>
+            </paragraph>
+            <paragraph eId="para_133" class="H23">
+              <num>I.</num>
+              <subheading>	Fonctions principales</subheading>
+            </paragraph>
+            <paragraph eId="para_134" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_134__content">
+                <p xml:space="preserve">	Le Forum Asie-Pacifique pour le développement durable est une instance intergouvernementale inclusive qui se réunit chaque année. Il appuie les préparatifs du forum politique de haut niveau pour le développement durable dans le cadre du Conseil économique et social et de l’Assemblée générale.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_135" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_135__content">
+                <p xml:space="preserve">	Le Forum constitue une plateforme régionale pour :</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_136" class="SingleTxt">
+              <content eId="para_136__content">
+                <p xml:space="preserve">	a) Aider les pays, notamment les pays ayant des besoins particuliers, y compris par le renforcement de leurs capacités de mise en œuvre du Programme de développement durable à l’horizon 2030 ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_137" class="SingleTxt">
+              <content eId="para_137__content">
+                <p xml:space="preserve">	b) Présenter un point de vue régional sur la mise en œuvre du Programme de développement durable à l’horizon 2030 en identifiant les tendances régionales, ainsi qu’en unifiant et en mettant en commun les meilleures pratiques et les enseignements à retenir, compte tenu des contributions des autres organismes du système des Nations Unies au niveau régional, des autres organisations régionales et sous-régionales et des parties prenantes concernées ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_138" class="SingleTxt">
+              <content eId="para_138__content">
+                <p xml:space="preserve">	c) Appuyer le suivi et l’examen des progrès accomplis dans la réalisation du Programme 2030 et des objectifs de développement durable au niveau régional par les moyens suivants : évaluer les progrès réalisés et offrir des possibilités d’apprentissage par les pairs concernant le thème et les objectifs qui seront examinés lors du forum politique de haut niveau ; contribuer à la présentation des examens nationaux volontaires ; procéder à des examens périodiques des progrès de la Feuille de route régionale pour la mise en œuvre du Programme de développement durable à l’horizon 2030 en Asie et dans le Pacifique.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_139" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_139__content">
+                <p xml:space="preserve">	Ces fonctions bénéficient de l’appui interinstitutions, y compris par l’intermédiaire du Mécanisme de coordination régionale pour l’Asie et le Pacifique.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_140" class="H23">
+              <num>II.</num>
+              <subheading>	Conduite du Forum</subheading>
+            </paragraph>
+            <paragraph eId="para_141" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_141__content">
+                <p xml:space="preserve">	Partie intégrante de l’appareil de conférence de la Commission économique et sociale pour l’Asie et le Pacifique, le Forum est convoqué chaque année en tant qu’instance intergouvernementale inclusive avant le forum politique de haut niveau. Le thème du Forum doit s’inscrire dans la ligne de celui du forum politique de haut niveau, et l’ensemble des objectifs à examiner de manière approfondie doit être identique à l’ensemble des objectifs du forum politique de haut niveau.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_142" class="SingleTxt">
+              <num>5.</num>
+              <content eId="para_142__content">
+                <p xml:space="preserve">	Le Forum n’anticipe pas sur les décisions du forum politique de haut niveau ni ne préjuge de ces dernières, n’alourdit pas la charge représentée par l’établissement de rapports pour les États membres ni n’augmente le budget ordinaire de la Commission au‑delà du niveau ayant déjà été approuvé par l’Assemblée générale.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_143" class="SingleTxt">
+              <num>6.</num>
+              <content eId="para_143__content">
+                <p xml:space="preserve">	Le format actuel, y compris l’élection du Bureau pour chaque session, pourrait être maintenu et offrir un espace à la participation multipartite en vue de la réalisation du Programme de développement durable à l’horizon 2030, en consultation, selon qu’il convient, avec les États membres.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_144" class="SingleTxt">
+              <num>7.</num>
+              <content eId="para_144__content">
+                <p xml:space="preserve">	Les textes issus du Forum se composent d’un rapport assorti d’un résumé de la présidence figurant en annexe.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_145" class="SingleTxt">
+              <num>8.</num>
+              <content eId="para_145__content">
+                <p xml:space="preserve">	Le Forum peut tenir compte des perspectives sous-régionales sur les thèmes dont il traite. Des réunions préparatoires de parties prenantes peuvent être convoquées, dans les limites des ressources existantes.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_146" class="SingleTxt">
+              <num>9.</num>
+              <content eId="para_146__content">
+                <p xml:space="preserve">	Le Forum, y compris la participation des parties prenantes, est conduit conformément au Règlement intérieur de la Commission ainsi qu’aux modalités du forum politique de haut niveau sous les auspices du Conseil économique et social, tant qu’aucune incompatibilité n’est constatée entre eux.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_147" class="SingleTxt">
+              <num>10.</num>
+              <content eId="para_147__content">
+                <p xml:space="preserve">	Durant chaque session, un membre du Bureau de la session précédente peut rendre compte des débats tenus lors du forum politique de haut niveau réuni dans l’intervalle et sur les conclusions de la précédente session du Forum.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_148" class="SingleTxt">
+              <num>11.</num>
+              <content eId="para_148__content">
+                <p xml:space="preserve">	Le Forum est conduit de manière à éviter tout double emploi avec les autres plateformes et forums régionaux ; dans un souci d’efficacité et selon qu’il convient, le Forum est convoqué en coordination ou en collaboration avec d’autres forums et plateformes.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_149" class="H23">
+              <num>III.</num>
+              <subheading>	Relations du Forum avec l’appareil de conférence de la Commission</subheading>
+            </paragraph>
+            <paragraph eId="para_150" class="SingleTxt">
+              <num>12.</num>
+              <content eId="para_150__content">
+                <p xml:space="preserve">	Le rapport du Forum tel que défini au paragraphe 7 est porté à l’attention de la Commission à sa session suivante par la présidence ou la vice-présidence du Forum.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_151" class="SingleTxt">
+              <num>13.</num>
+              <content eId="para_151__content">
+                <p xml:space="preserve">	Le Forum peut recevoir des contributions des comités subsidiaires de la Commission ainsi que des autres parties prenantes concernées.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_152" class="SingleTxt">
+              <num>14.</num>
+              <content eId="para_152__content">
+                <p xml:space="preserve">	Le Forum peut bénéficier des conseils fournis par le Comité consultatif des représentants permanents et autres représentants désignés par les membres de la Commission en tant que moyen de consultation des États membres entre les sessions du Forum.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_153" class="SingleTxt">
+              <num>15.</num>
+              <content eId="para_153__content">
+                <p xml:space="preserve">	Les années où le forum politique de haut niveau se réunit sous les auspices de l’Assemblée générale sous forme de sommet, ce qui est le cas tous les quatre ans, le Forum peut se tenir parallèlement à la session de la Commission en avril/mai, et la Commission et le Forum partagent le même thème, selon qu’il convient. Les années où le forum politique de haut niveau se réunit sous les auspices du Conseil économique et social, le Forum se réunit au plus haut niveau technique.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_154" class="SingleTxt">
+              <num>16.</num>
+              <content eId="para_154__content">
+                <p xml:space="preserve">	Si les États membres en font la demande, le mandat du Forum pourra être révisé sur recommandation du Forum et après approbation de la Commission, en tenant compte des nouvelles contributions du forum politique de haut niveau et sur la base des examens périodiques menés par les États membres.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_155" class="H23">
+              <subheading>Appendice III</subheading>
+            </paragraph>
+            <paragraph eId="para_156" class="H23">
+              <subheading>Mandat du Comité consultatif des représentants permanents et autres représentants désignés par les membres de la Commission</subheading>
+            </paragraph>
+            <paragraph eId="para_157" class="SingleTxt">
+              <content eId="para_157__content">
+                <p xml:space="preserve">	Le Comité consultatif des représentants permanents et autres représentants désignés par les membres de la Commission remplit les fonctions suivantes :</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_158" class="SingleTxt">
+              <content eId="para_158__content">
+                <p xml:space="preserve">	a) Renforcer la coopération et la consultation étroites entre les États membres et le secrétariat, notamment en dispensant des conseils et des orientations qui seront pris en compte par le Secrétaire exécutif ou la Secrétaire exécutive dans la réalisation des activités respectives ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_159" class="SingleTxt">
+              <content eId="para_159__content">
+                <p xml:space="preserve">	b) Jouer le rôle de forum délibérant pour les échanges de vues sur les questions de fond et donner des orientations pour la formulation du programme de la Commission économique et sociale pour l’Asie et le Pacifique et en rapport avec les changements économiques et sociaux ayant une incidence sur la région Asie-Pacifique ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_160" class="SingleTxt">
+              <content eId="para_160__content">
+                <p xml:space="preserve">	c) Conseiller et orienter le Secrétaire exécutif ou la Secrétaire exécutive dans l’élaboration de projets de cadre stratégique, de programme de travail et concernant le thème des sessions de la Commission conformément aux directives données par la Commission ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_161" class="SingleTxt">
+              <content eId="para_161__content">
+                <p xml:space="preserve">	d) Recevoir régulièrement des informations sur le fonctionnement administratif et financier de la Commission ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_162" class="SingleTxt">
+              <content eId="para_162__content">
+                <p xml:space="preserve">	e) Conseiller et orienter le Secrétaire exécutif ou la Secrétaire exécutive dans le suivi et l’évaluation de l’exécution du programme de travail de la Commission et de l’affectation des ressources ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_163" class="SingleTxt">
+              <content eId="para_163__content">
+                <p xml:space="preserve">	f) Examiner le projet de calendrier des réunions avant sa présentation à la Commission, à sa session annuelle ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_164" class="SingleTxt">
+              <content eId="para_164__content">
+                <p xml:space="preserve">	g) Conseiller et orienter le Secrétaire exécutif ou la Secrétaire exécutive concernant le projet d’ordre du jour des sessions de la Commission et des comités subsidiaires, en veillant comme il se doit à ce que l’ordre du jour soit axé sur les résultats et bien cadré, conformément aux priorités des États membres en matière de développement, telles que définies par ceux-ci, et au chapitre II du Règlement intérieur de la Commission ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_165" class="SingleTxt">
+              <content eId="para_165__content">
+                <p xml:space="preserve">	h) Conseiller et orienter le Secrétaire exécutif ou la Secrétaire exécutive quant aux problèmes économiques et sociaux émergents et autres questions pertinentes à faire figurer à l’ordre du jour provisoire des sessions de la Commission et pour la formulation de l’ordre du jour provisoire annoté desdites sessions ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_166" class="SingleTxt">
+              <content eId="para_166__content">
+                <p xml:space="preserve">	i) Être informé de la collaboration et des arrangements connexes entre le secrétariat et les autres organisations internationales et régionales, concernant en particulier les programmes de coopération et les initiatives conjointes à long terme, notamment ceux qui doivent être proposés par le Secrétaire exécutif ou la Secrétaire exécutive et exécutés sous les auspices du Mécanisme de coordination régionale ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_167" class="SingleTxt">
+              <content eId="para_167__content">
+                <p xml:space="preserve">	j) Accomplir toutes autres tâches que lui confie la Commission.</p>
+              </content>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>
