@@ -1,0 +1,1018 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-11/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-11/"></FRBRuri>
+          <FRBRdate date="2022-07-21" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-11/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-11/ara@/"></FRBRuri>
+          <FRBRdate date="2022-07-29" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-11/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-11/ara@.xml"></FRBRuri>
+          <FRBRdate date="2022-08-09" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="6" href="http://metadata.un.org/sdg/6" showAs="sdg_6" dictionary="SDGO"></keyword>
+        <keyword value="water" href="http://eurovoc.europa.eu/597" showAs="water" dictionary="EuroVoc"></keyword>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/030500" showAs="water" dictionary="UNBIS"></keyword>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/1006939" showAs="water" dictionary="UNBIS"></keyword>
+        <keyword value="sanitation" href="http://metadata.un.org/thesaurus/1005701" showAs="sanitation" dictionary="UNBIS"></keyword>
+        <keyword value="public_hygiene" href="http://eurovoc.europa.eu/3371" showAs="public_hygiene" dictionary="EuroVoc"></keyword>
+        <keyword value="water_management" href="http://eurovoc.europa.eu/3144" showAs="water_management" dictionary="EuroVoc"></keyword>
+        <keyword value="water_management" href="http://metadata.un.org/thesaurus/1006948" showAs="water_management" dictionary="UNBIS"></keyword>
+        <keyword value="use_of_water" href="http://eurovoc.europa.eu/4628" showAs="use_of_water" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="14" href="http://metadata.un.org/sdg/14" showAs="sdg_14" dictionary="SDGO"></keyword>
+        <keyword value="marine_resources" href="http://metadata.un.org/thesaurus/030800" showAs="marine_resources" dictionary="UNBIS"></keyword>
+        <keyword value="marine_resources" href="http://metadata.un.org/thesaurus/1003922" showAs="marine_resources" dictionary="UNBIS"></keyword>
+        <keyword value="oceans_and_seas" href="http://metadata.un.org/thesaurus/170600" showAs="oceans_and_seas" dictionary="UNBIS"></keyword>
+        <keyword value="ocean" href="http://eurovoc.europa.eu/2107" showAs="ocean" dictionary="EuroVoc"></keyword>
+        <keyword value="ocean" href="http://metadata.un.org/thesaurus/1004576" showAs="ocean" dictionary="UNBIS"></keyword>
+        <keyword value="marine_environment" href="http://eurovoc.europa.eu/5742" showAs="marine_environment" dictionary="EuroVoc"></keyword>
+        <keyword value="marine_environment" href="http://metadata.un.org/thesaurus/1003911" showAs="marine_environment" dictionary="UNBIS"></keyword>
+        <keyword value="marine_life" href="http://eurovoc.europa.eu/3149" showAs="marine_life" dictionary="EuroVoc"></keyword>
+        <keyword value="sea" href="http://eurovoc.europa.eu/1870" showAs="sea" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="8" href="http://metadata.un.org/sdg/8" showAs="sdg_8" dictionary="SDGO"></keyword>
+        <keyword value="unemployment" href="http://eurovoc.europa.eu/5974" showAs="unemployment" dictionary="EuroVoc"></keyword>
+        <keyword value="unemployment" href="http://metadata.un.org/thesaurus/1006773" showAs="unemployment" dictionary="UNBIS"></keyword>
+        <keyword value="economic_growth" href="http://eurovoc.europa.eu/310" showAs="economic_growth" dictionary="EuroVoc"></keyword>
+        <keyword value="economic_growth" href="http://metadata.un.org/thesaurus/1001854" showAs="economic_growth" dictionary="UNBIS"></keyword>
+        <keyword value="employment" href="http://metadata.un.org/thesaurus/1002007" showAs="employment" dictionary="UNBIS"></keyword>
+        <keyword value="full_employment" href="http://eurovoc.europa.eu/2427" showAs="full_employment" dictionary="EuroVoc"></keyword>
+        <keyword value="full_employment" href="http://metadata.un.org/thesaurus/1002563" showAs="full_employment" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. ESCAP" showAs="UN. ESCAP" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. ESCAP" showAs="UN. ESCAP" dictionary="DHLAUTH"></keyword>
+        <keyword value="2030 Agenda for Sustainable Development" showAs="2030 Agenda for Sustainable Development" dictionary="DHLAUTH"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="REGIONAL COMMISSIONS" showAs="REGIONAL COMMISSIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ASIA AND THE PACIFIC" showAs="ASIA AND THE PACIFIC" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CONFERENCES" showAs="CONFERENCES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COVID-19" showAs="COVID-19" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="15" showAs="Regional cooperation." shortForm="REGIONAL COOPERATION" dictionary="E/2022/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="E/2022/15" by="UN. ESCAP" />
+        <step date="2022-07-29" outcome="adopted" as="Adopted without vote, 33rd plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2022/11</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">إن المجلس الاقتصادي والاجتماعي</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-07-29" class="rightSmall" refersTo="#dateOfIssuance">29 July 2022</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2022" eId="coverPage_1__session_1">دورة عام 2022</session>
+      </p>
+      <p>
+        <inline title="15" name="agenda item">البند 15 من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">التعاون الإقليمي</inline>
+      </p>
+      <p>
+        <docTitle>قرار اتخذه المجلس الاقتصادي والاجتماعي في 21 تموز/يوليه 2022</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="Economic and Social Commission for Asia and the Pacific">[بناء على توصية اللجنة الاقتصادية والاجتماعية لآسيا والمحيط الهادئ (<inline name="originating document">E/2022/15/Add.1</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2022/11</docNumber>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold italic">إن المجلس الاقتصادي والاجتماعي</span>،</p>
+      </formula>
+      <container name="إذ يحيط علما" eId="container_2">
+        <p xml:space="preserve">
+          <span class="bold italic">	إذ يحيط علما</span> بقرار اللجنة الاقتصادية والاجتماعية لآسيا والمحيط الهادئ 78/2 المؤرخ 27 أيار/مايو 2022، الذي اعتمدت اللجنة بموجبه هيكل مؤتمرات اللجنة للنهوض بالتنمية المستدامة،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_3" class="SingleTxt">
+        <content eId="para_3__content">
+          <p xml:space="preserve">
+            <span class="bold italic">	يقر </span>هيكل مؤتمرات اللجنة الاقتصادية والاجتماعية لآسيا والمحيط الهادئ للنهوض بالتنمية المستدامة، على النحو المبين في مرفق هذا القرار.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="33">الجلسة العامة 33</inline>
+        <eol />
+        <docDate date="2022-07-21" refersTo="#adoptionDate">21 تموز/يوليه 2022</docDate>
+      </p>
+    </conclusions>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-11/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-11/"></FRBRuri>
+                <FRBRdate date="2022-07-21" name="adoption"></FRBRdate>
+                <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-11/ara@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-11/ara@/"></FRBRuri>
+                <FRBRdate date="2022-07-29" name="publication"></FRBRdate>
+                <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="ara"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-11/ara@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-11/ara@.xml"></FRBRuri>
+                <FRBRdate date="2022-08-09" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_5" class="H23">
+              <subheading>المرفق</subheading>
+            </paragraph>
+            <paragraph eId="para_6" class="H23">
+              <subheading>القرار 78/2</subheading>
+            </paragraph>
+            <paragraph eId="para_7" class="H23">
+              <subheading>هيكل مؤتمرات اللجنة الاقتصادية والاجتماعية لآسيا والمحيط الهادئ للنهوض بالتنمية  المستدامة</subheading>
+            </paragraph>
+            <paragraph eId="para_8" class="SingleTxt">
+              <content eId="para_8__content">
+                <p xml:space="preserve">	<span class="bold italic">إن اللجنة الاقتصادية والاجتماعية لآسيا والمحيط الهادئ</span>،</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_9" class="SingleTxt">
+              <content eId="para_9__content">
+                <p xml:space="preserve">
+                  <span class="bold italic">	إذ تشير</span> إلى قرارها 73/1 المؤرخ 19 أيار/مايو 2017 بشأن هيكل لمؤتمرات اللجنة الاقتصادية والاجتماعية لآسيا والمحيط الهادئ يتماشى مع خطة التنمية المستدامة لعام 2030، الذي قررت فيه، في جملة أمور، إجراء استعراض لهيكل مؤتمراتها في دورتها الثامنة والسبعين، في عام 2022، مع استعراض منتصف المدة في دورتها الخامسة والسبعين، في عام 2019، وطلبت إلى الأمينة التنفيذية أن تقدم تقريرا في كلتا الحالتين، مع التركيز على المجالات البرنامجية للجنة، يكون بمثابة أساس لذلك الاستعراض،</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_10" class="SingleTxt">
+              <content eId="para_10__content">
+                <p xml:space="preserve">
+                  <span class="bold italic">	وإذ تشير أيضا</span> إلى مقرريها 75/16 المؤرخ 31 أيار/مايو 2019 بشأن تنظيم الدورات السنوية للجنة و 75/17 المؤرخ 31 أيار/مايو 2019 بشأن استعراض هيكل مؤتمرات اللجنة<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	()	انظر <span class="italic">الوثائق الرسمية للمجلس الاقتصادي والاجتماعي، 2019، الملحق رقم 19</span> (<a href="https://undocs.org/ar/E/2019/39">E/2019/39</a>)، الفصل الأول، الفرع باء.</p></authorialNote><sup>)</sup>،</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_11" class="SingleTxt">
+              <content eId="para_11__content">
+                <p xml:space="preserve">
+                  <span class="bold italic">	وإذ تشير كذلك</span> إلى قرارها 5/74 المؤرخ 16 أيار/مايو 2018 بشان تحوُّل مركز التخفيف من وطأة الفقر من خلال الزراعة المستدامة إلى منظمة حكومية دولية خارج منظومة الأمم المتحدة،</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_12" class="SingleTxt">
+              <content eId="para_12__content">
+                <p xml:space="preserve">
+                  <span class="bold italic">	وإذ تبرز</span> أهمية التعجيل باتخاذ إجراءات لتحقيق خطة التنمية المستدامة لعام 2030<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	()	قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/70/1">70/1</a>.</p></authorialNote><sup>)</sup>، وإذ تشدد على أن التعافي من جائحة مرض فيروس كورونا (كوفيد-19) يتيح فرصة للنهوض بالتنمية المستدامة في منطقة آسيا والمحيط الهادئ،</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_13" class="SingleTxt">
+              <content eId="para_13__content">
+                <p xml:space="preserve">
+                  <span class="bold italic">	وقد نظرت</span> في مذكرة الأمانة بشأن استعراض هيكل مؤتمرات اللجنة عملا بالقرار 73/1<sup>(</sup><authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	()	ESCAP∕78/31.</p></authorialNote><sup>)</sup>،</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_14" class="SingleTxt">
+              <content eId="para_14__content">
+                <p xml:space="preserve">
+                  <span class="bold italic">	وقد نظرت أيضا</span> في تقارير مجالس إدارة المؤسسات الإقليمية واللجان، وكذلك في التقارير المتعلقة بمنتديات آسيا والمحيط الهادئ المعنية بالتنمية المستدامة والمؤتمرات الوزارية المعقودة منذ الدورة الثالثة والسبعين للجنة،</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_15" class="SingleTxt">
+              <content eId="para_15__content">
+                <p xml:space="preserve">	1 -	<span class="bold italic">تقرر</span> أن تنقح بأثر فوري هيكل مؤتمراتها للتعجيل بتنفيذ خطة التنمية المستدامة لعام 2030، ولا سيما لتحديث اختصاصات اللجان الفرعية التابعة للجنة الاقتصادية والاجتماعية لآسيا والمحيط الهادئ والمسائل التي ستنظر فيها، على النحو الوارد في مرفق هذا القرار؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_16" class="SingleTxt">
+              <content eId="para_16__content">
+                <p xml:space="preserve">	2 -	<span class="bold italic">تقرر أيضا </span>إعادة تشكيل لجنة التجارة والاستثمار بوصفها لجنة التجارة والاستثمار والمشاريع والابتكار في مجال الأعمال التجارية، التي ستجتمع مرة كل سنتين؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_17" class="SingleTxt">
+              <content eId="para_17__content">
+                <p xml:space="preserve">	3 -	<span class="bold italic">تشير</span> إلى قراراتها 48/2 المؤرخ 23 نيسان/أبريل 1992 و 64/1 المؤرخ 30 نيسان/أبريل 2008 بشأن إعادة تشكيل هيكل مؤتمرات اللجنة و 69/1 المؤرخ 1 أيار/مايو 2013 بشأن هيكل مؤتمرات اللجنة من أجل تحقيق التنمية الشاملة والمستدامة في منطقة آسيا والمحيط الهادئ، وتقرر إعادة تسمية الهيئة الخاصة المعنية بأقل البلدان نموا والبلدان النامية غير الساحلية والبلدان الجزرية النامية في منطقة المحيط الهادئ لتصبح الهيئة الخاصة المعنية بأقل الدول نموا والدول النامية غير الساحلية والدول الجزرية الصغيرة النامية، وإجراء مداولات الهيئة الخاصة خلال الجزء الوزاري من دورات اللجنة؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_18" class="SingleTxt">
+              <content eId="para_18__content">
+                <p xml:space="preserve">	4 -	<span class="bold italic">تؤكد مجددا</span> أن هيكل مؤتمرات اللجنة يجب أن يكون مطابقا للنمط المبين في مرفق هذا القرار؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_19" class="SingleTxt">
+              <content eId="para_19__content">
+                <p xml:space="preserve">	5 -	<span class="bold italic">تطلب</span> إلى الأمينة التنفيذية أن تواصل تعزيز وتشجيع التعاون والتآزر فيما بين المؤسسات ذات الصلة في منظومة الأمم المتحدة الإنمائية في آسيا والمحيط الهادئ وأصحاب المصلحة الآخرين، حسب الاقتضاء، دعما لتنفيذ خطة التنمية المستدامة لعام 2030 من جانب أعضاء اللجنة والأعضاء المنتسبين إليها سعيا لزيادة كفاءة هذا التنفيذ وفعاليته إلى أقصى حد؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_20" class="SingleTxt">
+              <content eId="para_20__content">
+                <p xml:space="preserve">	6 -	<span class="bold italic">تطلب أيضا</span> إلى الأمينة التنفيذية أن تواصل إجراء رصد وتقييم منهجيين لهيكل المؤتمرات وتطابقه مع الأولويات البرنامجية للجنة بغية زيادة كفاءة عملها وفعاليته وأوجه تآزره؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_21" class="SingleTxt">
+              <content eId="para_21__content">
+                <p xml:space="preserve">	7 -	<span class="bold italic">تقرر</span> إجراء استعراض لهيكل مؤتمراتها في دورتها الثالثة والثمانين، في عام 2027، مع استعراض منتصف المدة في دورتها الحادية والثمانين، في عام 2025، وتطلب إلى الأمينة التنفيذية أن تقدم إلى اللجنة تقريرا في كل حالة، مع التركيز على المجالات البرنامجية للجنة، التي ستكون بمثابة أساس لذلك الاستعراض.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_22" class="H23">
+              <subheading>مرفق القرار 78/2</subheading>
+            </paragraph>
+            <paragraph eId="para_23" class="H23">
+              <subheading>هيكل مؤتمرات اللجنة الاقتصادية والاجتماعية لآسيا والمحيط الهادئ</subheading>
+            </paragraph>
+            <paragraph eId="para_24" class="H23">
+              <subheading>أولا -	اللجنة الاقتصادية والاجتماعية لآسيا والمحيط الهادئ</subheading>
+            </paragraph>
+            <paragraph eId="para_25" class="SingleTxt">
+              <content eId="para_25__content">
+                <p xml:space="preserve">1 -	تجتمع اللجنة الاقتصادية والاجتماعية لآسيا والمحيط الهادئ سنويا، في إطار موضوع شامل تختاره الدول الأعضاء، وتتكون كل دورة من جزء خاص بكبار المسؤولين يليه جزء وزاري، وتستمر لما مجموعه خمسة أيام عمل، وتقرر الأمانة مدة كل جزء بالتشاور مع الدول الأعضاء لمناقشة المسائل الهامة المتصلة بالتنمية الشاملة والمستدامة في المنطقة واتخاذ قرارات بشأنها، وللبت في التوصيات الصادرة عن هيئاتها الفرعية وعن الأمينة التنفيذية، واستعراض الإطار الاستراتيجي وبرنامج العمل المقترحين وإقرارهما، واتخاذ أي قرارات أخرى مطلوبة وفقا لاختصاصاتها.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_26" class="SingleTxt">
+              <content eId="para_26__content">
+                <p xml:space="preserve">2 -	تعقد مداولات الهيئة الخاصة المعنية بأقل الدول نموا والدول النامية غير الساحلية والدول الجزرية الصغيرة النامية لمدة أقصاها يوم واحد خلال الجزء الوزاري.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_27" class="SingleTxt">
+              <content eId="para_27__content">
+                <p xml:space="preserve">3 -	يمكن أن تشمل دورة اللجنة محاضرة تلقيها شخصية متميزة؛ ويجوز توجيه الدعوة إلى ممثلين رفيعي المستوى من وكالات الأمم المتحدة للمشاركة في حلقات النقاش التي تعقد أثناء الدورة، ويجوز توجيه الدعوة إلى قادة الشركات ومنظمات المجتمع المدني للمشاركة في الدورة، حسب الاقتضاء، وفقا للنظام الداخلي للجنة.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_28" class="SingleTxt">
+              <content eId="para_28__content">
+                <p xml:space="preserve">4 -	يعاد تشكيل الفريق العامل غير الرسمي المعني بمشاريع قرارات اللجنة الاستشارية للممثلين الدائمين وغيرهم من الممثلين المعينين من أعضاء اللجنة، والذي يجتمع قبل دورة اللجنة، ليصبح الفريق العامل المعني بمشاريع القرارات أثناء عقد الجزء الخاص بكبار المسؤولين، ويكون لهذا الفريق مركز مساو لمركز اللجان الجامعة.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_29" class="SingleTxt">
+              <content eId="para_29__content">
+                <p xml:space="preserve">5 -	ينبغي ألا يتجاوز عدد الاجتماعات المتزامنة للجان الجامعة، بما في ذلك اجتماعات الهيئات المساوية لها، التي تعقد أثناء عقد الجزء الخاص بكبار المسؤولين من الدورة السنوية للجنة اجتماعين.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_30" class="SingleTxt">
+              <content eId="para_30__content">
+                <p xml:space="preserve">6 -	تعكس مشاريع القرارات المداولات الموضوعية التي تجريها الدول الأعضاء؛ وعلاوة على ذلك، ودون الإخلال بالمادة 31 من النظام الداخلي، يشجع بقوة أعضاء اللجنة الذين يعتزمون تقديم مشاريع قرارات إلى اللجنة على تقديمها إلى الأمينة التنفيذية قبل بدء دورة اللجنة بشهر واحد على الأقل ليتاح لأعضاء اللجنة والأعضاء المنتسبين إليها الوقت الكافي لاستعراضها، ولا تنظر اللجنة في مشاريع القرارات المقدمة في غضون أسبوع واحد من اليوم الأول من دورة اللجنة.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_31" class="SingleTxt">
+              <content eId="para_31__content">
+                <p xml:space="preserve">7 -	يتألف تقرير اللجنة من مقررات اللجنة وقراراتها. ويعمم مشروع محضر مداولات اللجنة، الذي تُعدُّه الأمانة، على الأعضاء والأعضاء المنتسبين للتعليق عليه في غضون 15 يوما من اختتام الدورة. وسيطلب من الأعضاء والأعضاء المنتسبين تقديم التعليقات في غضون 15 يوما من تلقي مشروع محضر المداولات. ويصدر محضر الأمانة النهائي لأعمال دورة اللجنة في غضون شهرين من اختتام الدورة، مع أخذ التعليقات ذات الصلة للأعضاء والأعضاء المنتسبين في الاعتبار.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_32" class="SingleTxt">
+              <content eId="para_32__content">
+                <p xml:space="preserve">8 -	تكون اللجنة بمثابة المنبر الإقليمي لإدماج المسارات القطاعية للجان، بغية تعزيز التنمية المستدامة على نحو منصف من خلال جميع أبعادها الثلاثة.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_33" class="SingleTxt">
+              <content eId="para_33__content">
+                <p xml:space="preserve">9 -	كمبدأ عام ودون الإخلال بالمادة 13 من النظام الداخلي للجنة، يشغل منصب رئيس اللجنة بالتناوب فيما بين مناطقها دون الإقليمية الخمس<sup>(</sup><authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">	()	المناطق دون الإقليمية الخمس التابعة للجنة هي: شرق وشمال شرق آسيا؛ شمال ووسط آسيا؛ جنوب وجنوب غرب آسيا؛ جنوب شرق آسيا؛ منطقة المحيط الهادئ (<a href="https://undocs.org/ar/A/62/708">A/62/708</a>، الفقرة 321).</p></authorialNote><sup>)</sup>.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_34" class="H23">
+              <subheading>ثانيا -	الهيكل الفرعي</subheading>
+            </paragraph>
+            <paragraph eId="para_35" class="SingleTxt">
+              <content eId="para_35__content">
+                <p xml:space="preserve">10 -	يتألف الهيكل الفرعي للجنة من اللجان التسع التالية:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_36" class="SingleTxt">
+              <content eId="para_36__content">
+                <p xml:space="preserve">	(أ)	لجنة سياسات الاقتصاد الكلي والحد من الفقر وتمويل التنمية؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_37" class="SingleTxt">
+              <content eId="para_37__content">
+                <p xml:space="preserve">	(ب)	لجنة التجارة والاستثمار والمشاريع والابتكار في مجال الأعمال التجارية؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_38" class="SingleTxt">
+              <content eId="para_38__content">
+                <p xml:space="preserve">	(ج)	لجنة النقل؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_39" class="SingleTxt">
+              <content eId="para_39__content">
+                <p xml:space="preserve">	(د)	لجنة البيئة والتنمية؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_40" class="SingleTxt">
+              <content eId="para_40__content">
+                <p xml:space="preserve">	(ه)	لجنة تكنولوجيا المعلومات والاتصالات والعلم والتكنولوجيا والابتكار؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_41" class="SingleTxt">
+              <content eId="para_41__content">
+                <p xml:space="preserve">	(و)	لجنة الحد من مخاطر الكوارث؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_42" class="SingleTxt">
+              <content eId="para_42__content">
+                <p xml:space="preserve">	(ز)	لجنة التنمية الاجتماعية؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_43" class="SingleTxt">
+              <content eId="para_43__content">
+                <p xml:space="preserve">	(ح)	لجنة الإحصاءات؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_44" class="SingleTxt">
+              <content eId="para_44__content">
+                <p xml:space="preserve">	(ط)	لجنة الطاقة.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_45" class="SingleTxt">
+              <content eId="para_45__content">
+                <p xml:space="preserve">11 -	تجتمع كل من اللجان التسع مرة كل سنتين لمدة أقصاها ثلاثة أيام لكل دورة، مع عقد جلسات عامة مشتركة بين لجان متعددة لمناقشة المسائل الشاملة، حيثما كان ذلك ممكنا ومستصوبا.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_46" class="SingleTxt">
+              <content eId="para_46__content">
+                <p xml:space="preserve">12 -	يجوز للجنة أن تكلف لجنة محددة أو عدة لجان بالاجتماع في سنة الفجوة التي يصبح فيها موضوعٌ معينٌ قضية ملحة بالنسبة للمنطقة.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_47" class="SingleTxt">
+              <content eId="para_47__content">
+                <p xml:space="preserve">13 -	تضطلع اللجان، كل في مجال اختصاصها، بما يلي:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_48" class="SingleTxt">
+              <content eId="para_48__content">
+                <p xml:space="preserve">	(أ)	استعراض الاتجاهات الإقليمية وتحليلها في سياق تنفيذ خطة التنمية المستدامة لعام 2030؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_49" class="SingleTxt">
+              <content eId="para_49__content">
+                <p xml:space="preserve">	(ب)	القيام، بالتشاور مع الدول الأعضاء، بتحديد أولوياتها والقضايا المستجدة فيما يتعلق بالتنمية القادرة على الصمود والشاملة والمستدامة، والتشاور بشأن النهج الإقليمية، مع مراعاة الجوانب دون الإقليمية؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_50" class="SingleTxt">
+              <content eId="para_50__content">
+                <p xml:space="preserve">	(ج)	تشجيع الحوار على الصعيد الإقليمي، وعند الاقتضاء، الحوار على الصعيد الأقاليمي، بما في ذلك الحوار بشأن أوجه التآزر على الصعيد دون الإقليمي، وتبادل الخبرات في مجال السياسات والبرامج؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_51" class="SingleTxt">
+              <content eId="para_51__content">
+                <p xml:space="preserve">	(د)	النظر في المواقف الإقليمية المشتركة لاتخاذها مدخلات للأنشطة على الصعيد العالمي، وتعزيز متابعة نتائجها على الصعيد الإقليمي؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_52" class="SingleTxt">
+              <content eId="para_52__content">
+                <p xml:space="preserve">	(ه)	اقتراح مسائل تنظر فيها اللجنة يمكن أن تتخذ قرارات بشأنها؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_53" class="SingleTxt">
+              <content eId="para_53__content">
+                <p xml:space="preserve">	(و)	رصد تنفيذ قرارات اللجنة؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_54" class="SingleTxt">
+              <content eId="para_54__content">
+                <p xml:space="preserve">	(ز)	التشجيع على اتباع نهج للتصدي للتحديات التي تواجهها المنطقة في مجال التنمية، عند الاقتضاء، تتعاون في إطاره الحكومات والمجتمع المدني والقطاع الخاص، فضلا عن الأمم المتحدة والمنظمات الدولية الأخرى على الصعيدين الإقليمي ودون الإقليمي.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_55" class="SingleTxt">
+              <content eId="para_55__content">
+                <p xml:space="preserve">14 -	علاوة على ذلك، تقدم اللجان، كل في مجال اختصاصها، إلى الأمانة، بما في ذلك المؤسسات الإقليمية التابعة لها، توجيهات بشأن استعراض الإطار الاستراتيجي وبرنامج العمل المقترحين.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_56" class="SingleTxt">
+              <content eId="para_56__content">
+                <p xml:space="preserve">15 -	تدرج المجالات التالية في صلب عمل جميع اللجان:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_57" class="SingleTxt">
+              <content eId="para_57__content">
+                <p xml:space="preserve">	(أ)	تنفيذ ورصد تحقيق الأهداف الإنمائية ذات الصلة المتفق عليها دوليا، ولا سيما أهداف التنمية المستدامة، والتكامل المتوازن بين الأبعاد الثلاثة للتنمية المستدامة؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_58" class="SingleTxt">
+              <content eId="para_58__content">
+                <p xml:space="preserve">	(ب)	الحد من الفقر والانتعاش المستدام من الصدمات الكبيرة من أجل منطقة أكثر إنصافا في آسيا والمحيط الهادئ؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_59" class="SingleTxt">
+              <content eId="para_59__content">
+                <p xml:space="preserve">	(ج)	المساواة بين الجنسين؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_60" class="SingleTxt">
+              <content eId="para_60__content">
+                <p xml:space="preserve">	(د)	الاحتياجات ذات الأولوية لأقل البلدان نموا والبلدان النامية غير الساحلية والدول الجزرية الصغيرة النامية؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_61" class="SingleTxt">
+              <content eId="para_61__content">
+                <p xml:space="preserve">	(ه)	العلم والتكنولوجيا والابتكار، ولا سيما التكنولوجيا الرقمية من أجل تحول رقمي آمن وشامل.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_62" class="SingleTxt">
+              <content eId="para_62__content">
+                <p xml:space="preserve">16 -	يجوز توجيه الدعوة إلى ممثلي المجتمع المدني والقطاع الخاص، بعد التشاور مع الدول الأعضاء، للمشاركة في دورات اللجنة حسب الاقتضاء، وفقا للنظام الداخلي للجنة.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_63" class="SingleTxt">
+              <content eId="para_63__content">
+                <p xml:space="preserve">17 -	ترد في التذييل الأول لهذه الوثيقة قائمة بالمسائل المحددة التي ينبغي أن تعالجها كل لجنة من اللجان التسع في سياق الاضطلاع بالمهام المذكورة أعلاه.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_64" class="SingleTxt">
+              <content eId="para_64__content">
+                <p xml:space="preserve">18 -	يشمل الهيكل الفرعي للجنة أيضا منتدى آسيا والمحيط الهادئ بشأن التنمية المستدامة. وترد اختصاصات المنتدى في التذييل الثاني لهذه الوثيقة.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_65" class="H23">
+              <subheading>ثالثا -	المؤتمرات الوزارية المخصصة وغيرها من الاجتماعات الحكومية الدولية</subheading>
+            </paragraph>
+            <paragraph eId="para_66" class="SingleTxt">
+              <content eId="para_66__content">
+                <p xml:space="preserve">19 -	رهنا بموافقة اللجنة، يجوز تنظيم مؤتمرات وزارية مخصصة وغيرها من الاجتماعات الحكومية الدولية المتعلقة بقضايا محددة وقضايا شاملة لعدة قطاعات.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_67" class="SingleTxt">
+              <content eId="para_67__content">
+                <p xml:space="preserve">20 -	لا تعقد أكثر من ثمانية مؤتمرات وزارية مخصصة وغيرها من الاجتماعات الحكومية الدولية بالإضافة إلى الجدول الزمني المعتاد للاجتماعات الحكومية الدولية خلال كل فترة من فترات السنتين، ولا يجوز أن يتجاوز العدد الإجمالي لأيام عقدها 16 يوما، ما لم تقرر اللجنة خلاف ذلك.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_68" class="SingleTxt">
+              <content eId="para_68__content">
+                <p xml:space="preserve">21 -	وفي السنوات التي يعقد فيها مؤتمر وزاري أو اجتماع حكومي دولي يتناول المسائل التي تناقش عادة في إحدى اللجان، ليس ثمة ما يدعو إلى انعقاد اللجنة المعنية بتلك المسائل. ورهنا بموافقة اللجنة، يجوز عقد لجنة على المستوى الوزاري على أساس مخصص لضمان المشاركة الرفيعة المستوى بشأن المسائل التي يتعين معالجتها.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_69" class="H23">
+              <subheading>رابعا -	اللجنة الاستشارية المؤلفة من الممثلين الدائمين وغيرهم من الممثلين المعينين من أعضاء اللجنة</subheading>
+            </paragraph>
+            <paragraph eId="para_70" class="SingleTxt">
+              <content eId="para_70__content">
+                <p xml:space="preserve">22 -	تتسق مهام اللجنة الاستشارية للممثلين الدائمين وغيرهم من الممثلين المعينين من أعضاء اللجنة مع الاختصاصات الواردة في التذييل الثالث لهذه الوثيقة.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_71" class="SingleTxt">
+              <content eId="para_71__content">
+                <p xml:space="preserve">23 -	يجوز للجنة الاستشارية، عند الضرورة، أن تنشئ أفرقة عاملة تابعة لها للنظر في مسائل محددة.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_72" class="SingleTxt">
+              <content eId="para_72__content">
+                <p xml:space="preserve">24 -	تجتمع اللجنة الاستشارية مرات كافية في إطار اجتماعات رسمية وغير رسمية على السواء بشأن مواضيع الساعة، وبخاصة قبل انعقاد دورة اللجنة. ويجب ألا يكون عدد الجلسات الرسمية للجنة الاستشارية في السنة التقويمية أقل من 6 اجتماعات أو أكثر من 12 اجتماعا. وتعقد أية اجتماعات إضافية، سواء كانت رسمية أم غير رسمية، بالتشاور مع اللجنة الاستشارية والأمينة التنفيذية، وقد لا تدعو الحاجة إلى أن تصدر الأمانة وثائق بشأنها، ما لم تطلب اللجنة الاستشارية خلاف ذلك.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_73" class="SingleTxt">
+              <content eId="para_73__content">
+                <p xml:space="preserve">25 -	وإذا دعت الحاجة إلى استطلاع آراء كيانات الأمم المتحدة أو غيرها من المنظمات الحكومية الدولية بشأن المواضيع التي تهمُّ اللجنة الاستشارية، يمكن لأعضاء اللجنة الاستشارية، إذا تم التوصل إلى توافق في الآراء، أن يطلبوا إلى الأمانة أن تدعو ممثلي كيانات معينة تابعة للأمم المتحدة أو منظمات حكومية دولية أخرى لحضور دورة لاحقة للجنة الاستشارية.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_74" class="SingleTxt">
+              <content eId="para_74__content">
+                <p xml:space="preserve">26 -	وتقوم اللجنة الاستشارية دوريا باستعراض عمل المكاتب دون الإقليمية والمؤسسات الإقليمية، وتتابع متابعة نشطة تنفيذ الدول الأعضاء للقرارات وإعداد تقارير بشأنه. وتيسر الأمانة إعداد التقارير بشأن القرارات عن طريق إعداد المبادئ التوجيهية والنماذج اللازمة.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_75" class="H23">
+              <subheading>خامسا -	المؤسسات الإقليمية التي تشرف عليها اللجنة</subheading>
+            </paragraph>
+            <paragraph eId="para_76" class="SingleTxt">
+              <content eId="para_76__content">
+                <p xml:space="preserve">27 -	تواصل المؤسسات التالية التي تشرف عليها اللجنة عملها على النحو المحدد في النظم الأساسية والاختصاصات المقررة لكل منها:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_77" class="SingleTxt">
+              <content eId="para_77__content">
+                <p xml:space="preserve">	(أ)	مركز آسيا والمحيط الهادئ لنقل التكنولوجيا؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_78" class="SingleTxt">
+              <content eId="para_78__content">
+                <p xml:space="preserve">	(ب)	المعهد الإحصائي لآسيا والمحيط الهادئ؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_79" class="SingleTxt">
+              <content eId="para_79__content">
+                <p xml:space="preserve">	(ج)	مركز الميكنة الزراعية المستدامة؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_80" class="SingleTxt">
+              <content eId="para_80__content">
+                <p xml:space="preserve">	(د)	مركز التدريب على تكنولوجيا المعلومات والاتصالات من أجل التنمية في آسيا والمحيط الهادئ؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_81" class="SingleTxt">
+              <content eId="para_81__content">
+                <p xml:space="preserve">	(ه)	مركز آسيا والمحيط الهادئ لتطوير إدارة المعلومات المتعلقة بالكوارث.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_82" class="SingleTxt">
+              <content eId="para_82__content">
+                <p xml:space="preserve">28 -	ويجو للجنة أن تشكل مؤسسات إقليمية إضافية تدعم تحقيق أهدافها الاستراتيجية والبرنامجية.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_83" class="H23">
+              <subheading>سادسا -	أحكام عامة</subheading>
+            </paragraph>
+            <paragraph eId="para_84" class="H23">
+              <subheading>ألف -	النظام الداخلي</subheading>
+            </paragraph>
+            <paragraph eId="para_85" class="SingleTxt">
+              <content eId="para_85__content">
+                <p xml:space="preserve">29 -	يطبق النظام الداخلي للجنة، بما في ذلك القواعد المتعلقة بعملية اتخاذ القرارات، على اللجان وغيرها من الاجتماعات والمؤتمرات التي تعقد في إطار هيكل مؤتمراتها، مع مراعاة ما يقتضيه اختلاف الحال، ما لم تحدد اللجنة خلاف ذلك.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_86" class="H23">
+              <subheading>باء -	الدورة غير الرسمية</subheading>
+            </paragraph>
+            <paragraph eId="para_87" class="SingleTxt">
+              <content eId="para_87__content">
+                <p xml:space="preserve">30 -	يجوز تنظيم دورة غير رسمية لرؤساء الوفود أثناء الجزء الوزاري من كل دورة للجنة، ولكن لا تُضفى عليها الصفة المؤسسية. ويتقرر جدول أعمال الدورة غير الرسمية بتوافق الآراء، ويتلقى الأعضاء جدول الأعمال المشروح قبل افتتاح الدورة بثلاثين يوما على الأقل لضمان كفاءة الدورة وفعاليتها. وتُوفَّر لها خدمات الترجمة الفورية.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_88" class="H23">
+              <subheading>التذييل الأول</subheading>
+            </paragraph>
+            <paragraph eId="para_89" class="H23">
+              <subheading>القضايا التي يتعين أن تعالجها اللجان الفرعية للجنة الاقتصادية والاجتماعية لآسيا والمحيط الهادئ</subheading>
+            </paragraph>
+            <paragraph eId="para_90" class="SingleTxt">
+              <content eId="para_90__content">
+                <p xml:space="preserve">	المسائل المدرجة أدناه هي المسائل الأساسية التي يتعين أن تعالجها كل لجنة من اللجان الفرعية. ويجوز للجنة الاقتصادية والاجتماعية لآسيا والمحيط الهادئ أن تعدِّل قائمة المسائل لأي لجنة فرعية في أي وقت، حسب الاقتضاء؛ وتحتفظ اللجان الفرعية أيضا بالمرونة اللازمة لمعالجة مسائل جديدة أو ناشئة تُطلعها عليها الأمانة لدى إجراء مشاورات مع الدول الأعضاء.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_91" class="SingleTxt">
+              <content eId="para_91__content">
+                <p xml:space="preserve">1 -	لجنة سياسات الاقتصاد الكلي والحد من الفقر وتمويل التنمية:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_92" class="SingleTxt">
+              <content eId="para_92__content">
+                <p xml:space="preserve">	(أ)	سياسات الاقتصاد الكلي لدعم تنفيذ خطة التنمية المستدامة لعام 2030 والحد من الفقر؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_93" class="SingleTxt">
+              <content eId="para_93__content">
+                <p xml:space="preserve">	(ب)	التعاون الإقليمي بشأن قضايا الاقتصاد الكلي وتمويل التنمية وتطوير مواقف إقليمية مشتركة لاتخاذها مدخلات للأنشطة على الصعيد العالمي مع ضمان متابعة نتائجها على الصعيد الإقليمي؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_94" class="SingleTxt">
+              <content eId="para_94__content">
+                <p xml:space="preserve">	(ج)	تمويل التنمية، بما في ذلك استراتيجيات التمويل لتحقيق أهداف التنمية المستدامة مثل الموارد المالية المحلية، وأدوات وآليات التمويل المبتكرة والمستدامة والرقمية، وتنمية أسواق رأس المال.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_95" class="SingleTxt">
+              <content eId="para_95__content">
+                <p xml:space="preserve">2 -	لجنة التجارة والاستثمار والمشاريع والابتكار في مجال الأعمال التجارية:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_96" class="SingleTxt">
+              <content eId="para_96__content">
+                <p xml:space="preserve">	(أ)	التجارة والاستثمار الدوليان بوصفهما محركا للتنمية، بما في ذلك آليات واتفاقات التعاون الإقليمي بشأن التجارة وتيسير التجارة، مثل الاتفاق التجاري لآسيا والمحيط الهادئ والاتفاق الإطاري المتعلق بتيسير التجارة اللاورقية عبر الحدود في منطقة آسيا والمحيط الهادئ؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_97" class="SingleTxt">
+              <content eId="para_97__content">
+                <p xml:space="preserve">	(ب)	الشراكات المحلية والدولية بين القطاعين العام والخاص، والشراكات مع قطاع الأعمال، والاستثمار، وتنمية المشاريع الصغيرة والمتوسطة الحجم وتمويلها؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_98" class="SingleTxt">
+              <content eId="para_98__content">
+                <p xml:space="preserve">	(ج)	الابتكار، بما في ذلك الاقتصاد الرقمي، والأعمال التجارية الشاملة للجميع، والاستثمار المؤثر، والسياسات والأنظمة المتعلقة بالابتكار؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_99" class="SingleTxt">
+              <content eId="para_99__content">
+                <p xml:space="preserve">	(د)	تطوير التكنولوجيات ذات الصلة بالمنطقة ونقلها وتكييفها وتطبيقها.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_100" class="SingleTxt">
+              <content eId="para_100__content">
+                <p xml:space="preserve">3 -	لجنة النقل:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_101" class="SingleTxt">
+              <content eId="para_101__content">
+                <p xml:space="preserve">	(أ)	فعالية وسائل النقل واللوجستيات والتنقل والربط وقدرتها على الصمود، بما في ذلك من خلال اتفاقات النقل الدولية مثل الاتفاق الحكومي الدولي المتعلق بشبكة الطريق الآسيوي السريع، والاتفاق الحكومي الدولي المتعلق بشبكة السكك الحديدية العابرة لآسيا، والاتفاق الحكومي الدولي بشأن الموانئ الجافة، والشحن والنقل البحري؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_102" class="SingleTxt">
+              <content eId="para_102__content">
+                <p xml:space="preserve">	(ب)	استدامة نظم وخدمات النقل وكفاءتها ومراعاتها للبيئة، فضلا عن السياسات والاستراتيجيات، والتنقل الحضري المستدام، وتطبيق تكنولوجيات النقل الذكية؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_103" class="SingleTxt">
+              <content eId="para_103__content">
+                <p xml:space="preserve">	(ج)	النقل والتنقل الآمنان والشاملان، بما في ذلك السياسات والاستراتيجيات الرامية إلى تحسين السلامة على الطرق، والنقل المراعي للمنظور الجنساني، وتعزيز شمول نظم النقل وإتاحتها للجميع؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_104" class="SingleTxt">
+              <content eId="para_104__content">
+                <p xml:space="preserve">	(د)	مواءمة معايير ووثائق النقل.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_105" class="SingleTxt">
+              <content eId="para_105__content">
+                <p xml:space="preserve">4 -	لجنة البيئة والتنمية:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_106" class="SingleTxt">
+              <content eId="para_106__content">
+                <p xml:space="preserve">	(أ)	تعزيز الاستدامة البيئية للتنمية بطريقة كلية ومتكاملة، بما في ذلك، على سبيل المثال لا الحصر، العمل المناخي، والحد من تلوث الهواء، والاستخدام المستدام للمحيطات والبحار، والإدارة المستدامة للموارد المائية؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_107" class="SingleTxt">
+              <content eId="para_107__content">
+                <p xml:space="preserve">	(ب)	تعزيز الإدارة المستدامة للموارد الطبيعية؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_108" class="SingleTxt">
+              <content eId="para_108__content">
+                <p xml:space="preserve">	(ج)	تعزيز التنمية الحضرية الشاملة للجميع والمستدامة؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_109" class="SingleTxt">
+              <content eId="para_109__content">
+                <p xml:space="preserve">	(د)	تعزيز الإنتاج والاستهلاك المستدامين، بما في ذلك من خلال الميكنة الزراعية المستدامة ونقل التكنولوجيا، من أجل تحقيق الأهداف الإنمائية المتفق عليها دوليا.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_110" class="SingleTxt">
+              <content eId="para_110__content">
+                <p xml:space="preserve">5 -	لجنة تكنولوجيا المعلومات والاتصالات والعلم والتكنولوجيا والابتكار:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_111" class="SingleTxt">
+              <content eId="para_111__content">
+                <p xml:space="preserve">	(أ)	الوصول إلى تكنولوجيا المعلومات والاتصالات والتكنولوجيا والابتكار، بما في ذلك من خلال تعميم الاتصال بالإنترنت والمجتمع الرقمي، والتحول والإدماج الرقمي، بسبل منها مبادرة طريق المعلومات الفائق السرعة لمنطقة آسيا والمحيط الهادئ؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_112" class="SingleTxt">
+              <content eId="para_112__content">
+                <p xml:space="preserve">	(ب)	تطبيق تكنولوجيا الفضاء والمعلومات الجغرافية المكانية المتكاملة لأغراض التنمية المستدامة؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_113" class="SingleTxt">
+              <content eId="para_113__content">
+                <p xml:space="preserve">	(ج)	تنمية المهارات البشرية والقدرات المؤسسية في استخدام تكنولوجيا المعلومات والاتصالات وتطبيقات التكنولوجيا الرقمية للعصر الرقمي دعما للتنمية المستدامة.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_114" class="SingleTxt">
+              <content eId="para_114__content">
+                <p xml:space="preserve">6 -	<span class="bold">لجنة الحد من مخاطر الكوارث:</span></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_115" class="SingleTxt">
+              <content eId="para_115__content">
+                <p xml:space="preserve">	(أ)	التعاون الإقليمي للحد من مخاطر الكوارث المتعددة المصادر والتخفيف من حدتها، والتكيف مع المناخ، والقدرة على الصمود؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_116" class="SingleTxt">
+              <content eId="para_116__content">
+                <p xml:space="preserve">	(ب)	آليات التعاون الإقليمي لتعزيز إدارة مخاطر الكوارث وبناء القدرة على الصمود؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_117" class="SingleTxt">
+              <content eId="para_117__content">
+                <p xml:space="preserve">	(ج)	التقييم المتكامل للمخاطر المتعددة المصادر والتأهب والإنذار المبكر والتصدي لمخاطر الكوارث، بما في ذلك التخفيف من المخاطر المتتالية المتصلة بالأخطار البيولوجية وغيرها من الأخطار الطبيعية، بسبل منها استخدام أدوات تكنولوجية مبتكرة؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_118" class="SingleTxt">
+              <content eId="para_118__content">
+                <p xml:space="preserve">	(د)	إدارة المعلومات المتعلقة بالكوارث والإنذار المبكر بالأخطار المتعددة المصادر، بما في ذلك في ما يتعلق بالعواصف الرملية والترابية.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_119" class="SingleTxt">
+              <content eId="para_119__content">
+                <p xml:space="preserve">7 -	لجنة التنمية الاجتماعية:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_120" class="SingleTxt">
+              <content eId="para_120__content">
+                <p xml:space="preserve">	(أ)	استعراض التنفيذ على الصعيد الإقليمي للأهداف والالتزامات المتفق عليها دوليا بشأن التنمية الاجتماعية؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_121" class="SingleTxt">
+              <content eId="para_121__content">
+                <p xml:space="preserve">	(ب)	تقييم الاتجاهات السكانية والإنمائية، بما في ذلك الهجرة الدولية وشيخوخة السكان، وآثارها على التنمية؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_122" class="SingleTxt">
+              <content eId="para_122__content">
+                <p xml:space="preserve">	(ج)	تناول قضايا عدم المساواة وتعزيز الحماية الاجتماعية والنظم الصحية؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_123" class="SingleTxt">
+              <content eId="para_123__content">
+                <p xml:space="preserve">	(د)	تعزيز المساواة بين الجنسين وتمكين المرأة؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_124" class="SingleTxt">
+              <content eId="para_124__content">
+                <p xml:space="preserve">	(ه)	تعزيز الإدماج الاجتماعي لكبار السن والأشخاص ذوي الإعاقة وغيرهم من الأشخاص الذين يعيشون في أوضاع هشة.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_125" class="SingleTxt">
+              <content eId="para_125__content">
+                <p xml:space="preserve">8 -	لجنة الإحصاءات: 	تمكين النظم الإحصائية الوطنية لتكون قادرة على قيادة عملية إعداد منتجات وخدمات مبتكرة وموثوقة وتوفيرها في الوقت المناسب، مع الاعتراف بأهمية المتطلبات الإحصائية العاجلة والمتغيرة لخطة التنمية المستدامة لعام 2030 وفي الوقت ذاته مراعاة مجالات العمل الواردة في الوثيقة المعنونة ”النهوض بالإحصاءات الرسمية لأغراض تنفيذ خطة التنمية المستدامة لعام 2030: الرؤية الجماعية وإطار العمل الجماعي للأوساط الإحصائية في منطقة آسيا والمحيط الهادئ“.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_126" class="SingleTxt">
+              <content eId="para_126__content">
+                <p xml:space="preserve">9 -	لجنة الطاقة:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_127" class="SingleTxt">
+              <content eId="para_127__content">
+                <p xml:space="preserve">	(أ)	التحول في مجال الطاقة في منطقة آسيا والمحيط الهادئ، تمشيا مع خطة التنمية المستدامة لعام 2030، ولا سيما الهدف 7 من أهداف التنمية المستدامة، واتفاق باريس؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_128" class="SingleTxt">
+              <content eId="para_128__content">
+                <p xml:space="preserve">	(ب)	التعاون الإقليمي لتعزيز حصول الجميع على طاقة ميسورة التكلفة وموثوقة ومستدامة وحديثة، بما في ذلك من خلال الربط بين شبكات الطاقة؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_129" class="SingleTxt">
+              <content eId="para_129__content">
+                <p xml:space="preserve">	(ج)	التعاون الإقليمي من أجل تعزيز أمن الطاقة والاستخدام المستدام للطاقة من خلال الاتفاقات والولايات الإقليمية، بما في ذلك منتدى الطاقة لمنطقة آسيا والمحيط الهادئ؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_130" class="SingleTxt">
+              <content eId="para_130__content">
+                <p xml:space="preserve">	(د)	تقييم واستعراض الآثار المترتبة على التحول في مجال الطاقة.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_131" class="H23">
+              <subheading>التذييل الثاني</subheading>
+            </paragraph>
+            <paragraph eId="para_132" class="H23">
+              <subheading>اختصاصات منتدى آسيا والمحيط الهادئ بشأن التنمية المستدامة</subheading>
+            </paragraph>
+            <paragraph eId="para_133" class="H23">
+              <subheading>أولا -	الوظائف العامة</subheading>
+            </paragraph>
+            <paragraph eId="para_134" class="SingleTxt">
+              <content eId="para_134__content">
+                <p xml:space="preserve">1 -	منتدى آسيا والمحيط الهادئ المعني بالتنمية المستدامة هو منتدى حكومي دولي سنوي وشامل. وهو يدعم الأعمال التحضيرية للمنتدى السياسي الرفيع المستوى المعني بالتنمية المستدامة في سياق كل من المجلس الاقتصادي والاجتماعي والجمعية العامة.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_135" class="SingleTxt">
+              <content eId="para_135__content">
+                <p xml:space="preserve">2 -	وسيكون المنتدى بمثابة منبر إقليمي من أجل القيام بما يلي:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_136" class="SingleTxt">
+              <content eId="para_136__content">
+                <p xml:space="preserve">	(أ)	دعم البلدان، ولا سيما البلدان ذات الاحتياجات الخاصة، بما في ذلك من خلال تعزيز قدرتها على تنفيذ خطة التنمية المستدامة لعام 2030؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_137" class="SingleTxt">
+              <content eId="para_137__content">
+                <p xml:space="preserve">	(ب)	توفير منظور إقليمي بشأن تنفيذ خطة التنمية المستدامة لعام 2030 من خلال تحديد الاتجاهات الإقليمية، وتوحيد وتبادل أفضل الممارسات والدروس المستفادة، مع مراعاة مساهمات هيئات منظومة الأمم المتحدة الأخرى على المستوى الإقليمي، والمنظمات الإقليمية ودون الإقليمية الأخرى وأصحاب المصلحة المعنيين؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_138" class="SingleTxt">
+              <content eId="para_138__content">
+                <p xml:space="preserve">	(ج)	دعم متابعة واستعراض التقدم المحرز في خطة عام 2030 وأهداف التنمية المستدامة على المستوى الإقليمي من خلال ما يلي: تقييم التقدم المحرز وتوفير الفرص للتعلم من الأقران فيما يتعلق بالموضوع والأهداف التي سيتم استعراضها في المنتدى السياسي الرفيع المستوى؛ ودعم تقديم الاستعراضات الوطنية الطوعية؛ والاضطلاع باستعراضات دورية للتقدم المحرز في خريطة الطريق لتنفيذ خطة التنمية المستدامة لعام 2030 في آسيا والمحيط الهادئ.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_139" class="SingleTxt">
+              <content eId="para_139__content">
+                <p xml:space="preserve">3 -	وتستفيد هذه المهام من الدعم المشترك بين الوكالات، بما في ذلك من خلال آلية الأمم المتحدة للتنسيق الإقليمي لآسيا والمحيط الهادئ.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_140" class="H23">
+              <subheading>ثانيا -	سير أعمال المنتدى</subheading>
+            </paragraph>
+            <paragraph eId="para_141" class="SingleTxt">
+              <content eId="para_141__content">
+                <p xml:space="preserve">4 -	كجزء من هيكل مؤتمرات اللجنة الاقتصادية والاجتماعية لآسيا والمحيط الهادئ، يعقد المنتدى سنويا بوصفه محفلا حكوميا دوليا شاملا قبل المنتدى السياسي الرفيع المستوى. وينبغي أن يكون موضوع المنتدى متسقا مع موضوع المنتدى السياسي الرفيع المستوى، وينبغي أن تكون مجموعة الأهداف التي ستستعرض بتعمق مطابقة لمجموعة الأهداف في إطار المنتدى السياسي الرفيع المستوى.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_142" class="SingleTxt">
+              <content eId="para_142__content">
+                <p xml:space="preserve">5 -	ولن يسبق المنتدى قرارات المحفل السياسي الرفيع المستوى أو يحكم عليها مسبقا، ولن يزيد من عبء الإبلاغ الملقى على عاتق الدول الأعضاء أو يزيد من الميزانية العادية للجنة بما يتجاوز ما وافقت عليه الجمعية العامة بالفعل.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_143" class="SingleTxt">
+              <content eId="para_143__content">
+                <p xml:space="preserve">6 -	ويمكن الحفاظ على الشكل الحالي، بما في ذلك انتخاب المكتب لكل دورة، وإتاحة المجال لمشاركة أصحاب المصلحة المتعددين لتنفيذ خطة التنمية المستدامة لعام 2030 بالتشاور مع الدول الأعضاء، حسب الاقتضاء.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_144" class="SingleTxt">
+              <content eId="para_144__content">
+                <p xml:space="preserve">7 -	وستكون نتائج المنتدى في شكل تقرير مع إدراج موجز الرئيس في مرفق التقرير.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_145" class="SingleTxt">
+              <content eId="para_145__content">
+                <p xml:space="preserve">8 -	وقد ينظر المنتدى في المنظورات دون الإقليمية بشأن المواضيع التي يتناولها المنتدى. ويمكن عقد اجتماعات تحضيرية لأصحاب المصلحة، في حدود الموارد المتاحة.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_146" class="SingleTxt">
+              <content eId="para_146__content">
+                <p xml:space="preserve">9 -	وسيعقد المنتدى، بما في ذلك إشراك أصحاب المصلحة، وفقا للنظام الداخلي للجنة فضلا عن طرائق المنتدى السياسي الرفيع المستوى برعاية المجلس الاقتصادي والاجتماعي، ما دام لا يوجد تعارض بينهما.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_147" class="SingleTxt">
+              <content eId="para_147__content">
+                <p xml:space="preserve">10 -	وخلال كل دورة، يمكن لأي عضو من أعضاء مكتب الدورة السابقة أن يقدم تقريرا عن المناقشات التي دارت في المنتدى السياسي الرفيع المستوى الذي عقد في غضون ذلك وعن استنتاجات الدورة السابقة للمنتدى.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_148" class="SingleTxt">
+              <content eId="para_148__content">
+                <p xml:space="preserve">11 -	وستتجنب إدارة المنتدى الازدواجية مع المنتديات والمنابر الإقليمية الأخرى؛ وحرصا على الكفاءة، سيعقد المنتدى، عند الاقتضاء، بالتنسيق أو التعاون مع المنتديات والمنابر الأخرى.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_149" class="H23">
+              <subheading>ثالثا -	علاقة المنتدى بهيكل مؤتمرات اللجنة</subheading>
+            </paragraph>
+            <paragraph eId="para_150" class="SingleTxt">
+              <content eId="para_150__content">
+                <p xml:space="preserve">12 -	سيوجه رئيس المنتدى أو نائبه انتباه رئيس المنتدى أو نائبه إلى تقرير المنتدى على النحو المحدد في الفقرة 7 في الدورة اللاحقة للجنة.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_151" class="SingleTxt">
+              <content eId="para_151__content">
+                <p xml:space="preserve">13 -	ويمكن للمنتدى أن يتلقى مدخلات من اللجان الفرعية للجنة فضلا عن أصحاب المصلحة الآخرين ذوي الصلة.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_152" class="SingleTxt">
+              <content eId="para_152__content">
+                <p xml:space="preserve">14 -	ويمكن للمنتدى أن يستفيد من المشورة التي تقدمها اللجنة الاستشارية للممثلين الدائمين وغيرهم من الممثلين المعينين من أعضاء اللجنة باعتبار ذلك طريقة للتشاور مع الدول الأعضاء فيما بين دورات المنتدى.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_153" class="SingleTxt">
+              <content eId="para_153__content">
+                <p xml:space="preserve">15 -	وفي السنوات التي يجتمع فيها المنتدى السياسي الرفيع المستوى تحت رعاية الجمعية العامة على مستوى القمة، أي كل أربع سنوات، يجوز أن يتلاقى المنتدى مع دورة اللجنة في نيسان/أبريل - أيار/مايو، وتتشاطر اللجنة والمنتدى الموضوع نفسه، حسب الاقتضاء. وفي السنوات الأخرى، عندما يجتمع المنتدى السياسي الرفيع المستوى تحت رعاية المجلس الاقتصادي والاجتماعي، يعقد المنتدى اجتماعه على المستوى التقني الأعلى.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_154" class="SingleTxt">
+              <content eId="para_154__content">
+                <p xml:space="preserve">16 -	وإذا طلبت الدول الأعضاء ذلك، يجوز تنقيح اختصاصات المنتدى بناء على توصية من المنتدى وموافقة اللجنة عليه، مع مراعاة المدخلات الجديدة الواردة من المنتدى السياسي الرفيع المستوى واستنادا إلى الاستعراضات الدورية التي تجريها الدول الأعضاء.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_155" class="SingleTxt">
+              <content eId="para_155__content">
+                <p xml:space="preserve">
+                  <span class="bold">التذييل الثالث</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_156" class="SingleTxt">
+              <content eId="para_156__content">
+                <p xml:space="preserve">
+                  <span class="bold">اختصاصات اللجنة الاستشارية المؤلفة من الممثلين الدائمين وغيرهم من الممثلين المعينين من أعضاء اللجنة</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_157" class="SingleTxt">
+              <content eId="para_157__content">
+                <p xml:space="preserve">	تضطلع اللجنة الاستشارية المؤلفة من الممثلين الدائمين وغيرهم من الممثلين المعينين من أعضاء اللجنة بالمهام التالية:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_158" class="SingleTxt">
+              <content eId="para_158__content">
+                <p xml:space="preserve">	(أ)	توثيق التعاون وتعزيز التشاور بين الدول الأعضاء والأمانة، بوسائل تشمل تقديم المشورة والتوجيه اللذين ستأخذهما الأمينة التنفيذية في الحسبان لدى الاضطلاع بالأنشطة ذات الصلة؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_159" class="SingleTxt">
+              <content eId="para_159__content">
+                <p xml:space="preserve">	(ب)	العمل كمنتدى تداولي للتبادل الموضوعي للآراء وتقديم التوجيه بشأن صياغة جدول أعمال اللجنة الاقتصادية والاجتماعية لآسيا والمحيط الهادئ وفيما يتصل بالتطورات الاقتصادية والاجتماعية التي لها تأثير على منطقة آسيا والمحيط الهادئ؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_160" class="SingleTxt">
+              <content eId="para_160__content">
+                <p xml:space="preserve">	(ج)	تقديم المشورة والتوجيه إلى الأمينة التنفيذية في وضع مقترحات للإطار الاستراتيجي للجنة وبرنامج عملها ومواضيع دوراتها بما يتسق مع التوجيه المقدم من اللجنة؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_161" class="SingleTxt">
+              <content eId="para_161__content">
+                <p xml:space="preserve">	(د)	تلقي معلومات بانتظام عن الأداء الإداري والمالي للجنة؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_162" class="SingleTxt">
+              <content eId="para_162__content">
+                <p xml:space="preserve">	(ه)	تقديم المشورة والتوجيه إلى الأمينة التنفيذية في رصد وتقييم تنفيذ برنامج عمل اللجنة وتخصيص الموارد؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_163" class="SingleTxt">
+              <content eId="para_163__content">
+                <p xml:space="preserve">	(و)	استعراض مشروع الجدول الزمني للاجتماعات قبل تقديمه إلى اللجنة في دورتها السنوية؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_164" class="SingleTxt">
+              <content eId="para_164__content">
+                <p xml:space="preserve">	(ز)	إسداء المشورة وتقديم التوجيه إلى الأمينة التنفيذية بشأن جدول الأعمال المؤقت لدورات اللجنة ولجانها الفرعية، بما يتفق مع الحاجة إلى ضمان أن يكون جدول أعمال موجها نحو تحقيق النتائج ومركزا ومتماشيا مع الأولويات الإنمائية للدول الأعضاء، على النحو الذي تحدده تلك الدول، وكذلك مع الفصل الثاني من نظامها الداخلي؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_165" class="SingleTxt">
+              <content eId="para_165__content">
+                <p xml:space="preserve">	(ح)	إسداء المشورة وتقديم التوجيه إلى الأمينة التنفيذية بشأن تحديد المسائل الاقتصادية والاجتماعية المستجدة وغيرها من المسائل ذات الصلة لإدراجها في جداول الأعمال المؤقتة لدورات اللجنة وبشأن إعداد جداول الأعمال المؤقتة المشروحة لدورات اللجنة؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_166" class="SingleTxt">
+              <content eId="para_166__content">
+                <p xml:space="preserve">	(ط)	الاطلاع على ترتيبات التعاون والترتيبات ذات الصلة بين الأمانة والمنظمات الدولية والإقليمية الأخرى، وبخاصة فيما يتعلق ببرامج التعاون والمبادرات المشتركة الطويلة الأجل، بما في ذلك البرامج والمبادرات المقترحة من الأمينة التنفيذية والتي ستنفذ تحت إشراف آلية التنسيق الإقليمية؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_167" class="SingleTxt">
+              <content eId="para_167__content">
+                <p xml:space="preserve">	(ي)	القيام بأية مهام أخرى تكلفها بها اللجنة.</p>
+              </content>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>
