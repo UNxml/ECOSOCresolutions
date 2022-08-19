@@ -1,0 +1,159 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-22/2022-20/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-22/2022-20/"></FRBRuri>
+          <FRBRdate date="2022-07-22" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-22/2022-20/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-22/2022-20/fra@/"></FRBRuri>
+          <FRBRdate date="2022-07-29" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-22/2022-20/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-22/2022-20/fra@.xml"></FRBRuri>
+          <FRBRdate date="2022-08-18" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Economic and Social Council. Ad Hoc Advisory Group on Haiti" showAs="UN. Economic and Social Council. Ad Hoc Advisory Group on Haiti" dictionary="DHLAUTH"></keyword>
+        <keyword value="AID COORDINATION" showAs="AID COORDINATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COORDINATION WITHIN UN SYSTEM" showAs="COORDINATION WITHIN UN SYSTEM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HAITI" showAs="HAITI" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="12e" showAs="Long-term programme of support for Haiti." shortForm="ECONOMIC ASSISTANCE--HAITI" dictionary="E/2022/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-07-18" outcome="draftResolution" as="E/2022/L.24" by="Argentina, Bahamas, Barbados, Belize, Bolivia (Plurinational State of), Botswana, Brazil, Canada, Chile, Colombia, Dominican Republic, El Salvador, France, Guyana, Haiti, Mexico, Panama, Peru, Saint Lucia, Saint Vincent and the Grenadines, Spain, Suriname, Trinidad and Tobago, United States of America and Uruguay" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-07-29" outcome="adopted" as="Adopted without vote, 34th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">22-11742 (F)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2022/20</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Conseil économique et social</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-07-29" class="rightSmall" refersTo="#dateOfIssuance">29 juillet 2022</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2022" eId="coverPage_1__session_1">Session de 2022</session>
+      </p>
+      <p>
+        <inline title="12 e)" name="agenda item">Point 12 e) de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Questions de coordination, questions relatives au programme et autres questions : programme à long terme d’aide à Haïti</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par le Conseil économique et social le 22 juillet 2022</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent>[sur la base d’une proposition examinée en séance plénière (<inline name="originating document">E/2022/L.24</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2022/20.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Groupe consultatif ad hoc sur Haïti</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Le Conseil économique et social</span>,</p>
+      </formula>
+      <container name="Rappelant" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> ses résolutions 2004/52 du 23 juillet 2004, 2005/46 du 27 juillet 2005, 2006/10 du 26 juillet 2006, 2007/13 du 25 juillet 2007, 2008/10 du 23 juillet 2008, 2009/4 du 23 juillet 2009, 2010/28 du 23 juillet 2010, <a href="https://undocs.org/fr/E/RES/2012/21">2012/21</a> du 26 juillet 2012, <a href="https://undocs.org/fr/E/RES/2013/15">2013/15</a> du 23 juillet 2013, <a href="https://undocs.org/fr/E/RES/2014/37">2014/37</a> du 18 novembre 2014, <a href="https://undocs.org/fr/E/RES/2015/18">2015/18</a> du 21 juillet 2015, <a href="https://undocs.org/fr/E/RES/2016/28">2016/28</a> du 27 juillet 2016, <a href="https://undocs.org/fr/E/RES/2017/26">2017/26</a> du 25 juillet 2017, <a href="https://undocs.org/fr/E/RES/2018/19">2018/19</a> du 24 juillet 2018, <a href="https://undocs.org/fr/E/RES/2019/32">2019/32</a> du 24 juillet 2019, <a href="https://undocs.org/fr/E/RES/2020/11">2020/11</a> du 17 juillet 2020 et <a href="https://undocs.org/fr/E/RES/2021/18">2021/18</a> du 21 juillet 2021 et ses décisions 2004/322 du 11 novembre 2004, 2009/211 du 20 avril 2009, 2009/267 du 15 décembre 2009, 2011/207 du 17 février 2011, 2011/211 du 26 avril 2011, 2011/268 du 28 juillet 2011, 2013/209 du 15 février 2013, 2014/207 du 30 janvier 2014, 2014/210 du 23 avril 2014, 2014/221 du 13 juin 2014, 2017/214 du 19 avril 2017, 2021/238 du 9 juin 2021 et 2022/314 du 16 février 2022, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_3" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_3__content">
+          <p xml:space="preserve">	<span class="italic">Accueille avec satisfaction</span> le rapport du Groupe consultatif ad hoc sur Haïti<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		<a href="https://undocs.org/fr/E/2022/52">E/2022/52</a>.</p></authorialNote>, qui met l’accent sur la situation humanitaire et le développement socioéconomique à long terme d’Haïti ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_4" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_4__content">
+          <p xml:space="preserve">	<span class="italic">Décide</span> de proroger le mandat du Groupe consultatif ad hoc sur Haïti jusqu’à la conclusion de sa session de 2023, afin de pouvoir suivre la situation de près et de formuler des conseils concernant la stratégie de développement à long terme d’Haïti en vue de favoriser le relèvement, la reconstruction et la stabilité du pays sur les plans économique et social, en accordant une attention particulière à la nécessité d’assurer un appui international cohérent et durable à Haïti, dans le respect des priorités nationales de développement à long terme et du Plan stratégique de développement d’Haïti, tout en évitant les chevauchements et les doubles emplois avec les mécanismes existants ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_6" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_6__content">
+          <p xml:space="preserve">	<span class="italic">Prie</span> le Groupe consultatif ad hoc sur Haïti de lui présenter un rapport sur ses travaux, accompagné de recommandations, s’il l’estime nécessaire, pour examen à sa session de 2023.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="34e">34e séance plénière</inline>
+        <eol />
+        <docDate date="2022-07-22" refersTo="#adoptionDate">22 juillet 2022</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

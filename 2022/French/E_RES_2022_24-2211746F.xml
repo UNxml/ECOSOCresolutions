@@ -1,0 +1,420 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-22/2022-24/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-22/2022-24/"></FRBRuri>
+          <FRBRdate date="2022-07-22" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-22/2022-24/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-22/2022-24/fra@/"></FRBRuri>
+          <FRBRdate date="2022-08-01" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-22/2022-24/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-22/2022-24/fra@.xml"></FRBRuri>
+          <FRBRdate date="2022-08-18" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="10" href="http://metadata.un.org/sdg/10" showAs="sdg_10" dictionary="SDGO"></keyword>
+        <keyword value="equality" href="http://metadata.un.org/thesaurus/1002102" showAs="equality" dictionary="UNBIS"></keyword>
+        <keyword value="social_inequality" href="http://eurovoc.europa.eu/1420" showAs="social_inequality" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="9" href="http://metadata.un.org/sdg/9" showAs="sdg_9" dictionary="SDGO"></keyword>
+        <keyword value="innovation" href="http://eurovoc.europa.eu/1439" showAs="innovation" dictionary="EuroVoc"></keyword>
+        <keyword value="innovation" href="http://metadata.un.org/thesaurus/1003223" showAs="innovation" dictionary="UNBIS"></keyword>
+        <keyword value="industrialization" href="http://metadata.un.org/thesaurus/1003177" showAs="industrialization" dictionary="UNBIS"></keyword>
+        <keyword value="industrial_infrastructure" href="http://eurovoc.europa.eu/1434" showAs="industrial_infrastructure" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Committee of Experts on Global Geospatial Information Management" showAs="UN. Committee of Experts on Global Geospatial Information Management" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Committee of Experts on Global Geospatial Information Management" showAs="UN. Committee of Experts on Global Geospatial Information Management" dictionary="DHLAUTH"></keyword>
+        <keyword value="GEOSPATIAL INFORMATION MANAGEMENT" showAs="GEOSPATIAL INFORMATION MANAGEMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GEOGRAPHIC INFORMATION SYSTEMS" showAs="GEOGRAPHIC INFORMATION SYSTEMS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RESOURCES MOBILIZATION" showAs="RESOURCES MOBILIZATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GROUPS OF EXPERTS" showAs="GROUPS OF EXPERTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUBSIDIARY BODIES" showAs="SUBSIDIARY BODIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="18h" showAs="Geospatial information." shortForm="GEOSPATIAL INFORMATION" dictionary="E/2022/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-07-19" outcome="draftResolution" as="E/2022/L.26" by="Equatorial Guinea, Fiji and Germany" />
+        <step date="2022-08-01" outcome="adopted" as="Adopted by consensus, 34th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">22-11746 (F)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2022/24</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Conseil économique et social</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-08-01" class="rightSmall" refersTo="#dateOfIssuance">1er août 2022</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2022" eId="coverPage_1__session_1">Session de 2022</session>
+      </p>
+      <p>
+        <inline title="18 h)" name="agenda item">Point 18 h) de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Questions relatives à l’économie et à l’environnement : information géospatiale</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par le Conseil économique et social le 22 juillet 2022</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent>[sur la base d’une proposition examinée en séance plénière (<inline name="originating document">E/2022/L.26</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2022/24.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Renforcement des dispositifs de gestion de l’information géospatiale à l’échelle mondiale</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Le Conseil économique et social</span>,</p>
+      </formula>
+      <container name="Rappelant" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> la résolution <a href="https://undocs.org/fr/A/RES/66/288">66/288</a> de l’Assemblée générale en date du 27 juillet 2012, par laquelle l’Assemblée a fait sien le document final de la Conférence des Nations Unies sur le développement durable, intitulé « L’avenir que nous voulons », dans lequel les chefs d’État et de gouvernement se sont dits conscients de l’importance que revêtaient les données spatiales, la surveillance <span class="italic">in situ</span> et les informations géospatiales fiables pour les politiques, les programmes et les projets de développement durable,</p>
+      </container>
+      <container name="Rappelant également" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Rappelant également</span> la résolution <a href="https://undocs.org/fr/A/RES/70/1">70/1</a> de l’Assemblée générale en date du 25 septembre 2015, dans laquelle l’Assemblée a adopté le document intitulé « Transformer notre monde : le Programme de développement durable à l’horizon 2030 », qui convient de la nécessité d’adopter de nouvelles méthodes de collecte et d’intégration de données qui soient ventilées, de qualité et facilement accessibles et dont on puisse disposer en temps utile pour appuyer la mise en œuvre du nouveau programme de développement à tous les niveaux, en vue de tirer parti d’un large éventail de données, en particulier celles issues de l’observation de la Terre et des informations géospatiales, tout en veillant à ce que les pays conservent la maîtrise des efforts visant à soutenir et suivre les progrès accomplis,</p>
+      </container>
+      <container name="Conscient" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Conscient</span> que le Programme de développement durable à l’horizon 2030, le Cadre de Sendai pour la réduction des risques de catastrophe (2015-2030)<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/69/283">69/283</a> de l’Assemblée générale, annexe II.</p></authorialNote>, les Modalités d’action accélérées des petits États insulaires en développement (Orientations de Samoa)<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/69/15">69/15</a> de l’Assemblée générale, annexe.</p></authorialNote> et le Nouveau Programme pour les villes<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/71/256">71/256</a> de l’Assemblée générale, annexe.</p></authorialNote> préconisent explicitement la mise en œuvre d’actions coordonnées au niveau mondial concernant l’application de nouvelles méthodes de collecte et d’intégration des données et l’utilisation d’informations géospatiales en faveur du développement durable et de la réduction des risques de catastrophe, ainsi que le renforcement de la disponibilité et de l’accessibilité des réseaux de données,</p>
+      </container>
+      <container name="Affirmant" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Affirmant </span>l’importance de la résolution <a href="https://undocs.org/fr/A/RES/69/266">69/266</a> de l’Assemblée générale en date du 26 février 2015, intitulée « Repère de référence géodésique mondial pour le développement durable », dans laquelle l’Assemblée a invité les États Membres à renforcer la coopération internationale et multilatérale dans le domaine de la géodésie, notamment à pratiquer volontairement le libre partage des données géospatiales, à renforcer encore les capacités des pays en développement, à établir des normes et conventions internationales et à contribuer à l’établissement du repère de référence mondial et aux densifications régionales, par l’intermédiaire des mécanismes nationaux compétents et au moyen de la coopération régionale, internationale et intergouvernementale,</p>
+      </container>
+      <container name="Rappelant" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> sa résolution 2011/24 du 27 juillet 2011, par laquelle il a créé le Comité d’experts sur la gestion de l’information géospatiale à l’échelle mondiale chargé d’assurer la coordination et le dialogue entre les États Membres et entre ceux-ci et les organisations internationales, conformément au mandat dont le texte figure en annexe à la résolution,</p>
+      </container>
+      <container name="Rappelant également" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Rappelant également</span> sa résolution <a href="https://undocs.org/fr/E/RES/2016/27">2016/27</a> du 27 juillet 2016, intitulée « Renforcement des arrangements institutionnels sur la gestion de l’information géospatiale », dans laquelle il a décidé d’élargir et de renforcer, sans que cela ait d’incidences financières, le mandat du Comité d’experts en tant qu’organe compétent en matière d’information géospatiale composé d’experts gouvernementaux, et invité le Comité à rendre compte de toutes les questions ayant trait à la géographie, à l’information géospatiale et à des thèmes connexes,</p>
+      </container>
+      <container name="Rappelant" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> que, dans sa résolution <a href="https://undocs.org/fr/E/RES/2016/27">2016/27</a>, il a souligné la nécessité d’améliorer la coordination et la cohérence de la gestion de l’information géospatiale à l’échelle mondiale dans les domaines du renforcement des capacités, de l’élaboration de normes et de la collecte, de la diffusion et de l’échange de données, entre autres, et de renforcer les capacités dans les domaines de la gestion de l’information géospatiale et de l’intégration statistique connexe, surtout dans les pays en développement,</p>
+      </container>
+      <container name="Rappelant également" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Rappelant également</span> que, dans sa résolution <a href="https://undocs.org/fr/E/RES/2016/27">2016/27</a>, il a réaffirmé qu’un financement et un soutien viables, destinés notamment aux opérations du Comité d’experts axées sur les objectifs de développement durable, étaient nécessaires pour renforcer et conserver l’efficacité du Comité, et, à cet égard, encouragé les États Membres à verser des contributions volontaires, et autrement prié le Secrétaire général de s’attacher à mobiliser des ressources supplémentaires, notamment au moyen de fonds d’affectation spéciale et à partir d’autres sources, le cas échéant, et engagé les États Membres à envisager de détacher des experts afin qu’ils prêtent leur concours aux activités du Comité,</p>
+      </container>
+      <container name="Rappelant" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> sa résolution <a href="https://undocs.org/fr/E/RES/2022/3">2022/3</a> du 8 juin 2022, intitulée « Veiller à ce que les activités menées dans le domaine des statistiques et des données s’adaptent à l’évolution de l’écosystème statistique et des données », dans laquelle il a estimé qu’il importait d’intégrer l’information statistique et géospatiale pour donner accès en temps opportun à des données de qualité, fiables et appropriées, en puisant dans des sources traditionnelles ou nouvelles, </p>
+      </container>
+      <container name="Prenant note avec satisfaction" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Prenant note avec satisfaction</span> de la convocation du premier Congrès mondial des Nations Unies sur l’information géospatiale, qui s’est tenu à Deqing (Chine) en novembre 2018, et de la Déclaration de Moganshan, qui a été publiée à l’issue du Congrès,</p>
+      </container>
+      <container name="Prenant acte" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Prenant acte</span> des efforts soutenus que le Comité d’experts a déployés pour établir le Centre mondial des Nations Unies pour les connaissances et l’innovation géospatiales à Deqing (Chine) et le Centre d’excellence géodésique mondial des Nations Unies sur le campus des Nations Unies à Bonn (Allemagne), qui permettront, de façon ouverte, inclusive, participative et transparente, de développer les capacités, les compétences et les moyens géospatiaux au niveau mondial et de renforcer les mécanismes nationaux de gestion de l’information géospatiale, notamment dans les pays en développement,</p>
+      </container>
+      <container name="Prenant note" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Prenant note</span> de la décision 11/101 adoptée par le Comité d’experts à sa onzième session<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		Voir <span class="italic">Documents officiels du Conseil économique et social, 2022, Supplément n</span><span class="italic"><sup>o</sup></span><span class="italic"> 26</span> (<a href="https://undocs.org/fr/E/2022/46">E/2022/46</a>), chap. I, sect. B.</p></authorialNote>, dans laquelle le Comité a pris acte de ses réalisations notables et de son importance croissante, ses multiples axes de travail ayant eu des effets positifs manifestes tant sur le paysage géospatial mondial que sur les programmes nationaux de développement au cours des 10 dernières années, mais a indiqué qu’il devait disposer de ressources durables pour guider et soutenir efficacement les États Membres dans leurs initiatives tendant à créer et maintenir des capacités intégrées d’information géospatiale pour l’avenir,</p>
+      </container>
+      <container name="Rappelant" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> qu’il a prié le Comité d’experts de lui rendre compte, dans un délai de cinq ans, de l’application de la résolution <a href="https://undocs.org/fr/E/RES/2016/27">2016/27</a> et de la poursuite de ses efforts de collaboration avec la Commission de statistique et avec l’ensemble du système des Nations Unies ainsi que de l’intégration des systèmes d’information géospatiale et statistique, et d’examiner, à cet égard, le renforcement de ses arrangements institutionnels,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_15" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve">	<span class="italic">Se félicite et prend note </span>du rapport complet du Comité d’experts sur la gestion de l’information géospatiale à l’échelle mondiale<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		<a href="https://undocs.org/fr/E/2022/68">E/2022/68</a>, annexe.</p></authorialNote> portant, en particulier, sur l’examen par le Comité du renforcement de ses arrangements institutionnels et, de manière générale, sur la gestion de l’information géospatiale à l’échelle mondiale ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">	<span class="italic">Salue</span> les progrès que le Comité d’experts a accomplis dans le domaine de la gestion de l’information géospatiale à l’échelle mondiale et la contribution qu’il a apportée au renforcement des capacités de gestion et d’utilisation de cette information dans les pays en développement ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">	<span class="italic">Accueille avec satisfaction</span> les fonds extrabudgétaires alloués par les États Membres et les efforts déployés pour mobiliser des ressources supplémentaires, notamment au moyen de fonds d’affectation spéciale, dans le cadre de détachements d’experts et à partir d’autres sources, le cas échéant, pour appuyer les activités du Comité d’experts ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme</span> qu’il importe de renforcer et d’améliorer l’efficacité du Comité d’experts, en particulier en ce qui concerne l’exécution de ses activités axées sur les objectifs de développement durable et le Cadre intégré de l’information géospatiale, afin qu’il conserve son efficacité et continue de se renforcer et que tous les États Membres puissent continuer de bénéficier de ses travaux ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">Estime</span> que, le rôle et la pertinence du Comité d’experts continuant de prendre de l’ampleur au niveau mondial, un financement et un appui suffisants, prévisibles et durables sont indispensables pour qu’il puisse exécuter son mandat sur le long terme et tirer toute la valeur de son travail normatif et de ses activités de mise en œuvre ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="italic">Décide </span>de renforcer les arrangements institutionnels du Comité d’experts, qui est son organe subsidiaire chargé de toutes les questions ayant trait à l’information géospatiale, à la géographie, à l’administration des biens fonciers et à des thèmes connexes, conformément au mandat dont le texte figure en annexe à la présente résolution ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">	<span class="italic">Décide également</span> de renforcer les travaux du Comité d’experts, et prie le Secrétaire général de recenser, dans son prochain projet de budget, les moyens d’y parvenir, dans les limites des ressources existantes, notamment la possibilité de créer un secrétariat pour le Comité, qui se consacrerait au travail normatif et aux activités de mise en œuvre menés par le Comité dans le domaine de la gestion de l’information géospatiale à l’échelle mondiale ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="italic">Confirme </span>l’inscription de la session annuelle du Comité d’experts dans le calendrier des conférences et réunions de l’Organisation des Nations Unies qui concernent le Conseil économique et social, ainsi que la fourniture, dans les limites des ressources existantes, des services de gestion des conférences, des services d’interprétation et du plein appui nécessaires à sa tenue.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="34e">34e séance plénière</inline>
+        <eol />
+        <docDate date="2022-07-22" refersTo="#adoptionDate">22 juillet 2022</docDate>
+      </p>
+    </conclusions>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-22/2022-24/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-22/2022-24/"></FRBRuri>
+                <FRBRdate date="2022-07-22" name="adoption"></FRBRdate>
+                <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-22/2022-24/fra@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-22/2022-24/fra@/"></FRBRuri>
+                <FRBRdate date="2022-08-01" name="publication"></FRBRdate>
+                <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="fra"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-22/2022-24/fra@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-22/2022-24/fra@.xml"></FRBRuri>
+                <FRBRdate date="2022-08-18" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_45" class="H1">
+              <heading>Annexe</heading>
+            </paragraph>
+            <paragraph eId="para_46" class="H1">
+              <heading>Mandat du Comité d’experts sur la gestion de l’information géospatiale à l’échelle mondiale</heading>
+            </paragraph>
+            <paragraph eId="para_47" class="H23">
+              <subheading>Objectifs et fonctions</subheading>
+            </paragraph>
+            <paragraph eId="para_48" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_48__content">
+                <p xml:space="preserve">	Afin que l’information géospatiale contribue au mieux au règlement des problèmes mondiaux, et, plus particulièrement, à l’exécution du Programme de développement durable à l’horizon 2030, le Comité d’experts sur la gestion de l’information géospatiale à l’échelle mondiale a les objectifs et fonctions ci‑après :</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_49" class="SingleTxt">
+              <content eId="para_49__content">
+                <p xml:space="preserve">	a) Il exerce ses fonctions en respectant les politiques et les arrangements institutionnels établis, et, en tant que communauté de pratique mondiale interconnectée, fournit la direction nécessaire pour garantir la coordination, la tenue à jour et l’accessibilité des informations et des ressources géospatiales et pour faire en sorte qu’elles puissent être mises à profit par les États Membres et la société afin de trouver des solutions durables favorisant le développement social, économique et environnemental ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_50" class="SingleTxt">
+              <content eId="para_50__content">
+                <p xml:space="preserve">	b) Il assure la coordination et le dialogue entre les États Membres, les comités régionaux et les réseaux thématiques du Comité et entre ceux-ci et les organisations internationales en ce qui concerne le renforcement de la coopération dans le domaine de la gestion de l’information géospatiale à l’échelle mondiale, et prend des décisions conjointes et définit des orientations concernant la production et l’utilisation de l’information géospatiale dans le cadre de plans directeurs nationaux, régionaux et mondiaux ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_51" class="SingleTxt">
+              <content eId="para_51__content">
+                <p xml:space="preserve">	c) Il propose des plans de travail et des directives aux fins de l’élaboration de cadres, de principes, de politiques, de méthodes, de normes et de mécanismes communs devant servir à promouvoir l’interopérabilité et le partage des données et services géospatiaux ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_52" class="SingleTxt">
+              <content eId="para_52__content">
+                <p xml:space="preserve">	d) Il offre un cadre pour l’élaboration de stratégies visant à mettre en place et à renforcer les capacités nationales en ce qui concerne l’information géospatiale, en particulier dans les pays en développement, et il aide les pays concernés à développer le potentiel de l’information géospatiale et des technologies et services clefs connexes ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_53" class="SingleTxt">
+              <content eId="para_53__content">
+                <p xml:space="preserve">	e) Il fait en sorte que les données et informations géospatiales soient plus facilement accessibles, de meilleure qualité et mieux ventilées et que l’on puisse en disposer plus rapidement pour appuyer la mise en œuvre à tous les niveaux du Programme de développement durable à l’horizon 2030 et d’autres cadres de développement mondiaux pertinents, consensuels et durables ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_54" class="SingleTxt">
+              <content eId="para_54__content">
+                <p xml:space="preserve">	f) Il rassemble et diffuse les pratiques optimales et les données d’expérience des organes nationaux, régionaux et internationaux en matière d’information géospatiale et portant notamment sur la gestion intégrée de cette information, les instruments juridiques, les modèles de gestion et les normes techniques en vue de contribuer à la mise en place de cadres statistiques et géospatiaux nationaux et d’infrastructures de données tout en autorisant une certaine souplesse dans l’élaboration d’activités géospatiales en fonction des priorités nationales ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_55" class="SingleTxt">
+              <content eId="para_55__content">
+                <p xml:space="preserve">	g) Il assure la collaboration interdisciplinaire avec d’autres communautés nationales et internationales telles que les statisticiens afin de collecter des données sur la société, l’économie et l’environnement ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_56" class="SingleTxt">
+              <content eId="para_56__content">
+                <p xml:space="preserve">	h) Il rend compte au Conseil économique et social des questions relevant de son mandat.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_57" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_57__content">
+                <p xml:space="preserve">	Dans l’exercice de ses fonctions, le Comité fait fond sur les travaux en cours dans d’autres instances et mécanismes dans les domaines de la gestion de l’information géospatiale, du développement des statistiques et de l’innovation.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_58" class="H23">
+              <subheading>Participation, composition et durée du mandat</subheading>
+            </paragraph>
+            <paragraph eId="para_59" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_59__content">
+                <p xml:space="preserve">	Le Comité se compose d’experts originaires de tous les États Membres. Des experts d’observateurs auprès de l’Assemblée générale, d’organisations internationales, du monde universitaire et du secteur privé peuvent participer en qualité d’observateurs aux réunions du Comité. Lors de la désignation de leurs représentants nationaux, les États Membres s’efforcent de choisir des experts ayant des connaissances particulières dans le domaine de la gestion de l’information géospatiale et dans les nombreux domaines connexes<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		Sciences géospatiales, géomatique, relevés topographiques, géographie, administration des biens fonciers, géodésie, cartographie, télédétection, hydrographie et océanographie, systèmes d’information géographique terrestres ou maritimes et sciences de l’environnement.</p></authorialNote>.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_60" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_60__content">
+                <p xml:space="preserve">	Le Comité élit à chaque session trois présidents au maximum et un rapporteur parmi ses membres, en respectant les principes d’équilibre et de représentation géographiques.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_61" class="SingleTxt">
+              <num>5.</num>
+              <content eId="para_61__content">
+                <p xml:space="preserve">	Le Comité peut créer au besoin des groupes informels, notamment des groupes de haut niveau, des groupes d’experts, des groupes de travail ou des sous-comités, pour traiter des questions spécifiques relatives à son programme de travail.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_62" class="H23">
+              <subheading>Procédure d’établissement des rapports</subheading>
+            </paragraph>
+            <paragraph eId="para_63" class="SingleTxt">
+              <num>6.</num>
+              <content eId="para_63__content">
+                <p xml:space="preserve">	Le Comité rend compte au Conseil économique et social.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_64" class="H23">
+              <subheading>Fréquence des réunions</subheading>
+            </paragraph>
+            <paragraph eId="para_65" class="SingleTxt">
+              <num>7.</num>
+              <content eId="para_65__content">
+                <p xml:space="preserve">	Le Comité se réunit normalement une fois par an pendant trois jours et peut tenir, à titre exceptionnel, des réunions supplémentaires, s’il y a lieu.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_66" class="H23">
+              <subheading>Secrétariat</subheading>
+            </paragraph>
+            <paragraph eId="para_67" class="SingleTxt">
+              <num>8.</num>
+              <content eId="para_67__content">
+                <p xml:space="preserve">	Le secrétariat du Comité est assuré par la Division de statistique du Département des affaires économiques et sociales et la Section de l’information géospatiale du Bureau de l’informatique et des communications. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_68" class="H23">
+              <subheading>Documentation destinée aux réunions</subheading>
+            </paragraph>
+            <paragraph eId="para_69" class="SingleTxt">
+              <num>9.</num>
+              <content eId="para_69__content">
+                <p xml:space="preserve">	La documentation de chaque session comprend l’ordre du jour, le rapport sur les travaux de la session du Comité, les rapports des comités régionaux et des réseaux thématiques du Comité, les rapports et notes thématiques élaborés par les groupes de haut niveau, les groupes d’experts, les groupes de travail ou les sous-comités, les notes du Secrétariat et autres documents pertinents présentés par des experts ou groupes d’experts extérieurs.</p>
+              </content>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>
