@@ -1,0 +1,757 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/"></FRBRuri>
+          <FRBRdate date="2022-07-21" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/eng@/"></FRBRuri>
+          <FRBRdate date="2022-07-29" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/eng@.xml"></FRBRuri>
+          <FRBRdate date="2022-08-18" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="15" href="http://metadata.un.org/sdg/15" showAs="sdg_15" dictionary="SDGO"></keyword>
+        <keyword value="land,_plant_and_soil_resources" href="http://metadata.un.org/thesaurus/030600" showAs="land,_plant_and_soil_resources" dictionary="UNBIS"></keyword>
+        <keyword value="biodiversity" href="http://eurovoc.europa.eu/5463" showAs="biodiversity" dictionary="EuroVoc"></keyword>
+        <keyword value="desertification" href="http://eurovoc.europa.eu/416" showAs="desertification" dictionary="EuroVoc"></keyword>
+        <keyword value="desertification" href="http://metadata.un.org/thesaurus/1001594" showAs="desertification" dictionary="UNBIS"></keyword>
+        <keyword value="deforestation" href="http://eurovoc.europa.eu/339" showAs="deforestation" dictionary="EuroVoc"></keyword>
+        <keyword value="deforestation" href="http://metadata.un.org/thesaurus/1001550" showAs="deforestation" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Forum on Forests (17th sess. : 2022 : New York)" showAs="UN Forum on Forests (17th sess. : 2022 : New York)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Global Forest Financing Facilitation Network" showAs="UN Global Forest Financing Facilitation Network" dictionary="DHLAUTH"></keyword>
+        <keyword value="Collaborative Partnership on Forests" showAs="Collaborative Partnership on Forests" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Strategic Plan for Forests 2017-2030" showAs="UN Strategic Plan for Forests 2017-2030" dictionary="DHLAUTH"></keyword>
+        <keyword value="SUSTAINABLE FORESTRY" showAs="SUSTAINABLE FORESTRY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FOREST MANAGEMENT" showAs="FOREST MANAGEMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DEVELOPMENT FINANCE" showAs="DEVELOPMENT FINANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PROGRAMME EVALUATION" showAs="PROGRAMME EVALUATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="18j" showAs="United Nations Forum on Forests." shortForm="UN FORUM ON FORESTS" dictionary="E/2022/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="E/2022/42" by="UN Forum on Forests" />
+        <step date="2022-07-29" outcome="adopted" as="Adopted without vote, 33rd plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">22-11666 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2022/17</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Economic and Social Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-07-29" class="rightSmall" refersTo="#dateOfIssuance">29 July 2022</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2022" eId="coverPage_1__session_1">2022 session</session>
+      </p>
+      <p>
+        <inline title="18 (j)" name="agenda item">Agenda item 18 (j)</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Economic and environmental questions: United Nations Forum on Forests</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the Economic and Social Council on 21 July 2022</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent>[on the recommendation of the United Nations Forum on Forests (<inline name="originating document">E/2022/42</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2022/17.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Outcome of the seventeenth session of the United Nations Forum on Forests</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Economic and Social Council</span>,</p>
+      </formula>
+      <container name="Recalling" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> its resolutions <a href="https://undocs.org/en/E/RES/2015/33">2015/33</a> of 22 July 2015, <a href="https://undocs.org/en/E/RES/2017/4">201</a><a href="https://undocs.org/en/E/RES/2017/4">7</a><a href="https://undocs.org/en/E/RES/2017/4">/4</a> of 20 April 2017, <a href="https://undocs.org/en/E/RES/2020/14">202</a><a href="https://undocs.org/en/E/RES/2020/14">0</a><a href="https://undocs.org/en/E/RES/2020/14">/14</a> of 17 July 2020 and <a href="https://undocs.org/en/E/RES/2021/6">202</a><a href="https://undocs.org/en/E/RES/2021/6">1</a><a href="https://undocs.org/en/E/RES/2021/6">/6</a> of 8 June 2021, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_3" class="H23">
+        <subheading>		Implementation of the United Nations strategic plan for Forests 2017–2030 </subheading>
+      </paragraph>
+      <paragraph eId="para_4" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_4__content">
+          <p xml:space="preserve">	<span class="italic">Invites</span> members of the United Nations Forum on Forests to accelerate efforts towards achieving the global forest goals, including through coordinating, mainstreaming and upscaling forest-related actions in relevant programmes, strategies and plans, including national development plans, and in this regard to support existing and emerging national, subregional and regional joint initiatives and partnerships on the implementation of the United Nations strategic plan for forests 2017–2030;<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	 	See General Assembly resolution <a href="https://undocs.org/en/A/RES/71/285">71/285</a>.</p></authorialNote> </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_5" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_5__content">
+          <p xml:space="preserve">	<span class="italic">Invites</span> the Collaborative Partnership on Forests to continue to strengthen its collaboration with and support to the work of the Forum and its members for the implementation of the quadrennial programme of work of the Forum for the period 2021–2024 and the strategic plan;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_7" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_7__content">
+          <p xml:space="preserve">	<span class="italic">Invites</span> the high-level political forum on sustainable development, the parties to the relevant multilateral environmental agreements, and other international forest-related processes to consider the relevant elements of the strategic plan as a reference framework for their forest-related work to enhance progress towards achieving the Sustainable Development Goals<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	 	See General Assembly resolution <a href="https://undocs.org/en/A/RES/70/1">70/1</a>.</p></authorialNote> and the objectives of relevant multilateral environmental agreements, to promote forest-related actions, to improve the understanding of the interlinkages between the social, economic and environmental benefits of forests with their areas of work, including for the eradication of poverty, and to promote effective cooperation and collaboration on forest-related matters; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> members of the Forum to enhance North-North, North-South, South-South and triangular cooperation in the technical, financial, scientific, technological and innovation fields to support implementation of the strategic plan and accelerate the achievement of its global forest goals, and to promote sustainable forest management, taking into account national circumstances, including challenges faced by developing countries; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> members of the Forum to implement the global forest goals, taking into account national circumstances, to contribute to the implementation of forest-related multilateral instruments, processes, commitments and goals, and in this respect invites member organizations of the Collaborative Partnership on Forests to enhance cooperation and collaboration and strengthen their support to the Forum and its members; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="italic">Takes note with appreciation</span> of recent forest-related declarations, pledges and developments, including but not limited to the forest-relevant contributions of the Glasgow Leaders’ Declaration on Forests and Land Use;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> countries and organizations that have made pledges in support of forest-related instruments, processes, commitments and goals to provide information, including through the Global Forest Financing Facilitation Network;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> members of the Forum to highlight the contributions of forests and sustainable forest management, and their economic, social and environmental benefits, for the protection, conservation and sustainable use of biodiversity, in the work towards the post-2020 global biodiversity framework;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the Forum to enhance its multilingual communication in its work and in its information exchange activities to promote the strategic plan and to further progress towards the global forest goals, including the activities aimed at raising awareness of the multiple benefits of forests and the visibility of the work of the Forum within and outside the United Nations system;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="italic">Emphasizes</span> that effective implementation of sustainable forest management depends on the contributions of all relevant stakeholders, including but not limited to regional and subregional organizations and processes, forest owners, indigenous peoples, local communities, local authorities, the private sector, including small, medium and large forest-based enterprises, non-governmental organizations, women, children, youth, and scientific, academic and philanthropic organizations at all levels, and in this respect encourages these stakeholders to continue to advance the implementation of the strategic plan and the achievement of the global forest goals, and to keep the Forum informed of their progress in that regard; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_59" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_59__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> the important role of small-scale landowners, micro-, small and medium-sized enterprises, as well as local communities and indigenous peoples, in the conservation, sustainable management and protection of forests, and encourages members of the Forum to develop, improve and implement public policies, including to facilitate access to financing, to create an enabling environment at all levels for sustainable development;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_70" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_70__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the work carried out by the Forum together with international forest-related organizations and other partners in assessing the impacts of the global coronavirus disease (COVID-19) pandemic on forests and the forest sector, and encourages integration of forests and their sustainable management in the post-COVID recovery measures adopted by countries, taking into account relevant interlinkages between biodiversity and health;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_71" class="H23">
+        <subheading>		Means of implementation, including operations and resources of the Global Forest Financing Facilitation Network</subheading>
+      </paragraph>
+      <paragraph eId="para_72" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_72__content">
+          <p xml:space="preserve">	<span class="italic">Recalls</span> the importance of the mobilization of and effective use of financial resources, including new and additional resources from all sources and at all levels, and recalls that public policies and the mobilization and effective use of domestic resources, underscored by the principle of national ownership and leadership, are central to the common pursuit of sustainable development, and also recalls paragraphs 52 to 61 of Economic and Social Council resolution <a href="https://undocs.org/en/E/RES/2017/4">2017/4</a>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_73" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_73__content">
+          <p xml:space="preserve">	<span class="italic">Also recalls</span> that the effective implementation of sustainable forest management is critically dependent upon adequate resources, including financing, capacity development and the transfer of environmentally sound technologies, and, in particular, the need to mobilize increased financial resources, including innovative sources, for developing countries, including least developed countries, landlocked developing countries and small island developing States, as well as countries with economies in transition, and further recalls that the implementation of sustainable forest management is also critically dependent upon good governance at all levels;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_75" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_75__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the support provided by the Global Forest Financing Facilitation Network to countries for strengthening capacity to mobilize resources by all stakeholders and from all sources to promote sustainable forest management and the achievement of the global forest goals, including through the development of national forest financing strategies;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_78" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_78__content">
+          <p xml:space="preserve">	<span class="italic">Invites</span> members of the Collaborative Partnership on Forests to consider seconding staff to the Forum secretariat to enhance the capacity of the Global Forest Financing Facilitation Network with a view to providing adequate and timely support to members of the Forum, and to scale up support to the activities of the Network; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_82" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_82__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Forum secretariat to continue to develop and make operational phase II of the Global Forest Financing Facilitation Network clearing house, including its new database on forest financial flows, within existing resources, and to encourage members of the Forum to share their lessons learned and best practices regarding forest financing for publishing on the website of the Network clearing house, in collaboration with members of the Collaborative Partnership on Forests, in accordance with their respective mandates; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_87" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_87__content">
+          <p xml:space="preserve">	<span class="italic">Also requests</span> the Forum secretariat, within existing resources, to regularly update the Global Forest Financing Facilitation Network clearing house databases and communicate information to familiarize members of the Forum with the databases, and in this respect invites members of the Collaborative Partnership on Forests to contribute, as appropriate, within their mandates and available resources; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_93" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_93__content">
+          <p xml:space="preserve">	<span class="italic">Emphasizes</span> the importance for the Global Forest Financing Facilitation Network to continue to provide its support to relevant members of the Forum, consistent with the provisions of the strategic plan, and its guidelines adopted during the thirteenth session of the Forum,<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	 	<span class="italic">Official Records of the Economic and Social Council, 2018, Supplement No. 22</span> (<a href="https://undocs.org/en/E/2018/42">E/2018/42</a>), chap. I, sect. B, resolution 13/1, annex II.</p></authorialNote> and encourages the Forum secretariat, in accordance with the respective United Nations rules and regulations, to identify ways to facilitate contributions from the private sector and philanthropic organizations;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_100" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_100__content">
+          <p xml:space="preserve">	<span class="italic">Recalls</span> paragraph 13 of Council resolution <a href="https://undocs.org/en/E/RES/2020/14">2020/14</a>, and requests the Forum secretariat to provide regular updates on this matter and to provide a progress report to the Forum at its eighteenth session; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_108" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_108__content">
+          <p xml:space="preserve">	<span class="italic">Invites</span> members of the Forum and others in a position to do so to provide voluntary contributions to the trust fund for the United Nations Forum on Forests to scale up the activities of the Forum secretariat, including the Global Forest Financing Facilitation Network;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_109" class="H23">
+        <subheading>		Monitoring, assessment and reporting</subheading>
+      </paragraph>
+      <paragraph eId="para_110" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_110__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> that the secretariat of the Forum amend the format for voluntary national reporting, taking into account the suggestions and proposals received from members of the Forum, and conduct a pilot phase for the use of the refined format in interested countries, with all types of forests, and with different socioeconomic contexts, and report on the progress made to the Forum at its eighteenth session; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_111" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_111__content">
+          <p xml:space="preserve">	<span class="italic">Invites</span> the Forum to consider establishing an advisory group on reporting, within existing resources, taking into account the experience gained and lessons learned from having an informal advisory group involved with the 2021 flagship publication, and in this respect requests the Forum secretariat to evaluate the impact of the publication and propose terms of reference, including the suggested composition of this group, with due regard to the need for balanced United Nations geographical representation, to the Forum at its eighteenth session;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_113" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_113__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> that the Forum secretariat, in the context of preparations for the midterm review of the international arrangement on forests, and in consultation with members of the Forum, prepare a road map and timeline for the next reporting cycle, in conjunction with the Global Forest Resources Assessment cycle, and explore options for establishing an online reporting platform for the Forum, recognizing the need for streamlined reporting and minimizing the reporting burden, including the challenges faced by developing countries;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_116" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_116__content">
+          <p xml:space="preserve">	<span class="italic">Also requests</span> that the Forum secretariat, through voluntary contributions and in consultation with members of the Forum, organize jointly with the Food and Agriculture Organization of the United Nations and other relevant member organizations of the Collaborative Partnership on Forests, a global workshop on national voluntary reporting on progress towards global forest goals and targets, with a focus on data sources, collection and methodologies for which there is a lack of systematic data, with modalities for inclusive participation, and with due regard to all United Nations official languages, subject to the availability of extrabudgetary resources; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_120" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_120__content">
+          <p xml:space="preserve">	<span class="italic">Invites</span> members of the Forum, as appropriate, to enhance international technical and financial cooperation on the reporting, collection, processing and sharing of forest-related data, including data regarding the multiple socioeconomic benefits of forests, national forest resource inventories and the role of forests in poverty eradication, human well-being, income generation and employment, and the understanding of public and private finance flows; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_125" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_125__content">
+          <p xml:space="preserve">	<span class="italic">Invites</span> members of the Forum and the governing bodies of member organizations of the Collaborative Partnership on Forests to make use of the global core set of forest-related indicators, and invites the Forum secretariat, in collaboration with the Food and Agriculture Organization of the United Nations and other relevant member organizations of the Collaborative Partnership on Forests, to arrange further work on tier 3 indicators,<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">	 	For further information on tier 3 indicators, see <a href="https://undocs.org/en/E/CN.18/2022/4">E/CN.18/2022/4</a>.</p></authorialNote> including the improvement of concepts, definitions and voluntary testing in the field; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_126" class="H23">
+        <subheading>		Preparations for the midterm review in 2024 of the effectiveness of the international arrangement on forests </subheading>
+      </paragraph>
+      <paragraph eId="para_127" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_127__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that the Forum should carry out the actions contained in the annex to the present resolution, in preparation for the midterm review of the international arrangement on forests, during the period following the conclusion of the seventeenth session of the Forum and before its nineteenth session; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_128" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_128__content">
+          <p xml:space="preserve">	<span class="italic">Also decides</span> to defer consideration of paragraphs 42 (a) and (b) of Council resolution <a href="https://undocs.org/en/E/RES/2015/33">2015/33</a> to the final review of the effectiveness of the international arrangement on forests in 2030; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_130" class="SingleTxt">
+        <num>30.</num>
+        <list eId="para_130_list">
+          <intro eId="para_130_list_intro">
+            <p xml:space="preserve">	<span class="italic">Further decides</span>: </p>
+          </intro>
+          <point eId="para_130_list_point_a">
+            <num>(a)</num>
+            <content eId="para_130_list_point_a_content">
+              <p xml:space="preserve">	To establish an open-ended intergovernmental ad hoc expert group on the preparations for the midterm review of the international arrangement on forests, to be convened by the Forum secretariat towards the end of 2023, to review all assessments and outcomes of preparatory intersessional work related to the midterm review of the international arrangement, as outlined in the annex to the present resolution, and that the secretariat should submit the report of the ad hoc expert group to the Forum at its nineteenth session for its consideration; </p>
+            </content>
+          </point>
+          <point eId="para_130_list_point_b">
+            <num>(b)</num>
+            <content eId="para_130_list_point_b_content">
+              <p xml:space="preserve">	That the ad hoc expert group will be open to all members of the Forum, the member organizations of the Collaborative Partnership on Forests, relevant regional and subregional organizations and processes, major groups and other relevant stakeholders, and that it should be organized, using existing resources, including extrabudgetary contributions, with adequate participation of developing countries, and in all United Nations official languages, subject to the availability of extrabudgetary resources, with a view to making proposals to the Forum at its nineteenth session on the midterm review of the effectiveness of the international arrangement on forests, including the future steps to be taken by the international arrangement beyond 2024;</p>
+            </content>
+          </point>
+          <point eId="para_130_list_point_c">
+            <num>(c)</num>
+            <content eId="para_130_list_point_c_content">
+              <p xml:space="preserve">	That the Bureau of the Forum at its nineteenth session, taking into account the outcome of the ad hoc expert group, should conduct informal consultations with members of the Forum and prepare and submit to the Forum at its nineteenth session the zero draft of the resolution on the international arrangement on forests beyond 2024;</p>
+            </content>
+          </point>
+          <point eId="para_130_list_point_d">
+            <num>(d)</num>
+            <content eId="para_130_list_point_d_content">
+              <p xml:space="preserve">	That actions set out in the annex to the present resolution should be implemented in a transparent and independent manner and in close consultation with members of the Forum, as well as member organizations of the Collaborative Partnership on Forests and other relevant stakeholders, including through questionnaires, where appropriate; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_133" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_133__content">
+          <p xml:space="preserve">	<span class="italic">Invites</span> those members of the Forum that are in a position to do so to provide voluntary contributions to the Forum trust fund to enable the secretariat to organize the open-ended intergovernmental ad hoc expert group on the preparations for the midterm review of the international arrangement on forests and to facilitate implementation of the actions set out in the annex to the present resolution.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="33rd">33rd plenary meeting</inline>
+        <eol />
+        <docDate date="2022-07-21" refersTo="#adoptionDate">21 July 2022</docDate>
+      </p>
+    </conclusions>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/"></FRBRuri>
+                <FRBRdate date="2022-07-21" name="adoption"></FRBRdate>
+                <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/eng@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/eng@/"></FRBRuri>
+                <FRBRdate date="2022-07-29" name="publication"></FRBRdate>
+                <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="eng"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/eng@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/eng@.xml"></FRBRuri>
+                <FRBRdate date="2022-08-18" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_135" class="H23">
+              <subheading>Annex</subheading>
+            </paragraph>
+            <paragraph eId="para_136" class="H23">
+              <subheading>Actions in preparation for the midterm review, in 2024, of the effectiveness of the international arrangement on forests</subheading>
+            </paragraph>
+            <paragraph eId="para_137" class="H23">
+              <num>A.</num>
+              <subheading>	Actions related to the United Nations Forum on Forests and its members</subheading>
+            </paragraph>
+            <paragraph eId="para_138" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_138__content">
+                <p xml:space="preserve">	Assess the progress made by the United Nations Forum on Forests and its members towards the objectives of the international arrangement on forests, as defined in Economic and Social Council resolution <a href="https://undocs.org/en/E/RES/2015/33">2015/33</a>.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_139" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_139__content">
+                <p xml:space="preserve">	Analyse the performance of the Forum in carrying out its functions, as defined in paragraph 3 of Council resolution <a href="https://undocs.org/en/E/RES/2015/33">2015/33</a>, by identifying its impact on the global forest policy landscape and on the work of the high-level political forum on sustainable development, as well as the means to enable the Forum to broaden its impact. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_140" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_140__content">
+                <p xml:space="preserve">	Explore additional measures to improve the use of the annual sessions of the Forum and to engage members in the intersessional activities of the Forum to foster the achievement of the global forest goals.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_141" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_141__content">
+                <p xml:space="preserve">	Identify further means to encourage the submission of more voluntary national reports and announcements of voluntary national contributions by members of the Forum, as well as identify means to encourage increased voluntary national contributions by members of the Forum and promote their effectiveness.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_142" class="SingleTxt">
+              <num>5.</num>
+              <content eId="para_142__content">
+                <p xml:space="preserve">	To carry out the above-mentioned tasks, the Forum secretariat should, in consultation with members of the Forum and relevant stakeholders, conduct an assessment and submit it to the open-ended intergovernmental ad hoc expert group referred to in paragraph 30 of the present resolution. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_143" class="H23">
+              <num>B.</num>
+              <subheading>	Actions related to the Forum secretariat</subheading>
+            </paragraph>
+            <paragraph eId="para_144" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_144__content">
+                <p xml:space="preserve">	Assess the achievements made by the Forum secretariat in carrying out its functions and in making progress towards the objectives of the international arrangement on forests, as defined in Council resolution <a href="https://undocs.org/en/E/RES/2015/33">2015/33</a>.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_145" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_145__content">
+                <p xml:space="preserve">	Analyse the gaps in and the existing capacity of the Forum secretariat with a view to improving the efficiency and effectiveness of its operations, strengthening its capacities, gaining a better understanding of its decision-making processes and procedures, and amplifying the impact of its activities.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_146" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_146__content">
+                <p xml:space="preserve">	Identify additional measures to enhance collaboration and synergies, and to reduce duplication with regard to forest-related issues at the global level, bearing in mind the mandates of different organizations and entities. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_147" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_147__content">
+                <p xml:space="preserve">	To carry out the above-mentioned tasks, the Forum secretariat, in consultation with members of the Forum and relevant stakeholders, should conduct an independent assessment and submit it to the open-ended intergovernmental ad hoc expert group referred to in paragraph 30 of the present resolution. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_148" class="H23">
+              <num>C.</num>
+              <subheading>	Actions related to the Collaborative Partnership on Forests</subheading>
+            </paragraph>
+            <paragraph eId="para_149" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_149__content">
+                <p xml:space="preserve">	Assess the progress made by the Collaborative Partnership on Forests in carrying out its functions towards the objectives of the international arrangement on forests, as defined in Council resolution <a href="https://undocs.org/en/E/RES/2015/33">2015/33</a>.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_150" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_150__content">
+                <p xml:space="preserve">	Assess the effectiveness, impact and added value of the activities of the Partnership as outlined in its workplan, including with regard to its resources; output delivery; joint initiatives, including how the Forum can provide input thereto; and recurrent activities to foster the implementation of the United Nations strategic plan for forests 2017–2030 and the achievement of the global forest goals and the Sustainable Development Goals.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_151" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_151__content">
+                <p xml:space="preserve">	Consider the suitability of establishing criteria for membership in the Partnership.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_152" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_152__content">
+                <p xml:space="preserve">	Assess how the Partnership could provide greater support to the policy development work of the Forum and assist countries in strengthening their implementation of the strategic plan, Forum resolutions and decisions on the ground, including the means to further benefit from the capacities of other international and regional stakeholders and partners.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_153" class="SingleTxt">
+              <num>5.</num>
+              <content eId="para_153__content">
+                <p xml:space="preserve">	Assess the efficacy of internal communications within the Partnership to promote mutual synergies, reduce duplication and enhance the Partnership’s communications and outreach externally to promote awareness-raising of the multiple benefits of forests and raise the visibility of the strategic plan and the global forest goals within other forest-related processes. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_154" class="SingleTxt">
+              <num>6.</num>
+              <content eId="para_154__content">
+                <p xml:space="preserve">	To carry out the above-mentioned tasks, an independent study could be carried out, in consultation with the Partnership and Forum members. The results of the study should be presented at an intersessional meeting to be organized by the Partnership (the organization-led initiative) for discussion, with a view to making proposals regarding the Partnership to the open-ended intergovernmental ad hoc expert group referred to in paragraph 30 of the present resolution. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_155" class="H23">
+              <num>D.</num>
+              <subheading>	Actions related to the Global Forest Financing Facilitation Network</subheading>
+            </paragraph>
+            <paragraph eId="para_156" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_156__content">
+                <p xml:space="preserve">	Assess the progress made by the Global Forest Financing Facilitation Network towards achieving the objectives of the international arrangement on forests, as defined in Council resolution <a href="https://undocs.org/en/E/RES/2015/33">2015/33</a>.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_157" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_157__content">
+                <p xml:space="preserve">	Assess the status of existing resources for forests available from all sources, including private funding, as well as the gaps and constraints with regard to gaining access to such funds. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_158" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_158__content">
+                <p xml:space="preserve">	Review the performance of the Network and the impacts of its activities, the sufficiency of its resources and the challenges to and constraints on its work. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_159" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_159__content">
+                <p xml:space="preserve">	Propose measures to increase the efficiency and added value of the Network and strengthen its capacity to facilitate and enhance access by eligible countries to resources for forests from all sources and review the Network guidelines adopted during the thirteenth session of the Forum, in the context of the midterm review of the international arrangement on forests in 2024. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_160" class="SingleTxt">
+              <num>5.</num>
+              <content eId="para_160__content">
+                <p xml:space="preserve">	To carry out the above-mentioned tasks, the Forum secretariat, in consultation with members of the Forum and partners, should conduct an assessment of the performance, impacts and resource sufficiency and longevity of the Network and other measures to strengthen its work. The assessment should be presented for discussion at an intersessional meeting, the outcome of which should be submitted to the open-ended intergovernmental ad hoc expert group referred to in paragraph 30 of the present resolution.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_161" class="H23">
+              <num>E.</num>
+              <subheading>	Actions related to the trust fund for the United Nations Forum on Forests</subheading>
+            </paragraph>
+            <paragraph eId="para_162" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_162__content">
+                <p xml:space="preserve">	Assess the impact of voluntary contributions to the trust fund for the United Nations Forum on Forests on supporting the core activities of the Forum.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_163" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_163__content">
+                <p xml:space="preserve">	Explore options to encourage sustained and adequate contributions to the trust fund.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_164" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_164__content">
+                <p xml:space="preserve">	Identify the key challenges and constraints with regard to mobilizing adequate resources for the trust fund. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_165" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_165__content">
+                <p xml:space="preserve">	The Forum secretariat should, in consultation with members of the Forum, undertake the above-mentioned tasks and present its findings and suggestions in a background note for submission to the open-ended intergovernmental ad hoc expert group referred to in paragraph 30 of the present resolution. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_166" class="H23">
+              <num>F.</num>
+              <subheading>	Actions related to the implementation of the United Nations strategic plan for forests 2017–2030</subheading>
+            </paragraph>
+            <paragraph eId="para_167" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_167__content">
+                <p xml:space="preserve">	Gather new information from member States on their actions in implementing the United Nations strategic plan for forests 2017–2030 since the fifteenth session of the Forum in 2020, the challenges and constraints they are facing in the preparation of voluntary national reports, ways to reduce duplication and reporting burden, the suitability of setting a 6- to 12-month timeline from the publication of the Global Forest Resources Assessment for the submission of voluntary national reports and regional and global issues of concern with regard to forests, in response to a concise questionnaire developed by the Forum secretariat, as well as information gathered in 2019 and 2020 and submitted by member States to the Forum at its fifteenth session, along with voluntary national contributions and the most recent global publications and reports on forests.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_168" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_168__content">
+                <p xml:space="preserve">	The Forum secretariat should collate the above-mentioned information in one background note for discussion at an intersessional expert group meeting, to be held prior to the nineteenth session of the Forum, and submit the outcome document of that meeting to the open-ended intergovernmental ad hoc expert group referred to in paragraph 30 of the present resolution. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_169" class="H23">
+              <num>G.</num>
+              <subheading>	Actions related to the contributions of the Forum to the 2030 Agenda for Sustainable Development</subheading>
+            </paragraph>
+            <paragraph eId="para_170" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_170__content">
+                <p xml:space="preserve">	Assess the contribution of the Forum to the high-level political forum on sustainable development on the interlinkages between forests and the Sustainable Development Goals, and the extent to which the contributions of the Forum are reflected in the outcomes of the high-level political forum, since the adoption of Council resolution <a href="https://undocs.org/en/E/RES/2015/33">2015/33</a>.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_171" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_171__content">
+                <p xml:space="preserve">	Identify additional opportunities for the enhanced and direct contribution of the Forum, its secretariat and the Collaborative Partnership on Forests on forest-related issues to the sessions of the high-level political forum on sustainable development, in particular when it reviews the forest-related Sustainable Development Goals, and to other relevant global bodies, including the three Rio conventions (the Convention on Biological Diversity,<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">	 	United Nations, <span class="italic">Treaty Series</span>, vol. 1760, No. 30619.</p></authorialNote> the United Nations Convention to Combat Desertification in Those Countries Experiencing Serious Drought and/or Desertification, Particularly in Africa,<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">	 	Ibid., vol. 1954, No. 33480.</p></authorialNote> and the United Nations Framework Convention on Climate Change).<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">	 	Ibid., vol. 1771, No. 30822.</p></authorialNote></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_172" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_172__content">
+                <p xml:space="preserve">	Propose measures to raise the visibility and contribution of forests at the meetings of the high-level political forum on sustainable development and increase the political relevance of forests to the broader sustainable development agenda, including by highlighting the impact of other sectors on global forests and the wide range of benefits that sustainable forest management hold for the Sustainable Development Goals.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_173" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_173__content">
+                <p xml:space="preserve">	To carry out the above-mentioned tasks, the Forum secretariat, in consultation with members of the Forum and partners, should conduct an assessment and present its findings at an intersessional meeting for discussion and submit the outcome document of that meeting to the open-ended intergovernmental ad hoc expert group referred to in paragraph 30 of the present resolution. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_174" class="H23">
+              <num>H.</num>
+              <subheading>	Actions related to the communication and outreach strategy of the United Nations strategic plan for forests 2017–2030</subheading>
+            </paragraph>
+            <paragraph eId="para_175" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_175__content">
+                <p xml:space="preserve">	Assess the progress made in the implementation of the communication and outreach strategy of the United Nations strategic plan for forests 2017–2030<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">	 	<span class="italic">Official Records of the Economic and Social Council, 2018, Supplement No. 22</span> (<a href="https://undocs.org/en/E/2018/42">E/2018/42</a>), chap. I, sect. B, resolution 13/1, annex I.</p></authorialNote> by members of the Forum, the secretariat, the Collaborative Partnership on Forests, regional organizations and relevant stakeholders, and identify ways to address the challenges to furthering its implementation, including challenges with regard to achieving greater visibility of the strategic plan and the global forest goals. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_176" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_176__content">
+                <p xml:space="preserve">	Assess the impact of the communication and outreach activities carried out to promote the strategic plan and the global forest goals, including the International Day of Forests and the usefulness of its themes to raise awareness of the multiple benefits of forests, as well as the visibility of the work of the Forum within the United Nations system. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_177" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_177__content">
+                <p xml:space="preserve">	Identify additional communication options, platforms and channels that have come into prominence in recent years to better reach target audiences and with greater impacts.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_178" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_178__content">
+                <p xml:space="preserve">	Explore ways to make use of the capacities of members of the Forum and other players and partners at the global, regional and national levels to strengthen advocacy on the implementation of the strategic plan. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_179" class="SingleTxt">
+              <num>5.</num>
+              <content eId="para_179__content">
+                <p xml:space="preserve">	To carry out the above-mentioned tasks, the Forum secretariat, in consultation with members of the Forum, partners and the member organizations of the Partnership, should conduct an assessment and submit its findings to the open-ended intergovernmental ad hoc expert group referred to in paragraph 30 of the present resolution. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_180" class="H23">
+              <num>I.</num>
+              <subheading>	Actions related to the involvement of regional and subregional partners</subheading>
+            </paragraph>
+            <paragraph eId="para_181" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_181__content">
+                <p xml:space="preserve">	Assess regional and subregional entities’ involvement in and contribution to the sessions of the Forum since its twelfth session.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_182" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_182__content">
+                <p xml:space="preserve">	Review developments regarding the establishment or strengthening of regional and subregional processes or platforms for forest policy development, dialogue and coordination to promote sustainable forest management while seeking to avoid fragmentation, in line with paragraph 28 of Council resolution <a href="https://undocs.org/en/E/RES/2015/33">2015/33</a>, as well as the progress made in implementing paragraph 27 of the resolution.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_183" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_183__content">
+                <p xml:space="preserve">	Identify options for the further involvement of regional and subregional partners, including with regard to the better use of the capacities provided by existing regional partners, in the work of the Forum and its future quadrennial programmes of work. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_184" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_184__content">
+                <p xml:space="preserve">	To carry out the above-mentioned tasks, the Forum secretariat, in consultation with regional and subregional partners, should conduct the assessments and present them for discussion at an intersessional meeting, the outcome of which should be reported to the open-ended intergovernmental ad hoc expert group referred to in paragraph 30 of the present resolution. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_185" class="H23">
+              <num>J.</num>
+              <subheading>	Actions related to the involvement of major groups and other relevant stakeholders</subheading>
+            </paragraph>
+            <paragraph eId="para_186" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_186__content">
+                <p xml:space="preserve">	Assess the level of engagement of the major groups and other relevant stakeholders with the work of the Forum, including their contributions to the achievement of the global forest goals and targets at all levels and their interactions with the Forum and the Collaborative Partnership on Forests through networks, advisory groups and other mechanisms to raise awareness, foster information exchange and dissemination, and facilitate coordinated inputs.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_187" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_187__content">
+                <p xml:space="preserve">	Assess the efforts made by the major groups to autonomously establish and maintain effective coordination mechanisms at all levels for interaction and participation in the Forum and other forest-related United Nations bodies.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_188" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_188__content">
+                <p xml:space="preserve">	Assess the ability of major groups and other relevant stakeholders to deliver effective representation through appropriate and representative memberships and focal points, and effective consultation processes within their constituencies.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_189" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_189__content">
+                <p xml:space="preserve">	Identify potential financial resources that could facilitate the development and implementation of quadrennial meetings of the Major Group-led Initiative in Support of the United Nations Forum on Forests.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_190" class="SingleTxt">
+              <num>5.</num>
+              <content eId="para_190__content">
+                <p xml:space="preserve">	To carry out the above-mentioned tasks, the Forum secretariat, in consultation with major groups and other relevant stakeholders, should conduct the assessments and present them for discussion at an intersessional meeting, the outcome of which should be submitted to the open-ended intergovernmental ad hoc expert group referred to in paragraph 30 of the present resolution.</p>
+              </content>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>
