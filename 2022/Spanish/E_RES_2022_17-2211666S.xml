@@ -1,0 +1,757 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/"></FRBRuri>
+          <FRBRdate date="2022-07-21" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/spa@/"></FRBRuri>
+          <FRBRdate date="2022-07-29" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/spa@.xml"></FRBRuri>
+          <FRBRdate date="2022-08-18" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="15" href="http://metadata.un.org/sdg/15" showAs="sdg_15" dictionary="SDGO"></keyword>
+        <keyword value="land,_plant_and_soil_resources" href="http://metadata.un.org/thesaurus/030600" showAs="land,_plant_and_soil_resources" dictionary="UNBIS"></keyword>
+        <keyword value="biodiversity" href="http://eurovoc.europa.eu/5463" showAs="biodiversity" dictionary="EuroVoc"></keyword>
+        <keyword value="desertification" href="http://eurovoc.europa.eu/416" showAs="desertification" dictionary="EuroVoc"></keyword>
+        <keyword value="desertification" href="http://metadata.un.org/thesaurus/1001594" showAs="desertification" dictionary="UNBIS"></keyword>
+        <keyword value="deforestation" href="http://eurovoc.europa.eu/339" showAs="deforestation" dictionary="EuroVoc"></keyword>
+        <keyword value="deforestation" href="http://metadata.un.org/thesaurus/1001550" showAs="deforestation" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Forum on Forests (17th sess. : 2022 : New York)" showAs="UN Forum on Forests (17th sess. : 2022 : New York)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Global Forest Financing Facilitation Network" showAs="UN Global Forest Financing Facilitation Network" dictionary="DHLAUTH"></keyword>
+        <keyword value="Collaborative Partnership on Forests" showAs="Collaborative Partnership on Forests" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Strategic Plan for Forests 2017-2030" showAs="UN Strategic Plan for Forests 2017-2030" dictionary="DHLAUTH"></keyword>
+        <keyword value="SUSTAINABLE FORESTRY" showAs="SUSTAINABLE FORESTRY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FOREST MANAGEMENT" showAs="FOREST MANAGEMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DEVELOPMENT FINANCE" showAs="DEVELOPMENT FINANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PROGRAMME EVALUATION" showAs="PROGRAMME EVALUATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="18j" showAs="United Nations Forum on Forests." shortForm="UN FORUM ON FORESTS" dictionary="E/2022/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="E/2022/42" by="UN Forum on Forests" />
+        <step date="2022-07-29" outcome="adopted" as="Adopted without vote, 33rd plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">22-11666 (S)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Naciones Unidas</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2022/17</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Consejo Económico y Social</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-07-29" class="rightSmall" refersTo="#dateOfIssuance">29 de julio de 2022</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2022" eId="coverPage_1__session_1">Período de sesiones de 2022</session>
+      </p>
+      <p>
+        <inline title="18 j)" name="agenda item">Tema 18 j) del programa</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Cuestiones económicas y ambientales: Foro de las Naciones Unidas sobre los Bosques</inline>
+      </p>
+      <p>
+        <docTitle>Resolución aprobada por el Consejo Económico y Social el 21 de julio de 2022</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent>[por recomendación del Foro de las Naciones Unidas sobre los Bosques (<inline name="originating document">E/2022/42</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2022/17.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Resultados del 17º período de sesiones del Foro de las Naciones Unidas sobre los Bosques</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">El Consejo Económico y Social</span>,</p>
+      </formula>
+      <container name="Recordando" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recordando</span> sus resoluciones <a href="https://undocs.org/es/E/RES/2015/33">2015/33</a>, de 22 de julio de 2015, <a href="https://undocs.org/es/E/RES/2017/4">2017/4</a>, de 20 de abril de 2017, <a href="https://undocs.org/es/E/RES/2020/14">2020/14</a>, de 17 de julio de 2020, y <a href="https://undocs.org/es/E/RES/2021/6">2021/6</a>, de 8 de junio de 2021,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_3" class="H23">
+        <subheading>		Aplicación del plan estratégico de las Naciones Unidas para los bosques 2017‑2030</subheading>
+      </paragraph>
+      <paragraph eId="para_4" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_4__content">
+          <p xml:space="preserve">	<span class="italic">Invita</span> a los miembros del Foro de las Naciones Unidas sobre los Bosques a que aceleren los esfuerzos por lograr los objetivos forestales mundiales, en particular mediante la coordinación, integración y ampliación de las medidas relacionadas con los bosques en los programas, estrategias y planes pertinentes, incluidos los planes nacionales de desarrollo, y a este respecto a que apoyen las iniciativas conjuntas y las alianzas nacionales, subregionales y regionales existentes y nuevas relativas a la aplicación del plan estratégico de las Naciones Unidas para los bosques 2017-2030<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		Véase la resolución <a href="https://undocs.org/es/A/RES/71/285">71/285</a> de la Asamblea General.</p></authorialNote>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_5" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_5__content">
+          <p xml:space="preserve">	<span class="italic">Invita</span> a la Asociación de Colaboración en materia de Bosques a que siga reforzando su colaboración y su apoyo a la labor del Foro y de sus miembros para la aplicación del programa de trabajo cuadrienal del Foro para el período 2021-2024 y del plan estratégico;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_7" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_7__content">
+          <p xml:space="preserve">	<span class="italic">Invita</span> al foro político de alto nivel sobre el desarrollo sostenible y a las partes en los acuerdos multilaterales sobre el medio ambiente y otros procesos internacionales pertinentes relacionados con los bosques a que tengan en cuenta los elementos pertinentes del plan estratégico como un marco de referencia para su trabajo relacionado con los bosques, a fin de estimular el progreso hacia la consecución de los Objetivos de Desarrollo Sostenible<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		Véase la resolución <a href="https://undocs.org/es/A/RES/70/1">70/1</a> de la Asamblea General.</p></authorialNote> y de los objetivos de los acuerdos multilaterales sobre el medio ambiente pertinentes, promover las medidas relacionadas con los bosques, mejorar la comprensión de las interrelaciones entre los beneficios sociales, económicos y ambientales de los bosques y sus respectivas esferas de trabajo, en particular para la erradicación de la pobreza, y promover la cooperación y colaboración efectivas en asuntos relacionados con los bosques;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve">	<span class="italic">Insta</span> a los miembros del Foro a que mejoren la cooperación Norte-Norte, Norte-Sur y Sur-Sur, así como la cooperación triangular, en las esferas técnica, financiera, científica y tecnológica y en el ámbito de la innovación para apoyar la aplicación del plan estratégico y acelerar la consecución de sus objetivos forestales mundiales, así como para promover la gestión forestal sostenible, teniendo en cuenta las circunstancias nacionales, incluidos los retos que enfrentan los países en desarrollo;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">	<span class="italic">Alienta</span> a los miembros del Foro a que apliquen los objetivos forestales mundiales, teniendo en cuenta las circunstancias nacionales, para contribuir a la aplicación de los instrumentos, procesos, compromisos y objetivos multilaterales relacionados con los bosques, y a este respecto invita a las organizaciones que forman parte de la Asociación de Colaboración en materia de Bosques a que mejoren la cooperación y colaboración y refuercen su apoyo al Foro y sus miembros;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="italic">Toma nota con aprecio</span> de las recientes declaraciones, promesas y novedades relacionadas con los bosques, incluidas las contribuciones relevantes para los bosques de la Declaración de los Dirigentes de Glasgow sobre los Bosques y el Uso de la Tierra;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">Alienta</span> a los países y organizaciones que han hecho promesas de apoyo a los instrumentos, procesos, compromisos y objetivos relacionados con los bosques a que proporcionen información al respecto, en particular a través de la Red Mundial para la Facilitación de la Financiación Forestal;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve">	<span class="italic">Alienta</span> a los miembros del Foro a que, en la labor relativa al marco mundial de la diversidad biológica posterior a 2020, resalten la contribución de los bosques y de la gestión forestal sostenible, así como sus beneficios económicos, sociales y ambientales, para la protección, la conservación y el uso sostenible de la biodiversidad;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve">	<span class="italic">Alienta</span> al Foro a que mejore la comunicación multilingüe en su labor y en sus actividades de intercambio de información para promover el plan estratégico y avanzar hacia los objetivos forestales mundiales, incluidas las actividades destinadas a crear conciencia sobre los múltiples beneficios de los bosques y aumentar la visibilidad de la labor del Foro, tanto dentro como fuera del sistema de las Naciones Unidas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="italic">Pone de relieve</span> que la aplicación efectiva de la gestión forestal sostenible depende de las contribuciones de todos los interesados pertinentes, entre ellos las organizaciones y los procesos regionales y subregionales, los propietarios de bosques, los pueblos indígenas, las comunidades locales, las autoridades locales, el sector privado, incluidas las pequeñas, medianas y grandes empresas forestales, las organizaciones no gubernamentales, las mujeres, los niños, los jóvenes y las organizaciones científicas, académicas y filantrópicas a todos los niveles, y a este respecto alienta a todos esos interesados a que sigan promoviendo la aplicación del plan estratégico y el cumplimiento de los objetivos forestales mundiales, y a que mantengan informado al Foro de sus progresos en ese sentido;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_59" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_59__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce</span> el importante papel que desempeñan los pequeños propietarios, las microempresas y las pequeñas y medianas empresas, así como las comunidades locales y los pueblos indígenas, en la conservación, la gestión sostenible y la protección de los bosques, y alienta a los miembros del Foro a que formulen y apliquen políticas públicas y mejoren las ya existentes, en particular para facilitar el acceso a la financiación, a fin de crear un entorno propicio a todos los niveles para el desarrollo sostenible;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_70" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_70__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> la labor realizada por el Foro, junto con las organizaciones internacionales relacionadas con los bosques y otros asociados, para evaluar el impacto de la pandemia mundial de enfermedad por coronavirus (COVID‑19) en los bosques y en el sector forestal, y alienta a que se integren los bosques y su gestión sostenible en las medidas de recuperación tras la COVID adoptadas por los países, teniendo en cuenta las interrelaciones pertinentes entre la biodiversidad y la salud;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_71" class="H23">
+        <subheading>		Medios de aplicación, incluidos las operaciones y los recursos de la Red Mundial para la Facilitación de la Financiación Forestal</subheading>
+      </paragraph>
+      <paragraph eId="para_72" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_72__content">
+          <p xml:space="preserve">	<span class="italic">Recuerda</span> la importancia de movilizar recursos financieros y de utilizarlos eficazmente, incluidos recursos nuevos y adicionales de todas las fuentes y a todos los niveles, y recuerda que las políticas públicas y la movilización y utilización eficaz de recursos nacionales, con arreglo al principio de la titularidad y el liderazgo nacionales, son esenciales para alcanzar el objetivo común del desarrollo sostenible, y recuerda también los párrafos 52 a 61 de la resolución <a href="https://undocs.org/es/E/RES/2017/4">2017/4</a> del Consejo Económico y Social;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_73" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_73__content">
+          <p xml:space="preserve">	<span class="italic">Recuerda también</span> que la implantación efectiva de la gestión forestal sostenible depende esencialmente de la existencia de recursos suficientes, lo que incluye financiación, desarrollo de capacidades y transferencia de tecnologías ecológicamente racionales, y en particular la necesidad de movilizar más recursos financieros, sobre todo de fuentes innovadoras, para los países en desarrollo, incluidos los países menos adelantados, los países en desarrollo sin litoral y los pequeños Estados insulares en desarrollo, así como los países con economías en transición, y recuerda además que la implantación de la gestión forestal sostenible depende también esencialmente de la buena gobernanza a todos los niveles;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_75" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_75__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> el apoyo prestado a los países por la Red Mundial para la Facilitación de la Financiación Forestal con el fin de reforzar la capacidad para movilizar recursos por todos los interesados y de todas las fuentes para promover la gestión forestal sostenible y el cumplimiento de los objetivos forestales mundiales, en particular mediante el desarrollo de estrategias nacionales de financiación forestal;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_78" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_78__content">
+          <p xml:space="preserve">	<span class="italic">Invita</span> a los miembros de la Asociación de Colaboración en materia de Bosques a que consideren la posibilidad de ceder personal a la secretaría del Foro en régimen de adscripción para mejorar la capacidad de la Red Mundial para la Facilitación de la Financiación Forestal con miras a proporcionar un apoyo adecuado y oportuno a los miembros del Foro, y a que amplíen su apoyo a las actividades de la Red;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_82" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_82__content">
+          <p xml:space="preserve">	<span class="italic">Solicita</span> a la secretaría del Foro que, con los recursos disponibles, siga desarrollando e implementando la fase II del centro de intercambio de ideas de la Red Mundial para la Facilitación de la Financiación Forestal, incluida su nueva base de datos sobre flujos financieros para los bosques, y aliente a los miembros del Foro a que compartan lecciones aprendidas y mejores prácticas en materia de financiación forestal para publicarlas en el sitio web del centro de intercambio de ideas de la Red, en colaboración con los miembros de la Asociación de Colaboración en materia de Bosques, de conformidad con sus respectivos mandatos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_87" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_87__content">
+          <p xml:space="preserve">	<span class="italic">Solicita también</span> a la secretaría del Foro que, con los recursos disponibles, actualice periódicamente las bases de datos del centro de intercambio de ideas de la Red Mundial para la Facilitación de la Financiación Forestal y divulgue información para familiarizar a los miembros del Foro con esas bases de datos, e invita a los miembros de la Asociación de Colaboración en materia de Bosques a que realicen contribuciones a este respecto, según proceda, en el marco de sus mandatos y con los recursos disponibles;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_93" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_93__content">
+          <p xml:space="preserve">	<span class="italic">Pone de relieve</span> la importancia de que la Red Mundial para la Facilitación de la Financiación Forestal siga prestando apoyo a los miembros pertinentes del Foro, en consonancia con las disposiciones del plan estratégico y las directrices aprobadas en el 13<sup>er</sup> período de sesiones del Foro<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		<span class="italic">Documentos Oficiales del Consejo Económico y Social, 2018, suplemento núm. 22 </span>(<a href="https://undocs.org/es/E/2018/42">E/2018/42</a>), cap. I, secc. B, resolución 13/1, anexo II.</p></authorialNote>, y alienta a la secretaría del Foro a que, de conformidad con las normas y los reglamentos respectivos de las Naciones Unidas, determine medios de facilitar las contribuciones del sector privado y de las organizaciones filantrópicas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_100" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_100__content">
+          <p xml:space="preserve">	<span class="italic">Recuerda</span> el párrafo 13 de la resolución <a href="https://undocs.org/es/E/RES/2020/14">2020/14</a> del Consejo, y solicita a la secretaría del Foro que proporcione información actualizada periódicamente sobre ese tema y presente un informe al Foro en su 18º período de sesiones sobre los progresos realizados;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_108" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_108__content">
+          <p xml:space="preserve">	<span class="italic">Invita</span> a los miembros del Foro y a otras entidades que estén en condiciones de hacerlo a que hagan contribuciones voluntarias al fondo fiduciario para el Foro de las Naciones Unidas sobre los Bosques con el fin de ampliar las actividades de la secretaría del Foro, en particular la Red Mundial para la Facilitación de la Financiación Forestal;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_109" class="H23">
+        <subheading>		Supervisión, evaluación y presentación de informes</subheading>
+      </paragraph>
+      <paragraph eId="para_110" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_110__content">
+          <p xml:space="preserve">	<span class="italic">Solicita</span> a la secretaría del Foro que modifique el formato para la presentación de informes nacionales voluntarios, teniendo en cuenta las sugerencias y propuestas recibidas de los miembros del Foro, y que ponga a prueba como proyecto piloto la utilización del formato perfeccionado en los países interesados, procurando que sean representativos de todos los tipos de bosques y de diferentes contextos socioeconómicos, e informe al Foro en su 18º período de sesiones sobre los progresos realizados;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_111" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_111__content">
+          <p xml:space="preserve">	<span class="italic">Invita</span> al Foro a que, con los recursos disponibles, considere la posibilidad de establecer un grupo asesor sobre la presentación de informes, teniendo en cuenta la experiencia adquirida y las lecciones aprendidas del grupo asesor oficioso que colaboró en la publicación emblemática preparada en 2021, y a ese respecto solicita a la secretaría del Foro que evalúe el impacto de la publicación y presente una propuesta al Foro en su 18<sup>o</sup> período de sesiones sobre el mandato de ese grupo, incluida su composición, teniendo debidamente en cuenta la necesidad de mantener una representación geográfica equilibrada en el contexto de las Naciones Unidas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_113" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_113__content">
+          <p xml:space="preserve">	<span class="italic">Solicita</span> a la secretaría del Foro que, en el contexto de los preparativos del examen de mitad de período del acuerdo internacional sobre los bosques y en consulta con los miembros del Foro, prepare una hoja de ruta y un calendario para el próximo ciclo de presentación de informes, junto con el ciclo de la Evaluación de los Recursos Forestales Mundiales, y examine las opciones para la creación de una plataforma de presentación de informes en línea al Foro, reconociendo la necesidad de simplificar dicha presentación y de minimizar la carga que supone, teniendo en cuenta en particular los retos que enfrentan los países en desarrollo;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_116" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_116__content">
+          <p xml:space="preserve">	<span class="italic">Solicita también</span> a la secretaría del Foro que, mediante contribuciones voluntarias y en consulta con los miembros del Foro, organice conjuntamente con la Organización de las Naciones Unidas para la Alimentación y la Agricultura y otras organizaciones pertinentes que forman parte de la Asociación de Colaboración en materia de Bosques un taller mundial sobre la presentación de informes nacionales voluntarios acerca de los progresos realizados en la consecución de los objetivos y metas forestales mundiales, centrando la atención en las fuentes y la reunión de datos y la metodología apropiada, sobre todo en las esferas en que hay una falta sistemática de información, utilizando modalidades que faciliten una participación inclusiva y prestando la debida atención a todos los idiomas oficiales de las Naciones Unidas, con sujeción a la disponibilidad de recursos extrapresupuestarios;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_120" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_120__content">
+          <p xml:space="preserve">	<span class="italic">Invita</span> a los miembros del Foro a que, según proceda, mejoren la cooperación técnica y financiera internacional sobre la presentación de informes, la reunión, el procesamiento y el intercambio de datos relacionados con los bosques, incluidos datos sobre los múltiples beneficios socioeconómicos de los bosques, los inventarios nacionales de recursos forestales, y el papel que desempeñan los bosques en la erradicación de la pobreza, el bienestar humano, la generación de ingresos y el empleo, así como la comprensión de los flujos financieros públicos y privados;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_125" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_125__content">
+          <p xml:space="preserve">	<span class="italic">Invita</span> a los miembros del Foro y a los órganos rectores de las organizaciones que forman parte de la Asociación de Colaboración en materia de Bosques a que utilicen el conjunto básico mundial de indicadores forestales, e invita a la secretaría del Foro a que, en colaboración con la Organización de las Naciones Unidas para la Alimentación y la Agricultura y otras organizaciones pertinentes que forman parte de la Asociación de Colaboración en materia de Bosques, organice la continuación de los trabajos sobre los indicadores de nivel 3<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		Para más información sobre los indicadores de nivel 3, véase <a href="https://undocs.org/es/E/CN.18/2022/4">E/CN.18/2022/4</a>.</p></authorialNote>, en particular en relación con la mejora de los conceptos, las definiciones y las pruebas voluntarias sobre el terreno;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_126" class="H23">
+        <subheading>		Preparativos del examen de mitad de período de 2024 de la eficacia del acuerdo internacional sobre los bosques </subheading>
+      </paragraph>
+      <paragraph eId="para_127" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_127__content">
+          <p xml:space="preserve">	<span class="italic">Decide</span> que, en preparación del examen de mitad de período del acuerdo internacional sobre los bosques, el Foro realizará las actividades que figuran en el anexo de la presente resolución durante el período comprendido entre la clausura de su 17<sup>o</sup> período de sesiones y el comienzo de su 19º período de sesiones;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_128" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_128__content">
+          <p xml:space="preserve">	<span class="italic">Decide también</span> aplazar el examen de los párrafos 42 a) y b) de la resolución <a href="https://undocs.org/es/E/RES/2015/33">2015/33</a> hasta el examen final de la eficacia del acuerdo internacional sobre los bosques, que tendrá lugar en 2030;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_130" class="SingleTxt">
+        <num>30.</num>
+        <list eId="para_130_list">
+          <intro eId="para_130_list_intro">
+            <p xml:space="preserve">	<span class="italic">Decide además</span>: </p>
+          </intro>
+          <point eId="para_130_list_point_a">
+            <num>a)</num>
+            <content eId="para_130_list_point_a_content">
+              <p xml:space="preserve">	Establecer un grupo especial de expertos de carácter intergubernamental y composición abierta sobre los preparativos del examen de mitad de período del acuerdo internacional sobre los bosques, que será convocado por la secretaría del Foro hacia finales de 2023 y se encargará de examinar todas las evaluaciones y los resultados de los trabajos preparatorios entre períodos de sesiones relacionados con el examen de mitad de período del acuerdo internacional, como se indica en el anexo de la presente resolución, y que la secretaría presentará el informe del grupo especial de expertos al Foro en su 19<sup>o</sup> período de sesiones para que este lo examine;</p>
+            </content>
+          </point>
+          <point eId="para_130_list_point_b">
+            <num>b)</num>
+            <content eId="para_130_list_point_b_content">
+              <p xml:space="preserve">	Que el grupo especial de expertos estará abierto a todos los miembros del Foro, las organizaciones que forman parte de la Asociación de Colaboración en materia de Bosques, las organizaciones y los procesos regionales y subregionales pertinentes, los grupos principales y otros interesados pertinentes, y que se organizará con los recursos disponibles, incluidas las contribuciones extrapresupuestarias, y con una participación adecuada de los países en desarrollo y en todos los idiomas oficiales de las Naciones Unidas, con sujeción a la disponibilidad de recursos extrapresupuestarios, con miras a formular propuestas al Foro en su 19º período de sesiones sobre el examen de mitad de período de la eficacia del acuerdo internacional sobre los bosques, incluidas las medidas que se deberán adoptar en el marco del acuerdo internacional después de 2024;</p>
+            </content>
+          </point>
+          <point eId="para_130_list_point_c">
+            <num>c)</num>
+            <content eId="para_130_list_point_c_content">
+              <p xml:space="preserve">	Que la Mesa del Foro en su 19<sup>o</sup> período de sesiones, teniendo en cuenta el documento final del grupo especial de expertos, celebrará consultas oficiosas con los miembros del Foro y preparará y presentará al Foro en su 19<sup>o</sup> período de sesiones el borrador preliminar de la resolución relativa al acuerdo internacional sobre los bosques después de 2024;</p>
+            </content>
+          </point>
+          <point eId="para_130_list_point_d">
+            <num>d)</num>
+            <content eId="para_130_list_point_d_content">
+              <p xml:space="preserve">	Que las medidas que figuran en el anexo de la presente resolución se aplicarán de manera transparente e independiente y en estrecha consulta con los miembros del Foro, así como con las organizaciones que forman parte de la Asociación de Colaboración en materia de Bosques y otros interesados pertinentes, incluso mediante la utilización de cuestionarios, cuando proceda;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_133" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_133__content">
+          <p xml:space="preserve">	<span class="italic">Invita</span> a los miembros del Foro que estén en condiciones de hacerlo a que aporten contribuciones voluntarias al fondo fiduciario para el Foro con el fin de que la secretaría pueda organizar el grupo especial de expertos de carácter intergubernamental y composición abierta sobre los preparativos del examen de mitad de período del acuerdo internacional sobre los bosques, así como facilitar la aplicación de las medidas que figuran en el anexo de la presente resolución.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="33a">33a sesión plenaria</inline>
+        <eol />
+        <docDate date="2022-07-21" refersTo="#adoptionDate">21 de julio de 2022</docDate>
+      </p>
+    </conclusions>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/"></FRBRuri>
+                <FRBRdate date="2022-07-21" name="adoption"></FRBRdate>
+                <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/spa@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/spa@/"></FRBRuri>
+                <FRBRdate date="2022-07-29" name="publication"></FRBRdate>
+                <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="spa"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/spa@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/spa@.xml"></FRBRuri>
+                <FRBRdate date="2022-08-18" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_135" class="H23">
+              <subheading>Anexo</subheading>
+            </paragraph>
+            <paragraph eId="para_136" class="H23">
+              <subheading>Preparativos del examen de mitad de período de la eficacia del acuerdo internacional sobre los bosques, que tendrá lugar en 2024</subheading>
+            </paragraph>
+            <paragraph eId="para_137" class="H23">
+              <num>A.</num>
+              <subheading>	Medidas relacionadas con el Foro de las Naciones Unidas sobre los Bosques y sus miembros</subheading>
+            </paragraph>
+            <paragraph eId="para_138" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_138__content">
+                <p xml:space="preserve">	Evaluar los progresos realizados por el Foro de las Naciones Unidas sobre los Bosques y sus miembros hacia el cumplimiento de los objetivos del acuerdo internacional sobre los bosques, definidos en la resolución <a href="https://undocs.org/es/E/RES/2015/33">2015/33</a> del Consejo Económico y Social.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_139" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_139__content">
+                <p xml:space="preserve">	Analizar los resultados del Foro en el desempeño de sus funciones, definidas en el párrafo 3 de la resolución <a href="https://undocs.org/es/E/RES/2015/33">2015/33</a> del Consejo, determinando su repercusión en el panorama mundial de las políticas forestales y en la labor del foro político de alto nivel sobre el desarrollo sostenible, así como los medios para que el Foro pueda ampliar su repercusión. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_140" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_140__content">
+                <p xml:space="preserve">	Explorar medidas adicionales para aprovechar mejor los períodos de sesiones anuales del Foro y hacer que los miembros participen en las actividades que realiza el Foro entre períodos de sesiones para fomentar el logro de los objetivos forestales mundiales.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_141" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_141__content">
+                <p xml:space="preserve">	Determinar nuevas maneras de fomentar que los miembros del Foro presenten más informes nacionales voluntarios y anuncios de contribuciones nacionales voluntarias, así como determinar las maneras de fomentar que las contribuciones nacionales voluntarias de los miembros del Foro sean mayores y promover su eficacia.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_142" class="SingleTxt">
+              <num>5.</num>
+              <content eId="para_142__content">
+                <p xml:space="preserve">	Para llevar a cabo las tareas mencionadas, la secretaría del Foro, en consulta con los miembros del Foro y los interesados pertinentes, debería realizar una evaluación y presentarla al grupo especial de expertos de carácter intergubernamental y composición abierta mencionado en el párrafo 30 de la presente resolución.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_143" class="H23">
+              <num>B.</num>
+              <subheading>	Medidas relacionadas con la secretaría del Foro</subheading>
+            </paragraph>
+            <paragraph eId="para_144" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_144__content">
+                <p xml:space="preserve">	Evaluar los logros de la secretaría del Foro en el desempeño de sus funciones y los progresos realizados hacia los objetivos del acuerdo internacional sobre los bosques, definidos en la resolución <a href="https://undocs.org/es/E/RES/2015/33">2015/33</a> del Consejo.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_145" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_145__content">
+                <p xml:space="preserve">	Analizar las carencias y la capacidad actual de la secretaría del Foro con el fin de aumentar la eficiencia y la eficacia de sus actividades, reforzar su capacidad, conocer mejor sus procesos y procedimientos de adopción de decisiones y amplificar la repercusión de sus actividades.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_146" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_146__content">
+                <p xml:space="preserve">	Definir medidas adicionales para aumentar la colaboración y las sinergias y reducir la duplicación de esfuerzos respecto a las cuestiones relacionadas con los bosques a nivel mundial, teniendo en cuenta los mandatos de las diferentes organizaciones y entidades.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_147" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_147__content">
+                <p xml:space="preserve">	Para llevar a cabo las tareas mencionadas, la secretaría del Foro, en consulta con los miembros del Foro y los interesados pertinentes, debería realizar una evaluación independiente y presentarla al grupo especial de expertos de carácter intergubernamental y composición abierta mencionado en el párrafo 30 de la presente resolución.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_148" class="H23">
+              <num>C.</num>
+              <subheading>	Medidas relacionadas con la Asociación de Colaboración en materia de Bosques</subheading>
+            </paragraph>
+            <paragraph eId="para_149" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_149__content">
+                <p xml:space="preserve">	Evaluar los progresos realizados por la Asociación de Colaboración en materia de Bosques en el desempeño de sus funciones para cumplir los objetivos del acuerdo internacional sobre los bosques, definidos en la resolución <a href="https://undocs.org/es/E/RES/2015/33">2015/33</a> del Consejo.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_150" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_150__content">
+                <p xml:space="preserve">	Evaluar la eficacia, la repercusión y el valor añadido de las actividades de la Asociación descritas en su plan de trabajo, en particular en lo que respecta a sus recursos; obtención de productos; iniciativas conjuntas, incluida la forma en que el Foro puede contribuir a ellas; y a las actividades recurrentes para fomentar la aplicación del plan estratégico de las Naciones Unidas sobre los bosques 2017-2030 y el logro de los objetivos forestales mundiales y de los Objetivos de Desarrollo Sostenible.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_151" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_151__content">
+                <p xml:space="preserve">	Considerar la conveniencia de establecer criterios para pertenecer a la Asociación.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_152" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_152__content">
+                <p xml:space="preserve">	Evaluar el modo en que la Asociación podría apoyar en mayor medida la labor de formulación de políticas del Foro y ayudar a los países a reforzar la aplicación sobre el terreno del plan estratégico y las resoluciones y decisiones del Foro, incluidas las maneras de aprovechar mejor las capacidades de otros interesados y asociados internacionales y regionales.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_153" class="SingleTxt">
+              <num>5.</num>
+              <content eId="para_153__content">
+                <p xml:space="preserve">	Evaluar la eficacia de la comunicación interna de la Asociación para promover sinergias mutuas, reducir la duplicación de esfuerzos y mejorar las actividades externas de comunicación y divulgación de la Asociación para crear conciencia sobre los múltiples beneficios de los bosques y aumentar la visibilidad del plan estratégico y de los objetivos forestales mundiales en el marco de otros procesos relacionados con los bosques. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_154" class="SingleTxt">
+              <num>6.</num>
+              <content eId="para_154__content">
+                <p xml:space="preserve">	Para llevar a cabo las tareas mencionadas, podría realizarse un estudio independiente, en consulta con los miembros de la Asociación y del Foro. El resultado de ese estudio se debería presentar para su examen en una reunión entre períodos de sesiones organizada por la Asociación (la iniciativa dirigida por organizaciones), con el fin de formular propuestas relacionadas con la Asociación al grupo especial de expertos de carácter intergubernamental y composición abierta mencionado en el párrafo 30 de la presente resolución. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_155" class="H23">
+              <num>D.</num>
+              <subheading>	Medidas relacionadas con la Red Mundial para la Facilitación de la Financiación Forestal</subheading>
+            </paragraph>
+            <paragraph eId="para_156" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_156__content">
+                <p xml:space="preserve">	Evaluar los progresos realizados por la Red Mundial para la Facilitación de la Financiación Forestal hacia el cumplimiento de los objetivos del acuerdo internacional sobre los bosques, definidos en la resolución <a href="https://undocs.org/es/E/RES/2015/33">2015/33</a> del Consejo.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_157" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_157__content">
+                <p xml:space="preserve">	Evaluar la situación de los recursos disponibles para los bosques procedentes de todo tipo de fuentes, incluida la financiación privada, así como las carencias y limitaciones en cuanto al acceso a esos fondos.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_158" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_158__content">
+                <p xml:space="preserve">	Examinar los resultados de la Red y la repercusión de sus actividades, la suficiencia de sus recursos y los desafíos y limitaciones para su labor.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_159" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_159__content">
+                <p xml:space="preserve">	Proponer medidas para aumentar la eficiencia y el valor añadido de la Red y reforzar su capacidad de facilitar y mejorar el acceso de los países que reúnen los requisitos a los recursos para los bosques procedentes de todo tipo de fuentes, y examinar las directrices de la Red aprobadas en el 13<sup>er</sup> período de sesiones del Foro, en el contexto del examen de mitad de período del acuerdo internacional sobre los bosques que tendrá lugar en 2024. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_160" class="SingleTxt">
+              <num>5.</num>
+              <content eId="para_160__content">
+                <p xml:space="preserve">	Para llevar a cabo las tareas mencionadas, la secretaría del Foro, en consulta con los miembros del Foro y los asociados, debería evaluar los resultados y la repercusión de la Red y la suficiencia y longevidad de sus recursos y otras medidas para fortalecer su labor. La evaluación debería presentarse para su examen en una reunión entre períodos de sesiones y el documento final de esa reunión debería presentarse al grupo especial de expertos de carácter intergubernamental y composición abierta mencionado en el párrafo 30 de la presente resolución.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_161" class="H23">
+              <num>E.</num>
+              <subheading>	Medidas relacionadas con el fondo fiduciario para el Foro de las Naciones Unidas sobre los Bosques</subheading>
+            </paragraph>
+            <paragraph eId="para_162" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_162__content">
+                <p xml:space="preserve">	Evaluar la repercusión de las contribuciones voluntarias al fondo fiduciario para Foro de las Naciones Unidas sobre los Bosques en lo que respecta a apoyar las actividades básicas del Foro.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_163" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_163__content">
+                <p xml:space="preserve">	Estudiar opciones para fomentar la aportación de contribuciones constantes y suficientes al fondo fiduciario.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_164" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_164__content">
+                <p xml:space="preserve">	Determinar los principales desafíos y limitaciones con respecto a la movilización de recursos suficientes para el fondo fiduciario. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_165" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_165__content">
+                <p xml:space="preserve">	La secretaría del Foro, en consulta con los miembros del Foro, debería realizar las tareas mencionadas y recoger sus conclusiones y sugerencias en una nota de antecedentes para presentarla al grupo especial de expertos de carácter intergubernamental y composición abierta mencionado en el párrafo 30 de la presente resolución.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_166" class="H23">
+              <num>F.</num>
+              <subheading>	Medidas relacionadas con la aplicación del plan estratégico de las Naciones Unidas para los bosques 2017-2030</subheading>
+            </paragraph>
+            <paragraph eId="para_167" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_167__content">
+                <p xml:space="preserve">	Recopilar nueva información de los Estados miembros sobre las medidas que han adoptado para aplicar el plan estratégico de las Naciones Unidas para los bosques 2017-2030 desde el 15<sup>o</sup> período de sesiones del Foro, celebrado en 2020, los desafíos y las limitaciones a los que se enfrentan en la preparación de los informes nacionales voluntarios, las formas de reducir la duplicación de esfuerzos y la carga que supone la presentación de informes, la conveniencia de establecer un plazo de entre 6 y 12 meses a partir de la publicación de la Evaluación de los Recursos Forestales Mundiales para la presentación de los informes nacionales voluntarios, y las cuestiones regionales y mundiales de interés con respecto a los bosques, en respuesta a un breve cuestionario elaborado por la secretaría del Foro, así como a la información recopilada en 2019 y 2020 y presentada al Foro en su 15<sup>o</sup> período de sesiones por los Estados miembros, junto con las contribuciones nacionales voluntarias y las publicaciones e informes mundiales más recientes sobre los bosques.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_168" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_168__content">
+                <p xml:space="preserve">	La secretaría del Foro debería recopilar la información mencionada en una nota de antecedentes para su examen en una reunión del grupo de expertos entre períodos de sesiones, que se celebrará antes del 19<sup>o</sup> período de sesiones del Foro, y presentar el documento final de esa reunión al grupo especial de expertos de carácter intergubernamental y composición abierta mencionado en el párrafo 30 de la presente resolución.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_169" class="H23">
+              <num>G.</num>
+              <subheading>	Medidas relacionadas con las contribuciones del Foro a la Agenda 2030 para el Desarrollo Sostenible</subheading>
+            </paragraph>
+            <paragraph eId="para_170" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_170__content">
+                <p xml:space="preserve">	Evaluar la contribución del Foro al foro político de alto nivel sobre el desarrollo sostenible en lo que respecta a las interrelaciones entre los bosques y los Objetivos de Desarrollo Sostenible, y la medida en que las contribuciones del Foro se reflejan en los documentos finales del foro político de alto nivel sobre el desarrollo sostenible, desde la aprobación de la resolución <a href="https://undocs.org/es/E/RES/2015/33">2015/33</a> del Consejo.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_171" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_171__content">
+                <p xml:space="preserve">	Detectar oportunidades adicionales que permitan al Foro, a su secretaría y a la Asociación contribuir de forma mejorada y directa en cuestiones relacionadas con los bosques a los períodos de sesiones del foro político de alto nivel sobre el desarrollo sostenible, en particular cuando este examine los Objetivos de Desarrollo Sostenible relacionados con los bosques, y a otros órganos mundiales pertinentes, incluidas las tres convenciones de Río (el Convenio sobre la Diversidad Biológica<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		<span class="italic">Naciones Unidas, Treaty Series, </span>vol. 1760, núm. 30619.</p></authorialNote>, la Convención de las Naciones Unidas de Lucha contra la Desertificación en los Países Afectados por Sequía Grave o Desertificación, en Particular en África<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		<span class="italic">Ibid</span>., vol. 1954, núm. 33480.</p></authorialNote>, y la Convención Marco de las Naciones Unidas sobre el Cambio Climático<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		<span class="italic">Ibid</span>., vol. 1771, núm. 30822.</p></authorialNote>).</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_172" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_172__content">
+                <p xml:space="preserve">	Proponer medidas para aumentar la visibilidad de los bosques y su contribución en las reuniones del foro político de alto nivel sobre el desarrollo sostenible y aumentar la importancia política de los bosques en lo que respecta a la agenda para el desarrollo sostenible en general, en particular destacando el impacto que tienen otros sectores en los bosques mundiales y la amplia gama de beneficios que tiene la gestión forestal sostenible para los Objetivos de Desarrollo Sostenible.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_173" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_173__content">
+                <p xml:space="preserve">	Para llevar a cabo las tareas mencionadas, la secretaría del Foro, en consulta con los miembros del Foro y los asociados, debería realizar una evaluación y presentar sus conclusiones para su examen en una reunión entre períodos de sesiones, y presentar el documento final de esa reunión al grupo especial de expertos de carácter intergubernamental y composición abierta mencionado en el párrafo 30 de la presente resolución.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_174" class="H23">
+              <num>H.</num>
+              <subheading>	Medidas relacionadas con la estrategia de comunicación y divulgación del plan estratégico de las Naciones Unidas para los bosques 2017-2030</subheading>
+            </paragraph>
+            <paragraph eId="para_175" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_175__content">
+                <p xml:space="preserve">	Evaluar los progresos realizados en la aplicación de la estrategia de comunicación y divulgación del plan estratégico de las Naciones Unidas para los bosques 2017-2030<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		<span class="italic">Documentos Oficiales del Consejo Económico y Social, 2018, suplemento núm. 22</span> (<a href="https://undocs.org/es/E/2018/42">E/2018/42</a>), cap. I, secc. B, resolución 13/1, anexo I.</p></authorialNote> por los miembros del Foro, la secretaría, la Asociación de Colaboración en materia de Bosques, las organizaciones regionales y los interesados pertinentes, y definir maneras de afrontar los desafíos para promover su aplicación, en particular en lo que respecta a dar más visibilidad al plan estratégico y a los objetivos forestales mundiales.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_176" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_176__content">
+                <p xml:space="preserve">	Evaluar la repercusión de las actividades de comunicación y divulgación realizadas para promover el plan estratégico y los objetivos forestales mundiales, en particular el Día Internacional de los Bosques, así como la utilidad de los temas de este para concienciar sobre los múltiples beneficios de los bosques, y aumentar la visibilidad de la labor del Foro dentro del sistema de las Naciones Unidas.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_177" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_177__content">
+                <p xml:space="preserve">	Indicar opciones, plataformas y canales de comunicación adicionales que hayan cobrado protagonismo en los últimos años para llegar mejor al público destinatario y tener más repercusión.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_178" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_178__content">
+                <p xml:space="preserve">	Explorar formas de aprovechar las capacidades de los miembros del Foro y de otros agentes y asociados a nivel mundial, regional y nacional para reforzar la promoción acerca de la aplicación del plan estratégico. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_179" class="SingleTxt">
+              <num>5.</num>
+              <content eId="para_179__content">
+                <p xml:space="preserve">	Para llevar a cabo las tareas mencionadas, la secretaría del Foro, en consulta con los miembros del Foro, los asociados y las organizaciones que forman parte de la Asociación, debería realizar una evaluación y presentar sus conclusiones al grupo especial de expertos de carácter intergubernamental y composición abierta mencionado en el párrafo 30 de la presente resolución. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_180" class="H23">
+              <num>I.</num>
+              <subheading>	Medidas relacionadas con la participación de los asociados regionales y subregionales</subheading>
+            </paragraph>
+            <paragraph eId="para_181" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_181__content">
+                <p xml:space="preserve">	Evaluar la participación y la contribución de las entidades regionales y subregionales en los períodos de sesiones del Foro desde su 12<sup>o</sup> período de sesiones.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_182" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_182__content">
+                <p xml:space="preserve">	Examinar las novedades relativas al establecimiento o fortalecimiento de procesos o plataformas regionales y subregionales para la formulación de políticas forestales, el diálogo sobre ellas y su coordinación, a fin de promover la gestión forestal sostenible, al tiempo que se trata de evitar la fragmentación, en consonancia con el párrafo 28 de la resolución <a href="https://undocs.org/es/E/RES/2015/33">2015/33</a> del Consejo, así como los progresos realizados en la aplicación del párrafo 27 de esa resolución.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_183" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_183__content">
+                <p xml:space="preserve">	Indicar opciones para aumentar la participación de los asociados regionales y subregionales, incluso en lo que respecta a un mejor uso de las capacidades aportadas por los asociados regionales existentes, en la labor del Foro y sus futuros programas de trabajo cuadrienales. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_184" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_184__content">
+                <p xml:space="preserve">	Para llevar a cabo las tareas mencionadas, la secretaría del Foro, en consulta con los asociados regionales y subregionales, debería realizar las evaluaciones y presentarlas para su examen en una reunión entre períodos de sesiones, y presentar el documento final de esa reunión al grupo especial de expertos de carácter intergubernamental y composición abierta mencionado en el párrafo 30 de la presente resolución. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_185" class="H23">
+              <num>J.</num>
+              <subheading>	Medidas relacionadas con la participación de los grupos principales y otros interesados pertinentes</subheading>
+            </paragraph>
+            <paragraph eId="para_186" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_186__content">
+                <p xml:space="preserve">	Evaluar el nivel de participación de los grupos principales y otros interesados pertinentes en la labor del Foro, incluidas sus contribuciones al logro de los objetivos y metas forestales mundiales a todos los niveles y sus interacciones con el Foro y la Asociación de Colaboración en materia de Bosques mediante redes, grupos consultivos y otros mecanismos, a fin de crear conciencia, fomentar el intercambio y la difusión de información y facilitar la coordinación de las aportaciones.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_187" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_187__content">
+                <p xml:space="preserve">	Evaluar los esfuerzos realizados por los grupos principales para establecer y mantener autónomamente mecanismos eficaces de coordinación a todos los niveles para la interacción y la participación en el Foro y otros órganos de las Naciones Unidas relacionados con los bosques.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_188" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_188__content">
+                <p xml:space="preserve">	Evaluar la capacidad de los grupos principales y otros interesados pertinentes para representar a sus miembros de forma efectiva a través de una composición y puntos focales apropiados y representativos y de procesos de consulta eficaces dentro de sus ámbitos.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_189" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_189__content">
+                <p xml:space="preserve">	Determinar qué recursos financieros podrían facilitar la organización y celebración de reuniones cuadrienales de la Iniciativa Impulsada por los Grupos Principales en Apoyo del Foro de las Naciones Unidas sobre los Bosques.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_190" class="SingleTxt">
+              <num>5.</num>
+              <content eId="para_190__content">
+                <p xml:space="preserve">	Para llevar a cabo las tareas mencionadas, la secretaría del Foro, en consulta con los grupos principales y otros interesados pertinentes, debería realizar las evaluaciones y presentarlas para su examen en una reunión entre períodos de sesiones, y presentar el documento final de esa reunión al grupo especial de expertos de carácter intergubernamental y composición abierta mencionado en el párrafo 30 de la presente resolución.</p>
+              </content>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>
