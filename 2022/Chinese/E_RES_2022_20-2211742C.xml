@@ -1,0 +1,157 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-22/2022-20/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-22/2022-20/"></FRBRuri>
+          <FRBRdate date="2022-07-22" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-22/2022-20/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-22/2022-20/zho@/"></FRBRuri>
+          <FRBRdate date="2022-07-29" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-22/2022-20/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-22/2022-20/zho@.xml"></FRBRuri>
+          <FRBRdate date="2022-08-18" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Economic and Social Council. Ad Hoc Advisory Group on Haiti" showAs="UN. Economic and Social Council. Ad Hoc Advisory Group on Haiti" dictionary="DHLAUTH"></keyword>
+        <keyword value="AID COORDINATION" showAs="AID COORDINATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COORDINATION WITHIN UN SYSTEM" showAs="COORDINATION WITHIN UN SYSTEM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HAITI" showAs="HAITI" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="12e" showAs="Long-term programme of support for Haiti." shortForm="ECONOMIC ASSISTANCE--HAITI" dictionary="E/2022/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-07-18" outcome="draftResolution" as="E/2022/L.24" by="Argentina, Bahamas, Barbados, Belize, Bolivia (Plurinational State of), Botswana, Brazil, Canada, Chile, Colombia, Dominican Republic, El Salvador, France, Guyana, Haiti, Mexico, Panama, Peru, Saint Lucia, Saint Vincent and the Grenadines, Spain, Suriname, Trinidad and Tobago, United States of America and Uruguay" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-07-29" outcome="adopted" as="Adopted without vote, 34th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2022/20</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">经济及社会理事会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-07-29" class="rightSmall" refersTo="#dateOfIssuance">29 July 2022</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" eId="coverPage_1__session_1"></session>
+      </p>
+      <p>
+        <inline title="12 (e)" name="agenda item">议程项目12 (e)</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">协调、方案和其他问题：长期支助海地方案</inline>
+      </p>
+      <p>
+        <docTitle>2022年7月22日经济及社会理事会决议</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#plenaryMeeting">[根据全体会议审议的一项提案 (<inline name="originating document">E/2022/L.24</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2022/20.</docNumber>
+        <docTitle refersTo="#resolutionTitle">海地问题特设咨询小组</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">经济及社会理事会</span>，</p>
+      </formula>
+      <container name="回顾" eId="container_2">
+        <p xml:space="preserve">	<span class="bold">回顾</span>其2004年7月23日第2004/52号、2005年7月27日第2005/46号、2006年7月26日第2006/10号、2007年7月25日第2007/13号、2008年7月23日第2008/10号、2009年7月23日第2009/4号、2010年7月23日第2010/28号、2012年7月26日第<a href="https://undocs.org/ch/E/RES/2012/21">2012/21</a>号、2013年7月23日第<a href="https://undocs.org/ch/E/RES/2013/15">2013/15</a>号、2014年11月18日第<a href="https://undocs.org/ch/E/RES/2014/37">2014/37</a>号、2015年7月21日第<a href="https://undocs.org/ch/E/RES/2015/18">2015/18</a>号、2016年7月27日第<a href="https://undocs.org/ch/E/RES/2016/28">2016/28</a>号、2017年7月25日第<a href="https://undocs.org/ch/E/RES/2017/26">2017/26</a>号、2018年7月24日第2018/19号、2019年7月24日第<a href="https://undocs.org/ch/E/RES/2019/32">2019/32</a>号、2020年7月17日第<a href="https://undocs.org/ch/E/RES/2020/11">2020/11</a>号和2021年7月21日第<a href="https://undocs.org/ch/E/RES/2021/18">2021/18</a>号决议，以及2004年11月11日第2004/322号、2009年4月20日第2009/211号、2009年12月15日第2009/267号、2011年2月17日第2011/207号、2011年4月26日第2011/211号、2011年7月28日第2011/268号、2013年2月15日第2013/209号、2014年1月30日第2014/207号、2014年4月23日第2014/210号、2014年6月13日第2014/221号、2017年4月19日第2017/214号、2021年6月9日第2021/238号和2022年2月16日第2022/314号决定，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_3" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_3__content">
+          <p xml:space="preserve">	<span class="bold">欢迎</span>海地问题特设咨询小组的报告<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		<a href="https://undocs.org/ch/E/2022/52">E/2022/52</a>。</p></authorialNote> 及其对海地人道主义局势和长期社会经济发展的重视；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_4" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_4__content">
+          <p xml:space="preserve">	<span class="bold">决定</span>将海地问题特设咨询小组的任务期限延长至2023年届会结束之时，以密切跟踪海地促进社会经济复原、重建和稳定的长期发展战略并就此提供咨询意见，特别注意必须确保向海地提供的国际支助协调一致而且可持续，依据国家的长期发展优先事项，以海地发展战略计划为基础，并强调指出必须避免现有机制的重叠与重复；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_6" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_6__content">
+          <p xml:space="preserve">	<span class="bold">请</span>海地问题特设咨询小组向经济及社会理事会提交工作报告并酌情提出建议，供理事会2023年届会审议。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="第34次">第34次全体会议</inline>
+        <eol />
+        <docDate date="2022-07-22" refersTo="#adoptionDate">2022年7月22日</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
