@@ -1,0 +1,671 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/"></FRBRuri>
+          <FRBRdate date="2022-07-21" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/ara@/"></FRBRuri>
+          <FRBRdate date="2022-07-29" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/ara@.xml"></FRBRuri>
+          <FRBRdate date="2022-08-18" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="15" href="http://metadata.un.org/sdg/15" showAs="sdg_15" dictionary="SDGO"></keyword>
+        <keyword value="land,_plant_and_soil_resources" href="http://metadata.un.org/thesaurus/030600" showAs="land,_plant_and_soil_resources" dictionary="UNBIS"></keyword>
+        <keyword value="biodiversity" href="http://eurovoc.europa.eu/5463" showAs="biodiversity" dictionary="EuroVoc"></keyword>
+        <keyword value="desertification" href="http://eurovoc.europa.eu/416" showAs="desertification" dictionary="EuroVoc"></keyword>
+        <keyword value="desertification" href="http://metadata.un.org/thesaurus/1001594" showAs="desertification" dictionary="UNBIS"></keyword>
+        <keyword value="deforestation" href="http://eurovoc.europa.eu/339" showAs="deforestation" dictionary="EuroVoc"></keyword>
+        <keyword value="deforestation" href="http://metadata.un.org/thesaurus/1001550" showAs="deforestation" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Forum on Forests (17th sess. : 2022 : New York)" showAs="UN Forum on Forests (17th sess. : 2022 : New York)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Global Forest Financing Facilitation Network" showAs="UN Global Forest Financing Facilitation Network" dictionary="DHLAUTH"></keyword>
+        <keyword value="Collaborative Partnership on Forests" showAs="Collaborative Partnership on Forests" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Strategic Plan for Forests 2017-2030" showAs="UN Strategic Plan for Forests 2017-2030" dictionary="DHLAUTH"></keyword>
+        <keyword value="SUSTAINABLE FORESTRY" showAs="SUSTAINABLE FORESTRY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FOREST MANAGEMENT" showAs="FOREST MANAGEMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DEVELOPMENT FINANCE" showAs="DEVELOPMENT FINANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PROGRAMME EVALUATION" showAs="PROGRAMME EVALUATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="18j" showAs="United Nations Forum on Forests." shortForm="UN FORUM ON FORESTS" dictionary="E/2022/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="E/2022/42" by="UN Forum on Forests" />
+        <step date="2022-07-29" outcome="adopted" as="Adopted without vote, 33rd plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">22-11666 (A)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2022/17</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">إن المجلس الاقتصادي والاجتماعي</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-07-29" class="rightSmall" refersTo="#dateOfIssuance">29 July 2022</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2022" eId="coverPage_1__session_1">دورة عام 2022</session>
+      </p>
+      <p>
+        <inline title="18 (ي)" name="agenda item">البند 18 (ي) من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">المسائل الاقتصادية والبيئية: منتدى الأمم المتحدة المعني بالغابات</inline>
+      </p>
+      <p>
+        <docTitle>قرار اتخذه المجلس الاقتصادي والاجتماعي في 21 تموز/يوليه 2022</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent>[بناء على توصية منتدى الأمم المتحدة المعني بالغابات (<inline name="originating document">E/2022/42</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2022/17</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	نتائج الدورة السابعة عشرة لمنتدى الأمم المتحدة المعني الغابات</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold italic">إن المجلس الاقتصادي والاجتماعي،</span>
+        </p>
+      </formula>
+      <container name="إذ يشير" eId="container_2">
+        <p xml:space="preserve">	<span class="bold italic">إذ يشير</span> إلى قراراته <a href="https://undocs.org/ar/E/RES/2015/33">2015/33</a> المؤرخ 22 تموز/يوليه 2015 و <a href="https://undocs.org/ar/E/RES/2017/4">2017/4</a> المؤرخ 20 نيسان/أبريل 2017 و <a href="https://undocs.org/ar/E/RES/2020/14">2020/14</a> المؤرخ 17 تموز/يوليه 2020 و <a href="https://undocs.org/ar/E/RES/2021/6">2021/6</a> المؤرخ 8 حزيران/ يونيه 2021،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_3" class="H23">
+        <subheading>		تنفيذ خطة الأمم المتحدة الاستراتيجية للغابات للفترة 2017-2030</subheading>
+      </paragraph>
+      <paragraph eId="para_4" class="SingleTxt">
+        <content eId="para_4__content">
+          <p xml:space="preserve">	1 -	<span class="bold italic">يدعو</span> أعضاء منتدى الأمم المتحدة المعني الغابات إلى تسريع الجهود الرامية إلى تحقيق الأهداف العالمية للغابات، بسبل منها تنسيق الإجراءات المتصلة بالغابات وتعميمها والنهوض بها في البرامج والاستراتيجيات والخطط ذات الصلة، بما في ذلك خطط التنمية الوطنية، وإلى القيام في هذا الصدد بدعم المبادرات المشتركة والشراكات الوطنية ودون الإقليمية والإقليمية القائمة والناشئة بشأن تنفيذ خطة الأمم المتحدة الاستراتيجية للغابات للفترة 2017-2030<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	()	انظر قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/71/285">71/285</a>.</p></authorialNote><sup>)</sup>؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_5" class="SingleTxt">
+        <content eId="para_5__content">
+          <p xml:space="preserve">	2 -	<span class="bold italic">يدعو</span> الشراكة التعاونية في مجال الغابات إلى مواصلة تعزيز تعاونها مع المنتدى وأعضائه ودعمها لعملهم من أجل تنفيذ برنامج العمل الرباعي السنوات للمنتدى للفترة 2021-2024 والخطة الاستراتيجية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_6" class="SingleTxt">
+        <content eId="para_6__content">
+          <p xml:space="preserve">	3<span class="bold"> -	</span><span class="bold italic">يدعو</span><span class="bold"> المنتدى السياسي الرفيع المستوى المعني بالتنمية المستدامة، والأطراف في الاتفاقات البيئية المتعددة الأطراف ذات الصلة، والعمليات الدولية الأخرى المتصلة بالغابات إلى النظر في العناصر ذات الصلة من الخطة الاستراتيجية بوصفها إطارا مرجعيا لعملها المتصل بالغابات من أجل تعزيز التقدم نحو تحقيق أهداف التنمية المستدامة</span><sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	()	انظر قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/70/1">70/1</a>.</p></authorialNote><sup>)</sup><span class="bold"> وأهداف الاتفاقات البيئية المتعددة الأطراف ذات الصلة، وإلى تعزيز الإجراءات المتصلة بالغابات، وتحسين فهم أوجه ترابط الفوائد الاجتماعية والاقتصادية والبيئية للغابات مع مجالات عملها، لأغراض منها القضاء على الفقر، وتعزيز التعاون والتآزر الفعالين بشأن المسائل المتصلة بالغابات؛</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_7" class="SingleTxt">
+        <content eId="para_7__content">
+          <p xml:space="preserve">	4<span class="bold"> -	</span><span class="bold italic">يحث</span><span class="bold"> أعضاء المنتدى على تعزيز التعاون فيما بين بلدان الشمال وفيما بين بلدان الشمال والجنوب وفيما بين بلدان الجنوب والتعاون الثلاثي في الميادين التقنية والمالية والعلمية والتكنولوجية والابتكارية لدعم تنفيذ الخطة الاستراتيجية والتعجيل بتحقيق الأهداف العالمية للغابات الواردة فيها، وتعزيز الإدارة المستدامة للغابات، مع مراعاة الظروف الوطنية، بما في ذلك التحديات التي تواجه البلدان النامية؛</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_8" class="SingleTxt">
+        <content eId="para_8__content">
+          <p xml:space="preserve">	5<span class="bold"> -	</span><span class="bold italic">يشجع</span><span class="bold"> أعضاء المنتدى على تنفيذ الأهداف العالمية للغابات، مع مراعاة الظروف الوطنية، للمساهمة في تنفيذ الصكوك المتعددة الأطراف والعمليات والالتزامات والأهداف المتصلة بالغابات، ويدعو في هذا الصدد المنظمات الأعضاء في الشراكة التعاونية في مجال الغابات إلى تعزيز التعاون والتآزر وتعزيز دعمها للمنتدى وأعضائه؛</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_9" class="SingleTxt">
+        <content eId="para_9__content">
+          <p xml:space="preserve">	6<span class="bold"> -	يحيط علما </span><span class="italic">مع التقدير</span><span class="bold"> بما شُهد في الآونة الأخيرة من إعلانات وتعهدات وتطورات متصلة بالغابات، بما في ذلك، على سبيل المثال لا الحصر، المساهمات ذات الصلة بالغابات الواردة في إعلان القادة المعتمد في غلاسكو بشأن الغابات واستخدام الأراضي؛</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="SingleTxt">
+        <content eId="para_10__content">
+          <p xml:space="preserve">	7 -	<span class="bold italic">يشجع</span> البلدان والمنظمات التي قدمت تعهدات دعما للصكوك والعمليات والالتزامات والأهداف المتصلة بالغابات على أن تقدم المعلومات، من خلال قنوات منها الشبكة العالمية لتيسير تمويل الغابات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_11" class="SingleTxt">
+        <content eId="para_11__content">
+          <p xml:space="preserve">	8 -	<span class="bold">يشجع</span> أعضاء المنتدى على تسليط الضوء على مساهمات الغابات والإدارة المستدامة للغابات، وفوائدها الاقتصادية والاجتماعية والبيئية، فيما يتعلق بحماية التنوع البيولوجي وحفظه واستخدامه المستدام، في العمل المضطلع به في سبيل اعتماد الإطار العالمي للتنوع البيولوجي لما بعد عام 2020؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12" class="SingleTxt">
+        <content eId="para_12__content">
+          <p xml:space="preserve">	9 -	يشجع المنتدى على تعزيز تعدد اللغات في الاتصالات التي يضطلع بها بشأن عمله وفي أنشطة تبادل المعلومات التي يقوم بها من أجل النهوض بالخطة الاستراتيجية، وعلى إحراز مزيد من التقدم نحو تحقيق الأهداف العالمية للغابات، بما في ذلك الأنشطة الرامية إلى زيادة الوعي بالفوائد المتعددة للغابات وإبراز عمل المنتدى داخل منظومة الأمم المتحدة وخارجها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13" class="SingleTxt">
+        <content eId="para_13__content">
+          <p xml:space="preserve">	10 -	<span class="bold italic">يشدد</span> على أن التنفيذ الفعال للإدارة المستدامة للغابات يتوقف على مساهمات جميع أصحاب المصلحة ذوي الصلة، بما في ذلك، على سبيل المثال لا الحصر، المنظمات والعمليات الإقليمية ودون الإقليمية، وملاك الغابات، والشعوب الأصلية، والمجتمعات المحلية، والسلطات المحلية، والقطاع الخاص، بما يشمل المشاريع الصغيرة والمتوسطة والكبيرة القائمة على الغابات، والمنظمات غير الحكومية، والنساء والأطفال والشباب، والمنظمات العلمية والأكاديمية والخيرية على جميع المستويات، ويشجع، في هذا الصدد، أصحاب المصلحة هؤلاء على مواصلة النهوض بتنفيذ الخطة الاستراتيجية وتحقيق الأهداف العالمية للغابات، وإبقاء المنتدى على علم بالتقدم الذي يحرزونه في هذا الصدد؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="SingleTxt">
+        <content eId="para_14__content">
+          <p xml:space="preserve">	11 -	<span class="bold italic">يقر</span> بأهمية دور صغار ملاك الأراضي والمشاريع المتناهية الصغر والصغيرة والمتوسطة والمجتمعات المحلية والشعوب الأصلية في حفظ الغابات وإدارتها المستدامة وحمايتها، ويشجع أعضاء المنتدى على وضع السياسات العامة وتحسينها وتنفيذها، لأغراض منها تيسير الحصول على التمويل، لأجل تهيئة بيئة تمكينية للتنمية المستدامة على جميع المستويات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15" class="SingleTxt">
+        <content eId="para_15__content">
+          <p xml:space="preserve">	12 -	<span class="bold italic">يرحب</span> بالعمل الذي يضطلع به المنتدى إلى جانب المنظمات الدولية ذات الصلة بالغابات والشركاء الآخرين في تقييم آثار جائحة مرض فيروس كورونا (كوفيد-19) العالمية على الغابات وقطاع الغابات، ويشجع على إدماج الغابات وإدارتها المستدامة في تدابير التعافي بعد جائحة كوفيد-19 التي تعتمدها البلدان، مع مراعاة الروابط ذات الصلة بين التنوع البيولوجي والصحة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="H23">
+        <subheading>		وسائل التنفيذ، بما في ذلك عمليات وموارد الشبكة العالمية لتيسير تمويل الغابات</subheading>
+      </paragraph>
+      <paragraph eId="para_17" class="SingleTxt">
+        <content eId="para_17__content">
+          <p xml:space="preserve">	13<span class="bold"> -	يشير إلى أهمية تعبئة الموارد المالية واستخدامها الفعال، بما في ذلك الموارد الجديدة والإضافية المستمدة من جميع المصادر وعلى جميع المستويات، ويشير إلى أن عنصري السياسات العامة وتعبئة الموارد المحلية واستخدامها الفعال، المدعمين بمبدأ الملكية والقيادة الوطنيتين، لهما دور محوري في سعينا المشترك لتحقيق التنمية المستدامة، ويشير أيضا إلى الفقرات من 52 إلى 61 من قرار المجلس الاقتصادي والاجتماعي </span><span class="bold"><a href="https://undocs.org/ar/E/RES/2017/4">2017/4</a></span><span class="bold">؛</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="SingleTxt">
+        <content eId="para_18__content">
+          <p xml:space="preserve">	14<span class="bold"> -	</span><span class="bold italic">يشير أيضا</span><span class="bold"> إلى أن تحقيق الفعالية في الإدارة المستدامة للغابات يتوقف بشكل حاسم على توفر الموارد الكافية، بما في ذلك التمويل وتطوير القدرات ونقل التكنولوجيات السليمة بيئيا، ويتوقف على وجه الخصوص على ضرورة تعبئة موارد مالية إضافية، بما في ذلك المصادر المبتكرة، لصالح البلدان النامية، بما فيها أقل البلدان نمواً والبلدان النامية غير الساحلية والدول الجزرية الصغيرة النامية والبلدان التي تمر اقتصاداتها بمرحلة انتقالية، ويشير كذلك إلى أن تحقيق الإدارة المستدامة للغابات يتوقف أيضا بشكل حاسم على الإدارة الرشيدة على جميع الصعد؛</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxt">
+        <content eId="para_19__content">
+          <p xml:space="preserve">	15<span class="bold"> -	</span><span class="bold italic">يرحب</span><span class="bold"> بالدعم الذي تقدمه الشبكة العالمية لتيسير تمويل الغابات إلى البلدان من أجل تعزيز القدرة على تعبئة الموارد من جانب جميع أصحاب المصلحة ومن جميع المصادر بغية تعزيز الإدارة المستدامة للغابات وتحقيق الأهداف العالمية للغابات، بسبل منها وضع استراتيجيات وطنية لتمويل الغابات؛</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxt">
+        <content eId="para_20__content">
+          <p xml:space="preserve">	16<span class="bold"> -	</span><span class="bold italic">يدعو</span><span class="bold"> أعضاء الشراكة التعاونية في مجال الغابات إلى النظر في إعارة موظفين إلى أمانة المنتدى لتعزيز قدرة الشبكة العالمية لتيسير تمويل الغابات بغية توفير الدعم الكافي والمناسب التوقيت لأعضاء المنتدى، وزيادة الدعم المقدم إلى أنشطة الشبكة؛</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxt">
+        <content eId="para_21__content">
+          <p xml:space="preserve">	17<span class="bold"> -	</span><span class="bold italic">يطلب</span><span class="bold"> إلى أمانة المنتدى أن تواصل، في حدود الموارد المتاحة، الإعداد للمرحلة الثانية من مركز تبادل المعلومات للشبكة العالمية لتيسير تمويل الغابات وتفعيلها، بما في ذلك قاعدة بياناته الجديدة المتعلقة بالتدفقات المالية الموجهة للغابات، وأن تشجع أعضاء المنتدى على إتاحة ما استخلصوه من الدروس المستفادة وأفضل الممارسات في مجال تمويل الغابات لنشرها على الموقع الشبكي لمركز تبادل المعلومات للشبكة، بالتعاون مع أعضاء الشراكة التعاونية في مجال الغابات، كل وفق ولايته؛</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="SingleTxt">
+        <content eId="para_22__content">
+          <p xml:space="preserve">	18<span class="bold"> -	</span><span class="bold italic">يطلب</span><span class="italic"> أيضا</span><span class="bold"> إلى أمانة المنتدى أن تقوم بانتظام، في حدود الموارد المتاحة، بتحديث قواعد بيانات مركز تبادل المعلومات للشبكة العالمية لتيسير تمويل الغابات، وإتاحة المعلومات لأجل تيسير إلمام أعضاء المنتدى بقواعد البيانات، ويدعو في هذا الصدد أعضاء الشراكة التعاونية في مجال الغابات إلى تقديم مساهمات، حسب الاقتضاء، كل وفق ولايته وفي حدود الموارد المتاحة؛</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxt">
+        <content eId="para_23__content">
+          <p xml:space="preserve">	19<span class="bold"> -	</span><span class="bold italic">يشدد</span><span class="bold"> على أهمية مواصلة الشبكة العالمية لتيسير تمويل الغابات تقديم دعمها لأعضاء المنتدى ذوي الصلة، بما يتسق مع أحكام الخطة الاستراتيجية، ومبادئ الشبكة التوجيهية المعتمدة خلال الدورة الثالثة عشرة للمنتدى</span><sup>(</sup><authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	()	<span class="italic">الوثائق الرسمية للمجلس الاقتصادي والاجتماعي، 2018، الملحق رقم 22 </span>(<a href="https://undocs.org/ar/E/2018/42">E/2018/42</a>)، الفصل الأول، الفرع باء، القرار 13/1، المرفق الثاني.</p></authorialNote><sup>)</sup><span class="bold">، ويشجع أمانة المنتدى على أن تحدد، وفقا لقواعد الأمم المتحدة وأنظمتها ذات الصلة، سبل تيسير تقديم القطاع الخاص والمنظمات الخيرية للمساهمات؛</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxt">
+        <content eId="para_24__content">
+          <p xml:space="preserve">	20<span class="bold"> -	</span><span class="bold italic">يشير</span><span class="bold"> إلى الفقرة 13 من قرار المجلس </span><span class="bold"><a href="https://undocs.org/ar/E/RES/2020/14">2020/14</a></span><span class="bold">، ويطلب إلى أمانة المنتدى أن تقدم بانتظام معلومات مستكملة عن هذه المسألة، وأن تقدم تقريرا مرحليا إلى المنتدى في دورته الثامنة عشرة؛</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxt">
+        <content eId="para_25__content">
+          <p xml:space="preserve">	21<span class="bold"> -	</span><span class="bold italic">يدعو</span><span class="bold"> أعضاء المنتدى وغيرهم ممن هم في وضع يسمح لهم بتقديم تبرعات إلى الصندوق الاستئماني لمنتدى الأمم المتحدة المعني بالغابات إلى أن يفعلوا ذلك من أجل الارتقاء بأنشطة أمانة المنتدى، بما في ذلك الشبكة العالمية لتيسير تمويل الغابات؛</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_26" class="H23">
+        <subheading>		الرصد والتقييم والإبلاغ</subheading>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxt">
+        <content eId="para_27__content">
+          <p xml:space="preserve">	22 <span class="italic">-	</span><span class="bold italic">يطلب</span> إلى أمانة المنتدى أن تعدل شكل التقارير الطوعية الوطنية مع مراعاة شتى المقترحات الواردة من الدول الأعضاء في المنتدى، وأن تباشر مرحلة تجريبية لاستخدام الشكل المنقح في البلدان المهتمة، فيما يخص جميع أنواع الغابات وضمن سياقات اجتماعية اقتصادية مختلفة، وأن تقدم تقريرا عن التقدم المحرز إلى المنتدى في دورته الثامنة عشرة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxt">
+        <content eId="para_28__content">
+          <p xml:space="preserve">	23 <span class="italic">-	</span><span class="bold italic">يدعو</span> المنتدى إلى أن ينظر، في حدود الموارد المتاحة، في إنشاء فريق استشاري معني بالإبلاغ، مع مراعاة الخبرة المكتسبة والدروس المستفادة من إشراك فريق استشاري غير رسمي في المنشور الرئيسي لعام 2021، ويطلب في هذا الصدد إلى أمانة المنتدى أن تقيم أثر المنشور وتقترح اختصاصات لهذا الفريق، بما في ذلك تكوينه، مع إيلاء الاعتبار الواجب لضرورة إقامة تمثيل جغرافي متوازن للأمم المتحدة في الدورة الثامنة عشرة للمنتدى؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxt">
+        <content eId="para_29__content">
+          <p xml:space="preserve">	24 <span class="italic">-	</span><span class="bold italic">يطلب</span> إلى أمانة المنتدى أن تعد، في سياق الأعمال التحضيرية لاستعراض منتصف المدة للترتيب الدولي المتعلق بالغابات، وبالتشاور مع أعضاء المنتدى، خريطة طريق وجدولا زمنيا لدورة الإبلاغ المقبلة، بالاقتران مع دورة تقييم الموارد الحرجية في العالم، وأن تستكشف الخيارات المتاحة لإنشاء منصة للإبلاغ الإلكتروني لأجل المنتدى، إقرارا بالحاجة إلى تبسيط عملية الإبلاغ والتقليل إلى أدنى حد من عبء الإبلاغ، بما في ذلك التحديات التي تواجه البلدان النامية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxt">
+        <content eId="para_30__content">
+          <p xml:space="preserve">	25 <span class="italic">-	</span><span class="bold italic">يطلب أيضا</span> إلى أمانة المنتدى أن تنظم، عن طريق التبرعات وبالتشاور مع أعضاء المنتدى، وبالاشتراك مع منظمة الأغذية والزراعة للأمم المتحدة والمنظمات الأخرى ذات الصلة الأعضاء في الشراكة التعاونية في مجال الغابات، حلقة عمل عالمية بشأن الإبلاغ الوطني الطوعي عن التقدم المحرز نحو تحقيق الأهداف والغايات العالمية المتعلقة بالغابات، مع التركيز على مصادر البيانات وعلى جمعها وعلى المنهجيات غير المتوفرة بشأنها بيانات منتظمة، مع وضع طرائق للمشاركة فيها على نحو شامل وإيلاء الاعتبار الواجب لجميع اللغات الرسمية للأمم المتحدة، رهنا بتوافر الموارد الخارجة عن الميزانية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxt">
+        <content eId="para_31__content">
+          <p xml:space="preserve">	26 <span class="italic">-	</span><span class="bold italic">يدعو</span> أعضاء المنتدى، حسب الاقتضاء، إلى تعزيز التعاون التقني والمالي الدولي بشأن الإبلاغ عن البيانات المتصلة بالغابات وجمعها وتجهيزها وتوفيرها، بما في ذلك البيانات المتعلقة بالفوائد الاجتماعية الاقتصادية المتعددة للغابات، والقوائم الوطنية لجرد الموارد الحرجية، ودور الغابات في القضاء على الفقر وفي رفاه الإنسان وتوليد الدخل والعمالة وفهم تدفقات التمويل العام والخاص؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxt">
+        <content eId="para_32__content">
+          <p xml:space="preserve">	27 <span class="italic">-	</span><span class="bold italic">يدعو</span> أعضاء المنتدى والهيئات الإدارية للمنظمات الأعضاء في الشراكة التعاونية في مجال الغابات إلى استخدام المجموعة الأساسية العالمية من المؤشرات المتصلة بالغابات، ويدعو أمانة المنتدى إلى أن تتخذ، بالتعاون مع منظمة الأغذية والزراعة للأمم المتحدة والمنظمات الأخرى ذات الصلة الأعضاء في الشراكة التعاونية في مجال الغابات، ترتيبات للمزيد من العمل بشأن مؤشرات المستوى 3<sup>(</sup><authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">	()	للاطلاع على مزيد من المعلومات عن مؤشرات المستوى 3، انظر <a href="https://undocs.org/ar/E/CN.18/2022/4">E/CN.18/2022/4</a>.</p></authorialNote><sup>)</sup>، بما في ذلك تحسين المفاهيم والتعاريف والاختبار الطوعي في الميدان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="H23">
+        <subheading>		الأعمال التحضيرية لاستعراض منتصف المدة في عام 2024 لفعالية الترتيب الدولي المتعلق بالغابات</subheading>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxt">
+        <content eId="para_34__content">
+          <p xml:space="preserve">	28 -	<span class="bold italic">يقرر</span> أن يضطلع المنتدى بالإجراءات الواردة في مرفق هذا القرار، تحضيرا لاستعراض منتصف المدة للترتيب الدولي المتعلق بالغابات، خلال الفترة التي تلي اختتام الدورة السابعة عشرة للمنتدى وقبل دورته التاسعة عشرة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_35" class="SingleTxt">
+        <content eId="para_35__content">
+          <p xml:space="preserve">	29 -	<span class="bold italic">يقرر أيضا</span> تأجيل النظر في الفقرتين 42 (أ) و (ب) من قرار المجلس <a href="https://undocs.org/ar/E/RES/2015/33">2015/33</a> إلى الاستعراض النهائي لفعالية الترتيب الدولي المتعلق بالغابات في عام 2030؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxt">
+        <content eId="para_36__content">
+          <p xml:space="preserve">	30 <span class="italic">-	</span><span class="bold italic">يقرر</span> <span class="bold italic">كذلك</span> ما يلي:</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxt">
+        <num>(أ)</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve">	إنشاء فريق خبراء حكومي دولي مخصص مفتوح العضوية معني بالأعمال التحضيرية لاستعراض منتصف المدة للترتيب الدولي المتعلق بالغابات المقرر أن تعقده أمانة المنتدى حوالي نهاية عام 2023، لاستعراض جميع التقييمات ونتائج الأعمال التحضيرية لما بين الدورات المتصلة باستعراض منتصف المدة للترتيب الدولي، على النحو المبين في مرفق هذا القرار، وقيام الأمانة بتقديم تقرير فريق الخبراء المخصص إلى المنتدى في دورته التاسعة عشرة للنظر فيه؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="SingleTxt">
+        <num>(ب)</num>
+        <content eId="para_38__content">
+          <p xml:space="preserve">	أن يُفتح باب العضوية في فريق الخبراء المخصص أمام جميع أعضاء المنتدى، والمنظمات الأعضاء في الشراكة التعاونية في مجال الغابات، والمنظمات والعمليات الإقليمية ودون الإقليمية ذات الصلة، والمجموعات الرئيسية، وأصحاب المصلحة الآخرين ذوي الصلة، وأن تُنظم أعمال الفريق بالاستعانة بالموارد المتاحة، بما فيها المساهمات الخارجة عن الميزانية، وبمشاركة البلدان النامية بالقدر الكافي وباستخدام جميع اللغات الرسمية للأمم المتحدة، رهنا بتوافر الموارد الخارجة عن الميزانية، بغية تقديم مقترحات إلى المنتدى في دورته التاسعة عشرة بشأن استعراض منتصف المدة لفعالية الترتيب الدولي المتعلق بالغابات، بما يشمل الخطوات المستقبلية التي يتعين اتخاذها من خلال الترتيب الدولي بعد عام 2024؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="SingleTxt">
+        <num>(ج)</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve">	أن يجري مكتب المنتدى في دورته التاسعة عشرة، مع مراعاة الوثيقة الختامية لفريق الخبراء المخصص، مشاورات غير رسمية مع أعضاء المنتدى، ويعد المسودة الأولية لمشروع القرار الخاص بالترتيب الدولي المتعلق بالغابات لما بعد عام 2024 ويقدمها إلى المنتدى في دورته التاسعة عشرة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxt">
+        <num>(د)</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	أن تنفذ الإجراءات المبينة في مرفق هذا القرار بطريقة شفافة ومستقلة، وبالتشاور الوثيق مع أعضاء المنتدى والمنظمات الأعضاء في الشراكة التعاونية في مجال الغابات وأصحاب المصلحة الآخرين ذوي الصلة، بوسائل منها الاستبيانات، حسب الاقتضاء؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="SingleTxt">
+        <content eId="para_44__content">
+          <p xml:space="preserve">	31 -	<span class="bold italic">يدعو</span> أعضاء المنتدى ممن هم في وضع يسمح لهم بتقديم تبرعات إلى الصندوق الاستئماني للمنتدى إلى أن يفعلوا ذلك من أجل تمكين الأمانة من تنظيم فريق الخبراء الحكومي الدولي المخصص المفتوح العضوية المعني بالأعمال التحضيرية لاستعراض منتصف المدة للترتيب الدولي المتعلق بالغابات، وتيسير تنفيذ الإجراءات المبينة في مرفق هذا القرار.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="33">الجلسة العامة 33</inline>
+        <eol />
+        <docDate date="2022-07-21" refersTo="#adoptionDate">21 تموز/يوليه 2022</docDate>
+      </p>
+    </conclusions>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/"></FRBRuri>
+                <FRBRdate date="2022-07-21" name="adoption"></FRBRdate>
+                <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/ara@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/ara@/"></FRBRuri>
+                <FRBRdate date="2022-07-29" name="publication"></FRBRdate>
+                <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="ara"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/ara@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/ara@.xml"></FRBRuri>
+                <FRBRdate date="2022-08-18" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_46" class="H1">
+              <heading>المرفق</heading>
+            </paragraph>
+            <paragraph eId="para_47" class="H1">
+              <heading>إجراءات التحضير لاستعراض منتصف المدة في عام 2024 لفعالية الترتيب الدولي المتعلق بالغابات</heading>
+            </paragraph>
+            <paragraph eId="para_48" class="H23">
+              <subheading>ألف -	الإجراءات المتعلقة بمنتدى الأمم المتحدة المعني بالغابات وأعضائه</subheading>
+            </paragraph>
+            <paragraph eId="para_49" class="SingleTxt">
+              <content eId="para_49__content">
+                <p xml:space="preserve">1 -	تقييم التقدم الذي أحرزه منتدى الأمم المتحدة المعني بالغابات وأعضاؤه نحو تحقيق أهداف الترتيب الدولي المتعلق بالغابات، كما حُدِّدَت في قرار المجلس الاقتصادي والاجتماعي <a href="https://undocs.org/ar/E/RES/2015/33">2015/33</a>.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_50" class="SingleTxt">
+              <content eId="para_50__content">
+                <p xml:space="preserve">2 -	تحليل أداء المنتدى في الاضطلاع بمهامه، كما حُدِّدَت في الفقرة 3 من قرار المجلس <a href="https://undocs.org/ar/E/RES/2015/33">2015/33</a>، من خلال تحديد تأثيره على المشهد العالمي للسياسات الحرجية وعلى عمل المنتدى السياسي الرفيع المستوى المعني بالتنمية المستدامة، وكذلك الوسائل التي من شأنها تمكين المنتدى من توسيع نطاق تأثيره.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_51" class="SingleTxt">
+              <content eId="para_51__content">
+                <p xml:space="preserve">3 -	استكشاف المزيد من التدابير الرامية إلى تحسين استخدام دورات المنتدى السنوية وإشراك الأعضاء في أنشطة المنتدى لما بين الدورات من أجل تعزيز تحقيق الأهداف العالمية للغابات.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_52" class="SingleTxt">
+              <content eId="para_52__content">
+                <p xml:space="preserve">4 -	تحديد المزيد من الوسائل الكفيلة بالتشجيع على تقديم مزيد من التقارير الوطنية الطوعية والإعلانات المتعلقة بالمساهمات الوطنية الطوعية من جانب أعضاء المنتدى، وتحديد الوسائل الكفيلة بالتشجيع على زيادة المساهمات الوطنية الطوعية من جانب أعضاء المنتدى وتعزيز فعاليتها.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_53" class="SingleTxt">
+              <content eId="para_53__content">
+                <p xml:space="preserve">5 -	ومن أجل الاضطلاع بالمهام المذكورة أعلاه، ينبغي لأمانة المنتدى، بالتشاور مع أعضاء المنتدى وأصحاب المصلحة ذوي الصلة، أن تجري تقييما مستقلا وتقدمه إلى فريق الخبراء الحكومي الدولي المخصص المفتوح العضوية المشار إليه في الفقرة 30 من هذا القرار.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_54" class="H23">
+              <subheading>باء -	الإجراءات المتعلقة بأمانة المنتدى</subheading>
+            </paragraph>
+            <paragraph eId="para_55" class="SingleTxt">
+              <content eId="para_55__content">
+                <p xml:space="preserve">1 -	تقييم الإنجازات التي حققتها أمانة المنتدى في الاضطلاع بوظائفها وفي إحراز التقدم نحو تحقيق أهداف الترتيب الدولي المتعلق بالغابات، كما حُدِّدَت في قرار المجلس <a href="https://undocs.org/ar/E/RES/2015/33">2015/33</a>.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_56" class="SingleTxt">
+              <content eId="para_56__content">
+                <p xml:space="preserve">2 -	تحليل الثغرات في أمانة المنتدى وقدراتها القائمة بهدف تحسين كفاءة عملياتها وفعاليتها، وتعزيز قدراتها، واكتساب فهم أفضل لعمليات صنع القرار فيها وإجراءاتها، وزيادة الأثر الذي تُحدِثُه أنشطتها.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_57" class="SingleTxt">
+              <content eId="para_57__content">
+                <p xml:space="preserve">3 -	تحديد المزيد من التدابير الكفيلة بتعزيز التعاون والتآزر والحد من الازدواجية فيما يتعلق بالمسائل المتصلة بالغابات على الصعيد العالمي، مع مراعاة ولايات المنظمات والكيانات المختلفة.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_58" class="SingleTxt">
+              <content eId="para_58__content">
+                <p xml:space="preserve">4 -	ومن أجل الاضطلاع بالمهام المذكورة أعلاه، ينبغي لأمانة المنتدى، بالتشاور مع أعضاء المنتدى وأصحاب المصلحة ذوي الصلة، أن تجري تقييما مستقلا وتقدمه إلى فريق الخبراء الحكومي الدولي المخصص المفتوح العضوية المشار إليه في الفقرة 30 من هذا القرار.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_59" class="H23">
+              <subheading>جيم -	الإجراءات المتعلقة بالشراكة التعاونية في مجال الغابات</subheading>
+            </paragraph>
+            <paragraph eId="para_60" class="SingleTxt">
+              <content eId="para_60__content">
+                <p xml:space="preserve">1 -	تقييم التقدم الذي أحرزته الشراكة التعاونية في مجال الغابات في الاضطلاع بمهامها في سبيل تحقيق أهداف الترتيب الدولي المتعلق بالغابات، كما حُدِّدَت في قرار المجلس <a href="https://undocs.org/ar/E/RES/2015/33">2015/33</a>.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_61" class="SingleTxt">
+              <content eId="para_61__content">
+                <p xml:space="preserve">2 -	تقييم فعالية أنشطة الشراكة وأثرها وقيمتها المضافة على النحو المبين في خطة عملها، بما في ذلك ما يتعلق بمواردها؛ وإنجاز النواتج؛ والمبادرات المشتركة، بما يشمل الكيفية التي يمكن بها للمنتدى أن يقدم مدخلات فيها؛ والأنشطة المتكررة الرامية إلى تعزيز تنفيذ خطة الأمم المتحدة الاستراتيجية للغابات للفترة 2017-2030 وتحقيق الأهداف العالمية للغابات وأهداف التنمية المستدامة.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_62" class="SingleTxt">
+              <content eId="para_62__content">
+                <p xml:space="preserve">3 -	النظر في مدى ملاءمة وضع معايير للعضوية في الشراكة.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_63" class="SingleTxt">
+              <content eId="para_63__content">
+                <p xml:space="preserve">4 -	تقييم الكيفية التي يمكن بها للشراكة أن توفر دعما أكبر لعمل المنتدى في مجال وضع السياسات وأن تساعد البلدان على تعزيز تنفيذها للخطة الاستراتيجية وقرارات المنتدى ومقرراته على أرض الواقع، بما في ذلك الوسائل التي تتيح مواصلة الاستفادة من قدرات أصحاب المصلحة والشركاء الدوليين والإقليميين الآخرين.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_64" class="SingleTxt">
+              <content eId="para_64__content">
+                <p xml:space="preserve">5 -	تقييم فعالية أنشطة الاتصال الداخلية المنفذة على نطاق الشراكة من أجل تعزيز أوجه التآزر المتبادل، وتقليل الازدواجية، وتعزيز أنشطة الاتصال والتوعية الخارجية التي تضطلع بها الشراكة من أجل تعزيز التوعية بالفوائد المتعددة للغابات، وزيادة إبراز الخطة الاستراتيجية والأهداف العالمية للغابات في إطار العمليات الأخرى المتصلة بالغابات.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_65" class="SingleTxt">
+              <content eId="para_65__content">
+                <p xml:space="preserve">6 -	ومن أجل الاضطلاع بالمهام المذكورة أعلاه، يمكن إجراء دراسة مستقلة بالتشاور مع الشراكة وأعضاء المنتدى. وينبغي عرض نتائج الدراسة في اجتماع تنظمه الشراكة فيما بين الدورات (المبادرة التي تقودها المنظمات) لمناقشتها، بغية تقديم مقترحات بشأن الشراكة إلى فريق الخبراء الحكومي الدولي المخصص المفتوح العضوية المشار إليه في الفقرة 30 من هذا القرار.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_66" class="H23">
+              <subheading>دال -	الإجراءات المتعلقة بالشبكة العالمية لتيسير تمويل الغابات</subheading>
+            </paragraph>
+            <paragraph eId="para_67" class="SingleTxt">
+              <content eId="para_67__content">
+                <p xml:space="preserve">1 -	تقييم التقدم الذي أحرزته الشبكة العالمية لتيسير تمويل الغابات نحو تحقيق أهداف الترتيب الدولي المتعلق بالغابات، كما حُدِّدَت في قرار المجلس <a href="https://undocs.org/ar/E/RES/2015/33">2015/33</a>.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_68" class="SingleTxt">
+              <content eId="para_68__content">
+                <p xml:space="preserve">2 -	تقييم حالة الموارد المتاحة المخصصة للغابات من جميع المصادر، بما يشمل التمويل الخاص، وكذلك الثغرات والقيود فيما يتعلق بالحصول على هذه الأموال.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_69" class="SingleTxt">
+              <content eId="para_69__content">
+                <p xml:space="preserve">3 -	استعراض أداء الشبكة وآثار أنشطتها، وكفاية مواردها، والتحديات التي تواجه عملها والقيود المفروضة عليه.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_70" class="SingleTxt">
+              <content eId="para_70__content">
+                <p xml:space="preserve">4 -	اقتراح تدابير لزيادة كفاءة الشبكة والقيمة التي تضيفها وتعزيز قدرتها على تيسير وتعزيز وصول البلدان المستوفية للشروط إلى الموارد المخصصة للغابات المتاحة من جميع المصادر، واستعراض المبادئ التوجيهية للشبكة المعتمدة خلال الدورة الثالثة عشرة للمنتدى، في سياق استعراض منتصف المدة في عام 2024 للترتيب الدولي المتعلق بالغابات.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_71" class="SingleTxt">
+              <content eId="para_71__content">
+                <p xml:space="preserve">5 -	ومن أجل الاضطلاع بالمهام المذكورة أعلاه، ينبغي لأمانة المنتدى، بالتشاور مع أعضاء المنتدى والشركاء، أن تجري تقييما لأداء الشبكة والآثار التي يُحدِثُها عملها ومدى كفاية مواردها واستمراريتها، وغير ذلك من التدابير الرامية إلى تعزيز عملها. وينبغي أن يُعرَض التقييم للمناقشة في اجتماع يُعقَد فيما بين الدورات وأن تقدم الوثيقة الختامية للاجتماع إلى فريق الخبراء الحكومي الدولي المخصص المفتوح العضوية المشار إليه في الفقرة 30 من هذا القرار.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_72" class="H23">
+              <subheading>هاء -	الإجراءات المتعلقة بالصندوق الاستئماني لمنتدى الأمم المتحدة المعني بالغابات</subheading>
+            </paragraph>
+            <paragraph eId="para_73" class="SingleTxt">
+              <content eId="para_73__content">
+                <p xml:space="preserve">1 -	تقييم أثر التبرعات المقدمة للصندوق الاستئماني لمنتدى الأمم المتحدة المعني بالغابات على دعم أنشطة المنتدى الأساسية.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_74" class="SingleTxt">
+              <content eId="para_74__content">
+                <p xml:space="preserve">2 -	استكشاف خيارات للتشجيع على تقديم مساهمات مستمرة وكافية للصندوق الاستئماني.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_75" class="SingleTxt">
+              <content eId="para_75__content">
+                <p xml:space="preserve">3 -	تحديد التحديات والقيود الرئيسية فيما يتعلق بتعبئة الموارد الكافية للصندوق الاستئماني.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_76" class="SingleTxt">
+              <content eId="para_76__content">
+                <p xml:space="preserve">4 -	وينبغي لأمانة المنتدى، بالتشاور مع أعضاء المنتدى، أن تضطلع بالمهام المذكورة أعلاه وأن تعرض استنتاجاتها واقتراحاتها في مذكرة معلومات أساسية لتقديمها إلى فريق الخبراء الحكومي الدولي المخصص المفتوح العضوية المشار إليه في الفقرة 30 من هذا القرار.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_77" class="H23">
+              <subheading>واو -	الإجراءات المتعلقة بتنفيذ خطة الأمم المتحدة الاستراتيجية للغابات للفترة 2017-2030</subheading>
+            </paragraph>
+            <paragraph eId="para_78" class="SingleTxt">
+              <content eId="para_78__content">
+                <p xml:space="preserve">1 -	جمع معلومات جديدة من الدول الأعضاء عن الإجراءات التي اتخذتها في إطار تنفيذ خطة الأمم المتحدة الاستراتيجية للغابات للفترة 2017-2030 منذ الدورة الخامسة عشرة للمنتدى المعقودة في عام 2020، والتحديات والقيود التي تواجهها في إعداد التقارير الوطنية الطوعية، وطرق تقليل الازدواجية وتخفيف عبء الإبلاغ، ومدى ملاءمة تحديد إطار زمني يتراوح ما بين 6 أشهر و 12 شهرا من نشر تقييم الموارد الحرجية في العالم تُقدَّم خلاله التقارير الوطنية الطوعية وتُثار المسائل محط الاهتمام الإقليمي والعالمي فيما يتعلق بالغابات، استجابةً لاستبيان موجز تعده أمانة المنتدى، وكذلك المعلومات التي جمعتها الدول الأعضاء في عامي 2019 و 2020 وقدمتها إلى المنتدى في دورته الخامسة عشرة، إلى جانب المساهمات الوطنية الطوعية وأحدث المنشورات والتقارير العالمية المتعلقة بالغابات.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_79" class="SingleTxt">
+              <content eId="para_79__content">
+                <p xml:space="preserve">2 -	وينبغي لأمانة المنتدى أن تجمع المعلومات المذكورة أعلاه في مذكرة معلومات أساسية واحدة لمناقشتها في اجتماع لفريق الخبراء يُعقد فيما بين الدورات، قبل الدورة التاسعة عشرة للمنتدى، وأن تقدم الوثيقة الختامية للاجتماع إلى فريق الخبراء الحكومي الدولي المخصص المفتوح العضوية المشار إليه في الفقرة 30 من هذا القرار.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_80" class="H23">
+              <subheading>زاي -	الإجراءات المتعلقة بمساهمات المنتدى في خطة التنمية المستدامة لعام 2030</subheading>
+            </paragraph>
+            <paragraph eId="para_81" class="SingleTxt">
+              <content eId="para_81__content">
+                <p xml:space="preserve">1 -	تقييم مساهمة المنتدى في أعمال المنتدى السياسي الرفيع المستوى المعني بالتنمية المستدامة بشأن أوجه الترابط بين الغابات وأهداف التنمية المستدامة، ومدى انعكاس مساهمات المنتدى في نتائج المنتدى السياسي الرفيع المستوى، منذ اتخاذ قرار المجلس <a href="https://undocs.org/ar/E/RES/2015/33">2015/33</a>.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_82" class="SingleTxt">
+              <content eId="para_82__content">
+                <p xml:space="preserve">2 -	تحديد المزيد من الفرص لمساهمة المنتدى وأمانته والشراكة التعاونية في مجال الغابات بشكل معزز ومباشر فيما يتعلق بالمسائل المتصلة بالغابات في دورات المنتدى السياسي الرفيع المستوى المعني بالتنمية المستدامة، ولا سيما عندما يستعرض المنتدى أهداف التنمية المستدامة المتصلة بالغابات، وفي المنتديات العالمية الأخرى ذات الصلة، بما فيها اتفاقيات ريو الثلاث (اتفاقية التنوع البيولوجي<sup>(</sup><authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">	()	United Nations, <span class="italic">Treaty Series</span>, vol. 1760, No. 30619.</p></authorialNote><sup>)</sup> واتفاقية الأمم المتحدة لمكافحة التصحر في البلدان التي تعاني من الجفاف الشديد و/أو من التصحر، وبخاصة في أفريقيا<sup>(</sup><authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">	()	المرجع نفسه، المجلد 1954، الرقم 33480.</p></authorialNote><sup>)</sup>، واتفاقية الأمم المتحدة الإطارية بشأن تغير المناخ<sup>(</sup><authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">	()	المرجع نفسه، المجلد 1771، الرقم 30822.</p></authorialNote><sup>)</sup>).</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_83" class="SingleTxt">
+              <content eId="para_83__content">
+                <p xml:space="preserve">3 -	اقتراح تدابير لزيادة إبراز مكانة الغابات وإسهامها في اجتماعات المنتدى السياسي الرفيع المستوى المعني بالتنمية المستدامة وزيادة الأهمية السياسية للغابات بالنسبة لخطة التنمية المستدامة الأوسع نطاقا، بما في ذلك تسليط الضوء على أثر القطاعات الأخرى على الغابات العالمية وعلى الطائفة الواسعة من الفوائد التي تحملها إدارة الغابات المستدامة لأهداف التنمية المستدامة.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_84" class="SingleTxt">
+              <content eId="para_84__content">
+                <p xml:space="preserve">4 -	ومن أجل أداء المهام المذكورة أعلاه، ينبغي لأمانة المنتدى، بالتشاور مع أعضاء المنتدى والشركاء، أن تجري تقييما وتعرض نتائجه للمناقشة في اجتماع يُعقَد فيما بين الدورات وتُقدَّم وثيقته الختامية إلى فريق الخبراء الحكومي الدولي المخصص المفتوح العضوية المشار إليه في الفقرة 30 من هذا القرار.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_85" class="H23">
+              <subheading>حاء -	الإجراءات المتعلقة باستراتيجية الاتصال والتوعية لخطة الأمم المتحدة الاستراتيجية للغابات للفترة 2017-2030</subheading>
+            </paragraph>
+            <paragraph eId="para_86" class="SingleTxt">
+              <content eId="para_86__content">
+                <p xml:space="preserve">1 -	تقييم التقدم الذي حققه كل من أعضاء المنتدى والأمانة والشراكة التعاونية في مجال الغابات والمنظمات الإقليمية وأصحاب المصلحة ذوي الصلة في تنفيذ استراتيجية الاتصال والتوعية لخطة الأمم المتحدة الاستراتيجية للغابات للفترة 2017-2030<sup>(</sup><authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">	()	<span class="italic">الوثائق الرسمية للمجلس الاقتصادي والاجتماعي، 2018، الملحق رقم 22</span> (<a href="https://undocs.org/ar/E/2018/42">E/2018/42</a>)، الفصل الأول، الفرع باء، القرار 13/1، المرفق الأول.</p></authorialNote><sup>)</sup>، وتحديد سبل التصدي للتحديات التي تواجه الارتقاء بتنفيذها، بما فيها التحديات المتعلقة بزيادة إبراز الخطة الاستراتيجية والأهداف العالمية للغابات.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_87" class="SingleTxt">
+              <content eId="para_87__content">
+                <p xml:space="preserve">2 -	تقييم أثر أنشطة الاتصال والتوعية المضطلع بها من أجل تعزيز الخطة الاستراتيجية والأهداف العالمية للغابات، بما يشمل اليوم الدولي للغابات وجدوى مواضيعه في زيادة الوعي بالفوائد المتعددة للغابات، وكذلك من أجل تعزيز إبراز العمل الذي يضطلع به المنتدى داخل منظومة الأمم المتحدة.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_88" class="SingleTxt">
+              <content eId="para_88__content">
+                <p xml:space="preserve">3 -	تحديد المزيد من خيارات ومنابر وقنوات الاتصال التي احتلت مكانة بارزة في السنوات الأخيرة للوصول بشكل أفضل إلى الجماهير المستهدفة مع تعزيز الأثر.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_89" class="SingleTxt">
+              <content eId="para_89__content">
+                <p xml:space="preserve">4 -	استكشاف سبل الاستفادة من قدرات أعضاء المنتدى وغيرهم من الأطراف الفاعلة والشركاء على الصعد العالمي والإقليمي والوطني لتعزيز جهود الدعوة إلى تنفيذ الخطة الاستراتيجية.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_90" class="SingleTxt">
+              <content eId="para_90__content">
+                <p xml:space="preserve">5 -	ومن أجل أداء المهام المذكورة أعلاه، ينبغي لأمانة المنتدى، بالتشاور مع أعضاء المنتدى والشركاء والمنظمات الأعضاء في الشراكة، أن تجري تقييما وتقدم نتائجه إلى فريق الخبراء الحكومي الدولي المخصص المفتوح العضوية المشار إليه في الفقرة 30 من هذا القرار.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_91" class="H23">
+              <subheading>طاء -	الإجراءات المتعلقة بمشاركة الشركاء الإقليميين ودون الإقليميين</subheading>
+            </paragraph>
+            <paragraph eId="para_92" class="SingleTxt">
+              <content eId="para_92__content">
+                <p xml:space="preserve">1 -	تقييم مشاركة الكيانات الإقليمية ودون الإقليمية في دورات المنتدى ومساهمتها فيها منذ دورته الثانية عشرة.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_93" class="SingleTxt">
+              <content eId="para_93__content">
+                <p xml:space="preserve">2 -	استعراض التطورات المتعلقة بإنشاء أو تعزيز آليات أو منتديات إقليمية ودون إقليمية معنية بإعداد السياسات المتعلقة بالغابات وتنسيقها والتحاور بشأنها من أجل تشجيع الإدارة المستدامة للغابات مع الحرص على تجنب التجزؤ، تمشيا مع الفقرة 28 من قرار المجلس <a href="https://undocs.org/ar/E/RES/2015/33">2015/33</a>، وكذلك التقدم المحرز في تنفيذ الفقرة 27 من القرار.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_94" class="SingleTxt">
+              <content eId="para_94__content">
+                <p xml:space="preserve">3 -	تحديد خيارات لزيادة مشاركة الشركاء الإقليميين ودون الإقليميين، بما في ذلك فيما يتعلق بالاستخدام الأفضل للقدرات التي يوفرها الشركاء الإقليميون الحاليون، في عمل المنتدى وبرامج عمله الرباعية السنوات المقبلة.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_95" class="SingleTxt">
+              <content eId="para_95__content">
+                <p xml:space="preserve">4 -	ومن أجل أداء المهام المذكورة أعلاه، ينبغي للأمانة، بالتشاور مع الشركاء الإقليميين ودون الإقليميين، أن تجري التقييمات وتعرضها للمناقشة في اجتماع يُعقَد فيما بين الدورات وتُقدَّم وثيقته الختامية إلى فريق الخبراء الحكومي الدولي المخصص المفتوح العضوية المشار إليه في الفقرة 30 من هذا القرار.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_96" class="H23">
+              <subheading>ياء -	الإجراءات المتعلقة بمشاركة المجموعات الرئيسية والجهات المعنية الأخرى صاحبة المصلحة</subheading>
+            </paragraph>
+            <paragraph eId="para_97" class="SingleTxt">
+              <content eId="para_97__content">
+                <p xml:space="preserve">1 -	تقييم مستوى مشاركة المجموعات الرئيسية والجهات المعنية الأخرى صاحبة المصلحة في عمل المنتدى، بما في ذلك مساهماتها في تحقيق الأهداف والغايات العالمية المتعلقة بالغابات على جميع المستويات وأوجه تفاعلها مع المنتدى والشراكة التعاونية في مجال الغابات من خلال الشبكات والأفرقة الاستشارية وغيرها من الآليات من أجل إذكاء الوعي، وتعزيز تبادل المعلومات ونشرها، وتيسير تقديم مدخلات منسقة.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_98" class="SingleTxt">
+              <content eId="para_98__content">
+                <p xml:space="preserve">2 -	تقييم الجهود التي تبذلها المجموعات الرئيسية من أجل أن تتولى بنفسها إنشاء وتعهد آليات تنسيق فعالة على جميع المستويات للتفاعل والمشاركة في المنتدى وفي غيره من هيئات الأمم المتحدة ذات الصلة بالغابات.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_99" class="SingleTxt">
+              <content eId="para_99__content">
+                <p xml:space="preserve">3 -	تقييم قدرة المجموعات الرئيسية والجهات المعنية الأخرى صاحبة المصلحة على تقديم تمثيل فعال من خلال عضويات ومراكز تنسيق تكون ملائمة وتمثيلية، وعمليات فعالة للتشاور في دوائرها.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_100" class="SingleTxt">
+              <content eId="para_100__content">
+                <p xml:space="preserve">4 -	تحديد الموارد المالية المحتملة التي يمكن أن تيسر إعداد وتنفيذ الاجتماعات التي تُعقَد كل أربع سنوات للمبادرة التي تقودها المجموعات الرئيسية لدعم منتدى الأمم المتحدة للغابات.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_101" class="SingleTxt">
+              <content eId="para_101__content">
+                <p xml:space="preserve">5 -	ومن أجل أداء المهام المذكورة أعلاه، ينبغي لأمانة المنتدى، بالتشاور مع المجموعات الرئيسية والجهات الأخرى المعنية صاحبة المصلحة، أن تجري التقييمات وتعرضها للمناقشة في اجتماع يُعقَد فيما بين الدورات وتُقدَّم وثيقته الختامية إلى فريق الخبراء الحكومي الدولي المخصص المفتوح العضوية المشار إليه في الفقرة 30 من هذا القرار.</p>
+              </content>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>
