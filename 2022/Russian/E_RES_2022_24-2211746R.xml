@@ -1,0 +1,420 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-22/2022-24/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-22/2022-24/"></FRBRuri>
+          <FRBRdate date="2022-07-22" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-22/2022-24/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-22/2022-24/rus@/"></FRBRuri>
+          <FRBRdate date="2022-08-01" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-22/2022-24/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-22/2022-24/rus@.xml"></FRBRuri>
+          <FRBRdate date="2022-08-18" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="10" href="http://metadata.un.org/sdg/10" showAs="sdg_10" dictionary="SDGO"></keyword>
+        <keyword value="equality" href="http://metadata.un.org/thesaurus/1002102" showAs="equality" dictionary="UNBIS"></keyword>
+        <keyword value="social_inequality" href="http://eurovoc.europa.eu/1420" showAs="social_inequality" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="9" href="http://metadata.un.org/sdg/9" showAs="sdg_9" dictionary="SDGO"></keyword>
+        <keyword value="innovation" href="http://eurovoc.europa.eu/1439" showAs="innovation" dictionary="EuroVoc"></keyword>
+        <keyword value="innovation" href="http://metadata.un.org/thesaurus/1003223" showAs="innovation" dictionary="UNBIS"></keyword>
+        <keyword value="industrialization" href="http://metadata.un.org/thesaurus/1003177" showAs="industrialization" dictionary="UNBIS"></keyword>
+        <keyword value="industrial_infrastructure" href="http://eurovoc.europa.eu/1434" showAs="industrial_infrastructure" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Committee of Experts on Global Geospatial Information Management" showAs="UN. Committee of Experts on Global Geospatial Information Management" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Committee of Experts on Global Geospatial Information Management" showAs="UN. Committee of Experts on Global Geospatial Information Management" dictionary="DHLAUTH"></keyword>
+        <keyword value="GEOSPATIAL INFORMATION MANAGEMENT" showAs="GEOSPATIAL INFORMATION MANAGEMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GEOGRAPHIC INFORMATION SYSTEMS" showAs="GEOGRAPHIC INFORMATION SYSTEMS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RESOURCES MOBILIZATION" showAs="RESOURCES MOBILIZATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GROUPS OF EXPERTS" showAs="GROUPS OF EXPERTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUBSIDIARY BODIES" showAs="SUBSIDIARY BODIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="18h" showAs="Geospatial information." shortForm="GEOSPATIAL INFORMATION" dictionary="E/2022/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-07-19" outcome="draftResolution" as="E/2022/L.26" by="Equatorial Guinea, Fiji and Germany" />
+        <step date="2022-08-01" outcome="adopted" as="Adopted by consensus, 34th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">22-11746 (R)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2022/24</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Экономический и Социальный Совет</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-08-01" class="rightSmall" refersTo="#dateOfIssuance">1 August 2022</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2022" eId="coverPage_1__session_1">Сессия 2022 года</session>
+      </p>
+      <p>
+        <inline title="18 h)" name="agenda item">Пункт 18 h) повестки дня</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Экономические и экологические вопросы: геопространственная информация</inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Экономическим и Социальным Советом 22 июля 2022 года</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#plenaryMeeting">[по предложению, рассмотренному на пленарном заседании (<inline name="originating document">E/2022/L.26</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2022/24.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Укрепление механизмов глобального управления геопространственной информацией</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Экономический и Социальный Совет</span>,</p>
+      </formula>
+      <container name="ссылаясь" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">ссылаясь </span>на резолюцию <a href="https://undocs.org/ru/A/RES/66/288">66/288</a> Генеральной Ассамблеи от 27 июля 2012 года, в которой Ассамблея одобрила итоговый документ Конференции Организации Объединенных Наций по устойчивому развитию под названием «Будущее, которого мы хотим», в котором главы государств и правительств признали важность данных, полученных с помощью космической техники, наземного мониторинга и надежной геопространственной информации для формирования политики, разработки программ и осуществления проектов в области устойчивого развития,</p>
+      </container>
+      <container name="ссылаясь также" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">ссылаясь также</span> на резолюцию <a href="https://undocs.org/ru/A/RES/70/1">70/1</a> Генеральной Ассамблеи от 25 сентября 2015 года, в которой Ассамблея приняла документ под названием «Преобразование нашего мира: Повестка дня в области устойчивого развития на период до 2030 года», где признается необходимость применения новых подходов к получению и интеграции данных в целях повышения доступности, качества, своевременности и дезагрегированности данных в поддержку осуществления новой повестки дня в области развития на всех уровнях с использованием вклада, который может быть внесен путем сбора широкого круга данных, включая данные зондирования Земли и геопространственную информацию, при обеспечении национальной ответственности за поддержку и мониторинг усилий по достижению прогресса,</p>
+      </container>
+      <container name="признавая" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">признавая</span>, что в Повестке дня в области устойчивого развития на период до 2030 года, Сендайской рамочной программе по снижению риска бедствий на 2015–2030 годы<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		Резолюция <a href="https://undocs.org/ru/A/RES/69/283">69/283</a> Генеральной Ассамблеи, приложение II.</p></authorialNote>, Программе действий по ускоренному развитию малых островных развивающихся государств («Путь Самоа»)<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		Резолюция <a href="https://undocs.org/ru/A/RES/69/15">69/15</a> Генеральной Ассамблеи, приложение.</p></authorialNote> и Новой программе развития городов<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		Резолюция <a href="https://undocs.org/ru/A/RES/71/256">71/256</a> Генеральной Ассамблеи, приложение.</p></authorialNote> содержится недвусмысленный призыв к глобальной координации действий в применении новых подходов к получению и интеграции данных и в использовании геопространственной информации для целей устойчивого развития и снижения риска бедствий, а также к расширению наличия и доступности платформ геопространственных данных,</p>
+      </container>
+      <container name="подтверждая" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">подтверждая</span> важность резолюции <a href="https://undocs.org/ru/A/RES/69/266">69/266</a> Генеральной Ассамблеи от 26 февраля 2015 года под названием «Глобальная геодезическая система координат для целей устойчивого развития», в которой Ассамблея призвала расширять международное и многостороннее сотрудничество в области геодезии, в том числе применять практику открытого обмена геодезическими данными, продолжать наращивать потенциал в развивающихся странах, разрабатывать международные стандарты и конвенции на добровольной основе и содействовать созданию глобальной системы координат и региональных геодезических сетей сгущения, используя соответствующие национальные механизмы и действуя на основе регионального, международного и межправительственного сотрудничества,</p>
+      </container>
+      <container name="ссылаясь" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">ссылаясь </span>на резолюцию <a href="https://undocs.org/EN/E/RES/2011/24">201</a><a href="https://undocs.org/EN/E/RES/2011/24">1</a><a href="https://undocs.org/EN/E/RES/2011/24">/</a><a href="https://undocs.org/EN/E/RES/2011/24">24</a> Экономического и Социального Совета от 27 июля 2011 года, которой Совет учредил Комитет экспертов по глобальному управлению геопространственной информацией в соответствии с кругом ведения, изложенным в приложении к этой резолюции, чтобы Комитет служил форумом для координации и диалога между государствами-членами, а также между государствами-членами и соответствующими международными организациями,</p>
+      </container>
+      <container name="ссылаясь также" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">ссылаясь также</span> на резолюцию <a href="https://undocs.org/ru/E/RES/2016/27">2016</a><a href="https://undocs.org/ru/E/RES/2016/27">/</a><a href="https://undocs.org/ru/E/RES/2016/27">27</a> Экономического и Социального Совета от 27 июля 2016 года под названием «Укрепление институциональных механизмов управления геопространственной информацией», в которой Совет постановил расширить и усилить, без дополнительных затрат, мандат Комитета экспертов в качестве соответствующего органа по геопространственной информации в составе правительственных экспертов и предложил Комитету представлять доклады по всем вопросам, касающимся географии, геопространственной информации и связанных с этим областей,</p>
+      </container>
+      <container name="напоминая" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">напоминая</span>, что в резолюции <a href="https://undocs.org/ru/E/RES/2016/27">2016/27</a> Совет подчеркнул необходимость укрепления координации и согласованности действий в области глобального управления геопространственной информацией, наращивания потенциала, нормотворчества, сбора данных, распространения данных и обмена данными, среди прочего, и важность укрепления потенциала в области управления геопространственной информацией и соответствующей статистической интеграции, особенно в развивающихся странах,</p>
+      </container>
+      <container name="напоминая также" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">напоминая также</span>, что в резолюции <a href="https://undocs.org/ru/E/RES/2016/27">2016/27</a> Совет подтвердил, что устойчивое финансирование и поддержка, особенно деятельности Комитета экспертов, ориентированной на достижение целей в области устойчивого развития, необходимы для укрепления и обеспечения дальнейшей эффективности Комитета, и в этой связи призвал государства-члены вносить добровольные взносы и, c другой стороны, просил Генерального секретаря попытаться мобилизовать дополнительные ресурсы, в том числе из целевых фондов и других источников, сообразно обстоятельствам, и призвал государства-члены рассмотреть возможность откомандирования экспертов в целях поддержки деятельности Комитета,</p>
+      </container>
+      <container name="ссылаясь" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">ссылаясь </span>на резолюцию <a href="https://undocs.org/ru/E/RES/2022/3">2022/3</a> Экономического и Социального Совета от 8 июня 2022 года под названием «Обеспечение адаптации работы в области статистики и данных к изменяющейся экосистеме статистики и данных», в которой Совет признал важность интеграции статистической и геопространственной информации для обеспечения доступа к высококачественным, своевременным, надежным и соответствующим данным, опираясь как на традиционные, так и на новые источники данных, </p>
+      </container>
+      <container name="с удовлетворением отмечая" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">с удовлетворением отмечая</span> созыв первого Всемирного конгресса Организации Объединенных Наций по геопространственной информации, который состоялся в ноябре 2018 года в Дэцине, Китай, и принятие по его окончании Моганьшаньской декларации,</p>
+      </container>
+      <container name="учитывая" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">учитывая</span> неустанные усилия Комитета экспертов по созданию Глобального центра геопространственных знаний и инноваций Организации Объединенных Наций в Дэцине, Китай, и Глобального геодезического центра передового опыта Организации Объединенных Наций на территории комплекса Организации Объединенных Наций в Бонне, Германия, и то, что каждый из этих центров открытым, инклюзивным и транспарентным образом и на основе широкого участия предоставит возможности для развития и расширения глобального геопространственного потенциала, компетенций и навыков, а также для укрепления механизмов управления геопространственной информацией в странах, особенно в развивающихся странах,</p>
+      </container>
+      <container name="принимая к сведению" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">принимая к сведению</span> решение 11/101, которое Комитет экспертов принял на своей одиннадцатой сессии<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		См. <span class="italic">Официальные отчеты Экономического и Социального Совета, 2022 год, Дополнение № 26</span> (<a href="https://undocs.org/ru/E/2022/46">E/2022/46</a>), гл. I, разд. B.</p></authorialNote> и в котором он признал значительные достижения и растущую значимость Комитета, многочисленные рабочие процессы которого за последние 10 лет оказали очевидное положительное влияние как на глобальный геопространственный ландшафт, так и на национальные программы развития и который нуждается в устойчивом финансировании для обеспечения эффективных рекомендаций и поддержки государствам-членам в их усилиях по созданию и сохранению потенциала в отношении комплексной геопространственной информации в будущем,</p>
+      </container>
+      <container name="напоминая" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">напоминая</span> о просьбе Совета представить Совету не позднее чем через пять лет доклад об осуществлении резолюции <a href="https://undocs.org/ru/E/RES/2016/27">2016/2</a><a href="https://undocs.org/ru/E/RES/2016/27">7</a>, а также о продолжающихся усилиях Комитета экспертов по взаимодействию со Статистической комиссией и всей системой Организации Объединенных Наций и по интеграции систем геопространственной и статистической информации и в этой связи изучить пути укрепления институциональных механизмов Комитета,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_15" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением отмечает и принимает к сведению</span> всеобъемлющий доклад Комитета экспертов по глобальному управлению геопространственной информацией<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		<a href="https://undocs.org/ru/E/2022/68">E/2022/68</a>, приложение.</p></authorialNote> о рассмотрении Комитетом вопроса об укреплении институциональных механизмов Комитета в частности и укреплении глобального управления геопространственной информацией в целом;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">	<span class="italic">отмечает</span> успехи и прогресс, достигнутые Комитетом экспертов в области глобального управления геопространственной информацией, и его вклад в укрепление потенциала в области управления геопространственной информацией и ее использования в развивающихся странах;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">	<span class="italic">выражает признательность</span> за предоставление внебюджетного финансирования государствами-членами и усилия по мобилизации дополнительных ресурсов, в том числе с помощью целевых фондов, прикомандирования экспертов и других источников, сообразно обстоятельствам, для поддержки деятельности Комитета экспертов;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">	<span class="italic">подтверждает </span>важность укрепления и повышения эффективности деятельности Комитета экспертов, в частности направлений деятельности, касающихся целей в области устойчивого развития и Комплексной системы геопространственной информации, чтобы укрепить и обеспечить постоянную эффективность его работы во благо всех государств-членов;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">учитывает</span>, что, поскольку глобальная роль и значимость Комитета экспертов продолжают расти и расширяться, осуществление мандата Комитета в прежнем объеме без достаточного, предсказуемого и стабильного финансирования и поддержки ограничивает возможность получения полной отдачи от нормотворческой работы Комитета и его деятельности по реализации программ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="italic">постановляет</span> укрепить институциональные механизмы Комитета экспертов в качестве вспомогательного органа Экономического и Социального Совета, отвечающего за все вопросы, касающиеся геопространственной информации, географии, управления земельными ресурсами и связанных с этим областей, в соответствии с кругом ведения, содержащимся в приложении к настоящей резолюции;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">	<span class="italic">постановляет также</span> укрепить работу Комитета экспертов и просит Генерального секретаря в контексте его следующего предлагаемого бюджета определить варианты для такого укрепления работы в рамках имеющихся ресурсов, включая создание секретариата Комитета, который будет отвечать за нормотворческую работу Комитета и его работу по осуществлению в области глобального управления геопространственной информацией; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="italic">подтверждает</span> включение ежегодной сессии Комитета экспертов в регулярное расписание конференций и совещаний Организации Объединенных Наций в рамках Экономического и Социального Совета, в том числе предоставление специально предназначенных для этого услуг службами конференционного управления и услуг устного перевода и полную поддержку ежегодных сессий Комитета в рамках имеющихся ресурсов.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="34-е">34‑е пленарное заседание</inline>
+        <eol />
+        <docDate date="2022-07-22" refersTo="#adoptionDate">22 июля 2022 года</docDate>
+      </p>
+    </conclusions>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-22/2022-24/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-22/2022-24/"></FRBRuri>
+                <FRBRdate date="2022-07-22" name="adoption"></FRBRdate>
+                <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-22/2022-24/rus@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-22/2022-24/rus@/"></FRBRuri>
+                <FRBRdate date="2022-08-01" name="publication"></FRBRdate>
+                <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="rus"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-22/2022-24/rus@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-22/2022-24/rus@.xml"></FRBRuri>
+                <FRBRdate date="2022-08-18" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_45" class="H23">
+              <subheading>Приложение</subheading>
+            </paragraph>
+            <paragraph eId="para_46" class="H23">
+              <subheading>Круг ведения Комитета экспертов по глобальному управлению геопространственной информацией</subheading>
+            </paragraph>
+            <paragraph eId="para_47" class="H23">
+              <subheading>Задачи и функции</subheading>
+            </paragraph>
+            <paragraph eId="para_48" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_48__content">
+                <p xml:space="preserve">	С учетом цели использования геопространственной информации для эффективного решения глобальных проблем, и в частности для содействия осуществлению Повестки дня в области устойчивого развития на период до 2030 года, задачи и функции Комитета экспертов по глобальному управлению геопространственной информацией (Комитет) будут заключаться в следующем:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_49" class="SingleTxt">
+              <content eId="para_49__content">
+                <p xml:space="preserve">	a)	действуя в рамках согласованной политики и институциональных механизмов в качестве взаимосвязанного глобального сообщества специалистов-практиков, играть руководящую роль в деле обеспечения координации, сохранения, доступности и возможности использования геопространственной информации и ресурсов государствами-членами и обществом для поиска устойчивых решений в области социального, экономического и экологического развития;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_50" class="SingleTxt">
+              <content eId="para_50__content">
+                <p xml:space="preserve">	b)	служить форумом для координации и диалога с государствами-членами и между ними, с региональными комитетами и тематическими сетями Комитета и соответствующими международными организациями по вопросам расширения сотрудничества в области глобального управления геопространственной информацией, а также для принятия совместных решений и определения направлений действий в области подготовки и использования геопространственной информации с соблюдением национальных, региональных и глобальных стратегических рамок;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_51" class="SingleTxt">
+              <content eId="para_51__content">
+                <p xml:space="preserve">	c)	предлагать рабочие планы и руководящие принципы в интересах пропаганды общих стратегических рамок, принципов, стратегий, методов, механизмов и стандартов совместимости и взаимозаменяемости геопространственных данных и услуг;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_52" class="SingleTxt">
+              <content eId="para_52__content">
+                <p xml:space="preserve">	d)	служить платформой для разработки эффективных стратегий наращивания и укрепления национального потенциала в области геопространственной информации, особенно в развивающихся странах, и в этой связи оказывать заинтересованным странам содействие в освоении всего потенциала геопространственной информации и соответствующих специальных технологий и услуг;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_53" class="SingleTxt">
+              <content eId="para_53__content">
+                <p xml:space="preserve">	e)	повышать степень доступности, качества, своевременности и дезагрегированности геопространственных данных и информационных процессов для содействия осуществлению Повестки дня в области устойчивого развития на период до 2030 года и других соответствующих основанных на консенсусе и устойчивых глобальных рамочных документов в области развития на всех уровнях;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_54" class="SingleTxt">
+              <content eId="para_54__content">
+                <p xml:space="preserve">	f)	обобщать и распространять информацию о передовых методах работы и опыте национальных, региональных и международных органов по геопространственной информации, связанных, в частности, с комплексным управлением геопространственной информацией, правовыми инструментами, моделями управления и техническими стандартами, тем самым способствуя формированию национальных геопространственных и статистических систем и инфраструктур данных, обеспечивая при этом гибкое развитие связанной с геопространственной информацией деятельности в соответствии с национальными приоритетами;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_55" class="SingleTxt">
+              <content eId="para_55__content">
+                <p xml:space="preserve">	g)	обеспечивать междисциплинарное сотрудничество с другими национальными и международными сообществами, такими как сообщество статистиков, в области количественной оценки и описания состояния общества, экономики и окружающей среды;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_56" class="SingleTxt">
+              <content eId="para_56__content">
+                <p xml:space="preserve">	h)	представлять Экономическому и Социальному Совету доклады по вопросам, относящимся к его мандату.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_57" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_57__content">
+                <p xml:space="preserve">	При выполнении своих функций Комитету следует использовать и развивать результаты работы других форумов и механизмов в области управления геопространственной информацией, развития статистики и инноваций.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_58" class="H23">
+              <subheading>Членство, состав и срок полномочий</subheading>
+            </paragraph>
+            <paragraph eId="para_59" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_59__content">
+                <p xml:space="preserve">	В состав Комитета войдут эксперты из всех государств-членов. Эксперты от наблюдателей при Генеральной Ассамблее и из международных организаций и научных и промышленных кругов могут участвовать в заседаниях Комитета в качестве наблюдателей. При назначении своих национальных представителей государства-члены будут стремиться выдвигать специалистов, обладающих конкретным опытом работы по вопросам управления геопространственной информацией и в многочисленных взаимосвязанных областях<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		Геопространственные науки, геоматика, топографо-геодезические работы, география, управление земельными ресурсами, геодезия, картография и составление карт, дистанционное зондирование, гидрография и океанография, наземные/морские и географические информационные системы и экологические науки.</p></authorialNote>.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_60" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_60__content">
+                <p xml:space="preserve">	Комитет будет избирать до трех сопредседателей и одного докладчика на каждой сессии из числа своих членов, соблюдая при этом принципы географической сбалансированности и представленности.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_61" class="SingleTxt">
+              <num>5.</num>
+              <content eId="para_61__content">
+                <p xml:space="preserve">	Комитет может по мере необходимости формировать неофициальные группы высокого уровня, группы экспертов и рабочие группы или подкомитеты для рассмотрения конкретных вопросов, связанных с его программой работы.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_62" class="H23">
+              <subheading>Порядок представления докладов</subheading>
+            </paragraph>
+            <paragraph eId="para_63" class="SingleTxt">
+              <num>6.</num>
+              <content eId="para_63__content">
+                <p xml:space="preserve">	Комитет будет представлять доклады Экономическому и Социальному Совету.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_64" class="H23">
+              <subheading>Периодичность проведения заседаний</subheading>
+            </paragraph>
+            <paragraph eId="para_65" class="SingleTxt">
+              <num>7.</num>
+              <content eId="para_65__content">
+                <p xml:space="preserve">	Комитет будет обычно проводить свои заседания раз в год в течение трех дней и в исключительных обстоятельствах может при необходимости проводить дополнительные заседания.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_66" class="H23">
+              <subheading>Секретариат</subheading>
+            </paragraph>
+            <paragraph eId="para_67" class="SingleTxt">
+              <num>8.</num>
+              <content eId="para_67__content">
+                <p xml:space="preserve">	Комитету будет оказывать поддержку Статистический отдел Департамента по экономическим и социальным вопросам и Секция геопространственной информации Управления информационно-коммуникационных технологий.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_68" class="H23">
+              <subheading>Документы для заседаний</subheading>
+            </paragraph>
+            <paragraph eId="para_69" class="SingleTxt">
+              <num>9.</num>
+              <content eId="para_69__content">
+                <p xml:space="preserve">	В число документов для заседаний будут входить повестка дня, доклад о работе сессии Комитета, доклады региональных комитетов и тематических сетей Комитета, доклады и технические записки, подготовленные группами высокого уровня, группами экспертов и рабочими группами или подкомитетами, записки Секретариата и другие соответствующие документы, подготовленные внешними экспертами или группами экспертов.</p>
+              </content>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>

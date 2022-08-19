@@ -1,0 +1,757 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/"></FRBRuri>
+          <FRBRdate date="2022-07-21" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/rus@/"></FRBRuri>
+          <FRBRdate date="2022-07-29" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/rus@.xml"></FRBRuri>
+          <FRBRdate date="2022-08-18" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="15" href="http://metadata.un.org/sdg/15" showAs="sdg_15" dictionary="SDGO"></keyword>
+        <keyword value="land,_plant_and_soil_resources" href="http://metadata.un.org/thesaurus/030600" showAs="land,_plant_and_soil_resources" dictionary="UNBIS"></keyword>
+        <keyword value="biodiversity" href="http://eurovoc.europa.eu/5463" showAs="biodiversity" dictionary="EuroVoc"></keyword>
+        <keyword value="desertification" href="http://eurovoc.europa.eu/416" showAs="desertification" dictionary="EuroVoc"></keyword>
+        <keyword value="desertification" href="http://metadata.un.org/thesaurus/1001594" showAs="desertification" dictionary="UNBIS"></keyword>
+        <keyword value="deforestation" href="http://eurovoc.europa.eu/339" showAs="deforestation" dictionary="EuroVoc"></keyword>
+        <keyword value="deforestation" href="http://metadata.un.org/thesaurus/1001550" showAs="deforestation" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Forum on Forests (17th sess. : 2022 : New York)" showAs="UN Forum on Forests (17th sess. : 2022 : New York)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Global Forest Financing Facilitation Network" showAs="UN Global Forest Financing Facilitation Network" dictionary="DHLAUTH"></keyword>
+        <keyword value="Collaborative Partnership on Forests" showAs="Collaborative Partnership on Forests" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Strategic Plan for Forests 2017-2030" showAs="UN Strategic Plan for Forests 2017-2030" dictionary="DHLAUTH"></keyword>
+        <keyword value="SUSTAINABLE FORESTRY" showAs="SUSTAINABLE FORESTRY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FOREST MANAGEMENT" showAs="FOREST MANAGEMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DEVELOPMENT FINANCE" showAs="DEVELOPMENT FINANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PROGRAMME EVALUATION" showAs="PROGRAMME EVALUATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="18j" showAs="United Nations Forum on Forests." shortForm="UN FORUM ON FORESTS" dictionary="E/2022/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="E/2022/42" by="UN Forum on Forests" />
+        <step date="2022-07-29" outcome="adopted" as="Adopted without vote, 33rd plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">22-11666 (R)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2022/17</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Экономический и Социальный Совет</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-07-29" class="rightSmall" refersTo="#dateOfIssuance">29 July 2022</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2022" eId="coverPage_1__session_1">Сессия 2022 года</session>
+      </p>
+      <p>
+        <inline title="18 j)" name="agenda item">Пункт 18 j) повестки дня</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Экономические и экологические вопросы: Форум Организации Объединенных Наций по лесам</inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Экономическим и Социальным Советом 21 июля 2022 года</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent>[по рекомендации Форума Организации Объединенных Наций по лесам (<inline name="originating document">E/2022/42</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2022/17.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Итоговый документ семнадцатой сессии Форума Организации Объединенных Наций по лесам</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Экономический и Социальный Совет</span>,</p>
+      </formula>
+      <container name="ссылаясь" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">ссылаясь</span> на свои резолюции <a href="https://undocs.org/ru/E/RES/2015/33">2015/33</a> от 22 июля 2015 года, <a href="https://undocs.org/ru/E/RES/2017/4">2017/4</a> от 20 апреля 2017 года, <a href="https://undocs.org/ru/E/RES/2020/14">2020/14</a> от 17 июля 2020 года и <a href="https://undocs.org/ru/E/RES/2021/6">2021/6</a> от 8 июня 2021 года, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_3" class="H23">
+        <subheading>		Осуществление стратегического плана Организации Объединенных Наций по лесам на 2017–2030 годы </subheading>
+      </paragraph>
+      <paragraph eId="para_4" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_4__content">
+          <p xml:space="preserve">	<span class="italic">предлагает </span>членам Форума Организации Объединенных Наций по лесам ускорить усилия по достижению глобальных целей в отношении лесов, в том числе путем координации, учета и расширения масштабов мероприятий, связанных с лесами, в соответствующих программах, стратегиях и планах, включая национальные планы развития, и в этой связи поддерживать существующие и формирующиеся национальные, субрегиональные и региональные совместные инициативы и партнерства по осуществлению стратегического плана Организации Объединенных Наций по лесам на 2017–2030 годы<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		См. резолюцию <a href="https://undocs.org/ru/A/RES/71/285">71/285</a> Генеральной Ассамблеи.</p></authorialNote>; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_5" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_5__content">
+          <p xml:space="preserve">	<span class="italic">предлагает</span> Совместному партнерству по лесам продолжать укреплять свое сотрудничество с Форумом и его членами и поддерживать их работу в целях осуществления четырехгодичной программы работы Форума на период 2021–2024 годов и стратегического плана;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_7" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_7__content">
+          <p xml:space="preserve">	<span class="italic">предлагает</span> политическому форуму высокого уровня по устойчивому развитию, сторонам соответствующих многосторонних природоохранных соглашений и другим международным процессам, связанным с лесами, рассмотреть соответствующие элементы стратегического плана в качестве ориентира для их связанной с лесами деятельности, чтобы ускорить прогресс в достижении целей в области устойчивого развития<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		См. резолюцию <a href="https://undocs.org/ru/A/RES/70/1">70/1</a> Генеральной Ассамблеи.</p></authorialNote> и задач соответствующих многосторонних природоохранных соглашений, поощрять связанные с лесами мероприятия, улучшить понимание взаимосвязи между социальными, экономическими и экологическими выгодами от лесов и сферами их деятельности, в том числе для ликвидации нищеты, и способствовать эффективному сотрудничеству и взаимодействию по вопросам, связанным с лесами; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает</span> членов Форума активизировать сотрудничество Север — Север, Север — Юг, Юг — Юг и трехстороннее сотрудничество в технической, финансовой, научной, технологической и инновационной областях для поддержки осуществления стратегического плана и ускорения достижения его глобальных целей в отношении лесов, а также для содействия устойчивому лесопользованию с учетом национальных условий, включая проблемы, с которыми сталкиваются развивающиеся страны; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует </span>членам Форума осуществлять глобальные цели в отношении лесов с учетом национальных условий, вносить вклад в реализацию связанных с лесами многосторонних документов, процессов, обязательств и целей и в этой связи предлагает организациям — членам Совместного партнерства по лесам расширять сотрудничество и взаимодействие и укреплять свою поддержку, оказываемую Форуму и его членам; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением принимает к сведению</span> недавние декларации, обязательства и события, связанные с лесами, включая, в частности, относящийся к лесам вклад Глазговской декларации лидеров по использованию лесов и земель;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует </span>странам и организациям, объявившим о взносах в поддержку связанных с лесами документов, процессов, обязательств и целей, предоставлять информацию, в том числе через Глобальную сеть содействия финансированию лесохозяйственной деятельности;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует </span>членам Форума обратить особое внимание на вклад лесов и устойчивого лесопользования и их экономические, социальные и экологические преимущества для защиты, сохранения и устойчивого использования биоразнообразия в рамках работы над системой глобальных мероприятий в сфере биоразнообразия на период после 2020 года;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> Форуму расширять многоязычную коммуникацию в своей работе и в своей деятельности по обмену информацией для продвижения стратегического плана и содействия дальнейшему прогрессу в достижении глобальных целей в отношении лесов, включая деятельность, направленную на повышение осведомленности о разнообразной пользе, приносимой лесами, и на привлечение внимания к работе Форума в рамках системы Организации Объединенных Наций и за ее пределами;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает</span>, что эффективное осуществление устойчивого лесопользования зависит от вклада всех соответствующих заинтересованных сторон, включая, в частности, региональные и субрегиональные организации и процессы, лесовладельцев, коренные народы, местное население, органы местного самоуправления, частный сектор, в том числе малые, средние и крупные лесохозяйственные предприятия, неправительственные организации, женщин, детей, молодежь и научные, академические и благотворительные организации на всех уровнях, и в этой связи рекомендует этим заинтересованным сторонам продолжать содействовать осуществлению стратегического плана и достижению глобальных целей в отношении лесов и информировать Форум о своем прогрессе в этой области; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_59" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_59__content">
+          <p xml:space="preserve">	<span class="italic">признает</span> важную роль мелких землевладельцев, микро-, малых и средних предприятий, а также местного населения и коренных народов в сохранении и защите лесов и устойчивом лесопользовании и призывает членов Форума разрабатывать, совершенствовать и осуществлять государственную политику, в том числе облегчать доступ к финансированию, для создания на всех уровнях благоприятных условий для устойчивого развития;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_70" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_70__content">
+          <p xml:space="preserve">	<span class="italic">приветствует</span> работу, проведенную Форумом совместно с международными организациями, занимающимися вопросами лесоводства, и другими партнерами, по оценке воздействия глобальной пандемии коронавирусного заболевания (COVID‑19) на леса и лесной сектор и призывает включить вопросы лесов и устойчивого лесопользования в меры по восстановлению после COVID‑19, вводимые странами, принимая во внимание соответствующие взаимосвязи между биоразнообразием и здоровьем;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_71" class="H23">
+        <subheading>		Средства осуществления, включая деятельность и ресурсы Глобальной сети содействия финансированию лесохозяйственной деятельности</subheading>
+      </paragraph>
+      <paragraph eId="para_72" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_72__content">
+          <p xml:space="preserve">	<span class="italic">напоминает</span> о важности мобилизации и эффективного использования финансовых ресурсов, включая новые и дополнительные ресурсы из всех источников и на всех уровнях, и напоминает о том, что государственная политика и мобилизация и эффективное использование внутренних ресурсов, подкрепленные принципом национальной ответственности и национального руководства, занимают центральное место в общем стремлении к устойчивому развитию, а также напоминает о пунктах 52–61 резолюции <a href="https://undocs.org/ru/E/RES/2017/4">2017/4</a> Экономического и Социального Совета;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_73" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_73__content">
+          <p xml:space="preserve">	<span class="italic">напоминает также</span>, что эффективное осуществление устойчивого лесопользования в решающей степени зависит от наличия адекватных ресурсов, в том числе финансовых, наращивания потенциала и передачи экологически чистых технологий, и, в частности, от необходимости мобилизации большего объема финансовых ресурсов, в том числе из нетрадиционных источников, для развивающихся стран, включая наименее развитые страны, развивающиеся страны, не имеющие выхода к морю, и малые островные развивающиеся государства, равно как и для стран с переходной экономикой, и напоминает далее, что осуществление устойчивого лесопользования также в решающей степени зависит от благого управления на всех уровнях;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_75" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_75__content">
+          <p xml:space="preserve">	<span class="italic">приветствует </span>поддержку, оказываемую странам Глобальной сетью содействия финансированию лесохозяйственной деятельности в целях укрепления потенциала по мобилизации ресурсов всеми заинтересованными сторонами и из всех источников для содействия устойчивому лесопользованию и достижению глобальных целей в отношении лесов, в том числе путем разработки национальных стратегий финансирования лесохозяйственной деятельности;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_78" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_78__content">
+          <p xml:space="preserve">	<span class="italic">предлагает</span> членам Совместного партнерства по лесам рассмотреть возможность откомандирования сотрудников в секретариат Форума для укрепления потенциала Глобальной сети содействия финансированию лесохозяйственной деятельности в целях оказания адекватной и своевременной поддержки членам Форума и расширить поддержку деятельности Сети; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_82" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_82__content">
+          <p xml:space="preserve">	<span class="italic">просит</span> секретариат Форума в рамках имеющихся ресурсов прилагать дальнейшие усилия в целях подготовки и начала второго этапа работы информационного центра Глобальной сети содействия финансированию лесохозяйственной деятельности, который предусматривает, в частности, функционирование новой базы данных о движении финансовых средств, направляемых на ведение лесного хозяйства, и призвать членов Форума предоставлять сведения об имеющемся у них опыте и применяемой ими передовой практике в сфере обеспечения финансирования лесного хозяйства для опубликования на веб-сайте информационного центра Сети в сотрудничестве с членами Совместного партнерства по лесам согласно их соответствующим мандатам; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_87" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_87__content">
+          <p xml:space="preserve">	<span class="italic">просит также</span> секретариат Форума в рамках имеющихся ресурсов регулярно обновлять базы данных информационного центра Глобальной сети содействия финансированию лесохозяйственной деятельности и передавать информацию для ознакомления членов Форума с этими базами данных и в этой связи предлагает членам Совместного партнерства по лесам внести соответствующий вклад в рамках своих мандатов и имеющихся ресурсов; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_93" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_93__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает</span> важность того, чтобы Глобальная сеть содействия финансированию лесохозяйственной деятельности продолжала оказывать поддержку соответствующим членам Форума согласно положениям стратегического плана и руководящим указаниям, принятым на тринадцатой сессии Форума<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		<span class="italic">Официальные отчеты Экономического и Социального Совета, 2018 год, Дополнение № 22</span> (<a href="https://undocs.org/ru/E/2018/42">E/2018/42</a>), гл. I, разд. B, резолюция 13/1, приложение II.</p></authorialNote>, и рекомендует секретариату Форума, согласно соответствующим правилам и положениям Организации Объединенных Наций, определить пути содействия внесению взносов частным сектором и благотворительными организациями;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_100" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_100__content">
+          <p xml:space="preserve">	<span class="italic">ссылается</span> на пункт 13 резолюции <a href="https://undocs.org/ru/E/RES/2020/14">2020/14</a> Совета и просит секретариат Форума регулярно представлять обновленную информацию по этому вопросу и представить Форуму на его восемнадцатой сессии доклад о ходе работы; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_108" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_108__content">
+          <p xml:space="preserve">	<span class="italic">предлагает</span> членам Форума и другим сторонам, которые в состоянии это сделать, внести добровольные взносы в целевой фонд для Форума Организации Объединенных Наций по лесам, с тем чтобы расширить масштабы работы секретариата Форума, в том числе Глобальной сети содействия финансированию лесохозяйственной деятельности;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_109" class="H23">
+        <subheading>		Контроль, оценка и отчетность</subheading>
+      </paragraph>
+      <paragraph eId="para_110" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_110__content">
+          <p xml:space="preserve">	<span class="italic">просит</span> секретариат Форума внести изменения в формат добровольных национальных докладов с учетом предложений и рекомендаций, полученных от членов Форума, а также провести с заинтересованными странами эксперимент по применению скорректированного формата со всеми типами лесов и в различных социально-экономических условиях и представить Форуму на его восемнадцатой сессии доклад о достигнутом прогрессе; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_111" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_111__content">
+          <p xml:space="preserve">	<span class="italic">предлагает </span>Форуму обсудить целесообразность создания консультативной группы по вопросам подготовки докладов в рамках имеющихся ресурсов, принимая во внимание накопленный опыт и уроки, извлеченные благодаря участию неофициальной консультативной группы в работе над головной публикацией 2021 года, и в этой связи просит секретариат Форума оценить воздействие этой публикации и предложить Форуму на его восемнадцатой сессии круг ведения, включая предлагаемый состав этой группы, с должным учетом необходимости сбалансированного географического представительства в Организации Объединенных Наций;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_113" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_113__content">
+          <p xml:space="preserve">	<span class="italic">просит</span> секретариат Форума составить в контексте подготовки к проведению среднесрочного обзора международного механизма по лесам и на основе консультаций с членами Форума «дорожную карту» и график следующего отчетного периода в увязке с циклом Глобальной оценки лесных ресурсов и изучить возможности создания онлайновой платформы отчетности для Форума, признавая необходимость упорядочения отчетности и сведения к минимуму бремени отчетности, включая проблемы, с которыми сталкиваются развивающиеся страны;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_116" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_116__content">
+          <p xml:space="preserve">	<span class="italic">просит также</span> секретариат Форума за счет добровольных взносов и на основе консультаций с членами Форума организовать совместно с Продовольственной и сельскохозяйственной организацией Объединенных Наций и другими соответствующими организациями — членами Совместного партнерства по лесам глобальный семинар по вопросам подготовки добровольных национальных докладов о ходе реализации глобальных целей и задач в отношении лесов с акцентом на источники и сбор данных, в подготовке которых не хватает системности, и на соответствующую методологию с обеспечением возможности для всеобщего участия и с должным учетом всех официальных языков Организации Объединенных Наций при условии наличия внебюджетных ресурсов; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_120" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_120__content">
+          <p xml:space="preserve">	<span class="italic">предлагает </span>членам Форума при необходимости активизировать международное техническое и финансовое сотрудничество по вопросам подготовки докладов, сбора и обработки связанных с лесами данных, включая данные о многочисленных социально-экономических преимуществах лесов, и обмена такими данными, национальных кадастров лесных ресурсов и роли лесов в ликвидации нищеты, повышении благосостояния людей, формировании доходов и обеспечении занятости, а также понимания потоков государственного и частного финансирования; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_125" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_125__content">
+          <p xml:space="preserve">	<span class="italic">предлагает </span>членам Форума и руководящим органам организаций — членов Совместного партнерства по лесам использовать глобальный базовый набор показателей в отношении лесов и предлагает секретариату Форума в сотрудничестве с Продовольственной и сельскохозяйственной организацией Объединенных Наций и другими соответствующими организациями — членами Совместного партнерства по лесам организовать дальнейшую работу над показателями уровня 3<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		Дополнительную информацию о показателях уровня 3 см. в документе <a href="https://undocs.org/ru/E/CN.18/2022/4">E/CN.18/2022/4</a>.</p></authorialNote>, включая совершенствование концепций и определений и добровольное опробование на местах; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_126" class="H23">
+        <subheading>		Подготовка к проведению в 2024 году среднесрочного обзора эффективности международного механизма по лесам </subheading>
+      </paragraph>
+      <paragraph eId="para_127" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_127__content">
+          <p xml:space="preserve">	<span class="italic">постановляет</span>, что в период после завершения семнадцатой сессии Форума и до начала его девятнадцатой сессии Форуму следует принять меры, изложенные в приложении к настоящей резолюции, по подготовке к проведению среднесрочного обзора международного механизма по лесам; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_128" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_128__content">
+          <p xml:space="preserve">	<span class="italic">постановляет также </span>отложить рассмотрение подпунктов a) и b) пункта 42 резолюции <a href="https://undocs.org/ru/E/RES/2015/33">2015/33</a> Совета до проведения окончательного обзора эффективности международного механизма по лесам в 2030 году; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_130" class="SingleTxt">
+        <num>30.</num>
+        <list eId="para_130_list">
+          <intro eId="para_130_list_intro">
+            <p xml:space="preserve">	<span class="italic">постановляет далее</span>, что: </p>
+          </intro>
+          <point eId="para_130_list_point_a">
+            <num>a)</num>
+            <content eId="para_130_list_point_a_content">
+              <p xml:space="preserve">	будет учреждена специальная межправительственная группа экспертов открытого состава по подготовке к проведению среднесрочного обзора международного механизма по лесам, которая будет созвана секретариатом Форума в конце 2023 года, для рассмотрения всех оценок и итогов подготовительной межсессионной работы, связанной с проведением среднесрочного обзора международного механизма, как указано в приложении к настоящей резолюции, и что секретариату следует представить доклад специальной группы экспертов на рассмотрение Форума на его девятнадцатой сессии; </p>
+            </content>
+          </point>
+          <point eId="para_130_list_point_b">
+            <num>b)</num>
+            <content eId="para_130_list_point_b_content">
+              <p xml:space="preserve">	специальная группа экспертов будет открыта для всех членов Форума, организаций — членов Совместного партнерства по лесам, соответствующих региональных и субрегиональных организаций и процессов, основных групп и других соответствующих заинтересованных сторон и должна быть организована с использованием имеющихся ресурсов, включая внебюджетные взносы, при адекватном участии развивающихся стран и использовании всех официальных языков Организации Объединенных Наций при условии наличия внебюджетных ресурсов, с тем чтобы представить Форуму на его девятнадцатой сессии предложения по проведению среднесрочного обзора эффективности международного механизма по лесам, включая будущие шаги, которые международному механизму следует предпринять после 2024 года;</p>
+            </content>
+          </point>
+          <point eId="para_130_list_point_c">
+            <num>c)</num>
+            <content eId="para_130_list_point_c_content">
+              <p xml:space="preserve">	Бюро Форума на его девятнадцатой сессии, приняв во внимание результаты работы специальной группы экспертов, проведет неофициальные консультации с членами Форума и подготовит и представит Форуму на его девятнадцатой сессии первоначальный проект резолюции о международном механизме по лесам на период после 2024 года;</p>
+            </content>
+          </point>
+          <point eId="para_130_list_point_d">
+            <num>d)</num>
+            <content eId="para_130_list_point_d_content">
+              <p xml:space="preserve">	меры, изложенные в приложении к настоящей резолюции, должны осуществляться прозрачным и независимым образом и в тесной консультации с членами Форума, а также организациями — членами Совместного партнерства по лесам и другими соответствующими заинтересованными сторонами, в том числе с помощью вопросников, когда это уместно; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_133" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_133__content">
+          <p xml:space="preserve">	<span class="italic">предлагает </span>тем членам Форума, которые в состоянии сделать это, внести добровольные взносы в целевой фонд Форума, чтобы секретариат мог учредить специальную межправительственную группу экспертов открытого состава по подготовке к проведению среднесрочного обзора международного механизма по лесам и содействовать принятию мер, изложенных в приложении к настоящей резолюции.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="33-e">33-e пленарное заседание</inline>
+        <eol />
+        <docDate date="2022-07-21" refersTo="#adoptionDate">21 июля 2022 года</docDate>
+      </p>
+    </conclusions>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/"></FRBRuri>
+                <FRBRdate date="2022-07-21" name="adoption"></FRBRdate>
+                <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/rus@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/rus@/"></FRBRuri>
+                <FRBRdate date="2022-07-29" name="publication"></FRBRdate>
+                <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="rus"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/rus@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2022-07-21/2022-17/rus@.xml"></FRBRuri>
+                <FRBRdate date="2022-08-18" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_135" class="H23">
+              <subheading>Приложение</subheading>
+            </paragraph>
+            <paragraph eId="para_136" class="H23">
+              <subheading>Меры по подготовке к проведению в 2024 году среднесрочного обзора эффективности международного механизма по лесам</subheading>
+            </paragraph>
+            <paragraph eId="para_137" class="H23">
+              <num>A.</num>
+              <subheading>	Меры, касающиеся Форума Организации Объединенных Наций по лесам и его членов</subheading>
+            </paragraph>
+            <paragraph eId="para_138" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_138__content">
+                <p xml:space="preserve">	Провести оценку прогресса, достигнутого Форумом Организации Объединенных Наций по лесам и его членами в деле достижения целей международного механизма по лесам, определенных в резолюции <a href="https://undocs.org/ru/E/RES/2015/33">2015/33</a> Экономического и Социального Совета.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_139" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_139__content">
+                <p xml:space="preserve">	Проанализировать эффективность выполнения Форумом своих функций, установленных в пункте 3 резолюции <a href="https://undocs.org/ru/E/RES/2015/33">2015/33</a> Совета, посредством определения его влияния на глобальный политический ландшафт в отношении лесов и на работу политического форума высокого уровня по устойчивому развитию, а также средств, позволяющих Форуму расширить свое влияние. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_140" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_140__content">
+                <p xml:space="preserve">	Изучить дополнительные меры по повышению эффективности ежегодных сессий Форума и расширению вовлечения его членов в межсессионную деятельность Форума для содействия достижению глобальных целей в отношении лесов.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_141" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_141__content">
+                <p xml:space="preserve">	Определить дальнейшие способы, позволяющие обеспечить представление членами Форума большего количества добровольных национальных докладов и объявлений о добровольных национальных вкладах, а также определить способы, позволяющие обеспечить внесение членами Форума более масштабных добровольных национальных вкладов и распространение информации об эффективности этой деятельности.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_142" class="SingleTxt">
+              <num>5.</num>
+              <content eId="para_142__content">
+                <p xml:space="preserve">	Для выполнения вышеупомянутых задач секретариату Форума следует провести оценку на основе консультаций с членами Форума и соответствующими заинтересованными сторонами и представить ее специальной межправительственной группе экспертов открытого состава, о которой говорится в пункте 30 настоящей резолюции.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_143" class="H23">
+              <num>B.</num>
+              <subheading>	Меры, касающиеся секретариата Форума</subheading>
+            </paragraph>
+            <paragraph eId="para_144" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_144__content">
+                <p xml:space="preserve">	Провести оценку достигнутых секретариатом Форума результатов при выполнении его функций и прогресса в деле реализации целей международного механизма по лесам, определенных в резолюции <a href="https://undocs.org/ru/E/RES/2015/33">2015/33</a> Совета.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_145" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_145__content">
+                <p xml:space="preserve">	Проанализировать существующий потенциал секретариата Форума и имеющиеся в нем пробелы в целях повышения эффективности и результативности его деятельности, укрепления его потенциала, обеспечения лучшего понимания процессов и процедур принятия решений и усиления воздействия проводимых им мероприятий.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_146" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_146__content">
+                <p xml:space="preserve">	Определить дополнительные меры по укреплению сотрудничества и синергических связей и сокращению дублирования в отношении связанных с лесами вопросов на глобальном уровне, учитывая при этом мандаты различных организаций и структур. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_147" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_147__content">
+                <p xml:space="preserve">	Для выполнения вышеупомянутых задач секретариату Форума после консультаций с членами Форума и соответствующими заинтересованными сторонами следует провести независимую оценку и представить ее специальной межправительственной группе экспертов открытого состава, о которой говорится в пункте 30 настоящей резолюции. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_148" class="H23">
+              <num>C.</num>
+              <subheading>	Меры, касающиеся Совместного партнерства по лесам</subheading>
+            </paragraph>
+            <paragraph eId="para_149" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_149__content">
+                <p xml:space="preserve">	Провести оценку прогресса, достигнутого Совместным партнерством по лесам при выполнении его функций по обеспечению достижения целей международного механизма по лесам, определенных в резолюции <a href="https://undocs.org/ru/E/RES/2015/33">2015/33</a> Совета.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_150" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_150__content">
+                <p xml:space="preserve">	Провести оценку эффективности, влияния и вклада выполняемых Партнерством видов деятельности, указанных в его плане работ, в том числе в контексте его ресурсов; достигнутых результатов; совместных инициатив, включая то, какой вклад Форум может внести в их осуществление; и периодических мероприятий по содействию реализации стратегического плана Организации Объединенных Наций по лесам на 2017–2030 годы и достижению глобальных целей в отношении лесов и целей в области устойчивого развития.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_151" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_151__content">
+                <p xml:space="preserve">	Рассмотреть вопрос о целесообразности установления критериев для членства в Партнерстве.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_152" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_152__content">
+                <p xml:space="preserve">	Провести оценку того, каким образом Партнерство могло бы оказать более значительную поддержку Форуму в его деятельности по разработке политики и помочь странам повысить эффективность реализации ими стратегического плана, резолюций и решений Форума на местах, включая способы дальнейшего использования потенциала других международных и региональных заинтересованных сторон и партнеров.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_153" class="SingleTxt">
+              <num>5.</num>
+              <content eId="para_153__content">
+                <p xml:space="preserve">	Провести оценку эффективности внутренних коммуникаций в рамках Партнерства в целях поощрения синергического взаимодействия, сокращения дублирования и усиления коммуникационной и информационно-пропагандистской деятельности Партнерства на внешнем уровне для расширения осведомленности о разнообразной пользе, приносимой лесами, и привлечения большего внимания к стратегическому плану и глобальным целям в отношении лесов в рамках других процессов, связанных с лесами. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_154" class="SingleTxt">
+              <num>6.</num>
+              <content eId="para_154__content">
+                <p xml:space="preserve">	Для выполнения вышеупомянутых задач можно было бы провести независимое исследование после консультаций с членами Партнерства и Форума. Результаты такого исследования следует вынести на обсуждение в рамках организуемого Партнерством межсессионного совещания (инициативы на уровне организаций), с тем чтобы представить предложения относительно Партнерства специальной межправительственной группе экспертов открытого состава, о которой говорится в пункте 30 настоящей резолюции. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_155" class="H23">
+              <num>D.</num>
+              <subheading>	Меры, касающиеся Глобальной сети содействия финансированию лесохозяйственной деятельности</subheading>
+            </paragraph>
+            <paragraph eId="para_156" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_156__content">
+                <p xml:space="preserve">	Провести оценку прогресса, достигнутого Глобальной сетью содействия финансированию лесохозяйственной деятельности в деле достижения целей международного механизма по лесам, определенных в резолюции <a href="https://undocs.org/ru/E/RES/2015/33">2015/33</a> Совета.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_157" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_157__content">
+                <p xml:space="preserve">	Провести оценку состояния доступных для лесохозяйственной деятельности ресурсов из всех источников, включая частное финансирование, а также пробелов и ограничений в отношении получения доступа к таким средствам. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_158" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_158__content">
+                <p xml:space="preserve">	Проанализировать эффективность работы Сети и воздействия проводимых ею мероприятий, достаточности ее ресурсов, а также проблем и ограничений в ее работе. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_159" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_159__content">
+                <p xml:space="preserve">	Предложить меры по повышению эффективности Сети, увеличению вносимого ею вклада и укреплению ее потенциала в целях облегчения и расширения доступа соответствующих стран к ресурсам для лесохозяйственной деятельности из всех источников, а также рассмотреть руководящие указания в отношении функционирования Сети, принятые на тринадцатой сессии Форума, в контексте проведения среднесрочного обзора международного механизма по лесам в 2024 году. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_160" class="SingleTxt">
+              <num>5.</num>
+              <content eId="para_160__content">
+                <p xml:space="preserve">	Для выполнения вышеупомянутых задач секретариату Форума на основе консультаций с членами Форума и партнерами следует провести оценку эффективности, воздействия и достаточности ресурсов, а также устойчивости Сети и других мер по укреплению ее работы. Результаты этой оценки следует вынести на обсуждение в рамках межсессионного совещания, итоги которого следует представить специальной межправительственной группе экспертов открытого состава, о которой говорится в пункте 30 настоящей резолюции.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_161" class="H23">
+              <num>E.</num>
+              <subheading>	Меры, касающиеся целевого фонда для Форума Организации Объединенных Наций по лесам</subheading>
+            </paragraph>
+            <paragraph eId="para_162" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_162__content">
+                <p xml:space="preserve">	Провести оценку влияния добровольных взносов в целевой фонд для Форума Организации Объединенных Наций по лесам на поддержку основной деятельности Форума.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_163" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_163__content">
+                <p xml:space="preserve">	Изучить варианты поощрения внесения стабильных и достаточных взносов в целевой фонд.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_164" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_164__content">
+                <p xml:space="preserve">	Определить основные проблемы и ограничения в отношении мобилизации достаточных ресурсов для целевого фонда. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_165" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_165__content">
+                <p xml:space="preserve">	Секретариату Форума, проведя консультации с членами Форума, следует выполнить вышеупомянутые задачи и изложить свои выводы и предложения в справочной записке для представления специальной межправительственной группе экспертов открытого состава, о которой говорится в пункте 30 настоящей резолюции.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_166" class="H23">
+              <num>F.</num>
+              <subheading> Меры, касающиеся осуществления стратегического плана Организации Объединенных Наций по лесам на 2017–2030 годы</subheading>
+            </paragraph>
+            <paragraph eId="para_167" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_167__content">
+                <p xml:space="preserve">	Получить от государств-членов — на основе ответов на разработанный секретариатом Форума краткий вопросник — новые сведения о принятых ими мерах по реализации стратегического плана Организации Объединенных Наций по лесам на 2017–2030 годы в период после пятнадцатой сессии Форума в 2020 году, трудностях и ограничениях, с которыми они сталкиваются при подготовке добровольных национальных докладов, способах сокращения дублирования и бремени отчетности, целесообразности установления 6–12‑месячного срока с момента публикации Глобальной оценки лесных ресурсов для представления добровольных национальных докладов и региональных и глобальных вопросов, вызывающих обеспокоенность в отношении лесов, а также информацию, собранную в 2019 и 2020 годах и представленную государствами-членами Форуму на его пятнадцатой сессии, сведения о добровольных национальных вкладах и последние публикации и доклады о состоянии лесов в мире.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_168" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_168__content">
+                <p xml:space="preserve">	Секретариату Форума следует свести вышеупомянутую информацию в единый справочный документ для обсуждения на межсессионном совещании группы экспертов, которое будет проведено до девятнадцатой сессии Форума, и представить итоговый документ этого совещания специальной межправительственной группе экспертов открытого состава, о которой говорится в пункте 30 настоящей резолюции. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_169" class="H23">
+              <num>G.</num>
+              <subheading>	Меры, касающиеся вклада Форума в реализацию Повестки дня в области устойчивого развития на период до 2030 года</subheading>
+            </paragraph>
+            <paragraph eId="para_170" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_170__content">
+                <p xml:space="preserve">	Провести оценку материала о взаимосвязях между лесами и целями в области устойчивого развития, который был подготовлен Форумом в качестве вклада в работу политического форума высокого уровня по устойчивому развитию, а также оценить долю информации, почерпнутой из материалов Форума, в итоговых документах политического форума высокого уровня с момента принятия резолюции <a href="https://undocs.org/ru/E/RES/2015/33">2015/33</a> Совета.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_171" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_171__content">
+                <p xml:space="preserve">	Определить дополнительные возможности для внесения Форумом, его секретариатом и Совместным партнерством по лесам расширенного и непосредственного вклада по связанным с лесами вопросам в работу сессий политического форума высокого уровня по устойчивому развитию, в частности при рассмотрении им связанных с лесами целей в области устойчивого развития, и других соответствующих глобальных органов, включая три Рио-де-Жанейрские конвенции (Конвенцию о биологическом разнообразии<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		United Nations, <span class="italic">Treaty Series</span>, vol. 1760, No. 30619.</p></authorialNote>, Конвенцию Организации Объединенных Наций по борьбе с опустыниванием в тех странах, которые испытывают серьезную засуху и/или опустынивание, особенно в Африке<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		Ibid., vol. 1954, No. 33480.</p></authorialNote>, и Рамочную конвенцию Организации Объединенных Наций об изменении климата<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		Ibid., vol. 1771, No. 30822.</p></authorialNote>).</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_172" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_172__content">
+                <p xml:space="preserve">	Предложить меры по привлечению большего внимания к связанной с лесами проблематике и их вкладу на заседаниях политического форума высокого уровня по устойчивому развитию и меры по повышению политической значимости лесов для повестки дня в области устойчивого развития в целом, в том числе путем освещения влияния других секторов на мировые леса и широкого спектра преимуществ, которые устойчивое лесопользование создает для достижения целей в области устойчивого развития.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_173" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_173__content">
+                <p xml:space="preserve">	Для выполнения вышеупомянутых задач секретариату Форума следует провести оценку на основе консультаций с членами Форума и партнерами и вынести ее результаты на обсуждение в рамках межсессионного совещания, а также представить итоговый документ этого совещания специальной межправительственной группе экспертов открытого состава, о которой говорится в пункте 30 настоящей резолюции. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_174" class="H23">
+              <num>H.</num>
+              <subheading>	Меры, касающиеся коммуникационной и информационно-пропагандистской стратегии для стратегического плана Организации Объединенных Наций по лесам на 2017–2030 годы</subheading>
+            </paragraph>
+            <paragraph eId="para_175" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_175__content">
+                <p xml:space="preserve">	Провести оценку прогресса, достигнутого в деле реализации коммуникационной и информационно-пропагандистской стратегии для стратегического плана Организации Объединенных Наций по лесам на 2017–2030 годы<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		<span class="italic">Официальные отчеты Экономического и Социального Совета, 2018 год, Дополнение № 22</span> (<a href="https://undocs.org/ru/E/2018/42">E/2018/42</a>), гл. I, разд. B, резолюция 13/1, приложение I.</p></authorialNote> членами Форума, секретариатом, Совместным партнерством по лесам, региональными организациями и соответствующими заинтересованными сторонами, и определить пути решения проблем, препятствующих ее дальнейшей реализации, включая проблемы, связанные с привлечением большего внимания к стратегическому плану и глобальным целям в отношении лесов. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_176" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_176__content">
+                <p xml:space="preserve">	Провести оценку воздействия коммуникационных и информационно-пропагандистских мероприятий, проводимых для распространения информации о стратегическом плане и глобальных целях в отношении лесов, включая Международный день лесов и полезность тем, поднимаемых в ходе его проведения, для повышения осведомленности о разнообразной пользе, приносимой лесами, а также для привлечения внимания к работе Форума в рамках системы Организации Объединенных Наций. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_177" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_177__content">
+                <p xml:space="preserve">	Определить дополнительные варианты, платформы и каналы коммуникации, которые стали широко распространенными в последние годы, чтобы обеспечить более широкий охват целевой аудитории и оказать большее воздействие.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_178" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_178__content">
+                <p xml:space="preserve">	Изучить способы задействовать возможности членов Форума и других субъектов и партнеров на глобальном, региональном и национальном уровнях для усиления разъяснительной работы в связи с реализацией стратегического плана. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_179" class="SingleTxt">
+              <num>5.</num>
+              <content eId="para_179__content">
+                <p xml:space="preserve">	Для выполнения вышеупомянутых задач секретариату Форума следует провести оценку на основе консультаций с членами Форума, партнерами и организациями — членами Партнерства и представить ее результаты специальной межправительственной группе экспертов открытого состава, о которой говорится в пункте 30 настоящей резолюции. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_180" class="H23">
+              <num>I.</num>
+              <subheading>	Меры, касающиеся участия региональных и субрегиональных партнеров</subheading>
+            </paragraph>
+            <paragraph eId="para_181" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_181__content">
+                <p xml:space="preserve">	Провести оценку участия региональных и субрегиональных организаций в сессиях Форума и вклада таких организаций в их проведение после его двенадцатой сессии.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_182" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_182__content">
+                <p xml:space="preserve">	В соответствии с пунктом 28 резолюции <a href="https://undocs.org/ru/E/RES/2015/33">2015/33</a> Совета провести обзор событий, касающихся учреждения или укрепления региональных и субрегиональных процессов или платформ для разработки, обсуждения и координации политики в отношении лесов в целях содействия устойчивому лесопользованию, избегая при этом фрагментации, а также обзор прогресса, достигнутого в осуществлении пункта 27 резолюции.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_183" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_183__content">
+                <p xml:space="preserve">	Определить варианты дальнейшего участия региональных и субрегиональных партнеров в работе Форума и его будущих четырехлетних программах работы, в том числе в плане более эффективного использования возможностей существующих региональных партнеров. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_184" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_184__content">
+                <p xml:space="preserve">	Для выполнения вышеупомянутых задач секретариату Форума после консультаций с членами Форума и партнерами следует провести оценки и вынести их результаты на обсуждение в рамках межсессионного совещания, итоги которого следует представить специальной межправительственной группе экспертов открытого состава, о которой говорится в пункте 30 настоящей резолюции. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_185" class="H23">
+              <num>J.</num>
+              <subheading>	Меры, касающиеся участия основных групп и других соответствующих заинтересованных сторон</subheading>
+            </paragraph>
+            <paragraph eId="para_186" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_186__content">
+                <p xml:space="preserve">	Провести оценку уровня участия основных групп и других соответствующих заинтересованных сторон в работе Форума, включая их вклад в реализацию глобальных целей и задач в отношении лесов на всех уровнях и их взаимодействие с Форумом и Совместным партнерством по лесам в рамках объединений, консультативных групп и других механизмов в интересах повышения уровня осведомленности, содействия обмену информацией и ее распространению и облегчения координации действий.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_187" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_187__content">
+                <p xml:space="preserve">	Провести оценку усилий основных групп по самостоятельному созданию и поддержанию функционирования эффективных координационных механизмов на всех уровнях для взаимодействия и участия в работе Форума и других органов Организации Объединенных Наций по лесам.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_188" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_188__content">
+                <p xml:space="preserve">	Провести оценку способности основных групп и других соответствующих заинтересованных сторон обеспечить эффективное представительство посредством соответствующего и представительного членского состава и координаторов, а также эффективных процессов консультаций в рамках представляемых ими структур.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_189" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_189__content">
+                <p xml:space="preserve">	Определить потенциальные финансовые ресурсы, которые могли бы способствовать разработке и организации проводимых раз в четыре года совещаний в рамках Инициативы основных групп в поддержку Форума Организации Объединенных Наций по лесам.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_190" class="SingleTxt">
+              <num>5.</num>
+              <content eId="para_190__content">
+                <p xml:space="preserve">	Для выполнения вышеупомянутых задач секретариату Форума после консультаций с основными группами и другими соответствующими заинтересованными сторонами следует провести оценки и вынести их результаты на обсуждение в рамках межсессионного совещания, итоги которого следует представить специальной межправительственной группе экспертов открытого состава, о которой говорится в пункте 30 настоящей резолюции.</p>
+              </content>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>
