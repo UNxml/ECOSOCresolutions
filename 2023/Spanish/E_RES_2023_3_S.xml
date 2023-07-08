@@ -1,0 +1,923 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2023-06-07/2023-3/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2023-06-07/2023-3/"></FRBRuri>
+          <FRBRdate date="2023-06-07" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2023-06-07/2023-3/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2023-06-07/2023-3/spa@/"></FRBRuri>
+          <FRBRdate date="2023-06-19" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2023-06-07/2023-3/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2023-06-07/2023-3/spa@.xml"></FRBRuri>
+          <FRBRdate date="2023-07-04" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Commission on Science and Technology for Development" showAs="UN. Commission on Science and Technology for Development" dictionary="DHLAUTH"></keyword>
+        <keyword value="ITU" showAs="ITU" dictionary="DHLAUTH"></keyword>
+        <keyword value="Internet Governance Forum" showAs="Internet Governance Forum" dictionary="DHLAUTH"></keyword>
+        <keyword value="World Summit on the Information Society" showAs="World Summit on the Information Society" dictionary="DHLAUTH"></keyword>
+        <keyword value="INFORMATION SOCIETY" showAs="INFORMATION SOCIETY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PROGRAMME IMPLEMENTATION" showAs="PROGRAMME IMPLEMENTATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNET" showAs="INTERNET" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GOVERNANCE" showAs="GOVERNANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DIGITAL TECHNOLOGY" showAs="DIGITAL TECHNOLOGY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INFORMATION TECHNOLOGY" showAs="INFORMATION TECHNOLOGY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COMMUNICATION TECHNOLOGY" showAs="COMMUNICATION TECHNOLOGY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DIGITAL DIVIDE" showAs="DIGITAL DIVIDE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="18b" showAs="Science and technology for development." shortForm="SCIENCE AND TECHNOLOGY--DEVELOPMENT" dictionary="E/2023/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-03-31" outcome="draftResolution" as="informal paper" by="submitted by the Chair on the basis of informal consultations" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2023-04-26" outcome="recommendedForAdoption" as="E/2023/31" by="UN. Commission on Science and Technology for Development" />
+        <step date="2023-06-19" outcome="adopted" as="Adopted without vote, 25th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">23-11566 (S)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Naciones Unidas</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2023/3</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Consejo Económico y Social</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-06-19" class="rightSmall" refersTo="#dateOfIssuance">19 de junio de 2023</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2023" eId="coverPage_1__session_1">Período de sesiones de 2023</session>
+      </p>
+      <p>
+        <inline title="18 b)" name="agenda item">Tema 18 b) del programa</inline>
+      </p>
+      <p>
+        <docTitle>Resolución aprobada por el Consejo Económico y Social el 7 de junio de 2023</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent>[por recomendación de la Comisión de Ciencia y Tecnología para el Desarrollo (<inline name="originating document">E/2023/31</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2023/3.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Evaluación de los progresos realizados en la aplicación y el seguimiento de los resultados de la Cumbre Mundial sobre la Sociedad de la Información</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">El Consejo Económico y Social</span>,</p>
+      </formula>
+      <container name="Recordando" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recordando</span> los documentos finales de la Cumbre Mundial sobre la Sociedad de la Información<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	 	Véanse <a href="https://undocs.org/es/A/C.2/59/3">A/C.2/59/3</a> y <a href="https://undocs.org/es/A/60/687">A/60/687</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="Recordando también" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Recordando también</span> su resolución 2006/46, de 28 de julio de 2006, relativa al seguimiento de la Cumbre Mundial y al examen de la Comisión de Ciencia y Tecnología para el Desarrollo, y el mandato que confirió a la Comisión,</p>
+      </container>
+      <container name="Recordando además" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Recordando además</span> su resolución <a href="https://undocs.org/es/E/RES/2022/15">2022/15</a>, de 21 de julio de 2022, relativa a la evaluación de los progresos realizados en la aplicación y el seguimiento de los resultados de la Cumbre Mundial, </p>
+      </container>
+      <container name="Recordando" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Recordando</span> la resolución <a href="https://undocs.org/es/A/RES/70/1">70/1</a> de la Asamblea General, de 25 de septiembre de 2015, titulada “Transformar nuestro mundo: la Agenda 2030 para el Desarrollo Sostenible”,</p>
+      </container>
+      <container name="Recordando también" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Recordando también</span> la resolución <a href="https://undocs.org/es/A/RES/70/125">70/125</a> de la Asamblea General, de 16 de diciembre de 2015, titulada “Documento final de la reunión de alto nivel de la Asamblea General sobre el examen general de la aplicación de los resultados de la Cumbre Mundial sobre la Sociedad de la Información”, en la que la Asamblea reafirmó la visión de la Cumbre Mundial de una sociedad de la información centrada en las personas, integradora y orientada al desarrollo, en que todos puedan crear, consultar, utilizar y compartir información y conocimientos, para que las personas, las comunidades y los pueblos puedan aprovechar plenamente sus posibilidades de promover su desarrollo sostenible y mejorar su calidad de vida, sobre la base de los propósitos y principios de la Carta de las Naciones Unidas y respetando plenamente y defendiendo la Declaración Universal de Derechos Humanos<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	 	Resolución <a href="https://undocs.org/es/A/RES/217(III)">217 A (III)</a> de la Asamblea General.</p></authorialNote>, e hizo un balance de los progresos realizados hasta la fecha, detectó las carencias y dificultades y formuló recomendaciones para el futuro,</p>
+      </container>
+      <container name="Recordando además" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Recordando además</span> la resolución <a href="https://undocs.org/es/A/RES/77/150">77/150</a> de la Asamblea General, de 14 de diciembre de 2022, relativa a las tecnologías de la información y las comunicaciones para el desarrollo sostenible, en la que la Asamblea reconoció el importante papel de las tecnologías de la información y las comunicaciones para lograr los Objetivos de Desarrollo Sostenible y aguardaba con interés la formulación de un pacto digital global para reforzar la cooperación digital mediante un proceso abierto e inclusivo, </p>
+      </container>
+      <container name="Tomando nota" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Tomando nota</span> del informe del Panel de Alto Nivel sobre la Cooperación Digital, titulado “La era de la interdependencia digital”, y del informe del Secretario General titulado “Hoja de ruta para la cooperación digital”, así como del establecimiento de la Oficina del Enviado del Secretario General para la Tecnología,</p>
+      </container>
+      <container name="Recordando" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Recordando</span> la resolución <a href="https://undocs.org/es/A/RES/77/160">77/160</a> de la Asamblea General, de 14 de diciembre de 2022, relativa a la iniciativa empresarial para el desarrollo sostenible;</p>
+      </container>
+      <container name="Tomando nota con satisfacción" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Tomando nota con satisfacción</span> del informe del Secretario General sobre los progresos realizados en la aplicación y el seguimiento de los resultados de la Cumbre Mundial a nivel regional e internacional<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	 	<a href="https://undocs.org/es/A/78/62">A/78/62-E/2023/49</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="Expresando su aprecio" eId="container_11">
+        <p xml:space="preserve">		<span class="italic">Expresando su aprecio</span> a la Secretaria General de la Conferencia de las Naciones Unidas sobre Comercio y Desarrollo por su contribución a la puntual finalización del informe citado,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_12" class="H23">
+        <subheading>		Balance de la aplicación de los resultados de la Cumbre Mundial sobre la Sociedad de la Información</subheading>
+      </paragraph>
+      <paragraph eId="para_13" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_13__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito e insta</span> a la plena aplicación de la resolución <a href="https://undocs.org/es/A/RES/70/125">70/125</a> de la Asamblea General; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> los diversos aportes constructivos de todos los interesados en el examen general de los progresos realizados en la aplicación de los resultados de la Cumbre Mundial sobre la Sociedad de la Información; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">	<span class="italic">Reafirma su determinación</span> de que se apliquen plenamente los resultados de la Cumbre Mundial y la visión del examen decenal de la Cumbre Mundial después de 2015;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="italic">Reafirma</span> la Agenda de Túnez para la Sociedad de la Información de 2005<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		Véase <a href="https://undocs.org/es/A/60/687">A/60/687</a>.</p></authorialNote>, en la que se reconocieron las necesidades de financiación particulares y específicas del mundo en desarrollo, como se indica en el punto 16 de la Declaración de Principios de Ginebra de 2003<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		Véase <a href="https://undocs.org/es/A/C.2/59/3">A/C.2/59/3</a>, anexo.</p></authorialNote>, mundo que tiene ante sí numerosos desafíos en el sector de las tecnologías de la información y las comunicaciones, así como la acuciante necesidad de atender las necesidades especiales de financiación de los países en desarrollo para lograr las metas y los objetivos de desarrollo acordados internacionalmente, incluidos los Objetivos de Desarrollo Sostenible; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="italic">Reafirma</span> el compromiso contraído en la resolución <a href="https://undocs.org/es/A/RES/70/125">70/125</a> de la Asamblea General de reducir la brecha digital entre los países y dentro de ellos, incluida la brecha digital entre los géneros, mediante iniciativas para mejorar la conectividad, la asequibilidad, el acceso a la información y los conocimientos, los contenidos multilingües, las competencias digitales y la alfabetización digital, reconociendo los problemas específicos a que se enfrentan las personas con discapacidad y necesidades específicas, así como los grupos en situación de vulnerabilidad;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">	<span class="italic">Alienta</span> una estrecha armonización entre el proceso de la Cumbre Mundial y la Agenda 2030 para el Desarrollo Sostenible<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">	 	Resolución <a href="https://undocs.org/es/A/RES/70/1">70/1</a> de la Asamblea General.</p></authorialNote>, solicitada en la resolución <a href="https://undocs.org/es/A/RES/70/125">70/125</a> de la Asamblea General, resaltando la contribución intersectorial de la tecnología de la información y las comunicaciones a los Objetivos de Desarrollo Sostenible y la erradicación de la pobreza y observando que el acceso a las tecnologías de la información y las comunicaciones se ha convertido también en un indicador de desarrollo y en una aspiración en sí mismo;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="italic">Reafirma</span> su entendimiento de que el éxito de la Agenda 2030 dependerá de un mayor acceso a la tecnología de la información y las comunicaciones;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce</span> que la infraestructura de la tecnología de la información y las comunicaciones es fundamental para alcanzar el objetivo de la inclusión digital y que la brecha digital persiste entre distintos grupos de ingresos, grupos de edad, zonas geográficas y entre los géneros y, por consiguiente, recuerda su adhesión a la meta 9.c de la Agenda 2030, que llama a aumentar significativamente el acceso a la tecnología de la información y las comunicaciones y a esforzarse por proporcionar acceso universal y asequible a Internet en los países menos adelantados para 2020, y, a ese respecto, observa la importancia de la Agenda Conectar 2030 de las telecomunicaciones/tecnologías de la información y la comunicación mundiales, incluida la banda ancha, para el desarrollo sostenible; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> la evolución y difusión notables que han tenido las tecnologías de la información y las comunicaciones que, apoyadas por las contribuciones de los sectores público y privado, han logrado penetrar en casi todos los rincones del planeta, han generado nuevas oportunidades de interacción social, han facilitado nuevos modelos empresariales y han contribuido al crecimiento económico y al desarrollo en todos los demás sectores, y observa al mismo tiempo los problemas singulares y emergentes relacionados con su evolución y difusión;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve">	<span class="italic">Observa con preocupación</span> que todavía persisten importantes brechas digitales, por ejemplo, entre países y dentro de ellos, y entre mujeres y hombres, que deben resolverse, entre otras cosas, fortaleciendo los entornos normativos propicios y la cooperación internacional para mejorar la asequibilidad, el acceso, la educación, la creación de capacidad, el multilingüismo, la preservación cultural, la inversión y la financiación adecuada, reconoce que existe una brecha digital entre los géneros que forma parte de las brechas digitales, y alienta a todos los interesados a que velen por que las niñas y las mujeres participen plenamente en la sociedad de la información y las mujeres y las niñas dispongan de acceso a las nuevas tecnologías, especialmente a las tecnologías de la información y las comunicaciones para el desarrollo, entre otras cosas, combatiendo la violencia de género facilitada por la tecnología, como la explotación, el acoso y los abusos contra las mujeres y las niñas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_68" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_68__content">
+          <p xml:space="preserve">	<span class="italic">Alienta</span> a la Comisión de Ciencia y Tecnología para el Desarrollo a que siga teniendo debidamente en cuenta el impacto de los cambios tecnológicos rápidos fundamentales en el logro de los Objetivos de Desarrollo Sostenible en el marco de sus mandatos y de los recursos existentes, de conformidad con lo dispuesto en la resolución <a href="https://undocs.org/es/A/RES/77/150">77/150</a> de la Asamblea General;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce</span> que, en su resolución <a href="https://undocs.org/es/A/RES/77/150">77/150</a>, la Asamblea General destacó la importancia fundamental de ampliar la participación de todos los países, en particular los países en desarrollo, en la economía digital, y observó además que la Comisión de Ciencia y Tecnología para el Desarrollo podría estudiar la conexión entre los datos y el desarrollo sostenible, incluida la gobernanza de los datos, sin dejar de tener en cuenta las múltiples dimensiones de los datos, e invita a la Comisión a estudiar esas cuestiones;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_91" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_91__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> la celebración, liderada por la Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura, del Día Mundial de la Libertad de Prensa, proclamado por la Asamblea General y conmemorado anualmente el 3 de mayo; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_104" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_104__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito también</span> la celebración, liderada por la Unión Internacional de Telecomunicaciones, del Día Mundial de las Telecomunicaciones y la Sociedad de la Información, conmemorado anualmente el 17 de mayo;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_118" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_118__content">
+          <p xml:space="preserve">	<span class="italic">Observa</span> que sigue en marcha la aplicación de los resultados de la Cumbre Mundial, poniendo de relieve, en particular, el hecho de que participen múltiples interesados y la función que han desempeñado a este respecto los principales organismos en calidad de facilitadores de las líneas de acción, así como el papel de las comisiones regionales, las iniciativas regionales de examen de la Cumbre Mundial y el Grupo de las Naciones Unidas sobre la Sociedad de la Información, y expresa su reconocimiento por el papel que ha desempeñado la Comisión de Ciencia y Tecnología para el Desarrollo, que ha ayudado al Consejo Económico y Social actuando como centro de coordinación en el seguimiento de la Cumbre Mundial en todo el sistema;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_133" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_133__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce</span> el valor y el principio de la cooperación y la participación de múltiples interesados que han caracterizado el proceso de la Cumbre Mundial desde su comienzo y que se reconocen claramente en la Agenda 2030, y observa que los Gobiernos, las organizaciones internacionales, el sector privado, la sociedad civil, las comunidades académica y técnica y las alianzas entre múltiples interesados, dentro de sus respectivas funciones y responsabilidades, llevan a cabo muchas actividades en apoyo de los objetivos de la Cumbre Mundial y los Objetivos de Desarrollo Sostenible;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_149" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_149__content">
+          <p xml:space="preserve">	<span class="italic">Recalca</span> la importancia de la colaboración permanente entre las entidades que participan en el proceso de seguimiento y examen de la Cumbre Mundial y el Mecanismo de Facilitación de la Tecnología, incluido su foro de múltiples interesados sobre la ciencia, la tecnología y la innovación en pro de los Objetivos de Desarrollo Sostenible, y alienta a que se mantenga;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_166" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_166__content">
+          <p xml:space="preserve">	<span class="italic">Toma nota</span> de los informes de muchas entidades de las Naciones Unidas, presentados como aportaciones a la preparación del informe anual del Secretario General a la Comisión de Ciencia y Tecnología para el Desarrollo y publicados en el sitio web de la Comisión de conformidad con lo dispuesto en la resolución 2007/8 del Consejo, de 25 de julio de 2007, y recuerda la importancia de que haya una estrecha coordinación entre los principales facilitadores de las líneas de acción y con la secretaría de la Comisión;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_184" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_184__content">
+          <p xml:space="preserve">	<span class="italic">Observa</span> la aplicación de los resultados de la Cumbre Mundial a nivel regional facilitada por las comisiones regionales, como se señala en el informe del Secretario General sobre los progresos realizados en la aplicación y el seguimiento de los resultados de la Cumbre Mundial a nivel regional e internacional, incluidas las medidas adoptadas a este respecto, y pone de relieve la necesidad de seguir abordando cuestiones de interés particular para cada región, centrándose en las dificultades y los obstáculos que puedan surgir en cada una de ellas en relación con la aplicación de todos los objetivos y principios establecidos por la Cumbre Mundial, con particular atención a la tecnología de la información y las comunicaciones para el desarrollo;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_203" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_203__content">
+          <p xml:space="preserve">	<span class="italic">Reitera</span> la importancia de utilizar instrumentos eficaces para mantener la coordinación de la aplicación de los resultados de la Cumbre Mundial por parte de los múltiples interesados, a fin de alentar la colaboración y las alianzas entre todos los interesados, incluidas las organizaciones internacionales, intercambiar información entre los facilitadores de las líneas de acción y otros interesados, determinar los aspectos que requieren mejoras y examinar las modalidades de presentación de informes sobre el proceso de aplicación en conjunto;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_223" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_223__content">
+          <p xml:space="preserve">	<span class="italic">Alienta</span> a todos los interesados a que sigan aportando información a la base de datos sobre el inventario que mantiene la Unión Internacional de Telecomunicaciones sobre el cumplimiento de los objetivos establecidos por la Cumbre Mundial, e invita a las entidades de las Naciones Unidas a que actualicen la información sobre sus iniciativas en esa base de datos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_244" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_244__content">
+          <p xml:space="preserve">	<span class="italic">Resalta</span> la urgente necesidad de que las recomendaciones que figuran en los documentos finales de la Cumbre Mundial se incorporen en las directrices revisadas para los equipos de las Naciones Unidas en los países sobre la preparación de las evaluaciones comunes para los países y los Marcos de Cooperación de las Naciones Unidas para el Desarrollo Sostenible, incluida la adición de un componente de tecnología de la información y las comunicaciones para el desarrollo, para lo cual el Grupo de las Naciones Unidas sobre la Sociedad de la Información ha ofrecido su ayuda;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_266" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_266__content">
+          <p xml:space="preserve">	<span class="italic">Recuerda</span> la resolución <a href="https://undocs.org/es/A/RES/60/252">60/252</a> de la Asamblea General, de 27 de marzo de 2006, en la que la Asamblea pidió al Consejo que supervisara la aplicación en todo el sistema de los resultados de las fases de Ginebra y Túnez de la Cumbre Mundial; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_289" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_289__content">
+          <p xml:space="preserve">	<span class="italic">Recuerda también</span> que, en su resolución <a href="https://undocs.org/es/A/RES/70/125">70/125</a>, la Asamblea General pidió que se siguieran presentando al Consejo, por conducto de la Comisión de Ciencia y Tecnología para el Desarrollo, informes anuales sobre la aplicación de los resultados de la Cumbre Mundial, y reafirma el papel que desempeña la Comisión, enunciado en la resolución 2006/46 del Consejo, en la prestación de asistencia al Consejo como centro de coordinación en el seguimiento en todo el sistema, en especial en relación con el examen y la evaluación de los progresos realizados en la aplicación de los resultados de la Cumbre Mundial;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_313" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_313__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta</span> a todos los Estados a que, al construir la sociedad de la información, tomen las disposiciones necesarias para evitar cualquier medida unilateral que no esté en consonancia con el derecho internacional y la Carta de las Naciones Unidas y que entorpezca el pleno logro del desarrollo social y económico de la población de los países afectados y menoscabe su bienestar, y a que se abstengan de adoptar medidas de esa índole;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_338" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_338__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> el hecho de que, gracias a que la rápida expansión de la telefonía móvil y la conexión de banda ancha a Internet se ha acelerado aún más durante la pandemia, en 2022, el 95 % de la población mundial vivía al alcance de una red móvil de banda ancha y 5.300 millones de personas, o el 66 % de la población mundial, utilizaba Internet, de acuerdo con los objetivos de la Cumbre Mundial; el valor de esos adelantos se ve aumentado con la aparición de nuevos servicios y aplicaciones electrónicos y móviles relacionados con la salud, la agricultura, la educación, los negocios, el desarrollo, los servicios financieros y gubernamentales, la participación cívica y los servicios transaccionales, que ofrecen un gran potencial para el desarrollo de la sociedad de la información; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_364" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_364__content">
+          <p xml:space="preserve">	<span class="italic">Observa con gran preocupación</span> que muchos países en desarrollo carecen de acceso a las tecnologías de la información y las comunicaciones a un costo razonable y que, para la mayoría de los pobres, la promesa de la ciencia y la tecnología, incluidas las tecnologías de la información y las comunicaciones, aún no se ha cumplido, y pone de relieve la necesidad de aprovechar efectivamente la tecnología, incluidas las tecnologías de la información y las comunicaciones y la gestión de datos, y de promover la alfabetización digital para reducir la brecha digital y la brecha de conocimientos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_391" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_391__content">
+          <p xml:space="preserve">	<span class="italic">Subraya</span> que las iniciativas para promover el acceso a la tecnología de la información y las comunicaciones, la alfabetización digital, mediática e informacional, la participación cívica y la seguridad en línea son importantes para salvar las brechas digitales y garantizar la inclusión digital y el disfrute de todos los derechos humanos, incluido el derecho al desarrollo;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_419" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_419__content">
+          <p xml:space="preserve">	<span class="italic">Expresa preocupación</span> por el hecho de que persisten muchas formas de brechas digitales entre países y regiones y dentro de ellos, y subraya la necesidad de alfabetización digital, mediática e informacional y la necesidad de abordar los desafíos existentes para salvar las brechas digitales por medios como la cooperación internacional y la educación, esforzándose por garantizar que las personas, especialmente las que se encuentran en situaciones vulnerables, sean capaces de conectarse a Internet y acceder a la red de forma segura y significativa a fin de permitir su plena participación económica, política y social en una sociedad de la información inclusiva;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_448" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_448__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce</span> que las tecnologías de la información y las comunicaciones brindan nuevas oportunidades y plantean nuevas dificultades, y que hay una necesidad apremiante de superar los grandes obstáculos a que se enfrentan los países en desarrollo para acceder a las nuevas tecnologías de manera inclusiva, como la falta de recursos suficientes, infraestructura, educación, capacidad, inversión y conectividad, así como las cuestiones relacionadas con la propiedad, la reglamentación y las corrientes de la tecnología y, a este respecto, exhorta a todas las partes interesadas a que proporcionen recursos suficientes e intensifiquen sus actividades de creación de capacidad y la transferencia de tecnología y conocimientos a los países en desarrollo, en particular los países menos adelantados y los países sin litoral, a fin de alcanzar una sociedad empoderada desde la perspectiva digital y una economía del conocimiento; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_478" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_478__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce también</span> que las redes de acceso a servicios de banda ancha se están extendiendo rápidamente, en particular en los países desarrollados, y recalca la apremiante necesidad de abordar la creciente brecha digital que existe en lo que respecta a la disponibilidad, asequibilidad, calidad del acceso y utilización de esos servicios en los países de ingreso alto, los países de ingreso mediano y los países de ingreso bajo, entre ellos y con otras regiones, prestando especial atención a apoyar a los países menos adelantados, los pequeños Estados insulares en desarrollo y África, como continente;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_509" class="SingleTxt">
+        <num>32.</num>
+        <content eId="para_509__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce además</span> que la transición a un entorno en que predominan las comunicaciones móviles y a nuevos servicios y plataformas digitales está transformando profundamente las estrategias de las empresas y que es necesario hacer un examen a fondo de la forma en que las personas y las comunidades utilizan las redes y los dispositivos, así como de las estrategias gubernamentales y la forma en que las redes de comunicaciones pueden utilizarse para lograr objetivos de desarrollo;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_541" class="SingleTxt">
+        <num>33.</num>
+        <content eId="para_541__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce</span> que, a pesar de todos los adelantos y las mejoras observadas en algunos aspectos, en muchos países en desarrollo las tecnologías de la información y las comunicaciones y sus aplicaciones aún no están disponibles para la mayoría o quedan fuera de su alcance económico, en particular la población de las zonas rurales; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_574" class="SingleTxt">
+        <num>34.</num>
+        <content eId="para_574__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce también</span> que el número de usuarios de Internet está aumentando de manera constante y que, en algunos casos, también está cambiando el carácter de la brecha digital y la brecha de conocimientos, que antes consistía en la disponibilidad de acceso y ahora está relacionado con la calidad de ese acceso, la información y las competencias que pueden adquirirse y su utilidad para los usuarios, y reconoce a este respecto que es necesario dar prioridad a la utilización de las tecnologías de la información y las comunicaciones adoptando enfoques innovadores, incluida la participación de múltiples interesados, en el marco de las estrategias de desarrollo nacionales y regionales;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_608" class="SingleTxt">
+        <num>35.</num>
+        <content eId="para_608__content">
+          <p xml:space="preserve">	<span class="italic">Pone de relieve</span>, a este respecto, la importancia vital del multilingüismo y el contenido local en la sociedad de la información e insta a todas las partes interesadas a que alienten la creación de contenidos educativos, culturales y científicos en línea, así como el acceso a ellos, a fin de promover la calidad del acceso y garantizar que todas las personas y culturas puedan expresarse y tener acceso a Internet en todos los idiomas, incluidas las lenguas indígenas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_643" class="SingleTxt">
+        <num>36.</num>
+        <content eId="para_643__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce</span> la importancia de la creación de capacidad humana, un entorno propicio y una infraestructura resiliente de tecnología de la información y las comunicaciones, así como de promover alianzas entre múltiples interesados, y la asistencia a los países en sus esfuerzos por fortalecer la función de facilitación de la tecnología de la información y las comunicaciones para lograr los Objetivos de Desarrollo Sostenible; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_679" class="SingleTxt">
+        <num>37.</num>
+        <content eId="para_679__content">
+          <p xml:space="preserve">	<span class="italic">Insta</span> a que se siga centrando la atención en maximizar los beneficios para el desarrollo derivados del comercio electrónico, mediante la iniciativa eTrade for All (iniciativa de Comercio Electrónico para Todos), que aporta un nuevo enfoque para el desarrollo del comercio mediante intercambios electrónicos al permitir que los países en desarrollo obtengan más fácilmente asistencia técnica para crear la capacidad necesaria con el fin de realizar transacciones electrónicas y que los donantes tengan un panorama claro de los programas que pueden financiar;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_716" class="SingleTxt">
+        <num>38.</num>
+        <content eId="para_716__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce</span>, a este respecto, que la Conferencia de las Naciones Unidas sobre Comercio y Desarrollo ha iniciado y realizado evaluaciones rápidas sobre la preparación de los países menos adelantados para el comercio electrónico, en cooperación con otros donantes y organizaciones, a fin de concienciar sobre las oportunidades y los desafíos relacionados con el aprovechamiento del comercio electrónico en los países menos adelantados; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_754" class="SingleTxt">
+        <num>39.</num>
+        <content eId="para_754__content">
+          <p xml:space="preserve">	<span class="italic">Recuerda</span> el <span class="italic">Informe sobre la economía digital 2021</span> de la Conferencia de las Naciones Unidas sobre Comercio y Desarrollo, en el que se examina el papel de los flujos de datos transfronterizos para el desarrollo a la hora de maximizar los logros en materia de desarrollo equitativo y minimizar los riesgos y las repercusiones que conllevaría la fragmentación del espacio digital;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_793" class="SingleTxt">
+        <num>40.</num>
+        <content eId="para_793__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> la celebración del quinto período de sesiones del Grupo Intergubernamental de Expertos en Comercio Electrónico y Economía Digital en Ginebra, del 27 al 29 de abril de 2022, y de la Semana del Comercio Electrónico de la Conferencia de las Naciones Unidas sobre Comercio y Desarrollo, del 25 al 29 de abril de 2022; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_833" class="SingleTxt">
+        <num>41.</num>
+        <content eId="para_833__content">
+          <p xml:space="preserve">	<span class="italic">Toma nota</span> del último informe global de la Comisión sobre la Banda Ancha para el Desarrollo Sostenible, titulado <span class="italic">The State of Broadband 2022 </span>–<span class="italic"> Accelerating Broadband for New Realities</span> (El estado de la banda ancha en 2022: acelerar la banda ancha para las nuevas realidades), y observa con interés los esfuerzos sostenidos de la Comisión sobre la Banda Ancha para promover a alto nivel el establecimiento de un entorno propicio para una conectividad de banda ancha fiable y asequible, en particular por medio de planes nacionales al respecto y alianzas público-privadas para que los retos de la agenda de desarrollo se aborden con un impacto apropiado y junto con todas las partes interesadas; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_874" class="SingleTxt">
+        <num>42.</num>
+        <content eId="para_874__content">
+          <p xml:space="preserve">	<span class="italic">Recuerda</span> que la Comisión sobre la Banda Ancha para el Desarrollo Sostenible fijó las metas para 2025 con el fin de “conectar a la otra mitad” y ayudar a poner en línea a los 3.800 millones de personas que, en todo el mundo, no están conectadas a Internet;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_916" class="SingleTxt">
+        <num>43.</num>
+        <content eId="para_916__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce</span> que la economía digital y las tecnologías emergentes tienen un enorme potencial para el bien social, la aplicación de los resultados de la Cumbre Mundial y el logro de los Objetivos de Desarrollo Sostenible;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_959" class="SingleTxt">
+        <num>44.</num>
+        <content eId="para_959__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> las numerosas iniciativas de las organizaciones de las Naciones Unidas que apoyan la aplicación de las líneas de acción de la Cumbre Mundial y alienta a todos los facilitadores de las líneas de acción a seguir trabajando en dicha aplicación;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1003" class="SingleTxt">
+        <num>45.</num>
+        <content eId="para_1003__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito también</span> la labor del Programa Información para Todos de la Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura, cuyo objetivo es ayudar a los Estados Miembros a formular políticas encaminadas a reducir la brecha digital y garantizar sociedades del conocimiento equitativas, y acoge con beneplácito además la celebración de la Semana Mundial de la Alfabetización Mediática e Informacional, del 24 al 31 de octubre de cada año; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1048" class="SingleTxt">
+        <num>46.</num>
+        <content eId="para_1048__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito además</span>, a este respecto, la Recomendación sobre la Ética de la Inteligencia Artificial, de la Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura, aprobada el 23 de noviembre de 2021<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura, <span class="italic">Actas de la Conferencia General, 41ª reunión</span>, <span class="italic">París, 9-24 de noviembre de 2021</span>, vol. 1, <span class="italic">Resoluciones</span>, anexo VII.  </p></authorialNote>; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1094" class="SingleTxt">
+        <num>47.</num>
+        <content eId="para_1094__content">
+          <p xml:space="preserve">	<span class="italic">Observa</span> que la Unión Internacional de Telecomunicaciones ha establecido alianzas con más de 40 entidades de las Naciones Unidas para convocar la plataforma Inteligencia Artificial para el Bien;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1141" class="SingleTxt">
+        <num>48.</num>
+        <content eId="para_1141__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce</span> la labor de la Unión Internacional de Telecomunicaciones, en particular la celebración de su Conferencia de Plenipotenciarios en Bucarest del 26 de septiembre al 14 de octubre de 2022, en la que los miembros reafirmaron su compromiso con la visión común de un mundo conectado;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1189" class="SingleTxt">
+        <num>49.</num>
+        <content eId="para_1189__content">
+          <p xml:space="preserve">	<span class="italic">Recuerda</span> la celebración del Sexto Foro Mundial de Políticas de las Telecomunicaciones y las Tecnologías de la Información y las Comunicaciones, organizado por la Unión Internacional de Telecomunicaciones del 16 al 18 de diciembre de 2021; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1238" class="SingleTxt">
+        <num>50.</num>
+        <content eId="para_1238__content">
+          <p xml:space="preserve">	<span class="italic">Recuerda también</span> la celebración de la Asamblea Mundial de Normalización de las Telecomunicaciones, organizada por la Unión Internacional de Telecomunicaciones en Ginebra del 1 al 9 de marzo de 2022;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1288" class="SingleTxt">
+        <num>51.</num>
+        <content eId="para_1288__content">
+          <p xml:space="preserve">	<span class="italic">Recuerda además</span> la celebración de la Conferencia Mundial de Desarrollo de las Telecomunicaciones, organizada por la Unión Internacional de Telecomunicaciones en Kigali del 6 al 16 de junio de 2022; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1339" class="SingleTxt">
+        <num>52.</num>
+        <content eId="para_1339__content">
+          <p xml:space="preserve">	<span class="italic">Aguarda con interés</span> la celebración del 18º Simposio Mundial sobre los Indicadores de las Telecomunicaciones y las Tecnologías de la Información y las Comunicaciones en Ginebra, los días 3 y 4 de julio de 2023, sobre el tema “Avance de la agenda de medición para lograr una conectividad universal y significativa”; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1391" class="SingleTxt">
+        <num>53.</num>
+        <content eId="para_1391__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce</span> la labor de la Organización de las Naciones Unidas para la Alimentación y la Agricultura en la promoción de la inclusión digital y la infraestructura digital y de datos en África y otras regiones con el fin de apoyar la reducción de la pobreza y la seguridad alimentaria;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1444" class="SingleTxt">
+        <num>54.</num>
+        <content eId="para_1444__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce también</span> la labor de la Organización Internacional del Trabajo sobre las repercusiones del cambio tecnológico en el empleo, en particular las repercusiones para las mujeres y las personas en situación de vulnerabilidad;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1498" class="SingleTxt">
+        <num>55.</num>
+        <content eId="para_1498__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce además</span> la labor del Observatorio Mundial de Cibersalud de la Organización Mundial de la Salud, incluido su estudio de la forma en que la salud móvil, la telesalud, los historiales médicos electrónicos y el aprendizaje virtual pueden contribuir a los objetivos de la cobertura sanitaria universal;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1553" class="SingleTxt">
+        <num>56.</num>
+        <content eId="para_1553__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce</span> la labor del Programa de las Naciones Unidas para el Desarrollo, incluida la publicación de su Estrategia Digital, que tiene por objeto utilizar el potencial de la tecnología digital para contribuir al logro de los Objetivos de Desarrollo Sostenible;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1609" class="SingleTxt">
+        <num>57.</num>
+        <content eId="para_1609__content">
+          <p xml:space="preserve">	<span class="italic">Recuerda</span> la publicación de la estrategia del Secretario General en materia de nuevas tecnologías, que define la forma en que el sistema de las Naciones Unidas prestará apoyo a la utilización de esas tecnologías para acelerar el logro de la Agenda 2030 y facilitar su armonización con los valores consagrados en la Carta, la Declaración Universal de Derechos Humanos y las reglas y normas del derecho internacional;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1666" class="SingleTxt">
+        <num>58.</num>
+        <content eId="para_1666__content">
+          <p xml:space="preserve">	<span class="italic">Reitera</span> el compromiso de aprovechar el potencial que tienen las tecnologías de la información y las comunicaciones para lograr la Agenda 2030 y otros objetivos de desarrollo convenidos internacionalmente, observando que dichas tecnologías pueden acelerar el progreso hacia el cumplimiento de los 17 Objetivos de Desarrollo Sostenible, insta en consecuencia a todos los Gobiernos, el sector privado, la sociedad civil, las organizaciones internacionales, las comunidades técnica y académica y todos los demás interesados pertinentes a que integren las tecnologías de la información y las comunicaciones en sus enfoques para lograr los Objetivos, y solicita a las entidades del sistema de las Naciones Unidas encargadas de facilitar las líneas de acción de la Cumbre Mundial que examinen sus modalidades de presentación de informes y sus planes de trabajo con el fin de apoyar la implementación de la Agenda 2030; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1724" class="SingleTxt">
+        <num>59.</num>
+        <content eId="para_1724__content">
+          <p xml:space="preserve">	<span class="italic">Observa con gran preocupación</span> que la brecha digital de género ha crecido en el ámbito mundial en 20 millones entre 2021 y 2022 —el 63 % de las mujeres utiliza ahora Internet, frente al 69 % de los hombres—, y que las mujeres siguen estando marginadas digitalmente en muchos de los países más pobres del mundo, pone de relieve la brecha digital de género, que persiste en el acceso de las mujeres a las tecnologías de la información y las comunicaciones, y en el uso, incluso en la educación, el empleo y otras esferas del desarrollo económico y social y, en consonancia con el Objetivo de Desarrollo Sostenible 5, sobre el logro de la igualdad de género y el empoderamiento de todas las mujeres y las niñas, exhorta a los Estados Miembros a que adopten todas las medidas apropiadas, especialmente mediante la mejora sustancial de la educación de las mujeres y las niñas y su participación en las tecnologías de la información y las comunicaciones como usuarias, creadoras de contenido, empleadas, emprendedoras, innovadoras y dirigentes; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1783" class="SingleTxt">
+        <num>60.</num>
+        <content eId="para_1783__content">
+          <p xml:space="preserve">	<span class="italic">Observa</span> las numerosas iniciativas orientadas a cerrar la brecha digital de género, tales como, entre otras, el Día Internacional de las Niñas en las TIC (Unión Internacional de Telecomunicaciones), la Alianza Mundial para la Igualdad de Género en la Era Digital (iniciativa Iguales) y los premios Iguales en la Tecnología (Unión Internacional de Telecomunicaciones y Entidad de las Naciones Unidas para la Igualdad de Género y el Empoderamiento de las Mujeres), la Red eTrade para Mujeres (Conferencia de las Naciones Unidas sobre Comercio y Desarrollo), los Indicadores de Género para Medios de Comunicación (Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura), Women on the Homepage (las mujeres en la página de inicio, Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura), la encuesta mundial sobre el género y los medios de comunicación (Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura), el Grupo de Trabajo sobre Banda Ancha y Género de la Comisión sobre la Banda Ancha, el Foro sobre Mejores Prácticas de Género y Acceso del Foro para la Gobernanza de Internet, la labor sobre cuestiones de género que se está realizando en el Foro de la Cumbre Mundial sobre la Sociedad de la Información, y la labor del Banco Mundial en varios países destinada a promover oportunidades para las mujeres y las niñas en las tecnologías de la información y las comunicaciones, así como la labor de muchos otros interesados al respecto; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1843" class="SingleTxt">
+        <num>61.</num>
+        <content eId="para_1843__content">
+          <p xml:space="preserve">	<span class="italic">Reafirma</span> el compromiso de prestar especial atención a los problemas nuevos y singulares relativos a la tecnología de la información y las comunicaciones a que se enfrentan todos los países, en particular los países en desarrollo, como dispuso la Asamblea General en los párrafos pertinentes de la resolución <a href="https://undocs.org/es/A/RES/70/125">70/125</a>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1904" class="SingleTxt">
+        <num>62.</num>
+        <content eId="para_1904__content">
+          <p xml:space="preserve">	<span class="italic">Observa con aprecio</span> las iniciativas y las pistas especiales presentadas en el marco del Foro de la Cumbre Mundial sobre la Sociedad de la Información, en particular la Alianza Multisectorial sobre las TIC y las Personas Mayores, en colaboración con la Unión Internacional de Telecomunicaciones, la Organización Mundial de la Salud y el Departamento de Asuntos Económicos y Sociales de la Secretaría de las Naciones Unidas y en consonancia con el Decenio de las Naciones Unidas del Envejecimiento Saludable, y las Campañas para la Juventud;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1966" class="SingleTxt">
+        <num>63.</num>
+        <content eId="para_1966__content">
+          <p xml:space="preserve">	<span class="italic">Observa</span> que, si bien en muchas esferas se han sentado cimientos sólidos para la creación de capacidad en tecnología de la información y las comunicaciones con miras a construir la sociedad de la información, sigue siendo necesario desplegar esfuerzos para salvar los obstáculos que persisten, especialmente aquellos a que se enfrentan los países en desarrollo y los países menos adelantados, y señala las repercusiones positivas de las actividades más amplias de desarrollo de la capacidad en las que participan instituciones, organizaciones y entidades que se ocupan de cuestiones relacionadas con las tecnologías de la información y las comunicaciones y la gobernanza de Internet;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2029" class="SingleTxt">
+        <num>64.</num>
+        <content eId="para_2029__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce</span> los más de 600 compromisos suscritos en la Coalición Digital Partner2Connect de la Unión Internacional de Telecomunicaciones (también conocida como P2C), cuyo objetivo es fomentar una conectividad efectiva y la transformación digital a escala mundial centrándose en los países en desarrollo, incluidos los países en desarrollo sin litoral y los pequeños Estados insulares en desarrollo, en consonancia con las líneas de acción de la Cumbre Mundial y los Objetivos de Desarrollo Sostenible; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2093" class="SingleTxt">
+        <num>65.</num>
+        <content eId="para_2093__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce también</span> la necesidad de centrarse en las políticas de desarrollo de la capacidad y el apoyo sostenible a fin de seguir intensificando el impacto de las actividades e iniciativas en los niveles nacional y local encaminadas a prestar asesoramiento, servicios y apoyo para construir una sociedad de la información inclusiva, centrada en las personas y orientada al desarrollo;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2158" class="SingleTxt">
+        <num>66.</num>
+        <content eId="para_2158__content">
+          <p xml:space="preserve">	<span class="italic">Observa</span> que siguen surgiendo temas, como las aplicaciones de ciberecología y la contribución de las tecnologías de la información y las comunicaciones a la alerta temprana, la mitigación del cambio climático y la adaptación a este fenómeno, la respuesta a los desastres, las redes de contactos sociales, la diversidad cultural y lingüística, la virtualización y la computación y los servicios en la nube, los servicios de Internet y de otro tipo para dispositivos móviles, las redes comunitarias, la brecha digital de género, la ciberseguridad, la protección de la privacidad y de la libertad de expresión, tal como se definen en los artículos 17 y 19 del Pacto Internacional de Derechos Civiles y Políticos<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">	 	Véase la resolución <a href="https://undocs.org/es/A/RES/2200(XXI)">2200 A (XXI)</a> de la Asamblea General, anexo.</p></authorialNote>, y el empoderamiento y la protección, en particular contra la ciberexplotación y el ciberabuso, de los grupos vulnerables de la sociedad, sobre todo de niños y jóvenes; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2224" class="SingleTxt">
+        <num>67.</num>
+        <content eId="para_2224__content">
+          <p xml:space="preserve">	<span class="italic">Reafirma</span> que, en el documento final del examen general de la aplicación de las líneas de acción de la Cumbre Mundial, la Asamblea General pidió que el Foro de la Cumbre Mundial sobre la Sociedad de la Información se celebrara anualmente<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">	 	Véase la resolución <a href="https://undocs.org/es/A/RES/70/125">70/125</a> de la Asamblea General.</p></authorialNote>, y reconoce el valor del Foro para mejorar la cooperación, las alianzas, la innovación y el intercambio de experiencias y buenas prácticas entre todos los interesados en las tecnologías de la información y las comunicaciones para el desarrollo sostenible;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2291" class="SingleTxt">
+        <num>68.</num>
+        <content eId="para_2291__content">
+          <p xml:space="preserve">	<span class="italic">Observa</span> la celebración del Foro de la Cumbre Mundial sobre la Sociedad de la Información de 2022, auspiciado por la Unión Internacional de Telecomunicaciones y organizado conjuntamente por la Unión, la Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura, el Programa de las Naciones Unidas para el Desarrollo y la Conferencia de las Naciones Unidas sobre Comercio y Desarrollo del 30 de mayo al 3 de junio de 2022, en torno al tema “TIC para el bienestar, la inclusión y la resiliencia: cooperación de la CMSI para acelerar el progreso de los ODS”, observa también la celebración del Foro de la Cumbre Mundial sobre la Sociedad de la Información de 2023 del 13 al 17 de marzo de 2023, en torno al tema “Líneas de acción de la CMSI para reconstruir mejor y acelerar la consecución de los ODS”, y observa además la celebración del Evento de Alto Nivel del Foro de la CMSI+20 en Ginebra, del 27 al 31 de mayo de 2024, y el próximo proceso de consultas de participación abierta, que tiene por objeto garantizar una participación y una implicación amplias en el Foro;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2359" class="SingleTxt">
+        <num>69.</num>
+        <content eId="para_2359__content">
+          <p xml:space="preserve">	<span class="italic">Alienta</span> a los facilitadores de las líneas de acción a que utilicen el Plan de Acción de Ginebra<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">	 	Véase <a href="https://undocs.org/es/A/C.2/59/3">A/C.2/59/3</a>, anexo.</p></authorialNote> como marco para determinar medidas prácticas para que el uso de las tecnologías de la información y las comunicaciones contribuya al logro de la Agenda 2030, observando la Matriz de la Cumbre Mundial sobre la Sociedad de la Información y los Objetivos de Desarrollo Sostenible, elaborada por los organismos de las Naciones Unidas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2428" class="SingleTxt">
+        <num>70.</num>
+        <content eId="para_2428__content">
+          <p xml:space="preserve">	<span class="italic">Alienta</span> a los facilitadores de las líneas de acción de la Cumbre Mundial a que se ciñan estrechamente a la Agenda 2030 al examinar nuevas actividades para aplicar los resultados de la Cumbre Mundial, con arreglo a sus mandatos y recursos existentes; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2498" class="SingleTxt">
+        <num>71.</num>
+        <content eId="para_2498__content">
+          <p xml:space="preserve">	<span class="italic">Reitera</span> la importancia de la exhortación hecha por la Asamblea General de que todas las partes interesadas integren las tecnologías de la información y las comunicaciones en los enfoques para la aplicación de los Objetivos de Desarrollo Sostenible y su solicitud de que las entidades de las Naciones Unidas encargadas de facilitar las líneas de acción de la Cumbre Mundial examinen sus modalidades de presentación de informes y sus planes de trabajo para apoyar la implementación de la Agenda 2030;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2569" class="SingleTxt">
+        <num>72.</num>
+        <content eId="para_2569__content">
+          <p xml:space="preserve">	<span class="italic">Alienta</span> una dinámica participación de los emprendedores en el proceso de la Cumbre Mundial y los Objetivos de Desarrollo Sostenible, como se pide en la resolución <a href="https://undocs.org/es/A/RES/77/160">77/160</a> de la Asamblea General;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2570" class="H23">
+        <subheading>		Gobernanza de Internet</subheading>
+      </paragraph>
+      <paragraph eId="para_2571" class="SingleTxt">
+        <num>73.</num>
+        <content eId="para_2571__content">
+          <p xml:space="preserve">	<span class="italic">Reafirma</span> que el Secretario General ha de aplicar los resultados de la Cumbre Mundial relacionados con la gobernanza de Internet, en concreto el fortalecimiento de la cooperación y la organización del Foro para la Gobernanza de Internet, siguiendo dos procesos distintos, y reconoce que los dos procesos pueden ser complementarios;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2572" class="SingleTxt">
+        <num>74.</num>
+        <content eId="para_2572__content">
+          <p xml:space="preserve">	<span class="italic">Reafirma también</span> los párrafos 34 a 37 y 67 a 72 de la Agenda de Túnez; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2574" class="SingleTxt">
+        <num>75.</num>
+        <content eId="para_2574__content">
+          <p xml:space="preserve">	<span class="italic">Reafirma además</span> los párrafos 55 a 65 de la resolución <a href="https://undocs.org/es/A/RES/70/125">70/125</a> de la Asamblea General;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2575" class="H23">
+        <subheading>		Fortalecimiento de la cooperación</subheading>
+      </paragraph>
+      <paragraph eId="para_2576" class="SingleTxt">
+        <num>76.</num>
+        <content eId="para_2576__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce </span>la importancia de fortalecer la cooperación en el futuro para que los Gobiernos puedan, en igualdad de condiciones, cumplir su papel y sus responsabilidades en lo que respecta a las cuestiones de política pública internacional relacionadas con Internet, aunque sin intervenir en los asuntos técnicos y operacionales cotidianos que no influyen en esas cuestiones;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2577" class="SingleTxt">
+        <num>77.</num>
+        <content eId="para_2577__content">
+          <p xml:space="preserve">	<span class="italic">Recuerda</span> la labor del Grupo de Trabajo sobre el Fortalecimiento de la Cooperación, establecido por la Presidencia de la Comisión de Ciencia y Tecnología para el Desarrollo como solicitó la Asamblea General en su resolución <a href="https://undocs.org/es/A/RES/70/125">70/125</a> para formular recomendaciones sobre la forma de seguir fortaleciendo la cooperación según lo previsto en la Agenda de Túnez, y observa también que el Grupo de Trabajo consiguió la participación plena de los Gobiernos y otros interesados pertinentes, en particular de los países en desarrollo, teniendo en cuenta sus diversas opiniones y sus conocimientos especializados;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2579" class="SingleTxt">
+        <num>78.</num>
+        <content eId="para_2579__content">
+          <p xml:space="preserve">	<span class="italic">Recuerda también</span> que el Grupo de Trabajo celebró cinco reuniones entre septiembre de 2016 y enero de 2018 en las que examinó las aportaciones de los Estados Miembros y otros interesados, según lo establecido por la Asamblea General en su resolución <a href="https://undocs.org/es/A/RES/70/125">70/125</a>; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2582" class="SingleTxt">
+        <num>79.</num>
+        <content eId="para_2582__content">
+          <p xml:space="preserve">	<span class="italic">Recuerda además</span> el informe de la Presidencia del Grupo de Trabajo<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">	 	Véase E/CN.16/2018/CRP.3.</p></authorialNote>, que incluye referencias al texto completo de todas las propuestas y contribuciones, y expresa su agradecimiento a la Presidencia y a todos los participantes que hicieron aportaciones y contribuyeron a la labor del Grupo de Trabajo;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2586" class="SingleTxt">
+        <num>80.</num>
+        <content eId="para_2586__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> los progresos realizados por el Grupo de Trabajo en muchas esferas y el hecho de que pareciera surgir un consenso respecto de algunas cuestiones, aunque persisten importantes divergencias de opiniones sobre otras, y, a ese respecto, lamenta que el Grupo de Trabajo no haya podido llegar a un acuerdo sobre las recomendaciones relativas a la manera de seguir aplicando la cooperación reforzada prevista en la Agenda de Túnez;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2587" class="H23">
+        <subheading>		Foro para la Gobernanza de Internet</subheading>
+      </paragraph>
+      <paragraph eId="para_2588" class="SingleTxt">
+        <num>81.</num>
+        <content eId="para_2588__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce</span> la importancia del Foro para la Gobernanza de Internet y de su mandato de actuar como tribuna que posibilite el diálogo entre múltiples interesados sobre diversos asuntos, como se indica en el párrafo 72 de la Agenda de Túnez, en particular temas de políticas públicas relativos a los elementos claves de la gobernanza de Internet; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2589" class="SingleTxt">
+        <num>82.</num>
+        <content eId="para_2589__content">
+          <p xml:space="preserve">	<span class="italic">Recuerda</span> la decisión, adoptada por la Asamblea General en su resolución <a href="https://undocs.org/es/A/RES/70/125">70/125</a>, de prorrogar el mandato del Foro para la Gobernanza de Internet por otros diez años, durante los cuales el Foro debía seguir mostrando avances sobre las modalidades de trabajo y la participación de las partes interesadas pertinentes de los países en desarrollo;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2591" class="SingleTxt">
+        <num>83.</num>
+        <content eId="para_2591__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce</span> que en todas las regiones han surgido iniciativas nacionales y regionales relacionadas con el Foro para la Gobernanza de Internet, que abordan cuestiones de gobernanza de Internet que revisten importancia y prioridad para el país o la región que las organiza; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2594" class="SingleTxt">
+        <num>84.</num>
+        <content eId="para_2594__content">
+          <p xml:space="preserve">	<span class="italic">Recuerda</span> la resolución <a href="https://undocs.org/es/A/RES/70/125">70/125</a> de la Asamblea General, en la que la Asamblea pidió a la Comisión de Ciencia y Tecnología para el Desarrollo que, en el marco de su presentación periódica de informes, prestara la debida atención al cumplimiento de las recomendaciones del informe del Grupo de Trabajo sobre Mejoras del Foro para la Gobernanza de Internet de la Comisión<authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">	 	<a href="https://undocs.org/es/A/67/65">A/67/65-E/2012/48</a> y <a href="https://undocs.org/es/A/67/65/Corr.1">A/67/65/Corr.1-E/2012/48/Corr.1</a>.</p></authorialNote>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2598" class="SingleTxt">
+        <num>85.</num>
+        <content eId="para_2598__content">
+          <p xml:space="preserve">	<span class="italic">Observa</span> la celebración de la 17ª reunión del Foro para la Gobernanza de Internet, organizada en Addis Abeba del 28 de noviembre al 2 de diciembre de 2022, sobre el tema “Internet resiliente para un futuro compartido, sostenible y común”;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2603" class="SingleTxt">
+        <num>86.</num>
+        <content eId="para_2603__content">
+          <p xml:space="preserve">	<span class="italic">Aguarda con interés</span> la celebración de la 18ª reunión del Foro para la Gobernanza de Internet, que se organizará en Kioto (Japón) del 8 al 12 de octubre de 2023 en torno al tema “La Internet que queremos: empoderando a todas las personas”, y la continua aplicación de las recomendaciones que figuran en el informe del Grupo de Trabajo sobre Mejoras del Foro para la Gobernanza de Internet de la Comisión de Ciencia y Tecnología para el Desarrollo que son aplicables a su proceso preparatorio;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2609" class="SingleTxt">
+        <num>87.</num>
+        <content eId="para_2609__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span>, en ese contexto, los constantes progresos realizados en el marco de la labor entre períodos de sesiones del Foro para la Gobernanza de Internet en relación con las diferentes modalidades para conectar y habilitar en línea a los próximos 1.000 millones de usuarios, las coaliciones dinámicas y los foros sobre mejores prácticas y las redes de políticas, así como las contribuciones de los foros sobre la gobernanza de Internet, tanto nacionales como regionales;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2610" class="H23">
+        <subheading>		Perspectivas futuras</subheading>
+      </paragraph>
+      <paragraph eId="para_2611" class="SingleTxt">
+        <num>88.</num>
+        <content eId="para_2611__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta</span> a las entidades de las Naciones Unidas a que sigan cooperando activamente en la aplicación y el seguimiento de los resultados de la Cumbre Mundial a través del sistema de las Naciones Unidas, a que tomen las medidas necesarias y se comprometan a construir una sociedad de la información centrada en las personas, inclusiva y orientada al desarrollo, y a que actúen de catalizador en la consecución de los objetivos de desarrollo convenidos internacionalmente, incluidos los que figuran en la Agenda 2030; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2612" class="SingleTxt">
+        <num>89.</num>
+        <content eId="para_2612__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta</span> a todos los interesados a que mantengan entre sus prioridades el objetivo de cerrar las brechas digitales y fomentar a inclusión digital, en sus distintas formas, apliquen estrategias bien fundadas que contribuyan al fomento del gobierno electrónico y sigan dedicando especial atención a las políticas y aplicaciones de la tecnología de la información y las comunicaciones en favor de los pobres a fin de llegar a las personas en situaciones vulnerables, en particular a la cuestión del acceso a una banda ancha fiable y asequible en el ámbito local, entre otras cosas mediante modelos participativos, con miras a reducir la brecha digital entre los países y en cada país para construir sociedades de la información y del conocimiento;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2614" class="SingleTxt">
+        <num>90.</num>
+        <content eId="para_2614__content">
+          <p xml:space="preserve">	<span class="italic">Invita </span>a todos los interesados a participar activamente en el Evento de Alto Nivel del Foro de la CMSI+20 que se celebrará en Ginebra del 27 al 31 de mayo de 2024, incluidas las consultas multisectoriales sobre los logros, las principales tendencias, los retos y las oportunidades en lo que respecta a las líneas de acción de la Cumbre Mundial para alcanzar los Objetivos de Desarrollo Sostenible; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2617" class="SingleTxt">
+        <num>91.</num>
+        <content eId="para_2617__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce</span> los retos pendientes para la plena aplicación de los resultados de la Cumbre Mundial, reconoce también los retos pendientes para el logro de la Agenda 2030 e invita a todos los interesados a acelerar la ejecución de las líneas de acción de la Cumbre Mundial para cumplir los objetivos definidos en el proceso de examen decenal y avanzar en la consecución de los Objetivos de Desarrollo Sostenible;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2621" class="SingleTxt">
+        <num>92.</num>
+        <content eId="para_2621__content">
+          <p xml:space="preserve">	<span class="italic">Insta</span> a todos los interesados a que den prioridad al desarrollo de enfoques innovadores que promuevan el acceso universal a la infraestructura de banda ancha a un costo asequible para los países en desarrollo y el uso de los servicios de banda ancha pertinentes a fin de garantizar la construcción de una sociedad de la información inclusiva, orientada al desarrollo y centrada en las personas, y de reducir al mínimo las brechas digitales;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2626" class="SingleTxt">
+        <num>93.</num>
+        <content eId="para_2626__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta</span> a todos los interesados a que promuevan un entorno normativo propicio para la inversión y fomenten la cooperación y las alianzas público-privadas para una inversión sostenible en infraestructura, aplicaciones y servicios de tecnología de la información y las comunicaciones, y en contenidos y aptitudes digitales, con el fin de asegurar el grado de conectividad necesario para promover los Objetivos de Desarrollo Sostenible; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2632" class="SingleTxt">
+        <num>94.</num>
+        <content eId="para_2632__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta</span> a las organizaciones internacionales y regionales a que continúen evaluando periódicamente la accesibilidad universal de los países a la tecnología de la información y las comunicaciones y a que presenten informes al respecto, a fin de crear oportunidades equitativas para el crecimiento de esas tecnologías en los países en desarrollo;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2639" class="SingleTxt">
+        <num>95.</num>
+        <content eId="para_2639__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce</span> que, en consonancia con el párrafo 4 de la presente resolución, la financiación de las tecnologías de la información y las comunicaciones para el desarrollo debe situarse en el contexto de la creciente importancia del papel de esas tecnologías no solo como medio de comunicación, sino también como catalizador del desarrollo y como herramienta para alcanzar las metas y los objetivos de desarrollo convenidos internacionalmente, incluidos los Objetivos de Desarrollo Sostenible; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2647" class="SingleTxt">
+        <num>96.</num>
+        <content eId="para_2647__content">
+          <p xml:space="preserve">	<span class="italic">Insta</span> a todos los países a que adopten medidas concretas para cumplir los compromisos que contrajeron en la Agenda de Acción de Addis Abeba de la Tercera Conferencia Internacional sobre la Financiación para el Desarrollo<authorialNote marker="13" placement="bottom" eId="authorialNote_13"><p xml:space="preserve">	 	Resolución de la Asamblea General <a href="https://undocs.org/es/A/RES/69/313">69/313</a>, anexo.</p></authorialNote>; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2656" class="SingleTxt">
+        <num>97.</num>
+        <content eId="para_2656__content">
+          <p xml:space="preserve">	<span class="italic">Reitera</span> la importancia de los indicadores de las tecnologías de la información y las comunicaciones en formato de datos abiertos como instrumentos de seguimiento y evaluación para medir la brecha digital entre países y en la sociedad y para informar a las instancias decisorias cuando elaboran políticas y estrategias de desarrollo social, cultural y económico, pone de relieve la importancia de la normalización y la armonización de indicadores fiables y actualizados periódicamente y destaca el valor de los datos desglosados por género para contribuir a reducir la brecha digital de género; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2666" class="SingleTxt">
+        <num>98.</num>
+        <content eId="para_2666__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce</span> la importancia de los instrumentos de medición y observación digital de apoyo al despliegue y la medición de los Objetivos de Desarrollo Sostenible;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2677" class="SingleTxt">
+        <num>99.</num>
+        <content eId="para_2677__content">
+          <p xml:space="preserve">	<span class="italic">Reitera</span> la importancia del intercambio de las mejores prácticas en todos los niveles y, reconociendo la excelencia en la ejecución de proyectos e iniciativas que promueven los objetivos de la Cumbre Mundial, alienta a todos los interesados a que, como parte indisociable del proceso de seguimiento de la Cumbre Mundial, propongan sus proyectos como candidatos a los premios anuales de la Cumbre Mundial, al tiempo que toma nota del informe sobre las experiencias positivas relacionadas con la Cumbre Mundial; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2689" class="SingleTxt">
+        <num>100.</num>
+        <list eId="para_2689_list">
+          <intro eId="para_2689_list_intro">
+            <p xml:space="preserve">	<span class="italic">Exhorta</span> a las organizaciones de las Naciones Unidas, así como a otras organizaciones y otros foros pertinentes, de conformidad con los resultados de la Cumbre Mundial, a que examinen periódicamente las metodologías relacionadas con los indicadores de las tecnologías de la información y de las comunicaciones, teniendo en cuenta los distintos grados de desarrollo y las circunstancias nacionales, y con ese fin: </p>
+          </intro>
+          <point eId="para_2689_list_point_a">
+            <num>a)</num>
+            <content eId="para_2689_list_point_a_content">
+              <p xml:space="preserve">	Alienta a los Estados Miembros a que desarrollen y pongan en funcionamiento infraestructuras de datos a nivel nacional sobre las tecnologías de la información y las comunicaciones, intercambien información sobre estudios por países y colaboren con otros países en programas de intercambio para la creación de capacidad;</p>
+            </content>
+          </point>
+          <point eId="para_2689_list_point_b">
+            <num>b)</num>
+            <content eId="para_2689_list_point_b_content">
+              <p xml:space="preserve">	Alienta a las organizaciones de las Naciones Unidas y demás organizaciones y foros pertinentes a que promuevan la evaluación del impacto de las tecnologías de la información y las comunicaciones en el desarrollo sostenible;</p>
+            </content>
+          </point>
+          <point eId="para_2689_list_point_c">
+            <num>c)</num>
+            <content eId="para_2689_list_point_c_content">
+              <p xml:space="preserve">	Observa con reconocimiento la labor de la Asociación para la Medición de las Tecnologías de la Información y las Comunicaciones para el Desarrollo y la publicación de la serie <span class="italic">Measuring Digital Development</span>, que ofrece información acerca de las últimas tendencias y estadísticas sobre el acceso a las tecnologías de la información y las comunicaciones y la asequibilidad de estas y la evolución de las sociedades de la información y del conocimiento en todo el mundo, incluido el índice de desarrollo de la tecnología de la información y las comunicaciones;</p>
+            </content>
+          </point>
+          <point eId="para_2689_list_point_d">
+            <num>d)</num>
+            <content eId="para_2689_list_point_d_content">
+              <p xml:space="preserve">	Alienta a la Asociación para la Medición de las Tecnologías de la Información y las Comunicaciones para el Desarrollo a que siga dando seguimiento a las decisiones pertinentes de la Comisión de Estadística relativas a las estadísticas de la tecnología de la información y las comunicaciones a fin de generar estadísticas puntuales y de calidad sobre la tecnología de la información y las comunicaciones y de aprovechar los posibles beneficios del uso de macrodatos para las estadísticas oficiales;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_2702" class="SingleTxt">
+        <num>101.</num>
+        <content eId="para_2702__content">
+          <p xml:space="preserve">	<span class="italic">Invita</span> a la comunidad internacional a que haga contribuciones voluntarias al fondo fiduciario especial establecido por la Conferencia de las Naciones Unidas sobre Comercio y Desarrollo para apoyar la labor de examen y evaluación de la Comisión de Ciencia y Tecnología para el Desarrollo relacionada con el seguimiento de la Cumbre Mundial, y al mismo tiempo expresa su reconocimiento por el apoyo financiero prestado a ese fondo por los Gobiernos de los Estados Unidos de América, Finlandia, el Reino Unido de Gran Bretaña e Irlanda del Norte y Suiza;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2716" class="SingleTxt">
+        <num>102.</num>
+        <content eId="para_2716__content">
+          <p xml:space="preserve">	<span class="italic">Recuerda</span> la propuesta formulada en la resolución <a href="https://undocs.org/es/A/RES/70/125">70/125</a> de la Asamblea General de que la Asamblea celebrara una reunión de alto nivel sobre el examen general de la aplicación de los resultados de la Cumbre Mundial en 2025, acoge con beneplácito la hoja de ruta en la que se indican las contribuciones de la Comisión de Ciencia y Tecnología para el Desarrollo al examen general y alienta a los Estados Miembros a prestar apoyo financiero y de otro tipo a su aplicación; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2731" class="SingleTxt">
+        <num>103.</num>
+        <content eId="para_2731__content">
+          <p xml:space="preserve">	<span class="italic">Toma nota con aprecio</span> de las dos hojas de ruta elaboradas por la Unión Internacional de Telecomunicaciones y la Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura en el marco de sus preparativos para el examen al cabo de 20 años de la Cumbre Mundial;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2747" class="SingleTxt">
+        <num>104.</num>
+        <content eId="para_2747__content">
+          <p xml:space="preserve">	<span class="italic">Solicita</span> a la Comisión de Ciencia, Tecnología y Desarrollo que recoja aportaciones de los Estados miembros, de todos los facilitadores y demás interesados y que organice, durante su 27º período de sesiones, que tendrá lugar en 2024, y su 28º período de sesiones, que tendrá lugar en 2025, debates sustantivos sobre los progresos realizados en la aplicación de los resultados de la Cumbre Mundial durante los últimos 20 años, y que informe al respecto, por conducto del Consejo Económico y Social, a la Asamblea General; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2764" class="SingleTxt">
+        <num>105.</num>
+        <content eId="para_2764__content">
+          <p xml:space="preserve">	<span class="italic">Toma nota con reconocimiento</span> del informe del Secretario General y de las deliberaciones conexas de la Comisión de Ciencia y Tecnología para el Desarrollo en su 26º período de sesiones, y reconoce la función de la Comisión como centro de coordinación para el seguimiento en todo el sistema de los resultados de la Cumbre Mundial;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2782" class="SingleTxt">
+        <num>106.</num>
+        <content eId="para_2782__content">
+          <p xml:space="preserve">	<span class="italic">Pone de relieve</span> la importancia de promover una sociedad de la información de carácter inclusivo, prestando particular atención a la reducción de la brecha digital y la brecha de la banda ancha, teniendo en cuenta las consideraciones de los países en desarrollo, el género y la cultura, así como de los jóvenes y otros grupos insuficientemente representados;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2801" class="SingleTxt">
+        <num>107.</num>
+        <content eId="para_2801__content">
+          <p xml:space="preserve">	<span class="italic">Pide</span> que continúen el diálogo y la labor encaminados a fortalecer la cooperación, como se prevé en la Agenda de Túnez;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2821" class="SingleTxt">
+        <num>108.</num>
+        <content eId="para_2821__content">
+          <p xml:space="preserve">	<span class="italic">Resalta</span> los debates en curso sobre el informe del Secretario General titulado “Hoja de ruta para la cooperación digital”<authorialNote marker="14" placement="bottom" eId="authorialNote_14"><p xml:space="preserve">		<a href="https://undocs.org/es/A/74/821">A/74/821</a>.</p></authorialNote> y las propuestas contenidas en el informe del Secretario General titulado “Nuestra agenda común”<authorialNote marker="15" placement="bottom" eId="authorialNote_15"><p xml:space="preserve">		<a href="https://undocs.org/es/A/75/982">A/75/982</a>.</p></authorialNote>, como el pacto digital global, pertinentes para la Cumbre Mundial y, a este respecto, pide que se celebren nuevas consultas transparentes e inclusivas con los Estados Miembros y todas las partes interesadas pertinentes sobre el camino a seguir, en consonancia con los resultados de la Cumbre Mundial y subraya la importancia de garantizar las sinergias y evitar la duplicación de las actividades entre diversas entidades;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2842" class="SingleTxt">
+        <num>109.</num>
+        <content eId="para_2842__content">
+          <p xml:space="preserve">	<span class="italic">Destaca</span>, en relación con lo anterior, el objetivo de potenciar al máximo los beneficios de las tecnologías para lograr los Objetivos de Desarrollo Sostenible y pone una vez más de relieve la noción de no dejar a nadie atrás, que es la promesa transformadora esencial de la Agenda 2030; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2864" class="SingleTxt">
+        <num>110.</num>
+        <content eId="para_2864__content">
+          <p xml:space="preserve">	<span class="italic">Solicita</span> al Secretario General que, con carácter anual, presente a la Comisión de Ciencia y Tecnología para el Desarrollo un informe sobre la aplicación de las recomendaciones que figuran en la presente resolución y en otras resoluciones del Consejo relativas a la evaluación de los progresos cuantitativos y cualitativos realizados en la aplicación y el seguimiento de los resultados de la Cumbre Mundial.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="25a">25a sesión plenaria</inline>
+        <eol />
+        <docDate date="2023-06-07" refersTo="#adoptionDate">7 de junio de 2023</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
