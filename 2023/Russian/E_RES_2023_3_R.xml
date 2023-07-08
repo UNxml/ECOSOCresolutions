@@ -1,0 +1,926 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2023-06-07/2023-3/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2023-06-07/2023-3/"></FRBRuri>
+          <FRBRdate date="2023-06-07" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2023-06-07/2023-3/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2023-06-07/2023-3/rus@/"></FRBRuri>
+          <FRBRdate date="2023-06-19" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2023-06-07/2023-3/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2023-06-07/2023-3/rus@.xml"></FRBRuri>
+          <FRBRdate date="2023-07-04" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Commission on Science and Technology for Development" showAs="UN. Commission on Science and Technology for Development" dictionary="DHLAUTH"></keyword>
+        <keyword value="ITU" showAs="ITU" dictionary="DHLAUTH"></keyword>
+        <keyword value="Internet Governance Forum" showAs="Internet Governance Forum" dictionary="DHLAUTH"></keyword>
+        <keyword value="World Summit on the Information Society" showAs="World Summit on the Information Society" dictionary="DHLAUTH"></keyword>
+        <keyword value="INFORMATION SOCIETY" showAs="INFORMATION SOCIETY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PROGRAMME IMPLEMENTATION" showAs="PROGRAMME IMPLEMENTATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNET" showAs="INTERNET" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GOVERNANCE" showAs="GOVERNANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DIGITAL TECHNOLOGY" showAs="DIGITAL TECHNOLOGY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INFORMATION TECHNOLOGY" showAs="INFORMATION TECHNOLOGY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COMMUNICATION TECHNOLOGY" showAs="COMMUNICATION TECHNOLOGY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DIGITAL DIVIDE" showAs="DIGITAL DIVIDE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="18b" showAs="Science and technology for development." shortForm="SCIENCE AND TECHNOLOGY--DEVELOPMENT" dictionary="E/2023/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-03-31" outcome="draftResolution" as="informal paper" by="submitted by the Chair on the basis of informal consultations" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2023-04-26" outcome="recommendedForAdoption" as="E/2023/31" by="UN. Commission on Science and Technology for Development" />
+        <step date="2023-06-19" outcome="adopted" as="Adopted without vote, 25th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">23-11566 (R)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2023/3</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Экономический и Социальный Совет</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-06-19" class="rightSmall" refersTo="#dateOfIssuance">19 June 2023</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2023" eId="coverPage_1__session_1">Сессия 2023 года</session>
+      </p>
+      <p>
+        <inline title="18 b)" name="agenda item">Пункт 18 b) повестки дня</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Экономические и экологические вопросы: наука и техника в целях развития</inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Экономическим и Социальным Советом 7 июня 2023 года</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent>[по рекомендации Комиссии по науке и технике в целях развития (<inline name="originating document">E/2023/31</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2023/3.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Оценка прогресса, достигнутого в осуществлении решений и последующей деятельности по итогам Всемирной встречи на высшем уровне по вопросам информационного общества</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Экономический и Социальный Совет</span>,</p>
+      </formula>
+      <container name="ссылаясь" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">ссылаясь</span> на итоговые документы Всемирной встречи на высшем уровне по вопросам информационного общества<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		См. <a href="https://undocs.org/ru/A/C.2/59/3">A/C.2/59/3</a> и <a href="https://undocs.org/ru/A/60/687">A/60/687</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="ссылаясь также" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">ссылаясь также </span>на свою резолюцию 2006/46 от 28 июля 2006 года о последующей деятельности в связи с итогами Всемирной встречи на высшем уровне и об обзоре работы Комиссии по науке и технике в целях развития и напоминая о мандате, предоставленном им Комиссии,</p>
+      </container>
+      <container name="ссылаясь далее" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">ссылаясь далее</span> на свою резолюцию <a href="https://undocs.org/ru/E/RES/2022/15">2022/15</a> от 21 июля 2022 года об оценке прогресса, достигнутого в осуществлении решений и последующей деятельности по итогам Всемирной встречи на высшем уровне, </p>
+      </container>
+      <container name="ссылаясь" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">ссылаясь</span> на резолюцию <a href="https://undocs.org/ru/A/RES/70/1">70/1</a> Генеральной Ассамблеи от 25 сентября 2015 года, озаглавленную «Преобразование нашего мира: Повестка дня в области устойчивого развития на период до 2030 года»,</p>
+      </container>
+      <container name="ссылаясь также" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">ссылаясь также</span> на резолюцию <a href="https://undocs.org/ru/A/RES/70/125">70/125</a> Генеральной Ассамблеи от 16 декабря 2015 года под названием «Итоговый документ совещания высокого уровня Генеральной Ассамблеи, посвященного общему обзору хода осуществления решений Всемирной встречи на высшем уровне по вопросам информационного общества», в которой Ассамблея вновь подтвердила выработанную на Всемирной встрече на высшем уровне концепцию построения ориентированного на интересы людей, открытого для всех и направленного на развитие информационного общества, в котором каждый мог бы создавать информацию и знания, иметь к ним доступ, пользоваться и обмениваться ими, что дало бы людям, общинам и народам возможность в полной мере реализовать свой потенциал, содействуя своему устойчивому развитию, повышая качество своей жизни на основе целей и принципов Устава Организации Объединенных Наций и соблюдая в полном объеме и поддерживая Всеобщую декларацию прав человека<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		Резолюция <a href="https://undocs.org/ru/A/RES/217(III)">217 A (III)</a> Генеральной Ассамблеи.</p></authorialNote>, проанализировала достигнутые на сегодняшний день успехи, выявила проблемы и трудности и вынесла рекомендации в отношении будущих действий,</p>
+      </container>
+      <container name="ссылаясь далее" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">ссылаясь далее</span> на резолюцию <a href="https://undocs.org/ru/A/RES/77/150">77/150</a> Генеральной Ассамблеи от 14 декабря 2022 года об использовании информационно-коммуникационных технологий в целях устойчивого развития, в которой Ассамблея приняла во внимание, что информационно-коммуникационные технологии играют важную роль в достижении целей в области устойчивого развития, и отметила, что ожидает разработки глобального цифрового договора для укрепления цифрового сотрудничества на основе открытого и инклюзивного процесса, </p>
+      </container>
+      <container name="принимая к сведению" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">принимая к сведению</span> подготовленный Группой высокого уровня по цифровому сотрудничеству доклад “The age of digital interdependence” («Эпоха цифровой взаимозависимости») и доклад Генерального секретаря «Дорожная карта по цифровому сотрудничеству», а также создание Канцелярии Посланника Генерального секретаря по вопросам технологий,</p>
+      </container>
+      <container name="ссылаясь" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">ссылаясь</span> на резолюцию <a href="https://undocs.org/ru/A/RES/77/160">77/160</a> Генеральной Ассамблеи от 14 декабря 2022 года о роли предпринимательства в процессе устойчивого развития,</p>
+      </container>
+      <container name="с удовлетворением принимая к сведению" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">с удовлетворением принимая к сведению</span> доклад Генерального секретаря о прогрессе, достигнутом в осуществлении решений и последующей деятельности по итогам Всемирной встречи на высшем уровне на региональном и международном уровнях<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		<a href="https://undocs.org/ru/A/78/62">A/78/62-E/2023/49</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="выражая признательность" eId="container_11">
+        <p xml:space="preserve">		<span class="italic">выражая признательность</span> Генеральному секретарю Конференции Организации Объединенных Наций по торговле и развитию за ее роль в содействии обеспечению своевременного завершения подготовки вышеупомянутого доклада,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_12" class="H23">
+        <subheading>		Анализ результатов: обзор хода осуществления решений Всемирной встречи на высшем уровне по вопросам информационного общества</subheading>
+      </paragraph>
+      <paragraph eId="para_13" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_13__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением отмечает</span> ход осуществления резолюции <a href="https://undocs.org/ru/A/RES/70/125">70/125</a> Генеральной Ассамблеи и <span class="italic">настоятельно призывает</span> к ее полному осуществлению;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением отмечает</span> конструктивный и многообразный вклад всех заинтересованных сторон в общий обзор прогресса, достигнутого в осуществлении решений Всемирной встречи на высшем уровне по вопросам информационного общества;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">	<span class="italic">вновь подтверждает свою приверженность </span>полному осуществлению решений Всемирной встречи на высшем уровне и концепции, выработанной в ходе 10-летнего обзора осуществления решений Всемирной встречи на высшем уровне на период после 2015 года;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="italic">вновь подтверждает</span> Тунисскую программу 2005 года для информационного общества<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		См. <a href="https://undocs.org/ru/A/60/687">A/60/687</a>.</p></authorialNote>, в которой были признаны особые и специфические потребности развивающихся стран в финансировании, упомянутые в пункте 16 женевской Декларации принципов 2003 года<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		См. <a href="https://undocs.org/ru/A/C.2/59/3">A/C.2/59/3</a>, приложение.</p></authorialNote>, которые сталкиваются с многочисленными проблемами в секторе информационно-коммуникационной технологии, и настоятельную необходимость сосредоточить внимание на особых потребностях развивающихся стран в финансировании, с тем чтобы они могли реализовать согласованные на международном уровне цели и задачи в области развития, включая цели в области устойчивого развития;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="italic">вновь подтверждает</span> провозглашенное в резолюции <a href="https://undocs.org/ru/A/RES/70/125">70/125</a> Генеральной Ассамблеи обязательство преодолеть цифровой разрыв между странами и внутри стран, включая цифровой разрыв между мужчинами и женщинами, посредством усилий по улучшению сетевого подключения, ценовой доступности, доступа к информации и знаниям, многоязычного информационного наполнения, цифровых навыков и цифровой грамотности, принимая во внимание особые проблемы, с которыми сталкиваются инвалиды, лица с особыми потребностями и группы населения, находящиеся в уязвимом положении;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует </span>обеспечить тесную увязку деятельности по выполнению решений Всемирной встречи на высшем уровне с деятельностью по осуществлению Повестки дня в области устойчивого развития на период до 2030 года<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		Резолюция <a href="https://undocs.org/ru/A/RES/70/1">70/1</a> Генеральной Ассамблеи.</p></authorialNote> в соответствии с призывом, содержащимся в резолюции <a href="https://undocs.org/ru/A/RES/70/125">70/125</a> Генеральной Ассамблеи, обращая особое внимание на роль информационно-коммуникационных технологий в достижении целей в области устойчивого развития и ликвидации нищеты и отмечая, что доступ к информационно-коммуникационным технологиям сам становится одним из показателей развития и одной из его целей;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="italic">подтверждает</span> свое понимание того, что успешное осуществление Повестки дня на период до 2030 года будет зависеть от расширения доступа к информационно-коммуникационным технологиям;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="italic">признает</span>, что инфраструктура информационно-коммуникационных технологий имеет основополагающее значение для достижения цели всеобщего охвата цифровыми технологиями и что сохраняется цифровое неравенство между группами населения с разным уровнем дохода, различными возрастными группами, населением различных географических районов и между мужчинами и женщинами, и в этой связи вновь заявляет о своей приверженности выполнению задачи 9.c, поставленной в Повестке дня на период до 2030 года и заключающейся в том, чтобы существенно расширить доступ к информационно-коммуникационным технологиям и стремиться к обеспечению всеобщего и недорогого доступа к Интернету в наименее развитых странах к 2020 году, и отмечает в связи с этим важность Повестки дня «Соединим к 2030 году» в области глобального развития электросвязи/информационно-коммуникационных технологий, включая широкополосную связь, для обеспечения устойчивого развития; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением отмечает</span> впечатляющее развитие и распространение благодаря усилиям государственного и частного секторов информационно-коммуникационных технологий, проникших практически во все уголки земного шара, открывающих новые возможности для социального взаимодействия, создающих предпосылки для формирования новых бизнес-моделей и способствующих обеспечению экономического роста и развития во всех других секторах, обращая при этом внимание на уникальные и новые проблемы, возникающие в связи с развитием и распространением этих технологий;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve">	<span class="italic">с обеспокоенностью отмечает, </span>что все еще сохраняется значительный цифровой разрыв, в том числе между странами и внутри стран и между женщинами и мужчинами, для преодоления которого необходимы, среди других мер, создание более благоприятной нормативно-правовой среды и расширение международного сотрудничества в целях обеспечения большей ценовой доступности, расширения доступа, повышения уровня образования, наращивания потенциала, утверждения принципа многоязычия, сохранения культуры, увеличения инвестиций и расширения соответствующего финансирования, признает, что гендерный цифровой разрыв отчасти обусловлен гендерными различиями, и рекомендует всем заинтересованным сторонам обеспечивать полноценное участие девочек и женщин в жизни информационного общества и доступ женщин и девочек к новым технологиям, особенно к информационно-коммуникационным технологиям в целях развития, в том числе путем борьбы с гендерным насилием, совершаемым с помощью технологий, таким как эксплуатация, домогательства и злоупотребления в отношении женщин и девочек;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_68" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_68__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> Комиссии по науке и технике в целях развития продолжать уделять должное внимание последствиям имеющих ключевое значение стремительных изменений в технологиях для достижения целей в области устойчивого развития в рамках соответствующих мандатов и имеющихся ресурсов в соответствии с резолюцией <a href="https://undocs.org/ru/A/RES/77/150">77/150</a> Генеральной Ассамблеи;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve">	<span class="italic">подтверждает</span>, что в своей резолюции <a href="https://undocs.org/ru/A/RES/77/150">77/150</a> Генеральная Ассамблея признала критически важное значение расширения участия всех стран, в частности развивающихся стран, в цифровой экономике, и далее отметила, что Комиссии по науке и технике в целях развития следовало бы изучить связь между данными и устойчивым развитием, включая управление данными, с учетом многочисленных аспектов данных, и предлагает Комиссии изучить эти вопросы;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_91" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_91__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением отмечает </span>празднование 3 мая под руководством Организации Объединенных Наций по вопросам образования, науки и культуры ежегодного Всемирного дня свободы печати, провозглашенного Генеральной Ассамблеей; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_104" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_104__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением отмечает также</span> празднование 17 мая под эгидой Международного союза электросвязи ежегодного Всемирного дня электросвязи и информационного общества;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_118" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_118__content">
+          <p xml:space="preserve">	<span class="italic">отмечает</span> текущую работу по осуществлению решений Всемирной встречи на высшем уровне, обращая особое внимание, в частности, на его многосторонний характер, роль, которую играют в этом отношении ведущие учреждения в качестве координаторов направлений действий, и роль региональных комиссий, региональных инициатив по обзору решений Всемирной встречи на высшем уровне и Группы Организации Объединенных Наций по вопросам информационного общества, и выражает признательность Комиссии по науке и технике в целях развития за ее роль в оказании содействия Экономическому и Социальному Совету в качестве общесистемного координатора последующей деятельности по итогам Всемирной встречи на высшем уровне;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_133" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_133__content">
+          <p xml:space="preserve">	<span class="italic">признает </span>ценность и принцип сотрудничества и взаимодействия широкого круга заинтересованных сторон, которые с самого начала характеризуют процесс осуществления решений Всемирной встречи на высшем уровне и которые четко признаны в Повестке дня на период до 2030 года, и отмечает, что правительства, международные организации, частный сектор, гражданское общество, научно-образовательные и технические круги и партнерства с участием многих заинтересованных сторон в рамках их соответствующих функций и обязанностей осуществляют многочисленные мероприятия в поддержку целей Всемирной встречи на высшем уровне и целей в области устойчивого развития;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_149" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_149__content">
+          <p xml:space="preserve">	<span class="italic">особо отмечает </span>значение сотрудничества между системой осуществления последующей деятельности и обзора хода выполнения решений Всемирной встречи на высшем уровне и Механизмом содействия развитию технологий, включая его многосторонний форум по использованию научно-технических достижений и новаторства в интересах достижения целей в области устойчивого развития, и призывает продолжать такое сотрудничество;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_166" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_166__content">
+          <p xml:space="preserve">	<span class="italic">принимает к сведению</span> доклады многих структур системы Организации Объединенных Наций, представленные в качестве вклада в подготовку годового доклада Генерального секретаря Организации Объединенных Наций для Комиссии по науке и технике в целях развития и опубликованные на веб-сайте Комиссии во исполнение резолюции 2007/8 Совета от 25 июля 2007 года, а также напоминает о важности тщательного согласования усилий между ведущими координаторами направлений действий и с секретариатом Комиссии;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_184" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_184__content">
+          <p xml:space="preserve">	<span class="italic">отмечает </span>ход осуществления на региональном уровне решений Всемирной встречи на высшем уровне при содействии региональных комиссий, о котором говорится в докладе Генерального секретаря о прогрессе, достигнутом в осуществлении решений и последующей деятельности по итогам Всемирной встречи на высшем уровне на региональном и международном уровнях, включая предпринятые в этом отношении шаги, и подчеркивает необходимость продолжать заниматься решением вопросов, представляющих особый интерес для каждого региона, с упором на устранение проблем и препятствий, с которыми каждый регион может сталкиваться в процессе реализации всех целей и принципов, определенных Всемирной встречей на высшем уровне, уделяя при этом особое внимание использованию информационно-коммуникационных технологий в целях развития;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_203" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_203__content">
+          <p xml:space="preserve">	<span class="italic">вновь заявляет</span> о том, что важно с помощью эффективных инструментов поддерживать координацию деятельности многочисленных сторон по осуществлению решений Всемирной встречи на высшем уровне в целях поощрения сотрудничества и партнерства между всеми заинтересованными сторонами, включая международные организации, обмена информацией между координаторами направлений действий и другими заинтересованными сторонами, выявления вопросов, нуждающихся в доработке, и обсуждения механизмов представления докладов по всему процессу осуществления;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_223" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_223__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> все заинтересованные стороны продолжать вносить информацию в базу данных для анализа результатов деятельности по достижению утвержденных на Всемирной встрече на высшем уровне целей, которую ведет Международный союз электросвязи, и предлагает структурам системы Организации Объединенных Наций обновить информацию о своих инициативах в указанной базе данных;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_244" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_244__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает</span> безотлагательную необходимость включения рекомендаций, содержащихся в итоговых документах Всемирной встречи на высшем уровне, в пересмотренные руководящие принципы страновых групп Организации Объединенных Наций в отношении подготовки общих анализов по странам и рамочных программ Организации Объединенных Наций по сотрудничеству в области устойчивого развития, в том числе добавления компонента, касающегося использования информационно-коммуникационных технологий в целях развития, в связи с чем Группа Организации Объединенных Наций по вопросам информационного общества предложила свою помощь;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_266" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_266__content">
+          <p xml:space="preserve">	<span class="italic">напоминает</span> о резолюции <a href="https://undocs.org/ru/A/RES/60/252">60/252</a> Генеральной Ассамблеи от 27 марта 2006 года, в которой Ассамблея просила Совет осуществлять надзор за общесистемной последующей деятельностью по выполнению решений женевского и тунисского этапов Всемирной встречи на высшем уровне;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_289" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_289__content">
+          <p xml:space="preserve">	<span class="italic">напоминает также</span> о том, что в своей резолюции <a href="https://undocs.org/ru/A/RES/70/125">70/125</a> Генеральная Ассамблея призвала продолжать представлять Совету ежегодные доклады о ходе осуществления решений Всемирной встречи на высшем уровне через Комиссию по науке и технике в целях развития, и подтверждает роль Комиссии, определенную для нее в резолюции 2006/46 Совета, по оказанию Совету содействия в качестве координационного центра в рамках общесистемной последующей деятельности, в частности в проведении обзора и оценки прогресса, достигнутого в осуществлении решений Всемирной встречи на высшем уровне;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_313" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_313__content">
+          <p xml:space="preserve">	<span class="italic">призывает </span>все государства при построении информационного общества предпринимать шаги к тому, чтобы не допускать и воздерживаться от введения любого рода не соответствующих международному праву и Уставу Организации Объединенных Наций односторонних мер, которые тормозят процесс всестороннего социально-экономического развития населения затрагиваемых стран и препятствуют росту уровня их благосостояния;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_338" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_338__content">
+          <p xml:space="preserve">	<span class="italic">приветствует</span> тот факт, что во время пандемии процесс стремительного расширения доступа к мобильной телефонной связи и широкополосного доступа в Интернет еще больше ускорился, благодаря чему в 2022 году 95 процентов населения мира жили в зоне действия мобильной широкополосной сети, а 5,3 миллиарда человек, или 66 процентов населения мира, пользовались Интернетом, что соответствует целям Всемирной встречи на высшем уровне; ценность такого прогресса еще больше повышается с появлением новых электронных и мобильных услуг и приложений в сферах здравоохранения, сельского хозяйства, образования, предпринимательской деятельности, развития, финансовых и государственных услуг, гражданского участия и обслуживания сделок, которые открывают широкие возможности для формирования информационного общества;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_364" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_364__content">
+          <p xml:space="preserve">	<span class="italic">с глубокой обеспокоенностью отмечает</span>, что многие развивающиеся страны не имеют приемлемого по стоимости доступа к информационно-коммуникационным технологиям и что для большинства малоимущих надежды, связанные с достижениями науки и техники, включая информационно-коммуникационные технологии, остаются несбывшимися, и особо отмечает необходимость эффективного использования потенциала технологий, включая информационно-коммуникационные технологии, управления данными и повышения уровня цифровой грамотности для преодоления цифрового разрыва и разрыва в уровне знаний;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_391" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_391__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает</span>, что усилия по содействию доступу к информационно-коммуникационным технологиям, цифровой, медийной и информационной грамотности, гражданскому участию и безопасности в Интернете имеют важное значение для преодоления цифрового разрыва и для обеспечения цифровой инклюзии и осуществления всех прав человека, включая право на развитие;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_419" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_419__content">
+          <p xml:space="preserve">	<span class="italic">выражает обеспокоенность </span>тем, что между странами и регионами и внутри них сохраняются многочисленные формы цифрового разрыва, и подчеркивает необходимость обеспечения цифровой, медийной и информационной грамотности, а также необходимость решения существующих проблем с целью преодоления цифрового разрыва, в том числе посредством международного сотрудничества и образования, стремясь обеспечить, чтобы отдельные лица, особенно лица, находящиеся в уязвимом положении, могли подключаться к Интернету и иметь к нему доступ безопасным, надежным и значимым образом, дабы они могли в полной мере участвовать в экономической, политической и общественной жизни в открытом для всех информационном обществе;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_448" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_448__content">
+          <p xml:space="preserve">	<span class="italic">признает</span>, что информационно-коммуникационные технологии открывают новые возможности и одновременно порождают новые проблемы и что существует насущная необходимость в устранении серьезных препятствий, с которыми сталкиваются развивающиеся страны в плане доступа к новым технологиям всеохватным образом, таких как отсутствие достаточных ресурсов, инфраструктуры, образования, потенциала, инвестиций и возможностей подключения к сети Интернет, а также проблемы, связанные с правом собственности на технологии, соответствующими стандартами и потоками, и в связи с этим призывает все заинтересованные стороны выделять достаточные средства, активизировать усилия по наращиванию потенциала и обеспечивать передачу технологий и знаний развивающимся странам, в частности наименее развитым странам и не имеющим выхода к морю странам, в целях формирования общества, основанного на широком использовании цифровых технологий, и построения экономики знаний; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_478" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_478__content">
+          <p xml:space="preserve">	<span class="italic">признает также</span> стремительное развитие сетей широкополосной связи, особенно в развитых странах, и подчеркивает необходимость срочного решения проблемы усиливающегося неравенства в сфере цифровых технологий между странами с высоким, средним и низким уровнем дохода и между другими регионами, а также внутри этих стран и регионов, проявляющегося в различиях в плане физического наличия, финансовой доступности, качества подсоединения и использования широкополосных каналов связи, с особым упором на оказание поддержки наименее развитым странам, малым островным развивающимся государствам и всему Африканскому континенту;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_509" class="SingleTxt">
+        <num>32.</num>
+        <content eId="para_509__content">
+          <p xml:space="preserve">	<span class="italic">признает далее</span>, что перевод средств связи на мобильную основу и появление новых цифровых платформ и услуг приводит к значительным изменениям в моделях ведения бизнеса операторами и что этот факт требует серьезного переосмысления того, как отдельные лица и группы пользуются сетями и средствами связи, а также государственных стратегий и способов возможного использования коммуникационных сетей для достижения целей в области развития;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_541" class="SingleTxt">
+        <num>33.</num>
+        <content eId="para_541__content">
+          <p xml:space="preserve">	<span class="italic">признает</span>, что, даже с учетом всех отмечаемых в некоторых областях положительных сдвигов и улучшений, во многих развивающихся странах информационно-коммуникационные технологии и возможности их практического применения до сих пор недоступны или неприемлемы по стоимости для большинства населения, в частности для жителей сельских районов;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_574" class="SingleTxt">
+        <num>34.</num>
+        <content eId="para_574__content">
+          <p xml:space="preserve">	<span class="italic">признает также</span>, что число пользователей Интернета неуклонно растет и что в некоторых случаях характер цифрового разрыва и разрыва в уровне знаний также меняется: если раньше он проявлялся в наличии или отсутствии доступа, то теперь речь идет о разном качестве доступа, информации и навыков, которые могут получать пользователи, и о разной ценности, которую они могут представлять для пользователей; и признает в этой связи, что необходимо уделять приоритетное внимание использованию информационно-коммуникационных технологий на основе инновационных подходов, в том числе подходов, предусматривающих участие многих заинтересованных сторон, в рамках национальных и региональных стратегий развития;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_608" class="SingleTxt">
+        <num>35.</num>
+        <content eId="para_608__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает</span> в этой связи исключительную важность многоязычия и местного информационного наполнения в условиях информационного общества и настоятельно призывает все заинтересованные стороны содействовать созданию и обеспечению доступности онлайнового информационного наполнения образовательного, культурного и научного характера в целях поощрения высококачественного доступа и обеспечения того, чтобы представители всех народов и культур могли иметь возможность для самовыражения и пользоваться доступом к Интернету на всех языках, включая языки коренных народов;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_643" class="SingleTxt">
+        <num>36.</num>
+        <content eId="para_643__content">
+          <p xml:space="preserve">	<span class="italic">признает</span> важность наращивания человеческого потенциала, создания благоприятных условий и отказоустойчивой инфраструктуры информационно-коммуникационных технологий и поддержки партнерств с участием широкого круга заинтересованных сторон, а также оказания помощи странам в их усилиях по повышению роли информационно-коммуникационных технологий в качестве инструмента достижения целей в области устойчивого развития; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_679" class="SingleTxt">
+        <num>37.</num>
+        <content eId="para_679__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает </span>продолжать уделять особое внимание получению максимальной отдачи от электронной торговли в плане ускорения процесса развития на основе осуществления инициативы «Электронная торговля для всех», в которой воплощен новый подход к развитию торговли с помощью электронного обмена, позволяющий развивающимся странам легче ориентироваться в массе предложений технической помощи по созданию потенциала для участия в электронной торговле, а донорам — получить более четкое представление о программах, которые они могли бы финансировать;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_716" class="SingleTxt">
+        <num>38.</num>
+        <content eId="para_716__content">
+          <p xml:space="preserve">	<span class="italic">учитывает </span>в этой связи, что Конференция Организации Объединенных Наций по торговле и развитию в сотрудничестве с другими донорами и организациями инициировала и провела экспресс-оценки готовности наименее развитых стран к ведению электронной торговли с целью повысить осведомленность о возможностях и проблемах, связанных с использованием электронной торговли в наименее развитых странах; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_754" class="SingleTxt">
+        <num>39.</num>
+        <content eId="para_754__content">
+          <p xml:space="preserve">	<span class="italic">напоминает </span>подготовленный Конференцией Организации Объединенных Наций по торговле и развитию доклад под названием “Digital Economy Report 2021” («Доклад о цифровой экономике 2021 года»), в котором рассматривается влияние трансграничных потоков данных для развития в плане максимального использования достижений в области развития и их справедливого распределения при одновременном сведении к минимуму рисков и влияния потенциальной фрагментации цифрового пространства;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_793" class="SingleTxt">
+        <num>40.</num>
+        <content eId="para_793__content">
+          <p xml:space="preserve">	<span class="italic">приветствует</span> проведение 27–29 апреля 2022 года в Женеве пятой сессии Межправительственной группы экспертов по электронной торговле и цифровой экономике и проведение 25–29 апреля 2022 года Недели электронной торговли Конференции Организации Объединенных Наций по торговле и развитию; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_833" class="SingleTxt">
+        <num>41.</num>
+        <content eId="para_833__content">
+          <p xml:space="preserve">	<span class="italic">принимает к сведению</span> последний глобальный доклад Комиссии по широкополосной связи в интересах устойчивого развития под названием “The State of Broadband 2022 <span class="italic">–</span> Accelerating broadband for new realities” («Состояние широкополосной связи в 2022 году: ускорение распространения широкополосной связи для новых реалий») и с интересом отмечает непрерывные усилия Комиссии по широкополосной связи в поддержку информационно-пропагандистской работы на высоком уровне, направленной на создание необходимых условий для доступного по цене и надежного подключения к широкополосной связи, в частности в рамках национальных планов широкополосного доступа и государственно-частных партнерств, в целях обеспечения того, чтобы задачи повестки дня в области развития решались с оказанием соответствующего воздействия и в сотрудничестве со всеми заинтересованными сторонами; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_874" class="SingleTxt">
+        <num>42.</num>
+        <content eId="para_874__content">
+          <p xml:space="preserve">	<span class="italic">напоминает</span> о постановке Комиссией по широкополосной связи в интересах устойчивого развития задач на период до 2025 года в поддержку осуществления инициативы «Подключим вторую половину» и в целях содействия подключению к Интернету 3,8 миллиарда человек в мире, которые на данный момент остаются неподключенными;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_916" class="SingleTxt">
+        <num>43.</num>
+        <content eId="para_916__content">
+          <p xml:space="preserve">	<span class="italic">признает</span>, что цифровая экономика и новейшие технологии имеют огромный потенциал в качестве инструмента, который можно использовать на благо общества и для осуществления решений Всемирной встречи на высшем уровне и достижения целей в области устойчивого развития;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_959" class="SingleTxt">
+        <num>44.</num>
+        <content eId="para_959__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением отмечает </span>многочисленные инициативы организаций системы Организации Объединенных Наций в поддержку проведения работы по направлениям действий, утвержденным на Всемирной встрече на высшем уровне, и рекомендует всем координаторам направлений действий продолжать предпринимать усилия для проведения работы по соответствующим направлениям действий;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1003" class="SingleTxt">
+        <num>45.</num>
+        <content eId="para_1003__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением отмечает также</span> работу, проводимую в рамках программы Организации Объединенных Наций по вопросам образования, науки и культуры «Информация для всех», направленной на оказание государствам-членам помощи в разработке стратегий преодоления цифрового разрыва и построения справедливого общества знаний, и с удовлетворением отмечает далее проведение ежегодно 24–31 октября Всемирной недели медийной и информационной грамотности; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1048" class="SingleTxt">
+        <num>46.</num>
+        <content eId="para_1048__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением отмечает </span>в этой связи Рекомендацию Организации Объединенных Наций по вопросам образования, науки и культуры об этических аспектах искусственного интеллекта, принятую 23 ноября 2021 года<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		Организация Объединенных Наций по вопросам образования, науки и культуры, <span class="italic">Акты Генеральной конференции</span>, <span class="italic">сорок первая сессия, Париж</span>, 9–24 ноября 2021 года, т. 1, <span class="italic">Резолюции</span>, приложение VII.</p></authorialNote>; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1094" class="SingleTxt">
+        <num>47.</num>
+        <content eId="para_1094__content">
+          <p xml:space="preserve">	<span class="italic">принимает к сведению,</span> что Международный союз электросвязи установил партнерские связи с более чем 40 другими подразделениями системы Организации Объединенных Наций в целях создания платформы «Искусственный интеллект во благо»;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1141" class="SingleTxt">
+        <num>48.</num>
+        <content eId="para_1141__content">
+          <p xml:space="preserve">	<span class="italic">отмечает </span>работу Международного союза электросвязи, в частности проведение с 26 сентября по 14 октября 2022 года в Бухаресте его Конференции полномочных представителей, в ходе которой государства-члены подтвердили свою приверженность общей концепции построения «подключенного мира»;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1189" class="SingleTxt">
+        <num>49.</num>
+        <content eId="para_1189__content">
+          <p xml:space="preserve">	<span class="italic">отмечает</span> проведение шестого Всемирного форума по политике в области электросвязи/информационно-коммуникационных технологий, организованного Международным союзом электросвязи с 16 по 18 декабря 2021 года;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1238" class="SingleTxt">
+        <num>50.</num>
+        <content eId="para_1238__content">
+          <p xml:space="preserve">	<span class="italic">отмечает также </span>проведение Всемирной ассамблеи по стандартизации электросвязи, организованной Международным союзом электросвязи с 1 по 9 марта 2022 года в Женеве;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1288" class="SingleTxt">
+        <num>51.</num>
+        <content eId="para_1288__content">
+          <p xml:space="preserve">	<span class="italic">отмечает далее </span>проведение Всемирной конференции по развитию электросвязи, организованной Международным союзом электросвязи с 6 по 16 июня 2022 года в Кигали;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1339" class="SingleTxt">
+        <num>52.</num>
+        <content eId="para_1339__content">
+          <p xml:space="preserve">	<span class="italic">ожидает</span> проведения восемнадцатого Симпозиума по всемирным показателям в сфере телекоммуникаций/информационно-коммуникационных технологий 3–4 июля 2023 года в Женеве на тему «Продвижение программы измерений для достижения универсального и реального подключения к Интернету»;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1391" class="SingleTxt">
+        <num>53.</num>
+        <content eId="para_1391__content">
+          <p xml:space="preserve">	<span class="italic">признает</span> работу Продовольственной и сельскохозяйственной организации Объединенных Наций по обеспечению всеобщего охвата цифровыми технологиями и развитию информационной и цифровой инфраструктуры в Африке и других регионах в интересах сокращения масштабов нищеты и обеспечения продовольственной безопасности;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1444" class="SingleTxt">
+        <num>54.</num>
+        <content eId="para_1444__content">
+          <p xml:space="preserve">	<span class="italic">признает также</span> работу Международной организации труда по изучению последствий технологических изменений для трудовой занятости, в частности последствий для женщин и лиц, находящихся в уязвимом положении;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1498" class="SingleTxt">
+        <num>55.</num>
+        <content eId="para_1498__content">
+          <p xml:space="preserve">	<span class="italic">признает далее </span>работу Глобальной обсерватории в области электронного здравоохранения под эгидой Всемирной организации здравоохранения, в том числе рассмотрение ею вопроса о том, как мобильное здравоохранение, телемедицина, применение электронных медицинских карт и компьютерное обучение могут способствовать достижению целей всеобщего охвата услугами здравоохранения;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1553" class="SingleTxt">
+        <num>56.</num>
+        <content eId="para_1553__content">
+          <p xml:space="preserve">	<span class="italic">признает</span> работу Программы развития Организации Объединенных Наций, включая публикацию ее Цифровой стратегии, имеющей целью использовать потенциал цифровых технологий в поддержку усилий по достижению целей в области устойчивого развития; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1609" class="SingleTxt">
+        <num>57.</num>
+        <content eId="para_1609__content">
+          <p xml:space="preserve">	<span class="italic">напоминает</span> о публикации стратегии Генерального секретаря по новым технологиям, содержащей информацию о том, каким образом система Организации Объединенных Наций будет поддерживать использование этих технологий для ускорения реализации Повестки дня на период до 2030 года и содействовать их увязке с ценностями, закрепленными в Уставе, Всеобщей декларации прав человека и нормах и стандартах международного права;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1666" class="SingleTxt">
+        <num>58.</num>
+        <content eId="para_1666__content">
+          <p xml:space="preserve">	<span class="italic">подтверждает</span> решимость задействовать потенциал информационно-коммуникационных технологий для достижения целей Повестки дня на период до 2030 года и других согласованных на международном уровне целей в области развития, отмечая, что они могут ускорить процесс достижения всех 17 целей в области устойчивого развития, в связи с этим настоятельно призывает правительства всех стран, частный сектор, гражданское общество, международные организации, технические и научно-образовательные круги и все другие соответствующие заинтересованные стороны предусматривать использование информационно-коммуникационных технологий в своих подходах к достижению целей в области устойчивого развития и просит структуры системы Организации Объединенных Наций, содействующие работе по направлениям действий, утвержденным на Всемирной встрече на высшем уровне, провести обзор порядка представления докладов и своих планов работы с учетом необходимости оказания поддержки в осуществлении Повестки дня на период до 2030 года;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1724" class="SingleTxt">
+        <num>59.</num>
+        <content eId="para_1724__content">
+          <p xml:space="preserve">	<span class="italic">с глубокой обеспокоенностью отмечает </span>тот факт, что гендерный разрыв в использовании цифровых технологий на глобальном уровне увеличился на 20 миллионов за период с 2021 по 2022 год — в настоящее время Интернетом пользуются 63 процента женщин, тогда как показатель для мужчин составляет 69 процентов — и что во многих беднейших странах мира женщины по‑прежнему ограничены в возможностях использования цифровых технологий, обращает внимание на сохранение гендерного цифрового разрыва, который выражается в неравном доступе женщин к информационно-коммуникационным технологиям и использовании ими таких технологий, в том числе в сфере образования и занятости и других областях социально-экономического развития, и в соответствии с целью 5 в области устойчивого развития, предусматривающей достижение гендерного равенства и расширение прав и возможностей всех женщин и девочек, призывает государства-члены принимать все надлежащие меры, прежде всего в целях значительного повышения уровня образования женщин и девочек и уровня их участия в деятельности, связанной с информационно-коммуникационными технологиями, в качестве пользователей, создателей информационного наполнения, работников, предпринимателей, новаторов и лидеров;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1783" class="SingleTxt">
+        <num>60.</num>
+        <content eId="para_1783__content">
+          <p xml:space="preserve">	<span class="italic">отмечает</span> многочисленные инициативы, направленные на преодоление гендерного разрыва в использовании цифровых технологий, включая, в частности, Международный день «Девушки в ИКТ» (Международный союз электросвязи), Глобальное партнерство в интересах гендерного равенства в цифровую эпоху (инициатива «Равные» (EQUALS)), присуждаемую им премию в сфере технологий (EQUALS in Tech) (Международный союз электросвязи и Структура Организации Объединенных Наций по вопросам гендерного равенства и расширения прав и возможностей женщин), сеть «Электронная торговля в интересах женщин» (Конференция Организации Объединенных Наций по торговле и развитию), систему гендерно ориентированных показателей для средств массовой информации (Организация Объединенных Наций по вопросам образования, науки и культуры), инициативу «Женщины на главной странице» (Организация Объединенных Наций по вопросам образования, науки и культуры), глобальное исследование на тему «Гендерный фактор и средства массовой информации» (Организация Объединенных Наций по вопросам образования, науки и культуры), Рабочую группу по широкополосной связи и гендерным вопросам Комиссии по широкополосной связи, Форум по передовой практике в гендерных вопросах и вопросах доступа, действующий в рамках Форума по вопросам управления Интернетом, работу по гендерным вопросам, проводимую в рамках Форума Всемирной встречи на высшем уровне по вопросам информационного общества, и работу по поддержке возможностей для женщин и девочек в секторе информационно-коммуникационных технологий, проводимую Всемирным банком в ряде стран, а также работу многих других заинтересованных сторон в рассматриваемой сфере; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1843" class="SingleTxt">
+        <num>61.</num>
+        <content eId="para_1843__content">
+          <p xml:space="preserve">	<span class="italic">подтверждает</span> обязательство уделять особое внимание уникальным по своему характеру новым проблемам в области информационно-коммуникационных технологий, с которыми сталкиваются все страны, в частности развивающиеся страны, предусмотренное в соответствующих пунктах резолюции <a href="https://undocs.org/ru/A/RES/70/125">70/125</a> Генеральной Ассамблеи; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1904" class="SingleTxt">
+        <num>62.</num>
+        <content eId="para_1904__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением отмечает </span>специальные инициативы и сегменты, начатые в рамках Форума Всемирной встрече на высшем уровне по вопросам информационного общества, в частности Многосторонний альянс по ИКТ и пожилым людям, в сотрудничестве с Международным союзом электросвязи, Всемирной организацией здравоохранения и Департаментом по экономическим и социальным вопросам Секретариата Организации Объединенных Наций и в соответствии с Десятилетием здорового старения Организации Объединенных Наций и молодежными кампаниями;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1966" class="SingleTxt">
+        <num>63.</num>
+        <content eId="para_1966__content">
+          <p xml:space="preserve">	<span class="italic">отмечает</span>, что, хотя во многих сферах деятельности заложена прочная основа для создания потенциала в области информационно-коммуникационных технологий в целях построения информационного общества, по‑прежнему необходимо продолжать усилия по решению текущих задач, особенно в развивающихся и наименее развитых странах, и обращает внимание на положительные результаты расширенной работы по укреплению потенциала, в которой участвуют учреждения, организации и структуры, занимающиеся вопросами информационно-коммуникационных технологий и регулирования Интернета;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2029" class="SingleTxt">
+        <num>64.</num>
+        <content eId="para_2029__content">
+          <p xml:space="preserve">	<span class="italic">принимает к сведению </span>более 600 обязательств, принятых в рамках Цифровой коалиции Partner2Connect Международного союза электросвязи (также известной как Р2С), которая направлена на содействие надежному доступу к Интернету и цифровой трансформации во всем мире, прежде всего в развивающихся странах, включая развивающиеся страны, не имеющие выхода к морю, и малые островные развивающиеся государства, в соответствии с направлениями действий, утвержденными на Всемирной встречи на высшем уровне, и целями в области устойчивого развития;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2093" class="SingleTxt">
+        <num>65.</num>
+        <content eId="para_2093__content">
+          <p xml:space="preserve">	<span class="italic">считает</span> необходимым сосредоточить внимание на стратегиях укрепления потенциала и мерах долговременной поддержки для дальнейшего повышения действенности мероприятий и инициатив на национальном и местном уровнях, направленных на оказание консультативной помощи, услуг и поддержки в целях построения открытого для всех информационного общества, ориентированного на интересы людей и развитие;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2158" class="SingleTxt">
+        <num>66.</num>
+        <content eId="para_2158__content">
+          <p xml:space="preserve">	<span class="italic">отмечает,</span> что появляются все новые тематические направления, такие как электронные прикладные программы в сфере охраны окружающей среды и использование информационно-коммуникационных технологий для принятия мер раннего оповещения, смягчения последствий изменения климата и адаптации к нему, ликвидации бедствий, взаимодействия через социальные сети, поддержания культурного и лингвистического многообразия, виртуализации, облачных вычислений и предоставления облачных сервисов, обеспечения мобильного Интернета и услуг, базирующихся на мобильной связи, работы сетей, обслуживающих локальные сообщества, преодоления гендерного цифрового разрыва, обеспечения кибербезопасности, защиты неприкосновенности частной жизни и свободы выражения мнений в соответствии с положениями статей 17 и 19 Международного пакта о гражданских и политических правах<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		См. резолюцию <a href="https://undocs.org/ru/A/RES/2200(XXI)">2200 A (XXI)</a> Генеральной Ассамблеи, приложение.</p></authorialNote>, а также расширения прав и возможностей уязвимых групп общества, прежде всего детей и молодежи, и их защиты, в частности от киберэксплуатации и кибернасилия; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2224" class="SingleTxt">
+        <num>67.</num>
+        <content eId="para_2224__content">
+          <p xml:space="preserve">	<span class="italic">подтверждает</span>, что в итоговом документе, посвященном общему обзору работы по направлениям действий, утвержденным на Всемирной встрече на высшем уровне, Генеральная Ассамблея призвала к ежегодному проведению Форума Всемирной встречи на высшем уровне по вопросам информационного общества<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		См. резолюцию <a href="https://undocs.org/ru/A/RES/70/125">70/125</a> Генеральной Ассамблеи.</p></authorialNote>, и признает важную роль Форума в расширении сотрудничества, партнерства, новаторской деятельности и обмена опытом и передовой практикой между всеми заинтересованными сторонами в области использования информационно-коммуникационных технологий в целях устойчивого развития;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2291" class="SingleTxt">
+        <num>68.</num>
+        <content eId="para_2291__content">
+          <p xml:space="preserve">	<span class="italic">отмечает </span>проведение с 30 мая по 3 июня 2022 года Форума Всемирной встречи на высшем уровне по вопросам информационного общества 2022 года, который организуется Международным союзом электросвязи совместно с Организацией Объединенных Наций по вопросам образования, науки и культуры, Программой развития Организации Объединенных Наций и Конференцией Организации Объединенных Наций по торговле и развитию, на тему «Использование информационно-коммуникационных технологий для обеспечения благополучия, инклюзивности и устойчивости: сотрудничество в рамках Всемирной встречи на высшем уровне по вопросам информационного общества для ускорения прогресса в достижении целей в области устойчивого развития», отмечает также проведение с 13 по 17 марта 2023 года Форума Всемирной встречи на высшем уровне по вопросам информационного общества 2023 года на тему «Направления действий, утвержденные на Всемирной встрече на высшем уровне по вопросам информационного общества, для восстановления по принципу «лучше, чем было» и для ускорения достижения целей в области устойчивого развития» и отмечает далее проведение с 27 по 31 мая 2024 года в Женеве мероприятия высокого уровня Форума ВВУИО+20 и предстоящий открытый процесс консультаций, который призван обеспечить широкое участие в Форуме и чувство сопричастности к нему широкого круга сторон;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2359" class="SingleTxt">
+        <num>69.</num>
+        <content eId="para_2359__content">
+          <p xml:space="preserve">	<span class="italic">призывает </span>координаторов направлений действий использовать Женевский план действий<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">		См. <a href="https://undocs.org/ru/A/C.2/59/3">A/C.2/59/3</a>, приложение.</p></authorialNote> в качестве основы для определения практических мер по использованию информационно-коммуникационных технологий для содействия достижению целей Повестки дня на период до 2030 года, отмечая разработанную структурами Организации Объединенных Наций матрицу для согласования направлений действий Всемирной встречи на высшем уровне по вопросам информационного общества с целями в области устойчивого развития;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2428" class="SingleTxt">
+        <num>70.</num>
+        <content eId="para_2428__content">
+          <p xml:space="preserve">	<span class="italic">призывает </span>координаторов направлений действий, утвержденных на Всемирной встрече на высшем уровне, обеспечить тесную увязку с Повесткой дня на период до 2030 года при рассмотрении новых видов работы по выполнению решений Всемирной встречи на высшем уровне с учетом их существующих мандатов и имеющихся ресурсов; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2498" class="SingleTxt">
+        <num>71.</num>
+        <content eId="para_2498__content">
+          <p xml:space="preserve">	<span class="italic">вновь обращает внимание</span> на важность призыва Генеральной Ассамблеи ко всем заинтересованным сторонам обеспечить, чтобы подходы к достижению целей в области устойчивого развития предусматривали использование информационно-коммуникационных технологий, и ее просьбы о том, чтобы структуры Организации Объединенных Наций, содействующие работе по направлениям действий, утвержденным на Всемирной встрече на высшем уровне, пересмотрели порядок представления докладов и свои планы работы с учетом необходимости оказания поддержки в осуществлении Повестки дня на период до 2030 года;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2569" class="SingleTxt">
+        <num>72.</num>
+        <content eId="para_2569__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> к активному участию предпринимателей в процессе осуществления решений Всемирной встречи на высшем уровне и достижения целей в области устойчивого развития в соответствии с призывом, содержащимся в резолюции <a href="https://undocs.org/ru/A/RES/77/160">77/160</a> Генеральной Ассамблеи;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2570" class="H23">
+        <subheading>		Регулирование Интернета</subheading>
+      </paragraph>
+      <paragraph eId="para_2571" class="SingleTxt">
+        <num>73.</num>
+        <content eId="para_2571__content">
+          <p xml:space="preserve">	<span class="italic">подтверждает</span>, что осуществление решений Всемирной встречи на высшем уровне, касающихся регулирования Интернета, а именно процесса активизации сотрудничества и созыва Форума по вопросам управления Интернетом, должно обеспечиваться Генеральным секретарем в рамках двух различных процессов, и признает, что эти два процесса могут дополнять друг друга;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2572" class="SingleTxt">
+        <num>74.</num>
+        <content eId="para_2572__content">
+          <p xml:space="preserve">	<span class="italic">подтверждает также</span> пункты 34–37 и 67–72 Тунисской программы;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2574" class="SingleTxt">
+        <num>75.</num>
+        <content eId="para_2574__content">
+          <p xml:space="preserve">	<span class="italic">подтверждает далее</span> пункты 55–65 резолюции <a href="https://undocs.org/ru/A/RES/70/125">70/125</a> Генеральной Ассамблеи;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2575" class="H23">
+        <subheading>		Активизация сотрудничества</subheading>
+      </paragraph>
+      <paragraph eId="para_2576" class="SingleTxt">
+        <num>76.</num>
+        <content eId="para_2576__content">
+          <p xml:space="preserve">	<span class="italic">признает</span> важность активизации сотрудничества в будущем, с тем чтобы правительства могли на равной основе играть свою роль и выполнять свои функции в решении международных вопросов государственной политики, касающихся Интернета, но не в сфере повседневной деятельности технического и эксплуатационного характера, которая не влияет на эти вопросы;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2577" class="SingleTxt">
+        <num>77.</num>
+        <content eId="para_2577__content">
+          <p xml:space="preserve">	<span class="italic">напоминает о</span> работе, проводимой Рабочей группой по активизации сотрудничества, учрежденной Председателем Комиссии по науке и технике в целях развития в соответствии с просьбой Генеральной Ассамблеи, содержащейся в ее резолюции <a href="https://undocs.org/ru/A/RES/70/125">70/125</a>, для выработки рекомендаций относительно путей дальнейшего упрочения сотрудничества, как это предусмотрено в Тунисской программе, и отмечает также, что Рабочая группа обеспечила полноценное участие правительств и других соответствующих заинтересованных сторон, особенно из развивающихся стран, принимая во внимание все разнообразие их позиций и опыта;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2579" class="SingleTxt">
+        <num>78.</num>
+        <content eId="para_2579__content">
+          <p xml:space="preserve">	<span class="italic">напоминает также</span>, что Рабочая группа провела в период с сентября 2016 года по январь 2018 года пять заседаний, на которых она обсудила материалы, полученные от государств-членов и других заинтересованных сторон, как это было предусмотрено Генеральной Ассамблеей в ее резолюции <a href="https://undocs.org/ru/A/RES/70/125">70/125</a>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2582" class="SingleTxt">
+        <num>79.</num>
+        <content eId="para_2582__content">
+          <p xml:space="preserve">	<span class="italic">напоминает далее о</span> докладе Председателя Рабочей группы<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">		См. E/CN.16/2018/CRP.3.</p></authorialNote>, в котором содержатся ссылки на полный текст всех предложений и представленных материалов, и выражает признательность Председателю и всем участникам, которые представили свои мнения и внесли вклад в деятельность Рабочей группы;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2586" class="SingleTxt">
+        <num>80.</num>
+        <content eId="para_2586__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением отмечает</span> существенный прогресс, достигнутый Рабочей группой по многим направлениям, и тот факт, что, как представляется, по некоторым вопросам сформировался консенсус, хотя по ряду других вопросов сохраняются значительные расхождения во мнениях, и в этой связи выражает сожаление по поводу того, что Рабочая группа не смогла договориться о рекомендациях в отношении путей дальнейшего упрочения сотрудничества, как это предусмотрено в Тунисской программе;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2587" class="H23">
+        <subheading>		Форум по вопросам управления Интернетом</subheading>
+      </paragraph>
+      <paragraph eId="para_2588" class="SingleTxt">
+        <num>81.</num>
+        <content eId="para_2588__content">
+          <p xml:space="preserve">	<span class="italic">признает</span> важность Форума по вопросам управления Интернетом и ценность его мандата в качестве площадки для проведения диалога по различным вопросам с участием большого числа заинтересованных сторон, включая обсуждение вопросов государственной политики, касающихся ключевых элементов регулирования Интернета, как об этом говорится в пункте 72 Тунисской программы;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2589" class="SingleTxt">
+        <num>82.</num>
+        <content eId="para_2589__content">
+          <p xml:space="preserve">	<span class="italic">ссылается</span> на решение Генеральной Ассамблеи, содержащееся в ее резолюции <a href="https://undocs.org/ru/A/RES/70/125">70/125</a>, о продлении мандата Форума по вопросам управления Интернетом еще на 10 лет, в течение которых Форум должен продолжать демонстрировать прогресс в совершенствовании методов работы и обеспечении участия соответствующих заинтересованных сторон из развивающихся стран;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2591" class="SingleTxt">
+        <num>83.</num>
+        <content eId="para_2591__content">
+          <p xml:space="preserve">	<span class="italic">признает </span>появление инициатив по созданию национальных и региональных форумов по вопросам управления Интернетом, реализуемых во всех регионах в целях решения вопросов регулирования Интернета, актуальных и приоритетных для выдвинувших их стран или регионов;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2594" class="SingleTxt">
+        <num>84.</num>
+        <content eId="para_2594__content">
+          <p xml:space="preserve">	<span class="italic">ссылается </span>на резолюцию <a href="https://undocs.org/ru/A/RES/70/125">70/125</a> Генеральной Ассамблеи, в которой Ассамблея призвала Комиссию по науке и технике в целях развития уделять должное внимание в представляемых ею очередных докладах выполнению рекомендаций, содержащихся в докладе Рабочей группы Комиссии по укреплению Форума по вопросам управления Интернетом<authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">		<a href="https://undocs.org/ru/A/67/65">A/67/65-E/2012/48</a> и <a href="https://undocs.org/ru/A/67/65/Corr.1">A/67/65/Corr.1-E/2012/48/Corr.1</a>.</p></authorialNote>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2598" class="SingleTxt">
+        <num>85.</num>
+        <content eId="para_2598__content">
+          <p xml:space="preserve">	<span class="italic">отмечает</span> проведение с 28 ноября по 2 декабря 2022 года в Аддис-Абебе семнадцатого заседания Форума по управлению Интернетом на тему «Жизнестойкий Интернет для совместного устойчивого и общего будущего»;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2603" class="SingleTxt">
+        <num>86.</num>
+        <content eId="para_2603__content">
+          <p xml:space="preserve">	<span class="italic">ожидает</span> проведения восемнадцатого заседания Форума по вопросам управления Интернетом, который будет организован 8–12 октября 2023 года в Киото, Япония, на тему «Интернет, которого мы хотим –– расширение прав и возможностей всех людей», и рассчитывает на дальнейшее выполнение рекомендаций, содержащихся в докладе Рабочей группы Комиссии по науке и технике в целях развития по укреплению Форума по вопросам управления Интернетом, которые применимы к процессу его подготовки;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2609" class="SingleTxt">
+        <num>87.</num>
+        <content eId="para_2609__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением отмечает</span> в этой связи непрерывный прогресс в межсессионной работе Форума по вопросам управления Интернетом, связанной с различными практическими аспектами подключения к Интернету еще одного миллиарда человек и расширения их возможностей в плане использования Интернета, работу динамичных коалиций и форумов, посвященных передовой практике, и сетей по вопросам политики, а также вклад, который вносят национальные и региональные форумы по вопросам управления Интернетом;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2610" class="H23">
+        <subheading>		Предстоящие задачи</subheading>
+      </paragraph>
+      <paragraph eId="para_2611" class="SingleTxt">
+        <num>88.</num>
+        <content eId="para_2611__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> структуры Организации Объединенных Наций продолжать активно сотрудничать в процессе осуществления решений и последующей деятельности по итогам Всемирной встречи на высшем уровне в рамках системы Организации Объединенных Наций, предпринимать необходимые шаги и заявлять о приверженности построению открытого для всех информационного общества, ориентированного на интересы людей и развитие, а также стимулировать процесс достижения согласованных на международном уровне целей в области развития, в том числе целей, поставленных в Повестке дня на период до 2030 года;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2612" class="SingleTxt">
+        <num>89.</num>
+        <content eId="para_2612__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> все заинтересованные стороны продолжать считать первоочередной задачей ликвидацию цифрового неравенства и содействие всеобщему охвату цифровыми технологиями в их различных проявлениях, внедрять действенные стратегии, способствующие созданию электронного правительства, и продолжать держать в поле зрения вопросы политики в области информационно-коммуникационных технологий и их применения в интересах малоимущих слоев населения, с тем чтобы охватить лиц, находящихся в уязвимом положении, включая доступ к надежной и доступной по цене широкополосной связи на низовом уровне, в том числе с использованием моделей широкого участия, с целью добиться сокращения цифрового неравенства между странами и внутри стран в рамках усилий по построению информационных обществ и обществ знаний;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2614" class="SingleTxt">
+        <num>90.</num>
+        <content eId="para_2614__content">
+          <p xml:space="preserve">	<span class="italic">предлагает </span>всем заинтересованным сторонам принять активное участие в мероприятии высокого уровня Форума ВВУИО+20, которое состоится в Женеве 27–31 мая 2024 года, включая консультации с участием многих заинтересованных сторон по вопросу о достигнутых результатах, основных тенденциях, проблемах и возможностях в отношении направлений действий, утвержденных на Всемирной встрече на высшем уровне, для достижения целей в области устойчивого развития;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2617" class="SingleTxt">
+        <num>91.</num>
+        <content eId="para_2617__content">
+          <p xml:space="preserve">	<span class="italic">признает </span>сохраняющиеся проблемы, препятствующие полному осуществлению решений Всемирной встречи на высшем уровне, признает также сохраняющиеся проблемы в деле осуществления Повестки дня на период до 2030 года, и предлагает всем заинтересованным сторонам ускорить осуществление направлений действий, утвержденных на Всемирной встрече на высшем уровне, для реализации целей, определенных в процессе 10-летнего обзора, и содействия достижению целей в области устойчивого развития;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2621" class="SingleTxt">
+        <num>92.</num>
+        <content eId="para_2621__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает</span> все заинтересованные стороны придавать приоритетное значение разработке новаторских подходов, способствующих обеспечению всеобщего доступа к приемлемой по стоимости инфраструктуре широкополосной связи для развивающихся стран и использованию соответствующих услуг широкополосной связи, с тем чтобы обеспечить построение открытого для всех информационного общества, ориентированного на развитие и интересы людей, а также сведение к минимуму цифрового неравенства;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2626" class="SingleTxt">
+        <num>93.</num>
+        <content eId="para_2626__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> все заинтересованные стороны содействовать созданию благоприятных общеполитических условий для инвестиций и развивать сотрудничество и партнерство между государственным и частным секторами, с тем чтобы осуществлять планомерное инвестирование в сфере инфраструктуры информационно-коммуникационных технологий, соответствующих приложений и услуг, информационного наполнения и цифровых навыков для обеспечения надежного сетевого подключения, необходимого для прогресса в достижении целей в области устойчивого развития;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2632" class="SingleTxt">
+        <num>94.</num>
+        <content eId="para_2632__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> международные и региональные организации продолжать регулярно оценивать уровень всеобщей доступности информационно-коммуникационных технологий для стран и представлять информацию по этому вопросу в целях создания равных возможностей для роста секторов информационно-коммуникационных технологий в развивающихся странах;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2639" class="SingleTxt">
+        <num>95.</num>
+        <content eId="para_2639__content">
+          <p xml:space="preserve">	<span class="italic">признает</span>, что в соответствии с пунктом 4 выше финансирование информационно-коммуникационных технологий в целях развития необходимо рассматривать в контексте все более важной роли информационно-коммуникационных технологий не только как средства коммуникации, но и как фактора, способствующего развитию, и как средства реализации согласованных на международном уровне целей и задач в области развития, включая цели в области устойчивого развития; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2647" class="SingleTxt">
+        <num>96.</num>
+        <content eId="para_2647__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает </span>все страны прилагать конкретные усилия для выполнения своих обязательств в соответствии с Аддис-Абебской программой действий третьей Международной конференции по финансированию развития<authorialNote marker="13" placement="bottom" eId="authorialNote_13"><p xml:space="preserve">		Резолюция <a href="https://undocs.org/ru/A/RES/69/313">69/313</a> Генеральной Ассамблеи, приложение.</p></authorialNote>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2656" class="SingleTxt">
+        <num>97.</num>
+        <content eId="para_2656__content">
+          <p xml:space="preserve">	<span class="italic">вновь заявляет</span> о важности использования показателей в сфере информационно-коммуникационных технологий в формате открытых данных в качестве одного из инструментов контроля и оценки для определения масштабов цифрового разрыва между странами и внутри обществ, а также для обеспечения информированности директивных органов при разработке ими политики и стратегий в области социального, культурного и экономического развития, подчеркивает важность стандартизации и согласования надежных и регулярно обновляемых показателей и особо отмечает ценность детализированных по гендерному признаку данных для содействия ликвидации гендерного цифрового разрыва;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2666" class="SingleTxt">
+        <num>98.</num>
+        <content eId="para_2666__content">
+          <p xml:space="preserve">	<span class="italic">признает</span> важность цифровых средств измерения и контроля, помогающих в достижении и количественной оценке целей в области устойчивого развития;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2677" class="SingleTxt">
+        <num>99.</num>
+        <content eId="para_2677__content">
+          <p xml:space="preserve">	<span class="italic">вновь заявляет</span> о важности обмена информацией о передовой практике на всех уровнях и, признавая выдающиеся успехи в осуществлении проектов и инициатив, которые способствуют достижению целей Всемирной встречи на высшем уровне, рекомендует, принимая при этом к сведению доклад о примерах успешного выполнения решений Всемирной встречи на высшем уровне, всем заинтересованным сторонам выдвигать — в качестве составной части процесса анализа результатов деятельности в связи со Всемирной встречей на высшем уровне — свои проекты на получение ежегодных премий, учрежденных по линии Всемирной встречи на высшем уровне; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2689" class="SingleTxt">
+        <num>100.</num>
+        <list eId="para_2689_list">
+          <intro eId="para_2689_list_intro">
+            <p xml:space="preserve">	<span class="italic">призывает</span> организации системы Организации Объединенных Наций и другие соответствующие организации и форумы в соответствии с решениями Всемирной встречи на высшем уровне проводить периодический обзор методологий определения показателей в сфере информационно-коммуникационных технологий, принимая во внимание различные уровни развития и национальные условия, и в этой связи: </p>
+          </intro>
+          <point eId="para_2689_list_point_a">
+            <num>a)</num>
+            <content eId="para_2689_list_point_a_content">
+              <p xml:space="preserve">	<span class="italic">рекомендует </span>государствам-членам создавать и устанавливать на национальном уровне инфраструктуру для сбора данных об информационно-коммуникационных технологиях, распространять информацию о результатах проводимых в странах тематических исследований и сотрудничать с другими странами в рамках программ обмена по линии укрепления потенциала;</p>
+            </content>
+          </point>
+          <point eId="para_2689_list_point_b">
+            <num>b)</num>
+            <content eId="para_2689_list_point_b_content">
+              <p xml:space="preserve">	<span class="italic">рекомендует</span> организациям системы Организации Объединенных Наций и другим соответствующим организациям и форумам содействовать проведению оценки роли, которую информационно-коммуникационные технологии играют в обеспечении устойчивого развития;</p>
+            </content>
+          </point>
+          <point eId="para_2689_list_point_c">
+            <num>c)</num>
+            <content eId="para_2689_list_point_c_content">
+              <p xml:space="preserve">	<span class="italic">с удовлетворением отмечает</span> работу Партнерства по измерению информационно-коммуникационных технологий в целях развития и серию публикаций под названием “Measuring Digital Development” («Измерение цифрового развития»), в которых представлена информация о последних тенденциях и статистические данные о физической и финансовой доступности информационно-коммуникационных технологий и эволюции информационного общества и общества знаний во всем мире, в том числе с использованием индекса развития информационно-коммуникационных технологий;</p>
+            </content>
+          </point>
+          <point eId="para_2689_list_point_d">
+            <num>d)</num>
+            <content eId="para_2689_list_point_d_content">
+              <p xml:space="preserve">	<span class="italic">призывает </span>Партнерство по измерению информационно-коммуникационных технологий в целях развития продолжать заниматься выполнением соответствующих решений Статистической комиссии о статистике информационно-коммуникационных технологий в целях подготовки высококачественных и актуальных статистических данных об информационно-коммуникационных технологиях и реализации потенциальных преимуществ применения больших данных в целях официальной статистики;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_2702" class="SingleTxt">
+        <num>101.</num>
+        <content eId="para_2702__content">
+          <p xml:space="preserve">	<span class="italic">предлагает </span>международному сообществу вносить добровольные взносы в специальный целевой фонд, учрежденный Конференцией Организации Объединенных Наций по торговле и развитию в поддержку работы Комиссии по науке и технике в целях развития, направленной на проведение обзора и оценки последующей деятельности по итогам Всемирной встречи на высшем уровне, с благодарностью отмечая при этом финансовую поддержку, предоставляемую этому фонду правительствами Соединенного Королевства Великобритании и Северной Ирландии, Соединенных Штатов Америки, Финляндии и Швейцарии;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2716" class="SingleTxt">
+        <num>102.</num>
+        <content eId="para_2716__content">
+          <p xml:space="preserve">	<span class="italic">ссылается </span>на содержащееся в резолюции <a href="https://undocs.org/ru/A/RES/70/125">70/125</a> Генеральной Ассамблеи предложение о проведении Ассамблеей в 2025 году совещания высокого уровня, посвященного общему обзору хода осуществления решений Всемирной встречи на высшем уровне, <span class="italic">с удовлетворением отмечает</span> «дорожную карту» с описанием вклада Комиссии по науке и технике в целях развития в общий обзор и рекомендует государствам-членам оказать финансовую или иную поддержку его проведению; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2731" class="SingleTxt">
+        <num>103.</num>
+        <content eId="para_2731__content">
+          <p xml:space="preserve">	<span class="italic">с признательностью принимает к сведению</span> две «дорожные карты», разработанные Международным союзом электросвязи и Организацией Объединенных Наций по вопросам образования, науки и культуры касательно их подготовки к 20-летнему обзору хода осуществления решений Всемирной встречи на высшем уровне;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2747" class="SingleTxt">
+        <num>104.</num>
+        <content eId="para_2747__content">
+          <p xml:space="preserve">	<span class="italic">просит </span>Комиссию по науке и технике в целях развития собрать материалы от государств-членов, всех координаторов и других заинтересованных сторон и организовать в ходе своей двадцать седьмой сессии в 2024 году и своей двадцать восьмой сессии в 2025 году предметное обсуждение прогресса, достигнутого в осуществлении решений Всемирной встречи на высшем уровне за последние 20 лет, и представить Генеральной Ассамблее через Экономический и Социальный Совет доклад по этому вопросу;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2764" class="SingleTxt">
+        <num>105.</num>
+        <content eId="para_2764__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением принимает к сведению</span> доклад Генерального секретаря и соответствующее обсуждение Комиссии по науке и технике в целях развития на ее двадцать шестой сессии и признает роль Комиссии в качестве ведущей структуры, занимающейся вопросами общесистемной координации последующей деятельности по итогам Всемирной встречи на высшем уровне;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2782" class="SingleTxt">
+        <num>106.</num>
+        <content eId="para_2782__content">
+          <p xml:space="preserve">	<span class="italic">особо отмечает </span>важность содействия построению открытого для всех информационного общества с особым акцентом на ликвидации неравенства в сфере цифровых технологий и широкополосной связи и с учетом интересов развивающихся стран, гендерных и культурных аспектов, а также потребностей молодежи и других недостаточно представленных групп;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2801" class="SingleTxt">
+        <num>107.</num>
+        <content eId="para_2801__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> продолжать диалог и работу по укреплению сотрудничества, как это предусмотрено в Тунисской программе;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2821" class="SingleTxt">
+        <num>108.</num>
+        <content eId="para_2821__content">
+          <p xml:space="preserve">	<span class="italic">особо отмечает</span> продолжающееся обсуждение доклада Генерального секретаря, озаглавленного «Дорожная карта по цифровому сотрудничеству»<authorialNote marker="14" placement="bottom" eId="authorialNote_14"><p xml:space="preserve">		<a href="https://undocs.org/ru/A/74/821">A/74/821</a>.</p></authorialNote>, и предложений, содержащихся в докладе Генерального секретаря «Наша общая повестка дня»<authorialNote marker="15" placement="bottom" eId="authorialNote_15"><p xml:space="preserve">		<a href="https://undocs.org/ru/A/75/982">A/75/982</a>.</p></authorialNote>, включая глобальный цифровой договор, и имеющих отношение к Всемирной встрече на высшем уровне, и в этой связи призывает к проведению дальнейших прозрачных и всеохватных консультаций с государствами-членами и всеми соответствующими заинтересованными сторонами относительно дальнейших действий, согласующихся с итогами Всемирной встречи на высшем уровне, и подчеркивает важность обеспечения синергии и недопущения дублирования работы различных структур;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2842" class="SingleTxt">
+        <num>109.</num>
+        <content eId="para_2842__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает </span>в связи с вышеизложенным цель извлечения максимальной пользы из технологий для достижения целей в области устойчивого развития и вновь подчеркивает идею о том, чтобы не оставлять никого позади, которая является главным преобразующим обещанием Повестки дня на период до 2030 года;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2864" class="SingleTxt">
+        <num>110.</num>
+        <content eId="para_2864__content">
+          <p xml:space="preserve">	<span class="italic">просит</span> Генерального секретаря ежегодно представлять Комиссии по науке и технике в целях развития доклад о выполнении рекомендаций, содержащихся в настоящей резолюции, а также в других резолюциях Совета об оценке количественного и качественного прогресса, достигнутого в осуществлении решений и последующей деятельности по итогам Всемирной встречи на высшем уровне.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="25-е">25‑е пленарное заседание</inline>
+        <eol />
+        <docDate date="2023-06-07" refersTo="#adoptionDate">7 июня 2023 года</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
