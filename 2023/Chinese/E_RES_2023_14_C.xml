@@ -1,0 +1,659 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2023-06-07/2023-14/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2023-06-07/2023-14/"></FRBRuri>
+          <FRBRdate date="2023-06-07" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2023-06-07/2023-14/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2023-06-07/2023-14/zho@/"></FRBRuri>
+          <FRBRdate date="2023-06-15" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2023-06-07/2023-14/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2023-06-07/2023-14/zho@.xml"></FRBRuri>
+          <FRBRdate date="2023-07-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="2030 Agenda for Sustainable Development" showAs="2030 Agenda for Sustainable Development" dictionary="DHLAUTH"></keyword>
+        <keyword value="EMPLOYMENT CREATION" showAs="EMPLOYMENT CREATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DECENT WORK" showAs="DECENT WORK" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RECOVERY" showAs="RECOVERY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COVID-19" showAs="COVID-19" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOCIAL POLICY" showAs="SOCIAL POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="EQUALITY" showAs="EQUALITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="19b" showAs="Social development." shortForm="SOCIAL DEVELOPMENT" dictionary="E/2023/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-02-09" outcome="draftResolution" as="E/CN.5/2023/L.7" by="submitted by the Chair of the Commission, Alya Ahmed Saif Al-Thani (Qatar), on the basis of informal consultations" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2023-03-10" outcome="recommendedForAdoption" as="E/2023/26" by="UN. Commission for Social Development" />
+        <step date="2023-06-15" outcome="adopted" as="Adopted without vote, 26th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">23-11365 (C)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2023/14</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">经济及社会理事会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-06-15" class="rightSmall" refersTo="#dateOfIssuance">15 June 2023</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" eId="coverPage_1__session_1"></session>
+      </p>
+      <p>
+        <inline title="19(b)" name="agenda item">议程项目19(b)</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">社会和人权问题：社会发展</inline>
+      </p>
+      <p>
+        <docTitle>2023年6月7日经济及社会理事会决议</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent>[根据社会发展委员会的建议 (<inline name="originating document">E/2023/26</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2023/14.</docNumber>
+        <docTitle refersTo="#resolutionTitle">创造充分的生产性就业和人人获得体面工作，以此克服不平等现象，加速从COVID-19大流行中恢复并全面执行《2030年可持续发展议程》</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">经济及社会理事会</span>，</p>
+      </formula>
+      <container name="回顾" eId="container_2">
+        <p xml:space="preserve">	<span class="bold">回顾</span>其2022年6月8日第2022/328号决定，其中决定社会发展委员会2023年届会的优先主题为“创造充分的生产性就业和人人获得体面工作，以此克服不平等现象，加速从COVID-19大流行中恢复并全面执行《2030年可持续发展议程》”，</p>
+      </container>
+      <container name="又回顾" eId="container_3">
+        <p xml:space="preserve">	<span class="bold">又回顾</span>社会发展问题世界首脑会议和大会第二十四届特别会议的成果，</p>
+      </container>
+      <container name="重申" eId="container_4">
+        <p xml:space="preserve">	<span class="bold">重申</span>社会发展问题世界首脑会议通过的《社会发展问题哥本哈根宣言》和《行动纲领》<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		《社会发展问题世界首脑会议的报告，1995年3月6日至12日，哥本哈根》(联合国出版物，出售品编号：C.96.IV.8)，第一章，决议1，附件一和二。</p></authorialNote> 以及大会第二十四届特别会议通过的关于社会发展问题的进一步倡议<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		大会<a href="https://undocs.org/ch/A/RES/S-24/2">S-24/2</a>号决议，附件。</p></authorialNote> 是在国家和国际两级促进惠及所有人的社会发展的基本框架，鼓励各方继续就社会发展问题开展全球对话，</p>
+      </container>
+      <container name="欢迎" eId="container_5">
+        <p xml:space="preserve">	<span class="bold">欢迎</span>通过国家、区域和全球各级的协调行动在充分执行《哥本哈根宣言》和《行动纲领》方面取得进展，表示深为关切在举行社会发展问题世界首脑会议20多年之后，进展依然缓慢且参差不齐，仍然存在重大差距，还欢迎大会和经济及社会理事会于2020年12月1日联合召开了非正式高级别会议以纪念社会发展问题世界首脑会议二十五周年，</p>
+      </container>
+      <container name="回顾" eId="container_6">
+        <p xml:space="preserve">	<span class="bold">回顾</span>大会题为“变革我们的世界：2030年可持续发展议程”的2015年9月25日第<a href="https://undocs.org/ch/A/RES/70/1">70/1</a>号决议，其中大会通过了一套全面、意义深远和以人为中心的具有普遍性和变革性的可持续发展目标和具体目标，承诺作出不懈努力，使这一议程到2030年得到全面执行，以期不让任何一个人掉队，首先帮助落在最后面者，并认识到消除一切形式和表现的贫困，包括消除极端贫困，是世界的最大挑战，对实现可持续发展必不可少，</p>
+      </container>
+      <container name="又回顾" eId="container_7">
+        <p xml:space="preserve">	<span class="bold">又回顾</span>大会关于《第三次发展筹资问题国际会议亚的斯亚贝巴行动议程》的2015年7月27日第<a href="https://undocs.org/ch/A/RES/69/313">69/313</a>号决议，该议程是《2030年可持续发展议程》的组成部分，</p>
+      </container>
+      <container name="还回顾" eId="container_8">
+        <p xml:space="preserve">	<span class="bold">还回顾</span>大会关于全球团结抗击冠状病毒病(COVID-19)的2020年4月2日第<a href="https://undocs.org/ch/A/RES/74/270">74/270</a>号决议、关于开展国际合作以确保全球获得应对COVID-19的药品、疫苗及医疗设备的2020年4月20日第<a href="https://undocs.org/ch/A/RES/74/274">74/274</a>号决议、题为“全面协调应对冠状病毒病(COVID-19)大流行”的2020年9月11日第<a href="https://undocs.org/ch/A/RES/74/306">74/306</a>号决议和题为“联合应对全球健康威胁：抗击冠状病毒病(COVID-19)”的2020年9月11日第<a href="https://undocs.org/ch/A/RES/74/307">74/307</a>号决议，</p>
+      </container>
+      <container name="回顾" eId="container_9">
+        <p xml:space="preserve">	<span class="bold">回顾</span>大会题为“大会主持召开的可持续发展问题高级别政治论坛政治宣言”的2019年10月15日第<a href="https://undocs.org/ch/A/RES/74/4">74/4</a>号决议，</p>
+      </container>
+      <container name="又回顾" eId="container_10">
+        <p xml:space="preserve">	<span class="bold">又回顾</span>经济及社会理事会2022年届会高级别部分通过的部长级宣言以及理事会主持召开的主题为“在推动全面落实《2030年可持续发展议程》的同时克服冠状病毒病(COVID-19)，重建得更好”的2022年可持续发展高级别政治论坛，<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		见《大会正式记录，第七十七届会议，补编第3号》(<a href="https://undocs.org/ch/A/77/3">A/77/3</a>)，第六章，D节。</p></authorialNote> </p>
+      </container>
+      <container name="还回顾" eId="container_11">
+        <p xml:space="preserve">	<span class="bold">还回顾</span>《经济社会文化权利国际公约》，<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		见大会第<a href="https://undocs.org/ch/A/RES/2200(XXI)">2200 A (XXI)</a>号决议，附件。</p></authorialNote> 其中除其他外，确认人人有权为本人及家属享有合理的生活水平、工作权、社会保障权和受教育权，注意到这些条款与社会政策、包括以家庭为导向的社会保护政策和措施的制定具有相关性，</p>
+      </container>
+      <container name="注意到" eId="container_12">
+        <p xml:space="preserve">	<span class="bold">注意到</span>家庭在社会保障方面发挥着重要作用，仍有40多亿人缺乏社会保障，冠状病毒病疫情加剧了易陷入贫困者对家庭的依赖，认识到顺应需要的面向家庭的政策的重要性，特别是在减贫、充分的生产性就业和体面工作等领域以及对于应对社会排斥的重要性，认识到社会排斥的多层面问题，注重包容和公平的全民优质教育和终身学习、所有年龄段民众的健康和福祉、社会保障、生计和社会融合，包括为此建立促进性别平等和对年龄问题有敏感认识的社会保障制度和措施，诸如子女津贴和养恤金福利，并确保尊重所有家庭成员的权利、能力和责任，</p>
+      </container>
+      <container name="又注意" eId="container_13">
+        <p xml:space="preserve">	<span class="bold">又注意</span>到统计委员会就《2030年可持续发展议程》开展的重要工作，由此促成了全球指标的制定，包括关于社会保护的指标，</p>
+      </container>
+      <container name="认识到" eId="container_14">
+        <p xml:space="preserve">	<span class="bold">认识到</span>《国际劳工组织关于劳动世界的未来百年宣言》<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		<a href="https://undocs.org/ch/A/73/918">A/73/918</a>，附件。</p></authorialNote> 对以社会公正的方式向可持续发展过渡特别重要，并回顾大会2019年7月25日第<a href="https://undocs.org/ch/A/RES/73/327">73/327</a>号决议，大会在该决议中决定宣布2021年为消除童工国际年，</p>
+      </container>
+      <container name="重申" eId="container_15">
+        <p xml:space="preserve">	<span class="bold">重申</span>必须支持作为确保非洲今后50年积极社会经济转型战略框架的非洲联盟《2063年议程》及其第一个十年执行计划，支持大会关于非洲发展新伙伴关系<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		<a href="https://undocs.org/ch/A/57/304">A/57/304</a>，附件。</p></authorialNote> 的各项决议所载非洲大陆方案和《非洲农业发展综合方案》等区域倡议，</p>
+      </container>
+      <container name="表示注意到" eId="container_16">
+        <p xml:space="preserve">	<span class="bold">表示注意到</span>2022年5月15日至20日在南非举行的第五届全球消除童工劳动大会通过的《消除童工劳动德班行动呼吁》，</p>
+      </container>
+      <container name="回顾" eId="container_17">
+        <p xml:space="preserve">	<span class="bold">回顾</span>人权理事会在其2012年9月27日第<a href="https://undocs.org/ch/A/HRC/RES/21/11">21/11</a>号决议<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		见《大会正式记录，第六十七届会议，补编第53 A号》(<a href="https://undocs.org/ch/A/67/53/Add.1">A/67/53/Add.1</a>)，第二章。</p></authorialNote> 中通过了关于极端贫困与人权的指导原则，<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		<a href="https://undocs.org/ch/A/HRC/21/39">A/HRC/21/39</a>。</p></authorialNote> 作为会员国在拟订和实施减少和消除贫困政策时可酌情采用的一个有益工具，鼓励会员国执行该指导原则，</p>
+      </container>
+      <container name="认识到" eId="container_18">
+        <p xml:space="preserve">	<span class="bold">认识到</span>冠状病毒病(COVID-19)疫情是联合国历史上最大的全球性挑战之一，还深为关切地注意到该疫情对身心健康、生命损失和福祉方面的影响，以及它对全球人道主义需求、人权的享受和社会所有领域产生的负面影响，包括损害民生、粮食安全与营养和教育，使贫困与饥饿状况更加严重，对经济、贸易、社会和环境产生破坏作用，加剧各国国内和各国之间的经济和社会不平等，导致更多人失业、缺乏体面工作机会，此种情况正在逆转来之不易的发展成果，阻碍在实现《2030年可持续发展议程》及其各项目标和具体目标方面取得进展，又认识到需要在统一、团结和振兴多边合作的基础上对冠状病毒病疫情采取全球对策，</p>
+      </container>
+      <container name="强调指出" eId="container_19">
+        <p xml:space="preserve">	<span class="bold">强调指出</span>，目前正处于到2030年实现可持续发展目标行动十年的关键时刻，在社会发展问题世界首脑会议上提出的愿景和原则及作出的承诺仍然有效，对应付新出现的全球挑战至关重要，回顾社会政策在解决社会经济危机的直接影响和制定复苏战略方面可发挥关键作用，</p>
+      </container>
+      <container name="重申" eId="container_20">
+        <p xml:space="preserve">	<span class="bold">重申</span>决心消除一切形式和表现的贫困，包括到2030年时消除极端贫困，必须使所有人的生活能达到基本标准，包括通过充分的生产性就业、体面工作和社会保障体系做到这一点，决心优先消除饥饿，实现粮食安全，并决心消除一切形式的营养不良，</p>
+      </container>
+      <container name="承认" eId="container_21">
+        <p xml:space="preserve">	<span class="bold">承认</span>在距离实现可持续发展目标的时限不到10年之时，冠状病毒病疫情减缓并在有些情况下甚至逆转了到2030年实现许多目标的进展，包括旨在促进持久、包容和可持续的经济增长及促进充分的生产性就业和人人获得体面工作的目标8和旨在减少国家内部和国家之间不平等的目标10，认识到处境脆弱者遭受这一疫情的打击最大，</p>
+      </container>
+      <container name="严重关切地注意到" eId="container_22">
+        <p xml:space="preserve">	<span class="bold">严重关切地注意到</span>包括冠状病毒病疫情在内的多重危机增加了生活贫困者人数，导致本已生活贫困者更加贫困，扩大了包括性别不平等在内的各种不平等，导致失业、非正规就业和离开劳动力市场者人数增加，并继续对处境脆弱者产生尤其之大的影响，包括老年人、患有既有疾病者、妇女、儿童(包括女童)、青年、残疾人、受冲突影响者、移民、难民、境内流离失所者、非洲人后裔和土著人民、地方社区、非正规经济部门工作者、农村地区居民和其他处境脆弱者，</p>
+      </container>
+      <container name="确认" eId="container_23">
+        <p xml:space="preserve">	<span class="bold">确认</span>农村妇女，包括小户农民和务农妇女，以及土著妇女和地方社区妇女及其传统知识对促进农业和农村发展、加强粮食安全以及消除农村贫困的关键作用和贡献，</p>
+      </container>
+      <container name="表示深为关切" eId="container_24">
+        <p xml:space="preserve">	<span class="bold">表示深为关切</span>减贫进展仍然参差不齐，仍有12亿人生活在多维贫困之中，这一数字仍然很高，令人无法接受，而在一些国家，收入、财富和机会的不平等程度居高不下或越来越悬殊，无法获得优质教育或基本保健服务等非收入层面的贫困和匮乏以及相对贫困仍是重大关切问题，强调指出国家和全球必须努力创造条件以促进可持续发展、包容和持久的经济增长、使全社会所有人能共享繁荣并拥有体面工作，同时顾及各国不同程度的发展能力，</p>
+      </container>
+      <container name="承认" eId="container_25">
+        <p xml:space="preserve">	<span class="bold">承认</span>面向贫困和饥饿者的社会融合举措应包括通过综合发展战略提供获得优质教育和终身学习的机会、充分的生产性就业和体面工作，</p>
+      </container>
+      <container name="指出" eId="container_26">
+        <p xml:space="preserve">	<span class="bold">指出</span>，增进所有人一生的福祉应是任何减少贫困和饥饿工作的核心目标，并成为包容各方的顽强复苏的一个重要组成部分，认识到建立高效、包容各方、有韧性和可持续的粮食体系对保障粮食安全和确保所有人都有安全、营养和充足的食物至关重要，与此同时应克服其他相互关联的挑战，如消除饥饿、粮食不安全和营养不良，并增强生计的韧性，为此进一步加强可持续发展全球伙伴关系，不让任何一个人掉队，</p>
+      </container>
+      <container name="表示注意到" eId="container_27">
+        <p xml:space="preserve">	<span class="bold">表示注意到</span>大会第七十四届会议主席努力发起消除贫困联盟，此举及时而有意义，继续是交流消除贫困的想法、政策和最佳做法的平台，强调指出讨论贫困包括农村贫困问题的重要性，因为农村贫困者可能更难以作好应对冠状病毒病疫情影响并从中恢复的准备，更缺少获得适当环卫条件、粮食和营养、保健服务、教育、互联网、信息和通信技术、社会保障、金融服务和公共基础设施的机会，</p>
+      </container>
+      <container name="重申" eId="container_28">
+        <p xml:space="preserve">	<span class="bold">重申</span>极端贫困现象的广泛存在妨碍充分切实享受所有人权，在某些情况下可能对生命权构成威胁，因此立即减轻并最终根除极端贫困现象必须一直是国际社会的一项高度优先工作，</p>
+      </container>
+      <container name="认识到" eId="container_29">
+        <p xml:space="preserve">	<span class="bold">认识到</span>有必要更好地了解发展和贫困的多维性质，同时强调指出需要使用多维分析工具，包括多维贫困指数和风险分析，以便掌握匮乏和脆弱彼此关联的性质，理解贫困的动态并制定政策，并认识到适当的国家多维贫困指数使各国能够更好地精准采取、协调和监测减贫措施，</p>
+      </container>
+      <container name="又认识到" eId="container_30">
+        <p xml:space="preserve">	<span class="bold">又认识到</span>创业对可持续发展作出重大贡献，帮助在《2030年议程》框架内创造就业机会和促进体面工作、推动包容的经济增长和创新、改善社会状况并应对经济、社会和环境挑战，强调在冠状病毒病疫后复苏和其他工作中，包括社会企业家精神在内的创业精神以及中小微企业在社会经济发展中的作用比以往任何时候都至关重要，</p>
+      </container>
+      <container name="还认识到" eId="container_31">
+        <p xml:space="preserve">	<span class="bold">还认识到</span>体育是社会发展的一个促进因素，可以此为手段获得优质教育和体面工作、促进健康生活方式和福祉、加强团结和社会凝聚力、打击社会排斥和陈规定型观念以及为所有人创造经济机会，从而有助于使人们摆脱贫困，</p>
+      </container>
+      <container name="承认" eId="container_32">
+        <p xml:space="preserve">	<span class="bold">承认</span>需要打击非法资金流动和加强资产返还和追索方面的良好做法，将其作为发展筹资的来源之一，以期促进体面工作并减少国家内部和国家之间的不平等，</p>
+      </container>
+      <container name="深为关切" eId="container_33">
+        <p xml:space="preserve">	<span class="bold">深为关切</span>冠状病毒病疫情对儿童尤其是女童造成格外严重影响，包括对她们获得基本保健服务和教育的影响，承认学校关闭对最贫困和最弱势儿童及其家庭的打击最大，许多儿童因为被迫步入童婚或童工行列而可能永远不会回校接受教育，并承认粮食体系和卫生系统受到干扰，致使在妇幼保健方面取得的进展出现逆转，各种形式的营养不良增加，并致使2020年生活在收入贫困家庭的儿童增加1.42亿，</p>
+      </container>
+      <container name="注意到" eId="container_34">
+        <p xml:space="preserve">	<span class="bold">注意到</span>秘书长题为“我们的共同议程”的报告<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		<a href="https://undocs.org/ch/A/75/982">A/75/982</a>。</p></authorialNote> 所载提议，即由会员国讨论和商定在2025年召开一次社会问题世界峰会，包括讨论和商定峰会的方式、名称、目标、范围和可能的成果，强调这一可能的峰会的成果应采取社会发展方针，为落实《2030年议程》提供动力，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_35" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_35__content">
+          <p xml:space="preserve">	<span class="bold">表示注意到</span>秘书长的报告；<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">		<a href="https://undocs.org/ch/E/CN.5/2023/3">E/CN.5/2023/3</a>。</p></authorialNote> </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">	<span class="bold">承认</span>所有利益攸关方亟需在各级加快行动，实现《2030年可持续发展议程》<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">		大会第<a href="https://undocs.org/ch/A/RES/70/1">70/1</a>号决议。</p></authorialNote> 的愿景和目标，强调国际社会籍由大会通过的联合国各次主要会议和首脑会议成果文件，除其他外，一再强调迫切需要在联合国发展议程框架内消除一切形式和表现的贫困，为所有人创造充分的生产性就业和体面工作，消除国家内和国家间的不平等，保护环境，创造持久、包容和可持续经济增长和促进社会包容，这些成果文件包括社会发展问题世界首脑会议成果、《第三次发展筹资问题国际会议亚的斯亚贝巴行动议程》、<authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">		大会第<a href="https://undocs.org/ch/A/RES/69/313">69/313</a>号决议，附件。</p></authorialNote> 《2015-2030年仙台减少灾害风险框架》<authorialNote marker="13" placement="bottom" eId="authorialNote_13"><p xml:space="preserve">		大会第<a href="https://undocs.org/ch/A/RES/69/283">69/283</a>号决议，附件二。</p></authorialNote> 和《新城市议程》；<authorialNote marker="14" placement="bottom" eId="authorialNote_14"><p xml:space="preserve">		大会第<a href="https://undocs.org/ch/A/RES/71/256">71/256</a>号决议，附件。</p></authorialNote> </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_38__content">
+          <p xml:space="preserve">	<span class="bold">重申</span>致力于为所有人执行《2030年议程》，为此确保不让任何一个人掉队，首先帮助落在最后面者，并确认人权，确认人的尊严不可或缺；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="bold">确认</span>需要加强国际合作，向发展中国家提供必要的财政援助、技术支持和能力建设，以便通过为所有人创造充分的生产性就业和体面工作，实现与社会发展有关的可持续发展目标；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>会员国根据国际人权法规定的义务促进和保护所有人权；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_50" class="MercuryDocument">
+        <num>6.</num>
+        <content eId="para_50__content">
+          <p xml:space="preserve">	<span class="bold">重申</span>在各地为所有人消除一切形式和表现的贫困，包括消除极端贫困，是世界最大的挑战，对实现可持续发展必不可少，也是《2030年议程》的首要目标，《亚的斯亚贝巴行动议程》是《2030年议程》的组成部分，支持和补充《2030年议程》；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_56" class="MercuryDocument">
+        <num>7.</num>
+        <content eId="para_56__content">
+          <p xml:space="preserve">	<span class="bold">强调指出</span>，经济增长的收益应惠及所有人并应更公平地分配，而且为了缩小不平等方面的差距，避免进一步加深不平等，需要制订全面的社会政策和方案，包括适当的社会转移支付、体面工作和创造就业方案以及社会保障制度；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_63" class="MercuryDocument">
+        <num>8.</num>
+        <content eId="para_63__content">
+          <p xml:space="preserve">	<span class="bold">承认</span>从冠状病毒病疫情中复苏为制定综合长期政策框架以实现可持续发展目标提供了更多机会，这些框架的目标应该是齐头并进地建立更具包容性、公平性和适应性的劳动力市场，为所有人提供充分的生产性就业和体面工作，增进民众的能力和福祉，推动加快国家、区域和国际各级的行动，并确保所有人的可持续生计，还确认应该通过对贫困和失业进行多维分析为这些复苏战略提供依据；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_71" class="MercuryDocument">
+        <num>9.</num>
+        <content eId="para_71__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>会员国促进在各级提供负担得起和公平的基本服务，特别是优质的正规和非正规教育，包括通过确认人的基本尊严促进平等和包容的方案，提供负担得起和公平的保健服务，包括为此加速过渡到公平的全民健康覆盖，以及通过促进性别平等并增强所有妇女和女童的权能提供负担得起的住房、营养和粮食、就业和体面工作、信息和通信技术和基础设施；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_80" class="MercuryDocument">
+        <num>10.</num>
+        <content eId="para_80__content">
+          <p xml:space="preserve">	<span class="bold">确认并促进</span>正规和非正规环境下的全民终身学习，支持家庭扫盲方案，包括职业教育部分和非正规教育，以支持就业增长，提高工作质量，促进机会平等，减少劳动力市场的不平等；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_90" class="MercuryDocument">
+        <num>11.</num>
+        <content eId="para_90__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>会员国解决不平等的根本原因，为此促进可持续经济以造福所有人，投资于消除贫困方案、促进全民公平获得基本服务以及优质和有复原力的基础设施，包括：保健服务；教育、终身学习和技能培训；教育基础设施；安全饮用水和环卫设施；负担得起的住房；负担得起、可靠、可持续的现代能源服务；可持续的运输系统；负担得起的互联网接入和连通，包括努力确保提供服务的目的是逐步实现全民覆盖，特别关注处境脆弱者的需求；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_101" class="MercuryDocument">
+        <num>12.</num>
+        <content eId="para_101__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>各国政府继续努力制订战略和方案，以加强国家能力，落实与面向家庭的政策有关的国家优先重点，并与相关利益攸关方协作，加大力度落实这些目标，特别是在消除贫困和饥饿领域，以防止贫困代际转移和贫困妇女人数日增，并确保各年龄段所有人的福祉，以便实现《2030年议程》；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_113" class="MercuryDocument">
+        <num>13.</num>
+        <content eId="para_113__content">
+          <p xml:space="preserve">	<span class="bold">邀请</span>各国政府对政策和条例进行必要的调整，以支持体面工作和就业增长，促进劳动力市场上的平等就业机会并减少不平等和歧视，为此要加强有效的劳动力市场机构，通过法定或谈判商定的最低工资、同工同酬、就业保护立法和就业法等措施，使人们能够获得适足的报酬，并有效落实上述措施，使所有工人都能享受劳动权利；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_126" class="MercuryDocument">
+        <num>14.</num>
+        <content eId="para_126__content">
+          <p xml:space="preserve">	<span class="bold">重申</span>会员国承诺推行以发展为导向的政策，以期支持生产性活动、创造体面工作、创业精神、创造力和创新，并鼓励中小微企业通过获取金融服务等途径实现正规化并成长壮大；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_140" class="MercuryDocument">
+        <num>15.</num>
+        <content eId="para_140__content">
+          <p xml:space="preserve">	<span class="bold">强调指出</span>必须制定政策以扩大城乡部门的工作机会和劳动生产力，为此实现和恢复包容的经济增长，投资于人力资源开发，为新形式的工作不断进行培训和开发技能，推广创造生产性就业和体面工作的技术，鼓励创业和中小企业；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_155" class="MercuryDocument">
+        <num>16.</num>
+        <content eId="para_155__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>各国政府把提供数字能力，包括但不限于创业精神和辅助性软技能，纳入正规教育课程和终身学习倡议，以应对数字经济和第四次工业革命的根本变革对劳动力市场的影响；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_171" class="MercuryDocument">
+        <num>17.</num>
+        <content eId="para_171__content">
+          <p xml:space="preserve">	<span class="bold">邀请</span>会员国考虑采取加强机构并为所有劳动者、特别是处境最不利的劳动者提供充分劳动保护的劳动力市场政策，包括为此开展社会对话和实施最低工资政策，同时酌情考虑到劳工组织和雇主组织的作用，作为促进绝大多数劳动者收入增长的政策的一部分，同时考虑到每个国家的具体情况；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_188" class="MercuryDocument">
+        <num>18.</num>
+        <content eId="para_188__content">
+          <p xml:space="preserve">	<span class="bold">强调指出</span>需要投资于创造更多体面工作机会，包括提供在正规部门获得体面工作的机会，以应对那些从事非正规工作或弱势工作者所面临的挑战；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_206" class="MercuryDocument">
+        <num>19.</num>
+        <content eId="para_206__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>会员国加紧努力，借助纳入了促进体面工作和可靠社会保障的精细而有区别的措施的综合战略，促进所有部门从非正规工作向正规工作过渡，包括为此利用电子正规化政策，支持护理经济、可持续经济和数字经济等新兴和不断增长的部门，以吸收非正规工人，并制定适当的干预措施，加强雇主和工人的能力，使他们能够遵守现有的标准和条例，以符合非正规经济和农村经济劳动者的收入模式的方式和时间间隔纳税和缴纳社会保障金，为此支持调整或简化条例和程序，制定正规化激励措施，加强政府对税务和劳动监察事务及社会保障的监督和能力建设；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_225" class="MercuryDocument">
+        <num>20.</num>
+        <content eId="para_225__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>会员国制定设计完善的方案，以确保工作场所的平等机会和待遇，便利和支持将处境脆弱者纳入劳动力市场，包括妇女、青年、残疾人、老年人、土著人民、移民、民族或族裔、宗教和语言少数群体成员以及艾滋病毒感染者，包括为此而加强积极的劳动力市场政策和社会保障制度；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_245" class="MercuryDocument">
+        <num>21.</num>
+        <content eId="para_245__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>会员国提供具体方案，调动财政资源和技术，以支持妇女重返经济活动，包括获得体面工作、培训和金融服务，加强她们的经济权能和自主权，保护和促进所有妇女的工作权和工作中的权利，促进妇女充分和平等地参与劳动力市场，并确保妇女在各个部门和各级有平等机会获得体面工作和优质工作；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_266" class="MercuryDocument">
+        <num>22.</num>
+        <content eId="para_266__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>会员国保护劳工权利，促进体面工作，推动为所有工人，包括移民工人，特别是移民女工和没有稳定工作者创造安全和有保障的工作环境，确认移民女工可对促进来源国、过境国和目的地国的包容增长和可持续发展作出积极贡献，着重指出移民女工在各部门包括护理和家政行业的劳动价值和尊严；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_288" class="MercuryDocument">
+        <num>23.</num>
+        <content eId="para_288__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>会员国更加团结，特别是在紧急情况下，加强国际合作，以期加强对移民工人的保护，增进他们的福祉，推动他们自愿和安全返回及有效重返劳动力市场，并确保在抗击冠状病毒病疫情和疫后恢复的过程中不让任何一个人掉队；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_311" class="MercuryDocument">
+        <num>24.</num>
+        <content eId="para_311__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>会员国执行政策，支持妇女充分和富有成效地参与劳动力市场，包括残疾妇女和生活贫困的妇女以及女户主，以确保增强妇女经济权能，并促进同工同酬或同值工作同酬、父母平等分担责任、使用托儿设施的机会、工作与家庭平衡，除其他外，包括照顾儿童、老年人和残疾人，并促进她们充分、平等和有效参与经济和各级决策进程；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_335" class="MercuryDocument">
+        <num>25.</num>
+        <content eId="para_335__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>会员国实现性别平等和增强所有妇女和女孩权能，确保不歧视、种族和文化多样性、包容和公平，为此制定和执行贯穿整个生命进程的综合全面方针，消除阻碍妇女进入和留在劳动力市场并在劳动力市场进步发展的障碍，如性别陈规定型观念、一切形式的暴力(包括性别暴力)、歧视性法律和做法以及无酬照护工作的不公平分工，为此消除性别薪酬和养恤金差距，进一步实现包括照护工作在内的同工同酬；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_360" class="MercuryDocument">
+        <num>26.</num>
+        <content eId="para_360__content">
+          <p xml:space="preserve">	<span class="bold">重点指出</span>必须制定和执行政策和方案以支持创业，特别是妇女和青年创业，强调在冠状病毒病疫后恢复和其他工作中，包括社会企业家精神在内的创业精神以及中小微企业在社会经济发展中的作用比以往任何时候都至关重要；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_386" class="MercuryDocument">
+        <num>27.</num>
+        <content eId="para_386__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>会员国进行必要的调整，营造有利的商业环境，以促进包容和可持续经济增长、创造体面工作和体面就业以及创业、创新和可持续企业，为此加强国际合作和与私营部门的伙伴关系，包括为此改善特别是中小微企业获得信贷的机会，并采取公共政策打击不必要的官僚做法和腐败以及非法资金流动，加强资产返还和追回方面的良好做法；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_413" class="MercuryDocument">
+        <num>28.</num>
+        <content eId="para_413__content">
+          <p xml:space="preserve">	<span class="bold">又鼓励</span>会员国颁布面向家庭和促进性别平等的政策以支持在新的、可持续和不断增长的部门，包括在可持续经济、数字经济、照护经济以及酌情在社会和团结经济中创造体面就业，为此除其他外，适当投资于在社会伙伴支持下制定且为上述新部门量身定制的灵活和可获得的技能和资质发展政策，投资于促进环境可持续和数字化赋权的公平、包容和公正过渡政策，投资于确定数字平台工作者的就业地位并保护其权利的立法框架以及确保这些框架得到有效执行的政策；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_441" class="MercuryDocument">
+        <num>29.</num>
+        <content eId="para_441__content">
+          <p xml:space="preserve">	<span class="bold">还鼓励</span>会员国尊重、促进和实现工作权，防止和消除家庭照护不平等分工、暴力、虐待和性骚扰，同时确认暴力和骚扰是对机会平等的威胁，不可接受且不符合体面工作，可能妨碍妇女进入和留在劳动力市场并在劳动力市场进步发展；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_470" class="MercuryDocument">
+        <num>30.</num>
+        <content eId="para_470__content">
+          <p xml:space="preserve">	<span class="bold">承认</span>在冠状病毒病疫情期间贫困加剧导致童工增加，敦促会员国立即采取有效措施，确保至迟于2025年禁止和消除一切形式的童工；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_500" class="MercuryDocument">
+        <num>31.</num>
+        <content eId="para_500__content">
+          <p xml:space="preserve">	<span class="bold">确认</span>适合国情的全民覆盖社会保障制度有助于解决贫困和不平等的多个往往相互关联和复杂的原因，减轻失业期间某些支出的负担，促进与健康有关的目标、性别平等、增强妇女和女孩权能及体面工作，并促进残疾人的充分融入；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_531" class="MercuryDocument">
+        <num>32.</num>
+        <content eId="para_531__content">
+          <p xml:space="preserve">	<span class="bold">又确认</span>适合国情的社会保障制度可对实现人人享有人权、尤其是使陷入贫困和饥饿者享有人权作出重大贡献，促进全民享有社会服务和提供适合国情的社会保障最低标准可有助于减少不平等和贫困、应对社会排斥问题并促进包容性经济增长，在这方面表示注意到国际劳工组织2012年社会保护底线建议书(第202号)；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_563" class="MercuryDocument">
+        <num>33.</num>
+        <content eId="para_563__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>会员国投资建设国家社会保障制度，这些制度应酌情覆盖全民、考虑到风险因素、促进性别平等和面向家庭，并应将社会保险和非缴费型(由税收资助的)计划相结合，以确保每个人一生可获得全面、适足、渐进和可持续的社会保障，为此设计和实施支持将往往被排除在社会保障制度之外的处境脆弱者、包括无酬照护者、“缺失的中间阶层”和非正规工人纳入社会保障制度的功能，并通过满足社会保障需求，包括可持续经济和数字经济增长所产生的需求，促进公正的结构转型，通过对减少灾害风险进行公共和私人投资等方式，提高各种方案对各种危害所造成的灾害的应对能力；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_596" class="MercuryDocument">
+        <num>34.</num>
+        <content eId="para_596__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>会员国在设计、执行、监测和评价促进社会发展的社会保障方案时，确保在整个过程中将性别观点纳入主流；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_630" class="MercuryDocument">
+        <num>35.</num>
+        <content eId="para_630__content">
+          <p xml:space="preserve">	<span class="bold">确认</span>家庭在战胜社会排斥方面可发挥重要作用，重点指出必须在教育、培训、体面工作、工作与家庭平衡、保健服务、社会服务、代际关系和团结等方面投资于包容、顺应需求且面向家庭的政策和方案，对处境脆弱家庭进行有针对性的现金转移，以减少不平等，促进各年龄段所有人的福祉，并协助为处境脆弱的儿童和其他易受伤害的家庭成员提供更好的成果，帮助打破贫困的代际转移；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_665" class="MercuryDocument">
+        <num>36.</num>
+        <content eId="para_665__content">
+          <p xml:space="preserve">	<span class="bold">承认</span>可持续的社会保障制度在应对冠状病毒病疫情方面具有至关重要的作用，鼓励会员国确保冠状病毒病疫后复苏为有关国家提供一个政策窗口，使其能够解决社会保障覆盖方面的重大差距，在实现、充足、全面和可持续的全民社会保障制度方面取得进展，为此根据国家立法纳入基本收入、子女福利、生育福利、疾病福利、残疾福利、失业补助和养老金，并确保这些社会保障制度查明和缩小覆盖差距，特别是对非正规工人、移民和无偿照护者等处境脆弱者的覆盖差距；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_701" class="MercuryDocument">
+        <num>37.</num>
+        <content eId="para_701__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>会员国提供注重年龄、残疾和性别、以家庭为导向的全民社会保障制度，这是确保减贫的关键，包括酌情向处境脆弱者和家庭提供有针对性的现金转移，例如由单亲父母、特别是由妇女担任家长者和家庭，而且如果辅之以提供基本服务、高质量教育和保健服务等其他措施，将最有效地减少贫困；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_738" class="MercuryDocument">
+        <num>38.</num>
+        <content eId="para_738__content">
+          <p xml:space="preserve">	<span class="bold">强调指出</span>需要更好地协调社会保障政策和措施与减贫方案和其他社会政策，避免将从事非正规或不稳定工作者排除在外，并确认需要促进向正规经济转型，通过提高对非正规工人、包括农村地区季节工和临时工的福利水平和扩大覆盖面来扩大和升级现有的社会救助方案；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_776" class="MercuryDocument">
+        <num>39.</num>
+        <content eId="para_776__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>会员国考虑为促进公正转型的就业和社会保护全球行动加速器的实行提供支持，包括为此促进体面工作以及可持续的全民社会保障制度；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_815" class="MercuryDocument">
+        <num>40.</num>
+        <content eId="para_815__content">
+          <p xml:space="preserve">	<span class="bold">又鼓励</span>会员国制定长期、考虑到风险因素、包容各方和着眼于预防的社会发展复苏计划，通过投资于社会服务及优质、可靠、可持续和有抗灾能力的基础设施，包括基本的学校基础设施，投资于医疗保健服务、安全饮用水和环卫设施、负担得起的住房、确保体面就业、适当的社会保障覆盖以及负担得起和可靠的数字技术、互联网接入和连通，改善民众的能力和福祉；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_855" class="MercuryDocument">
+        <num>41.</num>
+        <content eId="para_855__content">
+          <p xml:space="preserve">	<span class="bold">还鼓励</span>会员国促进受疫情影响最大者、非正规经济部门工作者和贫困者等处境脆弱者有效、切实参与设计、实施和监测冠状病毒病疫后复苏计划并增强他们的权能；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_896" class="MercuryDocument">
+        <num>42.</num>
+        <content eId="para_896__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>会员国消除贫困、饥饿和不平等的多重根源，为此创造体面工作和就业，增强韧性，加强社会保障、粮食安全与营养政策的一致性，提供有针对性的现金转移，促进数字和金融扫盲和普惠，确保机会平等和获得来自可持续粮食体系的健康饮食的机会，确保不受歧视地获得优质教育和终身学习的机会，打击一切形式的歧视，增强所有人的权能，促进面临多重交叉形式歧视者的社会包容和参与，优先投资幼儿教育、营养和护理，以打破贫困代际转移；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_938" class="MercuryDocument">
+        <num>43.</num>
+        <content eId="para_938__content">
+          <p xml:space="preserve">	<span class="bold">重申</span>气候变化是当今最大挑战之一，仍深为关切所有国家、特别是发展中国家容易遭受气候变化的不利影响，而且已经在受到更大的影响，包括持续干旱和极端天气事件、生物多样性丧失、土地退化、荒漠化、海平面上升、海岸侵蚀、海洋酸化和山地冰川退缩，进一步危及粮食安全、供水和生计，认识到气候变化对健康构成重大风险，着重指出需要应对气候变化的经济、社会和环境影响，强调需要在各级采取行动，包括通过减缓和适应努力，建设复原力，促进消除一切形式和层面的贫困和消除饥饿；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_981" class="MercuryDocument">
+        <num>44.</num>
+        <content eId="para_981__content">
+          <p xml:space="preserve">	<span class="bold">确认</span>各级为制订和加强社会保障措施和方案作出的努力，包括建立扶助贫困者和处境脆弱者的国家安全网和社会保障底线，诸如以工换粮和以工换现金、现金转移和补助券方案、学校供餐方案和母子营养方案以及负担得起的住房，在这方面着重指出增加投资、加强能力建设和体制发展的重要性；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1025" class="MercuryDocument">
+        <num>45.</num>
+        <content eId="para_1025__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>会员国实现性别平等并增强妇女和女童权能，确保所有人特别是处境脆弱者能平等获得机会和社会保障，包括为此将性别平等视角纳入劳动力市场参与、照护工作分工和粮食安全方案的主流，特别是为遭受多重交叉形式歧视和暴力的妇女和女童这样做，同时考虑到增强处于各种境况的妇女和女童权能将对《2030年议程》的所有目标和具体目标取得进展作出重大贡献；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1070" class="MercuryDocument">
+        <num>46.</num>
+        <content eId="para_1070__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>会员国采取政策、方案和其他措施，承认、减少和重新分配因冠状病毒病疫情而加剧的妇女和女童过于沉重的无酬照护工作和家务工作并解决贫困妇女人数日增问题，包括通过消除贫困措施、劳工政策、公共服务以及促进性别平等的社会保障方案等途径；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1116" class="MercuryDocument">
+        <num>47.</num>
+        <content eId="para_1116__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>会员国承认、减少和重新分配无酬照护工作和家务工作，特别是妇女从事的这类工作，加紧努力确保同工同酬或同值工作同酬，并促进工作家庭平衡，从而增进儿童、青年、残疾人、老年人的福祉，实现性别平等，增强所有妇女和女童的权能，途径包括为承担家庭责任的工作者改善工作条件，扩大灵活工作安排，包括利用新的信息和通信技术，提供和(或)扩大请假安排如产假和陪产假，为妇女和男子提供适足的社会保障福利，采取适当步骤确保其在获取这些福利时不受歧视，使男子更多意识到并利用这类机会，以此促进子女的成长，并以此使妇女能更多参与劳动力市场；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1163" class="MercuryDocument">
+        <num>48.</num>
+        <content eId="para_1163__content">
+          <p xml:space="preserve">	<span class="bold">又鼓励</span>会员国促进对妇女的数字和金融扫盲和普惠，协助她们平等获得正规金融服务，包括及时和负担得起的信贷、贷款、储蓄、保险和汇款计划，根据国家优先事项和立法将性别平等视角纳入金融部门的政策和条例，鼓励商业银行、开发银行、农业银行、小额信贷机构、移动网络运营商、代理网络、合作社、邮政银行和储蓄银行等金融机构向妇女提供金融产品、服务和信息，并鼓励使用包括网上银行和移动银行在内的创新工具和平台；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1211" class="MercuryDocument">
+        <num>49.</num>
+        <content eId="para_1211__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>会员国通过减轻冠状病毒病疫情的破坏性社会经济影响，防止疫情对儿童造成有害后果，包括为此确保以儿童为中心的各项服务和政策在平等获得机会的基础上得以持续，维护儿童在机会平等和不受歧视的基础上获得优质教育、包括幼儿教育的权利，支持全纳和公平可及的教育，为此采取适当措施确保协助家庭使儿童、特别是女童和处境脆弱的儿童在有安全保障的情况下返回学校并有机会补习落下的课程，并在隔离期间协助学校系统、教师和家庭确保提供可靠的日常营养来源，使用可及、包容的远程教育解决方案以弥合数字鸿沟，同时保护儿童免遭线上和线下的暴力、虐待和剥削，并回顾不得任意或非法干涉儿童隐私和家庭；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1260" class="MercuryDocument">
+        <num>50.</num>
+        <content eId="para_1260__content">
+          <p xml:space="preserve">	<span class="bold">认识到</span>以国家自主原则为重点并酌情辅之以国际援助的国内资源调动，对于实现可持续发展和实现可持续发展目标至关重要；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1310" class="MercuryDocument">
+        <num>51.</num>
+        <content eId="para_1310__content">
+          <p xml:space="preserve">	<span class="bold">重申</span>《亚的斯亚贝巴行动议程》，确认需要采取步骤大幅增加投资，以弥合资源缺口，除其他外，为此调动所有来源的财政资源，包括调动和分配公共、私人、国内和国际资源；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1361" class="MercuryDocument">
+        <num>52.</num>
+        <content eId="para_1361__content">
+          <p xml:space="preserve">	<span class="bold">又重申</span>国际合作可发挥重要作用，帮助发展中国家、包括重债穷国、最不发达国家、内陆发展中国家、小岛屿发展中会员国和中等收入国家增强它们的人力、机构能力和技术能力；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1413" class="MercuryDocument">
+        <num>53.</num>
+        <content eId="para_1413__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>国际社会协助发展中国家实施国家人力资源开发战略，鼓励国际社会，包括私营部门和相关民间社会行为体提供和调集财政资源、开展能力建设、实施技术援助以及按照相互商定的条件转让技术，并提供各种来源的现有专门知识；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1466" class="MercuryDocument">
+        <num>54.</num>
+        <content eId="para_1466__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>发达国家履行官方发展援助承诺，包括许多发达国家承诺实现的目标，即对发展中国家提供占国民总收入0.7%的官方发展援助，对最不发达国家提供占国民总收入0.15%至0.20%的官方发展援助；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1520" class="MercuryDocument">
+        <num>55.</num>
+        <content eId="para_1520__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>国际社会支持各国通过多样化、技术升级和创新提高经济生产力水平，包括为此重点关注高附加值和劳动密集型部门，进一步参与落实现有的技术转让承诺；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1575" class="MercuryDocument">
+        <num>56.</num>
+        <content eId="para_1575__content">
+          <p xml:space="preserve">	<span class="bold">欢迎</span>南南合作对促进人人享有充分的生产性就业和体面工作的贡献，重申南南合作是国际合作促进发展的重要组成部分，补充而非替代南北合作，并承诺加强南南和三方合作，借以在发展合作中发挥相关经验和专门知识的作用；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1631" class="MercuryDocument">
+        <num>57.</num>
+        <content eId="para_1631__content">
+          <p xml:space="preserve">	<span class="bold">表示注意到</span>《2023年世界社会报告：老龄化世界中不让任何一个人掉队》，敦促秘书长继续提供信息，以帮助会员国做好准备，应对老龄化对履行社会保障义务、维持财政制度和加强社会稳定构成的挑战，特别是仍处于发展中的国家和人口老龄化的国家；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1688" class="MercuryDocument">
+        <num>58.</num>
+        <content eId="para_1688__content">
+          <p xml:space="preserve">	<span class="bold">强调指出</span>官方发展援助在补充、融集和维持为发展中国家的发展筹资以及帮助实现包括国际商定发展目标在内的各项发展目标、尤其是可持续发展目标方面发挥着不可或缺的作用，欢迎在国家自主、调整、协调、成果管理和相互问责的基本原则基础上采取步骤，提高援助效果和质量；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1746" class="MercuryDocument">
+        <num>59.</num>
+        <content eId="para_1746__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>国际社会加强发展合作，包括通过南南、南北和三方合作以及多利益攸关方伙伴关系，应各国特别是发展中国家的要求，支持它们建设国家促进社会发展的科学、技术和创新能力，并支持跨越国界、机构和学科的研究网络；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1805" class="MercuryDocument">
+        <num>60.</num>
+        <content eId="para_1805__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>国际社会加强多边合作，为促进包容各方的复苏调动资源，利用特别提款权及其向需求最迫切国家的自愿转移分配，确认联合国和国际金融机构依照各自任务规定所发挥的作用，鼓励它们继续支持为实现发展中国家的持久和包容增长、可持续发展和外债可持续性而作出的全球努力；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1865" class="MercuryDocument">
+        <num>61.</num>
+        <content eId="para_1865__content">
+          <p xml:space="preserve">	<span class="bold">邀请</span>所有相关利益攸关方，包括联合国系统和民间社会组织，继续推动交流有关从各个层面成功减少不平等的方案、政策和措施的信息和良好做法；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1926" class="MercuryDocument">
+        <num>62.</num>
+        <content eId="para_1926__content">
+          <p xml:space="preserve">	<span class="bold">邀请</span>联合国系统继续应会员国请求，支持会员国努力从冠状病毒病疫情中包容各方地顽强复苏，促进所有人的可持续生计、福祉和尊严，并促进国际合作，以期为所有人创造充分的生产性就业和体面工作，进而克服不平等，加快冠状病毒病疫后复苏，为今世后代的共同未来充分落实《2030年可持续发展议程》。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="第26次">第26次全体会议</inline>
+        <eol />
+        <docDate date="2023-06-07" refersTo="#adoptionDate">2023年6月7日</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
