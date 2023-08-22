@@ -1,0 +1,373 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2023-07-25/2023-28/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2023-07-25/2023-28/"></FRBRuri>
+          <FRBRdate date="2023-07-25" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2023-07-25/2023-28/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2023-07-25/2023-28/eng@/"></FRBRuri>
+          <FRBRdate date="2023-08-08" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2023-07-25/2023-28/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2023-07-25/2023-28/eng@.xml"></FRBRuri>
+          <FRBRdate date="2023-08-15" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="10" href="http://metadata.un.org/sdg/10" showAs="sdg_10" dictionary="SDGO"></keyword>
+        <keyword value="equality" href="http://metadata.un.org/thesaurus/1002102" showAs="equality" dictionary="UNBIS"></keyword>
+        <keyword value="social_inequality" href="http://eurovoc.europa.eu/1420" showAs="social_inequality" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="9" href="http://metadata.un.org/sdg/9" showAs="sdg_9" dictionary="SDGO"></keyword>
+        <keyword value="innovation" href="http://eurovoc.europa.eu/1439" showAs="innovation" dictionary="EuroVoc"></keyword>
+        <keyword value="innovation" href="http://metadata.un.org/thesaurus/1003223" showAs="innovation" dictionary="UNBIS"></keyword>
+        <keyword value="industrialization" href="http://metadata.un.org/thesaurus/1003177" showAs="industrialization" dictionary="UNBIS"></keyword>
+        <keyword value="industrial_infrastructure" href="http://eurovoc.europa.eu/1434" showAs="industrial_infrastructure" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Economic and Social Council. Committee of Experts on Public Administration (22nd : 2023 : New York)" showAs="UN. Economic and Social Council. Committee of Experts on Public Administration (22nd : 2023 : New York)" dictionary="DHLAUTH"></keyword>
+        <keyword value="2030 Agenda for Sustainable Development" showAs="2030 Agenda for Sustainable Development" dictionary="DHLAUTH"></keyword>
+        <keyword value="Sustainable Development Goals" showAs="Sustainable Development Goals" dictionary="DHLAUTH"></keyword>
+        <keyword value="Sustainable Development Goals. Goal 16" showAs="Sustainable Development Goals. Goal 16" dictionary="DHLAUTH"></keyword>
+        <keyword value="PUBLIC ADMINISTRATION" showAs="PUBLIC ADMINISTRATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GOVERNANCE" showAs="GOVERNANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DEVELOPMENT POLICY" showAs="DEVELOPMENT POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RESILIENCE" showAs="RESILIENCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="18f" showAs="Public administration and development." shortForm="PUBLIC ADMINISTRATION" dictionary="E/2023/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-06-26" outcome="draftResolution" as="E/2023/L.20" by="submitted by the Vice-President of the Council, Paula Narváez (Chile) and on the basis of informal consultations" />
+        <step date="2023-08-08" outcome="adopted" as="Adopted without vote, 43rd plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">23-15261 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2023/28</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Economic and Social Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-08-08" class="rightSmall" refersTo="#dateOfIssuance">8 August 2023</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2023" eId="coverPage_1__session_1">2023 session</session>
+      </p>
+      <p>
+        <inline title="18 (f)" name="agenda item">Agenda item 18 (f)</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Economic and environmental questions: public administration and development</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the Economic and Social Council on 25 July 2023</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#plenaryMeeting">[on a proposal considered in plenary meeting (<inline name="originating document">E/2023/L.20</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2023/28.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Report of the Committee of Experts on Public Administration on its twenty-second session </span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Economic and Social Council</span>,</p>
+      </formula>
+      <container name="Recalling" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> its resolutions <a href="https://undocs.org/en/E/RES/2021/12">2021/12</a> of 8 June 2021, <a href="https://undocs.org/en/E/RES/2022/9">2022/9</a> of 8 June 2022 and other related resolutions on public administration and development, in which it affirmed that service to citizens should be at the centre of transforming public administration and that the foundations of sustainable development at all levels include transparent, participatory and accountable governance and a professional, ethical, responsive and information and communications technology-enabled public administration, </p>
+      </container>
+      <container name="Reaffirming" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> General Assembly resolution <a href="https://undocs.org/en/A/RES/70/1">70/1</a> of 25 September 2015, entitled “Transforming our world: the 2030 Agenda for Sustainable Development”, </p>
+      </container>
+      <container name="Reaffirming also" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Reaffirming also</span> General Assembly resolution <a href="https://undocs.org/en/A/RES/69/313">69/313</a> of 27 July 2015 on the Addis Ababa Action Agenda of the Third International Conference on Financing for Development, </p>
+      </container>
+      <container name="Reaffirming further" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Reaffirming further</span> the outcome document, entitled “New Urban Agenda”, adopted by the United Nations Conference on Housing and Sustainable Urban Development (Habitat III), held in Quito from 17 to 20 October 2016,<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	 	General Assembly resolution <a href="https://undocs.org/en/A/RES/71/256">71/256</a>, annex.</p></authorialNote></p>
+      </container>
+      <container name="Recalling" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> General Assembly resolution <a href="https://undocs.org/en/A/RES/69/327">69/327</a> of 14 September 2015, in which the Assembly reaffirmed the importance of freedom, human rights, national sovereignty, good governance, the rule of law, peace and security, combating corruption at all levels and in all its forms, and effective, accountable and inclusive democratic institutions at the subnational, national and international levels as central to enabling inclusive and accountable public services for sustainable development, </p>
+      </container>
+      <container name="Referring" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Referring</span> to the United Nations Convention against Corruption,<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	 	United Nations, <span class="italic">Treaty Series</span>, vol. 2349, No. 42146.</p></authorialNote> which entered into force on 14 December 2005, </p>
+      </container>
+      <container name="Recalling" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> General Assembly resolution <a href="https://undocs.org/en/A/RES/77/150">77/150</a> of 14 December 2022, in which the Assembly recognized the need to harness the potential of information and communications technologies as critical enablers of sustainable development and to overcome digital divides, and stressing that capacity-building for the productive use of such technologies should be given due consideration in the implementation of the 2030 Agenda and the Addis Ababa Action Agenda,</p>
+      </container>
+      <container name="Recalling also" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Recalling also</span> General Assembly resolution <a href="https://undocs.org/en/A/RES/69/228">69/228</a> of 19 December 2014 on promoting and fostering the efficiency, accountability, effectiveness and transparency of public administration by strengthening supreme audit institutions, in which the Assembly emphasized that efficient, accountable, effective and transparent public administration has a key role to play in the implementation of the internationally agreed development goals, </p>
+      </container>
+      <container name="Recalling further" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Recalling further</span> General Assembly resolution <a href="https://undocs.org/en/A/RES/77/182">77/182</a> of 14 December 2022 on human resources development, </p>
+      </container>
+      <container name="Referring" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Referring</span> to General Assembly resolution <a href="https://undocs.org/en/A/RES/74/270">74/270</a> of 2 April 2020, in which the Assembly recognized the unprecedented effects of the coronavirus disease (COVID‑19) pandemic, including the severe disruption to societies and economies, as well as to global travel and commerce, and the devastating impact on the livelihood of people, and reaffirmed its full commitment to the decade of action and delivery for sustainable development, </p>
+      </container>
+      <container name="Recognizing" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> the role of the Committee of Experts on Public Administration in providing policy advice and programmatic guidance to the Economic and Social Council on issues related to governance and public administration, and the relevance of the work of the Committee to the implementation of and follow-up to the 2030 Agenda,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_13" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_13__content">
+          <p xml:space="preserve">	<span class="italic">Takes note</span> of the report of the Committee of Experts on Public Administration on its twenty-second session,<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	 	<span class="italic">Official Records of the Economic and Social Council, 2023, Supplement No. 24</span> (<a href="https://undocs.org/en/E/2023/44">E/2023/44</a>).</p></authorialNote> and expresses its appreciation for the work done by the Committee on urgently transforming institutions for a more sustainable, inclusive and resilient world while accelerating the recovery from the coronavirus disease (COVID‑19) and the full implementation of the 2030 Agenda for Sustainable Development<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">	 	General Assembly resolution <a href="https://undocs.org/en/A/RES/70/1">70/1</a>.</p></authorialNote> at all levels in alignment with the 2023 theme of the Economic and Social Council and the high-level political forum on sustainable development; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">	<span class="italic">Invites</span> the Committee to continue to place the 2030 Agenda for Sustainable Development at the centre of its work and to continue to advise the Council on how public administrations can support the implementation and progress reviews of the Sustainable Development Goals; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the contribution of the Committee to the high-level political forum, and reaffirms that the principle of leaving no one behind should be a core principle of public administration;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="H23">
+        <subheading>		Urgently transforming institutions for a more sustainable, inclusive and resilient world at a time of multiple crises</subheading>
+      </paragraph>
+      <paragraph eId="para_18" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> the relevance of whole-of-government and whole-of-society approaches to sustainable development and leaving no one behind, and encourages Governments to work together in the interest of all countries to strengthen public institutions, in order to stimulate and guide the recovery from the COVID‑19 pandemic and to be better prepared to manage potential economic, social and environmental shocks in the future;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="italic">Calls for</span> increased efforts to support national and international peer exchanges and peer learning on the implementation of the Sustainable Development Goals, including through cooperation with existing international networks;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> Governments to address the complex problems underlying crises in a holistic manner, ensuring that crisis management does not hinder the continuous implementation of the Sustainable Development Goals; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> that achieving sustainable development and strengthening resilience require a long-term perspective in public policymaking, together with institution-building at all levels, based on effective governance for sustainable development, as well as a steadfast commitment to promoting peaceful, just and inclusive societies, and encourages Governments to integrate reflections of a long-term vision of society into their planning, monitoring and reporting on the Sustainable Development Goals and into their voluntary national reviews of progress towards 2030; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">	<span class="italic">Also recognizes</span> that accelerating the delivery of the 2030 Agenda at all levels calls for more integrated solutions to achieve the vision and Goals of the 2030 Agenda as well as a capable State at all levels, and encourages countries to design and implement integrated national institution-building strategies that address important capability gaps across the whole of government; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">	<span class="italic">Expresses concern</span> at the limited capacity to foresee and build resilience against the diverse challenges originating from multiple shocks in many countries, and calls for a rapid upgrade of the risk management function in government and its integration into Sustainable Development Goal-related coordination mechanisms at the highest level; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Governments to build the capacity of the public sector in natural capital accounting based on the System of Environmental-Economic Accounting, and strengthen the accountability of public institutions with regard to environmental policies by including an assessment of the state of natural resources under their jurisdiction as part of regular performance assessments; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve">	<span class="italic">Recalls</span> the need to strengthen the global response to climate change by increasing the ability of developing countries to adapt to its adverse effects, foster resilience, accelerate the full implementation of all the Goals and targets of the 2030 Agenda and integrate climate change measures, as appropriate, into national policies, strategies and planning, as well as the importance of mobilizing means of implementation from all sources, including adequate financial support, taking into account the specific needs and special circumstances of developing countries, and calls upon developed countries and the relevant international organizations and funding mechanisms to prioritize training and assistance for developing countries to improve their skills in analysing data and designing climate projects that can attract investments; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms</span> the need for pragmatic ongoing improvements in national and subnational governance capabilities to achieve the 2030 Agenda and other international agreements, and encourages Governments at all levels to apply the principles of effective governance for sustainable development,<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">	 	<span class="italic">Official Records of the Economic and Social Council, 2018, Supplement No. 24</span> (<a href="https://undocs.org/en/E/2018/44">E/2018/44</a>), chap. III, sect. B, para. 31.</p></authorialNote> endorsed by the Council in its resolution <a href="https://undocs.org/en/E/RES/2018/12">2018/12</a> of 2 July 2018, to all public institutions and in support of the implementation of all Sustainable Development Goals, taking into account different governance structures, national and subnational realities, capacities and levels of development and respecting national policies and priorities; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_63" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_63__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the Committee to continue to identify and review related technical guidelines and experiences to operationalize the principles at the national and subnational levels, including from sectoral perspectives, and to further engage the relevant United Nations organizations, regional organizations and professional and academic communities in this regard, in an inclusive manner, together with all relevant stakeholders; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_73" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_73__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the ongoing initiative of the African Peer Review Mechanism of the African Union to promote the application of the principles among its member States in collaboration with the Department of Economic and Social Affairs of the Secretariat, and encourages other regional mechanisms, such as those associated with the United Nations regional commissions, to develop and implement similar initiatives in alignment with their own mandates and processes;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_84" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_84__content">
+          <p xml:space="preserve">	<span class="italic">Notes</span> the renewed efforts of the Committee to associate a set of agreed global Sustainable Development Goal indicators with each of the principles with a view to contributing to strengthening the analytical basis for assessing the impact of reform policies on building effective, accountable and inclusive institutions at all levels; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_96" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_96__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Governments at all levels to enhance efforts to promote the meaningful participation of stakeholders in matters that directly affect them, including the poorest and most vulnerable, and to implement models of participation based on whole-of-government and whole-of-society approaches that leave no one behind; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_109" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_109__content">
+          <p xml:space="preserve">	<span class="italic">Also encourages</span> Governments, especially in view of stronger budget pressures, to accelerate action to increase transparency and equal participation in and oversight of the budgeting process, establish transparent public procurement frameworks as a strategic tool to reinforce sustainable development and curb corrupt practices, to strengthen budget credibility and to embed commitments to the Sustainable Development Goals in budgetary and financial processes at the national and subnational levels by adopting practices to monitor and report on the use of public financial resources in support of the Goals, such as reorganizing budgets, based on programmes and activities, and mapping and tracking budgetary contributions to each Goal; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_123" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_123__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> that building resilient institutions calls for more creative, flexible and integrated ways of working that are focused on the needs of people, as well as an adequate stock of competencies, capabilities and resources, and encourages Governments to further promote professionalization of the public sector workforce, invest in digital skills, update competency frameworks for implementation of the 2030 Agenda, address inequalities that exist within the public sector workforce, and take steps to address social inequities in the design and delivery of public services;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_138" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_138__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates</span> that the COVID‑19 pandemic has both accelerated the digital transition and revealed technological weaknesses of public administrations while exacerbating inequalities caused by digital divides, and encourages Governments to manage digitalization of public services in an inclusive, fair, ethical and people-centred manner, while accelerating efforts to bridge digital divides, inter alia through hybrid models of public service delivery;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_154" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_154__content">
+          <p xml:space="preserve">	<span class="italic">Notes</span> the increasing demands for assistance with operationalization of the principles of effective governance for sustainable development and the Committee’s emphasis on the need to strengthen the secretariat of the Committee to enable it to respond effectively;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_155" class="H23">
+        <subheading>		Follow-up</subheading>
+      </paragraph>
+      <paragraph eId="para_156" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_156__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Committee, at its twenty-third session, to be held from 15 to 19 April 2024, to examine and make recommendations on the theme of the 2024 session of the Council and the 2024 high-level political forum and to contribute to the review of the implementation of Sustainable Development Goal 16, giving particular attention to the cross-cutting nature of all the Goals; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_157" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_157__content">
+          <p xml:space="preserve">	<span class="italic">Invites</span> the Committee to continue to advise on approaches and practices related to the institutions, policies and arrangements to promote the implementation of the Sustainable Development Goals, bearing in mind that the specific contexts and situations of countries differ widely, as well as to advise on making institutions effective, accountable and inclusive; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_159" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_159__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to take the present resolution fully into account in the work of the Organization, inter alia, in addressing gaps in research and analysis and in responding to the capacity-development needs of Member States for building effective, accountable and inclusive institutions at all levels in pursuit of the achievement of the Sustainable Development Goals; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_162" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_162__content">
+          <p xml:space="preserve">	<span class="italic">Also requests</span> the Secretary-General to continue to promote and support innovation and excellence in public services for sustainable development through the United Nations Public Service Awards; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_166" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_166__content">
+          <p xml:space="preserve">	<span class="italic">Further requests</span> the Secretary-General to report on the implementation of and follow-up to the present resolution through the established working methods of the Committee. </p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="43rd">43rd plenary meeting</inline>
+        <eol />
+        <docDate date="2023-07-25" refersTo="#adoptionDate">25 July 2023</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
