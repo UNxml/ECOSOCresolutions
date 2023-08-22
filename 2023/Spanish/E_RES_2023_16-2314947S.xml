@@ -1,0 +1,812 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2023-06-23/2023-16/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2023-06-23/2023-16/"></FRBRuri>
+          <FRBRdate date="2023-06-23" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2023-06-23/2023-16/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2023-06-23/2023-16/spa@/"></FRBRuri>
+          <FRBRdate date="2023-08-03" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2023-06-23/2023-16/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2023-06-23/2023-16/spa@.xml"></FRBRuri>
+          <FRBRdate date="2023-08-15" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Office for the Coordination of Humanitarian Affairs" showAs="UN. Office for the Coordination of Humanitarian Affairs" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Under-Secretary-General for Humanitarian Affairs and Emergency Relief Coordinator" showAs="UN. Under-Secretary-General for Humanitarian Affairs and Emergency Relief Coordinator" dictionary="DHLAUTH"></keyword>
+        <keyword value="Central Emergency Response Fund" showAs="Central Emergency Response Fund" dictionary="DHLAUTH"></keyword>
+        <keyword value="AID COORDINATION" showAs="AID COORDINATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMANITARIAN ASSISTANCE" showAs="HUMANITARIAN ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMANITARIAN EMERGENCIES" showAs="HUMANITARIAN EMERGENCIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COORDINATION WITHIN UN SYSTEM" showAs="COORDINATION WITHIN UN SYSTEM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="EMERGENCY RELIEF" showAs="EMERGENCY RELIEF" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="9" showAs="Special economic, humanitarian and disaster relief assistance." shortForm="HUMANITARIAN ASSISTANCE" dictionary="E/2023/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-06-16" outcome="draftResolution" as="E/2023/L.19" by="submitted by the Vice-President of the Council, Maurizio Massari (Italy) and on the basis of informal consultations" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2023-08-03" outcome="adopted" as="Adopted without vote, 35th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">23-14947 (S)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Naciones Unidas</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2023/16</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Consejo Económico y Social</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-08-03" class="rightSmall" refersTo="#dateOfIssuance">3 de agosto de 2023</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2023" eId="coverPage_1__session_1">Período de sesiones de 2023</session>
+      </p>
+      <p>
+        <inline title="9" name="agenda item">Tema 9 del programa</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Asistencia económica especial, humanitaria y de socorro en casos de desastre</inline>
+      </p>
+      <p>
+        <docTitle>Resolución aprobada por el Consejo Económico y Social el 23 de junio de 2023</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#plenaryMeeting">[sobre la base de una propuesta examinada en sesión plenaria (<inline name="originating document">E/2023/L.19</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2023/16.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Fortalecimiento de la coordinación de la asistencia humanitaria de emergencia que prestan las Naciones Unidas</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">El Consejo Económico y Social</span>,</p>
+      </formula>
+      <container name="Reafirmando" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Reafirmando </span>la resolución <a href="https://undocs.org/es/A/RES/46/182">46/182</a> de la Asamblea General, de 19 de diciembre de 1991, y los principios rectores que figuran en su anexo, y recordando otras resoluciones pertinentes de la Asamblea y resoluciones y conclusiones convenidas pertinentes del Consejo Económico y Social, </p>
+      </container>
+      <container name="Reafirmando también" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Reafirmando también</span> los principios de humanidad, neutralidad, imparcialidad e independencia en la prestación de asistencia humanitaria y la necesidad de que todos los agentes que prestan asistencia humanitaria en emergencias complejas, crisis prolongadas y desastres naturales promuevan y respeten plenamente esos principios, </p>
+      </container>
+      <container name="Recordando" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Recordando </span>su decisión 2023/315, de 5 de abril de 2023, en la que decidió que el tema de la serie de sesiones sobre asuntos humanitarios de su período de sesiones de 2023 sería “Fortalecer la asistencia humanitaria en un momento de necesidades humanitarias sin precedentes: impulsar la transformación y las soluciones para hacer frente a los desafíos urgentes de la creciente inseguridad alimentaria y el riesgo de hambruna, los riesgos en materia de protección y el cambio climático” y que celebraría tres mesas redondas durante la serie de sesiones,</p>
+      </container>
+      <container name="Expresando grave preocupación" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Expresando grave preocupación</span> por los desafíos cada vez mayores, en particular en los países en desarrollo, que genera el número sin precedentes de personas afectadas por los desastres y otras emergencias humanitarias, que agravan el subdesarrollo, la pobreza y la desigualdad y aumentan la vulnerabilidad de las personas al tiempo que disminuyen su capacidad para hacer frente a las emergencias humanitarias, poniendo de relieve la necesidad de que se proporcionen de manera eficaz y eficiente recursos continuos para la reducción del riesgo de desastres, la preparación y la asistencia humanitaria, especialmente en los países en desarrollo, y poniendo de relieve también la necesidad de que los agentes humanitarios y de desarrollo mejoren su colaboración para fortalecer la resiliencia, incluida la resiliencia urbana, en lo que respecta a la prevención, la preparación y la respuesta,</p>
+      </container>
+      <container name="Expresando la más grave preocupación" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Expresando la más grave preocupación</span> por las consecuencias humanitarias de la pandemia de enfermedad por coronavirus (COVID‑19) y los riesgos que suponen sus consecuencias en curso y sus efectos a largo plazo, incluso en los ya importantes niveles de necesidades humanitarias y de desarrollo y en el sufrimiento de las personas y comunidades afectadas, reconociendo los efectos desproporcionados en las mujeres, los niños y las personas en situación de vulnerabilidad, y profundamente preocupado por el aumento de las necesidades de asistencia humanitaria y de protección, entre otras cosas debido al incremento de la violencia, incluida la violencia sexual y de género y la violencia contra los niños, y las importantes consecuencias para la educación, especialmente de las niñas, así como los altos niveles de inseguridad alimentaria y malnutrición y el aumento de los riesgos de hambruna, la pérdida de medios de subsistencia y todos los efectos negativos en la salud, incluida la salud mental, que también se ven agravados por el debilitamiento de los sistemas de salud, y los efectos y riesgos en materia de desplazamiento; y reconociendo los riesgos y efectos agravados debidos a los conflictos armados, la pobreza, los desastres naturales, la violencia, las consecuencias adversas del cambio climático y otros desafíos ambientales; y reconociendo también las iniciativas y medidas propuestas por el Secretario General en relación con la respuesta a las repercusiones de la pandemia de COVID‑19,</p>
+      </container>
+      <container name="Destacando" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Destacando </span>que la pandemia mundial de COVID‑19 requiere una respuesta mundial eficaz basada en la unidad, la solidaridad y la cooperación multilateral renovada, recalcando la importancia de la asistencia humanitaria como parte fundamental de esa respuesta y, a este respecto, reconociendo los esfuerzos de los Estados Miembros, particularmente en lo que se refiere a la prestación de asistencia humanitaria, para hacer frente a la pandemia de COVID‑19, y expresando aprecio por los esfuerzos y el apoyo del sistema de las Naciones Unidas, el Comité Permanente entre Organismos, el Movimiento Internacional de la Cruz Roja y de la Media Luna Roja, las organizaciones no gubernamentales, las organizaciones confesionales, las organizaciones dirigidas por mujeres, los agentes humanitarios locales, los voluntarios y otras organizaciones sanitarias y humanitarias, así como por la labor esencial del personal médico y humanitario que trabaja en la primera línea de la respuesta humanitaria frente a la pandemia, y destacando la importancia de adoptar las medidas necesarias para garantizar su protección, y expresando aprecio por los esfuerzos de los trabajadores de primera línea y esenciales en todo el mundo, y reconociendo también la respuesta integral a la pandemia de COVID‑19, incluida la mayor cooperación, coherencia, coordinación y complementariedad entre los agentes humanitarios y de desarrollo, en pleno cumplimiento de sus respectivos mandatos, y subrayando a este respecto la importancia de la colaboración al objeto de reducir la necesidad, la vulnerabilidad y el riesgo a lo largo de múltiples años y de crear resiliencia, sobre la base de un entendimiento común del contexto y de las ventajas operacionales de cada agente, </p>
+      </container>
+      <container name="Expresando grave preocupación" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Expresando grave preocupación </span>por el número sin precedentes de personas afectadas y desplazadas por las emergencias humanitarias, incluidos los desplazamientos, a menudo prolongados, resultantes de las emergencias humanitarias, que están aumentando en número, magnitud y gravedad y sobrecargando la capacidad de respuesta humanitaria, reconociendo la necesidad de compartir las cargas y observando con aprecio los esfuerzos nacionales e internacionales que promueven la creación de capacidad nacional para abordar los complejos desafíos que se plantean al respecto, </p>
+      </container>
+      <container name="Observando" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Observando </span>la necesidad de que la comunidad internacional sea cada vez más consciente de la cuestión de los desplazados internos en todo el mundo, incluida la situación de los millones de personas que viven en situación de desplazamiento prolongado, así como la necesidad urgente de proporcionar asistencia humanitaria y protección suficientes a los desplazados internos, apoyar a las comunidades de acogida, atacar las causas profundas del desplazamiento en una etapa temprana, encontrar soluciones duraderas para los desplazados internos en sus países y afrontar los posibles obstáculos a este respecto, en relación con lo cual las autoridades nacionales tienen el deber y la responsabilidad primordiales de proporcionar protección y asistencia humanitaria y promover soluciones duraderas para los desplazados internos que se encuentran dentro de su jurisdicción, teniendo presentes sus necesidades particulares, y reconociendo que las soluciones duraderas incluyen el retorno voluntario en condiciones de seguridad y dignidad, así como la integración voluntaria a nivel local en las zonas a las que esas personas han sido desplazadas o el asentamiento voluntario en otra parte del país, sin perjuicio del derecho de los desplazados internos de abandonar su país o buscar asilo,</p>
+      </container>
+      <container name="Reconociendo" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Reconociendo </span>el papel fundamental de los países y las comunidades de acogida, especialmente los países en desarrollo, en la respuesta a las necesidades de las poblaciones afectadas en las emergencias humanitarias, y reiterando la necesidad de que la comunidad internacional apoye de manera oportuna y coordinada a los países de acogida y afectados para fortalecer su desarrollo y su resiliencia y fortalecer la capacidad nacional y local, según corresponda, de atender las necesidades humanitarias de las poblaciones afectadas con arreglo a los principios humanitarios,</p>
+      </container>
+      <container name="Destacando" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Destacando </span>la importancia de que los Estados Miembros, las Naciones Unidas y otros agentes pertinentes sigan realizando esfuerzos para aumentar la eficacia de la asistencia humanitaria en función de las necesidades, lo cual implica fortalecer la capacidad de respuesta humanitaria, mejorar la coordinación de la acción humanitaria, mejorar las evaluaciones conjuntas de las necesidades y los análisis, según corresponda, así como los planes de respuesta humanitaria basados en las necesidades y priorizados, detectar innovaciones apropiadas e integrarlas en las actividades de preparación, respuesta y recuperación humanitaria, aumentar la transparencia, reducir la duplicación y los gastos de gestión, fortalecer las alianzas con los equipos de respuesta locales y nacionales, según proceda, aumentar la financiación flexible, previsible y suficiente y fomentar la rendición de cuentas de todos los interesados,</p>
+      </container>
+      <container name="Reconociendo" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Reconociendo </span>que los países en desarrollo, en particular los países menos adelantados y los pequeños Estados insulares en desarrollo, siguen siendo sumamente vulnerables a los efectos adversos del cambio climático, el aumento de la intensidad y la frecuencia de los fenómenos meteorológicos extremos y los fenómenos relacionados con el clima, así como a los efectos de El Niño y La Niña, la degradación del medio ambiente y las pérdidas humanas y económicas resultantes de los peligros naturales, reconociendo también el aumento de la intensidad y la frecuencia de los desastres, que en muchas circunstancias pueden contribuir a los desplazamientos, y reconociendo además la necesidad de mejorar la comprensión de la naturaleza multidimensional de los desastres y los efectos adversos del cambio climático para gestionar eficazmente el riesgo de desastres, y la necesidad de la cooperación internacional, según proceda, para desarrollar y fortalecer su resiliencia a este respecto, lo que incluye el intercambio de información, experiencias y mejores prácticas entre países, y reafirmando la importancia de la cooperación internacional en apoyo de los esfuerzos de los Estados, incluso en la preparación, respuesta y recuperación temprana, así como del fortalecimiento de la capacidad de respuesta de los países afectados por desastres,</p>
+      </container>
+      <container name="Afirmando" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Afirmando </span>la necesidad de que se aplique de manera efectiva el Marco de Sendái para la Reducción del Riesgo de Desastres 2015-2030<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	 	Resolución <a href="https://undocs.org/es/A/RES/69/283">69/283</a> de la Asamblea General, anexo II.</p></authorialNote>, poniendo de relieve que crear y fortalecer la resiliencia en los planos local, nacional y regional es esencial para reducir el riesgo y los efectos de los desastres y las vulnerabilidades a los peligros y, a este respecto, reconociendo que crear resiliencia, en particular mediante la reducción del riesgo de desastres y la preparación para ellos, es un proceso multidimensional en el que participan tanto los agentes humanitarios como los de desarrollo para apoyar el desarrollo a largo plazo, destacando al mismo tiempo la necesidad de invertir más en la creación de capacidad nacional y local en materia de sistemas de alerta temprana multirriesgos, preparación, prevención, mitigación, respuesta, recuperación y rehabilitación, en particular en los países en desarrollo, así como de invertir en la creación de capacidad regional, </p>
+      </container>
+      <container name="Reconociendo" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Reconociendo </span>a este respecto la especial importancia del Acuerdo de París aprobado en virtud de la Convención Marco de las Naciones Unidas sobre el Cambio Climático<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	 	Véase <a href="https://undocs.org/es/FCCC/CP/2015/10/Add.1">FCCC/CP/2015/10/Add.1</a>, decisión 1/CP.21, anexo.</p></authorialNote>,</p>
+      </container>
+      <container name="Recordando" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Recordando </span>los Convenios de Ginebra del 12 de agosto de 1949<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	 	Naciones Unidas, <span class="italic">Treaty Series</span>, vol. 75, núms. 970 a 973.</p></authorialNote> y sus Protocolos Adicionales de 1977<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">	 	<span class="italic">Ibid</span>., vol. 1125, núms. 17512 y 17513.</p></authorialNote>, y la obligación de respetar y hacer respetar el derecho internacional humanitario en todas las circunstancias, así como la obligación de todas las partes en los conflictos armados de cumplir estrictamente las obligaciones que les incumben en virtud del derecho internacional humanitario, </p>
+      </container>
+      <container name="Reafirmando" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Reafirmando </span>la importancia que siguen teniendo los Convenios de Ginebra, que contienen un marco jurídico esencial para la protección de las personas civiles en tiempo de guerra, incluida la prestación de asistencia humanitaria,</p>
+      </container>
+      <container name="Recordando" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Recordando </span>las disposiciones aplicables de los Convenios de Ginebra de 1949 y sus Protocolos Adicionales de 1977 y 2005<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">	 	<span class="italic">Ibid.</span>, vol. 2404, núm. 43425.</p></authorialNote>, así como el derecho internacional consuetudinario referente a la protección de los heridos y enfermos, el personal médico y el personal humanitario dedicado exclusivamente a tareas médicas, sus medios de transporte y equipo y los hospitales y otras instalaciones médicas, y la obligación de las partes en los conflictos armados de respetar y hacer respetar el derecho internacional humanitario en todas las circunstancias, y observando las normas aplicables del derecho internacional humanitario según las cuales no se castigará a nadie por haber ejercido una actividad médica conforme con la deontología, </p>
+      </container>
+      <container name="Condenando enérgicamente" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Condenando enérgicamente</span> todos los ataques, amenazas y demás actos de violencia contra los heridos y enfermos, el personal médico y el personal humanitario dedicado exclusivamente a tareas médicas, sus medios de transporte, equipo y suministros, los hospitales y otras instalaciones médicas, y deplorando las consecuencias que esos ataques tienen a largo plazo para la población civil y los sistemas de salud de los países afectados, </p>
+      </container>
+      <container name="Condenando en los términos más enérgicos posibles" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">Condenando en los términos más enérgicos posibles</span> el alarmante aumento del número de amenazas y ataques deliberados contra el personal humanitario y médico y el personal de las Naciones Unidas y el personal asociado, especialmente contra el personal local y de contratación nacional, y todos los ataques, amenazas y demás actos de violencia contra el personal humanitario y sus instalaciones, equipo, medios de transporte y suministros, y expresando profunda preocupación por las repercusiones de esos ataques en la prestación de asistencia humanitaria a las poblaciones afectadas,</p>
+      </container>
+      <container name="Encomiando" eId="container_20">
+        <p xml:space="preserve">
+          <span class="italic">	Encomiando</span> el valor y la entrega de las personas que participan en operaciones humanitarias, especialmente el personal nacional y de contratación local, incluido el personal que trabaja sobre el terreno para las organizaciones no gubernamentales nacionales e internacionales, a menudo con un grave riesgo personal y efectos negativos en su salud, con inclusión de su salud mental y su bienestar psicosocial, especialmente cuando trabajan en situaciones de conflicto armado y están expuestas a sufrir la violencia directa y lesiones y al riesgo de contraer enfermedades y tienen un acceso limitado a servicios médicos y de emergencia,</p>
+      </container>
+      <container name="Condenando enérgicamente" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">Condenando enérgicamente </span>todos los ataques, amenazas y demás actos de violencia contra los bienes de carácter civil, que contravienen el derecho internacional humanitario aplicable,</p>
+      </container>
+      <container name="Alentando" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">Alentando </span>a los Estados Miembros y a las organizaciones humanitarias competentes a que colaboren estrechamente con las instituciones nacionales, incluidas las administraciones locales y el sector privado, según proceda, a fin de examinar medios eficaces y específicos de cada contexto para estar mejor preparados ante las crecientes emergencias en zonas urbanas, responder a ellas y recuperarse, toda vez que dichas emergencias pueden afectar a la prestación de servicios vitales tan esenciales como el agua, la energía y la atención de la salud,</p>
+      </container>
+      <container name="Expresando profunda preocupación" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">Expresando profunda preocupación</span> por todos los actos de violencia sexual y de género y observando con gran preocupación que la violencia, incluidas la violencia sexual y de género y la violencia contra los niños, sigue dirigiéndose deliberadamente contra la población civil en las situaciones de emergencia y que los civiles son las principales víctimas de las infracciones del derecho internacional humanitario cometidas por las partes en los conflictos armados, reconociendo que, si bien las mujeres y las niñas se ven afectadas de manera desproporcionada, los hombres y los niños también pueden ser víctimas o supervivientes de la violencia sexual y de género,</p>
+      </container>
+      <container name="Reconociendo" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">Reconociendo </span>que las emergencias humanitarias pueden afectar de manera desproporcionada a las mujeres y las niñas y que es esencial asegurar que se empodere a las mujeres para que puedan participar de forma efectiva y significativa en los procesos de liderazgo y adopción de decisiones referentes a esas emergencias, incluida la reducción del riesgo de desastres, que mediante las estrategias y respuestas, según proceda, se determinen las necesidades y los intereses específicos de las mujeres y las niñas, incluidos los relativos a la educación y la salud, y se responda a ellos adecuadamente y de manera segura, y que en las emergencias humanitarias se promuevan y protejan los derechos de las mujeres y las niñas, </p>
+      </container>
+      <container name="Reafirmando" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">Reafirmando </span>que las necesidades y prioridades específicas y la capacidad de las mujeres, las niñas, los hombres y los niños de diferentes edades deben determinarse, atenderse e incorporarse en todas las etapas de la programación de la asistencia humanitaria de manera amplia y sistemática, reconociendo que en las emergencias humanitarias se plantean riesgos específicos y acrecentados para su seguridad, salud y bienestar, </p>
+      </container>
+      <container name="Observando con grave preocupación" eId="container_26">
+        <p xml:space="preserve">	<span class="italic">Observando con grave preocupación</span> que los niños y los jóvenes siguen careciendo de educación inclusiva y equitativa de calidad y de entornos escolares seguros en las situaciones de emergencia humanitaria, reconociendo el derecho de los niños a la educación en las situaciones de emergencia y que las consecuencias de las emergencias humanitarias en la educación plantean desafíos de desarrollo y humanitarios, y poniendo de relieve la urgente necesidad de aumentar la financiación de la educación de calidad en emergencias humanitarias y de impartir esa educación con más eficiencia, como contribución para lograr los Objetivos de Desarrollo Sostenible y garantizar una educación inclusiva y equitativa de calidad y promover oportunidades de aprendizaje permanente para todos, en particular educación preescolar y terciaria y formación práctica y profesional, y, en este sentido, reafirmando que la educación debería utilizarse para contribuir a la paz y puede servir de catalizador para la recuperación y la reconstrucción y crea sociedades resilientes y robustas,</p>
+      </container>
+      <container name="Reconociendo" eId="container_27">
+        <p xml:space="preserve">	<span class="italic">Reconociendo </span>que la educación de calidad contribuye de diversas maneras a fomentar la resiliencia de las personas, las comunidades y las instituciones para responder a las emergencias humanitarias mediante el apoyo al capital social y su fortalecimiento, el incremento del capital humano y la profundización de los conocimientos comunitarios sobre la respuesta humanitaria, y reconociendo también que la educación de calidad puede mitigar los efectos psicosociales de los conflictos armados y los desastres naturales creando una sensación de normalidad, estabilidad, estructura y esperanza para el futuro, y, a este respecto, poniendo de relieve el importante papel que la educación también puede desempeñar para apoyar la labor que se lleva a cabo en situaciones de emergencia a fin de prevenir y mitigar los efectos de todos los actos de violencia y abuso,</p>
+      </container>
+      <container name="Reconociendo también" eId="container_28">
+        <p xml:space="preserve">	<span class="italic">Reconociendo también</span> el papel importante y positivo de la juventud en la asistencia humanitaria, que puede ser un factor impulsor de la innovación y las soluciones creativas, y la necesidad de implicarla en las iniciativas de respuesta, como los programas de voluntarios,</p>
+      </container>
+      <container name="Reconociendo además" eId="container_29">
+        <p xml:space="preserve">	<span class="italic">Reconociendo además</span> los riesgos que corren las personas de edad en emergencias humanitarias, que tienen años de conocimientos, aptitudes y sabiduría, los cuales son bienes inestimables para reducir el riesgo de desastres, y que tales personas deben ser incluidas en el diseño de las políticas, planes y mecanismos, en particular los de alerta temprana y los destinados a reducir el riesgo de desastres, y reconociendo también que deben tenerse en cuenta sus necesidades particulares, </p>
+      </container>
+      <container name="Reconociendo" eId="container_30">
+        <p xml:space="preserve">	<span class="italic">Reconociendo </span>que durante las emergencias humanitarias las personas con discapacidad se ven afectadas de manera desproporcionada y encuentran múltiples obstáculos para poder acceder a la asistencia humanitaria, reconociendo además la necesidad de que la acción humanitaria sea accesible para las personas con discapacidad y las incluya, destacando a este respecto la importancia de garantizar la no discriminación, la participación genuina en los procesos de adopción de decisiones y la cooperación y la coordinación al prestar asistencia para que se atiendan sus necesidades y, en este sentido, recordando la Carta sobre la Inclusión de las Personas con Discapacidad en la Acción Humanitaria, </p>
+      </container>
+      <container name="Reconociendo también" eId="container_31">
+        <p xml:space="preserve">	<span class="italic">Reconociendo también</span> que corresponde a los Estados Miembros el papel primordial en la preparación ante brotes de enfermedades infecciosas, incluidos los que dan lugar a crisis humanitarias, y la respuesta a ellos, resaltando la decisiva función desempeñada por los Estados Miembros, la Organización Mundial de la Salud, como autoridad rectora y coordinadora de la labor internacional en materia de salud de conformidad con el Reglamento Sanitario Internacional (2005) aprobado por la Asamblea Mundial de la Salud<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">	 	Organización Mundial de la Salud, documento WHA58/2005/REC/1, resolución 58.3, anexo.</p></authorialNote>, el sistema humanitario de las Naciones Unidas, las organizaciones internacionales y regionales competentes, las organizaciones no gubernamentales, el sector privado y demás agentes humanitarios en la prestación de apoyo financiero, técnico y en especie a fin de controlar las epidemias o pandemias, y reconociendo también la necesidad de fortalecer los sistemas sanitarios nacionales y locales, los sistemas de notificación temprana y alerta temprana, la preparación, la capacidad de respuesta intersectorial y la resiliencia en relación con los brotes de enfermedades infecciosas, concretamente mediante la creación de capacidad en los países en desarrollo, </p>
+      </container>
+      <container name="Observando con gran preocupación" eId="container_32">
+        <p xml:space="preserve">	<span class="italic">Observando con gran preocupación</span> que millones de personas se enfrentan a una situación de hambruna, corren un riesgo inmediato de hambruna o están experimentando niveles críticos de inseguridad alimentaria intensa o situaciones aún peores, y observando que los conflictos armados, la sequía, la pobreza y la volatilidad de los precios de los productos básicos son algunos factores que causan o empeoran la hambruna y la intensa inseguridad alimentaria y la malnutrición intensa, y que urge redoblar los esfuerzos, incluido el apoyo internacional, para encarar esos problemas,</p>
+      </container>
+      <container name="Reconociendo" eId="container_33">
+        <p xml:space="preserve">	<span class="italic">Reconociendo </span>que es necesario adoptar medidas urgentes y concertadas a todos los niveles a fin de recobrar el impulso y acelerar los esfuerzos para poner fin a la hambruna, la inseguridad alimentaria y todas las formas de malnutrición, abordando de manera general sus causas y efectos, y promover una mejor nutrición y sistemas agroalimentarios sostenibles y resilientes, y destacando además que la comunidad internacional debe proporcionar apoyo coordinado a los esfuerzos nacionales y regionales prestando la asistencia necesaria para aumentar la producción alimentaria sostenible y el acceso equitativo a alimentos inocuos, suficientes y nutritivos y su aprovechamiento, respetando plenamente al mismo tiempo la importancia de los principios humanitarios para la asistencia humanitaria,</p>
+      </container>
+      <container name="Reconociendo también" eId="container_34">
+        <p xml:space="preserve">	<span class="italic">Reconociendo también</span> las iniciativas y gestiones del Secretario General y el sistema de las Naciones Unidas para abordar y mitigar el aumento de la inseguridad alimentaria, incluso con el apoyo de los Estados Miembros, y alentando a que prosigan,</p>
+      </container>
+      <container name="Reconociendo además" eId="container_35">
+        <p xml:space="preserve">	<span class="italic">Reconociendo además</span> que invertir, cuando es posible, en sistemas de protección social con capacidad de respuesta y que tengan en cuenta los riesgos, proteger los medios de subsistencia y prestar apoyo de emergencia a la agricultura son medidas esenciales para salvar vidas,</p>
+      </container>
+      <container name="Reconociendo" eId="container_36">
+        <p xml:space="preserve">	<span class="italic">Reconociendo </span>la relación clara que existe entre la respuesta a las emergencias, la rehabilitación, la reconstrucción y el desarrollo, y reafirmando que, para fortalecer la coherencia y asegurar una transición sin tropiezos del socorro a la rehabilitación, la reconstrucción y el desarrollo, la asistencia de emergencia debe prestarse en formas que propicien la recuperación y el desarrollo a largo plazo y que las medidas de emergencia deben estar acompañadas por medidas de desarrollo como un paso hacia el desarrollo sostenible de los Estados afectados, y, a este respecto, resaltando la importancia de una cooperación más estrecha entre los interesados nacionales, incluido el sector privado, según proceda, y los agentes humanitarios y de desarrollo,</p>
+      </container>
+      <container name="Reconociendo también" eId="container_37">
+        <p xml:space="preserve">	<span class="italic">Reconociendo también</span> que para potenciar la resiliencia es imprescindible que exista un marco complementario y de cooperación entre los enfoques humanitarios y de desarrollo,</p>
+      </container>
+      <container name="Alentando" eId="container_38">
+        <p xml:space="preserve">	<span class="italic">Alentando </span>a los agentes de desarrollo y humanitarios a que estrechen su cooperación, en coordinación con los Estados Miembros, a fin de asegurar que todos los agentes pertinentes colaboren entre sí, de conformidad con sus mandatos, para lograr resultados comunes al objeto de reducir la necesidad, la vulnerabilidad y el riesgo a lo largo de múltiples años, sobre la base de un entendimiento común del contexto y las ventajas operacionales de cada agente, en apoyo de las prioridades nacionales, y al mismo tiempo respetando plenamente la importancia de los principios humanitarios para la acción humanitaria,</p>
+      </container>
+      <container name="Reiterando" eId="container_39">
+        <p xml:space="preserve">	<span class="italic">Reiterando </span>la necesidad de que los Estados Miembros, las organizaciones competentes de las Naciones Unidas y otros agentes pertinentes mejoren la rendición de cuentas a todos los niveles para atender las necesidades de las poblaciones afectadas, y reconociendo la importancia de que haya una participación inclusiva en la adopción de decisiones,</p>
+      </container>
+      <container name="Reconociendo" eId="container_40">
+        <p xml:space="preserve">	<span class="italic">Reconociendo</span> la importancia fundamental de seguir mejorando y fortaleciendo las capacidades del sistema humanitario de las Naciones Unidas y de las organizaciones humanitarias para llegar a las personas que necesitan asistencia y protección humanitarias, en consonancia con los principios humanitarios,</p>
+      </container>
+      <container name="Reconociendo también" eId="container_41">
+        <p xml:space="preserve">	<span class="italic">Reconociendo también </span>que los Estados Miembros y el sistema de las Naciones Unidas deben proseguir su labor, entre otras cosas fortaleciendo las alianzas a todos los niveles con los interesados pertinentes, como las organizaciones regionales, la sociedad civil y el sector privado, según proceda, en apoyo de los esfuerzos nacionales, velando al mismo tiempo por que sus actividades de colaboración se ajusten a los principios humanitarios, </p>
+      </container>
+      <container name="Destacando" eId="container_42">
+        <p xml:space="preserve">	<span class="italic">Destacando </span>la necesidad de que los Estados Miembros, las Naciones Unidas y los interesados pertinentes colaboren para reducir las necesidades específicas de los más vulnerables, contribuyendo así a la consecución de los objetivos de la Agenda 2030 para el Desarrollo Sostenible<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">	 	Resolución <a href="https://undocs.org/es/A/RES/70/1">70/1</a> de la Asamblea General.</p></authorialNote>, en particular el llamamiento a no dejar a nadie atrás, </p>
+      </container>
+      <container name="Reconociendo" eId="container_43">
+        <p xml:space="preserve">	<span class="italic">Reconociendo </span>que el crecimiento económico inclusivo y el desarrollo sostenible son esenciales para la prevención de los desastres naturales y otras emergencias y para la preparación con miras a hacerles frente, </p>
+      </container>
+      <container name="Reafirmando" eId="container_44">
+        <p xml:space="preserve">	<span class="italic">Reafirmando </span>la resolución <a href="https://undocs.org/es/A/RES/70/1">70/1</a> de la Asamblea General, de 25 de septiembre de 2015, titulada “Transformar nuestro mundo: la Agenda 2030 para el Desarrollo Sostenible”, en que la Asamblea adoptó un amplio conjunto de Objetivos de Desarrollo Sostenible y metas universales y transformativos, de gran alcance y centrados en las personas, y reafirmó su compromiso de trabajar sin descanso a fin de conseguir la plena implementación de la Agenda a más tardar en 2030, su reconocimiento de que la erradicación de la pobreza en todas sus formas y dimensiones, incluida la pobreza extrema, es el mayor desafío a que se enfrenta el mundo y constituye un requisito indispensable para el desarrollo sostenible, y su compromiso de lograr el desarrollo sostenible en sus tres dimensiones —económica, social y ambiental— de forma equilibrada e integrada y de que se aprovechará los logros de los Objetivos de Desarrollo del Milenio y se procurará abordar los asuntos pendientes, </p>
+      </container>
+      <container name="Reafirmando también" eId="container_45">
+        <p xml:space="preserve">	<span class="italic">Reafirmando también</span> la resolución <a href="https://undocs.org/es/A/RES/69/313">69/313</a> de la Asamblea General, de 27 de julio de 2015, relativa a la Agenda de Acción de Addis Abeba de la Tercera Conferencia Internacional sobre la Financiación para el Desarrollo, que es parte indisociable de la Agenda 2030 para el Desarrollo Sostenible, le sirve de apoyo y complemento y ayuda a contextualizar las metas relativas a sus medios de implementación con políticas y medidas concretas, </p>
+      </container>
+      <container name="Observando" eId="container_46">
+        <p xml:space="preserve">
+          <span class="italic">	Observando </span>la celebración de la Primera Cumbre Humanitaria Mundial en Estambul (Türkiye) los días 23 y 24 de mayo de 2016,</p>
+      </container>
+      <container name="Recordando" eId="container_47">
+        <p xml:space="preserve">	<span class="italic">Recordando </span>la Declaración de Nueva York para los Refugiados y los Migrantes, aprobada en la reunión plenaria de alto nivel de la Asamblea General sobre la respuesta a los grandes desplazamientos de refugiados y migrantes, celebrada el 19 de septiembre de 2016<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">	 	Resolución <a href="https://undocs.org/es/A/RES/71/1">71/1</a> de la Asamblea General.</p></authorialNote>, incluido el marco de respuesta integral para los refugiados que figura en el anexo I de la Declaración de Nueva York, y tomando nota con aprecio del Pacto Mundial sobre los Refugiados<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">	 	<span class="italic">Documentos Oficiales de la Asamblea General, septuagésimo tercer período de sesiones, suplemento núm. 12 </span>(<a href="https://undocs.org/es/A/73/12(PartI)">A/73/12 (Part I)</a> y <a href="https://undocs.org/es/A/73/12(PartII)">A/73/12 (Part II)</a>), parte II.</p></authorialNote>, </p>
+      </container>
+      <container name="Acogiendo con beneplácito" eId="container_48">
+        <p xml:space="preserve">	<span class="italic">Acogiendo con beneplácito</span> la conferencia intergubernamental celebrada los días 10 y 11 de diciembre de 2018 en Marrakech (Marruecos) y recordando que en ella se aprobó el Pacto Mundial para la Migración Segura, Ordenada y Regular, también conocido como Pacto de Marrakech sobre la Migración<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">	 	Resolución <a href="https://undocs.org/es/A/RES/73/195">73/195</a> de la Asamblea General, anexo.</p></authorialNote>, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_49" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="italic">Toma nota</span> del informe del Secretario General<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">	 	 <a href="https://undocs.org/es/A/78/73">A/78/73</a> – <a href="https://undocs.org/es/E/2023/61">E/2023/61</a>.</p></authorialNote>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_50" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_50__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>al sistema humanitario de las Naciones Unidas, las organizaciones de asistencia humanitaria y demás organizaciones pertinentes a que, al tiempo que refuerzan la coordinación de la asistencia humanitaria sobre el terreno, sigan trabajando en estrecha coordinación con los Gobiernos nacionales, teniendo en cuenta la función primordial del Estado afectado en el inicio, la organización, la coordinación y el suministro de dicha asistencia dentro de su territorio;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a las Naciones Unidas a que sigan fortaleciendo los esfuerzos de coordinación, preparación y respuesta y mejorando la calidad y aumentando la eficacia de la acción humanitaria, entre otras cosas mediante una mayor complementariedad con los interesados pertinentes que participan en los esfuerzos de respuesta, como los Gobiernos de los países afectados, las organizaciones regionales, los donantes, las organizaciones de desarrollo, la sociedad civil y el sector privado, y entre ellos, a fin de aprovechar sus ventajas comparativas y recursos; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_55" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_55__content">
+          <p xml:space="preserve">	<span class="italic">Destaca </span>que el sistema de las Naciones Unidas debe seguir reforzando y aumentando la eficiencia de la capacidad, los conocimientos y las instituciones de carácter humanitario existentes, en particular, según proceda, mediante la transferencia de tecnología y conocimientos técnicos a los países en desarrollo en condiciones convenidas mutuamente, alienta a la comunidad internacional, las entidades competentes del sistema de las Naciones Unidas y demás instituciones y organizaciones competentes a que apoyen a las autoridades nacionales en sus programas de creación de capacidad, entre otras cosas mediante la cooperación técnica y las alianzas a largo plazo, así como fortaleciendo su capacidad de aumentar la resiliencia, mitigar el riesgo de desastres, prepararse para los desastres y responder a ellos y reducir el riesgo de desplazamiento en el contexto de los desastres, y alienta a los Estados Miembros a que creen y refuercen un entorno propicio para el fomento de la capacidad de sus autoridades nacionales y locales, las sociedades nacionales del Movimiento Internacional de la Cruz Roja y de la Media Luna Roja y las organizaciones no gubernamentales y comunitarias nacionales y locales en la prestación de asistencia humanitaria oportuna; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_59" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_59__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a las organizaciones humanitarias y de desarrollo y otros agentes pertinentes a que, cuando proceda y en consulta con los Gobiernos, consideren la posibilidad de definir, cuando sea viable, objetivos comunes, incluidos objetivos para la gestión de riesgos y la resiliencia que puedan alcanzarse mediante una planificación multianual y aumentando la inversión en las medidas de preparación, según el orden de prioridad de las necesidades y en consonancia con los principios humanitarios, a fin de reducir el sufrimiento, las pérdidas y las repercusiones generales de las crisis humanitarias y, en este sentido, pone de relieve que, para fortalecer la coherencia y asegurar una transición sin tropiezos del socorro al desarrollo a más largo plazo, en particular en crisis prolongadas, la respuesta humanitaria debe planificarse en un marco multianual, cuando sea necesario, vincularse a los procesos de planificación del desarrollo, incluidas la resiliencia y la recuperación sostenibles, e incorporar al mismo tiempo a los principales interesados, como los Gobiernos, las organizaciones regionales y las instituciones financieras internacionales, según proceda;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_64" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_64__content">
+          <p xml:space="preserve">	<span class="italic">Insta </span>a los organismos de las Naciones Unidas y las organizaciones internacionales a que en su labor de asistencia humanitaria sigan mejorando el ciclo de programación humanitaria, en particular mediante el desarrollo y el empleo más sistemático de instrumentos que permitan evaluar las necesidades de forma coordinada y amplia, como la evaluación rápida inicial multisectorial, la realización conjunta y oportuna de evaluaciones imparciales de las necesidades, y la elaboración de planes de respuesta humanitaria basados en las necesidades prioritarias, en consulta con los Estados afectados, y, con el fin de fortalecer la coordinación de la acción humanitaria, alienta a las organizaciones humanitarias internacionales y los agentes pertinentes a que sigan colaborando con las autoridades nacionales y locales, así como con la sociedad civil y las poblaciones afectadas, y reconoce el papel de las comunidades afectadas para determinar las necesidades y requisitos urgentes a fin de asegurar una respuesta eficiente;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_70" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_70__content">
+          <p xml:space="preserve">	<span class="italic">Solicita </span>al Coordinador del Socorro de Emergencia que siga dirigiendo los esfuerzos por fortalecer la coordinación, la eficacia y la eficiencia de la asistencia humanitaria y la rendición de cuentas al respecto, entre otras cosas continuando y mejorando el diálogo con los Estados Miembros, en particular sobre los procesos, las actividades y las decisiones del Comité Permanente entre Organismos, y que siga reforzando, dentro de los límites de los recursos existentes y los mandatos establecidos, la capacidad de coordinación del Coordinador de Asuntos Humanitarios y, en este sentido, alienta a los Estados Miembros, las organizaciones de las Naciones Unidas y otras organizaciones intergubernamentales competentes y los interesados pertinentes a que sigan mejorando la cooperación con la Oficina de Coordinación de Asuntos Humanitarios de la Secretaría a fin de asegurar una respuesta humanitaria eficaz y eficiente para las personas afectadas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_77" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_77__content">
+          <p xml:space="preserve">	<span class="italic">Insta </span>a que se hagan esfuerzos para mejorar la cooperación y la coordinación de las entidades humanitarias de las Naciones Unidas, otras organizaciones humanitarias competentes y los países donantes con los Estados afectados, reconoce que la asistencia humanitaria debe proporcionarse de manera que contribuya a la recuperación temprana, la rehabilitación sostenible, la reconstrucción y el desarrollo a largo plazo, y recuerda que la recuperación temprana requiere una provisión de fondos oportuna, eficaz y previsible por medio de la financiación humanitaria y para el desarrollo, según proceda, a fin de atender las prioridades recurrentes de la asistencia humanitaria, la recuperación y las situaciones posteriores a las crisis y, al mismo tiempo, crear capacidad y resiliencia a nivel nacional y local;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_85" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_85__content">
+          <p xml:space="preserve">	<span class="italic">Insta</span> a las Naciones Unidas, las organizaciones humanitarias y de desarrollo competentes, las instituciones financieras internacionales y otros interesados competentes a que refuercen la capacidad y resiliencia de los Estados Miembros, en particular por medio de la creación de capacidad para la resiliencia comunitaria, y la aplicación de innovaciones científicas y tecnológicas y las inversiones en el contexto de los desastres y el cambio climático, y destaca también la importancia de invertir en infraestructura resiliente a los desastres y en medidas estructurales y no estructurales de reducción del riesgo de desastres, incluidas las soluciones basadas en la naturaleza y los enfoques ecosistémicos, entre otros, para prevenir y mitigar las repercusiones humanitarias de los desastres y contribuir a reducir el costo de la respuesta, la recuperación y la reconstrucción en casos de desastre, y alienta a que se siga trabajando en este sentido;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_94" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_94__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a las Naciones Unidas y las organizaciones humanitarias competentes a que, en cooperación y coordinación con los Estados Miembros, respetando sus prioridades nacionales y en consonancia con los principios humanitarios de humanidad, neutralidad, imparcialidad e independencia, apoyen y fomenten la capacidad nacional y local proporcionando una mayor financiación directa y previsible, según proceda, a los asociados nacionales y locales, incluidos los grupos de mujeres, centrándose en la capacidad de preparación, respuesta, recuperación y coordinación, y alienta a los Estados Miembros a que sigan proporcionando financiación para los fondos mancomunados humanitarios para países concretos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_104" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_104__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a los Estados Miembros, el sistema de las Naciones Unidas y las organizaciones humanitarias y de desarrollo a que, de conformidad con sus respectivos mandatos, sigan ayudando a los Estados Miembros, en particular a los países en desarrollo, a promover la innovación como medio de crear instrumentos que mejoren la preparación y reduzcan la fragilidad y los riesgos mediante, entre otras cosas, un aumento de la inversión en capacidad de investigación y desarrollo científicos a nivel nacional e internacional que conduzca a la innovación y el acceso a las tecnologías de la información y las comunicaciones, y a que detecten, promuevan e integren las mejores prácticas y la experiencia adquirida con respecto a, entre otras cosas, los sistemas de alerta temprana, las prácticas y la respuesta en casos de desastre con base empírica, los sistemas de información y comunicaciones, las alianzas, las adquisiciones, la colaboración y la coordinación entre los organismos y las organizaciones y, a este respecto, observa la importancia de promover y apoyar la capacidad científica para fundamentar la innovación y desarrollar la capacidad local con carácter prioritario y alienta también la investigación científica y la respuesta en casos de desastre, y acoge con beneplácito las prácticas innovadoras que se basan en los conocimientos de las personas afectadas por las emergencias humanitarias para desarrollar soluciones sostenibles a nivel local, proteger a quienes estén en situación de vulnerabilidad, profundizar los conocimientos especializados en alerta temprana y producir localmente artículos que salvan vidas, con mínimas repercusiones para la logística y la infraestructura, trabajando, cuando sea posible, con los proveedores de servicios, sistemas de alerta temprana, organizaciones e instituciones nacionales y locales, según corresponda, y reforzándolos, y alienta al sistema de las Naciones Unidas y las organizaciones humanitarias y de desarrollo a que amplíen la colaboración en este sentido con las instituciones financieras internacionales, las organizaciones regionales, los bancos regionales de desarrollo, el sector privado y el mundo académico;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_115" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_115__content">
+          <p xml:space="preserve">	<span class="italic">Alienta</span> a los Estados, así como a las Naciones Unidas y las organizaciones humanitarias, de conformidad con sus respectivos mandatos y en consonancia con los principios humanitarios, a que, aprendiendo de la experiencia de la pandemia de COVID‑19, sigan potenciando los enfoques anticipatorios, los sistemas de alerta temprana y acción temprana, la previsión, las respuestas orientadas a la prevención y la preparación para emergencias, y mejoren los análisis de datos predictivos y sobre los riesgos en todos los sectores, refuercen las capacidades en materia de seguimiento de los riesgos sistémicos, alerta temprana y preparación en los planos local, nacional, regional y mundial, incluidas, entre otras, las relacionadas con los riesgos para la salud y los brotes de enfermedades, y toma nota de los marcos e iniciativas pertinentes de las Naciones Unidas relacionados con la preparación para emergencias sanitarias;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_127" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_127__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a los Estados Miembros y los fondos, programas y organismos especializados de las Naciones Unidas a que respondan más eficazmente a las necesidades en contextos humanitarios, entre otras cosas mediante la ampliación de las políticas de protección social y los mecanismos de transferencia en efectivo, cuando sea viable, en particular los programas de asistencia en efectivo para múltiples propósitos, según proceda, para apoyar el desarrollo de los mercados locales y reforzar la capacidad nacional y local, y, a este respecto, exhorta a las organizaciones humanitarias de las Naciones Unidas a que sigan desarrollando su capacidad para considerar de manera sistemática la ejecución de programas de transferencia en efectivo, junto con otras formas de asistencia humanitaria, y toma nota de las iniciativas del sistema de las Naciones Unidas para aumentar la eficacia, la eficiencia y la rendición de cuentas de las operaciones en efectivo, incluida la transición hacia un sistema común para proporcionar asistencia en efectivo para artículos alimentarios y no alimentarios y acceso a los servicios y otro apoyo, junto con otras formas de asistencia humanitaria; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_140" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_140__content">
+          <p xml:space="preserve">	<span class="italic">Solicita </span>al Secretario General que, en su próximo informe sobre la presente resolución, continúe proporcionando información actualizada sobre la utilización de enfoques de financiación anticipatoria para las emergencias humanitarias y que considere otras iniciativas del sistema humanitario de las Naciones Unidas y otros interesados pertinentes a este respecto;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_154" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_154__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a los Estados Miembros, el sistema de las Naciones Unidas y demás organizaciones competentes a que mejoren, cuando sea posible, la financiación rápida y flexible de la preparación, la acción temprana, la respuesta temprana y la recuperación temprana, y a este respecto alienta a que se estudien y desarrollen mecanismos y enfoques innovadores y anticipatorios, como la financiación basada en previsiones y la financiación de riesgos, incluidos los seguros contra el riesgo de desastres, y cuando proceda se los fortalezca, a fin de reducir los efectos de los desastres y atender las necesidades humanitarias;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_169" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_169__content">
+          <p xml:space="preserve">	<span class="italic">Reafirma </span>que la inversión en competencias, sistemas y conocimientos nacionales y locales para aumentar la resiliencia y la preparación permite salvar vidas, reducir los costos y preservar los logros en materia de desarrollo, y a este respecto alienta a que se estudie la posibilidad de emplear modalidades innovadoras, en particular mecanismos anticipatorios de financiación basada en previsiones, de acción temprana y de seguro del riesgo de desastres, para que los Estados Miembros dispongan de más recursos antes de que las previsiones confirmen el riesgo de desastre;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_185" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_185__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce </span>que la financiación debe ser más flexible para permitir un enfoque complementario a fin de atender de manera eficaz y suficiente las necesidades inmediatas de todas las poblaciones afectadas en situaciones de emergencia, en particular las emergencias olvidadas a las que no se destinan fondos suficientes y las situaciones de emergencia a largo plazo, y las causas subyacentes de las crisis, y alienta a los Estados Miembros, el sistema de las Naciones Unidas, el sector privado y otras entidades pertinentes a que proporcionen fondos e inversiones suficientes destinados a la preparación y el fortalecimiento de la resiliencia, en particular con cargo a los presupuestos de asistencia humanitaria y para el desarrollo, reduzcan la financiación para fines específicos y aumenten la planificación flexible y colaborativa y la financiación multianual, según corresponda, reconociendo la necesidad de utilizar la financiación básica y para fines generales de forma transparente;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_202" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_202__content">
+          <p xml:space="preserve">	<span class="italic">Destaca </span>la necesidad de redoblar los esfuerzos de movilización de recursos para subsanar la brecha cada vez mayor en materia de capacidad y recursos, mediante, entre otras cosas, contribuciones adicionales de donantes no tradicionales, la búsqueda de mecanismos innovadores, como la adopción de decisiones anticipatorias basadas en la información sobre los riesgos, la financiación flexible para llamamientos multianuales con instrumentos existentes como los llamamientos unificados y urgentes, el Fondo Central para la Acción en Casos de Emergencia y otros fondos, como los fondos mancomunados para países concretos, así como de seguir ampliando las alianzas de los sectores tanto público como privado y la base de donantes a fin de aumentar la previsibilidad y la eficacia de la financiación, diversificar los ingresos, reducir el déficit de financiación humanitaria y promover la cooperación Sur-Sur y la cooperación horizontal y triangular a nivel mundial, y, a este respecto, alienta a los Estados Miembros, según proceda, a que contribuyan a los llamamientos humanitarios de las Naciones Unidas; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_220" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_220__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> los importantes logros conseguidos por el Fondo Central para la Acción en Casos de Emergencia en la tarea de asegurar una respuesta más oportuna y previsible a las situaciones de emergencia humanitaria, y por ello acoge con beneplácito el llamamiento formulado por el Secretario General a duplicar el Fondo, elevándolo a 1.000 millones de dólares de los Estados Unidos, y, a este respecto, alienta a los Estados Miembros, así como a otros interesados pertinentes, a que apoyen el Fondo, y pone de relieve la necesidad de ampliar y diversificar su base de ingresos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_239" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_239__content">
+          <p xml:space="preserve">	<span class="italic">Insta </span>a los Estados Miembros y las partes interesadas pertinentes a que movilicen recursos para respaldar los planes de respuesta humanitaria, subrayando la importancia de una financiación rápida, flexible, predecible, adecuada y eficaz, y para prestar apoyo al Fondo Central para la Acción en Casos de Emergencia y a los fondos mancomunados para países concretos, que tienen una función fundamental en la respuesta a las emergencias humanitarias; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_259" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_259__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta</span> también a todos los Estados Miembros a que sigan aumentando su apoyo al Fondo Central para la Acción en Casos de Emergencia y a los fondos mancomunados humanitarios nacionales y regionales para reforzar la respuesta temprana y rápida destinada a mitigar el impacto de los desastres, incluso cuando escasee la financiación, recurriendo, cada vez más, a los responsables de las medidas de respuesta y a los asociados en la ejecución locales y nacionales;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_280" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_280__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce </span>que la rendición de cuentas es parte esencial de una asistencia humanitaria eficaz, y pone de relieve la necesidad de mejorar la rendición de cuentas de los agentes humanitarios en todas las etapas de la asistencia humanitaria; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_302" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_302__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta </span>a las Naciones Unidas y sus asociados humanitarios a que refuercen la rendición de cuentas a los Estados Miembros, incluidos los Estados afectados, y a todos los demás interesados, incluidos los gobiernos locales y las organizaciones locales pertinentes, así como a las poblaciones afectadas, y a que sigan fortaleciendo la respuesta humanitaria, entre otras cosas supervisando y evaluando la prestación de su asistencia humanitaria, incorporando en la programación la experiencia adquirida y consultando a las poblaciones afectadas para poder atender de forma apropiada sus necesidades diferentes y específicas; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_325" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_325__content">
+          <p xml:space="preserve">	<span class="italic">Insta </span>a las Naciones Unidas y las organizaciones humanitarias a que sigan procurando obtener ganancias en eficiencia al prestar asistencia reduciendo los gastos de gestión, armonizando los acuerdos de asociación, presentando estructuras de gastos transparentes y comparables y reforzando las medidas encaminadas a lograr una mayor rendición de cuentas mediante la adopción de nuevas medidas destinadas a reducir el fraude, el despilfarro, el uso indebido, el abuso y la desviación de la asistencia destinada a las personas afectadas, y a que encuentren formas de compartir los informes de incidentes y otro tipo de información entre los organismos de las Naciones Unidas, cuando proceda; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_349" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_349__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a las organizaciones humanitarias y de desarrollo a que consideren la posibilidad de aplicar, en coordinación con las autoridades nacionales, instrumentos de gestión de riesgos a fin de permitir un mejor uso de los datos de referencia y el análisis de riesgos, incluido el análisis de las causas subyacentes de las crisis, las necesidades de financiación humanitaria, las diferentes vulnerabilidades de los países y regiones y la exposición a los riesgos de las poblaciones afectadas, y, a este respecto, observa el perfeccionamiento de instrumentos establecidos y mecanismos innovadores, en particular mecanismos y enfoques de financiación anticipatoria y de riesgos, el establecimiento de redes de centros de reducción del riesgo de desastres, la adopción de medidas amplias de preparación y la utilización del Índice para la Gestión de los Riesgos, a fin de incluir más datos desglosados por sexo, edad y discapacidad e información relativa al contexto nacional y regional, teniendo en cuenta el impacto ambiental; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_374" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_374__content">
+          <p xml:space="preserve">	<span class="italic">Destaca </span>la necesidad de aplicar de manera efectiva el Marco de Sendái para la Reducción del Riesgo de Desastres 2015-2030, en particular mediante políticas, programas e inversiones de carácter inclusivo y que tengan en cuenta el riesgo de desastres y otras medidas proactivas destinadas a fortalecer la resiliencia y prevenir nuevos riesgos y reducir los existentes, a fin de reducir al mínimo las necesidades humanitarias, y subraya la importancia de afrontar los factores subyacentes que aumentan el riesgo de desastres, de tener en cuenta los efectos del cambio climático y de integrar la perspectiva de reducción del riesgo de desastres en la preparación, respuesta y recuperación, teniendo en cuenta las proyecciones climáticas a largo plazo y las evaluaciones de riesgos múltiples, con especial atención a las personas que están en situaciones vulnerables, y, a este respecto, acoge con beneplácito la celebración de la séptima sesión de la Plataforma Global para la Reducción del Riesgo de Desastres en Bali (Indonesia), en mayo de 2022, y el examen de mitad de período sobre la implementación del Marco de Sendái en 2023, incluida la reunión de alto nivel de la Asamblea General, celebrada los días 18 y 19 de mayo de 2023, en que la Asamblea aprobó la declaración política de la reunión de alto nivel sobre el examen de mitad de período del Marco de Sendái para la Reducción del Riesgo de Desastres 2015-2030<authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">	 	Resolución <a href="https://undocs.org/es/A/RES/77/289">77/289</a> de la Asamblea General, anexo.</p></authorialNote>, y toma nota con reconocimiento de las plataformas regionales y subregionales para la reducción del riesgo de desastres que se mencionan en el párrafo 53 de la resolución <a href="https://undocs.org/es/A/RES/77/164">77/164</a> de la Asamblea General, de 14 de diciembre de 2022, relativa a la reducción del riesgo de desastres;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_400" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_400__content">
+          <p xml:space="preserve">	<span class="italic">Alienta</span> a las Naciones Unidas y a las organizaciones humanitarias a que intensifiquen sus esfuerzos para seguir estudiando, previendo, abordando y minimizando las consecuencias humanitarias de los efectos adversos del cambio climático y los riesgos ambientales;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_427" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_427__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a los Estados Miembros, así como a las organizaciones regionales e internacionales competentes, a que, de conformidad con sus mandatos concretos, sigan prestando apoyo para la adaptación al cambio climático y su mitigación y fortalezcan los sistemas de reducción del riesgo de desastres y de alerta temprana multirriesgos a fin de reducir al mínimo las consecuencias humanitarias de los desastres naturales, en particular las relacionadas con el efecto negativo continuado del cambio climático y otras causas de desastres naturales, como los fenómenos meteorológicos extremos y la actividad sísmica, especialmente para los países que son particularmente vulnerables, contribuyendo también así a la consecución de los objetivos de desarrollo sostenible, y exhorta a todos los interesados pertinentes a que sigan prestando apoyo a los Estados Miembros, en particular los países en desarrollo, en los esfuerzos que realizan para reforzar su capacidad de preparación y respuesta ante los desastres, y para detectar y vigilar el riesgo de desastres, en particular la vulnerabilidad a los peligros naturales; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_455" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_455__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce</span> la importancia de los servicios de disponibilidad operacional y respuesta mundiales, regionales, nacionales y locales, las redes y los mecanismos de refuerzo para fortalecer la eficacia de la prevención, la preparación y la respuesta ante los desastres, y alienta a que se siga trabajando en este sentido, entre otras cosas, reforzando las alianzas con los organismos nacionales de gestión de desastres y las organizaciones pertinentes en todos los niveles, en el marco de sus respectivos mandatos, y creando, reforzando y complementando sus capacidades, en estrecha coordinación con las Naciones Unidas y las organizaciones humanitarias, entre otras cosas mejorando el intercambio de datos y la interoperabilidad;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_484" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_484__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce también </span>la necesidad de fortalecer la cooperación internacional para prevenir, reducir y abordar de forma sostenible las vulnerabilidades relacionadas con el cambio climático y los desastres naturales, en particular con los países menos adelantados y los pequeños Estados insulares en desarrollo y sus comunidades; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_514" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_514__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce además</span> que la mejora del acceso a la financiación climática internacional es importante para apoyar las medidas de mitigación y adaptación en los países en desarrollo, en especial los que son particularmente vulnerables a los efectos adversos del cambio climático, y reconoce los esfuerzos desplegados actualmente en ese sentido;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_545" class="SingleTxt">
+        <num>32.</num>
+        <content eId="para_545__content">
+          <p xml:space="preserve">	<span class="italic">Insta</span> a los Estados Miembros, las instituciones financieras internacionales y otras partes interesadas a que aumenten la financiación para la adaptación y la reducción del riesgo de desastres destinada a los países y a las comunidades locales que se ven afectados por los riesgos complejos causados por las emergencias humanitarias y la vulnerabilidad a los peligros naturales y a los efectos adversos del cambio climático a fin de prevenir y mitigar los impactos de los desastres y adaptarse y responder a ellos, reducir las necesidades humanitarias, los riesgos y las vulnerabilidades en relación con los desastres y aumentar la resiliencia a las perturbaciones;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_577" class="SingleTxt">
+        <num>33.</num>
+        <content eId="para_577__content">
+          <p xml:space="preserve">	<span class="italic">Insta </span>a los Estados Miembros, las organizaciones humanitarias y de desarrollo y otros interesados a que garanticen la aplicación de un enfoque amplio y coherente en los planos mundial, regional, nacional y local en relación con los fenómenos de El Niño y La Niña y fenómenos similares o conexos, entre otras cosas fortaleciendo la previsión, la alerta temprana, la prevención, la preparación, el aumento de la resiliencia y la respuesta oportuna, con el apoyo de un liderazgo eficaz y una financiación previsible, suficiente y pronta, en los casos en que sea posible, en las regiones, los países y las comunidades que probablemente se vean afectados por esos fenómenos, y hace notar la labor realizada por los Enviados Especiales del Secretario General para el Fenómeno de El Niño y el Clima y el plan para la acción que han preparado, y los procedimientos operativos estándar del Comité Permanente entre Organismos sobre el fenómeno de El Niño/Oscilación Austral;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_610" class="SingleTxt">
+        <num>34.</num>
+        <content eId="para_610__content">
+          <p xml:space="preserve">	<span class="italic">Insta </span>a los Estados Miembros, las Naciones Unidas y las organizaciones humanitarias y de desarrollo a que, de conformidad con sus mandatos respectivos, sigan apoyando los sistemas de alerta temprana multirriesgos y las iniciativas de acción temprana, a través de, entre otros medios, la financiación basada en previsiones a nivel mundial, regional y nacional, los servicios climáticos, la determinación de la exposición y la vulnerabilidad, las nuevas tecnologías y los protocolos de comunicación, así como incorporando la resiliencia al clima en la acción temprana y aumentando la preparación para la respuesta, a fin de que las personas que se encuentren en situación de vulnerabilidad y expuestas a peligros naturales, en particular en zonas geográficamente alejadas, reciban información de alerta temprana de manera oportuna, fiable, exacta y útil para la acción temprana, y alienta a la comunidad internacional a que siga apoyando, según corresponda, las iniciativas nacionales en este sentido, y acoge con beneplácito el avance que supone el llamamiento del Secretario General de las Naciones Unidas de que se proteja a todos los habitantes de la Tierra haciendo universal la cobertura de los sistemas de alerta temprana por medios como la iniciativa Alertas Tempranas para Todos, que se puso en funcionamiento en el 27º período de sesiones de la Conferencia de las Partes en la Convención Marco de las Naciones Unidas sobre el Cambio Climático, celebrado del 6 al 20 de noviembre de 2022 en Sharm el-Sheikh (Egipto), y reconoce la importancia de la Iniciativa de Riesgo Climático y Sistemas de Alerta Temprana para alcanzar ese objetivo;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_644" class="SingleTxt">
+        <num>35.</num>
+        <content eId="para_644__content">
+          <p xml:space="preserve">	<span class="italic">Insta </span>a las Naciones Unidas y las organizaciones humanitarias a que sigan fortaleciendo sus iniciativas en apoyo de los Gobiernos nacionales para determinar las instancias encargadas de la preparación y la respuesta de emergencia a nivel nacional y regional, a fin de facilitar en mayor medida la complementariedad de los esfuerzos de respuesta en casos de desastre entre las instancias nacionales e internacionales, y, a este respecto, alienta a los Estados Miembros a que promuevan, según proceda, la aplicación de las Directrices sobre la Facilitación y Reglamentación Nacionales de las Operaciones Internacionales de Socorro en Casos de Desastre y Asistencia para la Recuperación Inicial e integren la gestión de los riesgos en los planes nacionales de desarrollo;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_679" class="SingleTxt">
+        <num>36.</num>
+        <content eId="para_679__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a los Estados Miembros a que colaboren estrechamente con las Naciones Unidas y otros agentes pertinentes, incluidos el sector privado y las entidades locales, según corresponda, para fomentar una preparación y una respuesta más eficaces en situaciones de emergencia en zonas urbanas, y a que apliquen políticas para aumentar la eficacia de la reducción del riesgo de desastres y la gestión del riesgo de desastres, y, en este sentido, recuerda la Nueva Agenda Urbana aprobada por la Conferencia de las Naciones Unidas sobre la Vivienda y el Desarrollo Urbano Sostenible (Hábitat III), celebrada en Quito del 17 al 20 de octubre de 2016<authorialNote marker="13" placement="bottom" eId="authorialNote_13"><p xml:space="preserve">	 	Resolución <a href="https://undocs.org/es/A/RES/71/256">71/256</a> de la Asamblea General, anexo.</p></authorialNote>, y los compromisos contraídos en ella por los Estados Miembros en relación con las personas afectadas por crisis humanitarias en zonas urbanas; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_715" class="SingleTxt">
+        <num>37.</num>
+        <content eId="para_715__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta </span>a todas las partes en los conflictos armados a que respeten el derecho internacional humanitario y a todos los Estados a que lo hagan respetar, y a que cumplan las obligaciones que hayan contraído en virtud de las normas aplicables del derecho de los derechos humanos y el derecho de los refugiados;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_752" class="SingleTxt">
+        <num>38.</num>
+        <content eId="para_752__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a los Estados a que renueven sus esfuerzos destinados a lograr la aplicación efectiva de los Convenios de Ginebra del 12 de agosto de 1949;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_790" class="SingleTxt">
+        <num>39.</num>
+        <content eId="para_790__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta </span>a todos los Estados y las partes a que cumplan las disposiciones del derecho internacional humanitario, incluidas las que figuran en todos los Convenios de Ginebra del 12 de agosto de 1949, en particular el Convenio de Ginebra relativo a la Protección debida a las Personas Civiles en Tiempo de Guerra<authorialNote marker="14" placement="bottom" eId="authorialNote_14"><p xml:space="preserve">	 	Naciones Unidas, <span class="italic">Treaty Series,</span> vol. 75, núm. 973.</p></authorialNote>, con objeto de proteger y prestar asistencia a los civiles en los territorios ocupados, y a este respecto insta a la comunidad internacional y las organizaciones competentes del sistema de las Naciones Unidas a que refuercen la prestación de asistencia humanitaria a los civiles que se encuentren en esas situaciones;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_829" class="SingleTxt">
+        <num>40.</num>
+        <content eId="para_829__content">
+          <p xml:space="preserve">	<span class="italic">Insta </span>a todos los que participan en la prestación de asistencia humanitaria a que se comprometan a cumplir plenamente y respetar debidamente los principios rectores que figuran en el anexo de la resolución <a href="https://undocs.org/es/A/RES/46/182">46/182</a> de la Asamblea General, incluidos los principios humanitarios de humanidad, neutralidad e imparcialidad, así como el principio de independencia, reconocido por la Asamblea en su resolución <a href="https://undocs.org/es/A/RES/58/114">58/114</a>, de 17 de diciembre de 2003;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_869" class="SingleTxt">
+        <num>41.</num>
+        <content eId="para_869__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta </span>a todos los Estados y las partes en emergencias humanitarias complejas, en particular en conflictos armados y situaciones de posconflicto, que tengan lugar en los países donde opera el personal humanitario a que, de conformidad con las disposiciones pertinentes del derecho internacional y la legislación nacional, cooperen plenamente con las Naciones Unidas y demás organismos y organizaciones de asistencia humanitaria y aseguren la entrega de suministros y equipo y el acceso sin trabas y en condiciones de seguridad del personal humanitario para que pueda desempeñar con eficiencia su tarea de ayudar a la población civil afectada, incluidos los refugiados y los desplazados internos; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_910" class="SingleTxt">
+        <num>42.</num>
+        <content eId="para_910__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a los Estados Miembros, las Naciones Unidas y las organizaciones humanitarias a que sigan colaborando entre sí para comprender y satisfacer las diferentes necesidades de protección de las poblaciones afectadas, en particular las más vulnerables, en las crisis humanitarias y velar por que estas necesidades se integren de forma adecuada en las actividades de preparación, respuesta y recuperación; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_952" class="SingleTxt">
+        <num>43.</num>
+        <content eId="para_952__content">
+          <p xml:space="preserve">	<span class="italic">Reafirma </span>la obligación que tienen todos los Estados y partes en conflictos armados de proteger a los civiles de conformidad con el derecho internacional humanitario, alienta a los Estados que sean partes en un conflicto armado a que adopten todas las medidas necesarias para mejorar la protección de los civiles, e invita a todos los Estados a que promuevan una cultura de protección, teniendo en cuenta las necesidades particulares de las mujeres, los niños, las personas de edad y las personas con discapacidad; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_995" class="SingleTxt">
+        <num>44.</num>
+        <content eId="para_995__content">
+          <p xml:space="preserve">	<span class="italic">Insta </span>a los Estados Miembros a que sigan adoptando las medidas necesarias para garantizar la protección de los heridos y enfermos, así como la seguridad del personal médico y el personal humanitario dedicado exclusivamente a tareas médicas, sus instalaciones, equipo, medios de transporte y suministros, entre otras cosas elaborando medidas eficaces para prevenir y combatir los actos de violencia, ataques y amenazas contra ellos, y en este sentido reafirma la necesidad de que los Estados aseguren que los responsables de violaciones del derecho internacional humanitario no actúen con impunidad, e insta a los Estados a que investiguen dentro de su jurisdicción de forma completa, rápida, imparcial y eficaz las violaciones del derecho internacional humanitario con miras a garantizar la responsabilidad por los actos cometidos, según lo dispuesto en las leyes nacionales y en cumplimiento de las obligaciones impuestas por el derecho internacional;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1039" class="SingleTxt">
+        <num>45.</num>
+        <content eId="para_1039__content">
+          <p xml:space="preserve">	<span class="italic">Insta también</span> a los Estados Miembros a que incrementen las medidas para garantizar la seguridad del personal humanitario, incluido el personal de contratación nacional y local, y sus instalaciones, equipo, medios de transporte y suministros, entre otras cosas elaborando medidas eficaces para prevenir y combatir los actos de violencia, ataques y amenazas contra ellos, solicita al Secretario General que acelere sus gestiones encaminadas a mejorar la seguridad del personal que participa en operaciones humanitarias de las Naciones Unidas y, en este sentido, reafirma la necesidad de que los Estados aseguren que los responsables de violaciones del derecho internacional humanitario no actúen con impunidad, e insta además a los Estados a que investiguen dentro de su jurisdicción de forma completa, rápida, imparcial y eficaz las violaciones del derecho internacional humanitario con miras a garantizar la responsabilidad por los actos cometidos, según lo dispuesto en las leyes nacionales y en cumplimiento de las obligaciones impuestas por el derecho internacional;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1084" class="SingleTxt">
+        <num>46.</num>
+        <content eId="para_1084__content">
+          <p xml:space="preserve">	<span class="italic">Condena en los términos más enérgicos posibles</span> el alarmante aumento del número de amenazas y ataques deliberados contra el personal humanitario y el personal de las Naciones Unidas y el personal asociado, actos de terrorismo y ataques contra convoyes humanitarios, y el aumento sin precedentes de la magnitud y la creciente complejidad de las amenazas a que se enfrenta ese personal, como la inquietante proliferación de ataques que obedecen a motivos políticos y delictivos, incluidos los ataques de extremistas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1130" class="SingleTxt">
+        <num>47.</num>
+        <content eId="para_1130__content">
+          <p xml:space="preserve">	<span class="italic">Observa con preocupación</span> la creciente amenaza que suponen las campañas de desinformación que socavan la confianza en las Naciones Unidas y las organizaciones humanitarias y ponen en peligro al personal humanitario y al personal de las Naciones Unidas y el personal asociado;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1177" class="SingleTxt">
+        <num>48.</num>
+        <content eId="para_1177__content">
+          <p xml:space="preserve">	<span class="italic">Recalca </span>la importancia fundamental de que se proteja a los civiles, en particular las mujeres y los niños, de toda forma de abuso o explotación, incluida la trata de personas, y de que reciban asistencia adecuada, acoge con beneplácito la determinación del Secretario General de aplicar plenamente en todo el sistema la política de las Naciones Unidas de tolerancia cero frente a la explotación y los abusos sexuales, hace notar los seis principios básicos relativos a la explotación y los abusos sexuales aprobados por el Comité Permanente entre Organismos<authorialNote marker="15" placement="bottom" eId="authorialNote_15"><p xml:space="preserve">	 	<a href="https://undocs.org/es/A/57/465">A/57/465</a>, anexo I, párr. 10 a).</p></authorialNote>, destaca que esos esfuerzos deberían centrarse en las víctimas y los supervivientes, y alienta a los Estados Miembros a redoblar sus esfuerzos por prevenir los actos de explotación y el abuso y hacer que los responsables rindan cuentas de ellos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1225" class="SingleTxt">
+        <num>49.</num>
+        <content eId="para_1225__content">
+          <p xml:space="preserve">	<span class="italic">Solicita </span>a los Estados Miembros, las organizaciones competentes y los demás agentes pertinentes que promuevan la igualdad de género y el empoderamiento de las mujeres y las niñas en todas las etapas de la respuesta humanitaria abordando las necesidades, la capacidad de afrontamiento y los problemas específicos de las mujeres, las niñas, los hombres y los niños en pie de igualdad, teniendo en cuenta la edad y la discapacidad, en particular mejorando la reunión de datos desglosados por sexo, edad y discapacidad, su análisis y utilización y la presentación de informes al respecto, y teniendo en cuenta la información proporcionada por los Estados afectados, y que aseguren la participación plena, eficaz y sustancial de las mujeres en los procesos de toma de decisiones a fin de aumentar la eficacia de la respuesta humanitaria, y alienta a que se haga un mayor uso del marcador de género y edad y otros instrumentos, incluidos instrumentos que tengan en cuenta la edad y las discapacidades, en todo el ciclo de programación humanitaria;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1274" class="SingleTxt">
+        <num>50.</num>
+        <content eId="para_1274__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce </span>la función crítica que pueden desempeñar las mujeres en los equipos de respuesta inicial, y alienta a los Estados Miembros a que, en cooperación con las organizaciones humanitarias competentes de las Naciones Unidas, promuevan el liderazgo y la participación de las mujeres en la planificación, diseño, aplicación y coordinación de las estrategias de respuesta, por ejemplo mediante el fortalecimiento de las alianzas a largo plazo con instituciones nacionales y locales, incluidas las organizaciones de mujeres nacionales y locales y los agentes de la sociedad civil, según corresponda, y el fortalecimiento de la capacidad de esas instituciones, y fomentando en mayor medida una programación de la asistencia humanitaria que tenga en cuenta las cuestiones de género;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1324" class="SingleTxt">
+        <num>51.</num>
+        <content eId="para_1324__content">
+          <p xml:space="preserve">	<span class="italic">Insta </span>a los Estados Miembros a que, en cooperación con las organizaciones de las Naciones Unidas pertinentes y otras organizaciones humanitarias, aseguren el acceso seguro y fiable a los servicios de salud sexual y reproductiva, así como a la atención sanitaria básica y al apoyo psicosocial, desde el inicio de las emergencias y, en este sentido, reconoce que es importante prestar servicios pertinentes para atender de manera efectiva las necesidades de las mujeres y las adolescentes y de los niños menores de 1 año y protegerlos de la mortalidad y morbilidad prevenibles que ocurren durante las emergencias humanitarias;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1375" class="SingleTxt">
+        <num>52.</num>
+        <content eId="para_1375__content">
+          <p xml:space="preserve">	<span class="italic">Insta </span>a los Estados Miembros a que sigan previniendo e investigando los actos de violencia sexual y de género cometidos durante las emergencias humanitarias y, cuando corresponda, procesando a sus autores, garantizando al mismo tiempo la seguridad de las víctimas y los supervivientes, y exhorta a los Estados Miembros a que refuercen su respuesta en cooperación con las organizaciones competentes, como las organizaciones de mujeres locales, según proceda, desde el comienzo de una emergencia, entre otras cosas tratando de asegurar un acceso adecuado a servicios médicos, jurídicos, psicosociales y de subsistencia de calidad para todas las víctimas, los supervivientes y las personas afectadas por esa violencia, de acuerdo con las necesidades específicas de las mujeres, los hombres, las niñas y los niños, y procurando que la asistencia humanitaria se preste de manera que se reduzca el riesgo de violencia sexual y de género, exhorta a los Estados Miembros y las organizaciones competentes a que mejoren la coordinación y refuercen la capacidad y, en este sentido, insta a todos los interesados pertinentes a que consideren la posibilidad de colaborar en ese ámbito, en particular mediante medidas de prevención, mitigación y respuesta, y alienta a los Estados Miembros a que hagan un mejor uso de los mecanismos existentes de recopilación de datos y hace notar la iniciativa Llamamiento a la Acción;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1427" class="SingleTxt">
+        <num>53.</num>
+        <content eId="para_1427__content">
+          <p xml:space="preserve">	<span class="italic">Insta también</span> a los Estados Miembros a que sigan tratando de prevenir e investigar las violaciones y los abusos cometidos contra niños en las emergencias humanitarias, darles respuesta y procesar a sus autores, exhorta a los Estados Miembros y las organizaciones competentes a que refuercen los servicios de apoyo a los niños afectados por emergencias humanitarias, concretamente a los que hayan sufrido violaciones y abusos, y pide que se den respuestas más eficaces, incluida la protección, con la Convención sobre los Derechos del Niño<authorialNote marker="16" placement="bottom" eId="authorialNote_16"><p xml:space="preserve">	 	Naciones Unidas, <span class="italic">Treaty Series</span>, vol. 1577, núm. 27531.</p></authorialNote> como guía;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1480" class="SingleTxt">
+        <num>54.</num>
+        <content eId="para_1480__content">
+          <p xml:space="preserve">	<span class="italic">Reafirma </span>el derecho a la educación para todos y la importancia de asegurar entornos de aprendizaje seguros y propicios durante las emergencias humanitarias, así como una educación de calidad en todos los niveles y a todas las edades, incluso para las mujeres y los niños, en particular las niñas, dando oportunidades para la formación técnica y profesional en la medida de lo posible, entre otras cosas proporcionando financiación adecuada e invirtiendo en las infraestructuras, para promover el bienestar de todas las personas, reconoce a este respecto que el acceso a una educación de calidad en las emergencias humanitarias puede contribuir a conseguir los objetivos de desarrollo a largo plazo y reitera la necesidad de proteger y respetar los establecimientos educativos de conformidad con el derecho internacional humanitario, condena enérgicamente todos los ataques dirigidos contra escuelas y el uso de escuelas con fines militares en contravención del derecho internacional humanitario, y alienta las medidas encaminadas a promover entornos escolares seguros en las emergencias humanitarias;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1534" class="SingleTxt">
+        <num>55.</num>
+        <content eId="para_1534__content">
+          <p xml:space="preserve">	<span class="italic">Insta </span>a los Estados Miembros, las Naciones Unidas y los agentes humanitarios pertinentes a que aumenten el apoyo a la programación y la respuesta humanitarias para una educación segura, inclusiva, equitativa y de calidad en todos los niveles y edades, a fin de mitigar los efectos directos e indirectos del cierre de escuelas y otras instituciones educativas con objeto de garantizar la continuidad de los servicios educativos, en particular para las mujeres y los niños, especialmente las niñas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1589" class="SingleTxt">
+        <num>56.</num>
+        <content eId="para_1589__content">
+          <p xml:space="preserve">	<span class="italic">Insta </span>a los Estados Miembros, el sistema de las Naciones Unidas y otras organizaciones humanitarias pertinentes a que impliquen de forma sustancial a las personas con discapacidad en todos los procesos, consultas y etapas de la adopción de decisiones en materia de preparación y respuesta humanitarias, a que adopten todas las medidas apropiadas para eliminar la discriminación de las personas con discapacidad, incluidas las formas múltiples e interseccionales de discriminación, a que presten asistencia oportuna y adecuada a las personas con discapacidad, velando al mismo tiempo por que se atiendan sus necesidades específicas en las respuestas humanitarias, haciendo posible el acceso sustancial a ámbitos como los servicios de atención de la salud, la educación, el apoyo psicosocial y la asistencia para la reintegración y la rehabilitación, y a que prevengan el abuso y la explotación contra ellas, y, a este respecto, recuerda la Convención sobre los Derechos de las Personas con Discapacidad<authorialNote marker="17" placement="bottom" eId="authorialNote_17"><p xml:space="preserve">	 	<span class="italic">Ibid</span>., vol. 2515, núm. 44910.</p></authorialNote>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1645" class="SingleTxt">
+        <num>57.</num>
+        <content eId="para_1645__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a los Estados Miembros a que, en cooperación con las organizaciones humanitarias pertinentes de las Naciones Unidas, se aseguren de que las necesidades humanitarias básicas de las poblaciones afectadas, como el agua limpia, la alimentación, la vivienda, la energía, la atención de la salud, incluida la salud sexual y reproductiva, la nutrición, incluidos los programas de alimentación escolar, la educación y la protección, se aborden como componentes de la respuesta humanitaria, entre otras cosas mediante la aportación de recursos oportunos y suficientes, velando al mismo tiempo por que sus actividades de colaboración respeten estrictamente los principios humanitarios;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1702" class="SingleTxt">
+        <num>58.</num>
+        <content eId="para_1702__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce </span>que las emergencias humanitarias debilitan la capacidad de los sistemas sanitarios de proporcionar asistencia esencial para salvar vidas, así como de atender las necesidades continuas de las personas afectadas por enfermedades no transmisibles, y entorpecen el desarrollo de los servicios de salud, y reconoce también que la resiliencia de los sistemas de salud puede aliviar las consecuencias de los desastres y otras emergencias humanitarias, y destaca la necesidad de crear sistemas sanitarios resilientes en los planos nacional, regional y mundial, especialmente fomentando la capacidad, en particular en los países en desarrollo, exhorta a la Organización Mundial de la Salud, el sistema humanitario de las Naciones Unidas, otras organizaciones humanitarias y demás agentes pertinentes a que fortalezcan en mayor medida su cooperación y coordinación y la capacidad de respuesta para ayudar a los Estados Miembros que lo soliciten a responder con eficacia a los brotes de enfermedades infecciosas y las emergencias con consecuencias para la salud en situaciones humanitarias, de conformidad con el Reglamento Sanitario Internacional (2005) aprobado por la Asamblea Mundial de la Salud, garantizando que la asistencia humanitaria no ocasione como efecto no deseado el debilitamiento de los sistemas de salud, y toma nota del protocolo revisado de activación de una respuesta ampliada del conjunto del sistema humanitario para controlar eventos relacionados con enfermedades infecciosas; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1760" class="SingleTxt">
+        <num>59.</num>
+        <content eId="para_1760__content">
+          <p xml:space="preserve">	<span class="italic">Destaca </span>la necesidad de fomentar la preparación a nivel mundial y apoyar la elaboración de medidas, como los mecanismos de respuesta rápida, para responder a emergencias sanitarias, e insta a los Estados Miembros a que redoblen sus esfuerzos por fortalecer la capacidad de respuesta mundial;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1819" class="SingleTxt">
+        <num>60.</num>
+        <content eId="para_1819__content">
+          <p xml:space="preserve">	<span class="italic">Insta </span>a los Estados Miembros y las organizaciones humanitarias a que integren los riesgos para la protección y la salud, como componentes de la respuesta humanitaria, en las tareas de determinación, planificación, ejecución, seguimiento y evaluación humanitarias, y a que aumenten los esfuerzos por fortalecer los sistemas locales y nacionales, las capacidades y las comunidades y los agentes locales, incluidas las organizaciones dirigidas por mujeres;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1879" class="SingleTxt">
+        <num>61.</num>
+        <content eId="para_1879__content">
+          <p xml:space="preserve">	<span class="italic">Insta</span> a los Estados Miembros, las Naciones Unidas y las organizaciones humanitarias a que redoblen los esfuerzos por prestar y financiar servicios intersectoriales de salud mental y apoyo psicosocial de calidad, adaptados al contexto y en cuya prestación se respeten los derechos humanos, que se incorporen a las evaluaciones de las necesidades humanitarias y a los programas humanitarios de preparación, respuesta y recuperación, para satisfacer las necesidades de todas las poblaciones afectadas en contextos humanitarios, y para contribuir a las iniciativas locales y comunitarias en ese ámbito, que serán especialmente importantes para mitigar las consecuencias psicológicas adicionales experimentadas en el contexto de la pandemia del COVID‑19 y darles respuesta, y exhorta a las Naciones Unidas y a todas las organizaciones humanitarias pertinentes a que amplíen la capacidad en materia de salud mental y apoyo psicosocial en consecuencia, e informen sobre los programas de salud mental y apoyo psicosocial y la financiación en apoyo de la recuperación y la resiliencia para la salud mental y el bienestar psicosocial de todos los afectados, al tiempo que reconoce también los efectos en el personal humanitario y los voluntarios;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1940" class="SingleTxt">
+        <num>62.</num>
+        <content eId="para_1940__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta </span>a los Estados Miembros, las Naciones Unidas y las organizaciones humanitarias y los interesados pertinentes a que intensifiquen las iniciativas de prevención, preparación, alerta temprana y acción temprana sistémicas y a que aprovechen las enseñanzas extraídas de la pandemia de COVID‑19, incluso del fortalecimiento de las estrategias nacionales y multilaterales y la cooperación internacional, como el Acelerador del Acceso a las Herramientas contra la COVID‑19 (Acelerador ACT) y su Mecanismo COVAX, y otras iniciativas pertinentes, incluida la Alianza para la Distribución de Vacunas contra la COVID‑19, para permitir el acceso justo, equitativo, eficiente y asequible a vacunas seguras, efectivas y de calidad contra la COVID‑19, y pone de relieve el papel de la inmunización extensiva contra la COVID‑19 como bien público mundial para la salud a fin de prevenir, contener y detener la transmisión durante la transición de los países hacia la recuperación de la pandemia, al tiempo que señala la importancia de contar con programas nacionales de vacunación inclusivos que den cobertura a los desplazados, los migrantes y los refugiados, y alienta a los organismos de las Naciones Unidas y otras partes interesadas pertinentes a que apoyen a los Estados Miembros, en plena coordinación con su Gobierno nacional;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2002" class="SingleTxt">
+        <num>63.</num>
+        <content eId="para_2002__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta </span>a todos los Estados y las partes en situaciones complejas de emergencia humanitaria, en particular en conflictos armados y situaciones de posconflicto, a que garanticen el acceso seguro y sin trabas del personal humanitario y médico, incluido el que responde a las emergencias sanitarias, así como de sus medios de transporte, suministros y equipo, y a que apoyen, faciliten y permitan el transporte y las líneas de suministro logístico, a fin de que ese personal pueda desempeñar con eficiencia y seguridad su tarea de ayudar a las poblaciones afectadas, y, en este sentido, reafirma también la necesidad de adoptar las medidas necesarias para respetar y proteger a ese personal, los hospitales y otras instalaciones médicas, así como sus medios de transporte, suministros y equipo; e insta a todas las partes en los conflictos armados, en consonancia con el derecho internacional humanitario, a que protejan la infraestructura civil que es imprescindible para la prestación de asistencia humanitaria que permita el suministro de servicios esenciales, incluida la vacunación y la atención médica conexa; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2065" class="SingleTxt">
+        <num>64.</num>
+        <content eId="para_2065__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta </span>a los Estados Miembros, las Naciones Unidas, las organizaciones humanitarias y de desarrollo y otros agentes pertinentes a que tomen medidas urgentes y eficaces de respuesta, prevención y preparación ante el aumento de la inseguridad alimentaria mundial que afecta a millones de personas, especialmente en relación con las personas que están pasando por una situación de hambruna o que corren el riesgo inmediato de encontrarse en esa situación, en particular mediante el aumento de la cooperación humanitaria y de desarrollo y el suministro de financiación urgente para responder a las necesidades de las poblaciones afectadas, y exhorta a los Estados Miembros y las partes en los conflictos armados a que respeten el derecho internacional humanitario y garanticen el acceso humanitario en condiciones de seguridad y sin trabas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2129" class="SingleTxt">
+        <num>65.</num>
+        <content eId="para_2129__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta </span>a los Estados Miembros, las partes en los conflictos armados, las Naciones Unidas y otros agentes humanitarios y de desarrollo, las instituciones financieras internacionales y los demás agentes pertinentes a que refuercen con urgencia sus medidas para prevenir la hambruna y para reducir y paliar la inseguridad alimentaria aguda, , e insta a los Estados Miembros, las Naciones Unidas y otras organizaciones pertinentes a que adopten más medidas para proporcionar una respuesta de emergencia coordinada a las necesidades alimentarias y nutricionales de las poblaciones afectadas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2194" class="SingleTxt">
+        <num>66.</num>
+        <content eId="para_2194__content">
+          <p xml:space="preserve">	<span class="italic">Condena enérgicamente</span> la práctica de hacer padecer hambre a los civiles como método de guerra, prohibida por el derecho internacional humanitario, reafirma que está prohibido atacar, destruir, sustraer o inutilizar los bienes indispensables para la supervivencia de la población civil, insta a todas las partes en los conflictos armados a que protejan las infraestructuras civiles imprescindibles para la entrega de ayuda humanitaria, incluida la prestación de servicios esenciales a la población civil, y el funcionamiento de los sistemas y mercados agroalimentarios en situaciones de conflicto armado, e insta también a todas las partes a que aseguren y faciliten el acceso humanitario seguro y sin restricciones a los civiles que lo necesiten;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2260" class="SingleTxt">
+        <num>67.</num>
+        <content eId="para_2260__content">
+          <p xml:space="preserve">	<span class="italic">Destaca</span> la necesidad de abordar las causas fundamentales de la seguridad alimentaria que conducen a un aumento de las necesidades humanitarias, los desplazamientos y el sufrimiento, entre otras cosas invirtiendo en la asistencia y protección humanitarias, la agricultura, la producción de alimentos y los sistemas agroalimentarios, y el acceso a alimentos inocuos, suficientes y nutritivos y a dietas saludables, los medios de subsistencia, la adaptación al clima, la salud, el agua, el saneamiento y la higiene, la nutrición, la energía, la reducción de la pobreza y la infraestructura resiliente, y la solución de los conflictos armados, alienta a que se intensifiquen los esfuerzos para empoderar a las mujeres rurales como agentes fundamentales de la seguridad alimentaria y la mejora de la nutrición, alienta también a que se adopten enfoques de prevención, respaldados por alertas tempranas y análisis multisectoriales, y alienta además a la movilización de recursos para ello;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2327" class="SingleTxt">
+        <num>68.</num>
+        <content eId="para_2327__content">
+          <p xml:space="preserve">	<span class="italic">Insta </span>a los Estados Miembros, las Naciones Unidas y demás organizaciones competentes a que adopten nuevas medidas para dar una respuesta de emergencia coordinada a las necesidades alimentarias y nutricionales de las poblaciones afectadas y promuevan una nutrición adecuada para las mujeres y los niños, especialmente durante el embarazo y la lactancia, cuando las necesidades nutricionales son mayores, con especial atención a los primeros 1.000 días, procurando a la vez que dichas medidas coadyuven a las estrategias y los programas nacionales encaminados a mejorar la seguridad alimentaria y la nutrición;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2395" class="SingleTxt">
+        <num>69.</num>
+        <content eId="para_2395__content">
+          <p xml:space="preserve">	Exhorta a los Estados y otros interesados pertinentes a que, mediante ayuda humanitaria y financiación urgente, atiendan la urgencia de los llamamientos humanitarios presentados por las Naciones Unidas en respuesta a las consecuencias humanitarias de, entre otras cosas, los conflictos armados, la sequía, el hambre y la hambruna;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2464" class="SingleTxt">
+        <num>70.</num>
+        <content eId="para_2464__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta </span>a los Estados Miembros a que adopten medidas para garantizar la protección internacional y el respeto de los derechos de los refugiados, incluido el respeto del principio de no devolución y las normas de trato adecuado de conformidad con el derecho internacional, incluidas, según proceda, la Convención sobre el Estatuto de los Refugiados, de 1951<authorialNote marker="18" placement="bottom" eId="authorialNote_18"><p xml:space="preserve">	 	<span class="italic">Ibid</span>., vol. 189, núm. 2545.</p></authorialNote>, y las obligaciones internacionales en materia de derechos humanos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2534" class="SingleTxt">
+        <num>71.</num>
+        <content eId="para_2534__content">
+          <p xml:space="preserve">	<span class="italic">Toma nota</span> de la aplicación del marco de respuesta integral para los refugiados en 15 países y dos contextos regionales para hacer frente a grandes desplazamientos de refugiados y situaciones de presencia prolongada de refugiados;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2605" class="SingleTxt">
+        <num>72.</num>
+        <content eId="para_2605__content">
+          <p xml:space="preserve">	<span class="italic">Solicita </span>a los Estados Miembros que redoblen sus esfuerzos por proteger y ayudar a los desplazados internos y fomentar su autosuficiencia y resiliencia, entre otras cosas cooperando con las organizaciones de las Naciones Unidas y otros agentes pertinentes, incluidos el sector privado y las instituciones financieras internacionales, y, en particular, que encaren el carácter prolongado de los desplazamientos adoptando y aplicando políticas y estrategias multianuales, cuando proceda, de conformidad con los marcos nacionales y regionales, reconociendo al mismo tiempo que los Principios Rectores de los Desplazamientos Internos<authorialNote marker="19" placement="bottom" eId="authorialNote_19"><p xml:space="preserve">	 	<a href="https://undocs.org/es/E/CN.4/1998/53/Add.2">E/CN.4/1998/53/Add.2</a>, anexo.</p></authorialNote> son un marco internacional importante para proteger a los desplazados internos, y alienta a que se refuerce la colaboración para afrontar y resolver los problemas que plantean los desplazamientos internos y, a este respecto, reconoce la función central de las autoridades e instituciones nacionales y locales en lo relativo a satisfacer las necesidades específicas de los desplazados internos, seguir haciendo frente a las barreras y obstáculos que entorpecen el apoyo a los desplazados internos y sus comunidades de acogida, incluidos los aspectos susceptibles de mejora que existen en los entornos urbanos, y buscar soluciones duraderas para los desplazamientos, sobre todo gracias al apoyo continuo y cada vez mayor que la comunidad internacional les presta, cuando lo solicitan, para desarrollar la capacidad de los Estados;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2677" class="SingleTxt">
+        <num>73.</num>
+        <content eId="para_2677__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce </span>el aumento de la intensidad y la frecuencia de los desastres, incluidos los debidos a los efectos adversos del cambio climático, que en algunas circunstancias pueden contribuir a los desplazamientos y ejercer mayor presión sobre las comunidades de acogida, y alienta a las Naciones Unidas y a todos los agentes pertinentes a que fortalezcan las iniciativas destinadas a atender las necesidades de las personas desplazadas en el contexto de esos desastres, y observa a este respecto la importancia de compartir las mejores prácticas para prevenir dichos desplazamientos y estar preparados para ellos y alienta a que invierta y se fomente la difusión en materia de datos predictivos, análisis de riesgos y modelos de riesgos y patrones de mayor calidad sobre desplazamientos futuros que puedan resultar de los desastres naturales y los efectos adversos del cambio climático; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2750" class="SingleTxt">
+        <num>74.</num>
+        <content eId="para_2750__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce también</span> el considerable aumento de los desplazamientos forzados en todo el mundo y destaca la necesidad de responder de manera integral a las necesidades específicas de los refugiados, los desplazados internos y sus comunidades de acogida en la planificación del desarrollo y la asistencia humanitaria; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2824" class="SingleTxt">
+        <num>75.</num>
+        <content eId="para_2824__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta </span>a los Estados Miembros y las organizaciones y los agentes competentes a que reconozcan y aborden las consecuencias de las emergencias humanitarias para los migrantes, en particular los que se encuentran en situaciones vulnerables, y redoblen los esfuerzos internacionales coordinados para brindarles asistencia y protección en coordinación con las autoridades nacionales;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2899" class="SingleTxt">
+        <num>76.</num>
+        <content eId="para_2899__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce </span>la importancia de la inscripción temprana y de que existan sistemas de inscripción eficaces como instrumento de protección y medio de cuantificar y evaluar las necesidades de prestación y distribución de asistencia humanitaria, observa los numerosos y diversos problemas que afrontan los refugiados que carecen de documentos que den fe de su condición, y subraya la importancia de aumentar la rendición de cuentas para asegurar que la asistencia humanitaria llegue a sus beneficiarios; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2975" class="SingleTxt">
+        <num>77.</num>
+        <content eId="para_2975__content">
+          <p xml:space="preserve">	<span class="italic">Solicita </span>a las Naciones Unidas que sigan buscando soluciones para fortalecer su capacidad de contratar y desplegar de forma rápida y flexible personal de asistencia humanitaria con la categoría, las aptitudes y la experiencia apropiadas, otorgando la máxima consideración al más alto grado de eficiencia, competencia e integridad y prestando la debida atención a la igualdad de género y la contratación sobre una base geográfica lo más amplia posible;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_3052" class="SingleTxt">
+        <num>78.</num>
+        <content eId="para_3052__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce </span>que la diversidad del personal humanitario aporta valor a la labor humanitaria y contribuye a la comprensión de los contextos de los países en desarrollo, y solicita al Secretario General que siga ocupándose de la cuestión de la insuficiente diversidad en la representación geográfica y el equilibrio de género en la composición del personal humanitario de la Secretaría y otros organismos humanitarios de las Naciones Unidas, en particular en lo que respecta a los funcionarios del Cuadro Orgánico y de alto nivel, y que en su informe anual indique las medidas concretas adoptadas a este respecto; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_3130" class="SingleTxt">
+        <num>79.</num>
+        <content eId="para_3130__content">
+          <p xml:space="preserve">	<span class="italic">Solicita </span>al Secretario General que refleje las medidas concretas adoptadas y los progresos realizados en la aplicación y el seguimiento de la presente resolución en su próximo informe al Consejo Económico y Social y a la Asamblea General sobre el fortalecimiento de la coordinación de la asistencia humanitaria de emergencia que prestan las Naciones Unidas; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_3209" class="SingleTxt">
+        <num>80.</num>
+        <content eId="para_3209__content">
+          <p xml:space="preserve">	<span class="italic">Solicita </span>a las Presidencias del Consejo Económico y Social y de la Asamblea General que sigan esforzándose por eliminar la duplicación entre las resoluciones del Consejo y la Asamblea relativas al fortalecimiento de la coordinación de la asistencia humanitaria de emergencia que prestan las Naciones Unidas, promoviendo al mismo tiempo su complementariedad. </p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="35a">35a sesión plenaria</inline>
+        <eol />
+        <docDate date="2023-06-23" refersTo="#adoptionDate">23 de junio de 2023</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
