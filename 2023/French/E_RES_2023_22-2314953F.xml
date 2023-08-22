@@ -1,0 +1,231 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2023-07-25/2023-22/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2023-07-25/2023-22/"></FRBRuri>
+          <FRBRdate date="2023-07-25" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2023-07-25/2023-22/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2023-07-25/2023-22/fra@/"></FRBRuri>
+          <FRBRdate date="2023-08-03" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2023-07-25/2023-22/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2023-07-25/2023-22/fra@.xml"></FRBRuri>
+          <FRBRdate date="2023-08-15" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. ESCWA" showAs="UN. ESCWA" dictionary="DHLAUTH"></keyword>
+        <keyword value="REGIONAL COMMISSIONS" showAs="REGIONAL COMMISSIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DJIBOUTI" showAs="DJIBOUTI" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="15" showAs="Regional cooperation." shortForm="REGIONAL COOPERATION" dictionary="E/2023/100"></keyword>
+        <keyword refersTo="agenda" value="15[5]" showAs="REGIONAL COOPERATION--WESTERN ASIA" shortForm="REGIONAL COOPERATION--WESTERN ASIA" dictionary="E/2023/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-01-10" outcome="draftResolution" as="E/ESCWA/S-7/17/Report" by="UN. ESCWA" />
+        <step date="2023-05-30" outcome="recommendedForAdoption" as="E/2023/15/Add.1" by="UN. ESCWA" />
+        <step date="2023-08-03" outcome="adopted" as="Adopted without vote, 43rd plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">23-14953 (F)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2023/22</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Conseil économique et social</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-08-03" class="rightSmall" refersTo="#dateOfIssuance">3 août 2023</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2023" eId="coverPage_1__session_1">Session de 2023</session>
+      </p>
+      <p>
+        <inline title="15" name="agenda item">Point 15 de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Coopération régionale</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par le Conseil économique et social le 25 juillet 2023</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent>[sur recommandation de la Commission économique et sociale pour l’Asie occidentale (<inline name="originating document">E/2023/15/Add.1</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2023/22.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Admission de Djibouti à la qualité de membre de la Commission économique et sociale pour l’Asie occidentale</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Le Conseil économique et social</span>,</p>
+      </formula>
+      <container name="Prenant note" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	Prenant note </span>de la résolution 337 (S-VII) adoptée le 21 décembre 2022 par la Commission économique et sociale pour l’Asie occidentale lors de sa septième session extraordinaire tenue à Amman les 20 et 21 décembre 2022, qui figure dans l’annexe de la présente résolution et dans laquelle la Commission a recommandé que Djibouti soit admis à la qualité de membre de la Commission, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_3" class="SingleTxt">
+        <content eId="para_3__content">
+          <p xml:space="preserve">
+            <span class="italic">	Approuve</span> l’admission de Djibouti à la qualité de membre de la Commission économique et sociale pour l’Asie occidentale.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="43e">43e séance plénière</inline>
+        <eol />
+        <docDate date="2023-07-25" refersTo="#adoptionDate">25 juillet 2023</docDate>
+      </p>
+    </conclusions>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2023-07-25/2023-22/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2023-07-25/2023-22/"></FRBRuri>
+                <FRBRdate date="2023-07-25" name="adoption"></FRBRdate>
+                <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2023-07-25/2023-22/fra@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2023-07-25/2023-22/fra@/"></FRBRuri>
+                <FRBRdate date="2023-08-03" name="publication"></FRBRdate>
+                <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="fra"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2023-07-25/2023-22/fra@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2023-07-25/2023-22/fra@.xml"></FRBRuri>
+                <FRBRdate date="2023-08-15" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_5" class="H23">
+              <subheading>Annexe</subheading>
+            </paragraph>
+            <paragraph eId="para_6" class="H23">
+              <subheading>Résolution 337 (S-VII)</subheading>
+            </paragraph>
+            <paragraph eId="para_7" class="SingleTxt">
+              <content eId="para_7__content">
+                <p xml:space="preserve">
+                  <span class="bold">Demande d’admission à la qualité de membre de la Commission économique et sociale pour l’Asie occidentale présentée par Djibouti</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_8" class="SingleTxt">
+              <content eId="para_8__content">
+                <p xml:space="preserve">
+                  <span class="italic">	La Commission économique et sociale pour l’Asie occidentale</span>,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_9" class="SingleTxt">
+              <content eId="para_9__content">
+                <p xml:space="preserve">	<span class="italic">Prenant note</span> de la communication adressée à son secrétariat par le Ministère des affaires étrangères et de la coopération internationale de Djibouti le 11 juillet 2022, dans laquelle Djibouti demande à être admis à la Commission comme membre à part entière, </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_10" class="SingleTxt">
+              <content eId="para_10__content">
+                <p xml:space="preserve">	<span class="italic">Rappelant </span>que l’Égypte, l’Organisation de libération de la Palestine, le Soudan, la Libye, le Maroc et la Tunisie, la Mauritanie puis l’Algérie et la Somalie sont devenus membres à part entière de la Commission, en vertu des résolutions du Conseil économique et social <a href="https://undocs.org/fr/E/RES/2088(lxiii)">2088 (LXIII)</a> et <a href="https://undocs.org/fr/E/RES/2089(LXIII)">2089 (LXIII)</a> du 22 juillet 1977, 2008/8 du 22 juillet 2008, <a href="https://undocs.org/fr/E/RES/2012/1">2012/1</a> du 10 juillet 2012, <a href="https://undocs.org/fr/E/RES/2015/32">2015/32</a> du 22 juillet 2015 et <a href="https://undocs.org/fr/E/RES/2020/20">2020/20</a> du 22 juillet 2020, respectivement,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_11" class="SingleTxt">
+              <content eId="para_11__content">
+                <p xml:space="preserve">	<span class="italic">Rappelant </span>sa résolution 302 (XXVII) du 10 mai 2012, dans laquelle elle invite les pays arabes à rejoindre ses membres,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_12" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_12__content">
+                <p xml:space="preserve">	<span class="italic">Accueille avec satisfaction</span> la demande d’admission à la qualité de membre de la Commission économique et sociale pour l’Asie occidentale présentée par Djibouti ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_13" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_13__content">
+                <p xml:space="preserve">	<span class="italic">Recommande </span>au Conseil économique et social d’approuver cette demande ; </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_14" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_14__content">
+                <p xml:space="preserve">	<span class="italic">Prie</span> la Secrétaire exécutive de suivre l’application de la présente résolution.</p>
+              </content>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>
