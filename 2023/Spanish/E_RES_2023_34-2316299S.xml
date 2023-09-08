@@ -1,0 +1,504 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2023-07-26/2023-34/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2023-07-26/2023-34/"></FRBRuri>
+          <FRBRdate date="2023-07-26" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2023-07-26/2023-34/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2023-07-26/2023-34/spa@/"></FRBRuri>
+          <FRBRdate date="2023-08-25" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2023-07-26/2023-34/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2023-07-26/2023-34/spa@.xml"></FRBRuri>
+          <FRBRdate date="2023-09-05" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="6" href="http://metadata.un.org/sdg/6" showAs="sdg_6" dictionary="SDGO"></keyword>
+        <keyword value="water" href="http://eurovoc.europa.eu/597" showAs="water" dictionary="EuroVoc"></keyword>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/030500" showAs="water" dictionary="UNBIS"></keyword>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/1006939" showAs="water" dictionary="UNBIS"></keyword>
+        <keyword value="sanitation" href="http://metadata.un.org/thesaurus/1005701" showAs="sanitation" dictionary="UNBIS"></keyword>
+        <keyword value="water_management" href="http://eurovoc.europa.eu/3144" showAs="water_management" dictionary="EuroVoc"></keyword>
+        <keyword value="water_management" href="http://metadata.un.org/thesaurus/1006948" showAs="water_management" dictionary="UNBIS"></keyword>
+        <keyword value="public_hygiene" href="http://eurovoc.europa.eu/3371" showAs="public_hygiene" dictionary="EuroVoc"></keyword>
+        <keyword value="use_of_water" href="http://eurovoc.europa.eu/4628" showAs="use_of_water" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="8" href="http://metadata.un.org/sdg/8" showAs="sdg_8" dictionary="SDGO"></keyword>
+        <keyword value="unemployment" href="http://eurovoc.europa.eu/5974" showAs="unemployment" dictionary="EuroVoc"></keyword>
+        <keyword value="unemployment" href="http://metadata.un.org/thesaurus/1006773" showAs="unemployment" dictionary="UNBIS"></keyword>
+        <keyword value="economic_growth" href="http://eurovoc.europa.eu/310" showAs="economic_growth" dictionary="EuroVoc"></keyword>
+        <keyword value="economic_growth" href="http://metadata.un.org/thesaurus/1001854" showAs="economic_growth" dictionary="UNBIS"></keyword>
+        <keyword value="employment" href="http://metadata.un.org/thesaurus/1002007" showAs="employment" dictionary="UNBIS"></keyword>
+        <keyword value="full_employment" href="http://eurovoc.europa.eu/2427" showAs="full_employment" dictionary="EuroVoc"></keyword>
+        <keyword value="full_employment" href="http://metadata.un.org/thesaurus/1002563" showAs="full_employment" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="15" href="http://metadata.un.org/sdg/15" showAs="sdg_15" dictionary="SDGO"></keyword>
+        <keyword value="land,_plant_and_soil_resources" href="http://metadata.un.org/thesaurus/030600" showAs="land,_plant_and_soil_resources" dictionary="UNBIS"></keyword>
+        <keyword value="deforestation" href="http://eurovoc.europa.eu/339" showAs="deforestation" dictionary="EuroVoc"></keyword>
+        <keyword value="deforestation" href="http://metadata.un.org/thesaurus/1001550" showAs="deforestation" dictionary="UNBIS"></keyword>
+        <keyword value="desertification" href="http://eurovoc.europa.eu/416" showAs="desertification" dictionary="EuroVoc"></keyword>
+        <keyword value="desertification" href="http://metadata.un.org/thesaurus/1001594" showAs="desertification" dictionary="UNBIS"></keyword>
+        <keyword value="biodiversity" href="http://eurovoc.europa.eu/5463" showAs="biodiversity" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="LIVING CONDITIONS" showAs="LIVING CONDITIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PALESTINIANS" showAs="PALESTINIANS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TERRITORIES OCCUPIED BY ISRAEL" showAs="TERRITORIES OCCUPIED BY ISRAEL" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="WEST BANK" showAs="WEST BANK" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GAZA STRIP" showAs="GAZA STRIP" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="EAST JERUSALEM (STATE OF PALESTINE)" showAs="EAST JERUSALEM (STATE OF PALESTINE)" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GOLAN HEIGHTS" showAs="GOLAN HEIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="16" showAs="Economic and social repercussions of the Israeli occupation on the living conditions of the Palestinian people in the Occupied Palestinian Territory, including East Jerusalem, and the Arab population in the occupied Syrian Golan." shortForm="PALESTINIANS--TERRITORIES OCCUPIED BY ISRAEL--LIVING CONDITIONS" dictionary="E/2023/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-07-20" outcome="draftResolution" as="E/2023/L.34" by="Cuba (on behalf of the States Members of the United Nations that are members of the Group of 77 and China)" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2023-08-25" outcome="adopted" as="Adopted 39-4-3, 45th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedRecordedVote">
+            <count value="39" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">AFGHANISTAN</organization>
+                <organization refersTo="memberState">ARGENTINA</organization>
+                <organization refersTo="memberState">BELGIUM</organization>
+                <organization refersTo="memberState">BELIZE</organization>
+                <organization refersTo="memberState">BRAZIL</organization>
+                <organization refersTo="memberState">BULGARIA</organization>
+                <organization refersTo="memberState">CHILE</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">COLOMBIA</organization>
+                <organization refersTo="memberState">COSTA RICA</organization>
+                <organization refersTo="memberState">CROATIA</organization>
+                <organization refersTo="memberState">CZECHIA</organization>
+                <organization refersTo="memberState">DENMARK</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">GREECE</organization>
+                <organization refersTo="memberState">INDIA</organization>
+                <organization refersTo="memberState">INDONESIA</organization>
+                <organization refersTo="memberState">ITALY</organization>
+                <organization refersTo="memberState">JAPAN</organization>
+                <organization refersTo="memberState">KAZAKHSTAN</organization>
+                <organization refersTo="memberState">LAO PEOPLE'S DEMOCRATIC REPUBLIC</organization>
+                <organization refersTo="memberState">LIBYA</organization>
+                <organization refersTo="memberState">LIECHTENSTEIN</organization>
+                <organization refersTo="memberState">MADAGASCAR</organization>
+                <organization refersTo="memberState">MAURITIUS</organization>
+                <organization refersTo="memberState">MEXICO</organization>
+                <organization refersTo="memberState">NEW ZEALAND</organization>
+                <organization refersTo="memberState">NIGERIA</organization>
+                <organization refersTo="memberState">OMAN</organization>
+                <organization refersTo="memberState">PERU</organization>
+                <organization refersTo="memberState">PORTUGAL</organization>
+                <organization refersTo="memberState">QATAR</organization>
+                <organization refersTo="memberState">REPUBLIC OF KOREA</organization>
+                <organization refersTo="memberState">SLOVAKIA</organization>
+                <organization refersTo="memberState">SLOVENIA</organization>
+                <organization refersTo="memberState">SWEDEN</organization>
+                <organization refersTo="memberState">TUNISIA</organization>
+                <organization refersTo="memberState">UNITED REPUBLIC OF TANZANIA</organization>
+                <organization refersTo="memberState">ZIMBABWE</organization>
+              </akn4un:voters>
+            </count>
+            <count value="4" refersTo="against">
+              <akn4un:voters>
+                <organization refersTo="memberState">CANADA</organization>
+                <organization refersTo="memberState">ISRAEL</organization>
+                <organization refersTo="memberState">LIBERIA</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+              </akn4un:voters>
+            </count>
+            <count value="3" refersTo="abstaining">
+              <akn4un:voters>
+                <organization refersTo="memberState">COTE D'IVOIRE</organization>
+                <organization refersTo="memberState">GUATEMALA</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">23-16299 (S)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Naciones Unidas</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2023/34</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Consejo Económico y Social</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-08-25" class="rightSmall" refersTo="#dateOfIssuance">25 de agosto de 2023</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2023" eId="coverPage_1__session_1">Período de sesiones de 2023</session>
+      </p>
+      <p>
+        <inline title="16" name="agenda item">Tema 16 del programa</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Consecuencias económicas y sociales de la ocupación israelí para las condiciones de vida del pueblo palestino en el Territorio Palestino Ocupado, incluida Jerusalén Oriental, y de la población árabe en el Golán sirio ocupado</inline>
+      </p>
+      <p>
+        <docTitle>Resolución aprobada por el Consejo Económico y Social el 26 de julio de 2023</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#plenaryMeeting">[sobre la base de una propuesta examinada en sesión plenaria (<inline name="originating document">E/2023/L.34</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2023/34.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Consecuencias económicas y sociales de la ocupación israelí para las condiciones de vida del pueblo palestino en el Territorio Palestino Ocupado, incluida Jerusalén Oriental, y de la población árabe en el Golán sirio ocupado</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">El Consejo Económico y Social</span>,</p>
+      </formula>
+      <container name="Recordando" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recordando </span>las resoluciones de la Asamblea General <a href="https://undocs.org/es/A/RES/77/126">77/126</a>, de 12 de diciembre de 2022, y <a href="https://undocs.org/es/A/RES/77/187">77/187</a>, de 14 de diciembre de 2022,</p>
+      </container>
+      <container name="Recordando también" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Recordando también </span>su resolución <a href="https://undocs.org/es/E/RES/2022/22">2022/22</a>, de 22 de julio de 2022, </p>
+      </container>
+      <container name="Guiado" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Guiado </span>por los principios de la Carta de las Naciones Unidas que afirman la inadmisibilidad de la adquisición de territorio por la fuerza y recordando las resoluciones pertinentes del Consejo de Seguridad, entre ellas las resoluciones <a href="https://undocs.org/es/S/RES/242(1967)">242 (1967)</a>, de 22 de noviembre de 1967, <a href="https://undocs.org/es/S/RES/252(1968)">252 (1968)</a>, de 21 de mayo de 1968, <a href="https://undocs.org/es/S/RES/338(1973)">338 (1973)</a>, de 22 de octubre de 1973, <a href="https://undocs.org/es/S/RES/465(1980)">465 (1980)</a>, de 1 de marzo de 1980, <a href="https://undocs.org/es/S/RES/497(1981)">497 (1981)</a>, de 17 de diciembre de 1981, y <a href="https://undocs.org/es/S/RES/2334(2016)">2334 (2016)</a>, de 23 de diciembre de 2016,</p>
+      </container>
+      <container name="Recordando" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Recordando </span>las resoluciones del décimo período extraordinario de sesiones de emergencia de la Asamblea General, entre ellas las resoluciones <a href="https://undocs.org/es/A/RES/ES-10/13">ES-10/13</a>, de 21 de octubre de 2003, <a href="https://undocs.org/es/A/RES/ES-10/14">ES-10/14</a>, de 8 de diciembre de 2003, <a href="https://undocs.org/es/A/RES/ES-10/15">ES-10/15</a>, de 20 de julio de 2004, y <a href="https://undocs.org/es/A/RES/ES-10/17">ES-10/17</a>, de 15 de diciembre de 2006,</p>
+      </container>
+      <container name="Tomando nota" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Tomando nota</span> del informe de la Comisión Económica y Social para Asia Occidental sobre las consecuencias económicas y sociales de la ocupación israelí para las condiciones de vida del pueblo palestino en el Territorio Palestino Ocupado, incluida Jerusalén Oriental, y de la población árabe en el Golán sirio ocupado, transmitido por el Secretario General<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	 	<a href="https://undocs.org/es/A/78/86">A/78/86-E/2023/83</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="Reafirmando" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Reafirmando </span>la aplicabilidad del Convenio de Ginebra relativo a la Protección debida a las Personas Civiles en Tiempo de Guerra, de 12 de agosto de 1949<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	 	Naciones Unidas, <span class="italic">Treaty Series</span>, vol. 75, núm. 973.</p></authorialNote>, al territorio palestino ocupado, incluida Jerusalén Oriental, y a los demás territorios árabes ocupados por Israel desde 1967, </p>
+      </container>
+      <container name="Recordando" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Recordando </span>el Pacto Internacional de Derechos Civiles y Políticos<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	 	Véase la resolución de la Asamblea General <a href="https://undocs.org/es/A/RES/2200(XXI)">2200 A (XXI)</a>, anexo.</p></authorialNote>, el Pacto Internacional de Derechos Económicos, Sociales y Culturales<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">	 	<span class="italic">Ibid.</span></p></authorialNote> y la Convención sobre los Derechos del Niño<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">	 	Naciones Unidas, <span class="italic">Treaty Series</span>, vol. 1577, núm. 27531.</p></authorialNote>, y afirmando que estos instrumentos de derechos humanos son aplicables y deben respetarse en el Territorio Palestino Ocupado, incluida Jerusalén Oriental, así como en el Golán sirio ocupado,</p>
+      </container>
+      <container name="Observando con preocupación" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Observando con preocupación</span> que han transcurrido más de 70 años desde la aprobación de la resolución <a href="https://undocs.org/es/A/RES/181(II)">181 (II)</a> de la Asamblea General, de 29 de noviembre de 1947, y 56 años desde la ocupación del territorio palestino, incluida Jerusalén Oriental, en 1967, </p>
+      </container>
+      <container name="Tomando nota" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Tomando nota</span>, a este respecto, de la adhesión de Palestina a varios tratados de derechos humanos y a las convenciones fundamentales del derecho humanitario, así como a otros tratados internacionales,</p>
+      </container>
+      <container name="Tomando nota también" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Tomando nota también</span> de la resolución <a href="https://undocs.org/es/A/RES/67/19">67/19</a> de la Asamblea General, de 29 de noviembre de 2012,</p>
+      </container>
+      <container name="Destacando" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Destacando </span>la urgencia de que se logren sin demora el fin de la ocupación israelí que comenzó en 1967 y un acuerdo de paz general, justo y duradero en todos los ámbitos sobre la base de las resoluciones del Consejo de Seguridad <a href="https://undocs.org/es/S/RES/242(1967)">242 (1967)</a>, <a href="https://undocs.org/es/S/RES/338(1973)">338 (1973)</a>, <a href="https://undocs.org/es/S/RES/425(1978)">425 (1978)</a>, de 19 de marzo de 1978, <a href="https://undocs.org/es/S/RES/1397(2002)">1397 (2002)</a>, de 12 de marzo de 2002, <a href="https://undocs.org/es/S/RES/1515(2003)">1515 (2003)</a>, de 19 de noviembre de 2003, <a href="https://undocs.org/es/S/RES/1544(2004)">1544 (2004)</a>, de 19 de mayo de 2004, <a href="https://undocs.org/es/S/RES/1850(2008)">1850 (2008)</a>, de 16 de diciembre de 2008, y <a href="https://undocs.org/es/S/RES/2334(2016)">2334 (2016)</a>, del principio de territorio por paz, de la Iniciativa de Paz Árabe<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">	 	<a href="https://undocs.org/es/A/56/1026">A/56/1026-S/2002/932</a>, anexo II, resolución <a href="https://undocs.org/es/A/RES/14/221">14/221</a>.</p></authorialNote> y de la hoja de ruta del Cuarteto<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">	 	<a href="https://undocs.org/es/S/2003/529">S/2003/529</a>, anexo.</p></authorialNote>, así como el cumplimiento de los acuerdos concertados entre el Gobierno de Israel y la Organización de Liberación de Palestina, representante del pueblo palestino,</p>
+      </container>
+      <container name="Reafirmando" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Reafirmando </span>el principio de la soberanía permanente de los pueblos que se encuentran bajo ocupación extranjera sobre sus recursos naturales y expresando preocupación a ese respecto por el hecho de que Israel, la Potencia ocupante, y los colonos israelíes estén explotando, poniendo en peligro y agotando los recursos naturales en el Territorio Palestino Ocupado, incluida Jerusalén Oriental, y en el Golán sirio ocupado, en particular como resultado de actividades de asentamiento, que son ilegales en virtud del derecho internacional y que, lamentablemente, se siguieron produciendo durante el período examinado,</p>
+      </container>
+      <container name="Convencido" eId="container_14">
+          <p xml:space="preserve">	<span class="italic">Convencido </span>de que la ocupación israelí ha obstaculizado seriamente los esfuerzos por lograr un desarrollo ambiental sostenible y un entorno económico estable en el Territorio Palestino Ocupado, incluida Jerusalén Oriental, y en el Golán sirio ocupado, y expresando grave preocupación por el consiguiente empeoramiento de la situación económica y las condiciones de vida,</p>
+      </container>
+      <container name="Expresando alarma" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Expresando alarma</span>, a ese respecto, por el altísimo nivel de desempleo en la Franja de Gaza en particular, que sigue superando el 40 % en la población general y es del 60 % en el caso de los jóvenes, y que se ve agravado por los cierres prolongados y las rigurosas restricciones económicas y de circulación impuestos por Israel, equivalentes en la práctica a un bloqueo, y por las constantes repercusiones negativas de las operaciones militares en la Franja de Gaza para la infraestructura económica y social y las condiciones de vida,</p>
+      </container>
+      <container name="Encomiando" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Encomiando</span>, pese a las numerosas limitaciones, como los obstáculos impuestos por la persistente ocupación israelí, los esfuerzos del Gobierno palestino para mejorar la situación económica y social en el Territorio Palestino Ocupado, especialmente en los ámbitos de la gobernanza, el estado de derecho y los derechos humanos, los medios de subsistencia y los sectores productivos, la educación y la cultura, la salud, la protección social, la infraestructura y el agua,</p>
+      </container>
+      <container name="Destacando" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Destacando </span>la importancia del Marco de Cooperación de las Naciones Unidas para el Desarrollo Sostenible, cuyos objetivos incluyen, entre otras cosas, mejorar el apoyo y la asistencia para el desarrollo que se presta al pueblo palestino y reforzar la capacidad institucional de conformidad con las prioridades nacionales palestinas,</p>
+      </container>
+      <container name="Gravemente preocupado" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Gravemente preocupado </span>por el hecho de que Israel haya acelerado la construcción de asentamientos y la aplicación de otras medidas conexas en el Territorio Palestino Ocupado, en particular en la Jerusalén Oriental ocupada y sus alrededores, y en el Golán sirio ocupado, en contravención del derecho internacional humanitario y de las resoluciones pertinentes de las Naciones Unidas, y destacando que esas medidas ilegales son la fuente principal de otras violaciones y políticas discriminatorias israelíes,</p>
+      </container>
+      <container name="Alentando" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">Alentando </span>a todos los Estados y las organizaciones internacionales a que sigan promoviendo activamente políticas para asegurar el cumplimiento de las obligaciones que les incumben en virtud del derecho internacional en relación con todas las prácticas y medidas israelíes ilegales en el Territorio Palestino Ocupado, incluida Jerusalén Oriental, en particular los asentamientos israelíes,</p>
+      </container>
+      <container name="Tomando nota" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">Tomando nota</span> del informe de la misión internacional independiente de investigación de las repercusiones de los asentamientos israelíes en los derechos civiles, políticos, económicos, sociales y culturales del pueblo palestino en todo el Territorio Palestino Ocupado, incluida Jerusalén Oriental<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">	 	<a href="https://undocs.org/es/A/HRC/22/63">A/HRC/22/63</a>.</p></authorialNote>,</p>
+      </container>
+      <container name="Expresando profunda preocupación" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">Expresando profunda preocupación </span>por el aumento de los casos de violencia, hostigamiento, provocación, vandalismo e incitación en el Territorio Palestino Ocupado, incluida Jerusalén Oriental, en particular por colonos israelíes ilegales armados contra civiles palestinos, incluidos niños, y sus propiedades, incluidos viviendas, lugares históricos y religiosos y tierras de cultivo, y pidiendo que se rindan cuentas por las acciones ilegales perpetradas a este respecto,</p>
+      </container>
+      <container name="Gravemente preocupado" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">Gravemente preocupado </span>por las serias consecuencias que han tenido en las condiciones económicas y sociales del pueblo palestino la construcción del muro por Israel y la imposición de un régimen asociado dentro del Territorio Palestino Ocupado, incluida Jerusalén Oriental y sus alrededores, y la consiguiente violación de sus derechos económicos y sociales, incluidos los derechos al trabajo, a la salud, a la educación, a la propiedad, a un nivel de vida adecuado y a la libertad de acceso y circulación,</p>
+      </container>
+      <container name="Recordando" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">Recordando</span>, a ese respecto, la opinión consultiva emitida el 9 de julio de 2004 por la Corte Internacional de Justicia sobre las consecuencias jurídicas de la construcción de un muro en el Territorio Palestino Ocupado<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">	 	Véanse <a href="https://undocs.org/es/A/ES-10/273">A/ES-10/273</a> y <a href="https://undocs.org/es/A/ES-10/273/Corr.1">A/ES-10/273/Corr.1</a>.</p></authorialNote> y la resolución <a href="https://undocs.org/es/A/RES/ES-10/15">ES-10/15</a> de la Asamblea General, y destacando la necesidad de cumplir las obligaciones enunciadas en ellas,</p>
+      </container>
+      <container name="Deplorando" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">Deplorando </span>todas las pérdidas de vidas civiles inocentes y las lesiones infligidas a decenas de civiles, y exhortando a todas las partes a que respeten plenamente el derecho internacional, incluido el derecho humanitario y de los derechos humanos, en particular para asegurar la protección de la vida de la población civil, así como la promoción de la seguridad humana, la reducción de la tensión, el ejercicio de la moderación, especialmente en relación con proclamas y actos de provocación, y el establecimiento de un entorno estable y propicio al logro de la paz,</p>
+      </container>
+      <container name="Expresando grave preocupación" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">Expresando grave preocupación </span>por la destrucción en gran escala por Israel, la Potencia ocupante, de propiedades, incluido el aumento de la demolición de viviendas, instituciones económicas, lugares de importancia histórica, tierras de cultivo y huertos en el Territorio Palestino Ocupado, incluida Jerusalén Oriental, en particular en relación con su construcción de asentamientos y del muro y la confiscación de tierras, en contravención del derecho internacional, en el Territorio Palestino Ocupado, incluida Jerusalén Oriental y sus alrededores,</p>
+      </container>
+      <container name="Expresando grave preocupación también" eId="container_26">
+        <p xml:space="preserve">	<span class="italic">Expresando grave preocupación también </span>porque persisten el desplazamiento y desposesión forzados de civiles palestinos, incluida la comunidad beduina, debido a la continuación e intensificación de la política de demolición de viviendas, desalojos y revocación de derechos de residencia en la Jerusalén Oriental ocupada y sus alrededores, así como por las medidas para aislar aún más la ciudad de su entorno natural palestino, que han agravado seriamente la ya de por sí crítica situación socioeconómica a que se enfrenta la población palestina,</p>
+      </container>
+      <container name="Expresando grave preocupación además" eId="container_27">
+        <p xml:space="preserve">	<span class="italic">Expresando grave preocupación además</span> por la continuación de las operaciones militares israelíes y sus políticas de cierres y restricciones drásticas a la circulación de personas y bienes, la imposición de cierres en los pasos y el establecimiento de puestos de control y un régimen de permisos en todo el Territorio Palestino Ocupado, incluida Jerusalén Oriental, y por el consiguiente efecto negativo en la situación socioeconómica del pueblo palestino, en particular la población refugiada de Palestina, que continúa siendo de crisis humanitaria,</p>
+      </container>
+      <container name="Expresando grave preocupación" eId="container_28">
+        <p xml:space="preserve">	<span class="italic">Expresando grave preocupación</span>, en particular, por la crisis que sigue afectando a la Franja de Gaza debido a los cierres prolongados y a las rigurosas restricciones económicas y de circulación impuestos por Israel, equivalentes en la práctica a un bloqueo, destacando que la situación es insostenible, como se ha señalado en numerosos informes, incluido el informe de 26 de agosto de 2016 del equipo de las Naciones Unidas en el país, titulado “Gaza: two years after” (Gaza: dos años después), y pidiendo a ese respecto la plena aplicación de la resolución <a href="https://undocs.org/es/S/RES/1860(2009)">1860 (2009)</a> del Consejo de Seguridad, de 8 de enero de 2009, con miras a asegurar la apertura completa de los pasos fronterizos para la circulación sostenida y permanente de personas y bienes, incluida la asistencia humanitaria, el tráfico comercial y los materiales de construcción, y poniendo de relieve la necesidad de garantizar la seguridad de todas las poblaciones civiles,</p>
+      </container>
+      <container name="Deplorando" eId="container_29">
+        <p xml:space="preserve">	<span class="italic">Deplorando </span>el conflicto que se vivió en la Franja de Gaza y sus alrededores en julio y agosto de 2014 y las bajas civiles que provocó, incluidos los miles de civiles palestinos muertos y heridos, entre ellos niños, mujeres y ancianos, así como los daños y la destrucción generalizados de miles de viviendas e infraestructuras civiles indispensables, como escuelas, hospitales, redes de abastecimiento de agua, saneamiento y electricidad, bienes económicos, industriales y agrícolas, instituciones públicas, lugares de culto y escuelas e instalaciones de las Naciones Unidas, así como el desplazamiento interno de cientos de miles de civiles, y toda violación del derecho internacional, incluido el derecho humanitario y de los derechos humanos, a este respecto,</p>
+      </container>
+      <container name="Gravemente preocupado" eId="container_30">
+        <p xml:space="preserve">	<span class="italic">Gravemente preocupado</span> por los consiguientes efectos perjudiciales amplios y prolongados de las operaciones militares llevadas a cabo en julio y agosto de 2014, así como las realizadas entre diciembre de 2008 y enero de 2009 y en noviembre de 2012, en las condiciones económicas, la prestación de servicios sociales y las condiciones de vida de la población civil palestina, incluida la población refugiada de Palestina, desde los puntos de vista social, humanitario y físico,</p>
+      </container>
+      <container name="Recordando" eId="container_31">
+        <p xml:space="preserve">	<span class="italic">Recordando</span>, a ese respecto, los informes pertinentes de las Naciones Unidas, en particular los del Consejo Económico y Social, la Comisión Económica y Social para Asia Occidental y el Consejo de Derechos Humanos,</p>
+      </container>
+      <container name="Expresando profunda preocupación" eId="container_32">
+        <p xml:space="preserve">	<span class="italic">Expresando profunda preocupación </span>por los efectos perjudiciales a corto y largo plazo de tal destrucción generalizada y de la obstrucción del proceso de reconstrucción por Israel, la Potencia ocupante, en las condiciones socioeconómicas y humanitarias de la población civil palestina de la Franja de Gaza, donde la crisis humanitaria continúa agravándose, y a ese respecto pidiendo la aceleración y la conclusión inmediatas del proceso de reconstrucción en la Franja de Gaza con la asistencia de los países donantes, incluido el desembolso de los fondos prometidos en la Conferencia Internacional de El Cairo sobre Palestina y la Reconstrucción de Gaza, celebrada el 12 de octubre de 2014,</p>
+      </container>
+      <container name="Gravemente preocupado" eId="container_33">
+        <p xml:space="preserve">	<span class="italic">Gravemente preocupado </span>por los diversos informes de las Naciones Unidas y organismos especializados en relación con la considerable dependencia de la ayuda a causa del cierre prolongado de fronteras, las tasas de desempleo excesivas, la pobreza generalizada y las graves penurias humanitarias, entre ellas la inseguridad alimentaria y el agravamiento de los problemas relacionados con la salud, incluidos los altos niveles de malnutrición, entre la población palestina, especialmente los niños, en el Territorio Palestino Ocupado, incluida Jerusalén Oriental,</p>
+      </container>
+      <container name="Expresando grave preocupación" eId="container_34">
+        <p xml:space="preserve">	<span class="italic">Expresando grave preocupación </span>por las muertes y lesiones causadas a civiles, incluidos niños, mujeres y manifestantes pacíficos, y poniendo de relieve que la población civil palestina debe ser protegida de conformidad con el derecho internacional humanitario, </p>
+      </container>
+      <container name="Poniendo de relieve" eId="container_35">
+        <p xml:space="preserve">	<span class="italic">Poniendo de relieve </span>la importancia de la seguridad y el bienestar de todos los civiles y pidiendo el cese de todos los actos de violencia, incluidos todos los actos de terror, provocación, incitación y destrucción, y todos los lanzamientos de cohetes,</p>
+      </container>
+      <container name="Expresando profunda preocupación" eId="container_36">
+        <p xml:space="preserve">	<span class="italic">Expresando profunda preocupación </span>porque miles de palestinos, incluidos muchos niños y mujeres, siguen detenidos en cárceles o en centros de detención israelíes, sometidos a duras condiciones que minan su bienestar, como condiciones antihigiénicas, reclusión en régimen de aislamiento, uso excesivo de la detención administrativa, incluso en el caso de niños, falta de atención médica apropiada y negligencia médica generalizada, incluso para los prisioneros que están enfermos, con el riesgo de consecuencias fatales, y la denegación de visitas de familiares y de las debidas garantías procesales, y expresando profunda preocupación también por los malos tratos y el hostigamiento de que puedan ser objeto los presos y detenidos palestinos y por todas las denuncias de tortura,</p>
+      </container>
+      <container name="Consciente" eId="container_37">
+        <p xml:space="preserve">	<span class="italic">Consciente </span>de la necesidad urgente de reconstruir y desarrollar la infraestructura económica y social del Territorio Palestino Ocupado, incluida Jerusalén Oriental, así como de resolver la crisis humanitaria a que se enfrenta el pueblo palestino, en particular mediante la garantía de la prestación sin obstáculos de asistencia humanitaria y la circulación sostenida y permanente de personas y bienes hacia la Franja de Gaza y desde ella,</p>
+      </container>
+      <container name="Reconociendo" eId="container_38">
+        <p xml:space="preserve">	<span class="italic">Reconociendo </span>los esfuerzos que realiza el Gobierno palestino, con apoyo internacional, para reformar, desarrollar y fortalecer sus instituciones e infraestructura, poniendo de relieve la necesidad de preservar y seguir desarrollando las instituciones e infraestructura palestinas, a pesar de los obstáculos que plantea la constante ocupación israelí, y encomiando a este respecto las iniciativas en curso para desarrollar las instituciones de un Estado palestino independiente, en particular mediante la aplicación de la Agenda Palestina de Políticas Nacionales: Prioridades, Políticas e Intervenciones Nacionales (2017-2022),</p>
+      </container>
+      <container name="Expresando preocupación" eId="container_39">
+        <p xml:space="preserve">	<span class="italic">Expresando preocupación</span> por el riesgo que representan para los significativos logros conseguidos, que han confirmado las positivas evaluaciones realizadas por instituciones internacionales en lo que respecta a la preparación para acceder a la condición de Estado, entre ellas el Banco Mundial, el Fondo Monetario Internacional, las Naciones Unidas y el Comité Especial de Enlace para la Coordinación de la Asistencia Internacional a los Palestinos, los efectos negativos de la incesante inestabilidad y la crisis financiera a que se enfrenta el Gobierno palestino y la persistente ausencia de un horizonte político digno de confianza,</p>
+      </container>
+      <container name="Encomiando" eId="container_40">
+        <p xml:space="preserve">	<span class="italic">Encomiando</span>, a ese respecto, la importante labor que realizan las Naciones Unidas, los organismos especializados y la comunidad de donantes en apoyo del desarrollo económico y social del pueblo palestino conforme a su plan nacional de desarrollo y construcción de un Estado, así como la asistencia indispensable que se presta en el ámbito humanitario,</p>
+      </container>
+      <container name="Afirmando" eId="container_41">
+        <p xml:space="preserve">	<span class="italic">Afirmando </span>la necesidad de prestar apoyo al Gobierno palestino de consenso nacional en el desempeño de sus plenas responsabilidades gubernamentales en la Ribera Occidental y la Franja de Gaza, en todos los ámbitos, así como mediante su presencia en los puntos de paso de Gaza, y la reconciliación nacional palestina, y poniendo de relieve la necesidad de que se respeten y preserven la integridad territorial y la unidad del Territorio Palestino Ocupado, incluida Jerusalén Oriental,</p>
+      </container>
+      <container name="Exhortando" eId="container_42">
+        <p xml:space="preserve">	<span class="italic">Exhortando </span>a ambas partes a que cumplan las obligaciones que les corresponden en virtud de la hoja de ruta, en cooperación con el Cuarteto,</p>
+      </container>
+      <container name="Consciente" eId="container_43">
+        <p xml:space="preserve">	<span class="italic">Consciente </span>de que es difícil crear y fomentar condiciones económicas, sociales y ambientales propicias bajo un régimen de ocupación y de que es mejor promover estas condiciones en circunstancias de paz y estabilidad,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_44" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve">	<span class="italic">Pide </span>que se abran por completo los pasos fronterizos de la Franja de Gaza, de conformidad con las disposiciones de la resolución <a href="https://undocs.org/es/S/RES/1860(2009)">1860 (2009)</a> del Consejo de Seguridad, a fin de garantizar el acceso humanitario y la circulación sostenida y permanente de personas y bienes, y que se levanten todas las restricciones a la circulación impuestas al pueblo palestino, incluidas las que se derivan de las operaciones militares israelíes en curso y del sistema de cierres escalonados, y que se adopten otras medidas urgentes para aliviar la grave situación humanitaria del Territorio Palestino Ocupado, que es crítica en la Franja de Gaza, y pide también que Israel, la Potencia ocupante, cumpla todas las obligaciones jurídicas que le incumben en este sentido con arreglo al derecho internacional humanitario y a las resoluciones de las Naciones Unidas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="italic">Destaca </span>la necesidad de preservar la contigüidad, la unidad y la integridad del Territorio Palestino Ocupado, incluida Jerusalén Oriental, y de garantizar la libertad de circulación de las personas y los bienes en todo el Territorio Palestino Ocupado, incluida Jerusalén Oriental, así como la libertad de circulación hacia y desde el exterior;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	<span class="italic">Destaca también</span> la necesidad de preservar y desarrollar las instituciones e infraestructuras nacionales palestinas para la prestación de servicios públicos indispensables a la población civil palestina y de contribuir a la promoción y protección de los derechos humanos, incluidos los derechos económicos y sociales;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_50" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_50__content">
+          <p xml:space="preserve">	<span class="italic">Exige </span>que Israel cumpla lo dispuesto en el Protocolo sobre Relaciones Económicas entre el Gobierno de Israel y la Organización de Liberación de Palestina, firmado en París el 29 de abril de 1994<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">	 	Véase <a href="https://undocs.org/es/A/49/180">A/49/180-S/1994/727</a>, anexo, titulado “Acuerdo sobre la Faja de Gaza y la Zona de Jericó”, anexo IV.</p></authorialNote>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta </span>a Israel a que repare y sustituya las propiedades civiles, la infraestructura indispensable, las tierras de cultivo y las instituciones gubernamentales que han sido dañadas o destruidas como consecuencia de sus operaciones militares en el Territorio Palestino Ocupado;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_59" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_59__content">
+          <p xml:space="preserve">	<span class="italic">Reitera</span> el llamamiento para que se aplique plenamente el Acuerdo sobre los Desplazamientos y el Acceso, concertado el 15 de noviembre de 2005, en particular la reapertura urgente e ininterrumpida de todos los pasos de la Franja de Gaza, lo cual es crucial para asegurar la entrada de alimentos y suministros básicos, incluidos materiales de construcción y cantidades suficientes de combustible, así como para asegurar el acceso sin trabas de las Naciones Unidas y organismos conexos y el tráfico comercial permanente necesario para la recuperación económica al Territorio Palestino Ocupado y dentro de él, y pone de relieve la necesidad de garantizar la seguridad de todas las poblaciones civiles;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_65" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_65__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta </span>a todas las partes a que respeten las normas del derecho internacional humanitario y se abstengan de cometer actos de violencia contra la población civil, de conformidad con el Convenio de Ginebra relativo a la Protección debida a las Personas Civiles en Tiempo de Guerra, de 12 de agosto de 1949;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_72" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_72__content">
+          <p xml:space="preserve">	<span class="italic">Reafirma </span>el derecho inalienable del pueblo palestino y de la población árabe del Golán sirio ocupado a todos sus recursos naturales y económicos, y exhorta a Israel, la Potencia ocupante, a que no explote ni ponga en peligro dichos recursos, ni cause su pérdida o agotamiento;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_80" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_80__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta </span>a Israel, la Potencia ocupante, a que ponga fin a la destrucción de viviendas y propiedades, instituciones económicas y tierras de cultivo y huertos en el Territorio Palestino Ocupado, incluida Jerusalén Oriental, así como en el Golán sirio ocupado, e impida que los colonos israelíes realicen esas actividades ilícitas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_89" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_89__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta también</span> a Israel, la Potencia ocupante, a que ponga término de inmediato a su explotación de los recursos naturales, incluidos los recursos hídricos y mineros, y deje de verter todo tipo de materiales de desecho en el Territorio Palestino Ocupado, incluida Jerusalén Oriental, así como en el Golán sirio ocupado, pues ello pone en grave peligro sus recursos naturales, concretamente los recursos hídricos, terrestres y energéticos, y constituye una grave amenaza para el medio ambiente y la salud de la población civil, y exhorta también a Israel, la Potencia ocupante, a que retire todos los obstáculos que impiden la ejecución de proyectos ambientales críticos, como el de las plantas de tratamiento de aguas residuales de la Franja de Gaza, y en particular el suministro de energía eléctrica necesario para el funcionamiento de la planta de emergencia para la depuración de aguas residuales en el norte de Gaza, y destaca a este respecto la urgencia de reconstruir y desarrollar la infraestructura de abastecimiento de agua, incluido el proyecto de la planta desalinizadora para la Franja de Gaza;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_99" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_99__content">
+          <p xml:space="preserve">	<span class="italic">Pide </span>la asistencia necesaria para que se retiren de inmediato de la Franja de Gaza, en condiciones de seguridad, todas las municiones sin detonar, que ponen en peligro la vida de los palestinos y repercuten negativamente en el medio ambiente y los esfuerzos de reconstrucción y desarrollo, y acoge con beneplácito los esfuerzos realizados por el Servicio de las Naciones Unidas de Actividades relativas a las Minas hasta la fecha;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_110" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_110__content">
+          <p xml:space="preserve">	<span class="italic">Reafirma </span>que la construcción y ampliación de los asentamientos israelíes y la infraestructura conexa en el Territorio Palestino Ocupado, incluida Jerusalén Oriental, y el Golán sirio ocupado son ilegales y suponen un grave obstáculo para el desarrollo económico y social y para el logro de la paz, y pide que cesen por completo todos los asentamientos y las actividades relacionadas con ellos, incluida la cesación total de todas las medidas dirigidas a alterar la composición demográfica, el estatuto jurídico y el carácter de los territorios ocupados, incluso, en particular, en la Jerusalén Oriental ocupada y sus alrededores, de conformidad con las resoluciones pertinentes del Consejo de Seguridad, incluida la resolución <a href="https://undocs.org/es/S/RES/2334(2016)">2334 (2016)</a>, y el derecho internacional, incluido el Convenio de Ginebra relativo a la Protección debida a las Personas Civiles en Tiempo de Guerra;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_122" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_122__content">
+          <p xml:space="preserve">	<span class="italic">Pide </span>que se exijan responsabilidades por los actos ilegales cometidos por colonos israelíes en el Territorio Palestino Ocupado, incluida Jerusalén Oriental, recuerda a este respecto la resolución <a href="https://undocs.org/es/S/RES/904(1994)">904 (1994)</a> del Consejo de Seguridad, de 18 de marzo de 1994, y destaca la necesidad de que se aplique;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_135" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_135__content">
+          <p xml:space="preserve">	<span class="italic">Pide también</span> que se preste una atención urgente a la difícil situación y a los derechos, con arreglo al derecho internacional, de los prisioneros y detenidos, y que ambas partes realicen esfuerzos para que continúen liberándose prisioneros y detenidos, deplora la práctica de retener los cadáveres de los que han sido muertos y pide que los cadáveres que aún no hayan sido devueltos a sus familiares sean puestos a disposición de estos, de conformidad con el derecho internacional humanitario y de los derechos humanos, a fin de garantizar que se les den exequias dignas de conformidad con sus creencias religiosas y tradiciones;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_149" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_149__content">
+          <p xml:space="preserve">	<span class="italic">Reafirma </span>que la continuación de la construcción del muro por Israel en el Territorio Palestino Ocupado, incluida Jerusalén Oriental y sus alrededores, contraviene el derecho internacional y está aislando a Jerusalén Oriental, fragmentando la Ribera Occidental y debilitando gravemente el desarrollo económico y social del pueblo palestino, y pide a ese respecto que se respeten plenamente las obligaciones jurídicas mencionadas en la opinión consultiva emitida el 9 de julio de 2004 por la Corte Internacional de Justicia y en la resolución <a href="https://undocs.org/es/A/RES/ES-10/15">ES-10/15</a> de la Asamblea General y en resoluciones pertinentes posteriores;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_164" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_164__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta </span>a Israel a que cumpla lo dispuesto en el Convenio de Ginebra relativo a la Protección debida a las Personas Civiles en Tiempo de Guerra y a que facilite las visitas de los ciudadanos sirios del Golán sirio ocupado a los familiares que residen en su patria, la República Árabe Siria, por el paso de Quneitra;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_180" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_180__content">
+          <p xml:space="preserve">	<span class="italic">Pone de relieve </span>la importancia de la labor que desarrollan las organizaciones y los organismos de las Naciones Unidas en el Territorio Palestino Ocupado, incluida Jerusalén Oriental, y el Coordinador Especial de las Naciones Unidas para el Proceso de Paz de Oriente Medio y Representante Personal del Secretario General ante la Organización de Liberación de Palestina y la Autoridad Palestina;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_197" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_197__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito e insta a que continúe </span>la implicación del Secretario General y del Coordinador Especial de las Naciones Unidas en la prestación de apoyo, en colaboración con los asociados pertinentes, a las iniciativas para atender las necesidades urgentes de infraestructura, ayuda humanitaria y desarrollo económico, en particular mediante la ejecución de proyectos respaldados por el Comité Especial de Enlace para la Coordinación de la Asistencia Internacional a los Palestinos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_215" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_215__content">
+          <p xml:space="preserve">	<span class="italic">Expresa reconocimiento</span> a los Estados Miembros, los órganos de las Naciones Unidas y las organizaciones intergubernamentales, regionales y no gubernamentales que han prestado y siguen prestando asistencia económica y humanitaria al pueblo palestino, lo que ha ayudado a mejorar sus críticas condiciones económicas y sociales, e insta a que se siga prestando asistencia teniendo en cuenta el aumento de sus necesidades socioeconómicas y humanitarias, en cooperación con las instituciones oficiales palestinas y de acuerdo con el Plan Palestino de Desarrollo Nacional;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_234" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_234__content">
+          <p xml:space="preserve">	<span class="italic">Reitera </span>la importancia y la necesidad de aumentar y renovar los esfuerzos internacionales sobre la base de las resoluciones pertinentes de las Naciones Unidas, incluidas las resoluciones del Consejo de Seguridad <a href="https://undocs.org/es/S/RES/242(1967)">242 (1967)</a>, <a href="https://undocs.org/es/S/RES/338(1973)">338 (1973)</a>, <a href="https://undocs.org/es/S/RES/425(1978)">425 (1978)</a>, <a href="https://undocs.org/es/S/RES/1397(2002)">1397 (2002)</a>, <a href="https://undocs.org/es/S/RES/1515(2003)">1515 (2003)</a>, <a href="https://undocs.org/es/S/RES/1544(2004)">1544 (2004)</a>, <a href="https://undocs.org/es/S/RES/1850(2008)">1850 (2008)</a> y <a href="https://undocs.org/es/S/RES/2334(2016)">2334 (2016)</a>, y la Conferencia de Madrid, el principio de territorio por paz, la Iniciativa de Paz Árabe y la hoja de ruta del Cuarteto, así como de cumplir los acuerdos concertados entre el Gobierno de Israel y la Organización de Liberación de Palestina, representante del pueblo palestino, para facilitar la materialización de la solución biestatal con arreglo a la cual Israel y Palestina vivan uno junto al otro en condiciones de paz y seguridad dentro de fronteras reconocidas, sobre la base de las fronteras anteriores a 1967, y el logro de un acuerdo de paz general, justo y duradero;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_254" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_254__content">
+          <p xml:space="preserve">	<span class="italic">Solicita </span>al Secretario General que presente a la Asamblea General en su septuagésimo noveno período de sesiones, por conducto del Consejo Económico y Social, un informe sobre la aplicación de la presente resolución y que siga incluyendo en el informe del Coordinador Especial de las Naciones Unidas datos actualizados sobre las condiciones de vida del pueblo palestino, en colaboración con los organismos competentes de las Naciones Unidas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_275" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_275__content">
+          <p xml:space="preserve">	<span class="italic">Decide </span>incluir en el programa de su período de sesiones de 2024 el tema titulado “Consecuencias económicas y sociales de la ocupación israelí para las condiciones de vida del pueblo palestino en el Territorio Palestino Ocupado, incluida Jerusalén Oriental, y de la población árabe en el Golán sirio ocupado”.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <inline name="adoptionMeeting" title="45a">45a sesión plenaria</inline>
+        <eol />
+        <docDate date="2023-07-26" refersTo="#adoptionDate">26 de julio de 2023</docDate>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
