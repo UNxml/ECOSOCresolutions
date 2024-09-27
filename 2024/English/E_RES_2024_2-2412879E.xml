@@ -1,0 +1,331 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2024-06-05/2024-2/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2024-06-05/2024-2/"></FRBRuri>
+          <FRBRdate date="2024-06-05" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2024-06-05/2024-2/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2024-06-05/2024-2/eng@/"></FRBRuri>
+          <FRBRdate date="2024-07-12" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2024-06-05/2024-2/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2024-06-05/2024-2/eng@.xml"></FRBRuri>
+          <FRBRdate date="2024-07-24" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"/>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"/>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"/>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"/>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"/>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"/>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"/>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"/>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"/>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"/>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"/>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"/>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"/>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"/>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"/>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"/>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="6" href="http://metadata.un.org/sdg/6" showAs="sdg_6" dictionary="SDGO"/>
+        <keyword value="water" href="http://eurovoc.europa.eu/597" showAs="water" dictionary="EuroVoc"/>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/030500" showAs="water" dictionary="UNBIS"/>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/1006939" showAs="water" dictionary="UNBIS"/>
+        <keyword value="sanitation" href="http://metadata.un.org/thesaurus/1005701" showAs="sanitation" dictionary="UNBIS"/>
+        <keyword value="public_hygiene" href="http://eurovoc.europa.eu/3371" showAs="public_hygiene" dictionary="EuroVoc"/>
+        <keyword value="water_management" href="http://eurovoc.europa.eu/3144" showAs="water_management" dictionary="EuroVoc"/>
+        <keyword value="water_management" href="http://metadata.un.org/thesaurus/1006948" showAs="water_management" dictionary="UNBIS"/>
+        <keyword value="use_of_water" href="http://eurovoc.europa.eu/4628" showAs="use_of_water" dictionary="EuroVoc"/>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="14" href="http://metadata.un.org/sdg/14" showAs="sdg_14" dictionary="SDGO"/>
+        <keyword value="marine_resources" href="http://metadata.un.org/thesaurus/030800" showAs="marine_resources" dictionary="UNBIS"/>
+        <keyword value="marine_resources" href="http://metadata.un.org/thesaurus/1003922" showAs="marine_resources" dictionary="UNBIS"/>
+        <keyword value="oceans_and_seas" href="http://metadata.un.org/thesaurus/170600" showAs="oceans_and_seas" dictionary="UNBIS"/>
+        <keyword value="ocean" href="http://eurovoc.europa.eu/2107" showAs="ocean" dictionary="EuroVoc"/>
+        <keyword value="ocean" href="http://metadata.un.org/thesaurus/1004576" showAs="ocean" dictionary="UNBIS"/>
+        <keyword value="marine_environment" href="http://eurovoc.europa.eu/5742" showAs="marine_environment" dictionary="EuroVoc"/>
+        <keyword value="marine_environment" href="http://metadata.un.org/thesaurus/1003911" showAs="marine_environment" dictionary="UNBIS"/>
+        <keyword value="marine_life" href="http://eurovoc.europa.eu/3149" showAs="marine_life" dictionary="EuroVoc"/>
+        <keyword value="sea" href="http://eurovoc.europa.eu/1870" showAs="sea" dictionary="EuroVoc"/>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="9" href="http://metadata.un.org/sdg/9" showAs="sdg_9" dictionary="SDGO"/>
+        <keyword value="innovation" href="http://eurovoc.europa.eu/1439" showAs="innovation" dictionary="EuroVoc"/>
+        <keyword value="innovation" href="http://metadata.un.org/thesaurus/1003223" showAs="innovation" dictionary="UNBIS"/>
+        <keyword value="industrialization" href="http://metadata.un.org/thesaurus/1003177" showAs="industrialization" dictionary="UNBIS"/>
+        <keyword value="industrial_infrastructure" href="http://eurovoc.europa.eu/1434" showAs="industrial_infrastructure" dictionary="EuroVoc"/>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Statistical Commission" showAs="UN. Statistical Commission" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Statistical Commission" showAs="UN. Statistical Commission" dictionary="DHLAUTH"></keyword>
+        <keyword value="STATISTICS" href="http://metadata.un.org/thesaurus/020700" showAs="STATISTICS" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-02-28" outcome="draftResolution" as="E/CN.3/2024/L.4/Rev.1" by="submitted by the Bureau" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-03-19" outcome="recommendedForAdoption" as="E/2024/24" by="UN. Statistical Commission" />
+        <step date="2024-07-12" outcome="adopted" as="Adopted without vote, 20th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">24-12879 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2024/2</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Economic and Social Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-07-12" class="rightSmall" refersTo="#dateOfIssuance">12 July 2024</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2024" eId="coverPage_1__session_1">2024 session</session>
+      </p>
+      <p>
+        <inline title="18 (c)" name="agenda item">Agenda item 18 (c)</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Economic and environmental questions: statistics</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the Economic and Social Council on 5 June 2024</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent>[on the recommendation of the Statistical Commission (<inline name="originating document">E/2024/24</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2024/2.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	An inclusive and representative Statistical Commission to leave no one behind</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Economic and Social Council</span>,</p>
+      </formula>
+      <container name="Recalling" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> its resolution <a href="https://undocs.org/en/E/RES/1566(l)">1566 (L)</a> of 3 May 1971, in which the Council recognized the importance of the coordination function of the Statistical Commission and the need to achieve an integrated system in the collection, processing and dissemination of international statistics, and the interest of the Statistical Commission and the Statistical Office<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		Subsequently renamed the Statistics Division.</p></authorialNote> in matters related to the use of computers in the United Nations system, and requested the Secretary-General to undertake, in cooperation with the specialized agencies, concerted action to assist the developing countries in strengthening their statistical systems, </p>
+      </container>
+      <container name="Recalling also" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Recalling also</span> its resolution 2006/6 of 24 July 2006, in which it encouraged the strengthening of statistical capacity of the relevant international agencies and recognizing the collaboration of the United Nations system, including the Statistics Division of the Department of Economic and Social Affairs of the Secretariat and the regional commissions and international agencies, to support national efforts in building and strengthening national statistical capacity, in particular of developing countries,</p>
+      </container>
+      <container name="Recalling further" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Recalling further</span> its resolution <a href="https://undocs.org/en/E/RES/2020/5">2020/5</a> of 18 June 2020, in which it recognized the need to strengthen coordination of the statistical programmes in the United Nations system, and the request to the Committee of the Chief Statisticians of the United Nations System to more effectively strengthen coordination of statistical programmes within the United Nations system, guided by and in support of the work of the Statistical Commission,</p>
+      </container>
+      <container name="Reaffirming" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span>, as stated in its resolution <a href="https://undocs.org/en/E/RES/2022/3">2022/3</a> of 8 June 2022, the Statistical Commission as the primary body for the coordination of the global statistical programmes in general and of the United Nations statistical and data-related system,</p>
+      </container>
+      <container name="Recognizing" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> the need for the United Nations statistical and data-related system, with a view to stressing that the work in the field of statistics and data is adaptive to the changing statistical and data ecosystem, to report on work on statistics and data within all domains to the Statistical Commission, to enable the Commission to fulfil its function as the primary body at the global level responsible for the management of statistical information and governance of statistics and data,</p>
+      </container>
+      <container name="Emphasizing" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Emphasizing</span> the need for technological innovations to systematically modernize statistical offices and national statistical and data systems and to promote practices for the generation of information aligned with principles that ensure, inter alia, coherence, comparability, data privacy and confidentiality, and the importance of building partnerships, </p>
+      </container>
+      <container name="Noting" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Noting</span> that the Statistical Commission is expected to play the role as the apex forum for discussions, knowledge exchange and sharing of best practices on statistics and data across all domains, to develop and maintain international statistical standards and norms, tools and methodologies, to support and bolster the development of sustainable national statistical systems, to develop and build the capacity of national systems, to advocate for the professional community of official statistics, and to ensure continued innovations to adapt to the changing statistical and data system,</p>
+      </container>
+      <container name="Taking note" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of the expanding scope of national statistical systems, in which chief statisticians are frequently asked to serve as data stewards for data ecosystems in general,</p>
+      </container>
+      <container name="Recalling" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> General Assembly resolution <a href="https://undocs.org/en/A/RES/70/1">70/1</a> of 25 September 2015, entitled “Transforming our world: the 2030 Agenda for Sustainable Development”, in which it was agreed to intensify the efforts to strengthen statistical capacities of national statistical offices and data systems in developing countries, particularly African countries, least developed countries, landlocked developing countries, small island developing States and middle-income countries, to ensure access to high-quality, timely, reliable, disaggregated data and the commitment was made to developing broader measures of progress to complement gross domestic product,</p>
+      </container>
+      <container name="Noting" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Noting</span> that, in its resolution <a href="https://undocs.org/en/A/RES/70/1">70/1</a>, the General Assembly decided that the Sustainable Development Goals and targets would be followed up and reviewed using a set of global indicators developed by the Inter-Agency and Expert Group on Sustainable Development Goal Indicators,</p>
+      </container>
+      <container name="Taking note" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of General Assembly resolution <a href="https://undocs.org/en/A/RES/71/313">71/313</a> of 6 July 2017, in which the Assembly adopted a global framework of indicators, developed by the Statistical Commission, to monitor progress, inform policy and ensure accountability of all stakeholders as the follow-up and review mechanism for the implementation of the 2030 Agenda for Sustainable Development,</p>
+      </container>
+      <container name="Recalling" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> General Assembly resolution <a href="https://undocs.org/en/A/RES/68/261">68/261</a> of 29 January 2014, by which the Assembly endorsed the Fundamental Principles of Official Statistics and in which the Assembly stressed that, in order to be effective, the fundamental values and principles that govern statistical work have to be guaranteed by legal and institutional frameworks and be respected at all political levels and by all stakeholders in national statistical systems, </p>
+      </container>
+      <container name="Recognizing" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> that an enlargement of the membership of the Statistical Commission will bring wider representation and inclusivity,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_15" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> the value of official statistics, which constitute a foundation for fact-based decision-making;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">	<span class="italic">Acknowledges</span> that data is increasingly available and can be used to measure progress and implement the 2030 Agenda for Sustainable Development;<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		General Assembly resolution <a href="https://undocs.org/en/A/RES/70/1">70/1</a>.</p></authorialNote></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">	<span class="italic">Also acknowledges</span> that high-quality, timely and reliable data and statistics, in conjunction with other data sources and innovative methods, such as new and emerging technologies, can create added value and benefits for society;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">	<span class="italic">Underlines</span> that the Statistical Commission is a body in which the heads of national data and statistical systems meet to discuss and agree on technical aspects of their data and statistical systems;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the essential role that the Statistical Commission plays in coordinating the development of international standards, methods and guidelines on data and statistics which are widely accepted, including by Member States, the United Nations funds and programmes, the specialized agencies, the Secretariat, including the regional commissions, as well as the Bretton Woods institutions and international organizations;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="italic">Affirms</span> that the Statistical Commission should seek to promote the active participation of all Member States and relevant stakeholders, including international organizations, the private sector, academia and civil society, in discussions on issues related to data and statistics;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> the need to enlarge the membership of the Statistical Commission for enhanced inclusivity;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to increase the number of members of the Statistical Commission from 24 to 54 members, to be elected by the Economic and Social Council on the basis of equitable geographical distribution;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve">	<span class="italic">Also decides</span> that the enlargement shall take effect progressively, in three steps, from the beginning of the fifty-seventh session of the Statistical Commission, in 2026, until the fifty-ninth session, in 2028;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_60" class="SingleTxt">
+        <num>10.</num>
+        <list eId="para_60_list">
+          <intro eId="para_60_list_intro">
+            <p xml:space="preserve">	<span class="italic">Further decides</span> that the enlargement shall take effect according to the following pattern of membership in the Statistical Commission:</p>
+          </intro>
+          <point eId="para_60_list_point_a">
+            <num>(a)</num>
+            <content eId="para_60_list_point_a_content">
+              <p xml:space="preserve">	8 members from African States, 6 members from Asia-Pacific States, 6 members from Latin American and Caribbean States, 5 members from Eastern European States and 9 members from Western European and other States at the fifty-seventh session, in 2026;</p>
+            </content>
+          </point>
+          <point eId="para_60_list_point_b">
+            <num>(b)</num>
+            <content eId="para_60_list_point_b_content">
+              <p xml:space="preserve">	11 members from African States, 9 members from Asia-Pacific States, 8 members from Latin American and Caribbean States, 5 members from Eastern European States and 11 members from Western European and other States at the fifty-eighth session, in 2027;</p>
+            </content>
+          </point>
+          <point eId="para_60_list_point_c">
+            <num>(c)</num>
+            <content eId="para_60_list_point_c_content">
+              <p xml:space="preserve">	14 members from African States, 11 members from Asia-Pacific States, 10 members from Latin American and Caribbean States, 6 members from Eastern European States and 13 members from Western European and other States at the fifty-ninth session, in 2028;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_70" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_70__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> that the Bureau of the Statistical Commission review, assess and report on the progress towards the achievement of the objectives of the present resolution at the fifty-eighth session, including by making recommendations in this regard, while preserving the technical nature of the Commission;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_81" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_81__content">
+          <p xml:space="preserve">	<span class="italic">Notes</span> that the Bureau will continue to consist of one representative from among States members of the Statistical Commission from each of the five regional groups;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_93" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_93__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> members of the Statistical Commission to play an active role, sharing knowledge with the global community and acting as advocates for data and statistics;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_106" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_106__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> that the Statistical Commission will play a central coordinating role in the global data and statistics system in order to promote comparability, harmonization and cooperation between Member States and relevant stakeholders with the aim of making data and statistics reliable and accessible for the good of society.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="20th" refersTo="#adoptionMeeting">20th plenary meeting</location>
+          <eol />
+          <docDate date="2024-06-05" refersTo="#adoptionDate">5 June 2024</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
