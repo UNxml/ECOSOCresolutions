@@ -1,0 +1,841 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2024-06-27/2024-8/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2024-06-27/2024-8/"></FRBRuri>
+          <FRBRdate date="2024-06-27" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2024-06-27/2024-8/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2024-06-27/2024-8/zho@/"></FRBRuri>
+          <FRBRdate date="2024-07-12" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2024-06-27/2024-8/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2024-06-27/2024-8/zho@.xml"></FRBRuri>
+          <FRBRdate date="2024-07-24" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"/>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"/>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"/>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"/>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"/>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"/>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"/>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"/>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"/>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"/>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"/>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"/>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"/>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"/>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"/>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"/>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"/>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"/>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"/>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"/>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"/>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"/>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"/>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"/>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"/>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"/>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"/>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"/>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"/>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"/>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"/>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"/>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"/>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"/>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"/>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"/>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"/>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"/>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Office for the Coordination of Humanitarian Affairs" showAs="UN. Office for the Coordination of Humanitarian Affairs" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Under-Secretary-General for Humanitarian Affairs and Emergency Relief Coordinator" showAs="UN. Under-Secretary-General for Humanitarian Affairs and Emergency Relief Coordinator" dictionary="DHLAUTH"></keyword>
+        <keyword value="Central Emergency Response Fund" showAs="Central Emergency Response Fund" dictionary="DHLAUTH"></keyword>
+        <keyword value="HUMANITARIAN ASSISTANCE" href="http://metadata.un.org/thesaurus/1002992" showAs="HUMANITARIAN ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="AID COORDINATION" href="http://metadata.un.org/thesaurus/1000178" showAs="AID COORDINATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COORDINATION WITHIN UN SYSTEM" href="http://metadata.un.org/thesaurus/1001299" showAs="COORDINATION WITHIN UN SYSTEM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMANITARIAN EMERGENCIES" href="http://metadata.un.org/thesaurus/1002993" showAs="HUMANITARIAN EMERGENCIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="EMERGENCY RELIEF" href="http://metadata.un.org/thesaurus/1001994" showAs="EMERGENCY RELIEF" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="9" showAs="Special economic, humanitarian and disaster relief assistance." shortForm="HUMANITARIAN ASSISTANCE" dictionary="E/2024/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-06-19" outcome="draftResolution" as="E/2024/L.13" by="submitted by the Vice-President of the Council, Ivan Šimonović (Croatia) and on the basis of informal consultations" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-07-12" outcome="adopted" as="Adopted without vote, 30th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">24-12882 (C)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2024/8</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">经济及社会理事会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-07-12" class="rightSmall" refersTo="#dateOfIssuance">12 July 2024</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" eId="coverPage_1__session_1"></session>
+      </p>
+      <p>
+        <inline title="9" name="agenda item">议程项目9</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">特别经济、人道主义和救灾援助</inline>
+      </p>
+      <p>
+        <docTitle>2024年6月27日经济及社会理事会决议</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#plenaryMeeting">[根据全体会议审议的一项提案 (<inline name="originating document">E/2024/L.13</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2024/8.</docNumber>
+        <docTitle refersTo="#resolutionTitle">加强联合国紧急人道主义援助的协调</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">经济及社会理事会</span>，</p>
+      </formula>
+      <container name="重申" eId="container_2">
+        <p xml:space="preserve">	<span class="bold">重申</span>大会1991年12月19日第<a href="https://undocs.org/ch/A/RES/46/182">46/182</a>号决议及其附件所载指导原则，并回顾大会其他相关决议和经济及社会理事会相关决议及商定结论，</p>
+      </container>
+      <container name="又重申" eId="container_3">
+        <p xml:space="preserve">	<span class="bold">又重申</span>提供人道主义援助的人道、中立、公正和独立原则，重申在复杂紧急情况、长期危机和自然灾害情势中参与提供人道主义援助的所有行为体都必须促进和充分尊重这些原则，</p>
+      </container>
+      <container name="回顾" eId="container_4">
+        <p xml:space="preserve">	<span class="bold">回顾</span>理事会2024年4月9日第2024/310号决定，其中决定2024年届会人道主义事务部分的主题为“面对冲突和气候变化，把人放在首位：加强人道主义援助和对国际人道法的尊重，促进实效、创新和伙伴关系”，并决定在这一部分举行四场专题小组讨论，</p>
+      </container>
+      <container name="表示严重关切" eId="container_5">
+        <p xml:space="preserve">	<span class="bold">表示严重关切</span>受灾害和其他人道主义紧急情况影响者人数空前，造成日益严峻的挑战，特别是在发展中国家，使不发达状况、贫困和不平等问题雪上加霜，加剧人们的脆弱性，同时削弱他们应对人道主义紧急情况的能力，强调需要高效率、有成效地持续提供资源，用于包括在发展中国家减少灾害风险、防备灾害和提供人道主义援助，又强调发展行为体和人道主义行为体必须更好地通力合作，加强防灾、备灾和救灾方面的抗灾能力，包括城市的抗灾能力，</p>
+      </container>
+      <container name="表示最严重关切" eId="container_6">
+          <p xml:space="preserve">	<span class="bold">表示最严重关切</span>冠状病毒病(COVID-19)疫情的持续后果和长期影响所带来的人道主义影响和构成的风险，包括对受影响民众和社区本已庞大的人道主义需求和发展需求及困苦造成的冲击，认识到疫情对妇女、儿童和处境脆弱群体的影响尤其严重，极为关切人道主义援助和保护需求正在增加，其原因包括性暴力和性别暴力以及暴力侵害儿童等暴力行径增加，极为关切对教育特别是女童教育的显著影响以及严重的粮食不安全和营养不良、饥荒风险加剧、生计丧失及其对健康包括精神卫生的所有负面影响且这种影响因卫生系统不堪重负而恶化，极为关切流离失所的影响和风险；又认识到由于武装冲突、贫困、自然灾害、暴力、气候变化的不利影响和其他环境挑战而加剧的风险和影响；还认识到必须继续加强大流行病的预防、准备和应对工作，并处理大流行病和其他卫生紧急情况的后果，</p>
+      </container>
+      <container name="回顾" eId="container_7">
+        <p xml:space="preserve">	<span class="bold">回顾</span>要战胜冠状病毒病这一全球大流行病，曾必须在团结一致和重振多边合作的基础上采取有效的全球对策，特别指出人道主义援助是该对策的重要组成部分，在这方面确认会员国在应对冠状病毒病疫情方面作出的努力，包括提供人道主义援助，表示赞赏联合国系统、机构间常设委员会、国际红十字与红新月运动、非政府组织、信仰组织、妇女领导的组织、地方人道主义行为体、志愿人员以及其他卫生和人道主义组织所作的努力和提供的支持，赞赏在人道主义应急第一线工作的医务人员和人道主义人员面对疫情所做的必要工作，强调指出必须采取措施切实保护他们，并表示赞赏世界各地的第一线工作人员和必要工作人员所作的努力，又确认应对冠状病毒病疫情的全面对策，包括人道主义行为体和发展行为体在充分遵守各自任务规定的情况下加强合作，协调一致，互补配合，在这方面着重指出开展协作的重要性，以便根据对具体情况和每个行为体业务优势的共识，在若干年内减少需求、脆弱性和风险，并建设复原力，</p>
+      </container>
+      <container name="表示严重关切" eId="container_8">
+        <p xml:space="preserve">	<span class="bold">表示严重关切</span>受到人道主义紧急情况影响并因此而流离失所、包括人道主义紧急情况所导致的往往旷日持久的流离失所者人数之多前所未有，人道主义紧急情况的次数、规模和严重程度都在增加，致使人道主义应对能力捉襟见肘，认识到需要共担责任，并赞赏地注意到国家和国际两级努力促进国家能力建设以应对这方面的复杂挑战，</p>
+      </container>
+      <container name="注意到" eId="container_9">
+        <p xml:space="preserve">	<span class="bold">注意到</span>需要提高国际社会对世界各地境内流离失所问题的认识，包括认识到数百万长期处于流离失所状态者的境况，迫切需要向境内流离失所者提供适当人道主义援助和保护，向收容社区提供支持，及早消除流离失所问题的根源，在境内流离失所者本国找到持久解决办法并应对这方面可能存在的障碍，各国当局对于向自身管辖范围内的境内流离失所者提供保护和人道主义援助及推动持久解决方案负有首要义务和责任，同时铭记境内流离失所者的特殊需要，并认识到持久解决办法包括安全、有尊严地自愿回返以及在流离失所后前往的地区自愿就地安置或自愿在该国异地安置，同时不损害境内流离失所者离开本国或寻求庇护的权利，</p>
+      </container>
+      <container name="认识到" eId="container_10">
+        <p xml:space="preserve">	<span class="bold">认识到</span>收容国和收容社区特别是发展中国家在应对受人道主义紧急情况影响者的需要方面所起的关键作用，重申国际社会需要及时和协调一致地酌情支持收容方和受影响国家加强自身发展和复原力，加强国家和地方能力，按照人道主义原则满足受影响民众的人道主义需求，</p>
+      </container>
+      <container name="强调指出" eId="container_11">
+        <p xml:space="preserve">	<span class="bold">强调指出</span>会员国、联合国和其他相关行为体必须继续努力，改善基于需求的人道主义援助的成效，包括为此加强人道主义应急能力，加强人道主义协调，酌情改进联合需求评估和分析，根据轻重缓急和需求制定人道主义应急计划，找到适当的创新办法并运用于人道主义防备、应急和复原工作，提高透明度，减少重复和管理成本，酌情加强与地方和国家应急部门的伙伴关系，提高供资的灵活性、可预测性和充足性，并加强所有利益攸关方的问责，</p>
+      </container>
+      <container name="认识到" eId="container_12">
+        <p xml:space="preserve">	<span class="bold">认识到</span>发展中国家，特别是最不发达国家和小岛屿发展中国家，仍极易遭受气候变化、极端天气和气候事件日趋严重和频繁的不利影响，以及厄尔尼诺和拉尼娜现象、环境退化、自然危害造成的人员和经济损失的影响，又认识到灾害日趋严重和频繁，在许多情况下可导致流离失所，还认识到需要更好地了解灾害的多层面性质以及气候变化的不利影响，以有效管理灾害风险，并需要酌情开展国际合作，以发展和加强这些国家在这方面的复原力，包括国家之间交流信息、经验和最佳做法，确认必须开展国际合作以支持受影响国家在防备、应对和尽早恢复等方面作出努力，支持受此类灾害影响的国家加强应对能力，</p>
+      </container>
+      <container name="申明" eId="container_13">
+        <p xml:space="preserve">	<span class="bold">申明</span>需要有效执行《2015-2030年仙台减少灾害风险框架》，<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		大会第<a href="https://undocs.org/ch/A/RES/69/283">69/283</a>号决议，附件二。</p></authorialNote> 强调建设和加强地方、国家和区域各级复原力对减轻灾害风险和影响以及减少易遭受灾患的脆弱性至关重要，在这方面认识到建设复原力，包括减少灾害风险和防备灾害，是一个支持长期发展的多层面进程，既包括人道主义行为体也包括发展行为体，强调指出需加大投资力度以建设国家和地方的多灾种预警系统、备灾、防灾、减灾、救灾和恢复能力，特别是在发展中国家，并投资建设区域能力，</p>
+      </container>
+      <container name="认识到" eId="container_14">
+        <p xml:space="preserve">	在这方面<span class="bold">认识到</span>在《联合国气候变化框架公约》下通过的《巴黎协定》<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		见<a href="https://undocs.org/ch/FCCC/CP/2015/10/Add.1">FCCC/CP/2015/10/Add.1</a>，第1/CP.21号决定，附件。</p></authorialNote> 尤为重要，</p>
+      </container>
+      <container name="回顾" eId="container_15">
+        <p xml:space="preserve">	<span class="bold">回顾</span>1949年8月12日日内瓦四公约<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		联合国，《条约汇编》，第75卷，第970-973号。</p></authorialNote> 及其1977年附加议定书，<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		同上，第1125卷，第17512和17513号。</p></authorialNote> 回顾在所有情况下尊重国际人道法和确保国际人道法得以遵守的义务，以及武装冲突各方严格遵守适用国际人道法的义务，</p>
+      </container>
+      <container name="重申" eId="container_16">
+        <p xml:space="preserve">	<span class="bold">重申</span>日内瓦四公约依然具有重要性，其中载有战时保护平民的关键法律框架，包括关于人道主义援助的规定，</p>
+      </container>
+      <container name="回顾" eId="container_17">
+        <p xml:space="preserve">	<span class="bold">回顾</span>1949年日内瓦四公约及其适用的1977年和2005年附加议定书，<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		同上，第2404卷，第43425号。</p></authorialNote> 回顾关于保护伤员和病人、医护人员和专门履行医护职责的人道主义人员及其运输工具和设备以及医院和其他医疗设施的相关习惯国际法，并回顾武装冲突各方在任何情况下尊重国际人道法和确保国际人道法得到遵守的义务，还注意到国际人道法关于不得惩罚任何开展符合医德的医务活动者的有关规则，</p>
+      </container>
+      <container name="强烈谴责" eId="container_18">
+        <p xml:space="preserve">	<span class="bold">强烈谴责</span>对伤员和病人、医护人员和专门履行医护职责的人道主义人员及其运输工具、设备和用品以及医院和其他医疗设施的所有攻击、威胁及其他暴力行为，痛惜这些攻击行为对有关国家的平民和卫生保健系统造成长期后果，</p>
+      </container>
+      <container name="最强烈地谴责" eId="container_19">
+        <p xml:space="preserve">	<span class="bold">最强烈地谴责</span>针对人道主义人员、医务人员和联合国人员及有关人员的威胁和蓄意以他们为目标的行为，特别是针对当地征聘和本国人员的威胁和蓄意以他们为目标的行为，以及针对人道主义人员及其设施、设备、运输工具和用品的所有攻击、威胁及其他暴力行为，表示深为关切此类攻击对向受影响民众提供人道主义援助造成的后果，</p>
+      </container>
+      <container name="赞扬" eId="container_20">
+        <p xml:space="preserve">
+          <span class="bold">	赞扬</span>参加人道主义行动的人员，特别是本国人员和当地征聘人员，包括国内和国际非政府组织在实地的工作人员所表现出的勇气、作出的牺牲和忠于职守精神，他们经常面临重大个人风险，自身健康、包括精神卫生和心理社会健康受到不利影响，特别是当他们在武装冲突局势中开展工作且面临直接暴力、伤害和疾病风险而可以利用的医疗和急救设施却有限的情况下，并缅怀他们的英勇事迹，特别是那些为人类服务而献出生命的人，</p>
+      </container>
+      <container name="强调" eId="container_21">
+        <p xml:space="preserve">
+          <span class="bold">	强调</span>各国有责任履行其相关义务，杜绝对严重违反国际人道法行为，包括那些卷入袭击人道主义人员行为的有罪不罚现象，</p>
+      </container>
+      <container name="强烈谴责" eId="container_22">
+        <p xml:space="preserve">	<span class="bold">强烈谴责</span>违反适用国际人道法对民用物体实施的所有攻击、威胁和其他暴力行为，</p>
+      </container>
+      <container name="深感震惊的是" eId="container_23">
+        <p xml:space="preserve">
+          <span class="bold">	深感震惊的是</span>武装冲突，包括城市和其他人口密集地区的武装冲突给平民和民用基础设施造成的破坏性损害，</p>
+      </container>
+      <container name="鼓励" eId="container_24">
+        <p xml:space="preserve">	<span class="bold">鼓励</span>会员国和相关人道主义组织与国家机构并酌情包括地方政府和私营部门密切合作，研究如何通过行之有效、针对具体情况的方式更好地防备、应对城市地区日益增多的紧急情况并实现复原，这些紧急情况可能对提供水、能源和卫生保健等拯救生命的基本服务产生影响，</p>
+      </container>
+      <container name="表示深为关切" eId="container_25">
+        <p xml:space="preserve">	<span class="bold">表示深为关切</span>所有性暴力和性别暴力行为，非常关切地注意到紧急情况中发生的暴力行为，包括性暴力和性别暴力及暴力侵害儿童行为，继续蓄意针对平民，而且平民是武装冲突各方实施的违反国际人道法行为的主要受害者，认识到虽然妇女和女童尤其受到影响，但男子和男童也可能成为性暴力和性别暴力的受害者和(或)幸存者，</p>
+      </container>
+      <container name="认识到" eId="container_26">
+        <p xml:space="preserve">	<span class="bold">认识到</span>人道主义紧急情况尤其对妇女和女童造成影响，必须确保妇女有权能切实有效地参与事关这类紧急情况、包括事关减少灾害风险的领导和决策进程，确保各项战略和对策酌情确定并安全、适当地顾及妇女和女童的具体需求和利益，包括教育和健康需要，确保在人道主义紧急情况下促进和保护妇女和女童的权利，并在这方面承认国家和地方妇女组织以及妇女领导的组织的重要作用和贡献，</p>
+      </container>
+      <container name="重申" eId="container_27">
+        <p xml:space="preserve">	<span class="bold">重申</span>应以全面和一贯的方式确定不同年龄的妇女、女童、男子和男童的具体需求、优先事项和能力，作出应对，并将之纳入各阶段人道主义援助规划的主流，认识到在人道主义紧急情况下，其安全、健康和福祉面临具体和更大的风险，</p>
+      </container>
+      <container name="严重关切地注意到" eId="container_28">
+        <p xml:space="preserve">	<span class="bold">严重关切地注意到</span>儿童和青年在人道主义紧急情况下继续缺乏包容和公平的优质教育机会以及安全的学校环境，确认儿童在紧急情况下有受教育的权利，并确认人道主义紧急情况对教育的影响带来发展和人道主义挑战，强调迫切需要增加资金，在人道主义紧急情况下更有效地提供优质教育，以此促进实现可持续发展目标，并确保包容和公平的优质教育，促进全民终身学习机会，包括儿童早期教育以及高等教育、技能培训和职业教育，在这方面重申教育应努力促进和平，并可成为恢复和重建的促进力量，造就有复原力的强大社会，</p>
+      </container>
+      <container name="认识到" eId="container_29">
+        <p xml:space="preserve">	<span class="bold">认识到</span>优质教育通过支持和加强社会资本、提高人力资本、加强社区在人道主义应急方面的知识，以多种方式促进建设个人、社区和机构应对人道主义紧急情况的复原力，又认识到优质教育可使人具有正常、稳定和有序感，对未来抱有希望，从而减轻武装冲突和自然灾害造成的社会心理影响，在这方面强调教育还可发挥重要作用，支持努力在紧急情况中预防和减轻所有暴力和虐待行为的影响，</p>
+      </container>
+      <container name="又认识到" eId="container_30">
+        <p xml:space="preserve">	<span class="bold">又认识到</span>青年在人道主义援助方面具有重要而积极的作用，他们可成为创新和创造性解决办法的驱动者，需要使青年参与应对工作，包括通过志愿人员方案使他们参与，</p>
+      </container>
+      <container name="还认识到" eId="container_31">
+        <p xml:space="preserve">	<span class="bold">还认识到</span>老年人在人道主义紧急情况下面临的风险，认识到他们拥有多年积累的知识、技能和智慧，是减少灾害风险的宝贵财富，应让老年人参与制定预警和减少灾害风险等各项政策、计划和机制的工作，又认识到应顾及老年人的特殊需要，</p>
+      </container>
+      <container name="认识到" eId="container_32">
+        <p xml:space="preserve">	<span class="bold">认识到</span>在人道主义紧急情况下，残疾人受到的影响尤其严重，并在获得人道主义援助方面面临诸多障碍，又认识到需要使人道主义行动能为残疾人所获得并包容残疾人，在这方面强调指出必须确保不歧视、有效参与决策过程，并在提供援助时开展合作和协调，以确保满足残疾人的需要，在这方面回顾《将残疾人融入人道主义行动宪章》，</p>
+      </container>
+      <container name="又认识到" eId="container_33">
+        <p xml:space="preserve">	<span class="bold">又认识到</span>会员国在防备和应对传染病暴发包括导致人道主义危机的传染病暴发方面的首要作用，重点指出会员国、根据世界卫生大会通过的《国际卫生条例(2005)》<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		世界卫生组织，WHA58/2005/REC/1号文件，第58.3号决议，附件。</p></authorialNote> 指导和协调国际卫生工作的主管机构世界卫生组织、联合国人道主义系统、相关国际和区域组织、非政府组织、私营部门和其他人道主义行为体在提供资金、技术和实物支助以使流行病或大流行病得到控制方面发挥的关键作用，又认识到需要加强地方和国家卫生系统、预报和预警系统、防备工作、跨部门应对能力及与抗御传染病暴发有关的能力，包括为此建设发展中国家的能力，</p>
+      </container>
+      <container name="极为关切地注意到" eId="container_34">
+        <p xml:space="preserve">	<span class="bold">极为关切地注意到</span>数以百万计的人正面临饥荒或迫在眉睫的饥荒风险或处于重度粮食不安全境况、已达危机程度甚或更糟境况，并注意到武装冲突、干旱、贫困和初级商品价格波动等因素造成或加剧饥荒和重度粮食不安全和营养不良，迫切需要作出更多努力，包括提供国际支持，以解决这一问题，</p>
+      </container>
+      <container name="认识到" eId="container_35">
+        <p xml:space="preserve">	<span class="bold">认识到</span>需要在各级紧急采取协调一致的行动，恢复势头，加快努力，以消除饥荒、粮食不安全和一切形式营养不良，全面应对其根源和影响，促进改善营养，促进可持续和有复原力的农产粮食体系，还强调指出国际社会应以协调方式支持国家和区域的努力，提供必要援助，以提高可持续粮食生产并增加公平获得和利用安全、充足和有营养食物的机会，同时充分尊重人道主义原则对人道主义援助的重要性，</p>
+      </container>
+      <container name="又认识到" eId="container_36">
+        <p xml:space="preserve">
+          <span class="bold">	又认识到</span>秘书长和联合国系统为应对和缓解日益严重的粮食不安全问题而采取的举措和作出的努力，包括在会员国支持下采取的举措和作出的努力，并鼓励继续这么做，</p>
+      </container>
+      <container name="还认识到" eId="container_37">
+        <p xml:space="preserve">	<span class="bold">还认识到</span>在可能情况下投资于以风险为依据、反应及时的社会保障体系、保护生计和提供紧急农业支助对拯救生命至关重要，</p>
+      </container>
+      <container name="认识到" eId="container_38">
+        <p xml:space="preserve">	<span class="bold">认识到</span>应急、复原、重建与发展之间的明确关系，并重申，为加强协调一致和确保从救济向复原、重建和发展平稳过渡，提供紧急援助的方式必须有助于恢复和长期发展，应急措施应与发展措施并行，作为受影响国家实现可持续发展的一个步骤，在这方面强调指出国家利益攸关方，酌情包括私营部门，与人道主义行为体和发展行为体之间必须进一步密切合作，</p>
+      </container>
+      <container name="又认识到" eId="container_39">
+        <p xml:space="preserve">	<span class="bold">又认识到</span>人道主义途径和发展途径之间的合作和互补框架对增强复原力十分必要，</p>
+      </container>
+      <container name="鼓励" eId="container_40">
+        <p xml:space="preserve">	<span class="bold">鼓励</span>发展行为体和人道主义行为体与会员国协调开展更密切的合作，以确保所有相关行为体根据各自任务规定并基于对具体情况的共识和各自业务优势，协同努力取得共同成果，以期在若干年内减少需求、脆弱性和风险，支持国家优先事项，同时充分尊重人道主义原则对人道主义行动的重要性，</p>
+      </container>
+      <container name="重申" eId="container_41">
+        <p xml:space="preserve">	<span class="bold">重申</span>会员国、联合国相关组织和其他相关行为体需要加强各级在满足受影响民众需求方面的问责制，并认识到各方参与决策的重要性，</p>
+      </container>
+      <container name="认识到" eId="container_42">
+        <p xml:space="preserve">
+          <span class="bold">	认识到</span>继续提高和加强联合国人道主义系统和人道主义组织的能力至关重要，以便按照人道主义原则，帮助需要人道主义援助和保护的民众，</p>
+      </container>
+      <container name="又认识到" eId="container_43">
+        <p xml:space="preserve">	<span class="bold">又认识到</span>会员国和联合国系统需要继续努力，为此，除其他外，需酌情加强与相关利益攸关方包括区域组织、民间社会和私营部门的各级伙伴关系，支持各国的努力，同时确保这些协作努力恪守人道主义原则，</p>
+      </container>
+      <container name="强调指出" eId="container_44">
+        <p xml:space="preserve">	<span class="bold">强调指出</span>会员国、联合国和相关利益攸关方需要共同努力，减少最脆弱群体的具体需要，从而推动实现《2030年可持续发展议程》<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		大会第<a href="https://undocs.org/ch/A/RES/70/1">70/1</a>号决议。</p></authorialNote> 各项目标，包括不让任何一个人掉队的要求，</p>
+      </container>
+      <container name="确认" eId="container_45">
+        <p xml:space="preserve">	<span class="bold">确认</span>包容性经济增长和可持续发展对预防和防备自然灾害和其他紧急情况必不可少，</p>
+      </container>
+      <container name="重申" eId="container_46">
+        <p xml:space="preserve">	<span class="bold">重申</span>2015年9月25日大会题为“变革我们的世界：2030年可持续发展议程”的第<a href="https://undocs.org/ch/A/RES/70/1">70/1</a>号决议，其中大会通过了一套全面、意义深远和以人为中心的具有普遍性和变革性的可持续发展目标和具体目标，再次承诺作出不懈努力，使这一议程在2030年前得以全面落实，认识到消除一切形式和表现的贫困，包括消除极端贫困，是世界面临的最大挑战，对实现可持续发展必不可少，并决心采用统筹兼顾的方式，从经济、社会和环境三方面实现可持续发展，在巩固千年发展目标成果的基础上，争取完成它们的未竟事业，</p>
+      </container>
+      <container name="又重申" eId="container_47">
+        <p xml:space="preserve">	<span class="bold">又重申</span>2015年7月27日大会关于《第三次发展筹资问题国际会议亚的斯亚贝巴行动议程》的第<a href="https://undocs.org/ch/A/RES/69/313">69/313</a>号决议，该议程是《2030年可持续发展议程》的组成部分，支持和补充《2030年议程》，并有助于将其执行手段的具体目标与具体政策和行动相联系，</p>
+      </container>
+      <container name="注意到" eId="container_48">
+        <p xml:space="preserve">
+          <span class="bold">	注意到</span>2016年5月23日和24日在土耳其伊斯坦布尔举行了第一次世界人道主义峰会，</p>
+      </container>
+      <container name="回顾" eId="container_49">
+        <p xml:space="preserve">	<span class="bold">回顾</span>2016年9月19日举行的解决难民和移民大规模流动问题大会高级别全体会议通过的《关于难民和移民的纽约宣言》，<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		大会第<a href="https://undocs.org/ch/A/RES/71/1">71/1</a>号决议。</p></authorialNote> 包括《纽约宣言》附件一概述的难民问题全面响应框架，表示赞赏地注意到《难民问题全球契约》，<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		《大会正式记录，第七十三届会议，补编第12号》(<a href="https://undocs.org/ch/A/73/12(PartI)">A/73/12(Part I)</a>和<a href="https://undocs.org/ch/A/73/12(PartII)">A/73/12(Part II)</a>)，第二部分。</p></authorialNote></p>
+      </container>
+      <container name="欢迎" eId="container_50">
+        <p xml:space="preserve">	<span class="bold">欢迎</span>2018年12月10日和11日在摩洛哥马拉喀什召开政府间会议，回顾会议通过了《安全、有序和正常移民全球契约》，又称《马拉喀什移民问题契约》，<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">		大会第<a href="https://undocs.org/ch/A/RES/73/195">73/195</a>号决议，附件。</p></authorialNote></p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_51" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve">	<span class="bold">表示注意到</span>秘书长的报告；<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">		<a href="https://undocs.org/ch/A/79/78">A/79/78-E/2024/53</a>。</p></authorialNote></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>联合国人道主义系统、人道主义组织和其他相关组织在加强实地人道主义援助协调的同时，继续努力与国家政府密切协调，同时考虑到受影响国家在本国境内发起、组织、协调和落实这种援助的首要作用；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>联合国继续加强协调、备灾和救灾努力，并提高人道主义行动的质量和成效，包括为此加强与受影响国家政府、区域组织、捐助者、发展组织、民间社会和私营部门等参与救灾努力的相关利益攸关方的互补及其相互之间的互补，以利用它们的比较优势和资源；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_57" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_57__content">
+          <p xml:space="preserve">	<span class="bold">强调指出</span>，联合国系统应继续加强和改善现有人道主义能力的效率、知识和机构，包括酌情按相互商定的条件向发展中国家转让技术和专门知识，鼓励国际社会、联合国系统相关实体以及其他相关机构和组织支持国家当局的能力建设方案，包括为此开展技术合作和建立长期伙伴关系，以及加强它们建设复原力、减轻灾害风险、备灾和救灾、减少灾害情况下流离失所风险的能力，鼓励会员国创建和加强有利环境，使国家和地方当局、国际红十字与红新月运动国家协会以及国家和地方非政府组织及社区组织能开展及时提供人道主义援助方面的能力建设；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_61" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_61__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>人道主义组织和发展组织及其他相关行为体酌情与政府协商，在可能情况下按需求先后排序并根据人道主义原则考虑制定可通过多年规划和增加备灾投资予以实现的共同目标，包括风险管理和复原力目标，以减少人道主义危机造成的苦难、损失和总体影响，在这方面强调为加强协调一致和确保从救济向更长远的发展平稳过渡，需要酌情在多年框架内规划人道主义应急工作，对长期危机尤其如此，并将之与包括可持续恢复和复原力在内的发展规划进程相联系，同时酌情将国家政府、区域组织和国际金融机构等关键的利益攸关方纳入进程；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_66" class="MercuryDocument">
+        <num>6.</num>
+        <content eId="para_66__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>联合国机构和国际组织在人道主义援助工作中继续改善人道主义方案周期，包括与受影响国家协商，制定并更加一贯地使用多部门初步快速评估等协调一致的综合需求评估工具，联合开展公正和及时的需求评估，并制定按优先需求排序的人道主义应急计划，以加强对人道主义行动的协调，鼓励国际人道主义组织和相关行为体继续与国家和地方当局以及民间社会和受影响民众共同努力，确认受影响社区在确定迫切需求和所需资源方面的作用，以确保有效应对；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_72" class="MercuryDocument">
+        <num>7.</num>
+        <content eId="para_72__content">
+          <p xml:space="preserve">	<span class="bold">请</span>紧急救济协调员继续牵头努力加强人道主义援助的协调、成效、效率和问责制，为此，除其他外，与会员国继续开展和加强对话，包括商讨机构间常设委员会的进程、活动和决定，并在现有资源和任务范围内进一步加强人道主义协调员的协调能力，在这方面鼓励会员国、联合国相关组织和其他政府间组织及相关利益攸关方继续改善与秘书处人道主义事务协调厅的合作，以确保高成效、高效率地向受影响民众提供人道主义援助；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="MercuryDocument">
+        <num>8.</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>联合国人道主义实体、其他相关人道主义组织和捐助国努力与受影响国家加强合作与协调，确认提供人道主义援助的方式应有助于早日恢复、可持续复原、重建和长期发展，回顾早日恢复需要酌情通过人道主义和发展筹资获得及时、有效和可预测的资金，以满足持久的人道主义、恢复和危机后的优先需要，同时建设国家和地方的能力和复原力；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_87" class="MercuryDocument">
+        <num>9.</num>
+        <content eId="para_87__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>联合国、相关人道主义和发展组织、国际金融机构及其他相关利益攸关方加强会员国的能力和复原力，包括为此建设社区复原力、采用新科技和进行与灾害和气候变化相关的投资，又强调指出必须投资于具有抗灾能力的基础设施以及结构性和非结构性减少灾害风险措施，包括基于自然的解决办法、基于生态系统的做法等，以预防和减轻灾害的人道主义影响，帮助减少救灾、恢复和重建的费用，并鼓励在这方面作出进一步努力；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_96" class="MercuryDocument">
+        <num>10.</num>
+        <content eId="para_96__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>联合国和有关人道主义组织与会员国开展合作与协调，尊重国家优先事项，并依照人道、中立、公正和独立的人道主义原则，支持和建设国家和地方的能力，包括增加对国家和地方伙伴包括妇女团体的可预测供资并酌情直接供资，着重提高备灾、应灾、恢复和协调能力，并鼓励会员国继续向人道主义国家集合基金提供资金；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_106" class="MercuryDocument">
+        <num>11.</num>
+        <content eId="para_106__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>会员国、联合国系统及人道主义组织和发展组织按照各自的任务规定，通过增加投资于国家和地方的科学研发能力以实现创新以及获得信息和通信技术等途径，继续支持会员国特别是发展中国家促进创新，以此作为发展工具加强备灾并减少脆弱性和风险，并就预警系统、循证做法和灾害对策、信息和通信系统、伙伴关系、采购、机构和组织之间的协作和协调等方面查明、促进和整合最佳做法和经验教训，在这方面指出优先促进和支持科学能力以利创新以及发展地方能力的重要性，并鼓励科学研究和应对灾害，欢迎采取创新做法，利用受人道主义紧急情况影响的民众的知识制定地方可持续解决办法，保护处于脆弱境地者，深化预警专门知识，并酌情与国家和地方机构、组织、预警系统和服务提供方合作并在可能情况下予以加强，就地制造救生物品，以尽可能减少对物流和基础设施的相关影响，鼓励联合国系统、人道主义组织和发展组织为此加强与国际金融机构、区域组织、区域开发银行、私营部门和学术界的协作；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_117" class="MercuryDocument">
+        <num>12.</num>
+        <content eId="para_117__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>各国以及联合国和人道主义组织按照各自任务规定，本着人道主义原则，吸取冠状病毒病疫情带来的经验教训，继续扩大防患于未然的做法、预警及早行动系统、预报、预防为主的对策和应急准备，改进各部门的预测和风险数据分析，加强地方、国家、区域和全球各级系统监测风险、预警和防备能力，包括在卫生风险和疾病暴发等方面，表示注意到联合国有关防范突发卫生事件的框架和举措；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_129" class="MercuryDocument">
+        <num>13.</num>
+        <content eId="para_129__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>会员国以及联合国各基金、方案和专门机构更有效地应对人道主义背景下的需求，特别是在可行情况下加强社会保障政策和现金补助机制，包括酌情拟订多用途现金方案，以支持地方市场的发展，加强国家和地方一级的能力，并在这方面促请联合国人道主义组织继续建设能力，系统地考虑拟订现金补助方案以及其他形式的人道主义援助，表示注意到联合国系统努力提高现金业务的效力、效率和问责制，包括力求建立一个共同制度，为粮食、非粮食物品以及获得服务和其他支助提供现金援助，同时提供其他形式的人道主义援助；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_142" class="MercuryDocument">
+        <num>14.</num>
+        <content eId="para_142__content">
+          <p xml:space="preserve">	<span class="bold">请</span>秘书长在其关于本决议的下次报告中继续说明使用人道主义紧急情况预先筹资办法的最新情况，并考虑联合国人道主义系统和其他相关利益攸关方在此方面的进一步努力；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_156" class="MercuryDocument">
+        <num>15.</num>
+        <content eId="para_156__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>会员国、联合国系统和其他相关组织在可能情况下更加迅速灵活地为备灾、及早行动、及早应灾和及早复原筹资，在这方面鼓励探索、开发和酌情加强创新和防患于未然的机制和方法，如基于预测的筹资和风险筹资，包括灾害风险保险，以减少灾害影响和满足人道主义需求；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_171" class="MercuryDocument">
+        <num>16.</num>
+        <content eId="para_171__content">
+          <p xml:space="preserve">	<span class="bold">重申</span>投资于国家和地方技能、系统和知识以建设复原力和做好防备，这将拯救生命、减少费用和保全发展成果，在这方面鼓励探索创新方法，包括防患于未然且基于预测的筹资、及早行动和灾害风险保险机制，以便在可靠预计将会发生灾害之前增加向会员国提供可用资源；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_187" class="MercuryDocument">
+        <num>17.</num>
+        <content eId="para_187__content">
+          <p xml:space="preserve">	<span class="bold">确认</span>供资需有更大的灵活性，便于采取补充办法，以便有效和充分应对紧急情况下所有受影响民众的即时需求，包括为资金不足和被遗忘的紧急情况和具有长期性质的紧急情况以及为解决危机的根源提供资金，鼓励会员国、联合国系统、私营部门和其他相关实体为做好防备和建设复原力提供适足资金和投资，包括从人道主义预算和发展预算中提供资金，减少指定用途，并酌情加强多年期、合作性质的灵活规划及多年供资，同时确认在如何使用核心和非指定用途资金方面需有透明度；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_204" class="MercuryDocument">
+        <num>18.</num>
+        <content eId="para_204__content">
+          <p xml:space="preserve">	<span class="bold">强调指出</span>需要加强资源调动工作，弥合日益加大的能力和资源差距，包括为此争取非传统捐助者提供额外捐助，探索创新机制，如利用以风险为导向的预测性决策，通过现有工具，如联合呼吁和紧急呼吁、中央应急基金以及国家和区域集合基金等其他基金，为多年呼吁灵活筹资，并继续拓宽公私部门伙伴关系和捐助群体，以提高供资的可预测性和成效，使收入多样化，缩小人道主义供资缺口，并在全球范围内促进南南合作以及横向和三方合作，在这方面酌情鼓励会员国为联合国发出的人道主义呼吁提供捐助；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_222" class="MercuryDocument">
+        <num>19.</num>
+        <content eId="para_222__content">
+          <p xml:space="preserve">	<span class="bold">欢迎</span>中央应急基金在确保以更及时和更可预测方式应对人道主义紧急情况方面取得重要成就，因此欢迎秘书长呼吁将该基金增加一倍，达到10亿美元，在这方面鼓励会员国和其他相关利益攸关方支持该基金，并强调需要扩大该基金的收入基础并使之多样化；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_241" class="MercuryDocument">
+        <num>20.</num>
+        <content eId="para_241__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>会员国和相关利益攸关方调动资源以支持人道主义应急计划，着重指出必须迅速、灵活、可预测、充分和有效供资，包括酌情采取多年期供资，并支持在人道主义应急中发挥关键作用的中央应急基金以及国家和区域集合基金；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_261" class="MercuryDocument">
+        <num>21.</num>
+        <content eId="para_261__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>会员国继续增加对中央应急基金以及国家和区域人道主义集合基金的支持，以加强早期和快速反应，减轻灾害冲击，包括在资金不足的情况下以及更多地借力于地方和国家应急机构和执行伙伴；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_282" class="MercuryDocument">
+        <num>22.</num>
+        <content eId="para_282__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>联合国系统加强与国际金融机构的协调和战略伙伴关系，以预防、减少和应对人道主义苦难，援助有需要者，加强早期恢复工作，强化基本服务，加强恢复和重建工作，并进一步鼓励人道主义和发展工作根据各自的任务规定相互补充、协调一致，帮助减少受影响民众和社区的风险和脆弱性，增强他们抵御未来冲击的能力；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_304" class="MercuryDocument">
+        <num>23.</num>
+        <content eId="para_304__content">
+          <p xml:space="preserve">	<span class="bold">确认</span>问责制是有效人道主义援助的组成部分，强调需要在人道主义援助的所有阶段对人道主义行为体加强问责；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_327" class="MercuryDocument">
+        <num>24.</num>
+        <content eId="para_327__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>联合国及其人道主义伙伴进一步接受包括受影响国家在内的会员国和包括地方政府、相关地方组织及受影响民众在内的所有其他利益攸关方的问责，进一步加强人道主义应急工作，包括为此监测和评价提供人道主义援助的情况，将所得经验教训纳入方案制订工作并征求受影响民众的意见，确保妥善满足其不同的具体需求；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_351" class="MercuryDocument">
+        <num>25.</num>
+        <content eId="para_351__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>联合国和人道主义组织进一步增进提供援助的效率，为此要减少管理成本，统一伙伴关系协定，提供透明和可比较的成本结构，并强化实现更有力问责制的措施，采取进一步行动减少欺诈、浪费、误用、滥用和挪用原本给予受影响民众的援助，并确定酌情在联合国机构之间通报事件报告和其他信息的方式；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_376" class="MercuryDocument">
+        <num>26.</num>
+        <content eId="para_376__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>人道主义组织和发展组织考虑与国家当局协调采用风险管理工具，以便更好地利用基线资料和风险分析，包括分析危机的根源、人道主义筹资需要、国家和区域的不同脆弱性以及受影响民众面临的风险程度，在这方面注意到既定工具和创新机制进一步发展，例如防患于未然且基于风险的筹资机制和办法、建立减少灾害风险中心网络、制定综合备灾措施和风险管理指数等，以纳入更多按性别、年龄和残疾情况分类的数据以及国家和区域背景资料，同时考虑到环境影响；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_402" class="MercuryDocument">
+        <num>27.</num>
+        <content eId="para_402__content">
+          <p xml:space="preserve">	<span class="bold">强调指出</span>需要通过旨在加强复原力、预防新风险和减少现有风险且以灾害风险为导向、包容的政策、方案和投资以及其他主动积极的措施，有效执行《2015-2030年仙台减少灾害风险框架》，以期最大限度地减少人道主义需求，着重指出必须应对引起灾害风险的基本因素，考虑气候变化的影响，并将减少灾害风险视角纳入备灾、救灾和恢复工作，同时考虑到较长期的气候预测和多重灾害风险评估，注重处境脆弱群体，在这方面欢迎2022年5月在印度尼西亚巴厘举行减少灾害风险全球平台第七次会议和2023年对《仙台框架》执行情况进行中期审查，包括2023年5月18和19日举行大会高级别会议及大会在会上通过《2015-2030年仙台减少灾害风险框架》中期审查高级别会议政治宣言，<authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">		大会第<a href="https://undocs.org/ch/A/RES/77/289">77/289</a>号决议，附件。</p></authorialNote> 表示赞赏地注意到减少灾害风险各个区域和次区域平台；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_429" class="MercuryDocument">
+        <num>28.</num>
+        <content eId="para_429__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>联合国和人道主义组织加强努力，进一步研究、防备、应对和尽量减少气候变化和环境风险的不利影响所造成的人道主义后果；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_457" class="MercuryDocument">
+        <num>29.</num>
+        <content eId="para_457__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>会员国以及相关区域和国际组织按照各自的具体任务规定，继续支持适应和减缓气候变化的工作，加强减少灾害风险和多灾种预警系统，以期最大限度地减少自然灾害的人道主义后果，包括与气候变化持续不利影响以及极端天气事件和地震活动等其他自然灾害原因有关的后果，对特别脆弱的国家而言尤其如此，从而也推动实现可持续发展目标，并促请所有相关利益攸关方继续支持会员国、特别是发展中国家的努力，以加强它们防备和应对灾害的能力，查明和监测灾害风险，包括易受自然灾害影响的脆弱性；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_486" class="MercuryDocument">
+        <num>30.</num>
+        <content eId="para_486__content">
+          <p xml:space="preserve">	<span class="bold">确认</span>全球、区域、国家和地方的业务准备和应急服务、网络和快速部署机制对于加强防灾、备灾和应灾的实效至关重要，鼓励在这方面进一步努力，除其他外，为此与联合国和人道主义组织密切协调，通过改进数据共享和互操作性等方式，在国家灾害管理机构和区域组织各自任务范围内，在各级加强与它们的伙伴关系，建设、加强和补充它们的能力；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_516" class="MercuryDocument">
+        <num>31.</num>
+        <content eId="para_516__content">
+          <p xml:space="preserve">	<span class="bold">又确认</span>需要加强国际合作，特别是与最不发达国家和小岛屿发展中国家及其社区合作，可持续地防止、减少和应对与气候变化和自然灾害有关的脆弱性；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_547" class="MercuryDocument">
+        <num>32.</num>
+        <content eId="para_547__content">
+          <p xml:space="preserve">	<span class="bold">还确认</span>有更多机会利用国际气候融资对支持发展中国家尤其是尤易遭受气候变化不利影响的发展中国家的缓解和适应工作至关重要，确认这方面的持续努力；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_579" class="MercuryDocument">
+        <num>33.</num>
+        <content eId="para_579__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>会员国、国际金融机构和其他相关利益攸关方对那些因人道主义紧急情况以及在应对自然危害及气候变化不利影响方面存在脆弱性而受叠加风险影响的国家和地方社区扩大适应和减少灾害风险资助，以预防、缓解、适应和应对灾害影响，减少与灾害有关的人道主义需求、风险和脆弱性，建立抵御冲击的能力；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_612" class="MercuryDocument">
+        <num>34.</num>
+        <content eId="para_612__content">
+          <p xml:space="preserve">	<span class="bold">注意到</span>厄尔尼诺/拉尼娜现象反复出现，可导致广泛的自然危害，有可能对民众造成严重影响，并敦促会员国、人道主义组织、发展组织和其他利益攸关方加强努力，确保在全球、区域、国家和地方各级采取综合全面、协调一致的方法应对厄尔尼诺和拉尼娜现象及类似或相关事件，包括为此在可行情况下，在有效领导以及可预测、充足和及早提供的资金支持下，在可能受影响的区域、国家和社区加强预测、预警、预防和备灾工作，建设抗灾复原能力，并及时采取应对措施，还鼓励会员国、人道主义组织和发展组织以及其他利益攸关方根据各自的任务规定，酌情向受这些现象影响和最易受其影响的人民和社区提供更多支持，包括财政、技术和能力建设支持，以满足和减少人道主义需求，防止和应对生计丧失、粮食更不安全问题以及对健康、水和环境卫生、教育、农业和其他部门的影响，并鼓励加强与区域和次区域组织及国际金融机构的合作，注意到厄尔尼诺问题和气候问题秘书长特使所做的工作和两位特使拟定的行动蓝图以及机构间常设委员会的厄尔尼诺/南方涛动事件标准作业程序；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_646" class="MercuryDocument">
+        <num>35.</num>
+        <content eId="para_646__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>会员国、联合国、人道主义组织和发展组织按照各自任务规定，继续支持多灾种预警系统和及早行动努力，包括为此开展全球、区域和国家各级基于预测的筹资、气候服务、摸清风险程度和脆弱性概况、新技术和通信规程，以及将气候适应能力纳入及早行动和加强应对准备，使面临自然灾害风险的脆弱民众包括偏远地区的民众及时得到可靠、准确、可据以采取行动的早期预警信息，从而及早采取行动，鼓励国际社会酌情进一步支持这方面的国家努力，欢迎联合国秘书长关于通过预警系统全面覆盖，包括通过2022年11月6日至20日在埃及沙姆沙伊赫举行的《联合国气候变化框架公约》缔约方会议第二十七届会议期间发起的全民预警倡议，保护地球上每一个人的呼吁取得进展，并确认气候风险和预警系统(CREWS)倡议对实现这一目标的重要性；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_681" class="MercuryDocument">
+        <num>36.</num>
+        <content eId="para_681__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>联合国和人道主义组织进一步加大力度支持各国政府摸清国家和区域的应急准备和应对能力概况，以便更好地促进国家和国际两方面的能力在应对灾害工作中彼此互补，在这方面鼓励会员国酌情促进《国际救灾及灾后初期复原援助的国内协助及管理准则》的执行工作，并将风险管理纳入国家发展计划；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_717" class="MercuryDocument">
+        <num>37.</num>
+        <content eId="para_717__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>会员国与联合国和其他相关行为体酌情包括私营部门和地方实体密切合作，推动在城市地区开展更有效的应急准备和应对工作，并实施政策以确保更有效地减少和管理灾害风险，在这方面回顾2016年10月17日至20日在厄瓜多尔基多举行的联合国住房和城市可持续发展大会(人居三大会)通过的《新城市议程》<authorialNote marker="13" placement="bottom" eId="authorialNote_13"><p xml:space="preserve">		大会第<a href="https://undocs.org/ch/A/RES/71/256">71/256</a>号决议，附件。</p></authorialNote> 和会员国在其中对城市地区遭受人道主义危机影响者所作的承诺；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_754" class="MercuryDocument">
+        <num>38.</num>
+        <content eId="para_754__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>武装冲突各方遵循国际人道法，促请各国确保国际人道法得以遵守，并促请履行人权法和难民法规定的相关义务；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_792" class="MercuryDocument">
+        <num>39.</num>
+        <content eId="para_792__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>各国重申承诺并加倍努力，有效执行1949年8月12日日内瓦四公约，其中包括战时保护平民的重要法律框架，并邀请各国纪念日内瓦四公约通过七十五周年；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_831" class="MercuryDocument">
+        <num>40.</num>
+        <content eId="para_831__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>各国和各方遵守国际人道法的规定，包括1949年8月12日所有四项日内瓦公约，特别是《关于战时保护平民之日内瓦公约》，<authorialNote marker="14" placement="bottom" eId="authorialNote_14"><p xml:space="preserve">		联合国，《条约汇编》，第75卷，第973号。</p></authorialNote> 以保护和协助被占领土上的平民，在这方面敦促国际社会和联合国系统相关组织加强对此种处境的平民提供的人道主义援助；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_871" class="MercuryDocument">
+        <num>41.</num>
+        <content eId="para_871__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>所有参与提供人道主义援助的行为体充分承诺和尽职遵守大会第<a href="https://undocs.org/ch/A/RES/46/182">46/182</a>号决议附件所载的指导原则，包括人道、中立和公正的人道主义原则以及经大会2003年12月17日第<a href="https://undocs.org/ch/A/RES/58/114">58/114</a>号决议确认的独立原则；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_912" class="MercuryDocument">
+        <num>42.</num>
+        <content eId="para_912__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>处于复杂人道主义紧急情况的各国和各方，特别是处于武装冲突和冲突后局势以及有人道主义人员开展活动的国家，依照国际法和国家法律的相关规定，与联合国及其他人道主义机构和组织充分合作，确保人道主义人员安全无阻地通行，用品和设备得以运送，从而使人道主义人员能够高效执行向包括难民和境内流离失所者在内的受影响平民提供援助的任务；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_954" class="MercuryDocument">
+        <num>43.</num>
+        <content eId="para_954__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>会员国、联合国和人道主义组织继续共同努力，了解和满足人道主义危机中受影响民众特别是最脆弱群体的不同保护需求，确保将这些需求妥善纳入防备、应对和恢复等工作；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_997" class="MercuryDocument">
+        <num>44.</num>
+        <content eId="para_997__content">
+          <p xml:space="preserve">	<span class="bold">重申</span>所有国家和武装冲突各方都有义务按照国际人道法保护平民，鼓励武装冲突当事国采取一切必要措施加强对平民的保护，并邀请各国倡导保护文化，同时考虑到妇女、儿童、老人和残疾人的特殊需要；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1041" class="MercuryDocument">
+        <num>45.</num>
+        <content eId="para_1041__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>所有各方遵守国际人道法规定的义务，特别是区分原则、相称原则以及采取一切可行预防措施以免或尽可能减少对平民和民用物体造成伤害的义务；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1086" class="MercuryDocument">
+        <num>46.</num>
+        <content eId="para_1086__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>会员国继续采取必要步骤，确保伤员和病人得到保护，并确保医护人员和专门履行医护职责的人道主义人员及其设施、设备、运输工具和用品的安全和安保，包括为此制定有效措施，防止和处理针对他们的暴力行为、攻击和威胁，在这方面重申各国必须确保那些违反国际人道法的责任人不会逍遥法外，敦促各国在各自管辖范围内充分、迅速、公正和有效地调查违反国际人道法行为，以期按照本国法律和国际法规定的义务确保追究责任；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1132" class="MercuryDocument">
+        <num>47.</num>
+        <content eId="para_1132__content">
+          <p xml:space="preserve">	<span class="bold">又敦促</span>会员国加大力度确保人道主义人员包括本国人员和当地征聘人员及其设施、设备、运输工具和用品的安全和安保，包括为此制定有效措施，防止和处理针对他们的暴力行为、攻击和威胁，请秘书长加速努力，加强参与联合国人道主义行动人员的安全和安保，在这方面重申各国必须确保那些违反国际人道法的责任人不会逍遥法外，还敦促各国在各自管辖范围内充分、迅速、公正和有效地调查违反国际人道法行为，以期按照本国法律和国际法规定的义务确保追究责任；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1179" class="MercuryDocument">
+        <num>48.</num>
+        <content eId="para_1179__content">
+          <p xml:space="preserve">	<span class="bold">最强烈地谴责</span>针对人道主义人员及联合国人员和有关人员的威胁和蓄意将其作为目标、恐怖主义行为和袭击人道主义车队的事件惊人增加，而且这些人员面临的威胁空前加剧，性质日益复杂，诸如针对这些人员、出于政治和犯罪动机的袭击、包括极端分子袭击这样一个令人不安的趋势，并进一步敦促各国确保追究那些对人道主义人员犯下罪行的人的责任；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1227" class="MercuryDocument">
+        <num>49.</num>
+        <content eId="para_1227__content">
+          <p xml:space="preserve">	<span class="bold">关切地注意到</span>虚假信息宣传和错误信息的威胁日渐增大，有损对联合国和包括红十字会与红新月会在内的人道主义组织的信任，使人道主义人员和联合国人员及有关人员，包括本国和当地征聘人员面临风险，又关切地注意到仇恨言论对受影响民众构成的风险越来越大，并鼓励会员国和联合国系统采取适当行动，应对阻碍人道主义援助的日益增加的相关威胁；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1276" class="MercuryDocument">
+        <num>50.</num>
+        <content eId="para_1276__content">
+          <p xml:space="preserve">	<span class="bold">特别指出</span>，务须保护平民特别是妇女和儿童免遭贩运人口等任何形式的虐待或剥削，使他们能获得适当援助，欢迎秘书长决心在整个联合国系统充分执行联合国对性剥削和性虐待的零容忍政策，注意到机构间常设委员会通过的有关性剥削和性虐待问题的六项核心原则，<authorialNote marker="15" placement="bottom" eId="authorialNote_15"><p xml:space="preserve">		<a href="https://undocs.org/ch/A/57/465">A/57/465</a>，附件一，第10(a)段。</p></authorialNote> 强调指出应将受害人和幸存者置于此类工作的核心位置，鼓励会员国作出更大努力，防止剥削和虐待，并确保追究行为人的责任；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1326" class="MercuryDocument">
+        <num>51.</num>
+        <content eId="para_1326__content">
+          <p xml:space="preserve">	<span class="bold">请</span>会员国、相关组织和其他相关行为体在人道主义应急工作所有阶段促进性别平等并增强妇女和女童的权能，为此要平等顾及妇女、女童、男子和男童的具体需求、困难和应对能力，同时考虑到年龄和残疾情况，包括为此更好地收集、分析、报告和使用按性别、年龄和残疾情况分列的及时数据，并考虑到受影响国家提供的信息，确保妇女充分、有效和切实地参与决策进程，以提高人道主义行动的成效，包括通过国家和地方妇女组织及妇女领导的组织进行的参与，建立伙伴关系，并提供充足和灵活的资金，鼓励在整个人道主义方案周期更多利用性别与年龄相结合基准和其他工具，包括对年龄和残疾问题敏感的工具；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1377" class="MercuryDocument">
+        <num>52.</num>
+        <content eId="para_1377__content">
+          <p xml:space="preserve">	<span class="bold">确认</span>妇女作为第一响应者可以发挥的关键作用，鼓励会员国与相关的联合国人道主义组织合作，推动妇女在应急战略的规划、设计、执行和协调方面发挥领导作用并参与其中，包括为此加强与国家和地方机构包括酌情与国家和地方妇女组织和民间社会行为体的长期伙伴关系以及加强这些机构和行为体的能力，并为此进一步促进有利于性别平等的人道主义方案制订工作；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1429" class="MercuryDocument">
+        <num>53.</num>
+        <content eId="para_1429__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>会员国与联合国相关组织和其他人道主义组织合作，确保从紧急情况发生之初便提供安全可靠的性保健和生殖保健服务以及基本的卫生保健服务和心理社会支助，并在这方面确认相关服务的重要性，以期有效满足妇女和少女及婴儿的需要，保护她们免遭人道主义紧急情况中发生的可预防死亡和疾病；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1482" class="MercuryDocument">
+        <num>54.</num>
+        <content eId="para_1482__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>会员国继续预防、调查和酌情起诉在人道主义紧急情况中发生的性暴力和性别暴力行为，同时确保受害人和幸存者的安全，促请会员国从紧急情况发生之初便酌情与地方妇女组织等相关组织合作，加强应对举措，包括根据妇女、男子、女童和男童的具体需要，设法确保向此类暴力的所有受害人、幸存者和受影响者切实提供获得优质医疗、法律、心理社会和生计服务的机会，并努力确保以减轻性暴力和性别暴力风险的方式提供人道主义援助，促请会员国和相关组织改善协调并加强能力，在这方面敦促所有相关利益攸关方考虑参与该领域的工作，包括采取预防、缓解和应对措施，鼓励会员国更好地利用现有的数据收集机制，并注意到“行动呼吁”倡议；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1536" class="MercuryDocument">
+        <num>55.</num>
+        <content eId="para_1536__content">
+          <p xml:space="preserve">	<span class="bold">又敦促</span>会员国继续设法预防、应对、调查和起诉在人道主义紧急情况中侵害和虐待儿童的行为，促请会员国和相关组织对受人道主义紧急情况影响的儿童加强支助服务，包括受到侵害和虐待的儿童，呼吁在《儿童权利公约》<authorialNote marker="16" placement="bottom" eId="authorialNote_16"><p xml:space="preserve">		联合国，《条约汇编》，第1577卷，第27531号。</p></authorialNote> 指导下采取更有效的对策，包括保护之策；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1591" class="MercuryDocument">
+        <num>56.</num>
+        <content eId="para_1591__content">
+          <p xml:space="preserve">	<span class="bold">重申</span>全民教育权，并重申必须确保在人道主义紧急情况下提供安全有利的学习环境以及各年级和各年龄段的优质教育，包括妇女和儿童、尤其是女童的优质教育，在可能情况下提供技术和职业培训机会，造福所有人，包括为此而提供适足资金和基础设施投资，在这方面认识到在人道主义紧急情况下提供获得优质教育的机会可有助于长期发展目标，重申需要按照国际人道法保护和尊重教育设施，强烈谴责所有违反国际人道法针对学校的攻击行为以及将学校用于军事目的，鼓励在人道主义紧急情况下努力促进安全和有保护的学校环境；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1647" class="MercuryDocument">
+        <num>57.</num>
+        <content eId="para_1647__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>会员国、联合国和相关人道主义行为体加大力度支持有助于各级和各年龄段的安全、包容、公平和优质教育的人道主义方案规划和对策，以减轻学校和其他教育机构关闭所造成的直接和间接影响，确保继续提供教育服务，特别是为妇女和儿童尤其是女童提供教育服务；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1704" class="MercuryDocument">
+        <num>58.</num>
+        <content eId="para_1704__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>会员国、联合国系统和其他相关人道主义组织使残疾人切实参与防备和应对人道主义情况的所有进程、协商和决策阶段，并采取一切适当措施消除对残疾人的歧视，包括多种形式和交叉形式的歧视，及时向残疾人提供适当援助，同时确保在人道主义应急行动中满足他们的具体需要，诸如使他们切实获得卫生保健服务、教育、心理社会支助、重返社会和康复援助，并防止针对他们的虐待和剥削行为，在这方面回顾《残疾人权利公约》；<authorialNote marker="17" placement="bottom" eId="authorialNote_17"><p xml:space="preserve">		同上，第2515卷，第44910号。</p></authorialNote></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1762" class="MercuryDocument">
+        <num>59.</num>
+        <content eId="para_1762__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>会员国与相关联合国人道主义组织合作，通过及时提供适足资源等办法，确保受影响民众的基本人道主义需求，包括清洁水、粮食、住所、能源、保健(包括性健康和生殖健康)、营养(包括学校供餐方案)、教育和保护，作为人道主义应急行动的组成部分得以满足，同时确保这些合作努力充分遵守各项人道主义原则；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1821" class="MercuryDocument">
+        <num>60.</num>
+        <content eId="para_1821__content">
+          <p xml:space="preserve">	<span class="bold">确认</span>人道主义紧急情况会削弱卫生系统提供基本救生援助和满足非传染性疾病患者持续需求的能力，使卫生部门的发展遭受挫折，又确认有复原力的卫生系统可以减少灾害和其他人道主义紧急情况的影响，强调指出需要在国家、区域和全球各级建设有复原力的卫生系统，特别是开展能力建设，尤其是在发展中国家，促请世界卫生组织、联合国人道主义系统、其他人道主义组织和其他相关行为体进一步加强合作、协调和应对能力，以便应会员国请求，按照世界卫生大会通过的《国际卫生条例(2005)》，协助会员国在人道主义环境中有效应对传染病暴发以及造成卫生后果的紧急情况，确保人道主义援助不会无意中削弱卫生系统，表示注意到经修订的控制传染病事件的人道主义全系统广泛动员规程；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1881" class="MercuryDocument">
+        <num>61.</num>
+        <content eId="para_1881__content">
+          <p xml:space="preserve">	<span class="bold">强调指出</span>有必要促进全球做好准备和支持拟订措施，包括快速反应机制，以应对卫生紧急情况，敦促会员国更努力加强全球应对能力；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1942" class="MercuryDocument">
+        <num>62.</num>
+        <content eId="para_1942__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>会员国和人道主义组织将保护和卫生风险作为人道主义应急行动的组成部分纳入人道主义评估、规划、执行、监测和评价，更努力强化地方和国家系统、能力以及地方社区和行为体，包括妇女领导的组织；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2004" class="MercuryDocument">
+        <num>63.</num>
+        <content eId="para_2004__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>会员国、联合国和人道主义组织更努力提供和资助优质、敏感顾及具体情况和尊重人权的跨部门精神卫生和心理社会支助服务，将这些服务纳入人道主义需求评估以及防备、应对和恢复方面的人道主义方案，以满足所有受影响民众的人道主义需求，加强地方和社区努力，这种努力对减轻和应对冠状病毒病疫情期间遭受的叠加心理后果将更为重要，促请联合国和所有相关人道主义组织相应强化精神卫生和心理社会支助能力，并报告精神卫生和心理社会支助方案及其供资情况，以支持所有受影响者恢复精神卫生和心理社会健康并具备复原力，同时也确认人道主义人员和志愿人员所受的影响；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2067" class="MercuryDocument">
+        <num>64.</num>
+        <content eId="para_2067__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>会员国、联合国和人道主义组织及相关利益攸关方加大系统性预防、防备、预警和早期行动工作的力度，汲取冠状病毒病疫情的经验教训，包括加强国家和多边举措以及国际合作方面的经验教训，例如获取COVID-19工具加速计划(ACT加速计划)及其COVID-19疫苗全球获取机制和其他相关举措，包括COVID-19疫苗交付伙伴关系，以便能够公正、公平、高效和负担得起地获得安全、有效、优质的COVID-19疫苗，强调广泛接种COVID-19疫苗这一全球卫生公益物对于国家在过渡进入疫后复苏进程中预防、遏制和阻止疫情传播所具有的作用，同时也指出国家疫苗接种方案务必包容各方，覆盖流离失所者、移民和难民，鼓励联合国机构和其他相关利益攸关方与本国政府充分协调，为会员国提供支持；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2131" class="MercuryDocument">
+        <num>65.</num>
+        <content eId="para_2131__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>处于复杂人道主义紧急情况、特别是武装冲突和冲突后局势的各国和各方确保人道主义人员和医务人员，包括应对卫生紧急情况的人员，及其运输工具、用品和设备能够安全、不受阻碍地通行，并支持、便利和启用运输和后勤补给线，使这些人员能够高效安全地执行援助受影响民众的任务，在这方面还重申需要采取必要措施，尊重和保护这类人员、医院和其他医疗设施及其运输工具、用品和设备；敦促武装冲突各方按照国际人道法保护民用基础设施，这对提供人道主义援助包括疫苗接种和相关医疗保健等基本服务至关重要；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2196" class="MercuryDocument">
+        <num>66.</num>
+        <content eId="para_2196__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>会员国、联合国、人道主义组织和发展组织以及其他相关行为体紧急有效地应对、预防和防备全球日益严重、影响波及数以百万计的人民特别是那些面临饥荒或迫在眉睫的饥荒风险的民众的粮食不安全问题，包括为此加强人道主义合作和发展合作，并提供紧急资金，以满足受影响民众的需要，促请会员国和武装冲突各方尊重国际人道法，确保安全无阻的人道主义援助准入；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2262" class="MercuryDocument">
+        <num>67.</num>
+        <content eId="para_2262__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>会员国、武装冲突各方、联合国和其他人道主义行为体和发展行为体、国际金融机构和其他相关行为体紧急增加预防饥荒以及减少和解决重度粮食不安全问题的措施，敦促会员国、联合国和其他相关组织采取进一步措施，协调一致地紧急回应受影响民众的粮食和营养需求；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2329" class="MercuryDocument">
+        <num>68.</num>
+        <content eId="para_2329__content">
+          <p xml:space="preserve">	<span class="bold">强烈谴责</span>国际人道法所禁止的以使平民挨饿为作战手段的行为，重申禁止攻击、摧毁、挪移对平民生存不可缺少的物体或使它们失去效用，敦促武装冲突各方保护对运送人道主义援助、包括向平民提供基本服务以及使农产粮食体系和市场在武装冲突局势中运作至关重要的民用基础设施，又敦促武装冲突各方确保和便利人道主义援助安全无阻地送达需要援助的平民；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2397" class="MercuryDocument">
+        <num>69.</num>
+        <content eId="para_2397__content">
+          <p xml:space="preserve">	<span class="bold">强烈谴责</span>非法阻挠人道主义准入，不让平民获得生存必需物品，包括在武装冲突局势中面对冲突引发的粮食不安全局面而蓄意阻碍救济物资的供应和获取，这可构成违反国际人道法的行为；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2466" class="MercuryDocument">
+        <num>70.</num>
+        <content eId="para_2466__content">
+          <p xml:space="preserve">	<span class="bold">强调指出</span>需要解决导致人道主义需求、流离失所和苦难日益增加的粮食不安全问题的根源，包括为此投资于人道主义援助和保护、农业、粮食生产和农产粮食体系以及获得安全、充足、有营养的食物和健康饮食的机会，投资于生计、适应气候变化、卫生、水、环境卫生和个人卫生、营养、能源、减贫和具有抗灾能力的基础设施，解决武装冲突，鼓励更大力增强农村妇女的权能，使其成为实现粮食安全和改善营养的重要行为体，又鼓励在多部门预警和分析的支持下加强防患于未然的做法，还鼓励为此目的调动资源；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2536" class="MercuryDocument">
+        <num>71.</num>
+        <content eId="para_2536__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>会员国、联合国和其他相关组织进一步采取步骤，协调一致地紧急应对受影响民众的粮食和营养需求，推动为妇女、儿童，特别是当他们在怀孕和哺乳期间营养需求增加时推动为他们提供充足营养，特别关注最初1 000天，同时力求确保这些步骤有助于旨在改善粮食安全和营养的国家战略和方案；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2607" class="MercuryDocument">
+        <num>72.</num>
+        <content eId="para_2607__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>各国和其他相关利益攸关方注意联合国为应对武装冲突、干旱、饥饿和饥荒等造成的人道主义后果而发出的人道主义呼吁的紧迫性，提供人道主义援助和紧急供资，又促请会员国和其他相关利益攸关方进一步捐款，包括通过中央应急基金以及国家和区域集合基金捐款，以响应这些呼吁；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2679" class="MercuryDocument">
+        <num>73.</num>
+        <content eId="para_2679__content">
+          <p xml:space="preserve">
+            <span class="bold">	促请</span>会员国采取步骤确保难民权利得到国际保护和尊重，包括根据国际法，酌情包括1951年《关于难民地位的公约》<authorialNote marker="18" placement="bottom" eId="authorialNote_18"><p xml:space="preserve">		同上，第189卷，第2545号。</p></authorialNote> 和国际人权义务，尊重不驱回原则和适当待遇标准；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2752" class="MercuryDocument">
+        <num>74.</num>
+        <content eId="para_2752__content">
+          <p xml:space="preserve">	<span class="bold">表示注意到</span>在15个国家和2个区域执行难民问题全面应对框架，以解决难民大规模流动问题和久拖不决的难民局势；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2826" class="MercuryDocument">
+        <num>75.</num>
+        <content eId="para_2826__content">
+          <p xml:space="preserve">	<span class="bold">请</span>会员国加大力度确保为境内流离失所者提供更好的保护和援助，并确保他们能自食其力和具备复原力，包括为此与联合国各组织以及私营部门和国际金融机构等其他相关行为体适当合作，特别是为了解决流离失所的长期性质，为此根据国家和区域框架，酌情多年期地采用和实施各项政策和战略，同时确认《关于境内流离失所问题的指导原则》<authorialNote marker="19" placement="bottom" eId="authorialNote_19"><p xml:space="preserve">		<a href="https://undocs.org/ch/E/CN.4/1998/53/Add.2">E/CN.4/1998/53/Add.2</a>，附件。</p></authorialNote> 是保护境内流离失所者的重要国际框架，鼓励加强合作，处理并克服境内流离失所问题构成的挑战，在这方面确认国家和地方当局和机构在满足境内流离失所者的具体需求、进一步克服影响向境内流离失所者及其收容社区提供支持的障碍和阻碍，包括克服城市环境中存在的种种缺失，以及在通过应请求继续为国家能力建设提供更有力的国际支持等方式找到流离失所问题持久解决办法等方面发挥的中心作用；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2901" class="MercuryDocument">
+        <num>76.</num>
+        <content eId="para_2901__content">
+          <p xml:space="preserve">	<span class="bold">确认</span>各种灾害包括与气候变化不利影响有关的灾害日趋严重和频繁，在某些情况下可能导致流离失所，给收容社区造成更大压力，鼓励联合国和所有相关行为体加强努力，以期满足因这种灾害而流离失所者的需要，在这方面指出，分享避免和防备这种流离失所的最佳做法具有重要意义，鼓励投资于和更大力分享关于自然灾害和气候变化不利影响可能造成的未来流离失所风险和模式的高质量预测数据、风险分析和建模；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2977" class="MercuryDocument">
+        <num>77.</num>
+        <content eId="para_2977__content">
+          <p xml:space="preserve">	<span class="bold">又确认</span>世界各地被迫流离失所的情况大幅增加，强调指出需要在人道主义规划和发展规划中全面回应难民、境内流离失所者及其收容社区的具体需求；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_3054" class="MercuryDocument">
+        <num>78.</num>
+        <content eId="para_3054__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>会员国、相关组织和行为体确认和应对人道主义紧急情况给移民特别是处境脆弱的移民带来的后果，并加强协调一致的国际努力，与国家当局通力合作，为这些移民提供援助和保护；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_3132" class="MercuryDocument">
+        <num>79.</num>
+        <content eId="para_3132__content">
+          <p xml:space="preserve">	<span class="bold">确认</span>早日登记和有效登记制度的重要性，它们既是保护工具，又是计算和评估需求以提供和分发人道主义援助的手段，注意到仍然没有任何形式的身份证明文件的难民面临许多不同挑战，着重指出必须加强问责制，以确保人道主义援助送达受援者；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_3211" class="MercuryDocument">
+        <num>80.</num>
+        <content eId="para_3211__content">
+          <p xml:space="preserve">	<span class="bold">请</span>联合国继续确定解决办法，以加强其快速灵活地妥善征聘和部署资深、熟练和有经验的人道主义工作人员的能力，以效率、才干、忠诚之最高标准为首要考虑，同时适当顾及性别平等，并在尽可能广泛的地域范围内征聘；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_3291" class="MercuryDocument">
+        <num>81.</num>
+        <content eId="para_3291__content">
+          <p xml:space="preserve">	<span class="bold">确认</span>人道主义工作人员的多样性有利于人道主义工作的成效，有利于了解发展中国家的情况，请秘书长进一步解决秘书处和联合国其他人道主义机构的人道主义工作人员组成所存在的地域代表性不够多样和性别不够均衡的问题，尤其是在专业工作人员和高级别工作人员层面，并在秘书长年度报告中报告这方面采取的具体措施；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_3372" class="MercuryDocument">
+        <num>82.</num>
+        <content eId="para_3372__content">
+          <p xml:space="preserve">	<span class="bold">请</span>秘书长在向经济及社会理事会和大会提交的关于加强联合国紧急人道主义援助协调的下次报告中说明在贯彻落实本决议方面采取的具体措施和取得的进展；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_3454" class="MercuryDocument">
+        <num>83.</num>
+        <content eId="para_3454__content">
+          <p xml:space="preserve">	<span class="bold">请</span>经济及社会理事会主席和大会主席继续努力，以期消除关于加强联合国紧急人道主义援助协调的经社理事会决议和大会决议之间的重叠问题，同时促进彼此间的互补性。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="第30次" refersTo="#adoptionMeeting">第30次全体会议</location>
+          <eol />
+          <docDate date="2024-06-27" refersTo="#adoptionDate">2024年6月27日</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

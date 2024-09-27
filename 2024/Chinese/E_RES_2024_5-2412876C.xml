@@ -1,0 +1,621 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2024-06-05/2024-5/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2024-06-05/2024-5/"></FRBRuri>
+          <FRBRdate date="2024-06-05" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2024-06-05/2024-5/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2024-06-05/2024-5/zho@/"></FRBRuri>
+          <FRBRdate date="2024-07-12" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2024-06-05/2024-5/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2024-06-05/2024-5/zho@.xml"></FRBRuri>
+          <FRBRdate date="2024-07-24" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"/>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"/>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"/>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"/>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"/>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"/>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"/>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"/>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"/>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"/>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"/>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"/>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"/>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"/>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"/>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"/>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"/>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"/>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"/>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"/>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"/>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"/>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"/>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"/>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"/>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"/>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"/>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"/>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"/>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"/>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"/>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"/>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"/>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"/>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"/>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"/>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"/>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"/>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="New Partnership for Africa's Development" showAs="New Partnership for Africa's Development" dictionary="DHLAUTH"></keyword>
+        <keyword value="2030 Agenda for Sustainable Development" showAs="2030 Agenda for Sustainable Development" dictionary="DHLAUTH"></keyword>
+        <keyword value="Agenda 2063" showAs="Agenda 2063" dictionary="DHLAUTH"></keyword>
+        <keyword value="SOCIAL DEVELOPMENT" href="http://metadata.un.org/thesaurus/1005960" showAs="SOCIAL DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ECONOMIC DEVELOPMENT" href="http://metadata.un.org/thesaurus/1001848" showAs="ECONOMIC DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="POVERTY MITIGATION" href="http://metadata.un.org/thesaurus/1005065" showAs="POVERTY MITIGATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="AFRICA" href="http://metadata.un.org/thesaurus/1000099" showAs="AFRICA" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="19b" showAs="Social development." shortForm="SOCIAL DEVELOPMENT" dictionary="E/2024/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-02-07" outcome="draftResolution" as="E/CN.5/2024/L.6" by="Uganda, on behalf of the Group of 77 and China" />
+        <step date="2024-02-07" outcome="draftResolutionAdditionalSponsors" by="Türki̇ye" />
+        <step date="2024-02-29" outcome="recommendedForAdoption" as="E/2024/26" by="UN. Commission for Social Development" />
+        <step date="2024-07-12" outcome="adopted" as="Adopted without vote, 20th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">24-12876 (C)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2024/5</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">经济及社会理事会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-07-12" class="rightSmall" refersTo="#dateOfIssuance">12 July 2024</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" eId="coverPage_1__session_1"></session>
+      </p>
+      <p>
+        <inline title="19(b)" name="agenda item">议程项目19(b)</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">社会和人权问题：社会发展</inline>
+      </p>
+      <p>
+        <docTitle>2024年6月5日经济及社会理事会决议</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent>[根据社会发展委员会的建议 (<inline name="originating document">E/2024/26</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2024/5.</docNumber>
+        <docTitle refersTo="#resolutionTitle">非洲发展新伙伴关系的社会层面</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">经济及社会理事会</span>，</p>
+      </formula>
+      <container name="回顾" eId="container_2">
+        <p xml:space="preserve">	<span class="bold">回顾</span>1995年3月6日至12日在哥本哈根举行的社会发展问题世界首脑会议的成果、<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		《社会发展问题世界首脑会议的报告，1995年3月6日至12日，哥本哈根》(联合国出版物，出售品编号：C.96.IV.8)，第一章，决议1，附件一和二。</p></authorialNote> 2000年6月26日至7月1日在日内瓦举行的题为“社会发展问题世界首脑会议及其后的发展：在全球化世界实现惠及所有人的社会发展”的大会第二十四届特别会议的成果、<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		大会<a href="https://undocs.org/ch/A/RES/S-24/2">S-24/2</a>号决议，附件。</p></authorialNote> 《2030年可持续发展议程》<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		大会第<a href="https://undocs.org/ch/A/RES/70/1">70/1</a>号决议。</p></authorialNote> 以及《第三次发展筹资问题国际会议亚的斯亚贝巴行动议程》，<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		大会第<a href="https://undocs.org/ch/A/RES/69/313">69/313</a>号决议，附件。</p></authorialNote> 重申2002年9月16日《联合国非洲发展新伙伴关系宣言》，<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		大会第<a href="https://undocs.org/ch/A/RES/57/2">57/2</a>号决议。</p></authorialNote></p>
+      </container>
+      <container name="认识到" eId="container_3">
+        <p xml:space="preserve">	<span class="bold">认识到</span>2005年世界首脑会议在满足非洲特殊需求方面作出<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		大会第<a href="https://undocs.org/ch/A/RES/60/1">60/1</a>号决议，第68段。</p></authorialNote> 并在2008年9月22日联合国总部举行的高级别会议上通过的《关于非洲发展需求的政治宣言》<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		大会第<a href="https://undocs.org/ch/A/RES/63/1">63/1</a>号决议。</p></authorialNote> 中重申的承诺，并注意到非洲联盟各次首脑会议作出的与非洲发展新伙伴关系<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		<a href="https://undocs.org/ch/A/57/304">A/57/304</a>，附件。</p></authorialNote> 有关的相关各项决定，</p>
+      </container>
+      <container name="重申" eId="container_4">
+        <p xml:space="preserve">	<span class="bold">重申</span>大会2015年9月25日题为“变革我们的世界：2030年可持续发展议程”的第<a href="https://undocs.org/ch/A/RES/70/1">70/1</a>号决议，其中大会通过了一套全面、意义深远和以人为中心的具有普遍性和变革性的可持续发展目标和具体目标，承诺作出不懈努力，使这一议程到2030年得到全面执行，认识到消除一切形式和表现的贫困、包括消除极端贫困，是世界的最大挑战，对实现可持续发展必不可少，并决心采用统筹兼顾的方式，从经济、社会和环境这三个方面实现可持续发展，在巩固实施千年发展目标成果的基础上，争取完成它们尚未完成的事业，</p>
+      </container>
+      <container name="又重申" eId="container_5">
+        <p xml:space="preserve">	<span class="bold">又重申</span>大会2015年7月27日第<a href="https://undocs.org/ch/A/RES/69/313">69/313</a>号决议，其中载有作为《2030年可持续发展议程》组成部分的《第三次发展筹资问题国际会议亚的斯亚贝巴行动议程》，</p>
+      </container>
+      <container name="还重申" eId="container_6">
+        <p xml:space="preserve">	<span class="bold">还重申</span>决心动用必要的手段来执行《2030年议程》，本着加强全球团结的精神，在所有国家、所有利益攸关方和全体人民参与的情况下，恢复全球可持续发展伙伴关系的活力，尤其注重满足最贫困、最脆弱群体的需求，</p>
+      </container>
+      <container name="重申" eId="container_7">
+        <p xml:space="preserve">	<span class="bold">重申</span>2015年1月30日和31日在亚的斯亚贝巴举行的非洲联盟国家元首和政府首脑会议第二十四届常会通过的《2063年议程：我们希望的非洲》和《2063年议程》第一个十年执行计划(2014-2023年)，其中概述了支持执行非洲大陆发展框架的旗舰项目、优先领域和政策措施，并构成促进非洲包容性增长和可持续发展及优化使用非洲大陆资源以造福全体非洲人民的战略框架，</p>
+      </container>
+      <container name="回顾" eId="container_8">
+        <p xml:space="preserve">	<span class="bold">回顾</span>2013年1月非洲联盟国家元首和政府首脑核可的《国际家庭年二十周年(2014)关于制定和执行家庭政策的良好做法的非洲共同立场》和第二个《支持非洲残疾人十年(2010-2019)大陆行动计划》，并注意到2016年1月通过了《非洲人权和民族权宪章关于非洲老年人权利的议定书》，</p>
+      </container>
+      <container name="肯定" eId="container_9">
+        <p xml:space="preserve">	<span class="bold">肯定</span>支持《2063年议程》包括新伙伴关系方案具有重要意义，因其是《2030年可持续发展议程》以及实现由非洲公民推动的一体化、繁荣与和平非洲的组成部分，代表着国际舞台上一支充满活力的力量，并在这方面特别指出必须协调一致地执行《2063年议程》和《2030年议程》，</p>
+      </container>
+      <container name="重申" eId="container_10">
+        <p xml:space="preserve">	<span class="bold">重申</span>大会2016年12月23日题为“联合国-非洲联盟关于2017-2027年非洲一体化和发展议程的新伙伴关系框架”的第<a href="https://undocs.org/ch/A/RES/71/254">71/254</a>号决议，在这方面欢迎2018年1月27日签署《非洲联盟-联合国执行&lt;2063年议程&gt;和&lt;2030年可持续发展议程&gt;框架》，以期通过开展联合活动和方案，促进以统筹和协调一致的方式执行、监测和报告这两项议程，</p>
+      </container>
+      <container name="承认" eId="container_11">
+        <p xml:space="preserve">	<span class="bold">承认</span>实现《2063年议程》的七个愿望对于确保非洲所有公民的高生活水平、生活质量和福祉至关重要，途径是保障收入、创造就业和体面工作，消除贫困和饥饿，减少不平等，制定社会保障和保护最低标准(特别对残疾人而言)，提供现代、负担得起和适宜居住的生境和优质基本服务，公民健康、营养充足且可获得保健，建设环境可持续和有气候适应能力的经济和社区，在生活各个领域实现性别完全平等、青年和儿童切实参与且权能增强，</p>
+      </container>
+      <container name="回顾" eId="container_12">
+        <p xml:space="preserve">	<span class="bold">回顾</span>非洲联盟通过的《非洲基础设施发展方案》，其中要求建立有利于适足投资的环境，并进行部门改革，以通过建设区域基础设施综合网络，促进非洲大陆的经济和社会发展，并减少贫困，</p>
+      </container>
+      <container name="又回顾" eId="container_13">
+        <p xml:space="preserve">	<span class="bold">又回顾</span>非洲联盟执行理事会根据社会发展、劳工和就业问题专门技术委员会第三届常会的建议，于2019年通过了若干政策框架，包括非洲联盟《2063年社会议程》、非洲联盟委员会-国际劳工组织关于体面工作促进非正规经济转型的联合方案(2020-2024年)、消除非洲童工现象、强迫劳动、人口贩运和现代奴隶制十年行动计划(2020-2030年)、非洲联盟终止童婚和残割女性生殖器运动五年战略(包括明确的问责框架)、非洲联盟残疾战略框架以及公民享有社会保护权和社会保障权议定书草案，</p>
+      </container>
+      <container name="关切地注意到" eId="container_14">
+        <p xml:space="preserve">	<span class="bold">关切地注意到</span>童婚、早婚和逼婚现象以及针对儿童的暴力和其他有害做法包括残割女性生殖器做法依然广泛存在，在这方面重申2014年5月26日至30日在亚的斯亚贝巴举行的第四届非洲联盟社会发展部长会议上发起的全非洲终止童婚运动、南部非洲发展共同体《根除童婚和保护已婚儿童的示范法》以及泛非议会2016年8月核可对残割女性生殖器做法的禁令，</p>
+      </container>
+      <container name="认识到" eId="container_15">
+        <p xml:space="preserve">	<span class="bold">认识到</span>许多国家特别是发展中国家仍然面临重大挑战，有些国家掉队更远，强调非洲联盟和各区域经济共同体可在实施新伙伴关系方案方面发挥关键作用，在这方面鼓励非洲国家在其发展伙伴的协助下有效增强和协调它们为提高这些机构的能力所提供的支持，并促进非洲的区域合作和社会经济融合，不让任何一个人掉队，</p>
+      </container>
+      <container name="又认识到" eId="container_16">
+        <p xml:space="preserve">	<span class="bold">又认识到</span>投资于人民，特别是对全民的社会保障、卫生包容、公平的优质教育以及终身享有学习机会进行投资，对提高包括农业在内的所有部门的生产力至关重要，因而是通过为所有人特别是妇女和青年创造更多体面工作机会和可就业机会、改善粮食安全和营养以及建设抗灾能力而实现可持续公平增长和减贫的关键所在，</p>
+      </container>
+      <container name="注意到" eId="container_17">
+        <p xml:space="preserve">	<span class="bold">注意到</span>通过2023年9月20日在纽约举行的大会大流行病预防、防范和应对问题高级别会议的《政治宣言》、<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		大会第<a href="https://undocs.org/ch/A/RES/78/3">78/3</a>号决议，附件。</p></authorialNote> 2023年9月21日在纽约举行的全民健康覆盖问题高级别会议的《政治宣言》<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">		大会第<a href="https://undocs.org/ch/A/RES/78/4">78/4</a>号决议，附件。</p></authorialNote> 和2023年9月22日在纽约举行的防治结核病高级别会议的《政治宣言》，<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">		大会第<a href="https://undocs.org/ch/A/RES/78/5">78/5</a>号决议，附件。</p></authorialNote></p>
+      </container>
+      <container name="认识到" eId="container_18">
+        <p xml:space="preserve">	<span class="bold">认识到</span>性别平等和增强所有妇女和女童的权能以及享有所有人权将对推进实现所有可持续发展目标和具体目标作出至关重要的贡献，认识到在执行《2030年可持续发展议程》过程中系统地将性别平等视角纳入主流至关重要，并在这方面回顾非洲联盟会议第二届常会于2003年7月11日在马普托通过了《非洲人权和民族权宪章关于非洲妇女权利的议定书》，回顾非洲妇女十年(2010-2020)的通过，赞扬在2018年5月7日至11日在亚的斯亚贝巴举行的性别平等和增强妇女权能专门技术委员会第三届会议上通过了《非洲联盟促进性别平等和增强妇女权能战略》，又赞扬2020年2月10日在亚的斯亚贝巴举行的非洲联盟会议第三十三届常会上通过新的非洲妇女十年(2020-2030)为包容妇女金融和经济十年，</p>
+      </container>
+      <container name="又认识到" eId="container_19">
+        <p xml:space="preserve">	<span class="bold">又认识到</span>由于缺乏安全饮用水和适当环境卫生条件，减轻非洲疾病负担的进展缓慢，城乡地区最贫困民众的情况尤其如此，意识到缺乏环境卫生条件对人民健康、减贫努力、经济和社会发展以及环境特别是水资源造成的影响，</p>
+      </container>
+      <container name="重申" eId="container_20">
+        <p xml:space="preserve">	<span class="bold">重申</span>必须加强公共卫生、污染控制、气候行动、生物多样性养护、生态系统完整性、社会经济公平、包容性和繁荣之间的政策和方案联系，将其作为非洲冠状病毒病疫后复苏的最有效战略之一，</p>
+      </container>
+      <container name="赞赏地注意到" eId="container_21">
+        <p xml:space="preserve">	<span class="bold">赞赏地注意到</span>33个非洲国家有资格或可能有资格根据重债穷国倡议及其推进版即多边减债倡议获得债务减免，其中包括在达到完成点后获得全额债务减免的30个国家，还包括索马里和苏丹，两国在建立达到这一里程碑所需的优良政策记录方面取得了切实进展，敦促国际金融界加快减免债务的进度，继续共同努力，将负债最重国家的外债负担降低到可持续的水平，</p>
+      </container>
+      <container name="强调" eId="container_22">
+        <p xml:space="preserve">	<span class="bold">强调</span>债务可持续性对奠定增长基础必不可少，着重指出债务可持续性、债务透明度和债务有效管理对旨在实现可持续发展目标的努力十分重要，强调指出需要继续帮助发展中国家、包括非洲国家避免积累不可持续的债务，同时考虑到全球经济环境带来的挑战以及越来越多的发展中国家的债务可持续性风险，考虑到因此需要采取协调一致的对策，确认根据个案情况减免债务，包括酌情取消债务，以及债务重组作为预防、管理和解决债务危机的工具所具有的重要作用，赞赏地认识到二十国集团已采取步骤，特别是在沙特阿拉伯、意大利和印度尼西亚担任主席国期间采取步骤，进一步推动采取与债务相关的措施，推动执行暂缓偿债倡议和暂缓偿债倡议后续债务处理共同框架，呼吁所有官方双边债权方以透明、及时、有效的方式全面执行这些倡议，同时指出需开展更多工作，包括回应当前倡议未覆盖的国家的需要，</p>
+      </container>
+      <container name="铭记" eId="container_23">
+        <p xml:space="preserve">	<span class="bold">铭记</span>非洲国家对自身经济和社会发展负有首要责任，国家政策和发展战略的作用再强调也不为过，又铭记非洲国家的发展努力需要得到国际社会和有利国际经济环境的支持，重申国际社会需要履行关于非洲经济和社会发展的所有承诺，在这方面回顾发展筹资问题国际会议向新伙伴关系提供的支持，<authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">		见《发展筹资问题国际会议报告，2002年3月18日至22日，墨西哥蒙特雷》(联合国出版物，出售品编号：C.02.II.A.7)，第一章，决议1，附件；大会第<a href="https://undocs.org/ch/A/RES/63/239">63/239</a>号决议，附件；第<a href="https://undocs.org/ch/A/RES/69/313">69/313</a>号决议，附件。</p></authorialNote></p>
+      </container>
+      <container name="特别指出" eId="container_24">
+        <p xml:space="preserve">	<span class="bold">特别指出</span>对所有国家而言，以国家自主原则为重点的公共政策以及国内资源的调动和有效使用，是共同谋求可持续发展包括实现可持续发展目标的核心要素，认识到国内资源首先是在各级有利环境的支持下，由经济增长创造而得，</p>
+      </container>
+      <container name="关切" eId="container_25">
+        <p xml:space="preserve">	<span class="bold">关切</span>冠状病毒病疫情导致经济和社会挑战持续并加剧，气候变化则使挑战更加严峻，对非洲社会发展构成严重挑战，并在很大程度上逆转了中期取得的成果，加剧了疫情前的脆弱性，使更多人掉队，并对各国政府落实《2030年议程》和实现可持续发展目标的能力产生负面影响，强调指出在到2030年实现可持续发展目标行动十年的这一关键时刻，社会发展问题世界首脑会议提出的愿景、原则和承诺仍然有效，对应对新出现的全球挑战至关重要，回顾社会政策可对应对危机的直接影响发挥关键作用，</p>
+      </container>
+      <container name="非常关切地注意到" eId="container_26">
+        <p xml:space="preserve">	<span class="bold">非常关切地注意到</span>冠状病毒病疫情继续对非洲国家造成多层面影响，包括在贫困、粮食安全、失业、贸易、供应链中断、旅游业和资金流动方面的重大影响，还造成社会影响，特别是对贫困者和处境脆弱者而言，社会影响包括暴力侵害妇女和女童行为，给非洲国家落实《2030年议程》和《2063年议程》带来更多挑战，确认非洲国家在抗击冠状病毒病疫情方面作出巨大努力，以期拯救生命和实现可持续、包容和弹性复苏，</p>
+      </container>
+      <container name="决心" eId="container_27">
+        <p xml:space="preserve">	<span class="bold">决心</span>在各国、各国人民和各代人团结一致、同心协力、振兴多边合作的基础上，采取全球行动应对冠状病毒病疫情，从而增强国家和其他相关利益攸关方全面落实《2030年可持续发展议程》的能力与信念，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_28" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">	<span class="bold">欢迎</span>非洲国家政府在履行其为深化民主、人权、善治和健全的经济管理而落实非洲发展新伙伴关系的承诺方面取得进展，鼓励非洲国家政府在包括民间社会和私营部门在内的利益攸关方的参与下加强这方面的努力，为此发展和加强治理机构，并创造有利于吸引外国直接投资的环境，促进该区域的发展；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="bold">又欢迎</span>非洲同行审议机制落实工作取得进展，尤其是42个非洲国家自愿遵守该机制，24个国家现已完成同行审议进程，还欢迎这些审议所产生的国家行动纲领的执行工作取得进展，在这方面敦促尚未加入该机制进程的非洲国家考虑加入，表示注意到关于该机制体制改革的决定，强调非洲对该进程的自主权，邀请国际社会应非洲国家的要求支持它们努力执行各自的国家行动纲领；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">	<span class="bold">重申</span>必须支持非洲联盟《2063年议程》及其第一个十年执行计划，作为确保非洲实现积极的社会经济转型的战略框架，必须支持大会关于新伙伴关系的各项决议中所纳入的非洲大陆方案以及各项区域举措，如《非洲农业发展综合方案》；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="bold">表示注意到</span>非洲各区域经济共同体、非洲联盟发展署、非洲经济委员会、非洲开发银行和非洲统计发展专题讨论会制定了《2063年议程》第一个十年执行计划监测和评价框架，并注意到《非洲统计协调战略》，两者都促使第一个十年执行计划和可持续发展目标的监测和评价工作趋同，并促使《2063年议程》和《2030年可持续发展议程》有一个统一的执行和监测计划，注意到42个国家将第一个十年执行计划纳入国家规划框架；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_38__content">
+          <p xml:space="preserve">	<span class="bold">欢迎</span>2019年7月4日和5日在尼亚美举行的非洲联盟执行理事会第三十五届常会期间通过了非洲联盟发展署治理架构，这是非洲联盟《2063年议程》发展战略的实施机制，其任务是通过利用伙伴关系和技术合作，与成员国、各区域经济共同体和泛非机构有效和统筹规划、协调和执行《2063年议程》，以促进非洲大陆的发展；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="bold">又欢迎</span>非洲国家以及包括非洲联盟在内的区域和次区域组织努力将性别平等视角及增强妇女和女童权能纳入新伙伴关系的实施工作、包括《非洲人权和民族权宪章关于非洲妇女权利的议定书》实施工作的主流；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="bold">表示赞赏地注意到</span>，非洲联盟委员会作出努力，促成24个国家发起了消除童婚、早婚和强迫婚姻的全国运动，《关于非洲联盟在非洲终止童婚运动的非洲共同立场》于2017年获通过，而且已延长5年，从2019年至2023年，非洲联盟会议于2019年2月通过了关于加强政治承诺以消除非洲残割女性生殖器做法的决定，其中认可了非洲联盟关于消除残割女性生殖器做法的倡议，即萨利玛倡议，23个非洲国家通过了惩罚这种做法的国家法律，非洲联盟消除有害做法问责框架于2022年4月开始运作；依然关切非洲一些国家内的童婚、早婚和强迫婚姻的风险因冠状病毒病疫情而加剧；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_56" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_56__content">
+          <p xml:space="preserve">	<span class="bold">又表示赞赏地注意到</span>非洲联盟委员会与联合国促进性别平等和增强妇女权能署(妇女署)和国际电信联盟合作，于2018年8月24日在亚的斯亚贝巴启动“非洲女童能够编码倡议”(2018-2022年)，旨在加强女童和妇女掌握信息和通信技术的能力，从而使她们对非洲在这一部门的创新作出更多贡献；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_64" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_64__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>非洲国家通过外来和国内投资加强和扩大能够抵御气候变化的地方和区域基础设施以及硬基础设施和软基础设施，同时确认高质量基础设施投资的重要性，鼓励继续分享最佳做法，以加强区域和非洲大陆一体化，在这方面确认非洲发展伙伴需要协调努力，支持《非洲基础设施发展方案》，该方案是一个强大的基础设施组合，目前正处于优先行动计划第2阶段，包括69个交通、能源、水和信息通信技术项目，实施时期为2021年至2030年，并需要建立一个更强有力的系统来应对自然灾害和极端天气事件；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_73" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_73__content">
+          <p xml:space="preserve">	<span class="bold">赞赏地欢迎</span>《非洲大陆自由贸易区协定》于2019年5月30日生效，该协定旨在促进非洲内部贸易和该大陆一体化，截至2023年8月已有54个成员国签署，其中47个成员国已批准该协定；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_83" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_83__content">
+          <p xml:space="preserve">	<span class="bold">回顾</span>《非洲联盟关于通过投资于青年利用人口红利的路线图》和2017年关于就业、消除贫困和包容性发展的第一个五年优先方案，并欢迎非洲联盟宣布2018至2027年为非洲技术、职业和创业培训及青年就业十年，重点是为青年和妇女创造体面工作，旨在实现更具包容性的增长和可持续消除贫困；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_94" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_94__content">
+          <p xml:space="preserve">	<span class="bold">注意到</span>非洲联盟会议第三十六届常会决定将2023年的主题定为“加快落实非洲大陆自由贸易区”，这将对补充《2063年议程》的其他旗舰项目和该议程的第二个十年执行计划发挥关键作用；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_106" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_106__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>所有尚未批准或加入《联合国反腐败公约》<authorialNote marker="13" placement="bottom" eId="authorialNote_13"><p xml:space="preserve">		联合国，《条约汇编》，第2349卷，第42146号。</p></authorialNote> 的国家批准或加入该公约，鼓励缔约国审查公约执行情况，致力于将该公约作为遏制、发现、预防和打击腐败与贿赂行为、起诉腐败活动参与者、追索被盗资产并酌情将其返还来源国的有效手段，鼓励国际社会制定资产返还的良好做法，表示支持联合国和世界银行的“追回被盗资产举措”以及支持追索被盗资产的其他国际举措，敦促更新和批准区域反腐败公约，并努力消除吸引被盗资产向国外转移、助长非法资金流动的安全港；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_119" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_119__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>非洲各国政府批准《非洲人权和民族权宪章关于非洲残疾人权利的议定书》和《非洲人权和民族权宪章关于非洲老年人权利的议定书》，以表明会员国对整个非洲大陆残疾人和老年人尊严、赋权和权利的承诺；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_133" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_133__content">
+          <p xml:space="preserve">	<span class="bold">指出</span>健康是可持续发展的前提、指标和成果，作为《2030年可持续发展议程》的一部分，为此需作出强大努力，将更多的健康问题纳入广泛的健康与发展议程，因此表示注意到2019年2月10日和11日在亚的斯亚贝巴举行的非洲联盟国家元首和政府首脑会议第三十二届常会的宣言，其中承诺通过采取将健康融入所有政策办法而支持和加强卫生部门改革，以实现全民健康覆盖、遏制非洲暴发重大疾病和实现可持续发展目标；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_148" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_148__content">
+          <p xml:space="preserve">	<span class="bold">欢迎</span>非洲各国元首和政府首脑于2019年2月在非洲联盟会议第三十二届常会期间通过了《建立非洲医药管理局条约》，该管理局的任务是加强监管制度，改善获得优质、安全和有效的药品以及医疗产品和技术的机会，从而有效保护公众健康，防止非洲今后暴发大流行病和传染病，截至2023年8月，该条约已获29个非洲联盟成员国签署，其中26个国家已批准该条约，并注意到非洲疫苗采购工作组倡议等旨在加速冠状病毒病疫后经济和社会发展的其他相关倡议；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_164" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_164__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>非洲各国政府加快执行经修订的《2016-2030年非洲卫生战略》，该战略为制订《非洲区域营养战略》、《2016-2030年落实非洲大陆促进性健康与生殖健康和权利政策框架马普托行动计划》、《非洲药品制造计划》和《非洲到2030年消除艾滋病、结核病和消灭疟疾促进框架》提供总体指导，欢迎非洲各国卫生部长2016年通过的《关于将普及免疫接种作为非洲健康和发展基石的宣言》和2017年承诺加快执行《国际卫生条例(2005年)》<authorialNote marker="14" placement="bottom" eId="authorialNote_14"><p xml:space="preserve">		世界卫生组织，WHA58/2005/REC/1号文件，第58.3号决议，附件。</p></authorialNote> 的宣言，又敦促非洲各国政府实现雄心勃勃的目标、企划案和战略优先事项，到2030年消除这三种疾病对公众健康的威胁；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_181" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_181__content">
+          <p xml:space="preserve">	<span class="bold">强调指出</span>改善妇幼保健的重要性，在这方面回顾非洲联盟首脑会议关于产妇和婴幼儿保健与发展的宣言，注意到非洲联盟决定在2021-2030年再次加强加速降低非洲孕产妇、新生儿及儿童死亡率运动，敦促致力于履行改善妇幼健康的承诺；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_199" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_199__content">
+          <p xml:space="preserve">	<span class="bold">表示注意到</span>2013年7月12日至16日在阿布贾举行的非洲联盟艾滋病毒/艾滋病、结核病和疟疾问题特别首脑会议关于到2030年在非洲消除艾滋病毒和艾滋病、结核病以及疟疾的阿布贾行动执行进展情况的宣言，又表示注意到2021年6月8日艾滋病毒/艾滋病问题大会高级别会议通过的《关于艾滋病毒/艾滋病问题的政治宣言：结束不平等现象，进入2030年之前消除艾滋病的轨道》，<authorialNote marker="15" placement="bottom" eId="authorialNote_15"><p xml:space="preserve">		大会第<a href="https://undocs.org/ch/A/RES/75/284">75/284</a>号决议，附件。</p></authorialNote> 重申决心在预防、治疗和护理方面提供援助，满足所有人的需要，特别是妇女、儿童和青年的需要，以确保在非洲根除艾滋病毒/艾滋病、疟疾和结核病，重申迫切需要显著加大行动力度，实现非洲各国人人能够受惠于艾滋病毒/艾滋病综合预防方案、治疗、护理和支持这一目标，迫切需要加速和加强努力，使更多非洲人能够获得负担得起的优质药品，包括抗逆转录病毒药品，为此鼓励制药公司提供药品，迫切需要确保加强全球伙伴关系，增加双边和多边援助，可能时采用赠款方式提供援助，以通过加强卫生系统，在非洲防治艾滋病毒/艾滋病、疟疾、结核病和其他传染病；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_218" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_218__content">
+          <p xml:space="preserve">	<span class="bold">又表示注意到</span>非洲联盟决定将非洲联盟关于在非洲实现艾滋病、结核病和疟疾防治“责任共担、全球团结”路线图从2016年延长到2020年，借2021年《关于艾滋病毒/艾滋病、结核病和其他有关传染病的阿布贾宣言》通过20周年的机会，严格审查这些疾病在非洲的情况和后果，注意到“艾滋病观察在非洲”的重振，认为这是推动为在非洲防治艾滋病毒/艾滋病、结核病和疟疾而采取行动、问责和筹集资源的非洲高级别平台，请发展伙伴和联合国系统酌情并依照相关国际义务，支持非洲国家和组织努力实现路线图提出的主要目标，包括实现多样化可持续筹资，加强监管制度统一和本地制药能力，增强防治工作的领导和治理；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_238" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_238__content">
+          <p xml:space="preserve">	<span class="bold">邀请</span>发展伙伴继续协助非洲国家努力加强国家卫生系统，包括提供熟练的卫生工作人员、可靠的卫生信息和数据、研究基础设施和实验室能力，扩大卫生部门的监测系统，包括采取必要手段，支持非洲预防、防范和应对疫情暴发和流行病的工作，这些疫情和流行病每年造成100多起重大突发公共卫生事件，并在这方面重申支持《坎帕拉宣言和全球行动议程》以及为应对非洲严重的卫生人力危机而举行的后续会议；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_259" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_259__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>会员国在有关水和环境卫生的活动和方案中继续对发展中国家、特别是非洲国家提供国际合作和能力建设支持，包括雨水采集、海水淡化、提高用水效率、废水处理、水回收和再利用技术，注意到为实现“2025年非洲水源愿景”、《2063年议程》和可持续发展目标而启动的2018-2030年非洲部长级水事理事会战略；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_281" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_281__content">
+          <p xml:space="preserve">	<span class="bold">强调</span>新伙伴关系的实施进展还取决于创造有利于非洲增长和发展的国内和国际环境，包括采取措施，促进有利于私营部门发展和创业并有利于实现可持续发展目标的政策环境；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_304" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_304__content">
+          <p xml:space="preserve">	<span class="bold">又强调</span>民主、尊重包括发展权在内的所有人权和基本自由、社会所有部门透明、负责的治理和行政管理、包括非政府组织和社区组织在内的民间社会和私营部门的有效参与，是实现社会发展和以人为中心的可持续发展不可或缺的基础；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_328" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_328__content">
+          <p xml:space="preserve">	<span class="bold">还强调</span>为了解决大多数非洲国家面临的贫困、不平等和社会排斥问题，必须统筹制订和执行社会和经济政策，以便除其他外减少贫困，推动经济活动、增长和可持续发展，从而确保为所有人创造生产性就业和体面工作，促进优质教育、卫生和社会保障，并加强平等、社会包容、政治稳定、各级民主与善治，促进和保护人权和基本自由；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_353" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_353__content">
+          <p xml:space="preserve">	<span class="bold">强调</span>查明和消除获得机会方面的障碍并确保能够享有基本社会保障和社会服务，对打破贫困、不平等和社会排斥的循环是必要之举；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_379" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_379__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>非洲国家加快行动以消除极端贫困，提供体面工作，应对气候紧急情况，为此投资于可持续、包容和公正的过渡，包括制定促进社会与团结经济的战略，以推动经济增长和创造就业，制定适应和减缓气候变化战略，实现小农农业现代化，增加初级产品的价值，改善公共和私营经济和政治治理机构；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_406" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_406__content">
+          <p xml:space="preserve">	<span class="bold">强调</span>在提高非洲生产力并符合国家发展优先目标和国际承诺的务实而有针对性的政策基础上进行经济发展，包括充分兼顾自然资源可持续管理及利用的基于资源的就业密集型工业发展，以及基础设施发展和结构转型，尤其在农村经济中进行此类发展和转型，能为包括贫困者在内的所有非洲男子和妇女创造就业机会和收入，从而成为消除贫困和实现包括可持续发展目标在内的国际商定发展目标的引擎；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_434" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_434__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>非洲国家继续推动政治稳定，促进和平与安全，加强治理、政策和机构环境，以便改善包容性可持续发展的前景，并为私营部门创造有利环境，以促进可持续经济转型，为所有人创造生产性就业和体面工作；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_463" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_463__content">
+          <p xml:space="preserve">	<span class="bold">强调指出</span>实现可持续发展和消除贫困取决于各国是否有能力并愿意有效调动国内资源、吸引外国直接投资、履行官方发展援助承诺并有效使用这种援助、促进以彼此商定的条件向发展中国家转让技术，又强调指出解决不可持续的债务问题对重债穷国至关重要，而汇款已成为收款经济体的重要收入和资金来源并有助于实现可持续发展；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_493" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_493__content">
+          <p xml:space="preserve">	<span class="bold">注意到</span>初步数据显示，2022年，发展援助委员会成员国对非洲的双边官方发展援助净额为340亿美元，比2021年实际下降7.4%，其中包括向撒哈拉以南非洲提供的官方发展援助净额290亿美元，比2021年实际下降7.8%，但相对而言，官方发展援助仍远低于占国民总收入0.7%这一国际承诺；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_524" class="SingleTxt">
+        <num>32.</num>
+        <content eId="para_524__content">
+          <p xml:space="preserve">	<span class="bold">重申</span>履行所有官方发展援助承诺依然至关重要，包括许多发达国家承诺实现官方发展援助占国民总收入0.7%以及给予最不发达国家的官方发展援助占国民总收入0.15%至0.20%的具体目标，感到鼓舞的是，少数几个国家已履行或超额履行官方发展援助占国民总收入0.7%的承诺以及达到或超过给予最不发达国家的官方发展援助占国民总收入0.15%至0.20%的具体目标，敦促所有其他国家加大力度，增加官方发展援助，并且为实现官方发展援助的具体目标作出更多具体努力；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_556" class="SingleTxt">
+        <num>33.</num>
+        <content eId="para_556__content">
+          <p xml:space="preserve">	<span class="bold">确认</span>中等收入国家在实现可持续发展方面仍然面临重大挑战，为确保迄今取得的成就得以保持，应通过联合国发展系统、国际金融机构、区域组织和其他利益攸关方交流经验、改进协调、提供更好和重点突出的支持，加强努力应对当前的挑战，因此，请这些利益攸关方在各自的相关战略和政策中确保以因地制宜的方式，妥善考虑和满足中等收入国家多样而具体的发展需求，以推动对各个国家采取一致和全面的办法，并承认官方发展援助和其他形式的优惠资金对其中一些国家仍然十分重要且对取得定向成果具有一定的作用，同时也要考虑这些国家的具体需要；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_589" class="SingleTxt">
+        <num>34.</num>
+        <content eId="para_589__content">
+          <p xml:space="preserve">	<span class="bold">又确认</span>社会发展主要是各国政府的责任，但国际合作和援助对充分实现这一目标必不可少，促请国际社会继续支持发展中国家，特别是最不发达国家，包括非洲的这类国家，克服在独立实现可持续发展方面面临的挑战；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_623" class="SingleTxt">
+        <num>35.</num>
+        <content eId="para_623__content">
+          <p xml:space="preserve">	<span class="bold">还确认</span>会员国在南南合作框架内对实施新伙伴关系所作的贡献，鼓励国际社会包括国际金融机构通过开展三边合作等途径支持非洲国家的努力；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_658" class="SingleTxt">
+        <num>36.</num>
+        <content eId="para_658__content">
+          <p xml:space="preserve">	<span class="bold">欢迎</span>联合国和非洲联盟努力调整非洲区域协调机制的各个分组，以处理《2063年议程》和《2030年可持续发展议程》的重大主题，邀请发展伙伴，包括联合国系统，继续支持该协调机制实现其各项目标，包括为此划拨必要资金支持其开展活动；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_694" class="SingleTxt">
+        <num>37.</num>
+        <content eId="para_694__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>非洲国家加紧努力加强地方和国家统计系统的能力，以便编制可靠和及时的统计数据和指标，用于监测国家发展政策和战略以及地方、国家、区域和国际各级实现所有可持续发展目标承诺的履行情况，在这方面促请捐助国和捐助组织，包括联合国系统，以及国际和区域统计界支持非洲国家加强统计能力，以促进发展；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_731" class="SingleTxt">
+        <num>38.</num>
+        <content eId="para_731__content">
+          <p xml:space="preserve">	<span class="bold">表示注意到</span>“2024年非洲科学、技术和创新战略”，该战略旨在对农业、能源、环境、卫生、基础设施发展、采矿、安全和水等关键部门产生影响；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_769" class="SingleTxt">
+        <num>39.</num>
+        <content eId="para_769__content">
+          <p xml:space="preserve">	<span class="bold">着重指出</span>非洲各国政府必须将建设可持续农业的生产能力作为首要优先事项，以增加农村收入并确保粮食净购买者能获得粮食，强调指出必须作出更大努力以促进和落实可持续农业，增加小农特别是妇女得到必要的农业资源、包括生产性资产的机会，并改善享有基础设施、获取信息和进入市场的机会，还应努力通过在农产品价值流程中为增加就业和提高收入作出贡献的中小企业来促进城乡联系；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_808" class="SingleTxt">
+        <num>40.</num>
+        <content eId="para_808__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>非洲各国政府在《非洲农业发展综合方案》框架内扩大对农业投资的供资，使其至少达到国家公共部门年度预算的10%，同时确保在政策和机构改革中采取必要行动，提高农业产业和体系的绩效；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_848" class="SingleTxt">
+        <num>41.</num>
+        <content eId="para_848__content">
+          <p xml:space="preserve">	<span class="bold">确认</span>支持非洲农业与粮食安全和营养的非洲发展伙伴需要采用《非洲农业发展综合方案》的投资计划调整外部筹资，以更具体地努力支持这一《方案》；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_889" class="SingleTxt">
+        <num>42.</num>
+        <content eId="para_889__content">
+          <p xml:space="preserve">	<span class="bold">欢迎</span>泛非议会于2018年10月通过一项关于制定非洲粮食安全和营养示范法的决议，并制定了一个技术合作项目，将本土作物纳入非洲营养粮食篮子，以改善粮食安全和营养，从而在处理粮食安全等问题方面取得进展，注意到《关于粮食体系的非洲共同立场》，其中综述了非洲国家就影响非洲和全球粮食体系的关键问题所表达的观点、看法、优先事项以及雄心壮志，其中参考了关于2021年联合国粮食体系峰会的对话，包括2021年7月13日在摩洛哥举行的非洲区域对话，目的是加速加强具有区域特性的粮食体系，这种特性的实质体现出非洲的农业和粮食体系、非洲的饮食、非洲民众的生活条件和非洲社会的抱负；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_931" class="SingleTxt">
+        <num>43.</num>
+        <content eId="para_931__content">
+          <p xml:space="preserve">	<span class="bold">重申</span>大会2017年12月20日第<a href="https://undocs.org/ch/A/RES/72/233">72/233</a>号决议宣布的联合国第三个消除贫困十年(2018-2027)的目标包括保持落实第二个十年工作所产生的势头，并以高效、协调一致的方式支持与消除贫困有关的国际商定的发展目标，包括可持续发展目标及其不让任何一个人掉队的宗旨；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_974" class="SingleTxt">
+        <num>44.</num>
+        <content eId="para_974__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>非洲国家密切关注能够促进密集就业的包容、公平和可持续增长，包括通过密集型就业投资方案实现这种增长，以减少不平等，增加生产性就业，为所有人特别是包括妇女和青年在内的弱势群体创造体面工作，提高农村和城镇地区的实际人均收入；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1018" class="SingleTxt">
+        <num>45.</num>
+        <content eId="para_1018__content">
+          <p xml:space="preserve">	<span class="bold">强调</span>有必要，特别是非洲国家有必要加强能力建设以实现可持续发展，在这方面呼吁加强科学技术合作，包括北南、南南和三方合作，重申充分发展人力资源的重要性，包括为此开展培训、交流经验和专长、转让知识和提供技术援助以建设能力，其中涉及加强机构能力，包括政策一致、协调和执行，以及规划、管理和监测能力；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1063" class="SingleTxt">
+        <num>46.</num>
+        <content eId="para_1063__content">
+          <p xml:space="preserve">	<span class="bold">又强调</span>必须加快执行战略，消除在获得教育、保健、体面工作、数字信息和通信技术(包括互联网)、粮食和农业服务方面的性别差距，必须增加国际合作以改进教育质量和增加受教育机会，包括努力落实女童受教育权，特别是在非洲国家，为此建设和加强与教育有关的基础设施并增加教育投资，表示注意到非洲联盟的非洲女童和妇女教育国际中心等非洲举措，该中心在2022年7月19日和20日在南非举行的关于推进非洲联盟女童和妇女教育议程的技术会议期间提出了其题为“通过女童和妇女教育建设复原力以培育非洲人力资本促进可持续发展”的第三个战略计划(2021-2025年)，旨在实现性别平等，同时确认男童和男子在这方面的关键作用；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1109" class="SingleTxt">
+        <num>47.</num>
+        <content eId="para_1109__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>非洲各国和发展伙伴满足青年人的需求并增强其权能，尤其是解决青年失业率高的问题，为此制定优质教育、技能培训和创业方案，以酌情解决青年人的文盲问题，增进他们的就业资质和能力，促进从学校到工作的过渡并扩大担保就业计划，特别重视城乡两地的弱势青年，在这方面表示注意到2022年启动了非洲联盟妇女和青年金融和经济包容倡议，该倡议力求到2030年为至少100万非洲妇女和青年提供融资机会和平等就业，并表示注意到非洲联盟的“更上一层楼的100万机会”倡议，该倡议力求到2030年在教育、就业、创业、参与、健康和福祉等领域为3亿非洲青年提供机会；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1156" class="SingleTxt">
+        <num>48.</num>
+        <content eId="para_1156__content">
+          <p xml:space="preserve">	<span class="bold">重申</span>大会对弥合数字鸿沟和知识鸿沟的承诺，确认必须采取多层面办法，其中包括逐步认识何为接入的构成要素，强调接入质量，并承认速度、稳定性、可负担性、语言、当地内容和方便残疾人使用现已成为此种接入质量的核心要素，承认高速宽带已成为推动可持续发展的重要手段；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1204" class="SingleTxt">
+        <num>49.</num>
+        <content eId="para_1204__content">
+          <p xml:space="preserve">	<span class="bold">确认</span>改善所有男女儿童特别是最贫困、最脆弱和最边缘化的儿童的就学情况，提高其获得优质教育的能力，并改进小学以上各级教育的质量，可在增强权能方面并对社会、经济和政治参与产生积极影响，从而也对战胜贫困和饥饿产生积极影响，并可直接促进实现国际商定的发展目标，包括可持续发展目标；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1253" class="SingleTxt">
+        <num>50.</num>
+        <content eId="para_1253__content">
+          <p xml:space="preserve">	<span class="bold">又确认</span>非洲青年人为非洲大陆的发展提供了重要机遇，在这方面着重指出非洲国家须与联合国系统协作，创造适当的政策环境，以便实现人口红利，同时应采用包容且注重结果的办法，按照国家优先事项和立法规划和落实发展；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1303" class="SingleTxt">
+        <num>51.</num>
+        <content eId="para_1303__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>各国政府、国际组织、其他相关机构和利益攸关方酌情为青年提供相关技能培训、优质保健服务和活跃的劳动力市场，使日益增长的人口有就业机会；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1354" class="SingleTxt">
+        <num>52.</num>
+        <content eId="para_1354__content">
+          <p xml:space="preserve">	<span class="bold">确认</span>各国政府和国际社会需继续努力增加资源流量，从公共和私人、国内和国外等所有来源筹措新的和额外的可持续发展资金以支持非洲国家的发展，欢迎非洲国家与其发展伙伴在这方面提出的各种重要举措；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1406" class="SingleTxt">
+        <num>53.</num>
+        <content eId="para_1406__content">
+          <p xml:space="preserve">	<span class="bold">肯定</span>布雷顿森林机构和非洲开发银行在非洲国家开展的各项活动，邀请这些机构继续为落实新伙伴关系的优先事项和各项目标提供支持；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1459" class="SingleTxt">
+        <num>54.</num>
+        <content eId="para_1459__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>非洲国家及其发展伙伴在政府发展行动中做到以人为中心，保证用于卫生、教育和社会保障的核心投资，并特别考虑基本社会保障制度的普及，同时认识到社会保障最低标准可以作为消除贫困和脆弱处境的基础，在这方面表示注意到国际劳工大会2012年6月14日第101届会议通过的2012年社会保护底线建议书(第202号)，该建议书可作为社会投资的准则；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1513" class="SingleTxt">
+        <num>55.</num>
+        <content eId="para_1513__content">
+          <p xml:space="preserve">	<span class="bold">注意到</span>联合国系统各实体之间支持非洲联盟及其新伙伴关系的协作日益加强，请秘书长继续根据非洲区域协调机制的商定分组，促进加强联合国系统支持新伙伴关系工作的协调一致；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1568" class="SingleTxt">
+        <num>56.</num>
+        <content eId="para_1568__content">
+          <p xml:space="preserve">	<span class="bold">强调</span>从事倡导和沟通工作的分组必须继续调动国际社会支持新伙伴关系，敦促联合国系统展示能印证跨部门协同增效的更多实证，以推动对非洲社会发展方案规划和实施工作的各个相继阶段采取统筹做法；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1624" class="SingleTxt">
+        <num>57.</num>
+        <content eId="para_1624__content">
+          <p xml:space="preserve">	<span class="bold">请</span>社会发展委员会继续在年度工作方案中讨论促进社会发展的区域方案，以便使各区域能够在征得有关国家同意的情况下分享经验和最佳做法，在这方面请委员会在工作方案中酌情列入新伙伴关系的社会层面；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1681" class="SingleTxt">
+        <num>58.</num>
+        <content eId="para_1681__content">
+          <p xml:space="preserve">	<span class="bold">决定</span>社会发展委员会第六十三届会议应审议新伙伴关系社会层面的执行进展情况，并适当考虑非洲联盟《2063年议程》；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1739" class="SingleTxt">
+        <num>59.</num>
+        <content eId="para_1739__content">
+          <p xml:space="preserve">	<span class="bold">请</span>秘书长与非洲问题特别顾问办公室和非洲经济委员会协作，考虑到大会题为“非洲发展新伙伴关系：执行进展情况和国际支持”的2023年2月20日第<a href="https://undocs.org/ch/A/RES/77/270">77/270</a>号决议，向社会发展委员会提交一份着重行动的报告供其第六十三届会议审议，其中就如何提高联合国各机构在新伙伴关系的社会层面、《2063年议程》及其与《2030年可持续发展议程》的联系等方面工作的实效提出建议，同时考虑到当前与非洲社会发展有关的各个进程。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="第20次" refersTo="#adoptionMeeting">第20次全体会议</location>
+          <eol />
+          <docDate date="2024-06-05" refersTo="#adoptionDate">2024年6月5日</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
