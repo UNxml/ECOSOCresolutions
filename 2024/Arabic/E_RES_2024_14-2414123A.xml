@@ -1,0 +1,692 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2024-07-23/2024-14/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2024-07-23/2024-14/"></FRBRuri>
+          <FRBRdate date="2024-07-23" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2024-07-23/2024-14/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2024-07-23/2024-14/ara@/"></FRBRuri>
+          <FRBRdate date="2024-08-02" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2024-07-23/2024-14/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2024-07-23/2024-14/ara@.xml"></FRBRuri>
+          <FRBRdate date="2024-09-14" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="9" href="http://metadata.un.org/sdg/9" showAs="sdg_9" dictionary="SDGO"/>
+        <keyword value="innovation" href="http://eurovoc.europa.eu/1439" showAs="innovation" dictionary="EuroVoc"/>
+        <keyword value="innovation" href="http://metadata.un.org/thesaurus/1003223" showAs="innovation" dictionary="UNBIS"/>
+        <keyword value="industrialization" href="http://metadata.un.org/thesaurus/1003177" showAs="industrialization" dictionary="UNBIS"/>
+        <keyword value="industrial_infrastructure" href="http://eurovoc.europa.eu/1434" showAs="industrial_infrastructure" dictionary="EuroVoc"/>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"/>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"/>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"/>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"/>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"/>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"/>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"/>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"/>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"/>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"/>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"/>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"/>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"/>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"/>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"/>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"/>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"/>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"/>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"/>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"/>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"/>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"/>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"/>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"/>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"/>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"/>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"/>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"/>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"/>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Commission on Science and Technology for Development" showAs="UN. Commission on Science and Technology for Development" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNCTAD" showAs="UNCTAD" dictionary="DHLAUTH"></keyword>
+        <keyword value="SCIENCE AND TECHNOLOGY" href="http://metadata.un.org/thesaurus/1005731" showAs="SCIENCE AND TECHNOLOGY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INFORMATION TECHNOLOGY" href="http://metadata.un.org/thesaurus/1003205" showAs="INFORMATION TECHNOLOGY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DEVELOPING COUNTRIES" href="http://metadata.un.org/thesaurus/1001613" showAs="DEVELOPING COUNTRIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNOLOGICAL INNOVATIONS" href="http://metadata.un.org/thesaurus/1006426" showAs="TECHNOLOGICAL INNOVATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" href="http://metadata.un.org/thesaurus/1006319" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PUBLIC-PRIVATE PARTNERSHIPS" href="http://metadata.un.org/thesaurus/1005239" showAs="PUBLIC-PRIVATE PARTNERSHIPS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="18b" showAs="Science and technology for development." shortForm="SCIENCE AND TECHNOLOGY--DEVELOPMENT" dictionary="E/2024/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-04-19" outcome="draftResolution" as="informal paper" by="submitted by the Chair on the basis of informal consultations facilitated by the Vice-Chair (Gambia) " />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" as="E/2024/31" by="UN. Commission on Science and Technology for Development" />
+        <step date="2024-08-02" outcome="adopted" as="Adopted without vote, 37th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2024/14</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">إن المجلس الاقتصادي والاجتماعي</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-08-02" class="rightSmall" refersTo="#dateOfIssuance">2 August 2024</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2024" eId="coverPage_1__session_1">دورة عام 2024</session>
+      </p>
+      <p>
+        <inline title="18 (ب)" name="agenda item">البند 18 (ب) من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">المسائل الاقتصادية والبيئية: تسخير العلم والتكنولوجيا لأغراض التنمية</inline>
+      </p>
+      <p>
+        <docTitle>قرار اتخذه المجلس الاقتصادي والاجتماعي في 23 تموز/يوليه 2024</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent>[بناء على توصية اللجنة المعنية بتسخير العلم والتكنولوجيا لأغراض التنمية (<inline name="originating document">E/2024/31</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2024/14</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	تسخير العلم والتكنولوجيا والابتكار لأغراض التنمية</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold italic">إن المجلس الاقتصادي والاجتماعي</span>،</p>
+      </formula>
+      <container name="إذ يسلم" eId="container_2">
+          <p xml:space="preserve">	<span class="bold italic">إذ يسلم</span> بالدور الذي تؤديه اللجنة المعنية بتسخير العلم والتكنولوجيا لأغراض التنمية، بوصفها حاملة لواء الأمم المتحدة في مجال تسخير العلم والتكنولوجيا والابتكار لأغراض التنمية، وجهة التنسيق التابعة للأمم المتحدة المعنية بتسخير العلم والتكنولوجيا والابتكار لأغراض التنمية، في تحليل الكيفية التي يمكن بها للعلم والتكنولوجيا والابتكار، بما في ذلك تكنولوجيا المعلومات والاتصالات، أن تكون عناصر تمكين لخطة التنمية المستدامة لعام 2030<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	()	قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/70/1">70/1</a>.</p></authorialNote><sup>)</sup>، من خلال العمل بمثابة محفل للتخطيط الاستراتيجي، وتبادل الدروس المستفادة وأفضل الممارسات، وتوفير نظرة استشرافية بشأن الاتجاهات الفائقة الأهمية في مجال العلم والتكنولوجيا والابتكار في القطاعات الرئيسية المتمثلة في الاقتصاد والبيئة والمجتمع، وتوجيه الانتباه إلى التكنولوجيا الجديدة والناشئة،</p>
+      </container>
+      <container name="وإذ يسلم أيضا" eId="container_3">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يسلم أيضا</span> بالدور والإسهام الأساسيين للعلم والتكنولوجيا والابتكار في بناء القدرة الوطنية على المنافسة في الاقتصاد العالمي والحفاظ عليها وفي التصدي للتحديات العالمية وتحقيق التنمية المستدامة،</p>
+      </container>
+      <container name="وإذ يسلم كذلك" eId="container_4">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يسلم كذلك</span> بالدور الأساسي لتكنولوجيا المعلومات والاتصالات في تعزيز وتسخير العلم والتكنولوجيا والابتكار باعتبارها عناصر تمكين للتنمية،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_5">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير</span> إلى الوثيقة الختامية لمؤتمر القمة العالمي لعام 2005<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	()	قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/60/1">60/1</a>.</p></authorialNote><sup>)</sup> وقرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/70/125">70/125</a> المؤرخ 16 كانون الأول/ديسمبر 2015 المعنون ”الوثيقة الختامية للاجتماع الرفيع المستوى للجمعية العامة بشأن الاستعراض العام لتنفيذ نتائج القمة العالمية لمجتمع المعلومات“ اللذين سُلّم فيهما بأن للعلم والتكنولوجيا، بما في ذلك تكنولوجيا المعلومات والاتصالات، دورا بالغ الأهمية في تحقيق الأهداف الإنمائية المتفق عليها دوليا، وإذ يعيد تأكيد الالتزامات الواردة فيها،</p>
+      </container>
+      <container name="وإذ يشير أيضا" eId="container_6">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير أيضا</span> إلى دخول اتفاق باريس حيز النفاذ في 4 تشرين الثاني/نوفمبر 2016<sup>(</sup><authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	()	انظر <a href="https://undocs.org/ar/FCCC/CP/2015/10/Add.1">FCCC/CP/2015/10/Add.1</a>، المقرر 1/م أ-21، المرفق.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ يشير كذلك" eId="container_7">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير كذلك</span> إلى أن الجمعية العامة اعترفت في قرارها <a href="https://undocs.org/ar/A/RES/78/153">78/153</a> المؤرخ 19 كانون الأول/ ديسمبر 2023 بأن اتخاذ إجراءات بشأن التكيف مع تغير المناخ أولوية ملحة وتحد عالمي أمام جميع البلدان، ولا سيما البلدان المعرضة للآثار الضارة لتغير المناخ، وشددت على الحاجة الملحة إلى تعزيز الإجراءات والدعم، بما في ذلك التمويل وبناء القدرات ونقل التكنولوجيا، لتعزيز القدرة على التكيف، وزيادة القدرة على الصمود، والحد من الضعف حيال تغير المناخ وفقا لأفضل المعلومات العلمية المتاحة، مع مراعاة أولويات واحتياجات البلدان النامية،</p>
+      </container>
+      <container name="وإذ يلاحظ بقلق بالغ" eId="container_8">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يلاحظ بقلق بالغ</span> الوقع السلبي الحاد والمأساوي لجائحة مرض فيروس كورونا (كوفيد-19) على صحة الإنسان، والفقر وعدم المساواة على الصعيد العالمي، والسلامة، والرفاه، وما تعرضت له المجتمعات والاقتصادات من اختلالات شديدة، وما ألحقته الجائحة من دمار بحياة الناس وسبل عيشهم، وأن أشد الفئات فقرا وضعفا هي الأكثر تضررا من الجائحة،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_9">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يؤكد من جديد</span> الطموح، بعد جائحة كوفيد-19، للعودة إلى المسار الصحيح لتحقيق أهداف التنمية المستدامة عن طريق وضع وتنفيذ استراتيجيات للتعافي تتسم بالاستدامة والشمول من أجل التعجيل بالتقدم صوب تنفيذ خطة التنمية المستدامة لعام 2030 تنفيذا كاملا والمساعدة على الحد من مخاطر الصدمات والأزمات والجوائح في المستقبل وبناء القدرة على الصمود في وجهها، بسبل من بينها التمويل وتعزيز النظم الصحية وتوفير التغطية الصحية الشاملة، وإذ يسلّم بأن حصول الجميع على نحو منصف وفي الوقت المناسب على اللقاحات ووسائل العلاج والتشخيص المتعلقة بكوفيد-19 والتي تكون مأمونة وجيدة وفعالة وميسورة التكلفة هو من صميم التدابير العالمية المتخَذة على أساس الوحدة والتضامن والتعاون المتعدد الأطراف المتجدد ومبدأ ألا يترك أحد خلف الركب،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_10">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير</span> إلى أن مؤتمر الأمم المتحدة للتجارة والتنمية يعمل بوصفه أمانة اللجنة،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_11">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يسلم</span> بأن الجمعية العامة شجعت، في قراريها <a href="https://undocs.org/ar/A/RES/76/213">76/213</a> المؤرخ 17 كانون الأول/ديسمبر 2021 و <a href="https://undocs.org/ar/A/RES/78/160">78/160</a> المؤرخ 19 كانون الأول/ديسمبر 2023 المتعلقين بتسخير العلم والتكنولوجيا والابتكار لأغراض التنمية، مؤتمر الأمم المتحدة للتجارة والتنمية على أن يواصل إجراء استعراضات السياسات المتعلقة بالعلم والتكنولوجيا والابتكار بهدف مساعدة البلدان النامية على تحديد الأولويات والتدابير اللازم اتخاذها لإدماج السياسات المتعلقة بالعلم والتكنولوجيا والابتكار في استراتيجياتها الإنمائية الوطنية، وكفالة دعم هذه السياسات والبرامج لخطط التنمية الوطنية،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_12">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير</span> إلى مقرر المجلس الاقتصادي والاجتماعي 2021/254 المؤرخ 22 تموز/يوليه 2021 الذي ينص على تمديد ولاية المجلس الاستشاري للقضايا الجنسانية التابع للجنة حتى عام 2025، وإلى قرارات الجمعية العامة <a href="https://undocs.org/ar/A/RES/70/132">70/132</a> المؤرخ 17 كانون الأول/ديسمبر 2015 و <a href="https://undocs.org/ar/A/RES/70/213">70/213</a> و <a href="https://undocs.org/ar/A/RES/70/219">70/219</a> المؤرخين 22 كانون الأول/ديسمبر 2015 التي تتصدى على التوالي للعقبات التي تحول دون وصول المرأة والفتاة على قدم المساواة إلى العلم والتكنولوجيا، ولإدماج المنظور الجنساني في السياسات والبرامج الإنمائية،</p>
+      </container>
+      <container name="وإذ يلاحظ مع القلق" eId="container_13">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يلاحظ مع القلق</span> أوجه التفاوت القائمة بين البلدان المتقدمة النمو والبلدان النامية من حيث الظروف والإمكانيات والقدرات اللازمة لإنتاج معارف علمية وتكنولوجية جديدة، وإذ يشدد على أن التعاون والعمل المشترك في مجال العلم والتكنولوجيا والابتكار، فضلا عن الدعم الدولي، أمور أساسية في النهوض بقدرة البلدان النامية على الاستفادة من أوجه التقدم التكنولوجي، وإنتاج المعارف العلمية والتكنولوجية والابتكارية والاعتناء بها وتحصيلها واستيعابها واختيار اللائق منها وتكييفها والانتفاع بها،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_14">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير </span>إلى الاستنتاجات المتفق عليها للجنة وضع المرأة بشأن تمكين المرأة اقتصاديا في عالم العمل الآخذ في التغير، التي اعتمدتها اللجنة في دورتها الحادية والستين<sup>(</sup><authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">	()	<span class="italic">الوثائق الرسمية للمجلس الاقتصادي والاجتماعي، 2017، الملحق رقم 7</span> (<a href="https://undocs.org/ar/E/2017/27">E/2017/27</a>)، الفصل الأول، الفرع ألف.</p></authorialNote><sup>)</sup> وأكدت فيها جملة أمور منها الحاجة إلى إدارة التغيير التكنولوجي والرقمي لتمكين المرأة اقتصاديا، لأغراض منها بوجه خاص تعزيز قدراتها، بما في ذلك القدرات المؤسسية للبلدان النامية، بغية تمكين المرأة من تسخير العلوم والتكنولوجيا لأغراض ريادة الأعمال والتمكين الاقتصادي في عالم العمل الآخذ في التغير،</p>
+      </container>
+      <container name="وإذ يشير أيضا" eId="container_15">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير أيضا </span>إلى الوثيقة الختامية للمنتدى بعنوان ”الاستثمار في المرأة والفتاة في ميدان العلوم من أجل النمو الأخضر الشامل للجميع“، الذي عقد في نيويورك يومي 11 و 12 شباط/فبراير 2019 للاحتفال باليوم الدولي للمرأة والفتاة في ميدان العلوم<sup>(</sup><authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">	()	<a href="https://undocs.org/ar/A/73/798">A/73/798</a>، المرفق الأول.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ يشير كذلك" eId="container_16">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير كذلك</span> إلى عمل اللجنة المعنية بتسخير العلم والتكنولوجيا لأغراض التنمية بشأن تطبيق منظور جنساني على العلم والتكنولوجيا والابتكار في حلقة العمل التي عقدت في فيينا في 18 كانون الثاني/يناير 2019، وخلال الدورة الرابعة والعشرين للجنة المعقودة في 21 أيار/مايو 2021، وكذلك إلى عمل اللجنة بشأن التعامل مع مشاركة المرأة في العلم والتكنولوجيا والابتكار من منظور إنمائي، بما في ذلك عملها بالشراكة مع جامعة أوكاياما بشأن الباحثات الشابات، إضافة إلى الحلقات الدراسية وحلقات العمل بشأن العلم والتكنولوجيا والابتكار التي ينظمها مؤتمر الأمم المتحدة للتجارة والتنمية بوصفه أمانة اللجنة،</p>
+      </container>
+      <container name="وإذ يحيط علما" eId="container_17">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يحيط علما</span> بأهمية توخي معالجة مختلف جوانب الفجوات الرقمية، لا سيما الفجوة الرقمية بين الجنسين، في سياسات وبرامج تنمية العلم والتكنولوجيا والابتكار، على النحو الذي تطرقت إليه الشراكة العالمية EQUALS ومبادرة #eSkills4Girls التي أطلقتها مجموعة العشرين،</p>
+      </container>
+      <container name="وإذ يشجع" eId="container_18">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشجع</span> المبادرات الرامية إلى تعزيز دور المرأة في مجال العلم والتكنولوجيا والابتكار في البلدان النامية، بما في ذلك جوائز لوريال - اليونسكو للمرأة في مجال العلوم، وبرنامج الزمالات للنساء في بداية مسيرتهن المهنية التابع لمنظمة العالم النامي للمرأة في مجال العلوم، وجوائز كوامي نكروما للتميز العلمي للمرأة التابعة للاتحاد الأفريقي،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_19">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يسلم</span> بأن القدرات من قبيل التعليم الأساسي، والعلم، والتكنولوجيا، والمهارات الهندسية والرياضيات، ومهارات التصميم والإدارة وتنظيم المشاريع، محورية لفعالية الابتكار، ولكنها غير موزعة بالتساوي بين البلدان والمناطق وداخلها، وأن توافر تعليم جيد في مجالات العلم والتكنولوجيا والرياضيات وإمكانية الحصول عليه والقدرة على تحمل تكاليفه في مراحل التعليم الابتدائي والثانوي والجامعي، عوامل لا غنى عنها وينبغي تمويلها وتعزيزها وتنسيقها وإعطاؤها الأولوية، بغية تهيئة بيئة اجتماعية شاملة للجميع ومواتية للنهوض بالعلم والتكنولوجيا والابتكار،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_20">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير</span> إلى قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/70/1">70/1</a> المؤرخ 25 أيلول/سبتمبر 2015 المعنون ”تحويل عالمنا: خطة التنمية المستدامة لعام 2030“، الذي اعتمدت فيه الجمعية العامة مجموعة شاملة وبعيدة المدى من أهداف وغايات التنمية المستدامة العالمية التي تركّز على الناس وتفضي إلى التحوّل،</p>
+      </container>
+      <container name="وإذ يدرك" eId="container_21">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يدرك</span> الدور الأساسي للعلم والتكنولوجيا والابتكار، إلى جانب تكنولوجيا المعلومات والاتصالات، في تحقيق عدد من أهداف التنمية المستدامة، ومن ثم يسلط الضوء على دورها كعوامل تمكين لخطة عام 2030 من أجل مواصلة التصدي للتحديات العالمية،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_22">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير</span> إلى قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/69/313">69/313</a> المؤرخ 27 تموز/يوليه 2015 المتعلق بخطة عمل أديس أبابا الصادرة عن المؤتمر الدولي الثالث لتمويل التنمية، وإذ يشير أيضا إلى إنشاء آلية تيسير التكنولوجيا،</p>
+      </container>
+      <container name="وإذ يسلط الضوء" eId="container_23">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يسلط الضوء</span> على المساهمة التي يمكن أن تقدمها اللجنة المعنية بتسخير العلم والتكنولوجيا لأغراض التنمية لآلية تيسير التكنولوجيا، مع مراعاة الولاية المنوطة به في تعزيز التعاون والشراكات بين أصحاب المصلحة المتعددين من خلال تبادل المعلومات والخبرات، وأفضل الممارسات والمشورة في مجال السياسات بين الدول الأعضاء والمجتمع المدني والقطاع الخاص والأوساط العلمية والأكاديمية وكيانات الأمم المتحدة والجهات الأخرى صاحبة المصلحة من أجل تحقيق أهداف التنمية المستدامة بدعم من العلم والتكنولوجيا والابتكار،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_24">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير</span> إلى أن الجمعية العامة شجَّعت، في قرارها <a href="https://undocs.org/ar/A/RES/72/228">72/228</a> المؤرخ 20 كانون الأول/ ديسمبر 2017، اللجنة على أن تنهض، وفقا لروح خطة عام 2030 وخطة عمل أديس أبابا، بالتعاون الدولي في ميدان تسخير العلم والتكنولوجيا لأغراض التنمية،</p>
+      </container>
+      <container name="وإذ يشير أيضا" eId="container_25">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير أيضا</span> إلى أن الجمعية العامة شجَّعت، في القرار ذاته، اللجنة على مناقشة واستكشاف نماذج تمويل ابتكارية كوسيلة لاجتذاب جهات جديدة من أصحاب المصلحة والمبتكرين ومصادر رأس المال الاستثماري اللازم لمجالات العلم والتكنولوجيا والهندسة ولإيجاد حلول مستندة إلى الابتكار، بالتعاون مع المنظمات الأخرى، على الصعيدين الإقليمي والمتعدد الأطراف، حسب الاقتضاء،</p>
+      </container>
+      <container name="وإذ يلاحظ" eId="container_26">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يلاحظ</span> أن التغير التكنولوجي السريع يمكن أن يسهم في التعجيل بتحقيق خطة عام 2030 عن طريق تحسين الدخول الحقيقية، وإتاحة نشر حلول جديدة للعقبات الاقتصادية والاجتماعية والبيئية على نحو أسرع وأوسع نطاقا، ودعم أشكال أكثر شمولا للمشاركة في الحياة الاجتماعية والاقتصادية، وسد الفجوات الرقمية بجميع أشكالها، والاستعاضة عن أنماط الإنتاج الضارة بالبيئة بأنماط أكثر استدامة، وتزويد واضعي السياسات بأدوات قوية لتصميم التدخلات الإنمائية والتخطيط لها،</p>
+      </container>
+      <container name="وإذ يلاحظ أيضا" eId="container_27">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يلاحظ أيضا</span> أن التكنولوجيا الجديدة تخلق فرصا جديدة للعمل والتنمية، ما يزيد بالتالي من الطلب على المهارات والكفاءات الرقمية، وإذ يشدد على أهمية بناء المهارات والكفاءات الرقمية، لكي تكون المجتمعات قادرة على التكيف مع التغيرات التكنولوجية ذات الصلة والاستفادة منها،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_28">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير</span> إلى قرارات الجمعية العامة <a href="https://undocs.org/ar/A/RES/72/242">72/242</a> المؤرخ 22 كانون الأول/ديسمبر 2017 و <a href="https://undocs.org/ar/A/RES/73/17">73/17</a> المؤرخ 26 تشرين الثاني/نوفمبر 2018 و <a href="https://undocs.org/ar/A/RES/75/316">75/316</a> المؤرخ 17 آب/أغسطس 2021 و <a href="https://undocs.org/ar/A/RES/77/320">77/320</a> المؤرخ 25 تموز/يوليه 2023، التي طلبت فيها الجمعية إلى آلية تيسير التكنولوجيا وإلى اللجنة، عن طريق المجلس الاقتصادي والاجتماعي، إيلاء الاعتبار الواجب لأثر التغيرات التكنولوجية السريعة الرئيسية على تحقيق أهداف التنمية المستدامة، كل في حدود ولايته وموارده المتاحة،</p>
+      </container>
+      <container name="وإذ يرحب" eId="container_29">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يرحب</span> بعمل اللجنة فيما يتعلق بموضوعيها ذوي الأولوية الراهنين، وهما ”تسخير البيانات لأغراض التنمية“ و ”التعاون العالمي في مجال تسخير العلم والتكنولوجيا والابتكار لأغراض التنمية“،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_30">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير</span> إلى إطار الاستعراضات الوطنية للسياسات المتعلقة بالعلم والتكنولوجيا والابتكار الذي وضعه مؤتمر الأمم المتحدة للتجارة والتنمية من أجل مساعدة البلدان في تحسين مواءمة السياسات المتعلقة بالعلم والتكنولوجيا والابتكار مع خطة عام 2030 وأهداف التنمية المستدامة<sup>(</sup><authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">	()	مؤتمر الأمم المتحدة للتجارة والتنمية، الوثيقة UNCTAD/DTL/STICT/2019/4.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_31">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يسلم</span> بضرورة اتباع نُهج مبتكرة تلبي احتياجات المجتمعات الأكثر فقرا والمهمشة والشعبية، بما في ذلك المجتمعات التي تعيش أوضاعا هشة، في البلدان النامية والمتقدمة، مع حماية بياناتهم الشخصية من إساءة الاستخدام واحترام ملكية البيانات الشخصية، وتشركها في عمليات الابتكار وتدمج بناء القدرات في مجالات العلم والتكنولوجيا والابتكار باعتبارها عنصرا حيويا في خطط التنمية الوطنية، بسبل منها التعاون بين الوزارات المعنية والهيئات التنظيمية،</p>
+      </container>
+      <container name="وإذ يسلم أيضا" eId="container_32">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يسلم أيضا</span> بأهمية حماية البيانات والخصوصية في سياق تسخير العلم والتكنولوجيا لأغراض التنمية،</p>
+      </container>
+      <container name="وإذ يسلم كذلك" eId="container_33">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يسلم كذلك</span> بأن عمليات استشراف آفاق التكنولوجيا وتقييمها، بما في ذلك التكنولوجيات المراعية للمنظور الجنساني وللبيئة، يمكن أن تساعد واضعي السياسات وأصحاب المصلحة في تنفيذ خطة عام 2030، من خلال كشف التحديات والفرص التي يمكن معالجتها من الناحية الاستراتيجية، وبأنه ينبغي تحليل اتجاهات التكنولوجيا، مع مراعاة السياق الاجتماعي الاقتصادي بشكل أعم،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_34">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يسلم</span> بأن النظم الإيكولوجية الابتكارية والرقمية المتطورة بشكل جيد<sup>(</sup><authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">	()	تشمل النظم الإيكولوجية الرقمية مكونات من قبيل الهياكل الأساسية التكنولوجية، والهياكل الأساسية للبيانات، والهياكل الأساسية المالية، والهياكل الأساسية المؤسسية، والهياكل الأساسية البشرية.</p></authorialNote><sup>)</sup> تؤدي دورا أساسيا في التنمية الرقمية الفعلية وفي تيسير العلم والتكنولوجيا والابتكار،</p>
+      </container>
+      <container name="وإذ يسلم أيضا" eId="container_35">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يسلم أيضا</span> بتزايد جهود التكامل على الصعيد الإقليمي في جميع أنحاء العالم وبالبعد الإقليمي لمسائل العلم والتكنولوجيا والابتكار المرتبط بذلك،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_36">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير</span> إلى الوثيقة الختامية لمؤتمر الأمم المتحدة للتنمية المستدامة الذي عقد في ريو دي جانيرو، البرازيل، في الفترة من 20 إلى 22 حزيران/يونيه 2012، المعنونة ”المستقبل الذي نصبو إليه“<sup>(</sup><authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">	()	قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/66/288">66/288</a>، المرفق.</p></authorialNote><sup>)</sup>، بما في ذلك ما ورد فيها من مبادئ،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_37">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يسلم</span> بضرورة تجديد الالتزامات بحشد التمويل للابتكار وزيادته، ولا سيما في البلدان النامية وأقل البلدان نموا والبلدان النامية غير الساحلية والدول الجزرية الصغيرة النامية، دعما لأهداف التنمية المستدامة،</p>
+      </container>
+      <container name="وإذ يسلم أيضا" eId="container_38">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يسلم أيضا</span> بأن الناس في جميع أنحاء العالم يتضررون من جراء الصدمات، بدءا من الأزمات الاقتصادية ووصولا إلى حالات الطوارئ الصحية، ومن النزاعات الاجتماعية والحروب إلى الكوارث الناجمة عن الأخطار الطبيعية، وبأن هذه الصدمات لها تأثير شديد على إحراز تقدم نحو تحقيق التنمية المستدامة،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_39">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير</span> إلى أن الجمعية العامة أهابت، في قرارها <a href="https://undocs.org/ar/A/RES/74/306">74/306</a> المؤرخ 11 أيلول/سبتمبر 2020، بالدول الأعضاء وبجميع الجهات المعنية ذات المصلحة أن تشجع مبادرات البحث والتطوير وبناء القدرات، وأن تعزز التعاون في مجالات العلوم والابتكار والتكنولوجيات والمساعدة التقنية وتبادل المعارف، وفي الاستفادة من ذلك كله، بوسائل منها تحسين التنسيق فيما بين الآليات القائمة، ولا سيما مع البلدان النامية، على أسس من التعاون والتنسيق والشفافية، في إطار مواجهة جائحة كوفيد-19 وفي أفق تحقيق أهداف التنمية المستدامة،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_40">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يسلم</span> بالعلاقة المعقدة بين البيانات والتنمية المستدامة وبتعقد إدارة البيانات،</p>
+      </container>
+      <container name="وإذ يأخذ في اعتباره" eId="container_41">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يأخذ في اعتباره</span> أهمية التعاون الدولي في مجال العلم والتكنولوجيا والابتكار لتحقيق التزام المجتمع الدولي بالتنمية المستدامة وعدم ترك أي أحد خلف الركب، ودور الشراكات العالمية في تيسير المشاركة في إيجاد حلول عالمية للتصدي للتحديات العالمية،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_42">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير</span> إلى قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/78/259">78/259</a> المؤرخ 9 كانون الثاني/يناير 2024 بشأن اليوم الدولي للعلم والتكنولوجيا والابتكار لبلدان الجنوب، ولا سيما دعوتها المجتمع الدولي إلى أن ينشئ فضاء مفتوحا وعادلا وشاملا وغير تمييزي للتنمية والتعاون العلميين والتكنولوجيين، وأن يدعم الجهود التي تبذلها جميع البلدان، بما فيها بلدان الجنوب، لتطوير وتعزيز نظمها الوطنية للعلم والتكنولوجيا والابتكار،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_43">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يسلم</span> بمساهمة العلم والتكنولوجيا والابتكار في بناء مجتمعات قادرة على التكيف عن طريق تمكين الناس، بمن فيهم أولئك الذين يعيشون أوضاعاً هشة، وإسماع صوتهم بوسائل منها توسيع نطاق الحصول على التعليم والرعاية الصحية، ورصد المخاطر البيئية والاجتماعية، والربط بين الناس، وتمكين نظم الإنذار المبكر، وحفز التنويع الاقتصادي، والتنمية الاقتصادية، مع النظر في الآثار السلبية على البيئة،</p>
+      </container>
+      <container name="وإذ يلاحظ" eId="container_44">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يلاحظ</span> الإنجازات الكبيرة وإمكانات الإسهام المتواصل للعلم والتكنولوجيا والابتكار ولتكنولوجيا المعلومات والاتصالات في تحقيق رفاه الإنسان والازدهار الاقتصادي وتوفير العمالة،</p>
+      </container>
+      <container name="وإذ يلاحظ أيضا" eId="container_45">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يلاحظ أيضا</span> وجوب مواءمة السياسات المتعلقة بالعلم والتكنولوجيا والابتكار لمعالجة أبعاد التنمية المستدامة الثلاثة، وعلى وجه التحديد، التنمية الاقتصادية والتقدم الاجتماعي وحماية البيئة،</p>
+      </container>
+      <container name="وإذ يأخذ في الاعتبار" eId="container_46">
+          <p xml:space="preserve">	<span class="bold italic">وإذ يأخذ في الاعتبار</span> أن المعارف التقليدية يمكن أن تشكل أساساً للتنمية التكنولوجية وفي إدارة الموارد الطبيعية واستخدامها بشكل مستدام،</p>
+      </container>
+      <container name="وإذ يشجع" eId="container_47">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشجع</span> على وضع وتنفيذ سياسات عامة تتناول أثر التغير التكنولوجي السريع على تحقيق أهداف التنمية المستدامة،</p>
+      </container>
+      <container name="وإذ يلاحظ" eId="container_48">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يلاحظ</span> أن النجاح في تطبيق السياسات المتعلقة بالتكنولوجيا والابتكار على الصعيد الوطني يتيسر بأمور منها تهيئة بيئات السياسات التي تمكن مؤسسات التعليم والبحث والأعمال التجارية والقطاعات الصناعية من الابتكار والاستثمار ومن تحويل العلم والتكنولوجيا والابتكار إلى فرص عمل ونمو اقتصادي بإدماج جميع العناصر المترابطة، بما في ذلك نقل المعرفة ودعم المساعدة المالية والتقنية،</p>
+      </container>
+      <container name="وإذ يلاحظ أيضا" eId="container_49">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يلاحظ أيضا</span> المبادرات المتنوعة الجارية والمقبلة في مجالات العلم والتكنولوجيا والابتكار والرامية إلى استكشاف الاحتياجات والأولويات المتصلة بالمسائل المرتبطة بأهداف التنمية المستدامة،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_50" class="MercuryDocument">
+        <content eId="para_50__content">
+          <p xml:space="preserve">	<span class="bold italic">يوصي</span> بأن تنظر الحكومات الوطنية واللجنة المعنية بتسخير العلم والتكنولوجيا لأغراض التنمية ومؤتمر الأمم المتحدة للتجارة والتنمية فيما يلي:</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="MercuryDocument">
+        <num>(أ)</num>
+        <list eId="para_51_list">
+          <intro eId="para_51_list_intro">
+            <p xml:space="preserve">	تُشجَّع الحكومات، فرادى وجماعات، على أخذ الاستنتاجات التي تتوصل إليها اللجنة في الاعتبار والنظر في اتخاذ الإجراءات التالية:</p>
+          </intro>
+          <point eId="para_51_list_point_’1‘">
+            <num>’1‘</num>
+            <content eId="para_51_list_point_’1‘_content">
+              <p xml:space="preserve">	إقامة صلة وثيقة بين العلم والتكنولوجيا والابتكار واستراتيجيات التنمية المستدامة، وإعطاء مكانة بارزة لبناء القدرات المؤسسية وقدرات البنية التحتية والموارد البشرية في مجال تكنولوجيا المعلومات والاتصالات والعلم والتكنولوجيا والابتكار في الرؤية والتخطيط المستقبليين للتنمية الوطنية؛</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_’2‘">
+            <num>’2‘</num>
+            <content eId="para_51_list_point_’2‘_content">
+              <p xml:space="preserve">	تعزيز قدرات الابتكار المحلية لأغراض التنمية الاقتصادية الشاملة للجميع والمستدامة عن طريق الجمع بين المعارف العلمية والمهنية والهندسية المحلية، وتعبئة الموارد من مصادر متعددة، وتحسين تكنولوجيا المعلومات والاتصالات الأساسية، ودعم تطوير الهياكل الأساسية، بما في ذلك الهياكل الأساسية الذكية، عن طريق التعاون في صلب البرامج الوطنية وفيما بينها؛</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_’3‘">
+            <num>’3‘</num>
+            <content eId="para_51_list_point_’3‘_content">
+              <p xml:space="preserve">	تشجيع ودعم الجهود المبذولة في مجالات العلم والتكنولوجيا والابتكار في سبيل تطوير الهياكل الأساسية والسياسات التي تدعم التوسع العالمي للهياكل الأساسية لتكنولوجيا المعلومات والاتصالات ومنتجاتها وخدماتها، بما في ذلك إتاحة حصول الناس كافة، ولا سيما النساء والفتيات والشباب، والأشخاص من ذوي الاحتياجات الخاصة ومن المجتمعات المحلية النائية والريفية على الإنترنت العريض النطاق، وتحفيز مساعي أصحاب المصلحة المتعددين المبذولة لتسريع نمو عدد المستعملين الجدد للإنترنت، والسعي إلى تحسين القدرة على تحمل تكاليف هذه المنتجات والخدمات؛</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_’4‘">
+            <num>’4‘</num>
+            <content eId="para_51_list_point_’4‘_content">
+              <p xml:space="preserve">	إجراء بحوث منهجية، تشمل الجوانب المراعية للاعتبارات الجنسانية، للاضطلاع بعمليات استشرافية، تتناول الاتجاهات الجديدة في العلم والتكنولوجيا والابتكار وتكنولوجيا المعلومات والاتصالات وتأثيرها على التنمية، ولا سيما في سياق خطة التنمية المستدامة لعام 2030؛</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_’5‘">
+            <num>’5‘</num>
+            <content eId="para_51_list_point_’5‘_content">
+              <p xml:space="preserve">	العمل، بالاستعانة بإسهامات طائفة متنوعة من أصحاب المصلحة، بما في ذلك وكالات الأمم المتحدة ذات الصلة وجميع الكيانات والمنتديات المعنية، من قبيل اللجنة، والمنتدى المتعدد أصحاب المصلحة المعني بتسخير العلم والتكنولوجيا والابتكار لأغراض أهداف التنمية المستدامة، على صياغة واعتماد وتنفيذ سياسات متعلقة بالعلم والتكنولوجيا والابتكار تهدف إلى الإسهام في تنفيذ الأهداف؛</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_’6‘">
+            <num>’6‘</num>
+            <content eId="para_51_list_point_’6‘_content">
+              <p xml:space="preserve">	مواصلة إيلاء الاعتبار الواجب لأثر التغيرات التكنولوجية السريعة الرئيسية على تحقيق أهداف التنمية المستدامة كلٌّ في حدود ولايته وموارده المتاحة، وفقا لقرارات الجمعية العامة <a href="https://undocs.org/ar/A/RES/72/242">72/242</a> و <a href="https://undocs.org/ar/A/RES/73/17">73/17</a> و <a href="https://undocs.org/ar/A/RES/75/316">75/316</a> و <a href="https://undocs.org/ar/A/RES/77/320">77/320</a>؛</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_’7‘">
+            <num>’7‘</num>
+            <content eId="para_51_list_point_’7‘_content">
+              <p xml:space="preserve">	استخدام عمليات الاستشراف الاستراتيجي لتحديد الفجوات أو القيود المحتملة في التعليم للأجلين المتوسط والطويل، والعمل على سدها بمزيج من السياسات، منها مراعاة الاحتياجات المحددة للنساء والفتيات في تعزيز التعليم المراعي للمنظور الجنساني في مجالات العلم والتكنولوجيا والهندسة والرياضيات والتدريب المهني، والإلمام الرقمي والإلمام بالبيانات؛</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_’8‘">
+            <num>’8‘</num>
+            <content eId="para_51_list_point_’8‘_content">
+              <p xml:space="preserve">	استخدام الاستشراف الاستراتيجي كعملية لتشجيع النقاش المنظم بين جميع أصحاب المصلحة، بما في ذلك ممثلو الدوائر الحكومية والأوساط العلمية والصناعية والمجتمع المدني والقطاع الخاص، وخاصة المؤسسات الصغيرة والمتوسطة، من أجل بلورة فهم مشترك للقضايا الطويلة الأجل، من قبيل الطابع المتغير للعمل وبناء توافق للآراء بشأن السياسات المقبلة، والمساعدة على تلبية الطلبات الحالية والناشئة على الكفاءات والتكيف مع التغيرات؛</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_’9‘">
+            <num>’9‘</num>
+            <content eId="para_51_list_point_’9‘_content">
+              <p xml:space="preserve">	دمج عملية توفير الكفاءات الرقمية، بما في ذلك على سبيل المثال لا الحصر، مباشرة الأعمال الحرة والمهارات الشخصية التكميلية، في التعليم والتدريب في المجالين التقني والمهني ومناهج التعليم الرسمي ومبادرات التعلم مدى الحياة، مع مراعاة الممارسات الفضلى والسياقات والاحتياجات المحلية، وكفالة المعرفة التكنولوجية الواسعة النطاق والحديثة وحيادية التعليم من الناحية التكنولوجية؛</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_’10‘">
+            <num>’10‘</num>
+            <content eId="para_51_list_point_’10‘_content">
+              <p xml:space="preserve">	وضع آليات تعاونية لتعزيز شبكات البحث والتطوير والتعاون بين مختلف الجهات الفاعلة، فضلا عن تشجيع اتباع نهج متعدد التخصصات في التعاون العلمي، وتحفيز نقل التكنولوجيا والمعرفة بين الجامعات ومعاهد البحوث والقطاع الخاص، بما في ذلك على المستوى الدولي؛</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_’11‘">
+            <num>’11‘</num>
+            <content eId="para_51_list_point_’11‘_content">
+              <p xml:space="preserve">	تهيئة بيئة مفتوحة وعادلة وشاملة للتنمية والتعاون العلميين والتكنولوجيين؛</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_’12‘">
+            <num>’12‘</num>
+            <content eId="para_51_list_point_’12‘_content">
+              <p xml:space="preserve">	إطلاق مبادرات استشراف استراتيجي بشأن التحديات العالمية والإقليمية على فترات منتظمة والتعاون في إنشاء نظام لرسم المعالم لاستعراض وتبادل نتائج استشراف آفاق التكنولوجيا، بما في ذلك المشاريع التجريبية، مع الدول الأعضاء الأخرى، بالاستعانة بالآليات الإقليمية القائمة، وبالتعاون مع أصحاب المصلحة ذوي الصلة؛</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_’13‘">
+            <num>’13‘</num>
+            <content eId="para_51_list_point_’13‘_content">
+              <p xml:space="preserve">	إجراء عمليات لتقييم واستشراف آثار التكنولوجيا كعملية لتشجيع النقاش المنظم بين جميع أصحاب المصلحة من أجل بلورة فهم مشترك للآثار المترتبة على التغير التكنولوجي السريع؛</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_’14‘">
+            <num>’14‘</num>
+            <content eId="para_51_list_point_’14‘_content">
+              <p xml:space="preserve">	تشجيع استعراض التقدم المحرز في دمج العلم والتكنولوجيا والابتكار في تحقيق أهداف التنمية المستدامة؛</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_’15‘">
+            <num>’15‘</num>
+            <content eId="para_51_list_point_’15‘_content">
+              <p xml:space="preserve">	إجراء تقييمات لنظم الابتكار الوطنية، بما في ذلك النظم الإيكولوجية الرقمية، مع مراعاة احتياجات النساء والفتيات والجوانب المراعية للاعتبارات الجنسانية، بالاستفادة من عمليات الاستشراف، على فترات منتظمة، من أجل تحديد مواطن الضعف في تلك النظم واتخاذ إجراءات تدخل سياساتية فعالة لتقوية أضعف مكوناتها، ووضع النتائج التي يتم التوصل إليها في متناول الدول الأعضاء الأخرى، والقيام، على أساس طوعي، بتقديم الدعم المالي والخبرة الفنية من أجل تنفيذ إطار الاستعراضات الوطنية للسياسات المتعلقة بالعلم والتكنولوجيا والابتكار في البلدان النامية المهتمة؛</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_’16‘">
+            <num>’16‘</num>
+            <content eId="para_51_list_point_’16‘_content">
+              <p xml:space="preserve">	تشجيع المستعملين الرقميين المخضرمين على القيام بدور رئيسي في اعتماد نهج مجتمعي في بناء القدرات، يشمل النُهج المراعية للاعتبارات الجنسانية، في مجالات العلم والتكنولوجيا والابتكار، وتيسير استخدام تكنولوجيا المعلومات والاتصالات في سياق خطة عام 2030؛</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_’17‘">
+            <num>’17‘</num>
+            <content eId="para_51_list_point_’17‘_content">
+              <p xml:space="preserve">	وضع سياسات شاملة تدعم تطوير نظم إيكولوجية رقمية، مع مراعاة إمكانات تفوق التكنولوجيا الرقمية الناشئة على التكنولوجيا الراهنة من أجل التنمية، وتراعي السياق الاجتماعي الاقتصادي والسياسي للبلدان، وتجتذب وتدعم الاستثمار الخاص والابتكار، بما يشجع على الخصوص تطوير المحتوى ومباشرة الأعمال الحرة على الصعيد المحلي وإتاحة مصادر البيانات المفصلة للعلم والتكنولوجيا والابتكار؛</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_’18‘">
+            <num>’18‘</num>
+            <content eId="para_51_list_point_’18‘_content">
+              <p xml:space="preserve">	تنفيذ المبادرات والبرامج التي تشجع وتيسر الاستثمار المستدام والمشاركة في الاقتصاد الرقمي؛</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_’19‘">
+            <num>’19‘</num>
+            <content eId="para_51_list_point_’19‘_content">
+              <p xml:space="preserve">	التعاون مع جميع أصحاب المصلحة ذوي الصلة، وتعزيز تطبيق تكنولوجيا المعلومات والاتصالات في جميع القطاعات، وتحسين الاستدامة البيئية، وتشجيع إنشاء وإعادة استخدام وتقاسم مرافق مناسبة لإعادة تدوير النفايات الإلكترونية والتخلص منها، وتعزيز أنماط الإنتاج والاستهلاك المستدامين؛</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_’20‘">
+            <num>’20‘</num>
+            <content eId="para_51_list_point_’20‘_content">
+              <p xml:space="preserve">	تعزيز التعليم في مجالات العلم والتكنولوجيا والهندسة والرياضيات والمعرفة الإحصائية، ولا سيما بين التلميذات، مع الاعتراف أيضا بأهمية المهارات الشخصية التكميلية، من قبيل مباشرة الأعمال الحرة، من خلال التشجيع على توجيه النساء والفتيات ودعم الجهود الأخرى المبذولة لاجتذابهن إلى تلك المجالات واستبقائهن فيها، فضلا عن إدماج منظور جنساني عند وضع وتنفيذ السياسات التي تسخِّر العلم والتكنولوجيا والابتكار؛</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_’21‘">
+            <num>’21‘</num>
+            <content eId="para_51_list_point_’21‘_content">
+              <p xml:space="preserve">	دعم سياسات البلدان النامية وأنشطتها في ميداني العلم والتكنولوجيا من خلال التعاون فيما بين بلدان الشمال والجنوب والتعاون بين بلدان الجنوب، باعتبار كل منهما مكملا للآخر وليس بديلا له، عن طريق تشجيع المساعدة المالية والتقنية، وبناء القدرات، ونقل التكنولوجيا على أساس أحكام وشروط متفق عليها، وبرامج أو دورات التدريب التقني؛</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_’22‘">
+            <num>’22‘</num>
+            <content eId="para_51_list_point_’22‘_content">
+              <p xml:space="preserve">	تشجيع البلدان على أن تزيد تدريجيا معدل توفير موارد بشرية ذات مهارات عالية الجودة على جميع المستويات عن طريق تهيئة بيئة مؤاتية لبناء كتلة حرجة من قدرات الموارد البشرية، وتسخير تطبيق العلم والتكنولوجيا والابتكار لأغراض تنفيذ أنشطة إضافة القيمة، في مختلف القطاعات، والمشاركة بفعالية في ذلك، وحل المشاكل، وتعزيز الرفاه البشري، مع تهيئة بيئة تمكينية لتحسين إمكانات الترقي الوظيفي وظروف العمل؛</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_’23‘">
+            <num>’23‘</num>
+            <content eId="para_51_list_point_’23‘_content">
+              <p xml:space="preserve">	زيادة الدعم المقدم لأنشطة البحث والتطوير المتعلقة بالتغير التكنولوجي السريع وكفالة اتساق السياسات والاستراتيجيات المتعلقة بالعلم والتكنولوجيا والابتكار بشأن التغير التكنولوجي السريع مع خطة التنمية الوطنية الأوسع نطاقا؛</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_’24‘">
+            <num>’24‘</num>
+            <content eId="para_51_list_point_’24‘_content">
+              <p xml:space="preserve">	النظر في المشاركة في حوار عالمي شامل بشأن جميع جوانب التغير التكنولوجي السريع وتأثيره في التنمية المستدامة؛</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_’25‘">
+            <num>’25‘</num>
+            <content eId="para_51_list_point_’25‘_content">
+              <p xml:space="preserve">	تعزيز السياسات الشاملة التي تضمن سلامة البيانات واستخدامها الأخلاقي، وممارسات الأمن السيبراني القوية؛</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_’26‘">
+            <num>’26‘</num>
+            <content eId="para_51_list_point_’26‘_content">
+              <p xml:space="preserve">	دعم السياسات التي تزيد الإدماج المالي وتعمق مصادر التمويل والاستثمارات المباشرة الموجهة نحو الابتكارات التي تتناول أهداف التنمية المستدامة؛</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_’27‘">
+            <num>’27‘</num>
+            <content eId="para_51_list_point_’27‘_content">
+              <p xml:space="preserve">	تشجيع شمولية الابتكار، ولا سيما فيما يتعلق بالمجتمعات المحلية والمهمشة والنساء والشباب وكبار السن وذوي الاحتياجات الخاصة، لكفالة أن يكون تعديل نطاق التكنولوجيات الجديدة ونشرها شاملين ولا يُحدِثان فجوات إضافية؛</p>
+            </content>
+          </point>
+          <point eId="para_51_list_point_’28‘">
+            <num>’28‘</num>
+            <content eId="para_51_list_point_’28‘_content">
+              <p xml:space="preserve">	دعم مصرف التكنولوجيا لأقل البلدان نموا بوصفه آلية لتحسين أسس البحث العلمي والابتكار لدى أقل البلدان نموا، وتعزيز التواصل بين الباحثين ومؤسسات البحوث، ومساعدة أقل البلدان نموا على الحصول على التكنولوجيات الأساسية واستخدامها، والجمع بين المبادرات الثنائية والدعم المقدم من المؤسسات المتعددة الأطراف والقطاع الخاص، وتنفيذ المشاريع التي تسهم في استخدام العلم والتكنولوجيا والابتكار لأغراض التنمية الاقتصادية في أقل البلدان نموا؛</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_52" class="MercuryDocument">
+        <num>(ب)</num>
+        <list eId="para_52_list">
+          <intro eId="para_52_list_intro">
+            <p xml:space="preserve">	تشجَّع اللجنة على القيام بما يلي:</p>
+          </intro>
+          <point eId="para_52_list_point_’1‘">
+            <num>’1‘</num>
+            <content eId="para_52_list_point_’1‘_content">
+              <p xml:space="preserve">	مواصلة الاضطلاع بدورها كحاملة للواء العلم والتكنولوجيا والابتكار وتقديم مشورة رفيعة المستوى للمجلس الاقتصادي والاجتماعي والجمعية العامة بشأن مسائل العلم والتكنولوجيا والهندسة والابتكار ذات الصلة، والمساهمة، في هذا الصدد، في توفير أساس يُسترشد به في المناقشة المواضيعية الرفيعة المستوى بشأن موضوع أثر التغير التكنولوجي السريع على تحقيق أهداف وغايات التنمية المستدامة، التي سيدعو إلى عقدها رئيس الجمعية العامة في دورتها التاسعة والسبعين، وفي المناقشة المتعلقة بالتقدم المحرز في تنفيذ قراري الجمعية العامة <a href="https://undocs.org/ar/A/RES/75/316">75/316</a> و <a href="https://undocs.org/ar/A/RES/77/320">77/320</a> التي ستجري في دورتها التاسعة والسبعين؛</p>
+            </content>
+          </point>
+          <point eId="para_52_list_point_’2‘">
+            <num>’2‘</num>
+            <content eId="para_52_list_point_’2‘_content">
+              <p xml:space="preserve">	المساعدة على تبيان أهمية دور تكنولوجيا المعلومات والاتصالات ودور العلم والتكنولوجيا والابتكار باعتبارها عناصر تمكين في خطة عام 2030، عن طريق العمل بمثابة محفل يتولى التخطيط الاستراتيجي لتوفير نظرة استشرافية بشأن الاتجاهات الفائقة الأهمية في مجالات العلم والتكنولوجيا والابتكار في القطاعات الرئيسية من الاقتصاد، وتوجيه الاهتمام إلى التكنولوجيات الجديدة والناشئة؛</p>
+            </content>
+          </point>
+          <point eId="para_52_list_point_’3‘">
+            <num>’3‘</num>
+            <content eId="para_52_list_point_’3‘_content">
+              <p xml:space="preserve">	النظر في مدى تواؤم عملها مع أعمال المحافل الدولية الأخرى المعنية بالعلم والتكنولوجيا والابتكار ومع الجهود المبذولة لدعم تنفيذ خطة عام 2030، وإسهامه فيها وتكملته لها؛</p>
+            </content>
+          </point>
+          <point eId="para_52_list_point_’4‘">
+            <num>’4‘</num>
+            <content eId="para_52_list_point_’4‘_content">
+              <p xml:space="preserve">	إذكاء الوعي بأهمية إقامة الشبكات والشراكات بين مختلف المنظمات والشبكات المعنية باستشراف آفاق التكنولوجيا وتيسير ذلك، بالتعاون مع أصحاب المصلحة الآخرين؛</p>
+            </content>
+          </point>
+          <point eId="para_52_list_point_’5‘">
+            <num>’5‘</num>
+            <content eId="para_52_list_point_’5‘_content">
+              <p xml:space="preserve">	النهوض، وفقا لروح خطة عام 2030 وخطة عمل أديس أبابا الصادرة عن المؤتمر الدولي الثالث لتمويل التنمية<sup>(</sup><authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">	()	قرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/69/313">69/313</a>، المرفق.</p></authorialNote><sup>)</sup>، بالتعاون الدولي في ميدان تسخير العلم والتكنولوجيا لأغراض التنمية، بما في ذلك بناء القدرات ونقل التكنولوجيا وفق أحكام وشروط متفق عليها؛</p>
+            </content>
+          </point>
+          <point eId="para_52_list_point_’6‘">
+            <num>’6‘</num>
+            <content eId="para_52_list_point_’6‘_content">
+              <p xml:space="preserve">	توعية واضعي السياسات بعملية الابتكار وتحديد الفرص الخاصة المتاحة للبلدان النامية للاستفادة من هذا الابتكار، مع إيلاء اهتمام خاص لاتجاهات الابتكار الجديدة التي يمكن أن تتيح إمكانيات جديدة للبلدان النامية؛</p>
+            </content>
+          </point>
+          <point eId="para_52_list_point_’7‘">
+            <num>’7‘</num>
+            <content eId="para_52_list_point_’7‘_content">
+              <p xml:space="preserve">	دعم التعاون بين أصحاب المصلحة المتعددين فيما يتعلق ببناء القدرة على التعلم في مجال السياسات، وتطوير التكنولوجيا، لأغراض منها دعم مشاركة الجهات الفاعلة في نظم الابتكار لدى الدول الأعضاء في الشبكات والبرامج الدولية لمواصلة بناء قدراتها في مجال الابتكار؛</p>
+            </content>
+          </point>
+          <point eId="para_52_list_point_’8‘">
+            <num>’8‘</num>
+            <content eId="para_52_list_point_’8‘_content">
+              <p xml:space="preserve">	دعم الجهود الرامية إلى بناء القدرة على وضع تكنولوجيات جديدة وتطوير القائم منها واستخدامها ونشرها، استنادا إلى الاحتياجات، في البلدان النامية، ولا سيما في أقل البلدان نموا والدول الجزرية الصغيرة النامية والبلدان النامية غير الساحلية؛</p>
+            </content>
+          </point>
+          <point eId="para_52_list_point_’9‘">
+            <num>’9‘</num>
+            <content eId="para_52_list_point_’9‘_content">
+              <p xml:space="preserve">	العمل بشكل استباقي على تعزيز وتنشيط الشراكات على الصعيد العالمي في مجالات العلم والتكنولوجيا والابتكار لأغراض التنمية المستدامة، الأمر الذي يستتبع مشاركة اللجنة في (أ) تجسيد استشراف آفاق التكنولوجيا في بلورة نطاق مشاريع دولية محددة من أجل إجراء بحوث محددة الهدف، وتطوير ونشر التكنولوجيا، واتخاذ مبادرات لبناء قدرات الموارد البشرية في مجالات العلم والتكنولوجيا والابتكار؛ و (ب) استكشاف نماذج تمويل ابتكارية وموارد أخرى تسهم في تعزيز قدرات البلدان النامية في المشاريع والمبادرات التعاونية في مجالات العلم والتكنولوجيا والابتكار؛</p>
+            </content>
+          </point>
+          <point eId="para_52_list_point_’10‘">
+            <num>’10‘</num>
+            <content eId="para_52_list_point_’10‘_content">
+              <p xml:space="preserve">	استكشاف سبل ووسائل إجراء عمليات دولية لتقييم واستشراف آثار التكنولوجيا فيما يتعلق بالتكنولوجيات القائمة والجديدة والناشئة وآثارها على التنمية المستدامة وبناء مجتمعات قادرة على التكيف، بما في ذلك المناقشات المتعلقة بنماذج الإدارة لمجالات التنمية العلمية والتكنولوجية الجديدة؛</p>
+            </content>
+          </point>
+          <point eId="para_52_list_point_’11‘">
+            <num>’11‘</num>
+            <content eId="para_52_list_point_’11‘_content">
+              <p xml:space="preserve">	دعم البلدان في جهودها الرامية إلى تحديد الاتجاهات المقبلة المتعلقة بالاحتياجات من بناء القدرات، بوسائل منها العمليات الاستشرافية؛</p>
+            </content>
+          </point>
+          <point eId="para_52_list_point_’12‘">
+            <num>’12‘</num>
+            <content eId="para_52_list_point_’12‘_content">
+              <p xml:space="preserve">	مناقشة واستكشاف نماذج للتمويل الابتكاري، من قبيل الاستثمار المؤثر، كوسيلة لاجتذاب جهات جديدة من الجهات صاحبة المصلحة والمبتكرين ومصادر رأس المال الاستثماري اللازم لمجالات العلم والتكنولوجيا والهندسة ولإيجاد حلول مستندة إلى الابتكار، بالتعاون مع المنظمات الأخرى، حسب الاقتضاء؛</p>
+            </content>
+          </point>
+          <point eId="para_52_list_point_’13‘">
+            <num>’13‘</num>
+            <content eId="para_52_list_point_’13‘_content">
+              <p xml:space="preserve">	تعزيز التعاون فيما بين الدول الأعضاء من خلال تنفيذ أنشطة بناء القدرات ومبادرات البحث والتطوير، بالتعاون مع الجهات المعنية صاحبة المصلحة، بما فيها وكالات الأمم المتحدة المعنية، والعمل من أجل تيسير تعزيز النظم الابتكارية التي تدعم المبتكرين، ولا سيما في البلدان النامية، من أجل تعزيز جهودهم الرامية إلى الإسهام في تحقيق التنمية المستدامة؛</p>
+            </content>
+          </point>
+          <point eId="para_52_list_point_’14‘">
+            <num>’14‘</num>
+            <content eId="para_52_list_point_’14‘_content">
+              <p xml:space="preserve">	توفير منتدى لتبادل قصص النجاح وأفضل الممارسات، وكذلك الإخفاقات والتحديات الرئيسية، والتعلم من نتائج العمليات الاستشرافية ونماذج الابتكار المحلية الناجحة ودراسات الحالات الإفرادية والتجارب بشأن تسخير العلم والتكنولوجيا والهندسة لأغراض الابتكار، بما في ذلك تطبيق التكنولوجيا الناشئة الجديدة، في إطار علاقة تكافلية مع تكنولوجيا المعلومات والاتصالات، من أجل تحقيق تنمية شاملة ومستدامة، وتبادل النتائج مع جميع كيانات الأمم المتحدة المختصة، بسبل منها آلية تيسير التكنولوجيا ومنتداها الذي يضم أصحاب المصلحة المتعددين المعني بتسخير العلم والتكنولوجيا والابتكار لأغراض أهداف التنمية المستدامة؛</p>
+            </content>
+          </point>
+          <point eId="para_52_list_point_’15‘">
+            <num>’15‘</num>
+            <content eId="para_52_list_point_’15‘_content">
+              <p xml:space="preserve">	مواصلة القيام بدور نشط في التوعية بإمكانات إسهام العلم والتكنولوجيا والابتكار في خطة عام 2030 من خلال تقديم الإسهامات الفنية، حسب الاقتضاء، إلى عمليات الأمم المتحدة وهيئاتها ذات الصلة، وتبادل النتائج والممارسات الجيدة في مجالات العلم والتكنولوجيا والابتكار بين الدول الأعضاء وغيرها؛</p>
+            </content>
+          </point>
+          <point eId="para_52_list_point_’16‘">
+            <num>’16‘</num>
+            <content eId="para_52_list_point_’16‘_content">
+              <p xml:space="preserve">	تسليط الضوء على أهمية ما تقوم به اللجنة من عمل فيما يتصل بتنفيذ ومتابعة مجالات تكنولوجيا المعلومات والاتصالات والعلم والتكنولوجيا والابتكار ذات الصلة بأهداف التنمية المستدامة، على أن يقوم رئيس اللجنة بتقديم تقرير في الاستعراضات والاجتماعات المناسبة التي ينظمها المجلس الاقتصادي والاجتماعي والمنتدى السياسي الرفيع المستوى المعني بالتنمية المستدامة والمنتديات الأخرى ذات الصلة؛</p>
+            </content>
+          </point>
+          <point eId="para_52_list_point_’17‘">
+            <num>’17‘</num>
+            <content eId="para_52_list_point_’17‘_content">
+              <p xml:space="preserve">	تعزيز وتعميق التعاون بين اللجنة المعنية بتسخير العلم والتكنولوجيا لأغراض التنمية ولجنة وضع المرأة، بما في ذلك تبادل الممارسات الجيدة والدروس المستفادة من دمج المنظور الجنساني في صنع السياسات العامة في مجالات العلم والتكنولوجيا والابتكار وتنفيذها، وفي هذا السياق، متابعة العمل الذي قامت به اللجنة المعنية بتسخير العلم والتكنولوجيا لأغراض التنمية في حلقة العمل عن تطبيق منظور جنساني على العلم والتكنولوجيا والابتكار، التي عقدت في فيينا في 18 كانون الثاني/يناير 2019؛</p>
+            </content>
+          </point>
+          <point eId="para_52_list_point_’18‘">
+            <num>’18‘</num>
+            <content eId="para_52_list_point_’18‘_content">
+              <p xml:space="preserve">	القيام بدور نشط في التوعية بمصرف التكنولوجيا لأقل البلدان نموا؛</p>
+            </content>
+          </point>
+          <point eId="para_52_list_point_’19‘">
+            <num>’19‘</num>
+            <content eId="para_52_list_point_’19‘_content">
+              <p xml:space="preserve">	النظر في إنشاء فريق عامل مكرس داخل اللجنة يشارك في حوار شامل وجامع بين أصحاب المصلحة المتعددين بشأن المبادئ الأساسية لإدارة البيانات على جميع المستويات، حسب صلتها بالتنمية، تحت رعاية الأمم المتحدة، مع مراعاة اختتام المفاوضات بشأن نتائج مؤتمر القمة المعني بالمستقبل، بما في ذلك الاتفاق الرقمي العالمي؛</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_54" class="MercuryDocument">
+        <num>(ج)</num>
+        <list eId="para_54_list">
+          <intro eId="para_54_list_intro">
+            <p xml:space="preserve">	يشجَّع مؤتمر الأمم المتحدة للتجارة والتنمية على القيام بما يلي:</p>
+          </intro>
+          <point eId="para_54_list_point_’1‘">
+            <num>’1‘</num>
+            <content eId="para_54_list_point_’1‘_content">
+              <p xml:space="preserve">	السعي بشكل استباقي إلى توفير التمويل من أجل توسيع نطاق استعراضات السياسات المتعلقة بالعلم والتكنولوجيا والابتكار، مع التأكيد على الأهمية البالغة لدور تكنولوجيا المعلومات والاتصالات في تمكين بناء القدرات في مجالات العلم والتكنولوجيا والابتكار والهندسة واستخدامها، وتنفيذ التوصيات الصادرة عن تلك الاستعراضات، حسب الاقتضاء، بتعاون وثيق مع وكالات الأمم المتحدة والمنظمات الدولية؛</p>
+            </content>
+          </point>
+          <point eId="para_54_list_point_’2‘">
+            <num>’2‘</num>
+            <content eId="para_54_list_point_’2‘_content">
+              <p xml:space="preserve">	النظر في جدوى إدراج عناصر الاستشراف الاستراتيجي وتقييم النظم الإيكولوجية الرقمية في عمليات استعراض السياسات المتعلقة بالعلم والتكنولوجيا والابتكار وتكنولوجيا المعلومات والاتصالات، بإدراج فصل مخصص لهذه المواضيع احتمالا؛</p>
+            </content>
+          </point>
+          <point eId="para_54_list_point_’3‘">
+            <num>’3‘</num>
+            <content eId="para_54_list_point_’3‘_content">
+              <p xml:space="preserve">	تنفيذ إطاره للاستعراضات الوطنية للسياسات المتعلقة بالعلم والتكنولوجيا والابتكار على أوسع نطاق ممكن بغية إدماج أهداف التنمية المستدامة، بما في ذلك التركيز بصورة محددة على اتباع نُهج تركز على قاعدة الهرم في تناول الابتكار والإدماج الاجتماعي؛</p>
+            </content>
+          </point>
+          <point eId="para_54_list_point_’4‘">
+            <num>’4‘</num>
+            <content eId="para_54_list_point_’4‘_content">
+              <p xml:space="preserve">	التخطيط لتقديم آخر ما يستجد من معلومات بصورة دورية عن التقدم المحرز في البلدان التي أجريت لها استعراضات للسياسات المتعلقة بالعلم والتكنولوجيا والابتكار، ودعوة تلك البلدان إلى تقديم تقارير إلى اللجنة المعنية بتسخير العلم والتكنولوجيا لأغراض التنمية عن التقدم المحرز والدروس المستفادة والتحديات التي تواجَه في تنفيذ التوصيات؛</p>
+            </content>
+          </point>
+          <point eId="para_54_list_point_’5‘">
+            <num>’5‘</num>
+            <content eId="para_54_list_point_’5‘_content">
+              <p xml:space="preserve">	الطلب إلى المجلس الاستشاري للقضايا الجنسانية التابع للجنة تقديم إسهامات في مداولات اللجنة ووثائقها المتصلة بالسياسات، وتقديم تقرير عن التقدم المحرز في الدورات السنوية للجنة، وتحسين إدماج منظور جنساني في استعراضات السياسات المتعلقة بالعلم والتكنولوجيا والابتكار؛</p>
+            </content>
+          </point>
+          <point eId="para_54_list_point_’6‘">
+            <num>’6‘</num>
+            <content eId="para_54_list_point_’6‘_content">
+              <p xml:space="preserve">	تسليط الضوء على تقدير اللجنة لمساهمة المجلس الاستشاري للقضايا الجنسانية في مناقشات الدورة السابعة والعشرين للجنة، ولا سيما في الفريق الرفيع المستوى المعني بتسخير البيانات لأغراض التنمية؛</p>
+            </content>
+          </point>
+          <point eId="para_54_list_point_’7‘">
+            <num>’7‘</num>
+            <content eId="para_54_list_point_’7‘_content">
+              <p xml:space="preserve">	تشجيع الحكومات على استخدام مصرف التكنولوجيا لأقل البلدان نموا بوصفه آلية لدعم العلم والتكنولوجيا والابتكار في أقل البلدان نموا ومساعدة أقل البلدان نموا على مواصلة تطوير تكنولوجيات خاصة بها؛</p>
+            </content>
+          </point>
+          <point eId="para_54_list_point_’8‘">
+            <num>’8‘</num>
+            <content eId="para_54_list_point_’8‘_content">
+              <p xml:space="preserve">	مواصلة تقديم الدعم للدول الأعضاء في اللجنة في مبادراتها المشتركة الرامية إلى تعزيز العلم والتكنولوجيا والابتكار بما يتماشى مع تحقيق خطة عام 2030.</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="37" refersTo="#adoptionMeeting">الجلسة العامة 37</location>
+          <eol />
+          <docDate date="2024-07-23" refersTo="#adoptionDate">23 تموز/يوليه 2024</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
