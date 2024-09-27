@@ -1,0 +1,744 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2024-06-05/2024-6/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2024-06-05/2024-6/"></FRBRuri>
+          <FRBRdate date="2024-06-05" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2024-06-05/2024-6/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2024-06-05/2024-6/fra@/"></FRBRuri>
+          <FRBRdate date="2024-07-12" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2024-06-05/2024-6/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2024-06-05/2024-6/fra@.xml"></FRBRuri>
+          <FRBRdate date="2024-07-24" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"/>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"/>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"/>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"/>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"/>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"/>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"/>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"/>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"/>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"/>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"/>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"/>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"/>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"/>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"/>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"/>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"/>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"/>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"/>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"/>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"/>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"/>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"/>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"/>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"/>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"/>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"/>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"/>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"/>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="1" href="http://metadata.un.org/sdg/1" showAs="sdg_1" dictionary="SDGO"/>
+        <keyword value="poverty" href="http://eurovoc.europa.eu/2281" showAs="poverty" dictionary="EuroVoc"/>
+        <keyword value="poverty" href="http://metadata.un.org/thesaurus/1005064" showAs="poverty" dictionary="UNBIS"/>
+        <keyword value="poverty_mitigation" href="http://metadata.un.org/thesaurus/1005065" showAs="poverty_mitigation" dictionary="UNBIS"/>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="2030 Agenda for Sustainable Development" showAs="2030 Agenda for Sustainable Development" dictionary="DHLAUTH"></keyword>
+        <keyword value="SOCIAL DEVELOPMENT" href="http://metadata.un.org/thesaurus/1005960" showAs="SOCIAL DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOCIAL POLICY" href="http://metadata.un.org/thesaurus/1005976" showAs="SOCIAL POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOCIAL SECURITY" href="http://metadata.un.org/thesaurus/1005985" showAs="SOCIAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DEVELOPMENT POLICY" href="http://metadata.un.org/thesaurus/1001630" showAs="DEVELOPMENT POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="POVERTY MITIGATION" href="http://metadata.un.org/thesaurus/1005065" showAs="POVERTY MITIGATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOCIAL JUSTICE" href="http://metadata.un.org/thesaurus/1005970" showAs="SOCIAL JUSTICE" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-02-06" outcome="draftResolution" as="E/CN.5/2024/L.4" by="submitted by the Chair of the Commission, Ruchira Kamboj (India), on the basis of informal consultations" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-02-29" outcome="recommendedForAdoption" as="E/2024/26" by="UN. Commission for Social Development" />
+        <step date="2024-07-12" outcome="adopted" as="Adopted without vote, 20th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">24-12878 (F)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2024/6</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Conseil économique et social</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-07-12" class="rightSmall" refersTo="#dateOfIssuance">12 juillet 2024</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2024" eId="coverPage_1__session_1">Session de 2024</session>
+      </p>
+      <p>
+        <inline title="19 b)" name="agenda item">Point 19 b) de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Questions sociales et questions relatives aux droits humains : développement social</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par le Conseil économique et social le 5 juin 2024</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent>[sur recommandation de la Commission du développement social (<inline name="originating document">E/2024/26</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2024/6.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Promouvoir le développement social et la justice sociale au moyen de politiques sociales, afin de faire progresser plus rapidement la mise en œuvre du Programme de développement durable à l’horizon 2030 et d’atteindre l’objectif primordial de l’élimination de la pauvreté</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Le Conseil économique et social</span>,</p>
+      </formula>
+      <container name="Rappelant" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> sa résolution <a href="https://undocs.org/fr/E/RES/2023/12">2023/12</a>, du 7 juin 2023, dans laquelle il a décidé que la session de la Commission du développement social en 2024 aurait pour thème prioritaire « Promouvoir le développement social et la justice sociale au moyen de politiques sociales, afin de faire progresser plus rapidement la mise en œuvre du Programme de développement durable à l’horizon 2030 et d’atteindre l’objectif primordial de l’élimination de la pauvreté »,</p>
+      </container>
+      <container name="Rappelant également" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Rappelant également</span> les textes issus du Sommet mondial pour le développement social et de la vingt-quatrième session extraordinaire de l’Assemblée générale, </p>
+      </container>
+      <container name="Réaffirmant" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant </span>que la Déclaration de Copenhague sur le développement social, le Programme d’action du Sommet mondial pour le développement social<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		<span class="italic">Rapport du Sommet mondial pour le développement social, Copenhague, 6-12 mars 1995</span> (publication des Nations Unies, numéro de vente : F.96.IV.8), chap. I, résolution 1, annexes I et II.</p></authorialNote> et les autres initiatives en faveur du développement social que l’Assemblée générale a adoptées à sa vingt-quatrième session extraordinaire<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/S-24/2">S-24/2</a> de l’Assemblée générale, annexe.</p></authorialNote> constituent le système de référence pour la promotion du développement social pour toutes et tous aux niveaux national et international, et encourageant la poursuite de la concertation sur les questions de développement social qui est conduite à l’échelle mondiale,</p>
+      </container>
+      <container name="Se félicitant" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Se félicitant</span> des progrès accomplis dans l’application intégrale de la Déclaration de Copenhague et du Programme d’action grâce à une action concertée aux échelles nationale, régionale et mondiale, et se déclarant vivement préoccupé par le fait que, plus de 25 ans après la tenue du Sommet mondial pour le développement social, les progrès réalisés sont lents et inégaux d’un pays ou d’une région à l’autre et en leur sein, et que d’importantes lacunes subsistent,</p>
+      </container>
+      <container name="Rappelant" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> que dans la Déclaration de Copenhague sur le développement social, il a été souligné qu’une priorité absolue doit être accordée, dans les politiques et actions menées aux niveaux national, régional et international, à la promotion du progrès social et de la justice et à l’amélioration de la condition humaine, sur la base de la pleine participation de tous,</p>
+      </container>
+      <container name="Rappelant" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Rappelant </span>la résolution <a href="https://undocs.org/fr/A/RES/70/1">70/1</a> de l’Assemblée générale, en date du 25 septembre 2015, intitulée « Transformer notre monde : le Programme de développement durable à l’horizon 2030 », dans laquelle elle a adopté une série complète d’objectifs et de cibles ambitieux, universels, axés sur l’être humain et porteurs de changement, et réaffirmé qu’elle s’engageait à œuvrer sans relâche pour que ce programme soit appliqué dans son intégralité d’ici à 2030 afin que personne ne soit laissé de côté et que les plus défavorisés soient aidés en premier, et qu’elle considérait que l’élimination de la pauvreté sous toutes ses formes et dans toutes ses dimensions, y compris l’extrême pauvreté, constituait le plus grand défi auquel l’humanité devait faire face et une condition indispensable au développement durable,</p>
+      </container>
+      <container name="Rappelant également" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Rappelant également</span> la résolution <a href="https://undocs.org/fr/A/RES/69/313">69/313</a> de l’Assemblée générale, en date du 27 juillet 2015, sur le Programme d’action d’Addis-Abeba issu de la troisième Conférence internationale sur le financement du développement, qui fait partie intégrante du Programme de développement durable à l’horizon 2030,</p>
+      </container>
+      <container name="Prenant note" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Prenant note </span>des déclarations politiques adoptées lors des réunions de haut niveau sur la santé que l’Assemblée générale a tenues pendant sa soixante-dix-huitième session<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/78/3">78/3</a> de l’Assemblée générale, annexe, résolution <a href="https://undocs.org/fr/A/RES/78/4">78/4</a>, annexe, et résolution <a href="https://undocs.org/fr/A/RES/78/5">78/5</a>, annexe.</p></authorialNote>, qui témoignent de la volonté d’accorder un haut degré d’importance à la santé parmi les préoccupations politiques de haut niveau, en prenant acte du fait que le respect du droit humain de jouir du meilleur état de santé physique et mentale possible et l’édification de systèmes nationaux de santé équitables sont indispensables pour parvenir à la couverture sanitaire universelle, développer la prévention, la préparation et la riposte aux pandémies et autres urgences sanitaires, et mettre fin à des épidémies telles que celle de tuberculose, </p>
+      </container>
+      <container name="Rappelant" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Rappelant </span>la résolution <a href="https://undocs.org/fr/A/RES/78/1">78/1</a> de l’Assemblée générale, en date du 29 septembre 2023, intitulée « Déclaration politique issue du forum politique de haut niveau pour le développement durable organisé sous les auspices de l’Assemblée générale », et demandant instamment que des mesures soient prises promptement en vue de sa bonne application, </p>
+      </container>
+      <container name="Rappelant également" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Rappelant également</span> le Pacte international relatif aux droits économiques, sociaux et culturels<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		Voir résolution <a href="https://undocs.org/fr/A/RES/2200(XXI)">2200 A (XXI)</a> de l’Assemblée générale, annexe.</p></authorialNote>, qui reconnaît, notamment, le droit de toute personne à un niveau de vie suffisant pour elle-même et sa famille, le droit au travail, le droit à la sécurité sociale et le droit à l’éducation, et notant la pertinence de ces dispositions concernant l’élaboration de politiques sociales, y compris de politiques et de mesures de protection sociale axées sur la famille,</p>
+      </container>
+      <container name="Rappelant en outre" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Rappelant en outre </span>les résolutions pertinentes de l’Assemblée générale et les siennes propres qui ont institué l’Année internationale de la famille et prescrit la célébration de l’Année internationale à l’occasion des dixième, vingtième et trentième anniversaires de celle-ci, y compris sa résolution <a href="https://undocs.org/fr/E/RES/2014/8">2014/8</a> du 12 juin 2014,</p>
+      </container>
+      <container name="Notant" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Notant </span>que la famille joue un rôle majeur en ce qui concerne la protection sociale et que plus de 4 milliards de personnes ne bénéficient toujours pas d’une protection sociale, que la pandémie de maladie à coronavirus (COVID‑19) a eu pour effet de rendre plus dépendantes de leur famille de nombreuses personnes qui sont à la merci de la pauvreté, notant l’importance que revêtent des politiques adaptées favorables à la famille, notamment dans les domaines de la réduction de la pauvreté, du plein emploi productif et du travail décent, des politiques de lutte contre l’exclusion sociale, tenant compte des aspects multidimensionnels de l’exclusion sociale, mettant l’accent sur une éducation de qualité inclusive et équitable et sur l’apprentissage tout au long de la vie, la santé et le bien-être de toutes et de tous à tout âge, la sécurité sociale, les moyens de subsistance et la cohésion sociale, au moyen notamment de mesures et de systèmes de protection sociale différenciés selon les genres et les âges, tels que les allocations pour enfant à charge et les prestations de retraite, et des politiques garantissant que les droits, les capacités et les responsabilités de tous les membres de la famille soient respectés,</p>
+      </container>
+      <container name="Prenant note" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Prenant note </span>de l’important travail entrepris par la Commission de statistique dans le cadre du Programme de développement durable à l’horizon 2030, qui a conduit à la définition d’indicateurs mondiaux, notamment sur la protection sociale,</p>
+      </container>
+      <container name="Constatant" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Constatant</span> l’intérêt particulier que présente la Déclaration du centenaire de l’Organisation internationale du Travail pour l’avenir du travail<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/73/918">A/73/918</a>, annexe.</p></authorialNote> pour une transition socialement juste vers le développement durable, et rappelant la résolution <a href="https://undocs.org/fr/A/RES/73/327">73/327</a> du 25 juillet 2019 par laquelle l’Assemblée générale a décidé de proclamer 2021 Année internationale de l’élimination du travail des enfants, </p>
+      </container>
+      <container name="Réaffirmant" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant</span> qu’il importe d’appuyer l’Agenda 2063 de l’Union africaine, ainsi que son premier plan décennal de mise en œuvre, qui constituent un cadre stratégique pour la transformation socioéconomique de l’Afrique dans les 50 ans à venir, ainsi que le programme pour le continent africain inscrit dans ses résolutions relatives au Nouveau Partenariat pour le développement de l’Afrique<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/57/304">A/57/304</a>, annexe.</p></authorialNote> et les initiatives régionales telles que le Programme détaillé pour le développement de l’agriculture africaine,</p>
+      </container>
+      <container name="Prenant note" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Prenant note</span> du document intitulé Appel à l’action de Durban sur l’élimination du travail des enfants, issu de la cinquième Conférence mondiale sur l’élimination du travail des enfants, qui s’est tenue en Afrique du Sud du 15 au 20 mai 2022,</p>
+      </container>
+      <container name="Rappelant" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Rappelant </span>les Principes directeurs sur l’extrême pauvreté et les droits de l’homme<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/HRC/21/39">A/HRC/21/39</a>.</p></authorialNote>, que le Conseil des droits de l’homme a adoptés dans sa résolution <a href="https://undocs.org/fr/A/HRC/RES/21/11">21/11</a> du 27 septembre 2012<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		Voir <span class="italic">Documents officiels de l’Assemblée générale, soixante-septième session, Supplément n</span><sup>o</sup><span class="italic"> 53 A</span> (<a href="https://undocs.org/fr/A/67/53/Add.1">A/67/53/Add.1</a>), chap. II.</p></authorialNote> et qui offrent aux États Membres un outil utile pour élaborer et mettre en œuvre des politiques de réduction et d’élimination de la pauvreté, selon que de besoin, et encourageant les États Membres à les appliquer,</p>
+      </container>
+      <container name="Soulignant" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">Soulignant </span>qu’en cette période critique de la décennie d’action en faveur des objectifs de développement durable, lesquels doivent être atteints d’ici à 2030, les visions et principes adoptés et les engagements pris lors du Sommet mondial pour le développement social restent valables et sont essentiels au règlement des nouveaux problèmes mondiaux, et rappelant que les politiques sociales ont un rôle clef à jouer dans la lutte contre les effets immédiats des crises et la formulation de stratégies de relèvement,</p>
+      </container>
+      <container name="Insistant" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">Insistant </span>sur le fait que tous les droits humains, le droit au développement y compris, sont universels, indivisibles, interdépendants et intimement liés, et également sur le fait que le droit au développement est un élément essentiel sans lequel le Programme de développement durable à l’horizon 2030 ne peut véritablement porter ses fruits et qu’il devrait être au cœur de l’exécution du Programme, </p>
+      </container>
+      <container name="Réitérant" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">Réitérant </span>son engagement d’éliminer la pauvreté sous toutes ses formes et dans toutes ses dimensions, notamment d’éliminer l’extrême pauvreté d’ici à 2030, réaffirmant que chaque personne doit bénéficier d’un niveau de vie décent, y compris grâce à l’accès au plein emploi productif, à un travail décent et à des systèmes de protection sociale, et résolu à éliminer la faim et à assurer la sécurité alimentaire à titre prioritaire et à mettre fin à toutes les formes de malnutrition,</p>
+      </container>
+      <container name="Conscient" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">Conscient</span> qu’alors qu’il reste moins de 10 ans pour atteindre les objectifs de développement durable, la pandémie de COVID‑19 a ralenti, et dans certains cas annulé, les progrès vers la réalisation de nombreux objectifs d’ici à 2030, notamment l’objectif 1 (Éliminer la pauvreté sous toutes ses formes et partout dans le monde), l’objectif 8 (Promouvoir une croissance économique soutenue, partagée et durable, le plein emploi productif et un travail décent pour tous) et l’objectif 10 (Réduire les inégalités dans les pays et d’un pays à l’autre), et constatant que les personnes qui sont en situation de vulnérabilité sont les plus durement touchées par la pandémie,</p>
+      </container>
+      <container name="Notant avec une vive préoccupation" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">Notant avec une vive préoccupation</span> que les multiples crises, dont la pandémie de COVID‑19, ont conduit à une augmentation du nombre de personnes vivant dans la pauvreté et à l’appauvrissement de personnes déjà démunies, creusé les inégalités, y compris les inégalités de genre, aggravé le chômage, accentué l’emploi informel et gonflé les rangs des personnes qui ont quitté la population active, et continuent de frapper de manière disproportionnée les personnes en situation de vulnérabilité, notamment les personnes âgées, les personnes souffrant de pathologies préexistantes, les femmes et les enfants, en particulier les filles, les jeunes, les personnes handicapées, les personnes atteintes d’une maladie rare, les personnes touchées par un conflit, les migrants, les réfugiés, les personnes déplacées à l’intérieur d’un pays, les personnes d’ascendance africaine, les peuples autochtones, les communautés locales, les travailleurs de l’économie informelle, les personnes vivant dans les zones rurales et les autres personnes en situation de vulnérabilité,</p>
+      </container>
+      <container name="Conscient" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">Conscient</span> du rôle et de l’apport décisifs des femmes vivant en milieu rural, notamment des petites exploitantes et des agricultrices, des femmes autochtones et des femmes des communautés locales, et de leurs savoirs traditionnels, dans la promotion du développement agricole et rural, l’amélioration de la sécurité alimentaire et l’élimination de la pauvreté en milieu rural,</p>
+      </container>
+      <container name="Constatant avec une vive préoccupation" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">Constatant avec une vive préoccupation</span> que les progrès accomplis sur la voie de la réduction de la pauvreté restent inégaux, étant donné que 1,1 milliard de personnes, pour la moitié des enfants, vivent encore dans la pauvreté multidimensionnelle et que plus de 600 millions de personnes vivent dans l’extrême pauvreté, que, si les tendances actuelles se confirment, il y aura encore 575 millions de personnes vivant dans l’extrême pauvreté en 2030, et que ces nombres restent considérables et inacceptables, tandis que les inégalités de revenus, de richesses et de perspectives restent marquées ou se creusent dans un certain nombre de pays, et que les dimensions non économiques de la pauvreté et du dénuement, comme l’accès à un enseignement de qualité ou à des services de santé de base, et la pauvreté relative demeurent des préoccupations majeures,</p>
+      </container>
+      <container name="Soulignant" eId="container_26">
+        <p xml:space="preserve">	<span class="italic">Soulignant</span> qu’il importe que des efforts soient déployés à l’échelle nationale et mondiale pour créer les conditions nécessaires à un développement durable, à une croissance économique soutenue qui profitera à tout le monde dans la société et s’inscrira dans la durée, au partage de la prospérité et au respect du principe d’un travail décent pour tous, compte tenu des différents niveaux de capacités des pays en termes de développement national,</p>
+      </container>
+      <container name="Notant avec inquiétude" eId="container_27">
+        <p xml:space="preserve">	<span class="italic">Notant avec inquiétude</span> que lorsque des dépenses de santé élevées sont à la charge des individus, cela donne jour à des risques importants en matière de santé et fait peser sur eux un fardeau financier conséquent, 1 milliard de personnes devant faire face à des dépenses de santé catastrophiques chaque année, ce qui peut les faire basculer elles et leurs familles dans la pauvreté, en particulier dans les pays en développement, et que ces problèmes peuvent avoir des effets disproportionnés sur les femmes et les filles, </p>
+      </container>
+      <container name="Notant également avec inquiétude" eId="container_28">
+        <p xml:space="preserve">	<span class="italic">Notant également avec inquiétude</span> que les progrès accomplis en ce qui concerne l’éducation pour tous ont ralenti et que les ménages pauvres ont souvent du mal à assumer les coûts de la scolarisation de leurs enfants, ce qui peut affecter leur bien-être futur et limiter leurs perspectives plus tard dans leur vie,</p>
+      </container>
+      <container name="Conscien" eId="container_29">
+        <p xml:space="preserve">	<span class="italic">Conscien</span>t que l’intégration sociale des personnes vivant dans la pauvreté et la faim passe par des stratégies de développement intégrées qui prennent en considération l’accès à une éducation de qualité, des possibilités d’apprentissage tout au long de la vie, le plein emploi productif, un travail décent, les systèmes de santé et un logement adéquat,</p>
+      </container>
+      <container name="Notant" eId="container_30">
+        <p xml:space="preserve">	<span class="italic">Notant</span> que la promotion du bien-être de tous les individus tout au long de leur vie devrait être au cœur de tous les efforts visant à réduire la pauvreté et la faim et constitue un élément essentiel d’un relèvement inclusif axé sur la résilience, et sachant que la mise en place de systèmes alimentaires efficaces, inclusifs, résilients et durables est essentielle pour garantir la sécurité alimentaire et l’accès de tous à une alimentation saine, nutritive et suffisante,</p>
+      </container>
+      <container name="Sachant" eId="container_31">
+        <p xml:space="preserve">	<span class="italic">Sachant</span> que la justice sociale pour tous est le fondement de la lutte contre les inégalités et qu’il ne saurait y avoir de développement social et de justice sociale si la paix et la sécurité ne sont pas instaurées et si tous les droits humains et libertés fondamentales ne sont pas respectés, et notant que la promotion de la justice sociale suppose la reconnaissance du fait que tout le monde ne part pas avec les mêmes chances dans la vie et que les barrières systémiques et les préjugés sociétaux créent et perpétuent les inégalités, </p>
+      </container>
+      <container name="Sachant également" eId="container_32">
+        <p xml:space="preserve">
+          <span class="italic">	Sachant également </span>que la justice sociale recoupe différents secteurs, tels que la santé, l’éducation, l’alimentation, l’eau, le logement, l’investissement, le commerce et l’emploi, et que dans le monde du travail, la justice sociale suppose la non-discrimination, des salaires équitables, les droits du travail, le dialogue social et l’accès à la protection sociale pour tous,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_33">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant</span> que, puisque l’extrême pauvreté généralisée fait obstacle à la jouissance effective et sans restriction de tous les droits humains et risque, dans certaines circonstances, de compromettre le droit à la vie, les États Membres et la communauté internationale doivent continuer de s’attacher à titre hautement prioritaire à l’atténuer dans l’immédiat, pour finir par l’éliminer,</p>
+      </container>
+      <container name="Réaffirmant également" eId="container_34">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant également </span>que l’élimination de la pauvreté sous toutes ses formes et dans toutes ses dimensions, notamment de l’extrême pauvreté, constitue le plus grand défi auquel le monde doit faire face actuellement et qu’il s’agit d’une condition indispensable au développement durable, en particulier en Afrique et dans les pays les moins avancés, les pays en développement sans littoral, les petits États insulaires en développement et certains pays à revenu intermédiaire, et soulignant combien il importe de hâter l’avènement d’une croissance économique durable, partagée et équitable, le relèvement et un développement durable, en veillant à ce qu’ils s’accompagnent du plein emploi productif et d’un travail décent pour tous, en vue de réduire les inégalités à l’intérieur des pays et entre les pays,</p>
+      </container>
+      <container name="Sachant" eId="container_35">
+        <p xml:space="preserve">	<span class="italic">Sachant</span> qu’il importe de mieux appréhender le caractère pluridimensionnel du développement et de la pauvreté, tout en soulignant qu’il convient d’utiliser des outils d’analyse multidimensionnels, notamment des indices et des analyses des risques de pauvreté multidimensionnelle, pour saisir la nature interdépendante des privations et des vulnérabilités ainsi que pour comprendre la dynamique de la pauvreté et façonner les politiques, et constatant que le recours à des indices de pauvreté multidimensionnelle nationaux appropriés permet à tous les pays de mieux centrer, coordonner et suivre les mesures d’élimination de la pauvreté,</p>
+      </container>
+      <container name="Sachant également" eId="container_36">
+        <p xml:space="preserve">	<span class="italic">Sachant également</span> que l’entrepreneuriat contribue de manière importante au développement durable en créant des emplois et en favorisant le travail décent, en stimulant la croissance économique inclusive et l’innovation, en améliorant les conditions sociales et en contribuant à remédier aux problèmes économiques, sociaux et environnementaux dans le contexte du Programme 2030, et soulignant que l’entrepreneuriat, notamment l’entrepreneuriat social, et les microentreprises et les petites et moyennes entreprises jouent, dans le développement social et économique, un rôle plus crucial que jamais pour ce qui est des efforts de relèvement après la pandémie de COVID‑19 et au‑delà,</p>
+      </container>
+      <container name="Sachant en outre" eId="container_37">
+        <p xml:space="preserve">	<span class="italic">Sachant en outre </span>que les technologies de l’information et de la communication, y compris l’intelligence artificielle, offrent de nouvelles possibilités et de nouveaux défis en matière de développement social et de justice sociale et qu’il est urgent de s’attaquer aux principaux obstacles auxquels se heurtent les pays en développement dans l’accès aux nouvelles technologies aux fins du développement social, soulignant la nécessité de réduire la fracture numérique, entre les pays et à l’intérieur des pays, y compris la fracture numérique entre les zones rurales et urbaines, entre les jeunes et les personnes âgées et entre les femmes et les hommes, et de mettre les technologies de l’information et de la communication, y compris l’intelligence artificielle, au service du développement, et rappelant qu’il est nécessaire de mettre l’accent sur la qualité de l’accès pour réduire la fracture numérique et la fracture des connaissances afin de promouvoir la capacité d’élaborer des politiques sociales,</p>
+      </container>
+      <container name="Sachant" eId="container_38">
+        <p xml:space="preserve">	<span class="italic">Sachant </span>que le sport est un facteur de développement social et peut servir de tremplin pour accéder à une éducation de qualité et à un travail décent, ainsi que permettre de favoriser un mode de vie sain et le bien-être, de renforcer la solidarité et la cohésion sociale, de lutter contre l’exclusion sociale et les stéréotypes, et de créer des débouchés économiques pour toutes et tous, ce qui peut contribuer à sortir les personnes de la pauvreté,</p>
+      </container>
+      <container name="Considérant" eId="container_39">
+        <p xml:space="preserve">	<span class="italic">Considérant </span>qu’il est nécessaire de lutter contre les flux financiers illicites et de renforcer les meilleures pratiques internationales en matière de restitution et de recouvrement des avoirs, qui constituent l’une des sources de financement du développement, en vue de promouvoir le travail décent et de réduire les inégalités à l’intérieur des pays et entre les pays,</p>
+      </container>
+      <container name="Soulignant" eId="container_40">
+        <p xml:space="preserve">	<span class="italic">Soulignant</span> que les finances publiques nationales restent la principale source de financement des dépenses sociales à l’échelle mondiale et que, dans de nombreux pays, les ressources publiques nationales sont insuffisantes pour fournir à tous des services publics adéquats et de qualité et pour répondre à l’ampleur et à l’ambition du Programme de développement durable à l’horizon 2030,</p>
+      </container>
+      <container name="Exprimant sa profonde préoccupation" eId="container_41">
+        <p xml:space="preserve">	<span class="italic">Exprimant sa profonde préoccupation</span> face aux effets disproportionnés de la pandémie de COVID‑19 sur les enfants, en particulier sur les filles, notamment sur leur accès aux services de santé de base et à l’éducation, conscient que les fermetures d’écoles ont touché le plus durement les enfants les plus pauvres et les plus vulnérables et leurs familles, que de nombreux enfants ne retourneront peut-être jamais à l’école car ils sont contraints de se marier ou de travailler, et que les perturbations des systèmes alimentaires et sanitaires ont contribué à un recul en matière de santé maternelle et de santé de l’enfant et à une recrudescence de toutes les formes de malnutrition et ont en outre contribué à ce que 60 millions d’enfants supplémentaires vivent dans des ménages à faible revenu en 2021, </p>
+      </container>
+      <container name="Sachant" eId="container_42">
+        <p xml:space="preserve">	<span class="italic">Sachant</span> que la soutenabilité de la dette extérieure et intérieure des pays en développement est menacée par d’importantes difficultés et vulnérabilités nouvelles et émergentes, et qu’il faut améliorer les mécanismes internationaux relatifs à la dette pour permettre la révision de la dette, la suspension des paiements au titre du service de la dette et la restructuration de la dette, le cas échéant, en élargissant l’admissibilité pour faire bénéficier de cet appui les pays vulnérables qui en ont besoin,</p>
+      </container>
+      <container name="Notant" eId="container_43">
+        <p xml:space="preserve">	<span class="italic">Notant</span> la proposition faite dans le rapport du Secrétaire général intitulé « Notre Programme commun »<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/75/982">A/75/982</a>.</p></authorialNote> concernant l’organisation d’un sommet social mondial en 2025, qui sera examinée et approuvée par les États Membres, lesquels définiront notamment les modalités de la manifestation, son titre, ses objectifs, sa portée et ses résultats éventuels, et soulignant que les décisions prises à l’issue du sommet, s’il a lieu, devraient refléter une approche fondée sur le développement social, dont la nécessité de placer la personne humaine au centre du développement et le respect de l’engagement pris de faire de l’élimination de la pauvreté, du plein emploi et de l’intégration les objectifs prioritaires du développement, et créer une dynamique propice à l’application du Programme 2030,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_44" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve">	<span class="italic">Prend acte</span> du rapport du Secrétaire général<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">		<a href="https://undocs.org/fr/E/CN.5/2024/3">E/CN.5/2024/3</a> et <a href="https://undocs.org/fr/E/CN.5/2024/3/Corr.1">E/CN.5/2024/3/Corr.1</a>.</p></authorialNote> ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="italic">Considère </span>qu’il faut d’urgence accélérer l’action à tous les niveaux et par toutes les parties prenantes pour réaliser la vision et les objectifs du Programme de développement durable à l’horizon 2030<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/70/1">70/1</a> de l’Assemblée générale, annexe.</p></authorialNote>, et souligne que la communauté internationale a insisté, au moyen des documents finals des grandes conférences et réunions au sommet organisées par les Nations Unies qui ont été adoptés par l’Assemblée générale, sur la nécessité urgente d’éliminer la pauvreté sous toutes ses formes et dans toutes ses dimensions, de garantir le plein emploi productif et un travail décent pour tous, de lutter contre les inégalités à l’intérieur des pays et entre eux, de protéger l’environnement, de créer une croissance économique soutenue, partagée et durable et de favoriser l’inclusion sociale dans le cadre du programme de développement des Nations Unies, notamment des textes issus du Sommet mondial pour le développement social, du Programme d’action d’Addis-Abeba issu de la troisième Conférence internationale sur le financement du développement<authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/69/313">69/313</a> de l’Assemblée générale, annexe.</p></authorialNote>, du Cadre de Sendai pour la réduction des risques de catastrophe (2015-2030)<authorialNote marker="13" placement="bottom" eId="authorialNote_13"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/69/283">69/283</a> de l’Assemblée générale, annexe II.</p></authorialNote> et du Nouveau Programme pour les villes<authorialNote marker="14" placement="bottom" eId="authorialNote_14"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/71/256">71/256</a> de l’Assemblée générale, annexe.</p></authorialNote> ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme</span> l’engagement qui a été pris d’appliquer le Programme 2030 en ne laissant personne de côté, en aidant les plus défavorisés en premier, notamment en promouvant le développement social et la justice sociale au moyen de politiques sociales, et en reconnaissant les droits humains et le fait que la dignité de la personne humaine est fondamentale ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_50" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_50__content">
+          <p xml:space="preserve">	<span class="italic">Est conscient</span> qu’il importe de renforcer la coopération internationale afin que les pays en développement disposent d’une assistance financière et d’un appui technique et puissent renforcer leurs capacités de façon à garantir le plein emploi productif et un travail décent pour tous et ainsi atteindre les objectifs de développement durable liés au développement social ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve">	<span class="italic">Demande </span>aux États Membres de promouvoir, de respecter et de protéger tous les droits humains, conformément aux obligations qui leur incombent en vertu du droit international des droits humains ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_59" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_59__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme</span> que l’élimination de la pauvreté sous toutes ses formes et dans toutes ses dimensions, notamment de l’extrême pauvreté, dans le monde entier, constitue le plus grand défi auquel l’humanité doit faire face, une condition indispensable au développement durable et un objectif majeur du Programme 2030, que vient appuyer et compléter le Programme d’action d’Addis-Abeba, qui en est une partie intégrante ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_65" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_65__content">
+          <p xml:space="preserve">	<span class="italic">Souligne </span>que les bienfaits de la croissance économique devraient être partagés et répartis de manière plus équitable et que, pour combler le fossé des inégalités et éviter qu’il ne se creuse davantage, des politiques et programmes sociaux complets, notamment des programmes de transferts sociaux, des programmes axés sur l’emploi décent et la création d’emplois et des systèmes de protection sociale efficaces, sont nécessaires ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_72" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_72__content">
+          <p xml:space="preserve">	<span class="italic">Estime </span>que le relèvement après la pandémie de COVID‑19 offre une occasion supplémentaire de mettre en place des cadres politiques intégrés à long terme pour la réalisation des objectifs de développement durable, et que ces cadres devraient viser simultanément à bâtir un marché du travail plus inclusif, plus équitable et plus adaptable, qui favorise le plein emploi productif et un travail décent pour toutes les personnes, à améliorer les capacités et le bien-être des personnes, à remédier à la féminisation de la pauvreté, à promouvoir des mesures d’accélération aux niveaux national, régional et international et à garantir des moyens de subsistance durables pour tous, et estime également que ces stratégies de relèvement devraient s’appuyer sur une analyse multidimensionnelle de la pauvreté et du chômage ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_80" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_80__content">
+          <p xml:space="preserve">	<span class="italic">Engage</span> les États Membres à faciliter l’accès équitable et à prix raisonnable aux services de base, en particulier à un enseignement scolaire et non scolaire de qualité, à tous les niveaux, au moyen de programmes contribuant à l’égalité et à l’inclusion par l’affirmation de la dignité fondamentale de la personne humaine, aux soins de santé, notamment en accélérant la transition vers un accès équitable à la couverture sanitaire universelle, au logement abordable, à la nutrition et à l’alimentation, à l’emploi et au travail décent, aux technologies de l’information et des communications et aux infrastructures, dans le cadre d’une action propre à faire progresser l’égalité des genres et l’avancement de toutes les femmes et de toutes les filles ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_89" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_89__content">
+          <p xml:space="preserve">	<span class="italic">Sait</span> que l’investissement dans le capital humain et la protection sociale s’est révélé efficace pour ce qui est de réduire la pauvreté et les inégalités, et invite les États Membres à mobiliser des sources de financement novatrices, notamment au moyen de partenariats public-privé, pour garantir des niveaux de dépenses sociales permettant de généraliser l’accès aux services de santé et d’éducation, à l’innovation, aux nouvelles technologies et à la protection sociale de base ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_99" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_99__content">
+          <p xml:space="preserve">	<span class="italic">Constate</span> qu’il est essentiel d’assurer l’accès de tout le monde à une éducation de qualité inclusive et équitable et de promouvoir les possibilités d’apprentissage tout au long de la vie pour aider les personnes à sortir de la pauvreté et à surmonter leurs vulnérabilités et, à cet égard, souligne qu’il importe de remédier à la pénurie de personnel enseignant qualifié et à l’état insatisfaisant des programmes d’études et des équipements et infrastructures scolaires ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_110" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_110__content">
+          <p xml:space="preserve">	<span class="italic">Apprécie et promeut</span> l’apprentissage et la formation tout au long de la vie pour toutes et pour tous, dans des contextes tant formels qu’informels, et soutient les programmes nationaux d’alphabétisation, y compris les composantes de l’enseignement professionnel et l’éducation non formelle, afin de favoriser la croissance de l’emploi, d’améliorer la qualité des emplois, de favoriser le développement des compétences nécessaires pour les nouvelles formes de travail, de promouvoir l’égalité des chances et de réduire les inégalités sur le marché du travail ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_122" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_122__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les États Membres à s’attaquer aux causes sous-jacentes de l’inégalité en promouvant une économie durable pour le bien-être de tous, en investissant dans des programmes d’élimination de la pauvreté, ainsi que dans la promotion d’un accès équitable et universel aux services de base et à des infrastructures de qualité résilientes, y compris aux services de santé, à l’éducation, à l’apprentissage tout au long de la vie et à la formation professionnelle, aux infrastructures d’éducation, à l’eau potable et aux services d’assainissement, à des logements abordables, à des services énergétiques fiables, durables, modernes et abordables, à des systèmes de transport durable, à Internet et à des services de connectivité abordables, notamment en veillant à ce que l’accès à ces services devienne progressivement universel, compte étant tenu tout particulièrement des besoins des personnes en situation de vulnérabilité ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_135" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_135__content">
+          <p xml:space="preserve">	<span class="italic">Encourage </span>les États à poursuivre l’action menée en vue d’élaborer des stratégies et des programmes destinés à renforcer leur capacité de s’atteler aux priorités nationales concernant les politiques axées sur la famille et à redoubler d’efforts, en collaboration avec les parties prenantes, pour atteindre ces objectifs, en particulier dans le domaine de la lutte contre la pauvreté et la faim, de manière à prévenir la transmission intergénérationnelle et la féminisation de la pauvreté, à favoriser le plein emploi productif et le travail décent pour tous, et à garantir le bien-être de toutes et de tous à tout âge, le but étant de mener à terme le Programme 2030 ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_149" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_149__content">
+          <p xml:space="preserve">	<span class="italic">Souligne</span> qu’il importe de mettre en place et d’appliquer des politiques et mesures ciblées pour éliminer la pauvreté sous toutes ses formes et dans toutes ses dimensions, notamment l’extrême pauvreté, en mettant au point des stratégies de développement assorties d’objectifs d’élimination de la pauvreté précis, en renforçant les moyens statistiques et systèmes de suivi nationaux, notamment l’utilisation innovante d’enquêtes téléphoniques et de données à haute résolution facilitées par la télédétection, en instituant des systèmes et mesures de protection sociale à vocation nationale en faveur de tous et en prenant des mesures concrètes pour éviter que les personnes ne retombent dans la pauvreté d’autant plus au vu de l’inversion brutale observée ces trois dernières années dans la réduction de la pauvreté, le but étant de réaliser le développement durable dans ses trois dimensions – économique, sociale et environnementale – et de renforcer la résilience des personnes pauvres et des personnes en situation de vulnérabilité ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_164" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_164__content">
+          <p xml:space="preserve">	<span class="italic">Demande </span>aux gouvernements d’adopter des mesures pour lutter contre la traite des personnes, le trafic illicite de migrants, l’esclavage moderne et les formes d’exploitation sexuelle et autres dont sont victimes les personnes en situation de pauvreté, et de s’attaquer aux causes économiques et sociales sous-jacentes de la traite des personnes et des autres formes d’exploitation, notamment en décourageant la demande qui favorise toutes les formes d’exploitation des personnes, en particulier des femmes et des enfants ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_180" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_180__content">
+          <p xml:space="preserve">	<span class="italic">Invite</span> les gouvernements à s’employer à adapter selon qu’il convient les politiques et règlements afin de favoriser un travail décent et la croissance de l’emploi, à favoriser l’égalité des chances et à réduire les inégalités et la discrimination sur le marché du travail, en renforçant l’efficacité des institutions du marché du travail, en garantissant une rémunération adéquate au moyen de mesures qui instituent des salaires minimum légaux ou conventionnels et un salaire égal pour un travail de valeur égale, de la législation sur la protection de l’emploi et du droit de l’emploi, et en veillant à la mise en œuvre de ces mesures pour que tous les travailleurs jouissent des droits relatifs au travail ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_197" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_197__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme</span> l’engagement pris par les États Membres de promouvoir des politiques axées sur le développement qui favorisent les activités productives, la création d’emplois décents, l’entrepreneuriat, la créativité et l’innovation, stimulent la croissance des microentreprises et des petites et moyennes entreprises et facilitent leur intégration dans le secteur formel, y compris par l’accès aux services financiers, dans les secteurs ruraux comme dans les secteurs urbains, et promeuvent les technologies porteuses d’emplois productifs et de travail décent ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_215" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_215__content">
+          <p xml:space="preserve">	<span class="italic">Invite</span> les gouvernements à intégrer aux programmes scolaires officiels et aux initiatives de formation continue l’enseignement de compétences numériques, de l’entrepreneuriat et d’autres compétences non techniques afin de faire face aux conséquences de l’évolution radicale de l’économie numérique et de la quatrième révolution industrielle pour les marchés du travail ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_234" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_234__content">
+          <p xml:space="preserve">	<span class="italic">Invite</span> les États Membres à envisager d’adopter des politiques de marché du travail propres à renforcer les institutions et à fournir une protection adéquate à l’ensemble des travailleurs, en particulier à celles et ceux qui sont les plus défavorisés, en instaurant un dialogue social et en garantissant un salaire minimum dans le cadre de mesures visant à stimuler la croissance des revenus de la grande majorité des travailleurs, compte dûment tenu du rôle des organisations de travailleurs et des organisations d’employeurs, selon qu’il conviendra, ainsi que de la situation de chaque pays ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_254" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_254__content">
+          <p xml:space="preserve">	<span class="italic">Souligne</span> qu’il faut remédier aux difficultés que rencontrent les personnes qui occupent des emplois informels et vulnérables, en investissant dans la création d’un plus grand nombre de débouchés en ce qui concerne le travail décent, y compris en donnant accès à des emplois décents dans le secteur structuré ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_275" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_275__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les États Membres à accélérer les efforts visant à promouvoir la transition du travail informel au travail formel dans tous les secteurs au moyen de stratégies intégrées comprenant des mesures nuancées et différenciées axées sur un travail décent et une protection sociale fiable, notamment en tirant parti des politiques de promotion du travail formel grâce aux outils numériques et en investissant dans la création de davantage d’emplois décents, notamment en aidant les secteurs nouveaux ou en expansion, comme le secteur des services à la personne, l’économie durable et l’économie numérique, à intégrer les travailleurs informels, et à mettre en place des mesures à même d’améliorer la capacité des employeurs et des travailleurs de se conformer aux normes existantes et à la réglementation en vigueur en ce qui concerne le paiement des impôts et des cotisations sociales selon des modalités et une périodicité adaptées au profil de revenu des travailleurs de l’économie informelle et rurale, en œuvrant à l’adaptation ou à la simplification des règlements et des procédures, en mettant en place des incitations à la formalisation et en renforçant le contrôle des pouvoirs publics et les capacités des services chargés des impôts, des services d’inspection du travail et de la sécurité sociale ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_297" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_297__content">
+          <p xml:space="preserve">	<span class="italic">Invite </span>les États Membres à mettre en place des programmes bien conçus visant à assurer l’égalité des chances et de traitement dans le monde du travail et à faciliter et soutenir l’inclusion sur le marché du travail des personnes en situation de vulnérabilité, en particulier les femmes, les jeunes, les personnes handicapées, les personnes atteintes d’une maladie rare, les personnes âgées, les peuples autochtones, les migrants, les membres de minorités nationales ou ethniques, religieuses et linguistiques, et les personnes vivant avec le VIH, notamment en améliorant les politiques actives du marché du travail et les systèmes de protection sociale ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_320" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_320__content">
+          <p xml:space="preserve">	<span class="italic">Exhorte</span> les États Membres à mettre en place des programmes spécifiques et à mobiliser des ressources financières et des technologies pour aider les femmes à reprendre une activité économique, y compris pour qu’elles aient accès à un travail décent, à la formation et aux services financiers, renforçant ainsi leurs moyens d’action et leur autonomie économiques, à protéger et à promouvoir le droit au travail de toutes les femmes et leurs droits en tant que travailleuses, à faciliter leur pleine et égale participation au marché du travail et à assurer leur égalité d’accès à un travail décent et à des emplois de qualité dans tous les secteurs et à tous les niveaux ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_344" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_344__content">
+          <p xml:space="preserve">	<span class="italic">Demande </span>aux États Membres de promouvoir, respecter et protéger les droits des travailleurs, de promouvoir le travail décent, de promouvoir la sécurité sur le lieu de travail et d’assurer la protection de tous les travailleurs, y compris des migrants, en particulier les femmes, et ceux qui ont un emploi précaire, et est conscient que la contribution positive des travailleuses migrantes est susceptible de favoriser une croissance inclusive et le développement durable dans les pays d’origine, de transit et de destination, mettant l’accent sur la valeur et la dignité de leur travail dans tous les secteurs, y compris dans celui des soins à la personne et du travail domestique, et demande également aux États Membres de renforcer la coopération internationale pour permettre des migrations sûres, ordonnées et régulières ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_369" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_369__content">
+          <p xml:space="preserve">	<span class="italic">Engage</span> les États Membres à appliquer des politiques en faveur de l’autonomisation économique des femmes qui prônent la participation pleine et productive des femmes au marché du travail, y compris des femmes en situation de handicap ou de pauvreté ou chefs de famille, qui favorisent l’égalité salariale à travail égal, le partage des responsabilités entre les parents, la mise en place de services et de structures d’accueil abordables et de qualité pour les enfants, la conciliation de la vie familiale avec la vie professionnelle, en particulier dans le cadre de la prise en charge des enfants, des personnes âgées et des personnes handicapées, et qui encouragent la participation pleine, égale et effective des femmes à l’économie, notamment en facilitant l’entrepreneuriat des femmes, et à la prise de décisions à tous les niveaux et dans tous les domaines ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_395" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_395__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> aux États Membres de parvenir à l’égalité des genres et à l’autonomisation de toutes les femmes et de toutes les filles, et de garantir la non-discrimination, la diversité et l’inclusion raciales et culturelles, ainsi que l’équité en élaborant et en suivant une approche intégrée et globale tout au long de la vie, en supprimant les obstacles qui empêchent les femmes d’accéder au marché du travail, d’y rester et d’y progresser, tels que les stéréotypes, toutes les formes de violence, notamment la violence fondée sur le genre, les lois et pratiques discriminatoires et la répartition injuste du travail domestique non rémunéré, en comblant les écarts de rémunération et de pension entre les femmes et les hommes et en s’employant davantage à garantir un salaire égal pour un travail de valeur égale, y compris les soins à la personne ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_422" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_422__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les États Membres à procéder aux adaptations nécessaires pour favoriser un environnement économique propice à la promotion d’une croissance économique inclusive et durable, à la création d’un travail décent et d’emplois décents, ainsi qu’à l’entrepreneuriat, y compris l’entrepreneuriat social, à l’innovation et aux entreprises durables, en renforçant la coopération internationale et les partenariats avec le secteur privé, notamment en améliorant l’accès au crédit, en particulier pour les microentreprises et les petites et moyennes entreprises, à adopter des politiques publiques permettant de lutter contre les lourdeurs bureaucratiques et la corruption, ainsi que contre les flux financiers illicites, et à renforcer les bonnes pratiques en matière de restitution et de recouvrement des avoirs ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_450" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_450__content">
+          <p xml:space="preserve">	<span class="italic">Constate </span>que les politiques en faveur de la famille sont plus efficaces quand elles ciblent la cellule familiale et sa dynamique dans leur globalité, en tenant compte des besoins de ses membres, et note que ces politiques visent en particulier à renforcer la capacité des ménages d’échapper à la pauvreté, à favoriser leur autonomie financière et à les aider à concilier vie professionnelle et vie familiale, et devraient être élaborées dans ce souci, afin de permettre aux familles d’assumer leurs fonctions et de contribuer à l’épanouissement des enfants ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_479" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_479__content">
+          <p xml:space="preserve">	<span class="italic">Encourage </span>les États Membres à adopter des politiques axées sur la famille et tenant compte des questions de genre qui favorisent la création d’emplois décents dans les nouveaux secteurs durables et les secteurs en croissance, notamment l’économie durable, l’économie numérique, l’économie des soins à la personne et, selon les cas, l’économie sociale et solidaire, grâce, entre autres, à des investissements suffisants dans des politiques de développement des compétences et des qualifications qui soient souples, accessibles, conçues avec le concours de partenaires sociaux et adaptées aux besoins de nouveaux secteurs, à des politiques qui favorisent une transition juste, écologiquement durable et mue par le numérique, qui soit équitable et inclusive, à des cadres législatifs qui déterminent le statut et protègent les droits des travailleurs de l’économie numérique, et à des politiques qui garantissent une mise en œuvre effective ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_509" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_509__content">
+          <p xml:space="preserve">	<span class="italic">Encourage également </span>les États Membres à promouvoir et à mettre en œuvre des stratégies, des politiques et des programmes nationaux, locaux et régionaux visant à soutenir et à renforcer l’économie sociale et solidaire en tant que modèle possible de développement économique et social durable, en tenant compte des circonstances, des plans et des priorités nationales, en élaborant des cadres juridiques visant à renforcer l’intégration dans l’économie des personnes vivant dans la pauvreté et dans des situations de vulnérabilité, y compris les peuples autochtones, les communautés locales et les agriculteurs, et en créant des environnements propices à la protection et à la promotion de leurs pratiques et de leurs connaissances traditionnelles dans les activités de production ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_540" class="SingleTxt">
+        <num>32.</num>
+        <content eId="para_540__content">
+          <p xml:space="preserve">	<span class="italic">Encourage en outre </span>les États Membres à respecter, promouvoir et réaliser le droit au travail et à prévenir et éliminer la répartition inégale du travail domestique, la violence, les sévices et le harcèlement sexuel, en tenant pour entendu que la violence et le harcèlement constituent une menace pour l’égalité des chances, sont inacceptables et incompatibles avec un travail décent et peuvent empêcher les femmes d’accéder au marché du travail, d’y rester et d’y progresser ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_572" class="SingleTxt">
+        <num>33.</num>
+        <content eId="para_572__content">
+          <p xml:space="preserve">	<span class="italic">Constate</span> que l’aggravation de la pauvreté durant la pandémie a occasionné une augmentation du travail des enfants et exhorte les États Membres à prendre immédiatement des mesures visant à interdire et à éliminer toutes les formes de travail des enfants, en 2025 au plus tard ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_605" class="SingleTxt">
+        <num>34.</num>
+        <content eId="para_605__content">
+          <p xml:space="preserve">	<span class="italic">Considère </span>que les systèmes nationaux de protection sociale universelle adaptés aux besoins de toutes et tous s’attaquent aux causes multiples, souvent interdépendantes et complexes, de la pauvreté et des inégalités en allégeant le poids de certaines dépenses pendant les périodes de chômage, en contribuant aux objectifs liés à la santé, à l’égalité des genres, à l’avancement des femmes et des filles et au travail décent, et en facilitant l’inclusion des personnes handicapées, des personnes atteintes d’une maladie rare et des personnes âgées ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_639" class="SingleTxt">
+        <num>35.</num>
+        <content eId="para_639__content">
+          <p xml:space="preserve">	<span class="italic">Considère également</span> que des systèmes nationaux de protection sociale adaptés peuvent apporter une contribution essentielle à la réalisation des droits humains pour toutes et tous, en particulier pour les personnes prises au piège de la pauvreté et de la faim, et que la promotion de l’accès universel aux services sociaux et la mise en place de socles de protection sociale adaptés au contexte national peuvent contribuer à la réduction des inégalités et de la pauvreté, permettre de lutter contre l’exclusion sociale et promouvoir une croissance économique partagée, et prend note à ce propos de la Recommandation de 2012 de l’Organisation internationale du Travail concernant les socles de protection sociale (n<sup>o</sup> 202) ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_674" class="SingleTxt">
+        <num>36.</num>
+        <content eId="para_674__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les États Membres à investir dans la mise en place de systèmes nationaux de protection sociale qui, selon qu’il conviendra, soient universels, tiennent compte des risques et des questions de genre, soient axés sur la famille et combinent régimes d’assurance sociale et régimes non contributifs (financés par l’impôt), afin de garantir que chacun ait accès à une protection complète, adéquate, progressive et durable tout au long de sa vie, et à prendre des mesures qui facilitent l’inclusion des personnes en situation de vulnérabilité, fréquemment laissées de côté par les systèmes de protection sociale (notamment les aidants non rémunérés, le « chaînon manquant » et les travailleurs du secteur informel), et qui contribuent à des transformations structurelles justes en répondant aux besoins de protection sociale découlant de la croissance de l’économie durable et de l’économie numérique et en renforçant l’efficacité des programmes d’intervention face aux catastrophes causées par des aléas de toutes sortes, notamment au moyen d’investissements publics et privés dans la réduction des risques de catastrophe ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_710" class="SingleTxt">
+        <num>37.</num>
+        <content eId="para_710__content">
+          <p xml:space="preserve">	<span class="italic">Encourage également</span> les États Membres à mettre en place des politiques sociales complètes et bien coordonnées, notamment des régimes de protection sociale universelle en investissant dans les bonnes pratiques, fondées sur des données probantes, notamment en renforçant les capacités des services nationaux d’évaluation pour qu’ils puissent orienter les fonds publics vers des politiques sociales, notamment des politiques et des régimes de protection sociale dont l’efficacité et l’efficience ont été démontrées ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_747" class="SingleTxt">
+        <num>38.</num>
+        <content eId="para_747__content">
+          <p xml:space="preserve">	<span class="italic">Encourage en outre </span>les États Membres, lorsqu’ils élaborent, mettent en œuvre, suivent et évaluent des programmes de protection sociale, à veiller tout au long du processus à y intégrer la question de l’égalité des genres ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_785" class="SingleTxt">
+        <num>39.</num>
+        <content eId="para_785__content">
+          <p xml:space="preserve">	<span class="italic">Considère</span> que les familles peuvent jouer un grand rôle dans la lutte contre l’exclusion sociale et souligne qu’il importe d’investir dans des politiques et des programmes axés sur la famille qui soient adaptés et ouverts à toutes et à tous, dans des domaines tels que l’éducation, la formation, le travail décent, la conciliation de la vie professionnelle et de la vie familiale, les services de santé, les services sociaux, les relations intergénérationnelles et la solidarité, et les transferts en espèces destinés aux familles qui se trouvent dans des situations de vulnérabilité, pour réduire les inégalités et promouvoir le bien-être de toutes et de tous à tout âge, contribuer à offrir de meilleures perspectives aux enfants et aux autres membres de la famille qui sont en situation de vulnérabilité et aider à rompre la transmission de la pauvreté de génération en génération ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_824" class="SingleTxt">
+        <num>40.</num>
+        <content eId="para_824__content">
+          <p xml:space="preserve">	<span class="italic">Salue</span> le rôle crucial qu’ont joué les systèmes de protection sociale durables dans la riposte à la pandémie de COVID‑19 et encourage les États Membres à donner aux pays concernés la possibilité de combler les disparités importantes en matière de protection sociale en progressant vers l’édification de systèmes de protection sociale universels, adéquats, complets et durables, grâce à la mise en place, dans le respect de leur droit interne, d’un revenu minimum, d’allocations familiales, d’allocations de maternité, de prestations de maladie, de pensions d’invalidité, d’allocations de chômage et de pensions de retraite, et à veiller à ce que ces systèmes recensent et corrigent les disparités en matière de protection sociale, en particulier pour celles et ceux qui sont en situation de vulnérabilité, notamment les travailleurs du secteur informel, les migrants et les soignants non rémunérés ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_864" class="SingleTxt">
+        <num>41.</num>
+        <content eId="para_864__content">
+          <p xml:space="preserve">	<span class="italic">Engage</span> les États Membres à mettre en place des systèmes de protection sociale universels favorables à la famille et tenant compte des questions liées à l’âge, au handicap et au genre, qui sont essentiels pour réduire la pauvreté et qui devraient comprendre, selon qu’il convient, des transferts en espèces destinés aux personnes et aux familles en situation de vulnérabilité, comme les familles monoparentales, en particulier celles dirigées par des femmes, systèmes qui sont d’autant plus efficaces pour faire reculer la pauvreté qu’ils s’accompagnent d’autres mesures consistant, par exemple, à donner accès aux services de base, à un enseignement de qualité et aux services de santé ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_905" class="SingleTxt">
+        <num>42.</num>
+        <content eId="para_905__content">
+          <p xml:space="preserve">	<span class="italic">Souligne</span> qu’il est indispensable de mieux coordonner les politiques et mesures de protection sociale avec les programmes de réduction de la pauvreté et d’autres politiques sociales pour éviter que les personnes occupant des emplois informels ou précaires n’en soient exclues, et estime qu’il faut promouvoir des transitions vers l’économie formelle, l’élargissement et la mise à niveau des programmes d’assistance sociale en augmentant les prestations et en en faisant bénéficier les travailleurs du secteur informel, y compris les travailleurs saisonniers et occasionnels dans les zones rurales ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_947" class="SingleTxt">
+        <num>43.</num>
+        <content eId="para_947__content">
+          <p xml:space="preserve">	<span class="italic">Engage</span> les États Membres à envisager de soutenir la mise en œuvre de l’Accélérateur mondial pour l’emploi et la protection sociale à l’appui d’une transition juste, notamment en promouvant le travail décent et les systèmes de protection sociale durables et universels ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_990" class="SingleTxt">
+        <num>44.</num>
+        <content eId="para_990__content">
+          <p xml:space="preserve">	<span class="italic">Engage également</span> les États Membres à élaborer des plans de relèvement liés au développement social qui s’inscrivent dans une perspective à long terme et qui soient inclusifs et axés sur la prévention, l’objectif étant d’améliorer les capacités et le bien-être des populations en investissant dans les services sociaux et dans des infrastructures de qualité, fiables, durables et résilientes, notamment les infrastructures scolaires de base et les services de santé, l’eau potable et l’assainissement, des logements abordables, la garantie d’un emploi décent, une bonne couverture sociale et un accès fiable, à un coût abordable, aux technologies numériques, à Internet et à la connectivité ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1034" class="SingleTxt">
+        <num>45.</num>
+        <content eId="para_1034__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> aux États Membres de continuer de prendre des mesures pour réduire les fractures numériques entre les pays et à l’intérieur des pays et répandre les avantages de la transition numérique, et pour accroître la participation de tous les pays, en particulier des pays en développement, à l’économie numérique, notamment en améliorant la connectivité de leur infrastructure numérique, en renforçant leurs capacités et leur accès aux innovations technologiques grâce à des partenariats plus solides et en améliorant la culture numérique, et invite en outre les États Membres à tirer parti de la technologie numérique pour élargir les bases sur lesquelles renforcer les systèmes de protection sociale ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1079" class="SingleTxt">
+        <num>46.</num>
+        <content eId="para_1079__content">
+          <p xml:space="preserve">	<span class="italic">Note avec préoccupation</span> que des pratiques injustes risquent de freiner le développement et l’innovation technologique dans le monde, en particulier dans les pays en développement, et engage la communauté internationale à mettre en place un environnement ouvert et inclusif en vue du développement scientifique et technologique ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1125" class="SingleTxt">
+        <num>47.</num>
+        <content eId="para_1125__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les États Membres à améliorer la responsabilité, la transparence et les capacités du secteur public et à faciliter l’avancement des personnes en situation de vulnérabilité, de celles qui travaillent dans l’économie informelle et de celles qui vivent dans la pauvreté, et leur participation effective et réelle à la conception, à la mise en œuvre et au suivi des politiques sociales, notamment en renforçant le dialogue social et les mécanismes de consultation multipartite, et en soutenant les organisations de la société civile ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1172" class="SingleTxt">
+        <num>48.</num>
+        <content eId="para_1172__content">
+          <p xml:space="preserve">	<span class="italic">Demande instamment</span> aux États Membres de s’attaquer aux causes multiples de la pauvreté, de la faim et des inégalités, en garantissant un travail décent et en créant des emplois ; en renforçant la résilience ; en améliorant la cohérence entre les politiques relatives à la protection sociale, à la sécurité alimentaire et à la nutrition ; en fournissant des transferts en espèces ciblés ; en faisant la promotion de l’inclusion dans les domaines financier et numérique et en mettant en avant les connaissances à avoir dans ces domaines ; en garantissant l’égalité des chances et l’accès, sans discrimination, à une alimentation saine issue de systèmes alimentaires durables, à un enseignement de qualité et à la formation tout au long de la vie ; en luttant contre toutes les formes de discrimination ; en donnant des moyens d’action à toutes les populations et en favorisant l’inclusion sociale et la participation des personnes qui sont victimes de formes multiples et croisées de discrimination ; en privilégiant les investissements dans l’éducation, la nutrition et les soins de la petite enfance afin de faire disparaître la pauvreté intergénérationnelle ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1220" class="SingleTxt">
+        <num>49.</num>
+        <content eId="para_1220__content">
+          <p xml:space="preserve">	<span class="italic">Demande de même instamment</span> aux États Membres de placer les considérations sociales au cœur des cadres de développement, notamment en renforçant les synergies entre les politiques sociales, économiques et environnementales, le cas échéant, et en utilisant les ressources institutionnelles telles que la coordination entre les ministères et une approche intégrée ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1269" class="SingleTxt">
+        <num>50.</num>
+        <content eId="para_1269__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme</span> que les changements climatiques constituent l’un des plus grands défis de notre temps, demeure vivement préoccupé par le fait que tous les pays, en particulier les pays en développement, sont exposés aux effets néfastes des changements climatiques et en subissent déjà de plus en plus les conséquences, notamment les sécheresses persistantes et les phénomènes météorologiques extrêmes, la perte de biodiversité, la dégradation des terres, la désertification, les tempêtes de sable et de poussière, l’élévation du niveau de la mer, l’érosion du littoral, l’acidification des océans et le recul des glaciers, qui menacent encore plus la sécurité alimentaire, la disponibilité en eau et les moyens d’existence, est conscient des risques sanitaires importants posés par les changements climatiques, souligne qu’il importe de s’intéresser aux conséquences économiques, sociales et environnementales des changements climatiques, et insiste sur la nécessité d’agir à tous les niveaux, y compris au moyen de mesures d’atténuation et d’adaptation, afin de renforcer la résilience nécessaire pour contribuer à éliminer la pauvreté sous toutes ses formes et dans toutes ses dimensions et à éliminer la faim ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1319" class="SingleTxt">
+        <num>51.</num>
+        <content eId="para_1319__content">
+          <p xml:space="preserve">	<span class="italic">Apprécie </span>les efforts faits à tous les niveaux pour mettre en place des mesures et programmes de protection sociale, y compris des filets de sécurité sociale et des socles de protection sociale nationaux assurant la protection des personnes démunies et en situation de vulnérabilité, notamment des programmes vivres contre travail et travail contre rémunération et des programmes de transfert en espèces, de coupons, de repas scolaires, de nutrition maternelle et infantile et de logement abordable, ainsi que pour renforcer ceux qui existent et, à cet égard, souligne qu’il importe d’augmenter les investissements, d’étoffer les capacités et d’améliorer l’approche systémique du développement ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1370" class="SingleTxt">
+        <num>52.</num>
+        <content eId="para_1370__content">
+          <p xml:space="preserve">	<span class="italic">Demande instamment</span> aux États Membres de parvenir à l’égalité des genres et de donner des moyens d’action à toutes les femmes et toutes les filles en garantissant l’égalité des chances et une protection sociale pour toutes et tous, en particulier pour les personnes qui sont en situation de vulnérabilité, notamment en prenant en compte les questions de genre dans la participation au marché du travail, dans la répartition du travail domestique et dans les programmes de sécurité alimentaire, essentiellement en faveur des femmes et des filles qui sont victimes de formes de discrimination multiples et croisées et de violence, sachant que l’avancement des femmes et des filles dans des situations et des conditions diverses contribuera pour beaucoup à la réalisation de l’ensemble des objectifs et cibles fixés dans le Programme 2030 ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1422" class="SingleTxt">
+        <num>53.</num>
+        <content eId="para_1422__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> aux États Membres d’adopter des politiques, des programmes et des mesures pour reconnaître, réduire et redistribuer la part disproportionnée de soins et de travail domestique non rémunérés assumée par les femmes et les filles et pour mettre fin à la féminisation de la pauvreté, qui est exacerbée par la pandémie de COVID‑19, notamment des mesures d’élimination de la pauvreté, des politiques du travail, des services publics et des programmes de protection sociale tenant compte des questions de genre ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1475" class="SingleTxt">
+        <num>54.</num>
+        <content eId="para_1475__content">
+          <p xml:space="preserve">	<span class="italic">Estime</span> qu’investir dans les capacités des femmes et des filles est important pour leur permettre de s’épanouir pleinement, pour réduire la pauvreté, l’insécurité alimentaire, la malnutrition et les inégalités ainsi que pour accroître la productivité et stimuler la rentabilité sociale en termes de santé, de baisse de la mortalité infantile et de bien-être des familles ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1529" class="SingleTxt">
+        <num>55.</num>
+        <content eId="para_1529__content">
+          <p xml:space="preserve">	<span class="italic">Engage</span> les États Membres à prendre en compte les soins et les travaux domestiques non rémunérés, qui sont surtout assurés par les femmes, et à réduire et à redistribuer la charge de travail qu’ils représentent, à redoubler d’efforts pour garantir un salaire égal pour un travail égal ou un travail de valeur égale, et à promouvoir l’équilibre entre vie professionnelle et vie familiale en tant que facteur de bien-être pour les enfants, les jeunes, les personnes handicapées, les personnes atteintes d’une maladie rare et les personnes âgées et de réalisation de l’égalité des genres et de l’autonomisation de toutes les femmes et de toutes les filles, entre autres, par l’amélioration des conditions de travail des personnes ayant des responsabilités familiales, en aménageant les modalités de travail, notamment grâce aux nouvelles technologies de l’information et des communications, et en mettant en place ou en généralisant des modalités de congés, tels que les congés de maternité et de paternité, et des prestations de sécurité sociale adéquates pour les femmes et les hommes, tout en veillant à ce que les intéressés ne fassent pas l’objet de discrimination lorsqu’ils se prévalent de ces avantages et à ce que les hommes connaissent mieux ces avantages et en tirent parti, dans l’intérêt du développement de leurs enfants et comme moyen de permettre aux femmes de participer davantage au marché du travail ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1584" class="SingleTxt">
+        <num>56.</num>
+        <content eId="para_1584__content">
+          <p xml:space="preserve">	<span class="italic">Engage également</span> les États Membres à faciliter l’acquisition de connaissances dans les domaines financier et numérique et à promouvoir l’inclusion des femmes et leur accès dans des conditions d’égalité aux services financiers formels, y compris l’accès aux services de crédit, de prêts, d’épargne, d’assurance et de transfert de fonds en temps opportun et à un prix abordable ; à prendre en compte les questions de genre dans les politiques et les réglementations propres au secteur financier, conformément aux priorités et à la législation nationales, à encourager les institutions financières, telles que les banques commerciales, les banques de développement, les banques agricoles, les institutions de microfinance, les opérateurs de réseaux de téléphonie mobile, les réseaux d’agents, les coopératives, les banques postales et les caisses d’épargne, à permettre aux femmes d’accéder aux produits, services et informations financiers et à encourager l’utilisation d’outils et de plateformes innovants, y compris de services de banque en ligne et de banque mobile ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1640" class="SingleTxt">
+        <num>57.</num>
+        <content eId="para_1640__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> aux États Membres de s’attaquer aux effets néfastes de la pandémie de COVID‑19 sur les enfants en en atténuant les répercussions sur le plan socioéconomique, notamment en assurant la continuité des services et des politiques axés sur les enfants sur la base de l’égalité d’accès, en défendant le droit de l’enfant à un enseignement de qualité, y compris en ce qui concerne l’éducation de la petite enfance, sur la base de l’égalité des chances et de la non-discrimination, et en favorisant un enseignement inclusif, équitable et accessible par la mise en œuvre de mesures appropriées visant à aider les familles à organiser le retour à l’école des enfants, en particulier des filles et des enfants en situation de vulnérabilité, et l’accès aux possibilités de rattrapage des apprentissages perdus ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1697" class="SingleTxt">
+        <num>58.</num>
+        <content eId="para_1697__content">
+          <p xml:space="preserve">	<span class="italic">Considère</span> que des ressources intérieures mobilisées selon le principe de l’appropriation nationale et complétées au besoin par l’aide internationale seront essentielles au développement durable et à la réalisation des objectifs y relatifs ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1755" class="SingleTxt">
+        <num>59.</num>
+        <content eId="para_1755__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> aux États Membres d’accroître les investissements dans le développement social, notamment de mobiliser les ressources nationales pour les politiques sociales en élargissant l’assiette fiscale, en recourant à une imposition progressive et en renforçant les services fiscaux nationaux afin qu’ils aient la capacité de concevoir, d’administrer et de mettre en œuvre ces politiques ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1814" class="SingleTxt">
+        <num>60.</num>
+        <content eId="para_1814__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme</span> le Programme d’action d’Addis-Abeba et constate que des dispositions doivent être prises pour accroître sensiblement les investissements afin de remédier au manque de ressources, notamment en mobilisant des moyens financiers auprès de toutes les sources, publiques et privées, nationales et internationales, et en les allouant ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1874" class="SingleTxt">
+        <num>61.</num>
+        <content eId="para_1874__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme </span>que la coopération internationale joue un rôle essentiel pour ce qui est d’aider les pays en développement, notamment les pays pauvres très endettés, les pays les moins avancés, les pays en développement sans littoral, les petits États insulaires en développement et les pays à revenu intermédiaire, à renforcer leurs capacités sur le plan des ressources humaines, institutionnelles et technologiques ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1935" class="SingleTxt">
+        <num>62.</num>
+        <content eId="para_1935__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> à la communauté internationale d’aider les pays en développement à appliquer des stratégies nationales de mise en valeur des ressources humaines et l’engage, ainsi que le secteur privé et les acteurs de la société civile concernés, à fournir et à mobiliser des ressources financières, à renforcer les capacités, à prêter une assistance technique, à procéder à des transferts de technologies selon des modalités arrêtées d’un commun accord et à fournir des compétences à partir de toutes les sources disponibles ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1997" class="SingleTxt">
+        <num>63.</num>
+        <content eId="para_1997__content">
+          <p xml:space="preserve">	<span class="italic">Demande également</span> à la communauté internationale de renforcer la coopération multilatérale afin d’accroître la marge de manœuvre budgétaire pour les dépenses sociales en coopérant avec les banques de développement régionales, sous-régionales et nationales pour aligner les capacités de prêt sur les priorités nationales de développement et aider à répondre aux besoins de financement des pays en développement, tout en continuant à aider les pays en développement à éviter l’accumulation d’une dette insoutenable et à mettre en œuvre des mesures de résilience afin de réduire le risque de retomber dans une autre crise de la dette ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2060" class="SingleTxt">
+        <num>64.</num>
+        <content eId="para_2060__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les pays développés à honorer tous leurs engagements en matière d’aide publique au développement, notamment celui pris par nombre d’entre eux de consacrer 0,7 pour cent de leur revenu national brut à l’aide aux pays en développement et entre 0,15 pour cent et 0,20 pour cent à l’aide aux pays les moins avancés ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2124" class="SingleTxt">
+        <num>65.</num>
+        <content eId="para_2124__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> à la communauté internationale d’aider les pays à parvenir à un niveau élevé de productivité économique par la diversification, la modernisation technologique et l’innovation, notamment en mettant l’accent sur les secteurs à forte valeur ajoutée et à forte intensité de main-d’œuvre de façon à mieux tenir les engagements qu’ils ont pris en matière de transfert de technologies selon des modalités arrêtées d’un commun accord ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2189" class="SingleTxt">
+        <num>66.</num>
+        <content eId="para_2189__content">
+          <p xml:space="preserve">	<span class="italic">Se félicite</span> des contributions que la coopération Sud-Sud apporte à la promotion du plein emploi productif et d’un travail décent pour toutes et tous, réaffirme qu’elle constitue un élément important de la coopération internationale pour le développement en ce qu’elle complète la coopération Nord-Sud sans s’y substituer, et s’engage à renforcer la coopération Sud-Sud et la coopération triangulaire afin de mettre les acquis de l’expérience et le savoir-faire au service de la coopération pour le développement ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2255" class="SingleTxt">
+        <num>67.</num>
+        <content eId="para_2255__content">
+          <p xml:space="preserve">	<span class="italic">Souligne </span>que l’aide publique au développement joue un rôle essentiel en ce qu’elle complète, mobilise et alimente le financement des initiatives de développement des pays concernés et facilite la réalisation des objectifs de développement, notamment ceux arrêtés au niveau international, dont les objectifs de développement durable, et se félicite des mesures visant à accroître l’efficacité et la qualité de l’aide dans le respect des principes fondamentaux de l’appropriation nationale, de l’alignement, de l’harmonisation, de la gestion axée sur les résultats et de la responsabilité mutuelle ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2322" class="SingleTxt">
+        <num>68.</num>
+        <content eId="para_2322__content">
+          <p xml:space="preserve">	<span class="italic">Engage</span> la communauté internationale à intensifier la coopération pour le développement, notamment par la coopération Sud-Sud et Nord-Sud et la coopération triangulaire, ainsi que les partenariats multipartites, afin d’aider les pays, en particulier les pays en développement, à leur demande, à renforcer leurs capacités nationales en matière de science, de technologie et d’innovation au service du développement social, et de soutenir les réseaux de recherche dont la portée dépasse les frontières, les institutions et les disciplines ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2390" class="SingleTxt">
+        <num>69.</num>
+        <content eId="para_2390__content">
+          <p xml:space="preserve">	<span class="italic">Prie</span> la communauté internationale de renforcer la coopération multilatérale, en mobilisant des ressources en faveur d’un relèvement inclusif et en explorant la possibilité de réaffecter volontairement les droits de tirage spéciaux aux pays qui en ont le plus besoin, par l’intermédiaire des banques multilatérales de développement, tout en respectant les cadres juridiques pertinents et en préservant le caractère des droits de tirage spéciaux, et est conscient du rôle que jouent l’Organisation des Nations Unies et les institutions financières internationales dans le cadre de leur mandat et les encourage à continuer d’appuyer l’action menée à l’échelle mondiale pour atteindre une croissance soutenue et partagée, parvenir au développement durable et assurer la soutenabilité de la dette extérieure des pays en développement ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2459" class="SingleTxt">
+        <num>70.</num>
+        <content eId="para_2459__content">
+          <p xml:space="preserve">	<span class="italic">Prie instamment</span> le Secrétaire général de continuer de fournir des informations de nature à aider les États Membres à se préparer aux problèmes que le vieillissement pose pour le respect des obligations en matière de protection sociale, le maintien des systèmes fiscaux et le renforcement de la stabilité sociale, en particulier dans les pays encore en développement et les pays dont la population vieillit ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2529" class="SingleTxt">
+        <num>71.</num>
+        <content eId="para_2529__content">
+          <p xml:space="preserve">	<span class="italic">Invite</span> toutes les parties intéressées, notamment les organismes des Nations Unies et les organisations de la société civile, à continuer de promouvoir l’échange d’informations et des bonnes pratiques concernant les programmes, politiques et mesures qui permettent de réduire efficacement les inégalités dans toutes leurs dimensions ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2600" class="SingleTxt">
+        <num>72.</num>
+        <content eId="para_2600__content">
+          <p xml:space="preserve">	<span class="italic">Invite</span> le système des Nations Unies à continuer d’accompagner les États Membres, à leur demande, dans leur quête de moyens de subsistance durables, de bien-être et de dignité, de plein emploi productif et de travail décent pour toutes et tous, et à faciliter la coopération internationale pour renforcer les politiques sociales en faveur du développement social et de la justice sociale afin de surmonter les inégalités et d’éliminer la pauvreté, et de parvenir à la mise en œuvre intégrale du Programme de développement durable à l’horizon 2030 au nom de l’avenir commun des générations actuelles et futures.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="20e" refersTo="#adoptionMeeting">20e séance plénière</location>
+          <eol />
+          <docDate date="2024-06-05" refersTo="#adoptionDate">5 juin 2024</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

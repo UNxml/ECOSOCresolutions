@@ -1,0 +1,1615 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2024-07-23/2024-15/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2024-07-23/2024-15/"></FRBRuri>
+          <FRBRdate date="2024-07-23" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2024-07-23/2024-15/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2024-07-23/2024-15/fra@/"></FRBRuri>
+          <FRBRdate date="2024-08-02" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2024-07-23/2024-15/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2024-07-23/2024-15/fra@.xml"></FRBRuri>
+          <FRBRdate date="2024-09-26" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="15" href="http://metadata.un.org/sdg/15" showAs="sdg_15" dictionary="SDGO"></keyword>
+        <keyword value="deforestation" href="http://eurovoc.europa.eu/339" showAs="deforestation" dictionary="EuroVoc"></keyword>
+        <keyword value="deforestation" href="http://metadata.un.org/thesaurus/1001550" showAs="deforestation" dictionary="UNBIS"></keyword>
+        <keyword value="biodiversity" href="http://eurovoc.europa.eu/5463" showAs="biodiversity" dictionary="EuroVoc"></keyword>
+        <keyword value="desertification" href="http://eurovoc.europa.eu/416" showAs="desertification" dictionary="EuroVoc"></keyword>
+        <keyword value="desertification" href="http://metadata.un.org/thesaurus/1001594" showAs="desertification" dictionary="UNBIS"></keyword>
+        <keyword value="land,_plant_and_soil_resources" href="http://metadata.un.org/thesaurus/030600" showAs="land,_plant_and_soil_resources" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Forum on Forests (19th sess. : 2024 : New York)" showAs="UN Forum on Forests (19th sess. : 2024 : New York)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Forum on Forests. Secretariat" showAs="UN Forum on Forests. Secretariat" dictionary="DHLAUTH"></keyword>
+        <keyword value="Collaborative Partnership on Forests" showAs="Collaborative Partnership on Forests" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Global Forest Financing Facilitation Network" showAs="UN Global Forest Financing Facilitation Network" dictionary="DHLAUTH"></keyword>
+        <keyword value="Trust Fund for the United Nations Forum on Forests" showAs="Trust Fund for the United Nations Forum on Forests" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Strategic Plan for Forests 2017-2030" showAs="UN Strategic Plan for Forests 2017-2030" dictionary="DHLAUTH"></keyword>
+        <keyword value="2030 Agenda for Sustainable Development" showAs="2030 Agenda for Sustainable Development" dictionary="DHLAUTH"></keyword>
+        <keyword value="SUSTAINABLE FORESTRY" href="http://metadata.un.org/thesaurus/1006321" showAs="SUSTAINABLE FORESTRY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FOREST MANAGEMENT" href="http://metadata.un.org/thesaurus/1002485" showAs="FOREST MANAGEMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" href="http://metadata.un.org/thesaurus/1006319" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL COOPERATION" href="http://metadata.un.org/thesaurus/1003291" showAs="INTERNATIONAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="18j" showAs="United Nations Forum on Forests." shortForm="UN FORUM ON FORESTS" dictionary="E/2024/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step outcome="draftResolution" by="" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="0001-01-01" outcome="recommendedForAdoption" by="UN Forum on Forests (19th sess. : 2024 : New York)" />
+        <step date="2024-08-02" outcome="adopted" as="Adopted without vote, 37th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">24-14125 (F)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2024/15</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Conseil économique et social</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-08-02" class="rightSmall" refersTo="#dateOfIssuance">2 août 2024</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2024" eId="coverPage_1__session_1">Session de 2024</session>
+      </p>
+      <p>
+        <inline title="18 j)" name="agenda item">Point 18 j) de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Questions relatives à l’économie et à l’environnement : Forum des Nations Unies sur les forêts</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par le Conseil économique et social le 23 juillet 2024</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent>[sur recommandation du Forum des Nations Unies sur les forêts (<inline name="originating document">E/2024/42</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2024/15.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Conclusions de la dix-neuvième session du Forum des Nations Unies sur les forêts</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Le Conseil économique et social</span>,</p>
+      </formula>
+      <container name="Rappelant" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant</span> sa résolution <a href="https://undocs.org/fr/E/RES/2015/33">2015/33</a> du 22 juillet 2015 sur l’arrangement international sur les forêts après 2015, sa résolution <a href="https://undocs.org/fr/E/RES/2020/14">2020/14</a> du 17 juillet 2020 sur les résultats de la quinzième session du Forum des Nations Unies sur les forêts, sa résolution <a href="https://undocs.org/fr/E/RES/2021/6">2021/6</a> du 8 juin 2021 sur le programme de travail du Forum pour la période 2022-2024 et sa résolution <a href="https://undocs.org/fr/E/RES/2022/17">2022/17</a> du 21 juillet 2022 sur les conclusions de la dix-septième session du Forum,</p>
+      </container>
+      <container name="Se félicitant" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	Se félicitant</span> des progrès accomplis et des résultats obtenus par le Forum, ses membres et son secrétariat, le Réseau mondial de facilitation du financement forestier, le Partenariat de collaboration sur les forêts et ses organisations membres, les partenaires régionaux et sous-régionaux, les grands groupes et les autres parties prenantes au regard des objectifs de l’arrangement international sur les forêts,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_4" class="H23">
+        <num>I.</num>
+        <content eId="para_4__content">
+          <p xml:space="preserve">	<span class="bold">Examen à mi‑parcours de l’efficacité de l’arrangement international sur les forêts par rapport à ses objectifs</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_5" class="H23">
+        <num>A.</num>
+        <content eId="para_5__content">
+          <p xml:space="preserve">	<span class="bold">Mesures ayant trait au Forum des Nations Unies sur les forêts et à ses membres</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_7" class="SingleTxt">
+        <num>1.</num>
+        <list eId="para_7_list">
+          <intro eId="para_7_list_intro">
+            <p xml:space="preserve">	<span class="italic">Invite </span>le Forum des Nations Unies sur les forêts et ses membres à :</p>
+          </intro>
+          <point eId="para_7_list_point_a">
+            <num>a)</num>
+            <content eId="para_7_list_point_a_content">
+              <p xml:space="preserve"> Renforcer la coopération internationale, notamment la coopération Nord‑Sud et Sud-Sud et la coopération triangulaire, ainsi que les partenariats public-privé et la coopération intersectorielle à tous les niveaux, en vue de promouvoir la gestion durable des forêts ;</p>
+            </content>
+          </point>
+          <point eId="para_7_list_point_b">
+            <num>b)</num>
+            <content eId="para_7_list_point_b_content">
+              <p xml:space="preserve"> Œuvrer à la mobilisation des moyens de mise en œuvre, y compris des financements nouveaux et additionnels de toutes provenances, le but étant de mettre fin à la réduction du couvert forestier, de protéger et conserver les forêts, d’enrayer et d’inverser la déforestation et la dégradation des forêts, de restaurer les forêts dégradées et de renforcer la collaboration technologique, le partage des meilleures pratiques et les échanges scientifiques à tous les niveaux ;</p>
+            </content>
+          </point>
+          <point eId="para_7_list_point_c">
+            <num>c)</num>
+            <content eId="para_7_list_point_c_content">
+              <p xml:space="preserve"> Associer les dirigeants politiques et les hauts responsables aux décisions internationales concernant les forêts afin d’aider à la mise en œuvre de l’instrument des Nations Unies sur les forêts<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		Voir les résolutions <a href="https://undocs.org/fr/A/RES/62/98">62/98</a> et <a href="https://undocs.org/fr/A/RES/70/199">70/199</a> de l’Assemblée générale.</p></authorialNote> et du plan stratégique des Nations Unies sur les forêts (2017-2030)<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		Voir la résolution <a href="https://undocs.org/fr/A/RES/71/285">71/285</a> de l’Assemblée générale.</p></authorialNote> et à la réalisation des objectifs mondiaux relatifs aux forêts et renforcer l’action menée pour assurer la gestion durable des forêts et enrayer et inverser la déforestation et la dégradation des forêts ;</p>
+            </content>
+          </point>
+          <point eId="para_7_list_point_d">
+            <num>d)</num>
+            <content eId="para_7_list_point_d_content">
+              <p xml:space="preserve"> Mettre en évidence la contribution importante des forêts et des arbres en général à la réalisation des objectifs de développement durable, en particulier en ce qui concerne l’élimination de la pauvreté et la sécurité alimentaire ;</p>
+            </content>
+          </point>
+          <point eId="para_7_list_point_e">
+            <num>e)</num>
+            <content eId="para_7_list_point_e_content">
+              <p xml:space="preserve"> Promouvoir des procédures de décision inclusives et participatives aux niveaux national et infranational, le but étant notamment de permettre aux peuples autochtones, aux communautés locales et aux autres parties prenantes de participer effectivement à la gestion durable des forêts, et promouvoir l’égalité des genres et l’autonomisation de toutes les femmes et de toutes les filles et tenir compte des questions de genre dans la gestion durable des forêts ;</p>
+            </content>
+          </point>
+          <point eId="para_7_list_point_f">
+            <num>f)</num>
+            <content eId="para_7_list_point_f_content">
+              <p xml:space="preserve"> Renforcer l’application des législations forestières nationales et fournir et mobiliser davantage de moyens de mise en œuvre de toutes provenances en vue d’assurer la gestion durable des forêts et d’atteindre les objectifs mondiaux relatifs aux forêts, en tenant compte des difficultés particulières rencontrées par les pays en développement ;</p>
+            </content>
+          </point>
+          <point eId="para_7_list_point_g">
+            <num>g)</num>
+            <content eId="para_7_list_point_g_content">
+              <p xml:space="preserve"> Renforcer à tous les niveaux la coopération, la coordination, la cohérence et les synergies sur les questions forestières afin d’appuyer la mise en œuvre de la Convention-cadre des Nations Unies sur les changements climatiques<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		Nations Unies, <span class="italic">Recueil des Traités</span>, vol. 1771, n<sup>o</sup> 30822.</p></authorialNote> et de l’Accord de Paris<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		Adopté en vertu de la Convention-cadre des Nations Unies sur les changements climatiques ; voir <a href="https://undocs.org/fr/FCCC/CP/2015/10/Add.1">FCCC/CP/2015/10/Add.1</a>, décision 1/CP.21.</p></authorialNote>, de la Convention sur la diversité biologique<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		Nations Unies, <span class="italic">Recueil des Traités</span>, vol. 1760, n<sup>o</sup> 30619.</p></authorialNote> et du Cadre mondial de la biodiversité de Kunming-Montréal adopté à la quinzième réunion de la Conférence des Parties à la Convention, ainsi que de la Convention des Nations Unies sur la lutte contre la désertification dans les pays gravement touchés par la sécheresse et/ou la désertification, en particulier en Afrique<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		Ibid., vol. 1954, n<sup>o</sup> 33480.</p></authorialNote>, y compris le Programme de définition de cibles de neutralité en matière de dégradation des terres, dans le respect de leurs mandats ;</p>
+            </content>
+          </point>
+          <point eId="para_7_list_point_h">
+            <num>h)</num>
+            <content eId="para_7_list_point_h_content">
+              <p xml:space="preserve"> Promouvoir les échanges entre scientifiques et décideurs, de façon que les décisions concernant les forêts prises aux niveaux local, national, régional et mondial soient fondées sur des données scientifiques ;</p>
+            </content>
+          </point>
+          <point eId="para_7_list_point_i">
+            <num>i)</num>
+            <content eId="para_7_list_point_i_content">
+              <p xml:space="preserve"> Plaider pour que les savoirs traditionnels des peuples autochtones et des communautés locales soient réellement pris en compte dans les procédures de décision aux niveaux local, national, régional et mondial ;</p>
+            </content>
+          </point>
+          <point eId="para_7_list_point_j">
+            <num>j)</num>
+            <content eId="para_7_list_point_j_content">
+              <p xml:space="preserve"> Continuer de faciliter et de favoriser l’accès aux ressources techniques, financières et scientifiques afin que les membres du Forum soient mieux à même d’assurer la gestion durable des forêts, en tenant compte notamment des difficultés particulières rencontrées par les pays en développement ;</p>
+            </content>
+          </point>
+          <sublist eId="para_7_list_point_j_sublist">
+            <point eId="para_7_list_point_j_sublist_point_B">
+              <num>B.</num>
+              <content eId="para_7_list_point_j_sublist_point_B_content">
+                <p xml:space="preserve">	<span class="bold">Mesures concernant le secrétariat du Forum des Nations Unies sur les forêts</span></p>
+              </content>
+            </point>
+          </sublist>
+        </list>
+      </paragraph>
+      <paragraph eId="para_10" class="SingleTxt">
+        <num>2.</num>
+        <list eId="para_10_list">
+          <intro eId="para_10_list_intro">
+            <p xml:space="preserve">	<span class="italic">Prie </span>le secrétariat du Forum de :</p>
+          </intro>
+          <point eId="para_10_list_point_a">
+            <num>a)</num>
+            <content eId="para_10_list_point_a_content">
+              <p xml:space="preserve"> Présenter en 2025, avant la vingtième session du Forum, un document d’information renseignant sur sa charge de travail, ses besoins et ses manques, document qui fera l’objet d’un examen final à la vingt et unième session du Forum en 2026 ;</p>
+            </content>
+          </point>
+          <point eId="para_10_list_point_b">
+            <num>b)</num>
+            <content eId="para_10_list_point_b_content">
+              <p xml:space="preserve"> Continuer de tenir des réunions hybrides ou virtuelles, chaque fois que cela est possible sur le plan logistique, pour s’entretenir avec les membres du Forum, les membres du Partenariat de collaboration sur les forêts, les partenaires régionaux et sous-régionaux, les grands groupes et les autres parties prenantes et les informer des travaux et préparatifs menés durant l’intersession en vue des sessions du Forum, en veillant à ce que les réunions virtuelles soient inclusives et transparentes ;</p>
+            </content>
+          </point>
+          <point eId="para_10_list_point_c">
+            <num>c)</num>
+            <content eId="para_10_list_point_c_content">
+              <p xml:space="preserve"> Faciliter davantage la coopération, la coordination, la cohérence et les synergies et se rapprocher des organisations techniques et financières et des autres mécanismes de coopération internationale afin d’améliorer la gestion durable des forêts et de mieux faire contribuer les forêts à la lutte contre les changements climatiques, la désertification, la dégradation des terres, la perte de la biodiversité, la pollution, la raréfaction d’eau, la pauvreté et l’insécurité alimentaire, en tenant compte des diverses situations nationales et du mandat de chacune de ces organisations ;</p>
+            </content>
+          </point>
+          <point eId="para_10_list_point_d">
+            <num>d)</num>
+            <content eId="para_10_list_point_d_content">
+              <p xml:space="preserve"> Communiquer régulièrement des informations aux points focaux nationaux du Forum et aux missions permanentes à New York, en améliorant l’information fournie et en utilisant des outils de communication efficaces, afin de les tenir au courant de ses activités et de leur faire mieux connaître la valeur des forêts et les multiples avantages économiques, sociaux et environnementaux qu’elles procurent ;</p>
+            </content>
+          </point>
+          <point eId="para_10_list_point_e">
+            <num>e)</num>
+            <content eId="para_10_list_point_e_content">
+              <p xml:space="preserve"> Informer les membres et partenaires du Forum des changements intervenus dans la mise en œuvre du plan stratégique des Nations Unies sur les forêts (2017‑2030) et la réalisation des objectifs mondiaux relatifs aux forêts, ainsi que des résultats obtenus et des difficultés rencontrées à cet égard ;</p>
+            </content>
+          </point>
+          <point eId="para_10_list_point_f">
+            <num>f)</num>
+            <content eId="para_10_list_point_f_content">
+              <p xml:space="preserve"> Accroître au maximum la participation aux sessions et autres réunions du Forum et veiller à ce que celles‑ci soient les plus productives et les plus utiles possibles, en allouant au mieux le temps et les ressources, en facilitant les travaux et en élaborant l’ordre du jour, ainsi qu’en recourant à des approches novatrices dans la mesure du possible ;</p>
+            </content>
+          </point>
+          <point eId="para_10_list_point_g">
+            <num>g)</num>
+            <content eId="para_10_list_point_g_content">
+              <p xml:space="preserve"> Rendre compte au Forum, à chaque session, des progrès accomplis en ce qui concerne les tâches qu’il a été invité à exécuter ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_14" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">	<span class="italic">Invite</span> l’Assemblée générale, à l’issue du débat qui aura lieu à la vingt et unième session du Forum en 2026, à envisager de doter le secrétariat du Forum de ressources suffisantes pour qu’il puisse s’acquitter de ses tâches et de ses mandats en toute efficacité et efficience et dans la durée ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxt">
+        <num>C.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="bold">Mesures concernant le Partenariat de collaboration sur les forêts</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxt">
+        <num>4.</num>
+        <list eId="para_25_list">
+          <intro eId="para_25_list_intro">
+            <p xml:space="preserve">	<span class="italic">Invite</span> le Partenariat de collaboration sur les forêts et ses organisations membres à :</p>
+          </intro>
+          <point eId="para_25_list_point_a">
+            <num>a)</num>
+            <content eId="para_25_list_point_a_content">
+              <p xml:space="preserve"> Continuer de renforcer la coopération, la coordination, la cohérence et les synergies, y compris en simplifiant la communication de l’information et le partage des données, selon qu’il convient, aux fins de la gestion durable des forêts et d’une mise en œuvre globale et intégrée de leurs priorités en matière de forêts, en s’intéressant aux liens entre changements climatiques, perte de biodiversité, désertification et tempêtes de sable et de poussière, dégradation des terres, pollution, sécheresse, gestion des bassins versants, pauvreté et insécurité alimentaire, entre autres, compte tenu du mandat de chacun des membres ;</p>
+            </content>
+          </point>
+          <point eId="para_25_list_point_b">
+            <num>b)</num>
+            <content eId="para_25_list_point_b_content">
+              <p xml:space="preserve"> Envisager d’axer le plan de travail du Partenariat de collaboration sur les forêts sur l’appui à apporter à la mise en œuvre du plan stratégique des Nations Unies sur les forêts (2017-2030) et à la réalisation des objectifs mondiaux relatifs aux forêts qui y sont fixés, ainsi que des autres objectifs relatifs aux forêts arrêtés au niveau multilatéral, en définissant clairement priorités, mesures, activités conjointes, ressources, résultats et indicateurs de suivi, et, à cet égard, veiller à ce que les rapports que le Partenariat établit sur son plan de travail à l’attention du Forum soient structurés autour des objectifs mondiaux relatifs aux forêts ;</p>
+            </content>
+          </point>
+          <point eId="para_25_list_point_c">
+            <num>c)</num>
+            <content eId="para_25_list_point_c_content">
+              <p xml:space="preserve"> Procéder régulièrement à l’évaluation des initiatives conjointes menées à terme par le Partenariat de collaboration sur les forêts, le but étant de recenser les difficultés rencontrées, les succès obtenus, les enseignements à retenir et la contribution que ces initiatives ont apportée aux objectifs mondiaux relatifs aux forêts, et communiquer le résultat des évaluations aux membres du Partenariat, aux membres du Forum et aux autres parties prenantes ;</p>
+            </content>
+          </point>
+          <point eId="para_25_list_point_d">
+            <num>d)</num>
+            <content eId="para_25_list_point_d_content">
+              <p xml:space="preserve"> S’entretenir et dialoguer davantage avec les membres du Forum, les partenaires régionaux et sous-régionaux, les grands groupes et les autres parties prenantes au sujet des activités menées par le Partenariat de collaboration sur les forêts en organisant à cette fin de brèves réunions d’information, y compris des réunions hybrides ;</p>
+            </content>
+          </point>
+          <point eId="para_25_list_point_e">
+            <num>e)</num>
+            <content eId="para_25_list_point_e_content">
+              <p xml:space="preserve"> Rendre compte au Forum, à chaque session, des progrès accomplis en ce qui concerne les activités que le Partenariat de collaboration sur les forêts a été invité à entreprendre ;</p>
+            </content>
+          </point>
+          <point eId="para_25_list_point_f">
+            <num>f)</num>
+            <content eId="para_25_list_point_f_content">
+              <p xml:space="preserve"> Examiner les moyens de renforcer la collaboration au sein du Partenariat de collaboration sur les forêts, tenir à l’attention de leurs organes directeurs un discours cohérent et positif sur les travaux du Partenariat et envisager de financer les activités du Partenariat, selon qu’il convient ;</p>
+            </content>
+          </point>
+          <point eId="para_25_list_point_g">
+            <num>g)</num>
+            <content eId="para_25_list_point_g_content">
+              <p xml:space="preserve"> Participer plus activement aux travaux du Réseau mondial de facilitation du financement forestier ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxt">
+        <num>5.</num>
+        <list eId="para_32_list">
+          <intro eId="para_32_list_intro">
+            <p xml:space="preserve">	<span class="italic">Invite</span> :</p>
+          </intro>
+          <point eId="para_32_list_point_a">
+            <num>a)</num>
+            <content eId="para_32_list_point_a_content">
+              <p xml:space="preserve"> Le Forum et son bureau à se rapprocher résolument des organes directeurs des organisations membres du Partenariat de collaboration sur les forêts afin de renforcer la collaboration avec le Partenariat et l’appui apporté aux travaux de celui‑ci ; </p>
+            </content>
+          </point>
+          <point eId="para_32_list_point_b">
+            <num>b)</num>
+            <content eId="para_32_list_point_b_content">
+              <p xml:space="preserve"> Les organes directeurs des membres du Partenariat de collaboration sur les forêts à intégrer le plan stratégique, les objectifs mondiaux relatifs aux forêts et les cibles y afférentes dans les plans et les programmes de travail de leur organisation, dans le respect du mandat de chacune, et à prendre des décisions propres à renforcer le Partenariat au bénéfice de tous les membres ;</p>
+            </content>
+          </point>
+          <point eId="para_32_list_point_c">
+            <num>c)</num>
+            <content eId="para_32_list_point_c_content">
+              <p xml:space="preserve"> Les membres du Forum à favoriser la coordination et la collaboration entre les points focaux nationaux des organisations membres du Partenariat de collaboration sur les forêts ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_40" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve">	<span class="italic">Encourage </span>les membres du Partenariat de collaboration sur les forêts qui ne font pas partie du système des Nations Unies et qui pourraient être mieux placés pour recevoir des contributions du secteur privé et des institutions philanthropiques à se rapprocher de ces partenaires pour obtenir un appui, y compris financier, aux activités du Partenariat ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="H23">
+        <num>D.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="bold">Mesures concernant le Réseau mondial de facilitation du financement forestier</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_59" class="SingleTxt">
+        <num>7.</num>
+        <list eId="para_59_list">
+          <intro eId="para_59_list_intro">
+            <p xml:space="preserve">	<span class="italic">Invite </span>les membres du Forum à :</p>
+          </intro>
+          <point eId="para_59_list_point_a">
+            <num>a)</num>
+            <content eId="para_59_list_point_a_content">
+              <p xml:space="preserve"> S’employer à fournir et à mobiliser davantage de ressources nouvelles et additionnelles de toutes provenances et à renforcer l’accès à ces ressources, étant donné toute l’importance que revêt la prévisibilité aux fins de la conservation, de la restauration et de la gestion durable des forêts, en particulier dans les pays en développement, notamment par des mécanismes novateurs ;</p>
+            </content>
+          </point>
+          <point eId="para_59_list_point_b">
+            <num>b)</num>
+            <content eId="para_59_list_point_b_content">
+              <p xml:space="preserve"> Aider à la réalisation effective des objectifs mondiaux relatifs aux forêts, en particulier dans les pays en développement, notamment en favorisant, en élaborant et en utilisant des mécanismes de financement innovants, y compris des mécanismes de paiement des services rendus par les écosystèmes, des mécanismes de financement mixte et des politiques de financement durable, selon qu’il convient, tout en sachant qu’il importe de disposer de cadres plus propices au financement et à l’investissement ;</p>
+            </content>
+          </point>
+          <point eId="para_59_list_point_c">
+            <num>c)</num>
+            <content eId="para_59_list_point_c_content">
+              <p xml:space="preserve"> Favoriser la coopération et les partenariats public-privé dans le domaine des sciences et technologies forestières, se rapprocher d’autres secteurs que le secteur forestier pour obtenir des financements durables et orienter les flux financiers de façon à permettre la réalisation des objectifs de conservation, de restauration et d’utilisation et de gestion durables des forêts ;</p>
+            </content>
+          </point>
+          <point eId="para_59_list_point_d">
+            <num>d)</num>
+            <content eId="para_59_list_point_d_content">
+              <p xml:space="preserve"> Consacrer, respecter et protéger les droits d’occupation ou d’utilisation des forêts dont jouissent les femmes et les hommes et aider notamment les petits exploitants, les peuples autochtones, les communautés locales et le secteur privé qui investissent dans la gestion durable des forêts à avoir accès au financement forestier, selon qu’il convient, en favorisant l’inclusion ;</p>
+            </content>
+          </point>
+          <point eId="para_59_list_point_e">
+            <num>e)</num>
+            <content eId="para_59_list_point_e_content">
+              <p xml:space="preserve"> Tenir compte, dans les stratégies nationales de financement forestier, des besoins et rôles propres des diverses parties prenantes ;</p>
+            </content>
+          </point>
+          <point eId="para_59_list_point_f">
+            <num>f)</num>
+            <content eId="para_59_list_point_f_content">
+              <p xml:space="preserve"> Faire de la plateforme Web d’information du Réseau mondial de facilitation du financement forestier la principale source d’information sur le financement forestier et divulguer, en vue d’une publication sur cette plateforme, leurs enseignements, leurs meilleures pratiques et leurs réussites en matière de financement forestier ;</p>
+            </content>
+          </point>
+          <point eId="para_59_list_point_g">
+            <num>g)</num>
+            <content eId="para_59_list_point_g_content">
+              <p xml:space="preserve"> Encourager et faciliter le partage d’expériences en ce qui concerne l’appui apporté par le Réseau mondial de facilitation du financement forestier aux pays pour leur permettre d’élaborer leurs stratégies de financement forestier, en particulier les mécanismes de financement utilisés et les résultats obtenus ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_70" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_70__content">
+          <p xml:space="preserve">	<span class="italic">Invite </span>les membres du Forum qui sont en mesure de le faire, et d’autres, à envisager de verser des contributions volontaires au fonds d’affectation spéciale pour le Forum des Nations Unies sur les forêts afin de renforcer les activités du Réseau mondial de facilitation du financement forestier, y compris sa plateforme d’information sur le financement forestier et ses effectifs ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_82" class="SingleTxt">
+        <num>9.</num>
+        <list eId="para_82_list">
+          <intro eId="para_82_list_intro">
+            <p xml:space="preserve">	<span class="italic">Encourage</span> les membres du Forum à :</p>
+          </intro>
+          <point eId="para_82_list_point_a">
+            <num>a)</num>
+            <content eId="para_82_list_point_a_content">
+              <p xml:space="preserve"> Considérer que la formation au financement forestier, visant notamment à enrayer et à inverser la déforestation et la dégradation des forêts, à restaurer les forêts dégradées et à aider à la conservation, à la restauration et à la gestion durable de tous les types de forêts, est un engagement de long terme qui bénéficie de la cohésion du personnel et du renouvellement périodique des compétences ;</p>
+            </content>
+          </point>
+          <point eId="para_82_list_point_b">
+            <num>b)</num>
+            <content eId="para_82_list_point_b_content">
+              <p xml:space="preserve"> Lorsqu’ils demandent au Réseau mondial de facilitation du financement forestier de les aider à avoir accès plus facilement à diverses sources de financement, comme le Fonds pour l’adaptation, le Fonds vert pour le climat et le Fonds pour l’environnement mondial, favoriser l’appropriation nationale et renforcer la coopération, notamment en se mettant en rapport, selon qu’il convient, avec des organismes d’exécution ou des entités accréditées, les points focaux nationaux et les autorités nationales compétentes ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_95" class="SingleTxt">
+        <num>10.</num>
+        <list eId="para_95_list">
+          <intro eId="para_95_list_intro">
+            <p xml:space="preserve">	<span class="italic">Prie </span>le secrétariat du Forum de :</p>
+          </intro>
+          <point eId="para_95_list_point_a">
+            <num>a)</num>
+            <content eId="para_95_list_point_a_content">
+              <p xml:space="preserve"> Continuer de tenir à jour et de gérer la plateforme Web d’information du Réseau mondial de facilitation du financement forestier et, sur le site Web du Forum, rendre plus visible la lettre d’information de la plateforme intitulée « Forest Financing Quarterly Highlight » ;</p>
+            </content>
+          </point>
+          <point eId="para_95_list_point_b">
+            <num>b)</num>
+            <content eId="para_95_list_point_b_content">
+              <p xml:space="preserve"> Recourir aux outils numériques et aux nouvelles technologies, y compris l’intelligence artificielle, pour améliorer les activités du Réseau mondial de facilitation du financement forestier et leur rapport coût-efficacité, lorsque cela est possible ;</p>
+            </content>
+          </point>
+          <point eId="para_95_list_point_c">
+            <num>c)</num>
+            <content eId="para_95_list_point_c_content">
+              <p xml:space="preserve"> Prêter appui aux membres du Forum qui en font la demande pour qu’ils aident les pays à mobiliser et à mieux utiliser les ressources financières de toutes provenances allouées à la gestion durable des forêts, ainsi qu’à accéder à ces ressources, en vue de favoriser la réalisation des cibles et objectifs mondiaux relatifs aux forêts, conformément à leurs priorités nationales en matière de forêts ;</p>
+            </content>
+          </point>
+          <point eId="para_95_list_point_d">
+            <num>d)</num>
+            <content eId="para_95_list_point_d_content">
+              <p xml:space="preserve"> Rendre compte en détail et par écrit, pour l’information du Forum à chacune de ses sessions, des questions concernant le rôle, les fonctions et le financement du bureau du Réseau mondial de facilitation du financement forestier qu’il est proposé de créer à Beijing, une fois qu’il en aura été décidé conformément au mandat du Réseau ; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_109" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_109__content">
+          <p xml:space="preserve">	<span class="italic">Invite </span>les institutions et fonds multilatéraux compétents et leurs entités accréditées comme le Fonds pour l’environnement mondial et le Fonds vert pour le climat à renforcer leur collaboration avec le Réseau mondial de facilitation du financement forestier, selon qu’il convient et dans le respect de leurs mandats, afin d’aider les pays à avoir plus facilement accès au financement forestier ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_124" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_124__content">
+          <p xml:space="preserve">	<span class="italic">Encourage </span>les membres du Partenariat de collaboration sur les forêts accrédités auprès des organismes de financement à continuer de coopérer avec le secrétariat du Forum pour appuyer les travaux du Réseau mondial de facilitation du financement forestier, notamment en favorisant et en élaborant des propositions de projet et en mobilisant des ressources à cette fin ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_140" class="SingleTxt">
+        <num>E.</num>
+        <content eId="para_140__content">
+          <p xml:space="preserve">	<span class="bold">Mesures concernant le fonds d’affectation spéciale pour le Forum des Nations Unies sur les forêts</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_157" class="SingleTxt">
+        <num>13.</num>
+        <list eId="para_157_list">
+          <intro eId="para_157_list_intro">
+            <p xml:space="preserve">	<span class="italic">Invite</span> les membres du Forum qui sont en mesure de le faire à :</p>
+          </intro>
+          <point eId="para_157_list_point_a">
+            <num>a)</num>
+            <content eId="para_157_list_point_a_content">
+              <p xml:space="preserve"> Verser régulièrement et dans la durée des contributions volontaires au fonds d’affectation spéciale afin de permettre au secrétariat du Forum de s’acquitter de ses fonctions et tâches à l’appui des travaux du Forum et de ses membres et partenaires, y compris d’assurer une représentation équilibrée des pays développés et des pays en développement aux réunions liées au Forum ;</p>
+            </content>
+          </point>
+          <point eId="para_157_list_point_b">
+            <num>b)</num>
+            <content eId="para_157_list_point_b_content">
+              <p xml:space="preserve"> Étudier comment favoriser le versement de nouvelles contributions volontaires au fonds d’affectation spéciale ;</p>
+            </content>
+          </point>
+          <sublist eId="para_157_list_point_b_sublist">
+            <point eId="para_157_list_point_b_sublist_point_F">
+              <num>F.</num>
+              <content eId="para_157_list_point_b_sublist_point_F_content">
+                <p xml:space="preserve">	<span class="bold">Mesures concernant la mise en œuvre du plan stratégique des Nations Unies sur les forêts (2017-2030)</span></p>
+              </content>
+            </point>
+          </sublist>
+        </list>
+      </paragraph>
+      <paragraph eId="para_175" class="SingleTxt">
+        <num>14.</num>
+        <list eId="para_175_list">
+          <intro eId="para_175_list_intro">
+            <p xml:space="preserve">	<span class="italic">Invite </span>les membres du Forum à :</p>
+          </intro>
+          <point eId="para_175_list_point_a">
+            <num>a)</num>
+            <content eId="para_175_list_point_a_content">
+              <p xml:space="preserve"> Accélérer la mise en œuvre de l’instrument des Nations Unies sur les forêts et du plan stratégique des Nations Unies sur les forêts (2017-2030), s’attacher en priorité à réaliser d’ici à 2030 l’ensemble des cibles et objectifs mondiaux relatifs aux forêts et renforcer la coopération, la coordination, la cohérence et les synergies avec les autres accords et mécanismes multilatéraux relatifs à l’environnement ;</p>
+            </content>
+          </point>
+          <point eId="para_175_list_point_b">
+            <num>b)</num>
+            <content eId="para_175_list_point_b_content">
+              <p xml:space="preserve"> Donner davantage de publicité aux contributions volontaires nationales<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		Plan stratégique des Nations Unies sur les forêts (2017-2030), par. 30 à 32.</p></authorialNote> et faire mieux connaître les réussites obtenues dans la gestion durable des forêts à tous les niveaux, notamment sur les plateformes en ligne et les réseaux sociaux ;</p>
+            </content>
+          </point>
+          <point eId="para_175_list_point_c">
+            <num>c)</num>
+            <content eId="para_175_list_point_c_content">
+              <p xml:space="preserve"> Renforcer la coopération internationale pour permettre aux pays en développement de suivre et d’évaluer la mise en œuvre de l’instrument des Nations Unies sur les forêts et du plan stratégique et d’en rendre compte ;</p>
+            </content>
+          </point>
+          <point eId="para_175_list_point_d">
+            <num>d)</num>
+            <content eId="para_175_list_point_d_content">
+              <p xml:space="preserve"> Renforcer la collaboration intersectorielle au niveau national dans la mise en œuvre du plan stratégique et la réalisation des objectifs mondiaux relatifs aux forêts qui y sont inscrits, ainsi que les contributions qu’apportent à cet égard les peuples autochtones, les communautés locales, les femmes, les jeunes, les grands groupes, le secteur privé et les autres parties prenantes et le rôle qu’ils y jouent ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_194" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_194__content">
+          <p xml:space="preserve">	<span class="italic">Approuve</span> le calendrier des rapports qui seront présentés au Forum durant la période 2024-2026<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		Calendrier présenté par le secrétariat du Forum lors de la réunion du groupe d’experts qui s’est tenue à Nairobi du 20 au 22 juin 2023 (voir <a href="http://www.un.org/esa/forests/wp-content/uploads/2023/06/Note-EGM-reporting-timeline-online-tool.pdf">www.un.org/esa/forests/wp-content/uploads/2023/06/Note-EGM-reporting-timeline-online-tool.pdf</a>).</p></authorialNote>, crée le groupe consultatif sur l’établissement des rapports destinés au Forum, en lui confiant le mandat qui figure dans la note que le Secrétariat a établie à l’intention du Forum à sa dix-huitième session<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		<a href="https://undocs.org/fr/E/CN.18/2023/5">E/CN.18/2023/5</a>, annexe.</p></authorialNote>, et décide que les travaux du groupe prendront fin en 2026 ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_214" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_214__content">
+          <p xml:space="preserve">	<span class="italic">Prend note</span> de la version modifiée du modèle de rapport national, charge le secrétariat du Forum d’arrêter le modèle sous sa forme définitive, en étroite concertation avec le groupe consultatif sur l’établissement des rapports destinés au Forum, et encourage les membres du Forum à présenter leurs rapports nationaux volontaires en utilisant ce modèle ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_235" class="SingleTxt">
+        <num>17.</num>
+        <list eId="para_235_list">
+          <intro eId="para_235_list_intro">
+            <p xml:space="preserve">	<span class="italic">Prie </span>le secrétariat du Forum de :</p>
+          </intro>
+          <point eId="para_235_list_point_a">
+            <num>a)</num>
+            <content eId="para_235_list_point_a_content">
+              <p xml:space="preserve"> Diffuser en temps utile auprès des membres les informations voulues concernant l’établissement des rapports nationaux volontaires ;</p>
+            </content>
+          </point>
+          <point eId="para_235_list_point_b">
+            <num>b)</num>
+            <content eId="para_235_list_point_b_content">
+              <p xml:space="preserve"> Consulter le groupe consultatif sur l’établissement des rapports destinés au Forum pour savoir comment utiliser les informations qui seront reçues lors de la remise des prochains rapports afin d’établir en toute transparence, en étroite collaboration avec les organisations membres du Partenariat de collaboration sur les forêts et au moyen des ressources existantes, un rapport concis et court sur les objectifs mondiaux relatifs aux forêts ;</p>
+            </content>
+          </point>
+          <point eId="para_235_list_point_c">
+            <num>c)</num>
+            <content eId="para_235_list_point_c_content">
+              <p xml:space="preserve"> Mener, au moyen des ressources existantes et en association avec l’Organisation des Nations Unies pour l’alimentation et l’agriculture et d’autres partenaires, des activités de renforcement des capacités visant à faciliter l’échange d’informations au sujet du suivi et de l’évaluation des objectifs mondiaux relatifs aux forêts et de l’établissement des rapports y afférents, en prêtant assistance à l’établissement des rapports nationaux, ainsi qu’au sujet des techniques et technologies novatrices et de la gestion des connaissances, par des moyens virtuels et hybrides si possible ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_257" class="SingleTxt">
+        <num>18.</num>
+        <list eId="para_257_list">
+          <intro eId="para_257_list_intro">
+            <p xml:space="preserve">	<span class="italic">Invite </span>le Partenariat de collaboration sur les forêts et ses organisations membres à :</p>
+          </intro>
+          <point eId="para_257_list_point_a">
+            <num>a)</num>
+            <content eId="para_257_list_point_a_content">
+              <p xml:space="preserve"> Poursuivre les travaux en cours sur l’ensemble commun d’indicateurs forestiers mondiaux, en particulier tous les indicateurs de niveau 3 ;</p>
+            </content>
+          </point>
+          <point eId="para_257_list_point_b">
+            <num>b)</num>
+            <content eId="para_257_list_point_b_content">
+              <p xml:space="preserve"> Renforcer encore la coordination, simplifier les activités de communication de l’information et de partage des données et tirer parti des publications et rapports mondiaux sur les forêts ;</p>
+            </content>
+          </point>
+          <point eId="para_257_list_point_c">
+            <num>c)</num>
+            <content eId="para_257_list_point_c_content">
+              <p xml:space="preserve"> Organiser, à l’intention des points focaux de toutes les organisations membres concernées du Partenariat de collaboration sur les forêts, un atelier commun sur la façon de rendre compte au niveau international de l’information relative aux forêts, le but étant de renforcer la coopération, la coordination, la cohérence et les synergies, dans le respect du mandat de chacune, et de permettre aux pays d’établir plus facilement leurs rapports ;</p>
+            </content>
+          </point>
+          <sublist eId="para_257_list_point_c_sublist">
+            <point eId="para_257_list_point_c_sublist_point_G">
+              <num>G.</num>
+              <content eId="para_257_list_point_c_sublist_point_G_content">
+                <p xml:space="preserve">	<span class="bold">Mesures concernant les contributions du Forum au Programme de développement durable à l’horizon 2030</span></p>
+              </content>
+            </point>
+          </sublist>
+        </list>
+      </paragraph>
+      <paragraph eId="para_280" class="SingleTxt">
+        <num>19.</num>
+        <list eId="para_280_list">
+          <intro eId="para_280_list_intro">
+            <p xml:space="preserve">	<span class="italic">Invite </span>les membres du Forum à :</p>
+          </intro>
+          <point eId="para_280_list_point_a">
+            <num>a)</num>
+            <content eId="para_280_list_point_a_content">
+              <p xml:space="preserve"> Envisager d’inclure des spécialistes des forêts dans leurs délégations au forum politique de haut niveau pour le développement durable et aux grandes réunions des trois conventions de Rio<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">		Convention-cadre des Nations Unies sur les changements climatiques, Convention sur la diversité biologique et Convention des Nations Unies sur la lutte contre la désertification dans les pays gravement touchés par la sécheresse et/ou la désertification, en particulier en Afrique.</p></authorialNote> et des autres instances internationales intergouvernementales compétentes, s’il y a lieu ;</p>
+            </content>
+          </point>
+          <point eId="para_280_list_point_b">
+            <num>b)</num>
+            <content eId="para_280_list_point_b_content">
+              <p xml:space="preserve"> Renforcer la coordination, notamment entre leurs points focaux nationaux pour le Forum et pour le forum politique de haut niveau et avec les missions permanentes à New York, afin d’attirer l’attention sur les liens qui existent entre les objectifs de développement durable lors des réunions préparatoires du forum politique de haut niveau et dans les déclarations qu’il adopte ;</p>
+            </content>
+          </point>
+          <point eId="para_280_list_point_c">
+            <num>c)</num>
+            <content eId="para_280_list_point_c_content">
+              <p xml:space="preserve"> Faire participer les grands groupes et les autres parties prenantes à l’établissement de leurs rapports nationaux et locaux volontaires, selon qu’il convient ;</p>
+            </content>
+          </point>
+          <point eId="para_280_list_point_d">
+            <num>d)</num>
+            <content eId="para_280_list_point_d_content">
+              <p xml:space="preserve"> Fournir en temps voulu au Bureau du Forum des contributions concises et utiles destinées à nourrir le message qu’adressera le Forum au forum politique de haut niveau au sujet des différents objectifs de développement durable qui seront examinés par le forum politique de haut niveau à sa session de l’année suivante ;</p>
+            </content>
+          </point>
+          <point eId="para_280_list_point_e">
+            <num>e)</num>
+            <content eId="para_280_list_point_e_content">
+              <p xml:space="preserve"> Renforcer la coordination avec les gouvernements et tenir un discours cohérent et ciblé sur les forêts et les liens entre les objectifs de développement durable auprès des organes du Conseil économique et social, des conventions de Rio, des autres organisations membres du Partenariat de collaboration sur les forêts et des autres instances intergouvernementales compétentes auxquelles ils participent, conformément aux priorités nationales et dans le respect du mandat de chacun ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_304" class="SingleTxt">
+        <num>20.</num>
+        <list eId="para_304_list">
+          <intro eId="para_304_list_intro">
+            <p xml:space="preserve">	<span class="italic">Invite </span>le Bureau du Forum, agissant en toute transparence et inclusion et en concertation avec chaque région et les membres du Forum, à :</p>
+          </intro>
+          <point eId="para_304_list_point_a">
+            <num>a)</num>
+            <content eId="para_304_list_point_a_content">
+              <p xml:space="preserve"> Continuer, au nom du Forum, d’apporter en temps utile au forum politique de haut niveau des contributions au sujet des liens entre les objectifs de développement durable, avec l’appui du secrétariat du Forum, tout particulièrement les années durant lesquelles se tient un sommet sur les objectifs de développement durable ou durant lesquelles l’objectif 15 fait l’objet d’un examen, et veiller à ce que ces contributions soient concises et ciblées, prennent la forme de « messages clefs » pouvant être insérés tels quels dans les déclarations du forum politique de haut niveau et soient accompagnées si nécessaire d’un texte d’appui ;</p>
+            </content>
+          </point>
+          <point eId="para_304_list_point_b">
+            <num>b)</num>
+            <content eId="para_304_list_point_b_content">
+              <p xml:space="preserve"> Travailler en étroite collaboration avec les points focaux du Forum dans les capitales et avec les missions permanentes à New York afin de faire en sorte que les messages clefs du Forum soient bien pris en compte dans les déclarations du forum politique de haut niveau ;</p>
+            </content>
+          </point>
+          <point eId="para_304_list_point_c">
+            <num>c)</num>
+            <content eId="para_304_list_point_c_content">
+              <p xml:space="preserve"> S’entretenir avec les membres du Forum, les grands groupes et les autres parties prenantes de façon que leurs vues soient prises en compte lors de l’élaboration de la contribution qui sera apportée au nom du Forum au forum politique de haut niveau ; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_329" class="SingleTxt">
+        <num>21.</num>
+        <list eId="para_329_list">
+          <intro eId="para_329_list_intro">
+            <p xml:space="preserve">	<span class="italic">Prie</span> le secrétariat du Forum de :</p>
+          </intro>
+          <point eId="para_329_list_point_a">
+            <num>a)</num>
+            <content eId="para_329_list_point_a_content">
+              <p xml:space="preserve"> Prêter assistance au Bureau et aux membres du Forum au titre du paragraphe 20 ci‑dessus et faciliter leurs travaux à cet égard ;</p>
+            </content>
+          </point>
+          <point eId="para_329_list_point_b">
+            <num>b)</num>
+            <content eId="para_329_list_point_b_content">
+              <p xml:space="preserve"> Continuer à faire figurer dans la documentation destinée aux sessions du Forum une courte analyse de la façon dont les contributions du Forum ont été prises en compte dans la déclaration adoptée l’année précédente par le forum politique de haut niveau ;</p>
+            </content>
+          </point>
+          <point eId="para_329_list_point_c">
+            <num>c)</num>
+            <content eId="para_329_list_point_c_content">
+              <p xml:space="preserve"> Prendre contact très tôt dans l’année avec les points focaux des membres du Forum qui procèdent à un examen national volontaire dans le cadre du forum politique de haut niveau afin d’encourager les pays à bien faire ressortir les liens qui existent entre les objectifs de développement durable ;</p>
+            </content>
+          </point>
+          <point eId="para_329_list_point_d">
+            <num>d)</num>
+            <content eId="para_329_list_point_d_content">
+              <p xml:space="preserve"> Collaborer davantage avec le Bureau de l’appui aux mécanismes intergouvernementaux et de la coordination au service du développement durable du Département des affaires économiques et sociales du Secrétariat et les secrétariats des commissions économiques régionales de l’Organisation des Nations Unies aux fins de l’élaboration des contributions intergouvernementales relatives aux forêts destinées au forum politique de haut niveau, y compris dans le cadre de leurs forums régionaux pour le développement durable et des ateliers régionaux consacrés à l’établissement des rapports nationaux volontaires ;</p>
+            </content>
+          </point>
+          <point eId="para_329_list_point_e">
+            <num>e)</num>
+            <content eId="para_329_list_point_e_content">
+              <p xml:space="preserve"> Renforcer la collaboration en vue de la réalisation des objectifs de développement avec les secrétariats des trois conventions de Rio et des autres organes et conventions traitant de questions forestières d’intérêt commun, dans le respect du mandat de chacun ;</p>
+            </content>
+          </point>
+          <point eId="para_329_list_point_f">
+            <num>f)</num>
+            <content eId="para_329_list_point_f_content">
+              <p xml:space="preserve"> Établir un rapport succinct ou des produits de communication ciblés adaptés à divers publics et visant à mettre en valeur la contribution des forêts à la réalisation des objectifs de développement durable examinés chaque année, les liens qu’elles entretiennent avec ces objectifs, en particulier l’objectif 15, et l’importance cruciale que revêt la réalisation de la cible 15.b pour que cette contribution soit pleinement bénéfique, en s’appuyant sur l’Évaluation des ressources forestières mondiales, le rapport sur les objectifs mondiaux relatifs aux forêts intitulé <span class="italic">Global Forest Goals Report </span>et les études scientifiques sur le sujet ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_355" class="SingleTxt">
+        <num>22.</num>
+        <list eId="para_355_list">
+          <intro eId="para_355_list_intro">
+            <p xml:space="preserve">	<span class="italic">Invite</span> :</p>
+          </intro>
+          <point eId="para_355_list_point_a">
+            <num>a)</num>
+            <content eId="para_355_list_point_a_content">
+              <p xml:space="preserve"> Le Partenariat de collaboration sur les forêts et ses membres à se coordonner et à harmoniser les principaux messages qu’ils adressent au forum politique de haut niveau s’agissant des liens entre les forêts et les objectifs de développement durable examinés chaque année, notamment en ce qui concerne les bienfaits que procurent les forêts, les problèmes qui les touchent et les menaces qui pèsent sur elles ;</p>
+            </content>
+          </point>
+          <point eId="para_355_list_point_b">
+            <num>b)</num>
+            <content eId="para_355_list_point_b_content">
+              <p xml:space="preserve"> Les grands groupes et les autres parties prenantes à faire connaître les liens entre les objectifs de développement durable en participant très tôt à l’établissement des rapports volontaires nationaux ou locaux auquel procèdent leurs pays et en participant, en étroite collaboration avec les « partenaires organisateurs » du groupe de parties prenantes au forum politique de haut niveau auquel ils appartiennent, à l’élaboration des contributions au forum politique de haut niveau ;</p>
+            </content>
+          </point>
+          <point eId="para_355_list_point_c">
+            <num>c)</num>
+            <content eId="para_355_list_point_c_content">
+              <p xml:space="preserve"> Les commissions économiques régionales de l’Organisation des Nations Unies à faire mieux connaître les liens entre forêts et objectifs de développement durable, aussi bien les avantages qu’ils présentent que les difficultés auxquelles ils donnent lieu, y compris lors des forums régionaux pour le développement durable qu’elles organisent ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_382" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_382__content">
+          <p xml:space="preserve">	<span class="italic">Invite</span> son secrétariat, sous la direction de sa présidence, à simplifier et à mieux cibler le formulaire servant à présenter chaque année les contributions intergouvernementales au forum politique de haut niveau, le but étant de favoriser la formulation de contributions concises, ciblées et concrètes destinées à figurer dans les déclarations du forum politique de haut niveau ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_410" class="H23">
+        <num>H.</num>
+        <content eId="para_410__content">
+          <p xml:space="preserve">	<span class="bold">Mesures concernant la stratégie de communication et d’information du plan stratégique des Nations Unies sur les forêts (2017-2030)</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_439" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_439__content">
+          <p xml:space="preserve">	<span class="italic">Invite</span> les membres du Forum, le secrétariat du Forum, le Partenariat de collaboration sur les forêts et ses membres, les organisations régionales et sous-régionales, les grands groupes et les autres parties prenantes à continuer d’œuvrer à la mise en œuvre de la stratégie de communication et d’information du plan stratégique des Nations Unies sur les forêts (2017-2030), étant donné l’importance que revêt la communication dans les activités d’éducation, de sensibilisation et de mobilisation, qui ne se réduisent pas à la diffusion d’informations ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_469" class="SingleTxt">
+        <num>25.</num>
+        <list eId="para_469_list">
+          <intro eId="para_469_list_intro">
+            <p xml:space="preserve">	<span class="italic">Prie </span>le secrétariat du Forum de :</p>
+          </intro>
+          <point eId="para_469_list_point_a">
+            <num>a)</num>
+            <content eId="para_469_list_point_a_content">
+              <p xml:space="preserve"> Mieux utiliser, du point de vue du rapport coût-efficacité, les ressources disponibles et les moyens de communication traditionnels et nouveaux, y compris des méthodes innovantes et interactives, comme la collaboration avec les influenceurs, les enquêtes et les concours ;</p>
+            </content>
+          </point>
+          <point eId="para_469_list_point_b">
+            <num>b)</num>
+            <content eId="para_469_list_point_b_content">
+              <p xml:space="preserve"> Améliorer la structure et le contenu du site Web du Forum, au moyen des ressources existantes ;</p>
+            </content>
+          </point>
+          <point eId="para_469_list_point_c">
+            <num>c)</num>
+            <content eId="para_469_list_point_c_content">
+              <p xml:space="preserve"> Élaborer un plan de communication et d’information définissant des activités à court et à moyen terme qu’il pourrait entreprendre pour faciliter la réalisation des objectifs visés dans la stratégie de communication et d’information, la diffusion des messages et le choix des canaux de communication en fonction du public visé, ainsi que des indicateurs de suivi et d’évaluation, et communiquer ce plan directement aux membres pour qu’ils fassent part de leurs observations ;</p>
+            </content>
+          </point>
+          <point eId="para_469_list_point_d">
+            <num>d)</num>
+            <content eId="para_469_list_point_d_content">
+              <p xml:space="preserve"> Établir, avec l’appui du Partenariat de collaboration sur les forêts, des notes d’orientation succinctes et précises sur les priorités thématiques du Forum, continuer d’établir son rapport sur les objectifs mondiaux relatifs aux forêts en mettant en valeur les avantages apportés par les forêts et les arbres en général dans la mise en œuvre des autres priorités mondiales et sensibiliser d’autres secteurs que le secteur forestier et les décideurs de haut niveau ;</p>
+            </content>
+          </point>
+          <point eId="para_469_list_point_e">
+            <num>e)</num>
+            <content eId="para_469_list_point_e_content">
+              <p xml:space="preserve"> Mettre davantage à profit son rôle d’organisateur pour accroître la participation aux tables rondes de haut niveau du Forum, le but étant de mobiliser d’autres acteurs que les acteurs du secteur forestier ;</p>
+            </content>
+          </point>
+          <point eId="para_469_list_point_f">
+            <num>f)</num>
+            <content eId="para_469_list_point_f_content">
+              <p xml:space="preserve"> Rendre bien visibles sur la page d’accueil du Forum les messages clefs que le Bureau du Forum fait parvenir chaque année au forum politique de haut niveau et donner accès aux infographies et aux autres produits de communication qui accompagnent ces messages ;</p>
+            </content>
+          </point>
+          <point eId="para_469_list_point_g">
+            <num>g)</num>
+            <content eId="para_469_list_point_g_content">
+              <p xml:space="preserve"> Élaborer des produits de communication visant à mieux faire connaître et à présenter de façon équilibrée et intégrée l’utilité sociale, économique et environnementale des forêts et les multiples avantages qu’elles procurent sur ces divers plans, ainsi que le rôle important que jouent les peuples autochtones, les communautés locales, les femmes et les filles et les personnes en situation de vulnérabilité ;</p>
+            </content>
+          </point>
+          <point eId="para_469_list_point_h">
+            <num>h)</num>
+            <content eId="para_469_list_point_h_content">
+              <p xml:space="preserve"> Faire mieux connaître les objectifs mondiaux relatifs aux forêts en envisageant d’élaborer, en concertation avec les membres du Forum et en toute transparence et inclusion, des titres courts et faciles à mémoriser pour chacun des six objectifs mondiaux relatifs aux forêts, comme ceux accompagnant les icônes des objectifs de développement durable ;</p>
+            </content>
+          </point>
+          <sublist eId="para_469_list_point_h_sublist">
+            <point eId="para_469_list_point_h_sublist_point_i">
+              <num>i)</num>
+              <content eId="para_469_list_point_h_sublist_point_i_content">
+                <p xml:space="preserve"> Promouvoir, en coordination avec les membres du Partenariat de collaboration sur les forêts et leurs programmes éducatifs et leurs programmes visant les jeunes, des activités d’éducation et de sensibilisation des jeunes, aussi bien formelles qu’informelles, en vue d’aider les jeunes générations à prendre conscience de l’utilité sociale, économique et environnementale des forêts et des arbres en général et des multiples avantages qu’ils procurent sur ces divers plans et de leur faire connaître le plan stratégique et les objectifs mondiaux relatifs aux forêts qui y sont inscrits ;</p>
+              </content>
+            </point>
+          </sublist>
+          <point eId="para_469_list_point_j">
+            <num>j)</num>
+            <content eId="para_469_list_point_j_content">
+              <p xml:space="preserve"> Renforcer la sensibilisation, par exemple en accroissant la participation aux tables rondes de haut niveau du Forum et aux autres initiatives visant à aider les décideurs de haut niveau et les hauts fonctionnaires gouvernementaux à mieux comprendre la contribution que les forêts et les arbres peuvent apporter à la réalisation des grands objectifs de politique publique ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_500" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_500__content">
+          <p xml:space="preserve">	<span class="italic">Invite </span>les membres du Forum à réfléchir aux moyens de recenser les activités et projets forestiers durables qui fonctionnent bien et contribuent à la mise en œuvre du plan stratégique et à les faire connaître par divers supports de communication ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_532" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_532__content">
+          <p xml:space="preserve">	<span class="italic">Encourage </span>les membres du Partenariat de collaboration sur les forêts qui participent à l’Initiative mondiale pour l’éducation forestière et les membres du Forum à tirer pleinement parti des possibilités qu’elle offre pour mieux faire connaître l’importance que revêtent les forêts et les arbres en général, ainsi que le rôle que joue la gestion durable des forêts, au moyen des programmes d’enseignement primaire et secondaire et par la promotion des études forestières à l’université ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_565" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_565__content">
+          <p xml:space="preserve">	<span class="italic">Invite </span>les organisations régionales et sous-régionales à envisager d’élaborer des plans régionaux de communication et d’information pour diffuser des messages tenant compte des priorités et des besoins régionaux en matière de forêts et de gestion durable des forêts ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_599" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_599__content">
+          <p xml:space="preserve">	<span class="italic">Invite </span>les grands groupes et les autres parties prenantes à continuer de faire entendre leur voix afin d’attirer l’attention sur les questions forestières et de proposer des solutions concrètes pour remédier aux problèmes qui touchent les forêts ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_634" class="H23">
+        <num>I.</num>
+        <content eId="para_634__content">
+          <p xml:space="preserve">	<span class="bold">Mesures concernant la participation des partenaires régionaux et sous-régionaux</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_670" class="SingleTxt">
+        <num>30.</num>
+        <list eId="para_670_list">
+          <intro eId="para_670_list_intro">
+            <p xml:space="preserve">	<span class="italic">Invite </span>les partenaires régionaux et sous-régionaux à :</p>
+          </intro>
+          <point eId="para_670_list_point_a">
+            <num>a)</num>
+            <content eId="para_670_list_point_a_content">
+              <p xml:space="preserve"> Continuer d’aider les pays de leurs régions à se préparer à participer au Forum et aux sessions y afférentes relevant d’autres conventions et cadres ;</p>
+            </content>
+          </point>
+          <point eId="para_670_list_point_b">
+            <num>b)</num>
+            <content eId="para_670_list_point_b_content">
+              <p xml:space="preserve"> Continuer de mobiliser les institutions financières régionales ou sous-régionales, comme les banques régionales de développement et d’investissement, en vue de collaborer davantage sur les questions forestières et de lever des fonds pour financer leurs activités forestières et leur participation aux réunions sur les questions forestières ;</p>
+            </content>
+          </point>
+          <point eId="para_670_list_point_c">
+            <num>c)</num>
+            <content eId="para_670_list_point_c_content">
+              <p xml:space="preserve"> Réfléchir aux moyens de monter des initiatives dont ils prendraient la tête pour élaborer les contributions qu’ils apportent au Forum et mettre en œuvre des initiatives forestières régionales, sous-régionales et transfrontières concourant à la réalisation des objectifs mondiaux relatifs aux forêts ;</p>
+            </content>
+          </point>
+          <point eId="para_670_list_point_d">
+            <num>d)</num>
+            <content eId="para_670_list_point_d_content">
+              <p xml:space="preserve"> Envisager d’intégrer dans leurs plans, programmes et stratégies la contribution qu’ils entendent apporter aux objectifs mondiaux relatifs aux forêts, selon qu’il convient ;</p>
+            </content>
+          </point>
+          <point eId="para_670_list_point_e">
+            <num>e)</num>
+            <content eId="para_670_list_point_e_content">
+              <p xml:space="preserve"> Renforcer la collaboration intersectorielle et faciliter les partenariats en vue de promouvoir des modèles de bioéconomie forestière durable et la restauration des écosystèmes, ce qui contribuerait à l’amélioration des moyens de subsistance, notamment en renforçant les capacités des femmes, des jeunes, des peuples autochtones et des communautés locales, sachant qu’il faut assurer des modes de consommation et de production durables ;</p>
+            </content>
+          </point>
+          <point eId="para_670_list_point_f">
+            <num>f)</num>
+            <content eId="para_670_list_point_f_content">
+              <p xml:space="preserve"> Associer les grands groupes et les autres parties prenantes à leurs activités forestières ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_707" class="SingleTxt">
+        <num>31.</num>
+        <list eId="para_707_list">
+          <intro eId="para_707_list_intro">
+            <p xml:space="preserve">	<span class="italic">Invite </span>le Forum à :</p>
+          </intro>
+          <point eId="para_707_list_point_a">
+            <num>a)</num>
+            <content eId="para_707_list_point_a_content">
+              <p xml:space="preserve"> Examiner les moyens de renforcer l’appui apporté aux partenaires régionaux et sous-régionaux, comme les commissions économiques régionales et les forums économiques régionaux de l’Organisation des Nations Unies, notamment en organisant des ateliers de renforcement des capacités sur des questions comme le suivi des objectifs mondiaux relatifs aux forêts et des objectifs de développement durable et la communication de l’information y afférente, ainsi que des ateliers de formation sur la mobilisation des ressources ; </p>
+            </content>
+          </point>
+          <point eId="para_707_list_point_b">
+            <num>b)</num>
+            <content eId="para_707_list_point_b_content">
+              <p xml:space="preserve"> Envisager d’organiser, lors de ses sessions techniques, des réunions spécialement consacrées aux régions à tour de rôle, en vue de faire connaître leurs expériences et les difficultés rencontrées dans la mise en œuvre de l’instrument des Nations Unies sur les forêts et du plan stratégique des Nations Unies sur les forêts (2017-2030) ;</p>
+            </content>
+          </point>
+          <point eId="para_707_list_point_c">
+            <num>c)</num>
+            <content eId="para_707_list_point_c_content">
+              <p xml:space="preserve"> Se rapprocher davantage des institutions financières et des banques de développement régionales afin de nouer des relations et de bâtir des réseaux ;</p>
+            </content>
+          </point>
+          <point eId="para_707_list_point_d">
+            <num>d)</num>
+            <content eId="para_707_list_point_d_content">
+              <p xml:space="preserve"> Promouvoir la collaboration interrégionale et l’échange d’informations sur les exemples de réussites et les meilleures pratiques concernant la mise en œuvre de l’instrument des Nations Unies sur les forêts, du plan stratégique et des objectifs mondiaux relatifs aux forêts, et tenir compte le cas échéant des perspectives régionales dans les prochains rapports sur les objectifs mondiaux relatifs aux forêts ;</p>
+            </content>
+          </point>
+          <point eId="para_707_list_point_e">
+            <num>e)</num>
+            <content eId="para_707_list_point_e_content">
+              <p xml:space="preserve"> Promouvoir les échanges entre les organisations intergouvernementales régionales et sous-régionales compétentes et le Partenariat de collaboration sur les forêts, les grands groupes et les autres parties prenantes ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_745" class="SingleTxt">
+        <num>32.</num>
+        <content eId="para_745__content">
+          <p xml:space="preserve">	<span class="italic">Invite également</span> le Forum à veiller à ce que les organisations régionales et sous-régionales des régions des pays en développement soient mieux représentées dans ses travaux, en toute équité ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_784" class="SingleTxt">
+        <num>33.</num>
+        <content eId="para_784__content">
+          <p xml:space="preserve">	<span class="italic">Invite en outre</span> le Forum à réfléchir aux moyens qui permettraient au Réseau mondial de facilitation du financement forestier de coopérer avec les organisations intergouvernementales, régionales et sous-régionales compétentes et leurs pays membres, dans le respect des lignes directrices et du mandat du Réseau ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_824" class="SingleTxt">
+        <num>34.</num>
+        <content eId="para_824__content">
+          <p xml:space="preserve">	<span class="italic">Prie </span>le secrétariat du Forum de continuer de collaborer avec les partenaires régionaux et sous-régionaux afin de mieux comprendre les besoins des pays de ces régions et de définir les mesures à prendre pour combler les lacunes et remédier aux problèmes qu’ils rencontrent ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_865" class="H23">
+        <num>J.</num>
+        <content eId="para_865__content">
+          <p xml:space="preserve">	<span class="bold">Mesures concernant la participation des grands groupes et des autres parties prenantes</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_907" class="SingleTxt">
+        <num>35.</num>
+        <list eId="para_907_list">
+          <intro eId="para_907_list_intro">
+            <p xml:space="preserve">	<span class="italic">Invite </span>le Forum, son secrétariat et son bureau à :</p>
+          </intro>
+          <point eId="para_907_list_point_a">
+            <num>a)</num>
+            <content eId="para_907_list_point_a_content">
+              <p xml:space="preserve"> Favoriser la participation des grands groupes et des autres parties prenantes aux travaux du Forum ;</p>
+            </content>
+          </point>
+          <point eId="para_907_list_point_b">
+            <num>b)</num>
+            <content eId="para_907_list_point_b_content">
+              <p xml:space="preserve"> Mettre à profit les sessions du Forum pour échanger des idées et des bonnes pratiques sur la façon dont les parties prenantes pourraient mieux saisir les occasions d’agir que leur offrent les instruments, mécanismes, engagements et objectifs relatifs aux forêts et suivre les progrès accomplis à cet égard ;</p>
+            </content>
+          </point>
+          <point eId="para_907_list_point_c">
+            <num>c)</num>
+            <content eId="para_907_list_point_c_content">
+              <p xml:space="preserve"> Aider les pays à recueillir des données sur les meilleures pratiques adoptées par les peuples autochtones, les communautés locales, les femmes et les jeunes, aux fins de la mise en œuvre du plan stratégique des Nations Unies sur les forêts (2017-2030), notamment la plantation d’arbres selon les principes de gestion durable des forêts et la restauration des écosystèmes ;</p>
+            </content>
+          </point>
+          <point eId="para_907_list_point_d">
+            <num>d)</num>
+            <content eId="para_907_list_point_d_content">
+              <p xml:space="preserve"> Envisager d’organiser à l’intention des grands groupes et des autres parties prenantes, sous réserve de la disponibilité de fonds, un atelier de renforcement des capacités sur la levée de fonds aux fins de la mise en œuvre du plan stratégique et de la réalisation des objectifs mondiaux relatifs aux forêts, en veillant à une représentation géographique équitable ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_950" class="SingleTxt">
+        <num>36.</num>
+        <list eId="para_950_list">
+          <intro eId="para_950_list_intro">
+            <p xml:space="preserve">	<span class="italic">Invite </span>les membres du Forum à :</p>
+          </intro>
+          <point eId="para_950_list_point_a">
+            <num>a)</num>
+            <content eId="para_950_list_point_a_content">
+              <p xml:space="preserve"> Solliciter les grands groupes et les autres parties prenantes pour promouvoir la gestion durable des forêts et les modèles de bioéconomie forestière durable, ainsi que la restauration des écosystèmes au moyen d’une approche globale, multisectorielle et axée sur les moyens de subsistance, sachant qu’il faut assurer des modes de consommation et de production durables ;</p>
+            </content>
+          </point>
+          <point eId="para_950_list_point_b">
+            <num>b)</num>
+            <content eId="para_950_list_point_b_content">
+              <p xml:space="preserve"> Inclure la contribution des grands groupes et des autres parties prenantes dans tous les instruments, mécanismes, engagements et objectifs relatifs aux forêts et dans tous les rapports sur les objectifs mondiaux relatifs aux forêts et examiner cette contribution ;</p>
+            </content>
+          </point>
+          <point eId="para_950_list_point_c">
+            <num>c)</num>
+            <content eId="para_950_list_point_c_content">
+              <p xml:space="preserve"> Aider les grands groupes et les autres parties prenantes à mobiliser davantage de ressources financières de toutes provenances et à tous les niveaux pour leur permettre de participer plus facilement à la mise en œuvre du plan stratégique ;</p>
+            </content>
+          </point>
+          <point eId="para_950_list_point_d">
+            <num>d)</num>
+            <content eId="para_950_list_point_d_content">
+              <p xml:space="preserve"> Réfléchir aux moyens de faciliter les initiatives prises par les grands groupes et les autres parties prenantes pour élaborer leurs contributions aux sessions du Forum ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_994" class="SingleTxt">
+        <num>37.</num>
+        <content eId="para_994__content">
+          <p xml:space="preserve">	<span class="italic">Invite </span>le Partenariat de collaboration sur les forêts à engager un dialogue avec les grands groupes et les autres parties prenantes et à envisager de mener des activités conjointes en vue de favoriser la mise en œuvre du plan stratégique ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1039" class="SingleTxt">
+        <num>38.</num>
+        <content eId="para_1039__content">
+          <p xml:space="preserve">	<span class="italic">Se félicite </span>de la mise en place du mécanisme de coordination interne des grands groupes de l’arrangement international sur les forêts aux fins de la mise en œuvre du plan stratégique et de la facilitation des échanges et de la participation aux travaux du Forum ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1085" class="SingleTxt">
+        <num>39.</num>
+        <list eId="para_1085_list">
+          <intro eId="para_1085_list_intro">
+            <p xml:space="preserve">	<span class="italic">Invite </span>les grands groupes et les autres parties prenantes à :</p>
+          </intro>
+          <point eId="para_1085_list_point_a">
+            <num>a)</num>
+            <content eId="para_1085_list_point_a_content">
+              <p xml:space="preserve"> Fournir des informations sur la façon dont ils se coordonnent en interne et soumettre au Forum, qui les examinera, des propositions et des solutions qui leur permettraient de mieux se coordonner en interne ;</p>
+            </content>
+          </point>
+          <point eId="para_1085_list_point_b">
+            <num>b)</num>
+            <content eId="para_1085_list_point_b_content">
+              <p xml:space="preserve"> Mettre à profit les sessions du Forum et les rencontres organisées durant l’intersession pour réfléchir aux moyens qui leur permettraient de continuer à se consulter sans que cette pratique ralentisse le rythme des travaux ou des activités ;</p>
+            </content>
+          </point>
+          <point eId="para_1085_list_point_c">
+            <num>c)</num>
+            <content eId="para_1085_list_point_c_content">
+              <p xml:space="preserve"> Veiller à ce que leur mécanisme de coordination interne permette une représentation équilibrée des experts, sélectionnés à l’issue d’une procédure transparente et inclusive, aux fins d’une participation efficace au Forum ;</p>
+            </content>
+          </point>
+          <point eId="para_1085_list_point_d">
+            <num>d)</num>
+            <content eId="para_1085_list_point_d_content">
+              <p xml:space="preserve"> Élaborer une stratégie commune pour appuyer le dialogue du Forum consacré aux questions de politique et la mise en œuvre du plan stratégique et actualiser à cet égard leurs plans de travail ;</p>
+            </content>
+          </point>
+          <point eId="para_1085_list_point_e">
+            <num>e)</num>
+            <content eId="para_1085_list_point_e_content">
+              <p xml:space="preserve"> Communiquer les contributions qu’ils apportent au plan stratégique à celles et ceux qu’ils représentent et au Forum ;</p>
+            </content>
+          </point>
+          <point eId="para_1085_list_point_f">
+            <num>f)</num>
+            <content eId="para_1085_list_point_f_content">
+              <p xml:space="preserve"> Saisir les occasions de dialogue et d’action et mobiliser des ressources à cette fin, notamment en levant de nouveaux financements et des financements additionnels en faveur de la gestion durable des forêts, et ce, en faisant mieux connaître les avantages que procure cette gestion dans la mise en œuvre des divers programmes d’action mondiale ;</p>
+            </content>
+          </point>
+          <point eId="para_1085_list_point_g">
+            <num>g)</num>
+            <content eId="para_1085_list_point_g_content">
+              <p xml:space="preserve"> Œuvrer pour que les grands groupes et les autres parties prenantes des pays en développement, y compris les personnes en situation de vulnérabilité, soient représentés de manière adéquate et équitable dans les travaux du Forum ;</p>
+            </content>
+          </point>
+          <point eId="para_1085_list_point_h">
+            <num>h)</num>
+            <content eId="para_1085_list_point_h_content">
+              <p xml:space="preserve"> Réfléchir aux moyens de favoriser des partenariats avec les grands groupes de l’industrie forestière ;</p>
+            </content>
+          </point>
+          <sublist eId="para_1085_list_point_h_sublist">
+            <point eId="para_1085_list_point_h_sublist_point_II">
+              <num>II.</num>
+              <content eId="para_1085_list_point_h_sublist_point_II_content">
+                <p xml:space="preserve">	<span class="bold">Programme de travail quadriennal du Forum pour la période 2025-2028</span></p>
+              </content>
+            </point>
+          </sublist>
+        </list>
+      </paragraph>
+      <paragraph eId="para_1132" class="SingleTxt">
+        <num>40.</num>
+        <content eId="para_1132__content">
+          <p xml:space="preserve">	<span class="italic">Décide</span> d’adopter le programme de travail quadriennal du Forum pour la période 2025-2028, dont le texte figure dans l’annexe de la présente résolution. </p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="37e" refersTo="#adoptionMeeting">37e séance plénière</location>
+          <eol />
+          <docDate date="2024-07-23" refersTo="#adoptionDate">23 juillet 2024</docDate>
+        </event>
+      </p>
+    </conclusions>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2024-07-23/2024-15/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2024-07-23/2024-15/"></FRBRuri>
+                <FRBRdate date="2024-07-23" name="adoption"></FRBRdate>
+                <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2024-07-23/2024-15/fra@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2024-07-23/2024-15/fra@/"></FRBRuri>
+                <FRBRdate date="2024-08-02" name="publication"></FRBRdate>
+                <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="fra"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2024-07-23/2024-15/fra@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2024-07-23/2024-15/fra@.xml"></FRBRuri>
+                <FRBRdate date="2024-09-26" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_1134" class="H23">
+              <subheading>Annexe</subheading>
+            </paragraph>
+            <paragraph eId="para_1135" class="H23">
+              <subheading>Programme de travail quadriennal du Forum pour la période 2025-2028</subheading>
+            </paragraph>
+            <paragraph eId="para_1136" class="H23">
+              <subheading>Indications générales</subheading>
+            </paragraph>
+            <paragraph eId="para_1137" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_1137__content">
+                <p xml:space="preserve">	Les programmes de travail quadriennaux définissent la contribution qu’apporte le Forum des Nations Unies sur les forêts à la mise en œuvre du plan stratégique des Nations Unies sur les forêts (2017-2030) et à la réalisation des objectifs mondiaux relatifs aux forêts et des cibles y associées et servent à établir l’ordre du jour des sessions annuelles au cours de la période quadriennale.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1138" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_1138__content">
+                <p xml:space="preserve">	Le programme de travail quadriennal du Forum pour la période 2025-2028 englobe deux périodes biennales liées sur le plan thématique : 2025-2026 (vingtième et vingt et unième sessions du Forum) et 2027-2028 (vingt-deuxième et vingt-troisième sessions). Les priorités thématiques du Forum pour chaque période s’inspireront des objectifs et cibles mondiaux relatifs aux forêts, compte tenu du programme du forum politique de haut niveau pour le développement durable et des faits nouveaux intervenus sur le plan international concernant les forêts. Ces priorités thématiques couvrent les six objectifs mondiaux relatifs aux forêts, à savoir les objectifs 1, 3 et 5 pour la première période et les objectifs 2, 4 et 6 pour la seconde période.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1139" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_1139__content">
+                <p xml:space="preserve">	Les vingtième et vingt-deuxième sessions du Forum, qui se tiendront en 2025 et en 2027, seront des sessions techniques qui permettront aux membres du Forum, au Partenariat de collaboration sur les forêts et à ses organisations membres, aux organisations et mécanismes régionaux et sous-régionaux, aux grands groupes et aux autres parties prenantes de partager de façon interactive leurs expériences au sujet des priorités thématiques et les enseignements qu’ils en ont tirés. Les échanges porteront notamment sur l’interface science-politique, les questions transversales et les questions nouvelles, tout en laissant une place aux points de vue des jeunes, aux questions de genre et aux perspectives régionales.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1140" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_1140__content">
+                <p xml:space="preserve">	À l’issue des vingtième et vingt-deuxième sessions, la présidence établira un résumé succinct assorti éventuellement de propositions que le Forum examinera le cas échéant durant les sessions de 2026 et de 2028 consacrées aux questions de politique. Les tableaux ci‑après présentent le programme de travail général des vingtième, vingt et unième, vingt-deuxième et vingt-troisième sessions du Forum.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1141" class="H23">
+              <subheading>Tableau 1</subheading>
+            </paragraph>
+            <paragraph eId="para_1142" class="H23">
+              <subheading>Vingtième session du Forum des Nations Unies sur les forêts, 2025 (session technique)</subheading>
+            </paragraph>
+            <paragraph eId="para_1143" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_1143__content">
+                <p xml:space="preserve">	Priorités à l’appui de la mise en œuvre du plan stratégique des Nations Unies sur les forêts (2017-2030) : les priorités thématiques pour la période biennale 2025-2026 sont les objectifs mondiaux relatifs aux forêts n<sup>os</sup> 1, 3 et 5</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1144" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_1144__content">
+                <p xml:space="preserve">	Autres questions</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1145" class="SingleTxt">
+              <content eId="para_1145__content">
+                <p xml:space="preserve">		a) Contributions des membres du Forum à la mise en œuvre du plan stratégique des Nations Unies sur les forêts (2017-2030) : progrès réalisés dans la mise en œuvre des décisions issues de l’examen à mi‑parcours de l’arrangement international sur les forêts ; rapport sur les résultats des initiatives nationales ; nouvelles annonces de contributions nationales volontaires ; état actualisé des contributions nationales volontaires et suivi de ces contributions au regard des priorités thématiques</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1146" class="SingleTxt">
+              <content eId="para_1146__content">
+                <p xml:space="preserve">		b) Contribution des partenaires à la réalisation des priorités thématiques et renforcement de la collaboration engagée avec eux à cette fin</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1147" class="SingleTxt">
+              <content eId="para_1147__content">
+                <p xml:space="preserve">			i) Contribution du Partenariat de collaboration sur les forêts, de ses organisations membres et du système des Nations Unies à la réalisation des priorités thématiques ; progrès accomplis s’agissant du plan de travail du Partenariat</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1148" class="SingleTxt">
+              <content eId="para_1148__content">
+                <p xml:space="preserve">			ii)	Contribution des organisations et mécanismes régionaux et sous-régionaux à la réalisation des priorités thématiques</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1149" class="SingleTxt">
+              <content eId="para_1149__content">
+                <p xml:space="preserve">			iii)	Contribution des grands groupes et des autres parties prenantes, y compris le secteur privé et le secteur philanthropique, à la réalisation des priorités thématiques ; progrès accomplis s’agissant des plans de travail des grands groupes</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1150" class="SingleTxt">
+              <content eId="para_1150__content">
+                <p xml:space="preserve">		c) Liens entre les cibles et objectifs mondiaux relatifs aux forêts et les objectifs de développement durable examinés par le forum politique de haut niveau pour le développement durable en 2025 et 2026, la Convention-cadre des Nations Unies sur les changements climatiques<authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">		Nations Unies, <span class="italic">Recueil des Traités</span>, vol. 1771, n<sup>o</sup> 30822.</p></authorialNote> et l’Accord de Paris<authorialNote marker="13" placement="bottom" eId="authorialNote_13"><p xml:space="preserve">		Adopté en vertu de la Convention-cadre des Nations Unies sur les changements climatiques ; voir <a href="https://undocs.org/fr/FCCC/CP/2015/10/Add.1">FCCC/CP/2015/10/Add.1</a>, décision 1/CP.21.</p></authorialNote>, la Convention sur la diversité biologique<authorialNote marker="14" placement="bottom" eId="authorialNote_14"><p xml:space="preserve">		Nations Unies, <span class="italic">Recueil des Traités</span>, vol. 1760, n<sup>o</sup> 30619.</p></authorialNote> et le Cadre mondial de la biodiversité de Kunming-Montréal adopté à la quinzième réunion de la Conférence des Parties à la Convention, la Convention des Nations Unies sur la lutte contre la désertification dans les pays gravement touchés par la sécheresse et/ou la désertification, en particulier en Afrique<authorialNote marker="15" placement="bottom" eId="authorialNote_15"><p xml:space="preserve">		Ibid., vol. 1954, n<sup>o</sup> 33480.</p></authorialNote>, y compris le Programme de définition de cibles de neutralité en matière de dégradation des terres, et d’autres évolutions internationales concernant les forêts</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1151" class="SingleTxt">
+              <content eId="para_1151__content">
+                <p xml:space="preserve">		d) Application de la stratégie de communication et d’information du plan stratégique des Nations Unies sur les forêts (2017-2030), y compris les activités concernant la Journée internationale des forêts de 2025</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1152" class="SingleTxt">
+              <content eId="para_1152__content">
+                <p xml:space="preserve">		e) Moyens de mise en œuvre, activités et ressources du Réseau mondial de facilitation du financement forestier</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1153" class="SingleTxt">
+              <content eId="para_1153__content">
+                <p xml:space="preserve">		f) Suivi, évaluation et rapports : rapports nationaux volontaires ; renforcement des capacités aux fins de l’établissement des rapports ; ensemble commun d’indicateurs forestiers mondiaux ; prochain rapport sur les objectifs mondiaux relatifs aux forêts</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1154" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_1154__content">
+                <p xml:space="preserve">	Fonds d’affectation spéciale du Forum</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1155" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_1155__content">
+                <p xml:space="preserve">	Nouvelles questions</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1156" class="H23">
+              <subheading>Tableau 2</subheading>
+            </paragraph>
+            <paragraph eId="para_1157" class="H23">
+              <subheading>Vingt et unième session du Forum des Nations Unies sur les forêts, 2026 (session consacrée aux questions de politique)</subheading>
+            </paragraph>
+            <paragraph eId="para_1158" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_1158__content">
+                <p xml:space="preserve">	Priorités à l’appui de la mise en œuvre du plan stratégique des Nations Unies sur les forêts (2017-2030) : les priorités thématiques pour la période biennale 2025-2026 sont les objectifs mondiaux relatifs aux forêts n<sup>os</sup> 1, 3 et 5</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1159" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_1159__content">
+                <p xml:space="preserve">	Autres questions et examen des propositions figurant dans le résumé de la présidence de la vingtième session</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1160" class="SingleTxt">
+              <content eId="para_1160__content">
+                <p xml:space="preserve">		a) Nouvelles annonces de contributions nationales volontaires</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1161" class="SingleTxt">
+              <content eId="para_1161__content">
+                <p xml:space="preserve">		b) Progrès réalisés dans la mise en œuvre des décisions issues de l’examen à mi‑parcours de l’arrangement international sur les forêts</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1162" class="SingleTxt">
+              <content eId="para_1162__content">
+                <p xml:space="preserve">		c) Rapport sur les résultats des initiatives nationales</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1163" class="SingleTxt">
+              <content eId="para_1163__content">
+                <p xml:space="preserve">		d) Informations communiquées par les parties prenantes et les partenaires sur les activités menées à l’appui des priorités thématiques</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1164" class="SingleTxt">
+              <content eId="para_1164__content">
+                <p xml:space="preserve">			i) Partenariat de collaboration sur les forêts et plan de travail  du Partenariat</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1165" class="SingleTxt">
+              <content eId="para_1165__content">
+                <p xml:space="preserve">		ii)	Organisations et mécanismes régionaux et sous-régionaux</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1166" class="SingleTxt">
+              <content eId="para_1166__content">
+                <p xml:space="preserve">			iii)	Grands groupes et autres parties prenantes, y compris le secteur privé et le secteur philanthropique</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1167" class="SingleTxt">
+              <content eId="para_1167__content">
+                <p xml:space="preserve">		e) Liens entre les cibles et objectifs mondiaux relatifs aux forêts et les objectifs de développement durable examinés par le forum politique de haut niveau pour le développement durable en 2026 et 2027, la Convention-cadre des Nations Unies sur les changements climatiques<authorialNote marker="16" placement="bottom" eId="authorialNote_16"><p xml:space="preserve">		Nations Unies, <span class="italic">Recueil des Traités</span>, vol. 1771, n<sup>o</sup> 30822.</p></authorialNote> et l’Accord de Paris<authorialNote marker="17" placement="bottom" eId="authorialNote_17"><p xml:space="preserve">		Adopté en vertu de la Convention-cadre des Nations Unies sur les changements climatiques ; voir <a href="https://undocs.org/fr/FCCC/CP/2015/10/Add.1">FCCC/CP/2015/10/Add.1</a>, décision 1/CP.21..</p></authorialNote>, la Convention sur la diversité biologique<authorialNote marker="18" placement="bottom" eId="authorialNote_18"><p xml:space="preserve">		Nations Unies, <span class="italic">Recueil des Traités</span>, vol. 1760, n° 30619.</p></authorialNote> et le Cadre mondial de la biodiversité de Kunming-Montréal adopté à la quinzième réunion de la Conférence des Parties à la Convention, la Convention des Nations Unies sur la lutte contre la désertification dans les pays gravement touchés par la sécheresse et/ou la désertification, en particulier en Afrique<authorialNote marker="19" placement="bottom" eId="authorialNote_19"><p xml:space="preserve">		Ibid., vol. 1954, n<sup>o</sup> 33480.</p></authorialNote>, y compris le Programme de définition de cibles de neutralité en matière de dégradation des terres, et d’autres évolutions internationales concernant les forêts</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1168" class="SingleTxt">
+              <content eId="para_1168__content">
+                <p xml:space="preserve">		f) Application de la stratégie de communication et d’information du plan stratégique des Nations Unies sur les forêts (2017-2030), y compris les activités concernant la Journée internationale des forêts de 2026</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1169" class="SingleTxt">
+              <content eId="para_1169__content">
+                <p xml:space="preserve">		g) Moyens de mise en œuvre, activités et ressources du Réseau mondial de facilitation du financement forestier</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1170" class="SingleTxt">
+              <content eId="para_1170__content">
+                <p xml:space="preserve">		h) Suivi, évaluations et rapports : rapports nationaux volontaires au sujet des progrès accomplis dans la mise en œuvre du plan stratégique des Nations Unies sur les forêts (2017-2030) et de l’instrument des Nations Unies sur les forêts et la réalisation des contributions nationales volontaires</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1171" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_1171__content">
+                <p xml:space="preserve">	Fonds d’affectation spéciale du Forum</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1172" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_1172__content">
+                <p xml:space="preserve">	Débats préliminaires concernant l’examen final de l’efficacité de l’arrangement international sur les forêts par rapport à ses objectifs</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1173" class="SingleTxt">
+              <num>5.</num>
+              <content eId="para_1173__content">
+                <p xml:space="preserve">	Nouvelles questions</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1174" class="H23">
+              <subheading>Tableau 3</subheading>
+            </paragraph>
+            <paragraph eId="para_1175" class="H23">
+              <subheading>Vingt-deuxième session du Forum des Nations Unies sur les forêts, 2027 (session technique)</subheading>
+            </paragraph>
+            <paragraph eId="para_1176" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_1176__content">
+                <p xml:space="preserve">	Priorités à l’appui de la mise en œuvre du plan stratégique des Nations Unies sur les forêts (2017-2030) : les priorités thématiques pour la période biennale 2027-2028 sont les objectifs mondiaux relatifs aux forêts n<sup>os</sup> 2, 4 et 6</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1177" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_1177__content">
+                <p xml:space="preserve">	Autres questions</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1178" class="SingleTxt">
+              <content eId="para_1178__content">
+                <p xml:space="preserve">		a) Contributions des membres du Forum à la mise en œuvre du plan stratégique des Nations Unies sur les forêts (2017-2030) : progrès réalisés dans la mise en œuvre des décisions issues de l’examen à mi‑parcours de l’arrangement international sur les forêts ; rapport sur les résultats des initiatives nationales ; nouvelles annonces de contributions nationales volontaires ; état actualisé des contributions nationales volontaires et suivi de ces contributions au regard des priorités thématiques</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1179" class="SingleTxt">
+              <content eId="para_1179__content">
+                <p xml:space="preserve">		b) Contribution des partenaires à la réalisation des priorités thématiques et renforcement de la collaboration engagée avec eux à cette fin</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1180" class="SingleTxt">
+              <content eId="para_1180__content">
+                <p xml:space="preserve">			i) Contributions du Partenariat de collaboration sur les forêts, de ses organisations membres et du système des Nations Unies à la réalisation des priorités thématiques ; progrès accomplis s’agissant du plan de travail du Partenariat</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1181" class="SingleTxt">
+              <content eId="para_1181__content">
+                <p xml:space="preserve">			ii)	Contributions des organisations et mécanismes régionaux et sous-régionaux à la réalisation des priorités thématiques</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1182" class="SingleTxt">
+              <content eId="para_1182__content">
+                <p xml:space="preserve">			iii)	Contribution des grands groupes et des autres parties prenantes, y compris le secteur privé et le secteur philanthropique, à la réalisation des priorités thématiques ; progrès accomplis s’agissant des plans de travail des grands groupes</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1183" class="SingleTxt">
+              <content eId="para_1183__content">
+                <p xml:space="preserve">		c) Liens entre les cibles et objectifs mondiaux relatifs aux forêts et les objectifs de développement durable examinés par le forum politique de haut niveau pour le développement durable en 2027 et 2028, la Convention-cadre des Nations Unies sur les changements climatiques<authorialNote marker="20" placement="bottom" eId="authorialNote_20"><p xml:space="preserve">		Nations Unies, <span class="italic">Recueil des Traités</span>, vol. 1771, n<sup>o</sup> 30822.</p></authorialNote> et l’Accord de Paris<authorialNote marker="21" placement="bottom" eId="authorialNote_21"><p xml:space="preserve">		Adopté en vertu de la Convention-cadre des Nations Unies sur les changements climatiques ; voir <a href="https://undocs.org/fr/FCCC/CP/2015/10/Add.1">FCCC/CP/2015/10/Add.1</a>, décision 1/CP.21..</p></authorialNote>, la Convention sur la diversité biologique<authorialNote marker="22" placement="bottom" eId="authorialNote_22"><p xml:space="preserve">		Nations Unies, <span class="italic">Recueil des Traités</span>, vol. 1760, n<sup>o</sup> 30619.</p></authorialNote> et le Cadre mondial de la biodiversité de Kunming-Montréal adopté à la quinzième réunion de la Conférence des Parties à la Convention, la Convention des Nations Unies sur la lutte contre la désertification dans les pays gravement touchés par la sécheresse et/ou la désertification, en particulier en Afrique<authorialNote marker="23" placement="bottom" eId="authorialNote_23"><p xml:space="preserve">		Ibid., vol. 1954, n<sup>o</sup> 33480.</p></authorialNote>, y compris le Programme de définition de cibles de neutralité en matière de dégradation des terres, et d’autres évolutions internationales concernant les forêts</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1184" class="SingleTxt">
+              <content eId="para_1184__content">
+                <p xml:space="preserve">		d) Application de la stratégie de communication et d’information du plan stratégique des Nations Unies sur les forêts (2017-2030), y compris les activités concernant la Journée internationale des forêts de 2027</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1185" class="SingleTxt">
+              <content eId="para_1185__content">
+                <p xml:space="preserve">		e) Moyens de mise en œuvre, activités et ressources du Réseau mondial de facilitation du financement forestier</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1186" class="SingleTxt">
+              <content eId="para_1186__content">
+                <p xml:space="preserve">		f) Suivi, évaluation et rapports : rapports nationaux volontaires ; ensemble commun d’indicateurs forestiers mondiaux</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1187" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_1187__content">
+                <p xml:space="preserve">	Fonds d’affectation spéciale du Forum</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1188" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_1188__content">
+                <p xml:space="preserve">	Nouvelles questions</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1189" class="H23">
+              <subheading>Tableau 4</subheading>
+            </paragraph>
+            <paragraph eId="para_1190" class="H23">
+              <subheading>Vingt-troisième session du Forum des Nations Unies sur les forêts, 2028 (session consacrée aux questions de politique)</subheading>
+            </paragraph>
+            <paragraph eId="para_1191" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_1191__content">
+                <p xml:space="preserve">	Priorités à l’appui de la mise en œuvre du plan stratégique des Nations Unies sur les forêts (2017-2030) : les priorités thématiques pour la période biennale 2027-2028 sont les objectifs mondiaux relatifs aux forêts n<sup>os</sup> 2, 4 et 6</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1192" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_1192__content">
+                <p xml:space="preserve">	Autres questions et examen des propositions figurant dans le résumé de la présidence de la vingt-deuxième session</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1193" class="SingleTxt">
+              <content eId="para_1193__content">
+                <p xml:space="preserve">		a) Nouvelles annonces de contributions nationales volontaires</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1194" class="SingleTxt">
+              <content eId="para_1194__content">
+                <p xml:space="preserve">		b) Progrès réalisés dans la mise en œuvre des décisions issues de l’examen à mi‑parcours de l’arrangement international sur les forêts</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1195" class="SingleTxt">
+              <content eId="para_1195__content">
+                <p xml:space="preserve">		c) Rapport sur les résultats des initiatives nationales</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1196" class="SingleTxt">
+              <content eId="para_1196__content">
+                <p xml:space="preserve">		d) Informations communiquées par les parties prenantes et les partenaires sur les activités menées à l’appui des priorités thématiques</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1197" class="SingleTxt">
+              <content eId="para_1197__content">
+                <p xml:space="preserve">			i) Partenariat de collaboration sur les forêts et plan de travail du Partenariat</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1198" class="SingleTxt">
+              <content eId="para_1198__content">
+                <p xml:space="preserve">			ii)	Organisations et mécanismes régionaux et sous-régionaux</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1199" class="SingleTxt">
+              <content eId="para_1199__content">
+                <p xml:space="preserve">			iii)	Grands groupes et autres parties prenantes, y compris le secteur privé et le secteur philanthropique</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1200" class="SingleTxt">
+              <content eId="para_1200__content">
+                <p xml:space="preserve">		e) Liens entre les cibles et objectifs mondiaux relatifs aux forêts et les objectifs de développement durable examinés par le forum politique de haut niveau pour le développement durable en 2028 et 2029, la Convention-cadre des Nations Unies sur les changements climatiques<authorialNote marker="24" placement="bottom" eId="authorialNote_24"><p xml:space="preserve">		Nations Unies, <span class="italic">Recueil des Traités</span>, vol. 1771, n<sup>o</sup> 30822.</p></authorialNote> et l’Accord de Paris<authorialNote marker="25" placement="bottom" eId="authorialNote_25"><p xml:space="preserve">		Adopté en vertu de la Convention-cadre des Nations Unies sur les changements climatiques ; voir <a href="https://undocs.org/fr/FCCC/CP/2015/10/Add.1">FCCC/CP/2015/10/Add.1</a>, décision 1/CP.21..</p></authorialNote>, la Convention sur la diversité biologique<authorialNote marker="26" placement="bottom" eId="authorialNote_26"><p xml:space="preserve">		Nations Unies, <span class="italic">Recueil des Traités</span>, vol. 1760, n<sup>o</sup> 30619.</p></authorialNote> et le Cadre mondial de la biodiversité de Kunming-Montréal adopté à la quinzième réunion de la Conférence des Parties à la Convention, la Convention des Nations Unies sur la lutte contre la désertification dans les pays gravement touchés par la sécheresse et/ou la désertification, en particulier en Afrique<authorialNote marker="27" placement="bottom" eId="authorialNote_27"><p xml:space="preserve">		Ibid., vol. 1954, n° 33480.</p></authorialNote>, y compris le Programme de définition de cibles de neutralité en matière de dégradation des terres, et d’autres évolutions internationales concernant les forêts</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1201" class="SingleTxt">
+              <content eId="para_1201__content">
+                <p xml:space="preserve">		f) Application de la stratégie de communication et d’information du plan stratégique des Nations Unies sur les forêts (2017-2030), y compris les activités concernant la Journée internationale des forêts de 2028</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1202" class="SingleTxt">
+              <content eId="para_1202__content">
+                <p xml:space="preserve">		g) Moyens de mise en œuvre, activités et ressources du Réseau mondial de facilitation du financement forestier</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1203" class="SingleTxt">
+              <content eId="para_1203__content">
+                <p xml:space="preserve">		h) Suivi, évaluations et rapports : rapports nationaux volontaires au sujet des progrès accomplis dans la mise en œuvre du plan stratégique des Nations Unies sur les forêts (2017-2030) et de l’instrument des Nations Unies sur les forêts et la réalisation des contributions nationales volontaires</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1204" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_1204__content">
+                <p xml:space="preserve">	Fonds d’affectation spéciale du Forum</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1205" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_1205__content">
+                <p xml:space="preserve">	Préparatifs de l’examen final de l’efficacité de l’arrangement international sur les forêts par rapport à ses objectifs qui sera mené en 2030</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1206" class="SingleTxt">
+              <num>5.</num>
+              <content eId="para_1206__content">
+                <p xml:space="preserve">	Débat de haut niveau</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1207" class="SingleTxt">
+              <num>6.</num>
+              <content eId="para_1207__content">
+                <p xml:space="preserve">	Adoption du programme de travail du Forum pour la période biennale 2029‑2030</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_1208" class="SingleTxt">
+              <num>7.</num>
+              <content eId="para_1208__content">
+                <p xml:space="preserve">	Nouvelles questions</p>
+              </content>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>
