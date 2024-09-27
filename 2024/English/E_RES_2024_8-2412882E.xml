@@ -1,0 +1,838 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2024-06-27/2024-8/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2024-06-27/2024-8/"></FRBRuri>
+          <FRBRdate date="2024-06-27" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2024-06-27/2024-8/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2024-06-27/2024-8/eng@/"></FRBRuri>
+          <FRBRdate date="2024-07-12" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2024-06-27/2024-8/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2024-06-27/2024-8/eng@.xml"></FRBRuri>
+          <FRBRdate date="2024-07-24" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"/>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"/>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"/>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"/>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"/>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"/>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"/>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"/>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"/>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"/>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"/>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"/>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"/>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"/>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"/>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"/>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"/>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"/>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"/>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"/>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"/>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"/>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"/>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"/>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"/>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"/>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"/>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"/>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"/>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"/>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"/>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"/>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"/>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"/>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"/>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"/>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"/>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"/>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Office for the Coordination of Humanitarian Affairs" showAs="UN. Office for the Coordination of Humanitarian Affairs" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Under-Secretary-General for Humanitarian Affairs and Emergency Relief Coordinator" showAs="UN. Under-Secretary-General for Humanitarian Affairs and Emergency Relief Coordinator" dictionary="DHLAUTH"></keyword>
+        <keyword value="Central Emergency Response Fund" showAs="Central Emergency Response Fund" dictionary="DHLAUTH"></keyword>
+        <keyword value="HUMANITARIAN ASSISTANCE" href="http://metadata.un.org/thesaurus/1002992" showAs="HUMANITARIAN ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="AID COORDINATION" href="http://metadata.un.org/thesaurus/1000178" showAs="AID COORDINATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COORDINATION WITHIN UN SYSTEM" href="http://metadata.un.org/thesaurus/1001299" showAs="COORDINATION WITHIN UN SYSTEM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMANITARIAN EMERGENCIES" href="http://metadata.un.org/thesaurus/1002993" showAs="HUMANITARIAN EMERGENCIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="EMERGENCY RELIEF" href="http://metadata.un.org/thesaurus/1001994" showAs="EMERGENCY RELIEF" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="9" showAs="Special economic, humanitarian and disaster relief assistance." shortForm="HUMANITARIAN ASSISTANCE" dictionary="E/2024/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-06-19" outcome="draftResolution" as="E/2024/L.13" by="submitted by the Vice-President of the Council, Ivan Šimonović (Croatia) and on the basis of informal consultations" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-07-12" outcome="adopted" as="Adopted without vote, 30th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">24-12882 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2024/8</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Economic and Social Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-07-12" class="rightSmall" refersTo="#dateOfIssuance">12 July 2024</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2024" eId="coverPage_1__session_1">2024 session</session>
+      </p>
+      <p>
+        <inline title="9" name="agenda item">Agenda item 9</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Special economic, humanitarian and disaster relief assistance</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the Economic and Social Council on 27 June 2024</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#plenaryMeeting">[on a proposal considered in plenary meeting (<inline name="originating document">E/2024/L.13</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2024/8.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Strengthening of the coordination of emergency humanitarian assistance of the United Nations</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Economic and Social Council</span>,</p>
+      </formula>
+      <container name="Reaffirming" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	Reaffirming</span> General Assembly resolution <a href="https://undocs.org/en/A/RES/46/182">46/182</a> of 19 December 1991 and the guiding principles contained in the annex thereto, and recalling other relevant resolutions of the Assembly and relevant resolutions and agreed conclusions of the Economic and Social Council,</p>
+      </container>
+      <container name="Reaffirming also" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Reaffirming also</span> the principles of humanity, neutrality, impartiality and independence for the provision of humanitarian assistance, and the need for all actors engaged in the provision of humanitarian assistance in situations of complex emergencies, protracted crises and natural disasters to promote and fully respect those principles, </p>
+      </container>
+      <container name="Recalling" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> its decision 2024/310 of 9 April 2024, in which it decided that the theme of the humanitarian affairs segment of its 2024 session would be “Putting humanity first in the face of conflicts and climate change: strengthening humanitarian assistance and respect for international humanitarian law, and promoting effectiveness, innovation and partnerships” and that it would convene four panel discussions under the segment,</p>
+      </container>
+      <container name="Expressing grave concern" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Expressing grave concern</span> at the increasing challenges, in particular in developing countries, caused by the unprecedented number of people affected by disasters and other humanitarian emergencies, which are adding to underdevelopment, poverty and inequality and are increasing the vulnerability of people while reducing their ability to cope with humanitarian emergencies, emphasizing the need for sustained resources for disaster risk reduction, preparedness and humanitarian assistance, including in developing countries, to be provided efficiently and effectively, and emphasizing also the need for development and humanitarian actors to work better together to strengthen resilience, including urban resilience, in terms of prevention, preparedness and response,</p>
+      </container>
+      <container name="Expressing gravest concerns" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Expressing gravest concerns</span> about the humanitarian impact of and risks posed by the ongoing consequences and long-term effects of the coronavirus disease (COVID‑19) pandemic, including on the already significant levels of humanitarian and development needs and suffering of affected people and communities, recognizing the disproportionate impact on women, children and people in vulnerable situations, and profoundly concerned by rising humanitarian assistance and protection needs including due to the increase in violence, including sexual and gender-based violence and violence against children, and the significant impact on education, especially for girls, as well as high levels of food insecurity and malnutrition and rising risks of famine, loss of livelihoods, and all the negative impacts on health, including mental health, which are also exacerbated by weakened health systems, and the impacts and risks for displacement; recognizing also the compounded risks and impacts due to armed conflict, poverty, natural disasters, violence, the adverse effects of climate change, and other environmental challenges; and recognizing further the importance of continuing to strengthen pandemic prevention, preparedness and response, and address the consequences of pandemics and other health emergencies,</p>
+      </container>
+      <container name="Recalling" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> that the COVID‑19 global pandemic required an effective global response based on unity, solidarity and renewed multilateral cooperation, underscoring the importance of humanitarian assistance as a critical part of that response, and in this regard, recognizing efforts by Member States, including with regard to the provision of humanitarian assistance, in addressing the COVID‑19 pandemic and expressing appreciation for the efforts and support of the United Nations system, the Inter-Agency Standing Committee, the International Red Cross and Red Crescent Movement, non‑governmental organizations, faith-based organizations, women-led organizations, local humanitarian actors, volunteers and other health and humanitarian organizations, and for the essential work of medical and humanitarian personnel working on the frontline of the humanitarian response in the face of the pandemic, and stressing the importance of taking the measures to ensure their protection, and expressing appreciation for the efforts of frontline and essential workers around the world, and also recognizing the comprehensive response to the COVID‑19 pandemic, including greater cooperation, coherence, coordination and complementarity between humanitarian and development actors, in full compliance with their respective mandates, and in this regard underlines the importance of collaboration with the aim of reducing need, vulnerability and risk over multiple years and building resilience, based on shared understanding of the context and each actor’s operational strengths, </p>
+      </container>
+      <container name="Expressing grave concern" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Expressing grave concern</span> at the unprecedented number of people affected and displaced by humanitarian emergencies, including frequently protracted displacement resulting from humanitarian emergencies, which are increasing in number, scale and severity and are stretching humanitarian response capacities, recognizing the need for burden-sharing, and noting with appreciation efforts at the national and international levels that promote national capacity-building to address complex challenges in this regard, </p>
+      </container>
+      <container name="Noting" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Noting</span> the need for increased awareness of the international community regarding the issue of internal displacement worldwide, including the situation of millions living in protracted situations of displacement, and the urgency of providing adequate humanitarian assistance to and protection for internally displaced persons, supporting host communities, addressing the root causes of displacement at an early stage, finding durable solutions for internally displaced persons in their countries and addressing possible obstacles in this regard, wherein the national authorities have the primary duty and responsibility to provide protection and humanitarian assistance and promote durable solutions for internally displaced persons within their jurisdiction, bearing in mind their particular needs, and recognizing that durable solutions include voluntary return in safety and with dignity, as well as voluntary local integration in the areas to which persons have been displaced or voluntary settlement in another part of the country, without prejudice to the right of internally displaced persons to leave their country or to seek asylum,</p>
+      </container>
+      <container name="Recognizing" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> the critical role of host countries and communities, especially developing countries, in addressing the needs of affected populations in humanitarian emergencies, and reiterating the need for timely and coordinated support from the international community to hosts and affected countries to strengthen their development and resilience and strengthen national and local capacities, as appropriate, to address the humanitarian needs of affected populations in accordance with humanitarian principles,</p>
+      </container>
+      <container name="Stressing" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Stressing</span> the importance that Member States, the United Nations and other relevant actors continue to make efforts to improve the effectiveness of humanitarian assistance based on needs, including by strengthening humanitarian response capacities, improving humanitarian coordination, improving joint needs assessments, and analysis as appropriate, prioritized, needs-based humanitarian response plans, identifying and integrating appropriate innovation into humanitarian preparedness, response and recovery, increasing transparency, reducing duplication and management costs, strengthening partnerships with local and national responders as appropriate, enhancing flexible, predictable and adequate funding and strengthening the accountability of all stakeholders,</p>
+      </container>
+      <container name="Recognizing" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> that developing countries, in particular the least developed countries and small island developing States, remain acutely vulnerable to the adverse effects of climate change, the increase in the intensity and frequency of extreme weather and climate-related events, as well as the effects of El Niño and La Niña, environmental degradation and human and economic loss resulting from natural hazards, recognizing also the increase in the intensity and frequency of disasters, which in many circumstances can contribute to displacement, and recognizing further the need for an improved understanding of the multidimensional nature of disaster and the adverse effects of climate change to effectively manage disaster risk, and for international cooperation, as appropriate, to develop and strengthen their resilience in this regard, including the exchange of information, experiences and best practices among countries, and reaffirming the importance of international cooperation in support of the efforts of affected States, including in preparedness, response and early recovery, and of strengthening the response capacity of countries affected by such disasters, </p>
+      </container>
+      <container name="Affirming" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Affirming</span> the need for effective implementation of the Sendai Framework for Disaster Risk Reduction 2015–2030,<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		General Assembly resolution <a href="https://undocs.org/en/A/RES/69/283">69/283</a>, annex II.</p></authorialNote> emphasizing that building and strengthening resilience at the local, national and regional levels is critical to reducing the risk and the impact of disasters and vulnerabilities to hazards, and in this regard, while recognizing that building resilience, including through disaster risk reduction and preparedness, is a multidimensional process including both humanitarian and development actors support of long-term development, stressing the need for enhanced investment in building national and local capacities for multi-hazard early warning systems, preparedness, prevention, mitigation, response, recovery and rehabilitation, particularly in developing countries, as well as investment in building regional capacities, </p>
+      </container>
+      <container name="Recognizing" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span>, in this regard, the particular importance of the Paris Agreement adopted under the United Nations Framework Convention on Climate Change,<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		See <a href="https://undocs.org/en/FCCC/CP/2015/10/Add.1">FCCC/CP/2015/10/Add.1</a>, decision 1/CP.21, annex.</p></authorialNote></p>
+      </container>
+      <container name="Recalling" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> the Geneva Conventions of 12 August 1949<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		United Nations, <span class="italic">Treaty Series</span>, vol. 75, Nos. 970–973.</p></authorialNote> and the Additional Protocols thereto of 1977,<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		Ibid., vol. 1125, Nos. 17512 and 17513.</p></authorialNote> and the obligation to respect and ensure respect for international humanitarian law in all circumstances, and the obligation of all parties to armed conflict to comply strictly with the obligations applicable to them under international humanitarian law, </p>
+      </container>
+      <container name="Reaffirming" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> the continued importance of the Geneva Conventions, which include a vital legal framework for the Protection of Civilian Persons in Time of War, including the provision of humanitarian assistance,</p>
+      </container>
+      <container name="Recalling" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> the Geneva Conventions of 1949 and the Additional Protocols thereto of 1977 and 2005,<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		Ibid., vol. 2404, No. 43425.</p></authorialNote> as applicable, as well as relevant customary international law concerned with the protection of the wounded and sick, medical personnel and humanitarian personnel exclusively engaged in medical duties, their means of transport and equipment, as well as hospitals and other medical facilities, and the obligation of parties to armed conflict to respect and ensure respect for international humanitarian law in all circumstances, and noting the applicable rules of international humanitarian law relating to the non‑punishment of any person for carrying out medical activities compatible with medical ethics, </p>
+      </container>
+      <container name="Strongly condemning" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Strongly condemning</span> all attacks, threats and other acts of violence against the wounded and sick, medical personnel and humanitarian personnel exclusively engaged in medical duties, their means of transport, equipment and supplies, as well as hospitals and other medical facilities, and deploring the long-term consequences of such attacks for the civilian population and the health-care systems of the countries concerned, </p>
+      </container>
+      <container name="Condemning in the strongest possible terms" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">Condemning in the strongest possible terms</span> the alarming increase in threats to and deliberate targeting of humanitarian and medical personnel and United Nations and associated personnel, especially against locally and nationally recruited personnel, and all attacks, threats and other acts of violence against humanitarian personnel, their facilities, equipment, transports and supplies, and expressing deep concern about the consequences of such attacks for the provision of humanitarian assistance to affected populations, </p>
+      </container>
+      <container name="Commending" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">Commending</span> the courage, sacrifice and commitment of those who take part in humanitarian operations, especially nationally and locally recruited personnel, and including those serving with national and international non‑governmental organizations in the field, often at great personal risk and a negative impact to their health, including their mental health and psychosocial well-being, especially when working in situations of armed conflict and exposed to direct violence, injury and risk of illness with limited access to medical and emergency facilities, and paying tribute to their heroic efforts, especially those who have lost their lives in the service of humanity,</p>
+      </container>
+      <container name="Emphasizing" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">Emphasizing</span> the responsibility of States to comply with their relevant obligations to end impunity for serious violations of international humanitarian law, including those involving attacks against humanitarian personnel, </p>
+      </container>
+      <container name="Strongly condemning" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">Strongly condemning</span> all attacks, threats and other acts of violence against civilian objects, in violation of applicable international humanitarian law,</p>
+      </container>
+      <container name="Deeply alarmed" eId="container_23">
+        <p xml:space="preserve">
+          <span class="italic">	Deeply alarmed</span> by the devastating harm to civilians and civilian infrastructure caused by armed conflicts, including in urban and other populated areas, </p>
+      </container>
+      <container name="Encouraging" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">Encouraging</span> Member States and relevant humanitarian organizations to work closely with national institutions, including local governments and the private sector, as appropriate, to examine effective, context-specific ways to be better prepared for, respond to and recover from increasing emergencies in urban areas, which may have an impact on the provision of such life-saving essential services as water, energy and health care, </p>
+      </container>
+      <container name="Expressing deep concern" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">Expressing deep concern</span> at all acts of sexual and gender-based violence, and noting with great concern that violence, including sexual and gender-based violence and violence against children, continues to be deliberately directed against civilian populations in emergency situations and that civilians are the main victims of violations of international humanitarian law committed by parties to armed conflict, recognizing that, while women and girls are disproportionately affected, men and boys can also be victims and/or survivors of sexual and gender-based violence,</p>
+      </container>
+      <container name="Recognizing" eId="container_26">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> that humanitarian emergencies may disproportionately affect women and girls and that it is essential to ensure that women are empowered to effectively and meaningfully participate in leadership and decision-making processes relevant to such emergencies, including in disaster risk reduction, that the specific needs and interests of women and girls, including for education and health, are identified and safely and adequately addressed in strategies and responses, as appropriate, and that the rights of women and girls are promoted and protected in humanitarian emergencies, and in this regard recognizing the important role and contribution of national and local women’s organizations and women-led organizations,</p>
+      </container>
+      <container name="Reaffirming" eId="container_27">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> that the specific needs and priorities, as well as capacities, of women, girls, men and boys of different ages should be identified, responded to and mainstreamed into humanitarian assistance programming at all stages in a comprehensive and consistent manner, recognizing that in humanitarian emergencies, there are specific and heightened risks to their safety, health and well-being, </p>
+      </container>
+      <container name="Noting with grave concern" eId="container_28">
+        <p xml:space="preserve">	<span class="italic">Noting with grave concern</span> that children and youth continue to lack inclusive and equitable quality education and safe school environments in situations of humanitarian emergencies, recognizing a child’s right to education in emergency situations and that the impact of humanitarian emergencies on education presents development and humanitarian challenges, emphasizing the urgent need for increased financing and more efficient delivery of quality education in humanitarian emergencies, as a contribution towards achieving the Sustainable Development Goals and ensuring inclusive and equitable quality education and promoting lifelong learning opportunities for all, including early childhood education, as well as tertiary education, skills training and vocational education, and in this regard reaffirming that education should pursue a contribution to peace and can act as a catalyst for recovery and rebuilding and creates resilient and robust societies,</p>
+      </container>
+      <container name="Recognizing" eId="container_29">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> that quality education contributes in multiple ways to building resilience of individuals, communities and institutions to respond to humanitarian emergencies by supporting and strengthening social capital, raising human capital and strengthening community knowledge regarding humanitarian response, and recognizing also that quality education can mitigate the psychosocial impacts of armed conflicts and natural disasters by providing a sense of normalcy, stability, structure and hope for the future, and in this regard emphasizing the important role that education can also play in supporting efforts in emergency situations to prevent and mitigate the impacts of all acts of violence and abuse,</p>
+      </container>
+      <container name="Recognizing also" eId="container_30">
+        <p xml:space="preserve">	<span class="italic">Recognizing also</span> the important and positive role of youth in humanitarian assistance, who can be drivers of innovation and creative solutions, and the need to engage them in response efforts, including through volunteer programmes,</p>
+      </container>
+      <container name="Recognizing further" eId="container_31">
+        <p xml:space="preserve">	<span class="italic">Recognizing further</span> the risks that older persons face in humanitarian emergencies, that they have years of knowledge, skills and wisdom, which are invaluable assets to reduce disaster risk, and that they should be included in the design of policies, plans and mechanisms, including for early warning and for disaster risk reduction, and recognizing also that their particular needs should be taken into account, </p>
+      </container>
+      <container name="Recognizing" eId="container_32">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> that, in humanitarian emergencies, persons with disabilities are disproportionately affected and face multiple obstacles in accessing humanitarian assistance, recognizing also the need to make humanitarian action accessible to and inclusive of persons with disabilities, in this regard stressing the importance of ensuring non‑discrimination, meaningful participation in decision-making processes, as well as cooperation and coordination in the provision of assistance to ensure that their needs are addressed, and in this regard recalling the Charter on Inclusion of Persons with Disabilities in Humanitarian Action, </p>
+      </container>
+      <container name="Recognizing also" eId="container_33">
+        <p xml:space="preserve">	<span class="italic">Recognizing also</span> the primary role of Member States in preparing for and responding to outbreaks of infectious disease, including those that result in humanitarian crises, highlighting the critical role played by Member States, the World Health Organization as the directing and coordinating authority on international health work, in line with the International Health Regulations (2005) adopted by the World Health Assembly,<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		World Health Organization, document WHA58/2005/REC/1, resolution 58.3, annex.</p></authorialNote> the United Nations humanitarian system, relevant international and regional organizations, non‑governmental organizations, the private sector and other humanitarian actors in providing financial, technical and in-kind support in order to bring epidemics or pandemics under control, and recognizing also the need to strengthen local and national health systems, early reporting and early warning systems, preparedness, cross-sectoral response capacities, and resilience linked to outbreaks of infectious disease, including through capacity-building for developing countries, </p>
+      </container>
+      <container name="Noting with great concern" eId="container_34">
+        <p xml:space="preserve">	<span class="italic">Noting with great concern</span> that millions of people are facing famine or the immediate risk of famine or experiencing crisis levels of acute food insecurity or worse, and noting that armed conflicts, drought, poverty and volatility of commodity prices are among the factors causing or exacerbating famine, and acute food insecurity and malnutrition, and that additional efforts, including international support, are urgently needed to address this,</p>
+      </container>
+      <container name="Recognizing" eId="container_35">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> that urgent and concerted action is needed at all levels to recover momentum and accelerate efforts to end famine, food insecurity and all forms of malnutrition, comprehensively tackling both their causes and effects, and to promote improved nutrition and sustainable and resilient agrifood systems, and stressing further that the international community should provide, in a coordinated manner, support for national and regional efforts by providing the assistance necessary to increase sustainable food production and equitable access to safe, sufficient and nutritious food and its utilization, while fully respecting the importance of humanitarian principles for humanitarian assistance,</p>
+      </container>
+      <container name="Recognizing also" eId="container_36">
+        <p xml:space="preserve">	<span class="italic">Recognizing also</span> the initiatives and efforts to address and mitigate rising food insecurity by the Secretary-General and the United Nations system, including with the support of Member States, and encouraging their continuation, </p>
+      </container>
+      <container name="Recognizing further" eId="container_37">
+        <p xml:space="preserve">	<span class="italic">Recognizing further</span> that investing, when possible, in risk-informed and responsive social protection systems, protecting livelihoods and providing emergency agriculture support are crucial to saving lives,</p>
+      </container>
+      <container name="Recognizing" eId="container_38">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> the clear relationship between emergency response, rehabilitation, reconstruction and development, and reaffirming that, in order to strengthen coherence and ensure a smooth transition from relief to rehabilitation, reconstruction and development, emergency assistance will be provided in ways that will be supportive of recovery and long-term development and that emergency measures should be accompanied by development measures as a step towards the sustainable development of affected States, and in this regard highlighting the importance of closer cooperation between national stakeholders, including the private sector, as appropriate, and humanitarian and development actors,</p>
+      </container>
+      <container name="Recognizing also" eId="container_39">
+        <p xml:space="preserve">	<span class="italic">Recognizing also</span> that a cooperative and complementary framework between humanitarian and development approaches is imperative to build resilience,</p>
+      </container>
+      <container name="Encouraging" eId="container_40">
+        <p xml:space="preserve">	<span class="italic">Encouraging</span> closer cooperation between development and humanitarian actors, in coordination with Member States, to ensure that all relevant actors work together, in accordance with their mandates, towards common results with the aim of reducing need, vulnerability and risk over multiple years, based on shared understanding of the context and each actor’s operational strengths, in support of national priorities, while fully respecting the importance of humanitarian principles for humanitarian action,</p>
+      </container>
+      <container name="Reiterating" eId="container_41">
+        <p xml:space="preserve">	<span class="italic">Reiterating</span> the need for Member States, relevant United Nations organizations and other relevant actors to improve accountability at all levels for meeting the needs of affected populations, and recognizing the importance of inclusive participation in decision-making,</p>
+      </container>
+      <container name="Recognizing" eId="container_42">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> the critical importance of continuing to enhance and strengthen the capacities of the United Nations humanitarian system and humanitarian organizations to reach people in need of humanitarian assistance and protection, in line with humanitarian principles,</p>
+      </container>
+      <container name="Recognizing also" eId="container_43">
+        <p xml:space="preserve">	<span class="italic">Recognizing also</span> that Member States and the United Nations system need to continue their work through, inter alia, strengthening partnerships at all levels with relevant stakeholders, including regional organizations, civil society and the private sector, as appropriate, in support of national efforts, while ensuring that their collaborative efforts adhere to humanitarian principles, </p>
+      </container>
+      <container name="Stressing" eId="container_44">
+        <p xml:space="preserve">	<span class="italic">Stressing</span> the need for Member States, the United Nations and relevant stakeholders to work together to reduce the specific needs of the most vulnerable, thereby contributing to achieving the goals of the 2030 Agenda for Sustainable Development,<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		General Assembly resolution <a href="https://undocs.org/en/A/RES/70/1">70/1</a>.</p></authorialNote> including the call to leave no one behind, </p>
+      </container>
+      <container name="Recognizing" eId="container_45">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> that inclusive economic growth and sustainable development are essential for the prevention of and preparedness for natural disasters and other emergencies, </p>
+      </container>
+      <container name="Reaffirming" eId="container_46">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> General Assembly resolution <a href="https://undocs.org/en/A/RES/70/1">70/1</a> of 25 September 2015, entitled “Transforming our world: the 2030 Agenda for Sustainable Development”, in which the Assembly adopted a comprehensive, far-reaching and people-centred set of universal and transformative Sustainable Development Goals and targets and reaffirmed its commitment to working tirelessly for the full implementation of the Agenda by 2030, its recognition that eradicating poverty in all its forms and dimensions, including extreme poverty, is the greatest global challenge and an indispensable requirement for sustainable development, its commitment to achieving sustainable development in its three dimensions – economic, social and environmental – in a balanced and integrated manner, and to building upon the achievements of the Millennium Development Goals and seeking to address their unfinished business, </p>
+      </container>
+      <container name="Reaffirming also" eId="container_47">
+        <p xml:space="preserve">	<span class="italic">Reaffirming also</span> General Assembly resolution <a href="https://undocs.org/en/A/RES/69/313">69/313</a> of 27 July 2015 on the Addis Ababa Action Agenda of the Third International Conference on Financing for Development, which is an integral part of the 2030 Agenda for Sustainable Development, supports and complements it and helps to contextualize its means of implementation targets with concrete policies and actions, </p>
+      </container>
+      <container name="Noting" eId="container_48">
+        <p xml:space="preserve">	<span class="italic">Noting</span> the holding of the first World Humanitarian Summit, in Istanbul, Türkiye, on 23 and 24 May 2016, </p>
+      </container>
+      <container name="Recalling" eId="container_49">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> the New York Declaration for Refugees and Migrants, adopted at the high-level plenary meeting of the General Assembly on addressing large movements of refugees and migrants, held on 19 September 2016,<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		General Assembly resolution <a href="https://undocs.org/en/A/RES/71/1">71/1</a>.</p></authorialNote> including the comprehensive refugee response framework, as outlined in annex I to the New York Declaration, and taking note with appreciation of the Global Compact on Refugees,<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		<span class="italic">Official Records of the General Assembly, Seventy-third Session, Supplement No. 12</span> (<a href="https://undocs.org/en/A/73/12(PartI)">A/73/12 (Part I)</a> and <a href="https://undocs.org/en/A/73/12(PartII)">A/73/12 (Part II)</a>), part II.</p></authorialNote></p>
+      </container>
+      <container name="Welcoming" eId="container_50">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the convening of the intergovernmental conference held on 10 and 11 December 2018 in Marrakech, Morocco, and recalling that it adopted the Global Compact for Safe, Orderly and Regular Migration, also known as the Marrakech Compact on Migration,<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">		General Assembly resolution <a href="https://undocs.org/en/A/RES/73/195">73/195</a>, annex.</p></authorialNote></p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_51" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve">	<span class="italic">Takes note</span> of the report of the Secretary-General;<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">		 <a href="https://undocs.org/en/A/79/78">A/79/78-E/2024/53</a>.</p></authorialNote></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the United Nations humanitarian system, humanitarian organizations and other relevant organizations, while strengthening the coordination of humanitarian assistance in the field, to continue to work in close coordination with national Governments, taking into account the primary role of the affected State in the initiation, organization, coordination and implementation of such assistance within its territory;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the United Nations to continue to strengthen coordination, preparedness and response efforts and to improve the quality and effectiveness of humanitarian action, including through enhancing complementarity with and between relevant stakeholders, such as affected Governments, regional organizations, donors, development organizations, civil society and the private sector, involved in response efforts to make use of their comparative advantages and resources; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_57" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_57__content">
+          <p xml:space="preserve">	<span class="italic">Stresses</span> that the United Nations system should continue to enhance and improve the efficiency of existing humanitarian capacities, knowledge and institutions, including, as appropriate, through the transfer of technology on mutually agreed terms and expertise to developing countries, encourages the international community, the relevant entities of the United Nations system and other relevant institutions and organizations to support national authorities in their capacity-building programmes, including through technical cooperation and long-term partnerships, as well as by strengthening their capacity to build resilience, mitigate disaster risks, prepare for and respond to disasters and reduce the risk of displacement within the context of disasters, and encourages Member States to create and strengthen an enabling environment for the capacity-building of their national and local authorities, national societies of the International Red Cross and Red Crescent Movement and national and local non‑governmental and community-based organizations in providing timely humanitarian assistance; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_61" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_61__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> humanitarian and development organizations and other relevant actors, as appropriate, in consultation with Governments, to consider, where possible, common objectives, including risk-management and resilience objectives, achievable through multi-year planning and increased investment in preparedness, based on a prioritization of needs and conducted in line with humanitarian principles, in order to reduce suffering and losses and the overall impact of humanitarian crises, and in this regard emphasizes that, in order to strengthen coherence and ensure a smooth transition from relief to longer-term development, humanitarian response, particularly in protracted crises, needs to be planned over a multi-year framework, as appropriate, and linked with development planning processes, including sustainable recovery and resilience, while integrating key stakeholders, such as Governments, regional organizations and international financial institutions, as appropriate;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_66" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_66__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> United Nations agencies and international organizations, in their humanitarian assistance efforts, to continue to improve the humanitarian programme cycle, including the development and more consistent use of coordinated and comprehensive needs assessment tools, such as multisector initial rapid assessments, the implementation of joint, impartial and timely needs assessments, and prioritized needs-based humanitarian response plans, in consultation with affected States, and in order to strengthen the coordination of humanitarian action encourages international humanitarian organizations and relevant actors to continue to work with national and local authorities as well as with civil society and affected populations, and recognizes the role of affected communities in identifying urgent needs and requirements in order to ensure an efficient response;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_72" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_72__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Emergency Relief Coordinator to continue to lead the efforts to strengthen the coordination, effectiveness, efficiency and accountability of humanitarian assistance through, inter alia, continued and enhanced dialogue with Member States, including on the processes, activities and decisions of the Inter‑Agency Standing Committee, and further strengthening, within existing resources and mandates, the coordination abilities of the Humanitarian Coordinator, and in this regard encourages Member States, relevant United Nations organizations and other intergovernmental organizations and relevant stakeholders to continue to improve cooperation with the Office for the Coordination of Humanitarian Affairs of the Secretariat so as to ensure effective and efficient delivery of the humanitarian response to affected people;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> efforts to enhance cooperation and coordination of United Nations humanitarian entities, other relevant humanitarian organizations and donor countries with the affected States, recognizes that humanitarian assistance should be provided in ways that are supportive of early recovery, sustainable rehabilitation, reconstruction and long-term development, and recalls that early recovery requires timely, effective and predictable funding through humanitarian and development financing, as appropriate, to meet enduring humanitarian, recovery and post-crisis priorities while simultaneously building national and local capacities and resilience; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_87" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_87__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> the United Nations, relevant humanitarian and development organizations, international financial institutions and other relevant stakeholders to strengthen the capacity and resilience of Member States, including through capacity-building for community resilience and the application of new science and technology and investments in the context of disasters and climate change, and also stresses the importance of investment in disaster-resilient infrastructure and structural and non‑structural disaster risk reduction measures, including nature-based solutions, ecosystem-based approaches, among other approaches, for preventing and mitigating the humanitarian impacts of disasters and helping to reduce the cost of disaster response, recovery and reconstruction, and encourages further efforts in this regard; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_96" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_96__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the United Nations and relevant humanitarian organizations, in cooperation and coordination with Member States, respecting their national priorities, and consistent with humanitarian principles of humanity, neutrality, impartiality and independence, to support and build national and local capacities, including through increasing predictable and, as appropriate, direct financing to national and local partners, including women’s groups, with a focus on preparedness, response, recovery and coordination capacities, and encourages Member States to continue to provide funding to humanitarian country-based pooled funds;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_106" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_106__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States, the United Nations system and humanitarian and development organizations, in accordance with their respective mandates, to continue to support Member States, in particular developing countries, in promoting innovation as a means of developing tools that enhance preparedness and reduce fragility and risks through, inter alia, increasing investment in national and local scientific research and development capacity leading to innovation and access to information and communications technologies, and to identify, promote and integrate best practices and lessons learned with regard to, inter alia, early warning systems, evidence-based practices and disaster response, information and communications systems, partnerships, procurement, collaboration and coordination between agencies and organizations, and in this regard notes the importance of promoting and supporting scientific capacity to inform innovation and developing local capacities as a priority and also encourages scientific research and disaster response, and welcomes innovative practices that draw on the knowledge of people affected by humanitarian emergencies to develop locally sustainable solutions, to protect those in vulnerable situations, to deepen early warning expertise and to produce life-saving items locally, with minimum logistical and infrastructure implications working with, and strengthening, where possible, national and local institutions, as appropriate, organizations, early warning systems and service suppliers, and encourages the United Nations system and humanitarian and development organizations to enhance their collaboration with international financial institutions, regional organizations, regional development banks, the private sector and academia to this end;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_117" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_117__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> States, as well as the United Nations, and humanitarian organizations, in accordance with their respective mandates and in line with humanitarian principles, learning from the COVID‑19 pandemic experience, to continue to scale up anticipatory approaches, early warning early action systems, forecasting, prevention-oriented responses and emergency preparedness, and improve predictive and risk data analytics across sectors, reinforce systematic risk monitoring, early warning and preparedness capacities at the local, national, regional and global levels, including, inter alia, those associated with health risks and disease outbreaks, and takes note of the relevant United Nations frameworks and initiatives related to health emergency preparedness; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_129" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_129__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States and the United Nations funds and programmes and the specialized agencies to respond more effectively to needs in humanitarian contexts by, inter alia, scaling up social protection policies and cash-based transfer mechanisms, where feasible, including multipurpose cash programming, as appropriate, to support the development of local markets and strengthen national and local capacities, and in this regard calls upon the United Nations humanitarian organizations to continue to build their capacity to systematically consider cash-based transfer programming, alongside other forms of humanitarian assistance, and takes note of efforts by the United Nations system to increase effectiveness, efficiency and accountability of cash operations, including moving towards a common system to provide cash-based assistance for food, non‑food items, and access to services and other support alongside other forms of humanitarian assistance;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_142" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_142__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General in his next report on the present resolution to continue to update on the use of anticipatory financing approaches for humanitarian emergencies and to consider further efforts by the United Nations humanitarian system and other relevant stakeholders in this regard;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_156" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_156__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States, the United Nations system and other relevant organizations to improve, where possible, fast and flexible financing for preparedness, early action, early response and early recovery, and in this regard encourages exploring, developing and, where appropriate, strengthening innovative and anticipatory mechanisms and approaches, such as forecast-based and risk financing, including disaster risk insurance, to reduce the impact of disasters and address humanitarian needs;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_171" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_171__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms</span> that investing in national and local skills, systems and knowledge to build resilience and preparedness will save lives, cut costs and preserve development gains, and in this regard encourages exploring innovative ways, including anticipatory, forecast-based financing, early action and disaster risk insurance mechanisms, to increase the availability of resources for Member States before a disaster is credibly expected to occur;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_187" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_187__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> that funding needs to be more flexible to allow for a complementary approach in order to effectively and sufficiently address the immediate needs of all affected populations in emergency situations, including for underfunded and forgotten emergencies and those of a long-term nature, and the underlying causes of crises, and encourages Member States, the United Nations system, the private sector and other relevant entities to provide adequate funding and investment in preparedness and resilience-building, including from humanitarian and development budgets, reduce earmarking and increase multi-year, collaborative and flexible planning and multi-year funding, as appropriate, while recognizing the need for transparency in how core and non‑earmarked funding is used;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_204" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_204__content">
+          <p xml:space="preserve">	<span class="italic">Stresses</span> the need to enhance resource mobilization efforts to address the increasing capacity and resource gap, including through additional contributions from non‑traditional donors, exploring innovative mechanisms, such as the utilization of risk-informed anticipatory decision-making, flexible funding for multi-year appeals through existing tools such as consolidated and flash appeals, the Central Emergency Response Fund and other funds, such as the country-based and regional pooled funds, and to continue to broaden both public and private sector partnerships and the donor base in order to increase the predictability and effectiveness of funding, diversify income, narrow the humanitarian funding gap, and to promote South-South and horizontal and triangular cooperation globally, and in this regard encourages, as appropriate, Member States to contribute to the humanitarian appeals brought forward by the United Nations;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_222" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_222__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the important achievements of the Central Emergency Response Fund in ensuring a more timely and predictable response to humanitarian emergencies, and therefore welcomes the call by the Secretary-General to double the Fund to 1 billion United States dollars, and in this regard encourages Member States, as well as other relevant stakeholders, to support the Fund, and emphasizes the need to broaden and diversify the income base of the Fund;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_241" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_241__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> Member States and relevant stakeholders to mobilize resources to support humanitarian response plans, underlining the importance of rapid, flexible, predictable, adequate and effective funding, including, where appropriate, through multi-year funding, and for support to the Central Emergency Response Fund and country-based and regional pooled funds which play a key role in responding to humanitarian emergencies;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_261" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_261__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> Member States to continue to increase support to the Central Emergency Response Fund and humanitarian country-based and regional pooled funds for strengthening early and rapid response to mitigate the impact of disasters, including in underfunded contexts and increasingly through local and national responders and implementing partners;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_282" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_282__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the United Nations system to strengthen coordination and strategic partnerships with international financial institutions in order to prevent, reduce and respond to humanitarian suffering and assist those in need, strengthen early recovery efforts, reinforce basic services and reinforce rehabilitation and reconstruction efforts, and further encourages complementarity and coherence across humanitarian and development efforts in accordance with their respective mandates, and help to reduce risks and vulnerabilities of affected people and communities and reinforce their resilience to future shocks; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_304" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_304__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> that accountability is an integral part of effective humanitarian assistance, and emphasizes the need to enhance the accountability of humanitarian actors at all stages of humanitarian assistance; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_327" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_327__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> the United Nations and its humanitarian partners to enhance accountability to Member States, including affected States, and all other stakeholders, including local governments and relevant local organizations, as well as affected populations, and to further strengthen humanitarian response efforts, including by monitoring and evaluating the provision of their humanitarian assistance, incorporating lessons learned into programming and consulting with the affected populations to ensure that their different and specific needs are appropriately addressed; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_351" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_351__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> United Nations and humanitarian organizations to further advance efficiencies in delivering assistance through reducing management costs, harmonizing partnership agreements, providing transparent and comparable cost structures, and strengthening measures to achieve greater accountability by taking further actions to reduce fraud, waste, misuse, abuse and diversion of assistance intended for affected people and identify ways to share incident reports and other information among United Nations agencies, where appropriate; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_376" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_376__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> humanitarian and development organizations to consider applying, in coordination with national authorities, risk-management tools in order to allow for better use of baseline information and risk analysis, including analysis of the underlying causes of crises, humanitarian financing needs, the different vulnerabilities of countries and regions and the risk exposures of affected populations, and in this regard notes the further development of established tools and innovative mechanisms, such as anticipatory and risk financing mechanisms and approaches, networking of disaster risk reduction centres, comprehensive preparedness measures and the Index for Risk Management, to include more data disaggregated by sex, age and disability, and information regarding national and regional contexts, taking into account the environmental impact; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_402" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_402__content">
+          <p xml:space="preserve">	<span class="italic">Stresses</span> the need for the effective implementation of the Sendai Framework for Disaster Risk Reduction 2015–2030 through, inter alia, disaster risk-informed and inclusive policies, programmes and investments, and other proactive measures that aim to strengthen resilience, prevent new and reduce existing risk, in order to minimize humanitarian needs, and underlines the importance of tackling the underlying disaster risk drivers, of considering the impact of climate change, and of integrating a disaster risk reduction perspective into preparedness, response and recovery, taking into account longer-term climate projections and multi-hazard risk assessments, focusing on people in vulnerable situations, and in this regard welcomes the holding of the seventh session of the Global Platform for Disaster Risk Reduction in May 2022 in Bali, Indonesia, and the midterm review of the implementation of the Sendai Framework in 2023, including the high-level meeting of the General Assembly held on 18 and 19 May 2023, at which the Assembly adopted the political declaration of the high-level meeting on the midterm review of the Sendai Framework for Disaster Risk Reduction 2015–2030,<authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">		General Assembly resolution <a href="https://undocs.org/en/A/RES/77/289">77/289</a>, annex.</p></authorialNote> and takes note with appreciation of the regional and subregional platforms for disaster risk reduction;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_429" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_429__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the United Nations and humanitarian organizations to enhance efforts to further study, prepare for, address and minimize the humanitarian consequences of the adverse effects of climate change and environmental risks; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_457" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_457__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States, as well as relevant regional and international organizations, in accordance with their specific mandates, to continue to support adaptation to and mitigation of climate change and to strengthen disaster risk reduction and multi-hazard early warning systems in order to minimize the humanitarian consequences of natural disasters, including those related to the continuing adverse impact of climate change and other causes of natural disasters, such as extreme weather events and seismic activity, especially for those countries that are particularly vulnerable, thereby also contributing to the achievement of sustainable development goals, and calls upon all relevant stakeholders to continue to support the efforts of Member States, in particular developing countries, to strengthen their capacities to prepare for and respond to disasters, and to identify and monitor disaster risk, including vulnerability to natural hazards; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_486" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_486__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> the importance of global, regional, national and local operational readiness and response services, networks and surge mechanisms in strengthening the effectiveness of disaster prevention, preparedness and response, and encourages further efforts in this regard by, inter alia, strengthening partnerships with national disaster management agencies and relevant organizations at all levels, within their respective mandates, and building, reinforcing and complementing their capacities, in close coordination with the United Nations and humanitarian organizations, including through improved data-sharing and interoperability;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_516" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_516__content">
+          <p xml:space="preserve">	<span class="italic">Also recognizes</span> the need to strengthen international cooperation to prevent, reduce and address sustainably vulnerabilities related to climate change and natural disasters, particularly with the least developed countries and small island developing States and their communities; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_547" class="SingleTxt">
+        <num>32.</num>
+        <content eId="para_547__content">
+          <p xml:space="preserve">	<span class="italic">Further recognizes</span> that enhanced access to international climate finance is important to support mitigation and adaptation efforts in developing countries, especially those that are particularly vulnerable to the adverse effects of climate change, and recognizes the ongoing efforts in this regard;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_579" class="SingleTxt">
+        <num>33.</num>
+        <content eId="para_579__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> Member States, international financial institutions and other relevant stakeholders to scale up finance for adaptation and disaster risk reduction to countries and local communities that are affected by compound risks caused by humanitarian emergencies and vulnerability to natural hazards and the adverse effects of climate change to prevent, mitigate, adapt and respond to disaster impacts, to reduce humanitarian needs, risks and vulnerabilities related to disasters and to build resilience to shocks; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_612" class="SingleTxt">
+        <num>34.</num>
+        <content eId="para_612__content">
+          <p xml:space="preserve">	<span class="italic">Notes</span> that the El Niño/La Niña phenomenon has a recurring character and can lead to extensive natural hazards with the potential to seriously affect populations, and urges Member States, humanitarian and development organizations and other stakeholders to strengthen efforts to ensure a comprehensive and coherent approach at the global, regional, national and local levels to El Niño and La Niña phenomena and similar or related events, including by strengthening forecasting, early warning, prevention, preparedness, resilience-building and timely response, supported by effective leadership and predictable, adequate and early funding, when feasible, in regions, countries and communities likely to be affected, and further encourages Member States, humanitarian and development organizations and other stakeholders, in accordance with their respective mandates, to increase support, including financial, technical and capacity-building, as appropriate, for people and communities affected by and most vulnerable to these phenomena, including to meet and reduce humanitarian needs, and to prevent and address loss of livelihoods, increased food insecurity, and impacts on health, water and sanitation, education, agriculture and other sectors, and encourages increased cooperation with regional and subregional organizations and international financial institutions, and notes the work of the Special Envoys of the Secretary-General on El Niño and Climate and the blueprint for action prepared by them, and the standard operating procedures for El Niño/ Southern Oscillation events of the Inter-Agency Standing Committee;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_646" class="SingleTxt">
+        <num>35.</num>
+        <content eId="para_646__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> Member States, the United Nations and humanitarian and development organizations, in accordance with their respective mandates, to continue to support multi-hazard early warning systems and early action efforts, including through forecast-based financing at the global, regional and national levels, climate services, exposure and vulnerability mapping, new technologies and communication protocols, as well as incorporating climate resilience in early action and increasing response preparedness, so that persons in vulnerable situations who are exposed to natural hazards, including in geographically remote locations, receive timely, reliable, accurate and actionable early warning information to take early action, and encourages the international community to further support, as appropriate, national efforts in this regard, welcomes the progress of the United Nations Secretary-General’s call to protect everyone on Earth through universal coverage of early warning systems, including through the Early Warning for All Initiative launched during the twenty-seventh session of the Conference of the Parties to the United Nations Framework Convention on Climate Change, held in Sharm el-Sheikh, Egypt, from 6 to 20 November 2022, and recognizes the importance of the Climate Risk and Early Warning Systems (CREWS) initiative in achieving that goal;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_681" class="SingleTxt">
+        <num>36.</num>
+        <content eId="para_681__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> the United Nations and humanitarian organizations to further strengthen their efforts in supporting national Governments in mapping emergency preparedness and response capacities at the country and regional levels, in order to better facilitate the complementarity of disaster response efforts between national and international capacities, and in this regard encourages Member States to promote, as appropriate, the implementation of the Guidelines for the Domestic Facilitation and Regulation of International Disaster Relief and Initial Recovery Assistance and to integrate risk management into national development plans;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_717" class="SingleTxt">
+        <num>37.</num>
+        <content eId="para_717__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States to work closely with the United Nations and other relevant actors, including the private sector and local entities, as appropriate, to promote more effective emergency preparedness and response in urban areas, and implement policies to ensure more effective disaster risk reduction and disaster risk management, and in this regard recalls the New Urban Agenda adopted by the United Nations Conference on Housing and Sustainable Urban Development (Habitat III), held in Quito, Ecuador, from 17 to 20 October 2016,<authorialNote marker="13" placement="bottom" eId="authorialNote_13"><p xml:space="preserve">		General Assembly resolution <a href="https://undocs.org/en/A/RES/71/256">71/256</a>, annex.</p></authorialNote> and the commitments undertaken therein by Member States regarding persons affected by humanitarian crises in urban areas; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_754" class="SingleTxt">
+        <num>38.</num>
+        <content eId="para_754__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> all parties to armed conflict to respect, and all States to ensure respect for, international humanitarian law, as well as to comply with their obligations under human rights law and refugee law, as applicable;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_792" class="SingleTxt">
+        <num>39.</num>
+        <content eId="para_792__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> States to reaffirm their commitments and redouble their efforts for the effective implementation of the Geneva Conventions of 12 August 1949, which include a vital legal framework for the protection of civilians in time of war, and invites States to mark their seventy-fifth anniversary; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_831" class="SingleTxt">
+        <num>40.</num>
+        <content eId="para_831__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> all States and parties to comply with the provisions of international humanitarian law, including all of the Geneva Conventions of 12 August 1949, in particular the Geneva Convention relative to the Protection of Civilian Persons in Time of War,<authorialNote marker="14" placement="bottom" eId="authorialNote_14"><p xml:space="preserve">		United Nations, <span class="italic">Treaty Series</span>, vol. 75, No. 973.</p></authorialNote> in order to protect and assist civilians in occupied territories, and in this regard urges the international community and the relevant organizations of the United Nations system to strengthen humanitarian assistance to civilians in those situations;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_871" class="SingleTxt">
+        <num>41.</num>
+        <content eId="para_871__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> all actors engaged in the provision of humanitarian assistance to fully commit to and duly respect the guiding principles contained in the annex to General Assembly resolution <a href="https://undocs.org/en/A/RES/46/182">46/182</a>, including the humanitarian principles of humanity, neutrality and impartiality as well as the principle of independence, as recognized by the Assembly in its resolution <a href="https://undocs.org/en/A/RES/58/114">58/114</a> of 17 December 2003;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_912" class="SingleTxt">
+        <num>42.</num>
+        <content eId="para_912__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> all States and parties in complex humanitarian emergencies, in particular in armed conflict and in post-conflict situations, in countries in which humanitarian personnel are operating, in conformity with the relevant provisions of international law and national laws, to cooperate fully with the United Nations and other humanitarian agencies and organizations and to ensure the safe and unhindered access of humanitarian personnel and delivery of supplies and equipment in order to allow humanitarian personnel to perform efficiently their task of assisting affected civilian populations, including refugees and internally displaced persons; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_954" class="SingleTxt">
+        <num>43.</num>
+        <content eId="para_954__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States, the United Nations and humanitarian organizations to continue to work together to understand and address the different protection needs of affected populations, particularly the most vulnerable, in humanitarian crises and ensure that these needs are adequately integrated into preparedness, response and recovery efforts;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_997" class="SingleTxt">
+        <num>44.</num>
+        <content eId="para_997__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms</span> the obligation of all States and parties to an armed conflict to protect civilians, in accordance with international humanitarian law, encourages States that are parties to an armed conflict to take all measures necessary to enhance the protection of civilians, and invites all States to promote a culture of protection, taking into account the particular needs of women, children, older persons and persons with disabilities; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1041" class="SingleTxt">
+        <num>45.</num>
+        <content eId="para_1041__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> all parties to comply with their obligations under international humanitarian law, in particular the principles of distinction, proportionality and the obligation to take all feasible precautions to avoid and in any event minimizing harm to civilians and civilian objects; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1086" class="SingleTxt">
+        <num>46.</num>
+        <content eId="para_1086__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> Member States to continue to take the steps necessary to ensure the protection of the wounded and sick, as well as the safety and security of medical personnel and humanitarian personnel exclusively engaged in medical duties, their facilities, equipment, transports and supplies, including by developing effective measures to prevent and address acts of violence, attacks and threats against them, and in this regard reaffirms the need for States to ensure that those responsible for violations of international humanitarian law do not operate with impunity, and urges States to conduct full, prompt, impartial and effective investigations within their jurisdiction of violations of international humanitarian law with a view to ensuring accountability, as provided for by national laws and obligations under international law;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1132" class="SingleTxt">
+        <num>47.</num>
+        <content eId="para_1132__content">
+          <p xml:space="preserve">	<span class="italic">Also urges</span> Member States to scale up efforts to ensure the safety and security of humanitarian personnel, including national and locally recruited personnel, their facilities, equipment, transports and supplies, including by developing effective measures to prevent and address acts of violence, attacks and threats against them, requests the Secretary-General to expedite his efforts to enhance the safety and security of personnel involved in United Nations humanitarian operations, and in this regard reaffirms the need for States to ensure that those responsible for violations of international humanitarian law do not operate with impunity, and further urges States to conduct, full, prompt, impartial and effective investigations within their jurisdiction of violations of international humanitarian law with a view to ensuring accountability, as provided for by national laws and obligations under international law;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1179" class="SingleTxt">
+        <num>48.</num>
+        <content eId="para_1179__content">
+          <p xml:space="preserve">	<span class="italic">Condemns in the strongest possible terms</span> the alarming increase in threats to and deliberate targeting of humanitarian personnel and United Nations and associated personnel, acts of terrorism and attacks on humanitarian convoys, and the unprecedented increase in the scale and the increasingly complex nature of threats faced by such personnel, such as the disturbing trend of politically and criminally motivated attacks, including extremist attacks, against them, and further urges States to ensure that those who commit crimes against humanitarian personnel are held accountable;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1227" class="SingleTxt">
+        <num>49.</num>
+        <content eId="para_1227__content">
+          <p xml:space="preserve">	<span class="italic">Notes with concern</span> the increasing threat of disinformation campaigns and misinformation that undermine trust in the United Nations and humanitarian organizations, including Red Cross and Red Crescent societies, and put humanitarian personnel and United Nations and associated personnel, including national and locally recruited personnel, at risk, and also notes with concern the increased risks to affected populations posed by hate speech, and encourages Member States and the United Nations system to take appropriate action to address the increasing related threats that hinder humanitarian assistance; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1276" class="SingleTxt">
+        <num>50.</num>
+        <content eId="para_1276__content">
+          <p xml:space="preserve">	<span class="italic">Underscores</span> that it is critically important for civilians, in particular women and children, to be protected from any form of abuse or exploitation, including trafficking in persons, and to have appropriate assistance, welcomes the determination of the Secretary-General to fully implement the United Nations policy of zero tolerance for sexual exploitation and abuse, throughout the system, notes the six core principles relating to sexual exploitation and abuse adopted by the Inter-Agency Standing Committee,<authorialNote marker="15" placement="bottom" eId="authorialNote_15"><p xml:space="preserve">		<a href="https://undocs.org/en/A/57/465">A/57/465</a>, annex I, para. 10 (a).</p></authorialNote> stresses that victims and survivors should be at the core of such efforts, and encourages Member States to make greater efforts to prevent exploitation and abuse and to ensure that perpetrators are held accountable; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1326" class="SingleTxt">
+        <num>51.</num>
+        <content eId="para_1326__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> Member States, relevant organizations and other relevant actors to promote gender equality and the empowerment of women and girls in all stages of humanitarian response through addressing the specific needs, challenges and coping capacities of women, girls, men and boys on an equal basis, taking into consideration age and disability, including through the improved collection, analysis, reporting and use of timely data disaggregated by sex, age and disability, and taking into account information provided by affected States, and to ensure the full, effective and meaningful participation of women in decision-making processes in order to increase the effectiveness of humanitarian action, including through the participation of national and local women’s organizations and women-led organizations, building partnerships and providing adequate and flexible funding, and encourages greater utilization of the gender with age marker and other tools, including age- and disability-sensitive tools, throughout the humanitarian programme cycle;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1377" class="SingleTxt">
+        <num>52.</num>
+        <content eId="para_1377__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> the critical role that women can play as first responders, and encourages Member States, in cooperation with relevant United Nations humanitarian organizations, to promote women’s leadership and their participation in the planning, design, implementation and coordination of response strategies, including through strengthening of long-term partnerships with and capacities of national and local institutions, including national and local women’s organizations and civil society actors, as appropriate, and by further promoting gender-responsive humanitarian programming;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1429" class="SingleTxt">
+        <num>53.</num>
+        <content eId="para_1429__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> Member States, in cooperation with relevant United Nations and other humanitarian organizations, to ensure reliable and safe access to sexual and reproductive health-care services, as well as basic health-care services and psychosocial support, from the onset of emergencies, and in this regard recognizes that relevant services are important in order to effectively meet the needs of women and adolescent girls and infants and protect them from preventable mortality and morbidity that occur in humanitarian emergencies;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1482" class="SingleTxt">
+        <num>54.</num>
+        <content eId="para_1482__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> Member States to continue to prevent, investigate and, as appropriate, prosecute acts of sexual and gender-based violence, while ensuring the safety of victims and survivors, in humanitarian emergencies, and calls upon Member States to strengthen their response in cooperation with relevant organizations, such as local women’s organizations as appropriate, from the onset of an emergency, including by seeking to ensure meaningful access to quality medical, legal, psychosocial and livelihood services, for all victims, survivors and those affected by such violence – according to the specific needs of women, men, girls and boys – and working to ensure that humanitarian assistance is provided in a way that mitigates the risk of sexual and gender-based violence, calls upon Member States and relevant organizations to improve coordination and strengthen capacity, and in this regard urges all relevant stakeholders to consider engaging in this area, including through prevention, mitigation and response measures, and encourages Member States to make better use of existing data collection mechanisms, and notes the Call to Action initiative;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1536" class="SingleTxt">
+        <num>55.</num>
+        <content eId="para_1536__content">
+          <p xml:space="preserve">	<span class="italic">Also urges</span> Member States to continue to seek to prevent, respond to, investigate and prosecute violations and abuses against children in humanitarian emergencies, calls upon Member States and relevant organizations to strengthen support services for children affected by humanitarian emergencies, including those who have experienced violations and abuses, and calls for a more effective response, including protection, guided by the Convention on the Rights of the Child;<authorialNote marker="16" placement="bottom" eId="authorialNote_16"><p xml:space="preserve">		United Nations, <span class="italic">Treaty Series</span>, vol. 1577, No. 27531.</p></authorialNote></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1591" class="SingleTxt">
+        <num>56.</num>
+        <content eId="para_1591__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms</span> the right to education for all and the importance of ensuring safe enabling learning environments in humanitarian emergencies, as well as quality education at all levels and ages, including for women and children, in particular girls, including technical and vocational training opportunities, where possible, including through adequate funding and infrastructural investments, for the well-being of all, in this regard recognizes that access to quality education in humanitarian emergencies can contribute to long-term development goals and reiterates the need to protect and respect educational facilities in accordance with international humanitarian law, strongly condemns all attacks directed against schools and the use of schools for military purposes, when in contravention of international humanitarian law, and encourages efforts to promote safe and protective school environments in humanitarian emergencies;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1647" class="SingleTxt">
+        <num>57.</num>
+        <content eId="para_1647__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> Member States, the United Nations and relevant humanitarian actors to scale up support for humanitarian programming and response for safe, inclusive, equitable and quality education at all levels and ages, in order to mitigate the direct and indirect impacts from the closure of schools and other educational institutions in order to ensure the continuation of education services, particularly for women and children, especially girls;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1704" class="SingleTxt">
+        <num>58.</num>
+        <content eId="para_1704__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> Member States, the United Nations system and other relevant humanitarian organizations to involve persons with disabilities in a meaningful manner in all processes, consultations and stages of decision-making in humanitarian preparedness and response, to take all appropriate measures to eliminate discrimination against persons with disabilities, including multiple and intersecting forms of discrimination, to provide timely and appropriate assistance to persons with disabilities while ensuring that their specific needs are addressed in humanitarian responses, by enabling meaningful access to areas such as health-care services, education, psychosocial support, and reintegration and rehabilitation assistance, and to prevent abuse and exploitation against them, and in this regard recalls the Convention of the Rights of Persons with Disabilities;<authorialNote marker="17" placement="bottom" eId="authorialNote_17"><p xml:space="preserve">		Ibid., vol. 2515, No. 44910.</p></authorialNote></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1762" class="SingleTxt">
+        <num>59.</num>
+        <content eId="para_1762__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States, in cooperation with relevant United Nations humanitarian organizations, to ensure that the basic humanitarian needs of affected populations, including clean water, food, shelter, energy, health, including sexual and reproductive health, nutrition, including school feeding programmes, education and protection, are addressed as components of humanitarian response, including through providing timely and adequate resources, while ensuring that their collaborative efforts fully adhere to humanitarian principles;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1821" class="SingleTxt">
+        <num>60.</num>
+        <content eId="para_1821__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> that humanitarian emergencies weaken the ability of health systems to deliver essential life-saving assistance as well as meet the ongoing needs of those affected by non‑communicable diseases, and produce setbacks in health development, and also recognizes that resilient health systems can reduce the impact of disasters and other humanitarian emergencies, and stresses the need to build resilient health systems at the national, regional and global levels, especially capacity-building, in particular for developing countries, calls upon the World Health Organization, the United Nations humanitarian system, other humanitarian organizations and other relevant actors to further strengthen their cooperation and coordination and response capacities so as to assist Member States, upon request, in effectively responding to outbreaks of infectious diseases and emergencies with health consequences in humanitarian settings, in conformity with the International Health Regulations (2005) adopted by the World Health Assembly ensuring that humanitarian assistance does not unintentionally weaken health systems, and takes note of the revised humanitarian system-wide scale-up activation protocol for the control of infectious disease events;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1881" class="SingleTxt">
+        <num>61.</num>
+        <content eId="para_1881__content">
+          <p xml:space="preserve">	<span class="italic">Stresses</span> the need to foster global preparedness and support the development of measures, including rapid response mechanisms, to respond to health emergencies, and urges Member States to increase their efforts to strengthen global response capacities;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1942" class="SingleTxt">
+        <num>62.</num>
+        <content eId="para_1942__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> Member States and humanitarian organizations to integrate protection and health risks, as components of humanitarian response, into humanitarian assessment, planning, implementation, monitoring and evaluation, and to increase efforts to reinforce local and national systems, capacities and local communities and actors, including women-led organizations;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2004" class="SingleTxt">
+        <num>63.</num>
+        <content eId="para_2004__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> Member States, the United Nations and humanitarian organizations to increase efforts to provide and fund cross-sectoral mental health and psychosocial support services that are of quality, contextually sensitive, and provided with respect for human rights, that are incorporated into humanitarian needs assessments and humanitarian programmes for preparedness, response and recovery, to meet the needs of all affected populations in humanitarian contexts, and to reinforce local and community-based efforts, which will be all the more important in mitigating and responding to additional psychological consequences experienced in the context of the COVID‑19 pandemic, and calls upon the United Nations and all relevant humanitarian organizations to scale up mental health and psychosocial support capacity accordingly, and report on mental health and psychosocial support programmes and funding in support of the recovery and resilience for the mental health and psychosocial well-being of all those affected, while also recognizing the impacts on humanitarian personnel and volunteers; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2067" class="SingleTxt">
+        <num>64.</num>
+        <content eId="para_2067__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> Member States, the United Nations and humanitarian organizations and relevant stakeholders to scale up systemic prevention, preparedness, early warning and early action efforts, and to draw on lessons learned from the COVID‑19 pandemic, including from the strengthening of national and multilateral approaches and international cooperation, such as the Access to COVID‑19 Tools Accelerator (ACT-A) and its COVAX Facility, and other relevant initiatives, including the COVID‑19 Vaccine Delivery Partnership, in order to enable the fair, equitable, efficient, and affordable access to safe, effective and quality COVID‑19 vaccines, and emphasizes the role of extensive immunization against COVID‑19 as a global public good for health to prevent, contain and stop transmission as countries transition to pandemic recovery, while also noting the importance of inclusive national vaccination programmes covering displaced persons, migrants, and refugees, and encourages United Nations agencies and other relevant stakeholders to support Member States, in full coordination with their national government; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2131" class="SingleTxt">
+        <num>65.</num>
+        <content eId="para_2131__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> all States and parties in complex humanitarian emergencies, in particular in armed conflict and in post-conflict situations, to ensure the safe and unhindered access of humanitarian and medical personnel, including those responding to health emergencies, as well as their means of transport, supplies and equipment, and to support, facilitate and enable transportation and logistical supply lines, in order to allow such personnel to efficiently and safely perform their task of assisting affected populations, and in this regard also reaffirms the need to take the measures necessary to respect and protect such personnel, hospitals and other medical facilities, as well as their means of transport, supplies and equipment; and urges all parties to armed conflicts, consistent with international humanitarian law to protect civilian infrastructure which is critical to the delivery of humanitarian assistance for the provision of essential services including for vaccinations and related medical care;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2196" class="SingleTxt">
+        <num>66.</num>
+        <content eId="para_2196__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> Member States, the United Nations, humanitarian and development organizations and other relevant actors to urgently and effectively respond to, prevent and prepare for rising global food insecurity affecting millions of people, especially those who are facing famine or the immediate risk of famine, including by enhancing humanitarian and development cooperation and providing urgent funding to respond to the needs of the affected population, and calls upon Member States and parties to armed conflicts to respect international humanitarian law and ensure safe and unhindered humanitarian access;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2262" class="SingleTxt">
+        <num>67.</num>
+        <content eId="para_2262__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> Member States, parties to armed conflict, the United Nations and other humanitarian and development actors, international financial institutions and other relevant actors to urgently increase their measures to prevent famine and to reduce and address acute food insecurity, and urges Member States, the United Nations and other relevant organizations to take further steps to provide a coordinated emergency response to the food and nutrition needs of affected populations;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2329" class="SingleTxt">
+        <num>68.</num>
+        <content eId="para_2329__content">
+          <p xml:space="preserve">	<span class="italic">Strongly condemns</span> the use of starvation of civilians as a method of warfare, prohibited by international humanitarian law, reaffirms that it is prohibited to attack, destroy, remove or render useless objects indispensable to the survival of the civilian population, urges all parties to armed conflict to protect civilian infrastructure, which is critical to the delivery of humanitarian aid, including for the provision of essential services to the civilian population, and the functioning of agrifood systems and markets in situations of armed conflict, and also urges all parties to armed conflicts to ensure and facilitate safe and unhindered humanitarian access to civilians in need;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2397" class="SingleTxt">
+        <num>69.</num>
+        <content eId="para_2397__content">
+          <p xml:space="preserve">	<span class="italic">Strongly condemns</span> the unlawful denial of humanitarian access and depriving civilians of objects indispensable to their survival, including wilfully impeding relief supplies and access for responses to conflict-induced food insecurity in situations of armed conflict, which may constitute a violation of international humanitarian law;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2466" class="SingleTxt">
+        <num>70.</num>
+        <content eId="para_2466__content">
+          <p xml:space="preserve">	<span class="italic">Stresses</span> the need to address the root causes of food insecurity that are leading to increasing humanitarian needs, displacement and suffering, including through investing in humanitarian assistance and protection, agriculture, food production, and agrifood systems, and access to safe, sufficient, nutritious food and healthy diets, livelihoods, climate adaptation, health, water, sanitation and hygiene, nutrition, energy, poverty reduction and resilient infrastructure, and addressing armed conflict, encourages strengthening efforts to empower rural women as essential actors in achieving food security and improved nutrition, also encourages enhanced anticipatory approaches, supported by multisector early warning and analysis, and further encourages mobilization of resources to this end; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2536" class="SingleTxt">
+        <num>71.</num>
+        <content eId="para_2536__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> Member States, the United Nations and other relevant organizations to take further steps to provide a coordinated emergency response to the food and nutrition needs of affected populations and to promote adequate nutrition for women, children, especially during pregnancy and lactation, when the nutritional requirements are increased, with special attention to the first 1,000 days, while aiming to ensure that such steps are supportive of national strategies and programmes aimed at improving food security and nutrition;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2607" class="SingleTxt">
+        <num>72.</num>
+        <content eId="para_2607__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> States and other relevant stakeholders to heed the urgency of humanitarian appeals brought forward by the United Nations in response to the humanitarian consequences of, among others, armed conflict, drought, starvation and famine with humanitarian assistance and urgent funding, and also calls upon Member States and other relevant stakeholders to contribute further to meet those appeals, including through the Central Emergency Response Fund and country-based and regional pooled funds; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2679" class="SingleTxt">
+        <num>73.</num>
+        <content eId="para_2679__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> Member States to take steps to ensure the international protection of and respect for the rights of refugees, including respect for the principle of non‑refoulement and adequate standards of treatment in accordance with international law, including, as applicable, the 1951 Convention relating to the Status of Refugees<authorialNote marker="18" placement="bottom" eId="authorialNote_18"><p xml:space="preserve">		Ibid., vol. 189, No. 2545.</p></authorialNote> and international human rights obligations;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2752" class="SingleTxt">
+        <num>74.</num>
+        <content eId="para_2752__content">
+          <p xml:space="preserve">	<span class="italic">Takes note</span> of the implementation of the comprehensive refugee response framework in 15 countries and two regional contexts to address the large movement of refugees and protracted refugee situation; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2826" class="SingleTxt">
+        <num>75.</num>
+        <content eId="para_2826__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> Member States to strengthen their efforts to ensure better protection of, assistance for as well as self-reliance and resilience of internally displaced persons, including through appropriate cooperation with United Nations organizations and other relevant actors, including the private sector and international financial institutions, in particular to address the long-term nature of displacement, by adopting and implementing policies and strategies, on a multi-year basis as applicable, in accordance with national and regional frameworks, while recognizing the Guiding Principles on Internal Displacement<authorialNote marker="19" placement="bottom" eId="authorialNote_19"><p xml:space="preserve">		<a href="https://undocs.org/en/E/CN.4/1998/53/Add.2">E/CN.4/1998/53/Add.2</a>, annex.</p></authorialNote> as an important international framework for the protection of internally displaced persons, and encourages strengthened collaboration to address and resolve the challenges of internal displacement, and in this regard recognizes the central role of national and local authorities and institutions in addressing the specific needs of internally displaced persons, in further addressing barriers and obstacles that affect support for internally displaced persons and their host communities, including gaps existing in urban settings, and in finding durable solutions to displacement through, inter alia, continued and enhanced international support, upon request, for the capacity-building of States;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2901" class="SingleTxt">
+        <num>76.</num>
+        <content eId="para_2901__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> the increase in the intensity and frequency of disasters, including those related to the adverse effects of climate change, which in certain circumstances may contribute to displacement, and place additional pressure on host communities, and encourages the United Nations and all relevant actors to strengthen the efforts aimed at addressing the needs of persons displaced within the context of such disasters, and notes in this regard the importance of sharing best practices to prevent and prepare for such displacements, and encourages investment in and enhanced sharing of quality forecasting data, risk analytics and modelling of future displacement risks and patterns which may result from natural disasters and the adverse impacts of climate change; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2977" class="SingleTxt">
+        <num>77.</num>
+        <content eId="para_2977__content">
+          <p xml:space="preserve">	<span class="italic">Also recognizes</span> the significant increase in forced displacement worldwide, and stresses the need to comprehensively respond to the specific needs of refugees, internally displaced persons and their host communities in humanitarian and development planning; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_3054" class="SingleTxt">
+        <num>78.</num>
+        <content eId="para_3054__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> Member States, relevant organizations and actors to recognize and address the consequences of humanitarian emergencies for migrants, in particular those in vulnerable situations, and to strengthen coordinated international efforts for their assistance and protection in concert with national authorities;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_3132" class="SingleTxt">
+        <num>79.</num>
+        <content eId="para_3132__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> the importance of early registration and effective registration systems as a tool of protection and as a means of carrying out the quantification and assessment of needs for the provision and distribution of humanitarian assistance, notes the many and diverse challenges faced by refugees who remain without any form of documentation attesting to their status, and underlines the importance of increasing accountability to ensure that humanitarian assistance reaches its beneficiaries; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_3211" class="SingleTxt">
+        <num>80.</num>
+        <content eId="para_3211__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the United Nations to continue to identify solutions to strengthen its ability to recruit and deploy appropriately senior, skilled and experienced humanitarian staff quickly and flexibly, giving paramount consideration to the highest standards of efficiency, competence and integrity, while paying due regard to gender equality and to recruiting on as wide a geographical basis as possible;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_3291" class="SingleTxt">
+        <num>81.</num>
+        <content eId="para_3291__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> that diversity of humanitarian staff brings value to humanitarian work and understanding of developing countries’ contexts, and requests the Secretary-General to address further the insufficient diversity in geographical representation and gender balance in the composition of the humanitarian staff of the Secretariat and other United Nations humanitarian agencies, in particular regarding professional and high-level staff, and to report on concrete measures taken in this regard in his annual report; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_3372" class="SingleTxt">
+        <num>82.</num>
+        <content eId="para_3372__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to reflect the concrete measures taken and the progress made in the implementation of and follow-up to the present resolution in his next report to the Economic and Social Council and the General Assembly on the strengthening of the coordination of emergency humanitarian assistance of the United Nations; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_3454" class="SingleTxt">
+        <num>83.</num>
+        <content eId="para_3454__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Presidents of the Economic and Social Council and the General Assembly to continue their efforts with a view to eliminating duplication between the resolutions of the Council and the Assembly on the strengthening of the coordination of emergency humanitarian assistance of the United Nations, while promoting their complementarity.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="30th" refersTo="#adoptionMeeting">30th plenary meeting</location>
+          <eol />
+          <docDate date="2024-06-27" refersTo="#adoptionDate">27 June 2024</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
