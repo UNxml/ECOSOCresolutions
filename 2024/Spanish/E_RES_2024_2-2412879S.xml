@@ -1,0 +1,331 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2024-06-05/2024-2/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2024-06-05/2024-2/"></FRBRuri>
+          <FRBRdate date="2024-06-05" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2024-06-05/2024-2/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2024-06-05/2024-2/spa@/"></FRBRuri>
+          <FRBRdate date="2024-07-12" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2024-06-05/2024-2/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2024-06-05/2024-2/spa@.xml"></FRBRuri>
+          <FRBRdate date="2024-07-24" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"/>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"/>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"/>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"/>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"/>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"/>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"/>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"/>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"/>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"/>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"/>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"/>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"/>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"/>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"/>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"/>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="6" href="http://metadata.un.org/sdg/6" showAs="sdg_6" dictionary="SDGO"/>
+        <keyword value="water" href="http://eurovoc.europa.eu/597" showAs="water" dictionary="EuroVoc"/>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/030500" showAs="water" dictionary="UNBIS"/>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/1006939" showAs="water" dictionary="UNBIS"/>
+        <keyword value="sanitation" href="http://metadata.un.org/thesaurus/1005701" showAs="sanitation" dictionary="UNBIS"/>
+        <keyword value="public_hygiene" href="http://eurovoc.europa.eu/3371" showAs="public_hygiene" dictionary="EuroVoc"/>
+        <keyword value="water_management" href="http://eurovoc.europa.eu/3144" showAs="water_management" dictionary="EuroVoc"/>
+        <keyword value="water_management" href="http://metadata.un.org/thesaurus/1006948" showAs="water_management" dictionary="UNBIS"/>
+        <keyword value="use_of_water" href="http://eurovoc.europa.eu/4628" showAs="use_of_water" dictionary="EuroVoc"/>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="14" href="http://metadata.un.org/sdg/14" showAs="sdg_14" dictionary="SDGO"/>
+        <keyword value="marine_resources" href="http://metadata.un.org/thesaurus/030800" showAs="marine_resources" dictionary="UNBIS"/>
+        <keyword value="marine_resources" href="http://metadata.un.org/thesaurus/1003922" showAs="marine_resources" dictionary="UNBIS"/>
+        <keyword value="oceans_and_seas" href="http://metadata.un.org/thesaurus/170600" showAs="oceans_and_seas" dictionary="UNBIS"/>
+        <keyword value="ocean" href="http://eurovoc.europa.eu/2107" showAs="ocean" dictionary="EuroVoc"/>
+        <keyword value="ocean" href="http://metadata.un.org/thesaurus/1004576" showAs="ocean" dictionary="UNBIS"/>
+        <keyword value="marine_environment" href="http://eurovoc.europa.eu/5742" showAs="marine_environment" dictionary="EuroVoc"/>
+        <keyword value="marine_environment" href="http://metadata.un.org/thesaurus/1003911" showAs="marine_environment" dictionary="UNBIS"/>
+        <keyword value="marine_life" href="http://eurovoc.europa.eu/3149" showAs="marine_life" dictionary="EuroVoc"/>
+        <keyword value="sea" href="http://eurovoc.europa.eu/1870" showAs="sea" dictionary="EuroVoc"/>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="9" href="http://metadata.un.org/sdg/9" showAs="sdg_9" dictionary="SDGO"/>
+        <keyword value="innovation" href="http://eurovoc.europa.eu/1439" showAs="innovation" dictionary="EuroVoc"/>
+        <keyword value="innovation" href="http://metadata.un.org/thesaurus/1003223" showAs="innovation" dictionary="UNBIS"/>
+        <keyword value="industrialization" href="http://metadata.un.org/thesaurus/1003177" showAs="industrialization" dictionary="UNBIS"/>
+        <keyword value="industrial_infrastructure" href="http://eurovoc.europa.eu/1434" showAs="industrial_infrastructure" dictionary="EuroVoc"/>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Statistical Commission" showAs="UN. Statistical Commission" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Statistical Commission" showAs="UN. Statistical Commission" dictionary="DHLAUTH"></keyword>
+        <keyword value="STATISTICS" href="http://metadata.un.org/thesaurus/020700" showAs="STATISTICS" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2024-02-28" outcome="draftResolution" as="E/CN.3/2024/L.4/Rev.1" by="submitted by the Bureau" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2024-03-19" outcome="recommendedForAdoption" as="E/2024/24" by="UN. Statistical Commission" />
+        <step date="2024-07-12" outcome="adopted" as="Adopted without vote, 20th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">24-12879 (S)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Naciones Unidas</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2024/2</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Consejo Económico y Social</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2024-07-12" class="rightSmall" refersTo="#dateOfIssuance">12 de julio de 2024</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2024" eId="coverPage_1__session_1">Período de sesiones de 2024</session>
+      </p>
+      <p>
+        <inline title="18 c)" name="agenda item">Tema 18 c) del programa</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Cuestiones económicas y ambientales: estadística</inline>
+      </p>
+      <p>
+        <docTitle>Resolución aprobada por el Consejo Económico y Social el 5 de junio de 2024</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent>[por recomendación de la Comisión de Estadística (<inline name="originating document">E/2024/24</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2024/2.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Una Comisión de Estadística inclusiva y representativa para no dejar a nadie atrás</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">El Consejo Económico y Social</span>,</p>
+      </formula>
+      <container name="Reafirmando" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Reafirmando </span>su resolución <a href="https://undocs.org/es/E/RES/1566(l)">1566 (L)</a>, de 3 de mayo de 1971, en la que reconoció la importancia de la función de coordinación de la Comisión de Estadística y la necesidad de lograr un sistema integrado de reunión, elaboración y difusión de datos estadísticos internacionales, y el interés que tenían la Comisión de Estadística y la Oficina de Estadística en los asuntos vinculados con la utilización de computadoras en el sistema de las Naciones Unidas, y pidió al Secretario General que, con la colaboración de los organismos especializados, emprendiera una acción concertada para ayudar a los países en desarrollo a robustecer sus sistemas estadísticos<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	 	Denominada posteriormente División de Estadística.</p></authorialNote>,</p>
+      </container>
+      <container name="Recordando también" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Recordando también </span>su resolución 2006/6, de 24 de julio de 2006, en la que alentó el fortalecimiento de la capacidad estadística de los organismos internacionales pertinentes y el reconocimiento de la colaboración del sistema de las Naciones Unidas, incluidos la División de Estadística del Departamento de Asuntos Económicos y Sociales de la Secretaría y las comisiones regionales y los organismos internacionales, con el fin de apoyar los esfuerzos nacionales para fomentar y fortalecer la capacidad estadística nacional, especialmente la de los países en desarrollo,</p>
+      </container>
+      <container name="Recordando además" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Recordando además</span> su resolución <a href="https://undocs.org/es/E/RES/2020/5">2020/5</a>, de 18 de junio de 2020, en la que reconoció la necesidad de fortalecer la coordinación de los programas estadísticos en el sistema de las Naciones Unidas, y la solicitud que formuló en ella al Comité de los Jefes de Estadística del Sistema de las Naciones Unidas de que fortalecieran de forma más eficaz la coordinación de los programas estadísticos en el seno del sistema de las Naciones Unidas, tomando como guía y apoyando la labor de la Comisión de Estadística,</p>
+      </container>
+      <container name="Reafirmando" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Reafirmando</span>, como se enuncia en su resolución <a href="https://undocs.org/es/E/RES/2022/3">2022/3</a>, de 8 de junio de 2022, que la Comisión de Estadística es el principal órgano de coordinación de los programas estadísticos mundiales en general y del sistema estadístico y de datos de las Naciones Unidas,</p>
+      </container>
+      <container name="Reconociendo" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Reconociendo </span>la necesidad de que el sistema estadístico y de datos de las Naciones Unidas, con miras a destacar que el trabajo en el ámbito de las estadísticas y los datos debe adaptarse al ecosistema cambiante de las estadísticas y los datos, informe a la Comisión de Estadística sobre el trabajo realizado en materia de estadísticas y datos en todos los ámbitos para que la Comisión pueda cumplir su función de principal órgano a nivel mundial responsable de la gestión de la información estadística y de la gobernanza de las estadísticas y los datos,</p>
+      </container>
+      <container name="Poniendo de relieve" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Poniendo de relieve</span> la necesidad de contar con innovaciones tecnológicas para modernizar sistemáticamente las oficinas estadísticas y los sistemas nacionales de estadísticas y datos y promover prácticas para la generación de información que se ajusten a principios que garanticen, entre otros aspectos, la coherencia, la comparabilidad, la privacidad y la confidencialidad de los datos, y la importancia de forjar alianzas, </p>
+      </container>
+      <container name="Observando" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Observando </span>que está previsto que la Comisión de Estadística desempeñe el papel de foro principal de debate, intercambio de conocimientos y puesta en común de las mejores prácticas en materia de estadísticas y datos en todos los ámbitos, formule y mantenga las normas y estándares, herramientas y metodologías internacionales de carácter estadístico, apoye y fortalezca la elaboración de sistemas estadísticos nacionales sostenibles, cree y refuerce la capacidad de los sistemas nacionales, lleve a cabo actividades de promoción de la comunidad profesional de las estadísticas oficiales y vele por que se produzcan innovaciones continuas con miras a la adaptación al cambiante sistema de estadísticas y datos,</p>
+      </container>
+      <container name="Tomando nota" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Tomando nota </span>del alcance cada vez mayor que tienen los sistemas estadísticos nacionales, en los que se suele pedir a los jefes de estadística que administren los datos en los ecosistemas de datos en general,</p>
+      </container>
+      <container name="Recordando" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Recordando </span>la resolución <a href="https://undocs.org/es/A/RES/70/1">70/1</a> de la Asamblea General, de 25 de septiembre de 2015, titulada “Transformar nuestro mundo: la Agenda 2030 para el Desarrollo Sostenible”, en la que se acordó intensificar los esfuerzos por mejorar la capacidad estadística de las oficinas de estadística y los sistemas de datos estadísticos nacionales de los países en desarrollo, particularmente los países africanos, los países menos adelantados, los países en desarrollo sin litoral, los pequeños Estados insulares en desarrollo y los países de ingreso mediano, para asegurar el acceso a datos de gran calidad, oportunos, fiables y desglosados, y se asumió el compromiso de formular métodos para medir el progreso que fuesen más amplios y complementasen el producto interno bruto,</p>
+      </container>
+      <container name="Observando" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Observando </span>que, en su resolución <a href="https://undocs.org/es/A/RES/70/1">70/1</a>, la Asamblea General decidió que el seguimiento y el examen de los Objetivos de Desarrollo Sostenible y las metas se llevarían a cabo utilizando un conjunto de indicadores mundiales que elaboraría el Grupo Interinstitucional y de Expertos sobre los Indicadores de los Objetivos de Desarrollo Sostenible,</p>
+      </container>
+      <container name="Tomando nota" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Tomando nota </span>de la resolución <a href="https://undocs.org/es/A/RES/71/313">71/313</a> de la Asamblea General, de 6 de julio de 2017, en la que la Asamblea aprobó un marco mundial de indicadores, elaborado por la Comisión de Estadística, a modo de mecanismo de seguimiento y examen de la implementación de la Agenda 2030 para el Desarrollo Sostenible, para seguir de cerca los avances, dar fundamento a las políticas y garantizar la responsabilidad de todas las partes interesadas,</p>
+      </container>
+      <container name="Recordando" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Recordando </span>la resolución <a href="https://undocs.org/es/A/RES/68/261">68/261</a> de la Asamblea General, de 29 de enero de 2014, en la que la Asamblea hizo suyos los Principios Fundamentales de las Estadísticas Oficiales y destacó que, para ser efectivos, los valores y principios fundamentales que rigen la labor estadística deben estar garantizados por los marcos jurídicos e institucionales y ser respetados en todos los niveles políticos y por todos los interesados en los sistemas estadísticos nacionales, </p>
+      </container>
+      <container name="Reconociendo" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Reconociendo </span>que la ampliación del número de miembros de la Comisión de Estadística dará lugar a una mayor representatividad e inclusividad,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_15" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce </span>el valor de las estadísticas oficiales, que constituyen una base para la toma de decisiones fáctica;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce también</span> que cada vez hay más datos disponibles y que estos pueden utilizarse para medir el progreso e implementar la Agenda 2030 para el Desarrollo Sostenible;<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		Resolución <a href="https://undocs.org/es/A/RES/70/1">70/1</a> de la Asamblea General.</p></authorialNote></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce además</span> que los datos y las estadísticas de gran calidad, oportunos y fiables, junto con otras fuentes de datos y métodos innovadores, como las tecnologías nuevas y emergentes, pueden generar valor añadido y beneficios para la sociedad;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">	<span class="italic">Subraya </span>que la Comisión de Estadística es un órgano que congrega a los jefes de los sistemas nacionales de datos y estadísticas para analizar y acordar los aspectos técnicos de sus sistemas de datos y estadísticas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito </span>el papel esencial que desempeña la Comisión de Estadística en coordinar la elaboración de normas, métodos y directrices internacionales sobre datos y estadísticas que gozan de aceptación general entre, por ejemplo, los Estados Miembros, los fondos y programas de las Naciones Unidas, los organismos especializados, la Secretaría, incluidas las comisiones regionales, las instituciones de Bretton Woods y las organizaciones internacionales;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="italic">Afirma </span>que la Comisión de Estadística debería tratar de promover la participación activa de todos los Estados Miembros y las partes interesadas pertinentes, como las organizaciones internacionales, el sector privado, el mundo académico y la sociedad civil, en los debates sobre cuestiones relacionadas con los datos y las estadísticas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce </span>que es necesario ampliar el número de miembros de la Comisión de Estadística para hacerla más inclusiva;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="italic">Decide </span>aumentar el número de miembros de la Comisión de Estadística de 24 a 54 miembros, que serán elegidos por el Consejo Económico y Social con arreglo a una distribución geográfica equitativa;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve">	<span class="italic">Decide también </span>que la ampliación entrará en vigor progresivamente, en tres etapas, desde el comienzo del 57º período de sesiones de la Comisión de Estadística, en 2026, hasta el 59º período de sesiones, en 2028;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_60" class="SingleTxt">
+        <num>10.</num>
+        <list eId="para_60_list">
+          <intro eId="para_60_list_intro">
+            <p xml:space="preserve">	<span class="italic">Decide además </span>que la ampliación entrará en vigor con arreglo a la siguiente distribución de los puestos de la Comisión de Estadística:</p>
+          </intro>
+          <point eId="para_60_list_point_a">
+            <num>a)</num>
+            <content eId="para_60_list_point_a_content">
+              <p xml:space="preserve">	Ocho miembros de los Estados de África, 6 miembros de los Estados de Asia y el Pacífico, 6 miembros de los Estados de América Latina y el Caribe, 5 miembros de los Estados de Europa Oriental y 9 miembros de los Estados de Europa Occidental y otros Estados en el 57º período de sesiones, en 2026;</p>
+            </content>
+          </point>
+          <point eId="para_60_list_point_b">
+            <num>b)</num>
+            <content eId="para_60_list_point_b_content">
+              <p xml:space="preserve">	Once miembros de los Estados de África, 9 miembros de los Estados de Asia y el Pacífico, 8 miembros de los Estados de América Latina y el Caribe, 5 miembros de los Estados de Europa Oriental y 11 miembros de los Estados de Europa Occidental y otros Estados en el 58º período de sesiones, en 2027;</p>
+            </content>
+          </point>
+          <point eId="para_60_list_point_c">
+            <num>c)</num>
+            <content eId="para_60_list_point_c_content">
+              <p xml:space="preserve">	Catorce miembros de los Estados de África, 11 miembros de los Estados de Asia y el Pacífico, 10 miembros de los Estados de América Latina y el Caribe, 6 miembros de los Estados de Europa Oriental y 13 miembros de los Estados de Europa Occidental y otros Estados en el 59º período de sesiones, en 2028;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_70" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_70__content">
+          <p xml:space="preserve">	<span class="italic">Solicita </span>que la Mesa de la Comisión de Estadística examine y evalúe los progresos realizados en la consecución de los objetivos de la presente resolución e informe sobre dichos progresos en el 58º período de sesiones, incluso formulando recomendaciones al respecto, al tiempo que preserva el carácter técnico de la Comisión;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_81" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_81__content">
+          <p xml:space="preserve">	<span class="italic">Observa </span>que la Mesa seguirá estando compuesta por representantes de los Estados miembros de la Comisión de Estadística a razón de uno por cada uno de los cinco grupos regionales;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_93" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_93__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta </span>a los miembros de la Comisión de Estadística a que desempeñen un papel activo, poniendo en común sus conocimientos con la comunidad mundial y actuando como defensores de los datos y las estadísticas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_106" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_106__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito </span>que la Comisión de Estadística vaya a desempeñar un papel central de coordinación en el sistema mundial de datos y estadísticas a fin de promover la comparabilidad, la armonización y la cooperación entre los Estados Miembros y las partes interesadas pertinentes con el objetivo de que los datos y las estadísticas sean fiables y accesibles por el bien de la sociedad.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="20a" refersTo="#adoptionMeeting">20a sesión plenaria</location>
+          <eol />
+          <docDate date="2024-06-05" refersTo="#adoptionDate">5 de junio de 2024</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
