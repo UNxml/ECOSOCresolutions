@@ -1,0 +1,317 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-8/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-8/"></FRBRuri>
+          <FRBRdate date="2025-06-10" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-8/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-8/eng@/"></FRBRuri>
+          <FRBRdate date="2025-08-12" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-8/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-8/eng@.xml"></FRBRuri>
+          <FRBRdate date="2025-10-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="2030 Agenda for Sustainable Development" showAs="2030 Agenda for Sustainable Development" dictionary="DHLAUTH"></keyword>
+        <keyword value="Madrid International Plan of Action on Ageing (2002)" showAs="Madrid International Plan of Action on Ageing (2002)" dictionary="DHLAUTH"></keyword>
+        <keyword value="SOCIAL DEVELOPMENT" href="http://metadata.un.org/thesaurus/1005960" showAs="SOCIAL DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="AGEING PERSONS" href="http://metadata.un.org/thesaurus/1000115" showAs="AGEING PERSONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PROGRAMME IMPLEMENTATION" href="http://metadata.un.org/thesaurus/1005169" showAs="PROGRAMME IMPLEMENTATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="20b" showAs="Social development." shortForm="SOCIAL DEVELOPMENT" dictionary="E/2025/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-02-10" outcome="draftResolution" as="E/CN.5/2025/L.6" by=" submitted by the Vice-Chair of the Commission, AlMaha Mubarak Al-Thani (Qatar), on the basis of informal consultations" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-01-01" outcome="recommendedForAdoption" as="E/2025/26" by="UN. Commission for Social Development" />
+        <step date="2025-08-12" outcome="adopted" as="Adopted without vote, 22nd plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">25-12996 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2025/8</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Economic and Social Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-08-12" class="rightSmall" refersTo="#dateOfIssuance">12 August 2025</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2025" eId="coverPage_1__session_1">2025 session</session>
+      </p>
+      <p>
+        <inline title="20 (b)" name="agenda item">Agenda item 20 (b)</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Social and human rights questions: social development</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the Economic and Social Council on 10 June 2025</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent>[on the recommendation of the Commission for Social Development (<inline name="originating document">E/2025/26</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2025/8.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Modalities for the fifth review and appraisal of the Madrid International Plan of Action on Ageing, 2002</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Economic and Social Council</span>,</p>
+      </formula>
+      <container name="Recalling" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> that, in the Madrid International Plan of Action on Ageing, 2002, adopted by the Second World Assembly on Ageing, held in Madrid from 8 to 12 April 2002,<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	 	<span class="italic">Report of the Second World Assembly on Ageing, Madrid, 8–12 April 2002</span> (United Nations publication, Sales No. E.02.IV.4), chap. I, resolution 1, annex II.</p></authorialNote> the systematic review of its implementation by Member States was requested as being essential for its success in improving the quality of life of older persons,</p>
+      </container>
+      <container name="Recalling also" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Recalling also</span> that the Economic and Social Council, in its resolution 2003/14 of 21 July 2003, invited Governments, the United Nations system and civil society, including organizations of older persons, to participate in a bottom-up approach to the review and appraisal of the Madrid Plan of Action,</p>
+      </container>
+      <container name="Bearing in mind" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Bearing in mind</span> that the Commission for Social Development, in its resolution 42/1 of 13 February 2004, decided to undertake the review and appraisal of the Madrid Plan of Action every five years,<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	 	See<span class="italic"> Official Records of the Economic and Social Council, 2004, Supplement No. 6 </span>(<a href="https://undocs.org/en/E/2004/26(Supp)">E/2004/26</a>), chap. I, sect. E.</p></authorialNote></p>
+      </container>
+      <container name="Noting" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Noting</span> that the fifth review and appraisal of the Madrid Plan of Action will take place in 2028, and recognizing that, with the fifth review and appraisal exercise, the Second World Assembly on Ageing approaches its twenty-fifth anniversary,</p>
+      </container>
+      <container name="Noting with appreciation" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Noting with appreciation</span> the work of the Open-ended Working Group on Ageing, established by the General Assembly in its resolution <a href="https://undocs.org/en/A/RES/65/182">65/182</a> of 21 December 2010, in view of the adoption by the Working Group of its decision 14/1,<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	 	<a href="https://undocs.org/en/A/AC.278/2024/2">A/AC.278/2024/2</a>, para. 28.</p></authorialNote> and recalling General Assembly resolution <a href="https://undocs.org/en/A/RES/79/147">79/147</a> of 17 December 2024, in which the mandate of the Working Group was concluded,</p>
+      </container>
+      <container name="Recalling" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> the 2030 Agenda for Sustainable Development,<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">	 	General Assembly resolution <a href="https://undocs.org/en/A/RES/70/1">70/1</a>.</p></authorialNote> and stressing the need to ensure that older persons are taken into account in its implementation in order to ensure that no one is left behind,</p>
+      </container>
+      <container name="Recalling also" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Recalling also</span> the establishment by the Statistical Commission of the Titchfield Group on Ageing-related Statistics and Age-disaggregated Data,</p>
+      </container>
+      <container name="Recalling further" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Recalling further</span> the Universal Declaration of Human Rights,<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">	 	General Assembly resolution <a href="https://undocs.org/en/A/RES/217(III)">217 A (III)</a>.</p></authorialNote> the International Covenant on Civil and Political Rights,<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">	 	See General Assembly resolution <a href="https://undocs.org/en/A/RES/2200(XXI)">2200 A (XXI)</a>, annex.</p></authorialNote> the International Covenant on Economic, Social and Cultural Rights<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">	 	Ibid.</p></authorialNote>, the Convention on the Elimination of All Forms of Discrimination against Women,<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">	 	United Nations, <span class="italic">Treaty Series</span>, vol. 1249, No. 20378.</p></authorialNote> the Convention on the Rights of Persons with Disabilities<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">	 	Ibid., vol. 2515, No. 44910.</p></authorialNote> and the International Convention on the Elimination of All Forms of Racial Discrimination,<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">	 	Ibid., vol. 660, No. 9464.</p></authorialNote></p>
+      </container>
+      <container name="Noting" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Noting</span> the work of the Independent Expert on the enjoyment of all human rights by older persons, appointed by the Human Rights Council, on the assessment of the human rights implications of the implementation of the Madrid Plan of Action,</p>
+      </container>
+      <container name="Taking note with appreciation" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Taking note with appreciation</span> of the report of the Secretary-General,<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">	 	<a href="https://undocs.org/en/E/CN.5/2025/5">E/CN.5/2025/5</a>.</p></authorialNote></p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_12" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_12__content">
+          <p xml:space="preserve">	<span class="italic">Endorses</span> the timeline for carrying out the fifth review and appraisal of the Madrid International Plan of Action on Ageing, 2002, as outlined in the report of the Secretary-General, in which, inter alia, it is determined that the global review will take place in 2028, and notes in this regard that 2027 marks the twenty-fifth anniversary of the Second World Assembly on Ageing; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_13__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that the procedure for the fifth review and appraisal of the Madrid Plan of Action will follow the set procedure of the fourth review and appraisal exercise; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve">	<span class="italic">Also decides</span> that the global review and appraisal will be held by the Commission for Social Development on the third day of its sixty-sixth session, in 2028, and further decides to invite a representative of older persons to deliver a statement during the opening segment; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">	<span class="italic">Further decides</span> that the global review, subject to the rules of procedure of the Commission, will consist of two meetings, namely, a high-level panel on the outcomes of the fifth review and appraisal, and a multi-stakeholder interactive panel discussion with the Executive Secretaries of the regional commissions; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">	<span class="italic">Invites</span> Member States to identify actions they have taken since the fourth review and appraisal exercise, with the aim of presenting this information to the regional commissions during 2027, and invites each Member State to decide for itself the actions or activities it intends to review, utilizing a bottom-up participatory approach; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States to establish or strengthen a national coordinating body or mechanism, as appropriate, in order to, inter alia, facilitate the implementation of the Madrid Plan of Action, including its review and appraisal;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">	<span class="italic">Also encourages</span> Member States to utilize more fully, within their specific national circumstances, a bottom-up participatory approach to the review and appraisal of the Madrid Plan of Action by inviting, inter alia, civil society, including organizations of older persons, to participate in the fifth review and appraisal cycle at the national and regional levels by submitting their views on the implementation of the Plan of Action and on regional plans of action, and further encourages Member States to consider providing adequate assistance for the participation of civil society in the review and appraisal;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve">	<span class="italic">Invites</span> Member States to consider collecting and utilizing, in their national review and appraisal exercises, a combination of quantitative and participatory qualitative data gathering and analysis, disaggregated by age and also, when necessary, by other relevant factors, including sex and disability, and, where appropriate, sharing of best practices in such data collection;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="SingleTxt">
+        <num>9.</num>
+        <list eId="para_48_list">
+          <intro eId="para_48_list_intro">
+            <p xml:space="preserve">	<span class="italic">Requests</span> the regional commissions to continue to facilitate the review and appraisal exercise at the regional level, including through consultation with relevant regional bodies, as appropriate, by, inter alia: </p>
+          </intro>
+          <point eId="para_48_list_point_a">
+            <num>(a)</num>
+            <content eId="para_48_list_point_a_content">
+              <p xml:space="preserve">	Providing assistance to Member States, upon request, in the organization of their national review and appraisal exercises;</p>
+            </content>
+          </point>
+          <point eId="para_48_list_point_b">
+            <num>(b)</num>
+            <content eId="para_48_list_point_b_content">
+              <p xml:space="preserve">	Organizing regional review meetings, taking into consideration that these meetings will coincide with the twenty-fifth anniversary of the Second World Assembly on Ageing in 2027;</p>
+            </content>
+          </point>
+          <point eId="para_48_list_point_c">
+            <num>(c)</num>
+            <content eId="para_48_list_point_c_content">
+              <p xml:space="preserve">	Assisting Member States, upon request, in following up on analysis resulting from the regional reviews;</p>
+            </content>
+          </point>
+          <point eId="para_48_list_point_d">
+            <num>(d)</num>
+            <content eId="para_48_list_point_d_content">
+              <p xml:space="preserve">	Using an inclusive and coordinated approach in relation to the participation of civil society in the planning and evaluation processes of the review and appraisal exercise;</p>
+            </content>
+          </point>
+          <point eId="para_48_list_point_e">
+            <num>(e)</num>
+            <content eId="para_48_list_point_e_content">
+              <p xml:space="preserve">	Promoting networking and the sharing of information and experiences;</p>
+            </content>
+          </point>
+          <point eId="para_48_list_point_f">
+            <num>(f)</num>
+            <content eId="para_48_list_point_f_content">
+              <p xml:space="preserve">	Providing an analysis of the main findings, identifying key priority action areas and good practices and suggesting policy responses by 2027;</p>
+            </content>
+          </point>
+          <point eId="para_48_list_point_g">
+            <num>(g)</num>
+            <content eId="para_48_list_point_g_content">
+              <p xml:space="preserve">	Assisting and providing advice to Governments, upon their request, within existing resources, in the gathering, synthesis and analysis of information, as well as in the presentation of the findings of national reviews and appraisals;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_57" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_57__content">
+          <p xml:space="preserve">	<span class="italic">Invites</span> non‑governmental organizations in consultative status with the Economic and Social Council with relevant expertise to register with the Secretariat to attend the global review; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_67" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_67__content">
+          <p xml:space="preserve">	<span class="italic">Invites</span> the United Nations system, including the Inter-Agency Group on Ageing, funds, programmes, specialized agencies and the regional commissions, as well as the international financial institutions, to participate in accordance with the rules of procedure of the functional commission of the Economic and Social Council and contribute to the global review, within their respective mandates; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_78" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_78__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the United Nations system to continue to support Member States in their national review and appraisal efforts by providing, upon their request, technical assistance for capacity-building;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_90" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_90__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States and United Nations organizations, where appropriate, to provide support to the regional commissions in facilitating the review and appraisal process and in organizing regional meetings to review national review and appraisal results in 2027;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_103" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_103__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States and the United Nations system, including the agencies, funds and programmes of the system, to take concrete measures to mainstream ageing issues, including the views of older persons, into their own programming and existing United Nations mandates;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_117" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_117__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States, international institutions and other stakeholders to support the fifth review and appraisal of the Madrid Plan of Action through voluntary contributions to the United Nations trust fund for ageing; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_132" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_132__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to submit to the Commission for Social Development at its sixty-fifth session, in 2027, a report, including an analysis of the preliminary findings of the fifth review and appraisal exercise, together with an identification of prevalent and emerging issues and related policy options;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_148" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_148__content">
+          <p xml:space="preserve">	<span class="italic">Also requests</span> the Secretary-General to submit to the Commission at its sixty-sixth session, in 2028, a report, including the conclusions of the fifth review and appraisal exercise, together with the identification of prevalent and emerging issues and related policy options. </p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="22nd" refersTo="#adoptionMeeting">22nd plenary meeting</location>
+          <eol />
+          <docDate date="2025-06-10" refersTo="#adoptionDate">10 June 2025</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
