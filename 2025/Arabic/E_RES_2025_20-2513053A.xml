@@ -1,0 +1,357 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-20/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-20/"></FRBRuri>
+          <FRBRdate date="2025-07-29" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-20/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-20/ara@/"></FRBRuri>
+          <FRBRdate date="2025-08-13" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-20/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-20/ara@.xml"></FRBRuri>
+          <FRBRdate date="2025-10-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="Joint United Nations Programme on HIV/AIDS" showAs="Joint United Nations Programme on HIV/AIDS" dictionary="DHLAUTH"></keyword>
+        <keyword value="Joint United Nations Programme on HIV/AIDS. Executive Director" showAs="Joint United Nations Programme on HIV/AIDS. Executive Director" dictionary="DHLAUTH"></keyword>
+        <keyword value="HIV/AIDS" href="http://metadata.un.org/thesaurus/1000181" showAs="HIV/AIDS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HIV/AIDS PREVENTION" href="http://metadata.un.org/thesaurus/1000182" showAs="HIV/AIDS PREVENTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COORDINATION WITHIN UN SYSTEM" href="http://metadata.un.org/thesaurus/1001299" showAs="COORDINATION WITHIN UN SYSTEM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNICAL COOPERATION" href="http://metadata.un.org/thesaurus/1006413" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="13h" showAs="Joint United Nations Programme on HIV/AIDS." shortForm="HIV/AIDS" dictionary="E/2025/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-07-22" outcome="draftResolution" as="E/2025/L.25" by="submitted by the President of the Council and Bob Rae (Canada)" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-08-13" outcome="adopted" as="Adopted without vote, 39th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2025/20</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">إن المجلس الاقتصادي والاجتماعي</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-08-13" class="rightSmall" refersTo="#dateOfIssuance">13 August 2025</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2025" eId="coverPage_1__session_1">دورة عام 2025</session>
+      </p>
+      <p>
+        <inline title="13 (ح)" name="agenda item">البند 13 (ح) من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">مسائل التنسيق والبرنامج ومسائل أخرى: برنامج الأمم المتحدة المشترك المعني بفيروس نقص المناعة البشرية/الإيدز</inline>
+      </p>
+      <p>
+        <docTitle>قرار اتخذه المجلس الاقتصادي والاجتماعي في 29 تموز/يوليه 2025</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#plenaryMeeting">[بناء على مقترح نظر فيه في جلسة عامة (<inline name="originating document">E/2025/L.25</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2025/20</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	برنامج الأمم المتحدة المشترك المعني بفيروس نقص المناعة البشرية/الإيدز</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold italic">إن المجلس الاقتصادي والاجتماعي</span>،</p>
+      </formula>
+      <container name="إذ يعيد تأكيد" eId="container_2">
+        <p xml:space="preserve">	<span class="bold italic">إذ يعيد تأكيد</span> قراريه <a href="https://docs.un.org/ar/E/RES/1994/24">1994/24</a> المؤرخ 26 تموز/يوليه 1994 و <a href="https://docs.un.org/ar/E/RES/1995/2">1995/2</a> المؤرخ 3 تموز/ يوليه 1995 اللذين أنشأ المجلس بموجبهما برنامج الأمم المتحدة المشترك المعني بفيروس نقص المناعة البشرية/الإيدز، وجميع قرارات المجلس اللاحقة بشأن البرنامج المشترك، بما فيها القرار <a href="https://docs.un.org/ar/E/RES/2023/30">2023/30</a> المؤرخ 25 تموز/يوليه 2023،</p>
+      </container>
+      <container name="وقد نظر" eId="container_3">
+          <p xml:space="preserve">	<span class="bold italic">وقد نظر</span> في تقرير المديرة التنفيذية لبرنامج الأمم المتحدة المشترك المعني بفيروس نقص المناعة البشرية/الإيدز المقدَّم إلى المجلس<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	()	<a href="https://docs.un.org/ar/E/2025/73">E/2025/73</a>.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ يحيط علما" eId="container_4">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يحيط علما</span> بأهمية الإعلان السياسي لعام 2021 بشأن فيروس نقص المناعة البشرية والإيدز: إنهاء أوجه عدم المساواة والسير على الطريق الصحيح لإنهاء الإيدز بحلول عام 2030<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	()	قرار الجمعية العامة <a href="https://docs.un.org/ar/A/RES/75/284">75/284</a>، المرفق.</p></authorialNote><sup>)</sup>، وكذلك بأهمية الاستراتيجية العالمية لمكافحة الإيدز للفترة 2021-2026 المعنونة ”إنهاء أوجه عدم المساواة والقضاء على الإيدز“، وإذ يشير إلى أنهما مكملان لخطة التنمية المستدامة لعام 2030 ومتوائمان معها<sup>(</sup><authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	()	قرار الجمعية العامة <a href="https://docs.un.org/ar/A/RES/70/1">70/1</a>.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ يعيد تأكيد" eId="container_5">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يعيد تأكيد</span> الحقوق السيادية للدول الأعضاء، على النحو المكرس في ميثاق الأمم المتحدة، وضرورة وفاء جميع البلدان بالتزاماتها وتعهداتها الواردة في الإعلان السياسي لعام 2021، بما يتفق مع القوانين الوطنية وأولويات التنمية الوطنية وحقوق الإنسان الدولية،</p>
+      </container>
+      <container name="وإذ يرحب" eId="container_6">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يرحب</span> بالتقدم المحرز في خفض عدد الإصابات بفيروس نقص المناعة البشرية وعدد الوفيات الناجمة عن الإيدز، وفي زيادة فرص الحصول على العلاج من الفيروس وفي الوقاية من حدوث إصابات جديدة بالفيروس، وذلك بعد أن أحرزت بلدان كثيرة تقدما نحو تحقيق الأهداف 95-95-95 واستحدثت ووسعت العمل بالابتكارات في مجال الوقاية من الفيروس لدى المراهقات والشابات والفئات السكانية الرئيسية<sup>(</sup><authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">	()	على النحو المشار إليه في الاستراتيجية العالمية لمكافحة الإيدز للفترة 2021-2026 ”إنهاء أوجه عدم المساواة والقضاء على الإيدز“، وكما نوقش في ”التقرير المتعلق بالثغرات التي تتخلل الوقاية“ لعام 2016، ينبغي لكل بلد أن يُعيّن فئات السكان التي تعتبر أساسية فيما يخص انتشار الوباء لديه وطريقته في التصدي لذلك استنادا إلى السياق الوبائي والاجتماعي السائد.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ يعرب عن القلق" eId="container_7">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يعرب عن القلق</span> لأنه، على الرغم من التقدم المحرز، لا يزال هناك العديد من التباينات وأوجه عدم المساواة بين البلدان والمناطق وداخلها، وبين الرجال والنساء، ولدى مختلف الفئات العمرية، وخاصة الأطفال والمراهقون المتأثرون على نحو غير متناسب بالفيروس، والفئات السكانية الرئيسية التي تبين الأدلة الوبائية أنها أكثر عرضة لخطر الإصابة بالفيروس على الصعيد العالمي، ولأنه قد يتعذر تحقيق غايات عام 2025 الواردة في الإعلان السياسي لعام 2021، ولأن عام 2024 شهد 1,3 مليون إصابة جديدة بالفيروس ووفاة 000 630 شخص لأسباب تتعلق بالإيدز، ولأن 9,2 ملايين شخص من أصل 40,8 مليون مصاب لم يتلقوا العلاج المنقذ للحياة بعد، وكلُّ ذلك مع ازدياد الإصابات الجديدة بالفيروس داخل بعض البلدان وفي أوساط بعض الفئات السكانية الفرعية وبعض المناطق، الذي مردّه جزئياً إلى سوء تنفيذ التدابير الفعالة والقائمة على الأدلة المتخذة للتصدي للفيروس،</p>
+      </container>
+      <container name="وإذ يعرب عن بالغ القلق أيضا" eId="container_8">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يعرب عن بالغ القلق أيضا</span> من أن بلوغ هدف القضاء على الإيدز باعتباره تهديدا للصحة العامة بحلول عام 2030 يتأثر سلباً بتراجع المساعدة الإنمائية الرسمية والتمويل المخصص للفيروس، ولا سيما الجهود التي تقودها المجتمعات المحلية للتصدي للفيروس، وفي أجزاء كثيرة من العالم، بالقيود المفروضة على الحيز المدني، وتراجع المساواة بين الجنسين وحقوق الإنسان على النحو المعترف به في القانون الدولي لحقوق الإنسان، واستمرار الوصم والتمييز في جهود التصدي للفيروس،</p>
+      </container>
+      <container name="وإذ يقر" eId="container_9">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يقر</span> بتوافر المبادرات القائمة على الأدلة في التصدي للفيروس، ويعرب عن القلق إزاء التوسع غير المتكافئ لهذه المبادرات حسب السياقات الوطنية، وأيضا إزاء بطء معدلات إنفاق الأموال المرصودة للوقاية بما يؤدي إلى ثغرات خطيرة في جهود الوقاية،</p>
+      </container>
+      <container name="وإذ يلاحظ مع القلق" eId="container_10">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يلاحظ مع القلق</span> أن بعض الأمراض والحالات التي يمكن الوقاية منها وعلاجها - كالسّل والعلل المصاحبة الأخرى وسرطان عنق الرحم وأمراض الصحة العقلية وغيرها من الأمراض المعدية وغير المعدية - مرتبطة بالإصابة بفيروس نقص المناعة البشرية، وبضعف نتائج العلاج من هذه الإصابة، وبالوفيات لدى المصابين،</p>
+      </container>
+      <container name="وإذ يساوره القلق" eId="container_11">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يساوره القلق</span> لأنّ السُّل، بما في ذلك أشكاله المقاومة للأدوية، يظل السبب الرئيسي في وفاة الاشخاص المصابين بالفيروس في العالم، ولأن 6,1 في المائة من الإصابات المقدرة بالسل المسجلة في عام 2023 عبر العالم تحدُث في صفوف المصابين بالفيروس، ومع ذلك لم تُشخّص في سنة 2023 سوى نسبة 58 في المائة من الإصابات المقدرة بالسل في صفوف المصابين بالفيروس، ولأن 20 من مرضى السل المشخّص لم يخضعوا لاختبار الكشف عن الفيروس، مما حال دون توفير العلاج وأدى إلى وفيات كان بالإمكان تفاديها<sup>(</sup><authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">	()	World Health Organization, <span class="italic">Global Tuberculosis Report 2024</span> (Geneva, 2024).</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ يعرب كذلك عن القلق" eId="container_12">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يعرب كذلك عن القلق</span> لأن الوصم والتمييز وأوجه عدم المساواة المتصلة بالفيروس، بما في ذلك الحرمان الاقتصادي، لا تزال تشكل عائقا أمام تحقيق نتائج صحية إيجابية متعلقة بالفيروس، ولا سيما في أوساط المراهقات والشابات، والأشخاص الذين يعانون من حالات ضعف، بمن فيهم الفئات السكانية الرئيسية، التي تُبيِّن الأدلة الوبائية أنها أكثر عرضة للإصابة بالفيروس عبر العالم، وكلّ من يعاني من شكل واحد أو أكثر من أشكال التمييز،</p>
+      </container>
+      <container name="وإذ يعرب عن القلق" eId="container_13">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يعرب عن القلق</span> إزاء القوانين والسياسات والممارسات التي قد تحول دون استفادة الجميع من خدمات الوقاية والفحص والتشخيص والعلاج والرعاية والدعم المتعلقة بفيروس نقص المناعة البشرية،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_14">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يسلم</span> بأن المشاركة المجدية للمجتمع المدني تؤدي دورا حاسما في جهود التصدي لوباء الإيدز على الصعيد العالمي، وإذ يعيد التأكيد على أن تعزيز وحماية وإعمال جميع حقوق الإنسان والحريات الأساسية للجميع عنصر أساسي في جهود التصدي لوباء الإيدز على الصعيد العالمي، بما في ذلك ضمن مجالات الوقاية والفحص والتشخيص والعلاج والرعاية والدعم،</p>
+      </container>
+      <container name="وإذ يعيد تأكيد" eId="container_15">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يعيد تأكيد</span> ضرورة أن تسترشد الجهود المبذولة لتحقيق التغطية الصحية الشاملة بالدروس المستفادة من الجهود المتعددة القطاعات في مجال التصدي للفيروس، بما في ذلك أهمية تطبيق مجموعة واسعة من التدابير للتصدي للفيروس، والتركيز على الإنصاف والنتائج والمساءلة، ومراعاة القانون الدولي لحقوق الإنسان واحتياجات الفئات الأكثر تهميشا، والابتكار في مجال تمويل الصحة، وتقديم الخدمات الأهلية المتعلقة بالفيروس بقيادة المجتمعات المحلية، حسب مقتضيات السياق الوطني، والتركيز على المحددات الاجتماعية والاقتصادية والهيكلية للصحة، وأهمية التصدي للوصم والتمييز،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_16">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يسلم </span>بقيمة الدروس المستفادة من جهود التصدي للفيروس على مستوى عدّة قطاعات، وبالكيفية التي استطاعت بها البلدان والمجتمعات أن تستغل استثماراتها وهياكلها المتعلقة بالفيروس من أجل مواجهة تحديات صحية وإنمائية معقدة أخرى، وبأنّ التقدم المحرز في التصدي للفيروس قد أفضى إلى إحراز تقدم على صعيد النتائج الإنمائية الأوسع نطاقا،</p>
+      </container>
+      <container name="وإذ يعيد تأكيد" eId="container_17">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يعيد تأكيد</span> الدور المحوري لبرنامج الأمم المتحدة المشترك المعني بفيروس نقص المناعة البشرية/الإيدز في تعبئة ودعم جهود التصدي للفيروس على مستوى عدة قطاعات، وذلك في سياق الجهود الأوسع نطاقا الرامية إلى عدم ترك أحد خلف الركب، تمشياً مع قراري الجمعية العامة <a href="https://docs.un.org/ar/A/RES/79/226">79/226</a> المؤرخ 19 كانون الأول/ديسمبر 2024 و <a href="https://docs.un.org/ar/A/RES/70/1">70/1</a> المؤرخ 25 أيلول/سبتمبر 2015،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_18">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير</span> إلى أهداف البرنامج المشترك المتمثلة في تحقيق وتعزيز توافق الآراء العالمي بشأن السياسات والنهج البرنامجية، والتشجيع على التعبئة السياسية والاجتماعية المتسعة القاعدة للوقاية من الفيروس والإيدز والتصدي لهما داخل البلدان، بما يكفل مشاركة طائفة واسعة من القطاعات والمؤسسات في جهود التصدي الوطنية،</p>
+      </container>
+      <container name="وإذ يلاحظ مع التقدير" eId="container_19">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يلاحظ مع التقدير</span> استمرار الدول الأعضاء في الإبلاغ عن التقدم الذي تحرزه في جهود التصدي للفيروس، والدعم المقدم من البرنامج المشترك إلى الدول الأعضاء، بسبل منها إتاحة زيادة إمكانية الوصول إلى البيانات الجيدة المتعددة القطاعات واستخدامها لقياس التقدم المحرز ولصقل الاستراتيجيات ضمن جهود التصدي للفيروس،</p>
+      </container>
+      <container name="وإذ يعرب عن بالغ القلق" eId="container_20">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يعرب عن بالغ القلق</span> لأن تمويل جهود التصدي للفيروس لا يزال يسجل عجزا مستمرا، لا سيما فيما يتعلق بالبلدان النامية التي يكون عبء الفيروس لديها ثقيلا وتعتمد على التمويل الدولي، وهو عجز تفاقم بسبب الانخفاض الكبير في التمويل الدولي، واستمرار عدم كفاية الاستثمار المحلي في جهود التصدي للفيروس،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_21">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يسلم</span> بالحاجة إلى التمويل والبحث والتطوير لأجل استحداث أدوية جديدة لعلاج الفيروس تكون جيدة ومأمونة وميسورة التكلفة وفعالة، وأيضا بالحاجة إلى إتاحة هذه الأدوية المنقذة للحياة على نحو منصف ومناسب التوقيت ودون عوائق،</p>
+      </container>
+      <container name="وإذ يلاحظ مع القلق" eId="container_22">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يلاحظ مع القلق</span> الانخفاض غير المسبوق في تمويل الإطار الموحد للميزانية والنتائج والمساءلة وما خلّفه ذلك من أثر سلبي على قدرة البرنامج المشترك على دعم البلدان في التصدي للفيروس من أجل الحفاظ على التقدم العالمي المحرز نحو القضاء على الإيدز باعتباره تهديداً للصحة العامة بحلول عام 2030 وما بعده نتيجة للتخفيضات الكبيرة في مخصصات وقدرات موظفي الأمانة والمكاتب القطرية والجهات المشاركة في الرعاية،</p>
+      </container>
+      <container name="وإذ يعيد تأكيد" eId="container_23">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يعيد تأكيد</span> الدور الهام الذي يقوم به وفد المنظمات غير الحكومية لدى مجلس تنسيق البرنامج المشترك في حوكمة هذا المجلس،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_24" class="MercuryDocument">
+        <num>1 -</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="bold italic">يحيط علما</span> بتقرير المديرة التنفيذية لبرنامج الأمم المتحدة المشترك المعني بفيروس نقص المناعة البشرية/الإيدز المقدم إلى المجلس الاقتصادي والاجتماعي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="MercuryDocument">
+        <num>2 -</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="bold italic">يسلم</span> بأن الإصابات الجديدة بفيروس نقص المناعة البشرية والوفيات المرتبطة بالإيدز لا تتراجع بما يتماشى مع المسار اللازم لتحقيق أهداف عام 2030 المحددة في الإعلان السياسي لعام 2021 بشأن فيروس نقص المناعة البشرية والإيدز: القضاء على أوجه عدم المساواة والسير على المسار الصحيح للقضاء على الإيدز بحلول عام 2030، ويشدد على ضرورة العمل على وجه السرعة لتحقيق أهداف عام 2030، كشرط مسبق للقضاء على وباء الإيدز باعتباره تهديدا للصحة العامة بحلول عام 2030؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="MercuryDocument">
+        <num>3 -</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="bold italic">يهيب</span> بالبرنامج المشترك أن يدعم أكثر التنفيذ الفعال والمستند إلى الأدلة والمناسب التوقيت والمتعدد القطاعات للاستراتيجية العالمية لمكافحة الإيدز للفترة 2021-2026، المعنونة ”إنهاء أوجه عدم المساواة والقضاء على الإيدز“، وللإعلان السياسي لعام 2021، تمشيا مع ولايته، ويشجع الحكومات والمجتمع المدني والمنظمات العاملة بقيادة المجتمعات المحلية في مجال التصدي للفيروس، والقطاع الخاص والجهات الأخرى المعنية صاحبة المصلحة، على تعزيز الاستجابة للفيروس، وفقا للسياسات والأولويات الوطنية لأجل التعجيل بنسق التقدم صوب تحقيق أهداف استراتيجية 2021-2026 والإعلان السياسي لعام 2021، وذلك باعتبار هذه الاستجابة من المقومات الهامة لتحقيق أهداف التنمية المستدامة، ومنها الغاية 3-3، ويتطلّع إلى استمرار بلورة الاستراتيجية العالمية لمكافحة الإيدز للفترة 2026-2031؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="MercuryDocument">
+        <num>4 -</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="bold italic">يدعو</span> الدول الأعضاء ومنظومة الأمم المتحدة والمجتمع المدني والمنظمات العاملة بقيادة المجتمعات المحلية في مجال التصدي للفيروس والقطاع الخاص والجهات المعنية الأخرى إلى اتخاذ إجراءات عاجلة وإقامة الشراكات من أجل توسيع نطاق الخدمات القائمة على الأدلة في مجالات الوقاية والفحص والعلاج والرعاية والاستبقاء قيد الرعاية فيما يتعلق بفيروس نقص المناعة البشرية، بما في ذلك إتاحة إمكانية الحصول على الأدوية المأمونة والفعالة والجيدة، المجانية منها والميسورة التكلفة، بما فيها الأدوية الجنيسة، وذلك للتأكد من الوصول بتلك الخدمات إلى من هم في أشد الحاجة إليها، كالمراهقات والشابات وأيضا الفئات السكانية الرئيسية التي تُبيِّن الأدلة الوبائية أنها أكثر عرضة عبر العالم لخطر الإصابة بالفيروس، والمصابين من الأطفال الذين تقل تغطيتهم بالعلاج عن تغطية البالغين، والذين تُسجّل في صفوفهم معدلات أعلى نسبيا من الوفيات المرتبطة بالإيدز؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="MercuryDocument">
+        <num>5 -</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="bold italic">يحث</span> الدول الأعضاء على مواصلة زيادة التمويل المحلي وتنفيذ نهج متمايزة للوصول إلى الأشخاص بخدمات الوقاية من الفيروس، مع مراعاة السياق المحلي، عبر مجموعة وقائية شاملة للجميع ومجموعات مصممة خصيصا لأكثر السكان تعرضا للخطر، تشمل العلاجات الوقائية قبل التعرّض المتسمة بمفعولها الطويل الأمد ويسر تكلفتها، وعلى اتخاذ إجراءات معجلة لرفع العراقيل السياساتية والهيكلية التي تقف في وجه المراهقات والشابات والفئات السكانية الرئيسية وتعيق توسيع نطاق خدمات الوقاية، بما يشجع أعضاء التحالف العالمي للوقاية من فيروس نقص المناعة البشرية على الإسراع بنسق تنفيذ خريطة طريق الوقاية من الفيروس لعام 2025؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="MercuryDocument">
+        <num>6 -</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">	<span class="bold italic">يحث أيضا</span> الدول الأعضاء على مواصلة وضع خرائط طريق لاستدامة مكافحة الفيروس، بما في ذلك بدعم من البرنامج المشترك؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="MercuryDocument">
+        <num>7 -</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="bold italic">يشجع</span> البرنامج المشترك على مواصلة العمل من أجل إحراز تقدم نحو القضاء على الإيدز لدى الأطفال، بما في ذلك العمل مع بلدان التحالف العالمي للقضاء على الإيدز لدى الأطفال، والدعوة إلى زيادة الاستثمارات في الفحص المبكر والعلاج الأمثل للأطفال والمراهقين، وتعزيز الوقاية من الإصابات الجديدة بالفيروس وسد الفجوة في العلاج بالنسبة للحوامل والمرضعات، ودعم الجهود الوطنية والعالمية الرامية إلى القضاء على انتقال الفيروس من الأم إلى الطفل والنهوض بالمساواة بين الجنسين، ودعم البلدان، في إطار ولايته، في الوفاء بالتزاماتها بموجب القانون الدولي لحقوق الإنسان للنهوض بحقوق الإنسان والحريات الأساسية والتصدي للحواجز الاجتماعية والاقتصادية والهيكلية القائمة أمام الاستجابات الفعالة للفيروس؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="MercuryDocument">
+        <num>8 -</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	<span class="bold italic">يحث</span> الدول الأعضاء على التعجيل، حيثما أمكن، بإزالة العقبات التي تحد من قدرة البلدان النامية على توفير المنتجات والتشخيصات والأدوية والسلع الأساسية والمنتجات الصيدلانية الأخرى الفعالة والميسورة التكلفة في مجال الوقاية والعلاج من بالفيروس؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_60" class="MercuryDocument">
+        <num>9 -</num>
+        <content eId="para_60__content">
+          <p xml:space="preserve">	<span class="bold italic">يدعو</span> إلى تنشيط الجهود الرامية إلى حماية حقوق الإنسان وتعزيز المساواة بين الجنسين في سياق الفيروس وإلى معالجة عوامل الخطر الاجتماعي، مثل عدم كفاية حماية الصحة الجنسية والإنجابية، فضلا عن المحددات الاجتماعية والاقتصادية للصحة، وذلك بهدف الحد من أوجه عدم المساواة الصحية داخل البلدان وفيما بينها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="MercuryDocument">
+        <num>10 -</num>
+        <content eId="para_69__content">
+          <p xml:space="preserve">	<span class="bold italic">يدعو أيضا</span> الدول الأعضاء ومنظومة الأمم المتحدة والمجتمع المدني والمنظمات التي تقودها المجتمعات المحلية والقطاع الخاص والجهات الأخرى صاحبة المصلحة إلى تنسيق الجهود بين برامج مكافحة الفيروس وسائر البرامج والقطاعات الصحية الأخرى، مع التركيز بوجه خاص على التكامل داخل النظم الصحية ونظم الحماية الاجتماعية والابتكار في مجال الوقاية في إطار استدامة التصدي للفيروس، مع ضمان المساءلة عن الحصول على العلاج ودعم العمليات التي تيسر التكامل؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="MercuryDocument">
+        <num>11 -</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve">	<span class="bold italic">يحث</span> البرنامج المشترك على العمل تعاونيا مع الدول الأعضاء والمجتمع المدني والمجتمعات المحلية، بطريقة شفافة وشاملة وتشاورية، وبما يكفل مشاركة جميع أصحاب المصلحة المعنيين مشاركة فعالة في أنشطته؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_90" class="MercuryDocument">
+        <num>12 -</num>
+        <content eId="para_90__content">
+          <p xml:space="preserve">	<span class="bold italic">يشجع</span> البرنامج المشترك على التعجيل بتنفيذ تدابير التخفيف في ظل الأزمة المالية الحالية ليتمكن من الاستمرار، وفقا لولايته، في بذل جهود التفاعل والتعاون بشأن الأولويات الصحية العالمية، ويشدد على أهمية استخلاص الدروس من النَّهج المتعدد القطاعات في التصدي للفيروس بغية رفع التحديات الصحية العالمية الأخرى، على أن يظل الإنصاف مبدأ مركزيا؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_102" class="MercuryDocument">
+        <num>13 -</num>
+        <content eId="para_102__content">
+          <p xml:space="preserve">	<span class="bold italic">يشير</span> إلى الاستراتيجية وخطة العمل العالميتين بشأن الصحة العمومية والابتكار والملكية الفكرية وقرار جمعية الصحة العالمية 61-21 المؤرخ 24 أيار/مايو 2008<sup>(</sup><authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">	()	انظر منظمة الصحة العالمية، الوثيقة WHA61/2008/REC/1.</p></authorialNote><sup>)</sup> الذي يحث الدول الأعضاء على أن تدعم بنشاط تنفيذ الاستراتيجية وخطة العمل العالميتين على نطاق واسع، ويدعو المنظمات الدولية المعنية وغيرها من الجهات المعنية صاحبة المصلحة إلى إعطاء الأولوية في إطار ولاية كل منها وفي إطار برامجها لتنفيذ الاستراتيجية وخطة العمل العالميتين، ويطلب إلى الدول الأعضاء أن تأخذ في الاعتبار توصيات فريق الخبراء المعني بالاستعراض<sup>(</sup><authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">	()	متاحة على العنوان الشبكي التالي: <a href="https://www.who.int/publications/m/item/gspa-phi3011rev">https://www.who.int/publications/m/item/gspa-phi3011rev</a>.</p></authorialNote><sup>)</sup>، بما يتسق مع الاستراتيجية وخطة العمل العالميتين، تمشيا مع الأولويات الوطنية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_115" class="MercuryDocument">
+        <num>14 -</num>
+        <content eId="para_115__content">
+          <p xml:space="preserve">	<span class="bold italic">يحث</span> البرنامج المشترك على مواصلة الاستفادة من المزايا النسبية لمختلف هيئات الأمم المتحدة والجهات الشريكة ذات الصلة في تعزيز وتسريع مسار جهود التصدي المتعددة القطاعات للإيدز تمشيا مع ولايته وولاية كل منها، والانتقال الجاري للبرنامج المشترك في إطار منظومة الأمم المتحدة الأوسع نطاقا على النحو المبين في النموذج التشغيلي المنقح؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_129" class="MercuryDocument">
+        <num>15 -</num>
+        <content eId="para_129__content">
+          <p xml:space="preserve">	<span class="bold italic">يؤكد من جديد</span> أن نموذج البرنامج المشترك في مجال الرعاية المشتركة والحوكمة ما زال يعطي منظومة الأمم المتحدة مثالا مفيدا للاتساق الاستراتيجي، والحوكمة الشاملة والأثر على المستوى القطري، على نحو ما جاء في قرار الجمعية العامة <a href="https://docs.un.org/ar/A/RES/79/226">79/226</a> بشأن الاستعراض الشامل الذي يجري كل أربع سنوات لسياسة الأنشطة التنفيذية التي تضطلع بها منظومة الأمم المتحدة من أجل التنمية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_144" class="MercuryDocument">
+        <num>16 -</num>
+        <content eId="para_144__content">
+          <p xml:space="preserve">	<span class="bold italic">يلاحظ</span> المقررات التي اتخذها مجلس تنسيق البرنامج المشترك بشأن تنقيح النموذج التشغيلي لاستجابة البرنامج المشترك، واستعراضه بحلول عام 2027، لدعم البلدان بفعالية أكبر، ويحث البرنامج المشترك على مواصلة هذه العملية، مع مراعاة مبادرة الأمم المتحدة 80؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_160" class="MercuryDocument">
+        <num>17 -</num>
+        <content eId="para_160__content">
+          <p xml:space="preserve">	<span class="bold italic">يشجع</span> البرنامج المشترك على مواصلة تيسير ودعم مشاركة وفد المنظمات غير الحكومية التابع لمجلس تنسيق البرنامج المشترك في أعمال المجلس على النحو المبين في طريقة عمل هذا المجلس وفي قرار المجلس الاقتصادي والاجتماعي <a href="https://docs.un.org/ar/E/RES/1995/2">1995/2</a>؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_177" class="MercuryDocument">
+        <num>18 -</num>
+        <content eId="para_177__content">
+          <p xml:space="preserve">	<span class="bold italic">يعيد تأكيد تقديره</span> للاستمرار في تعزيز الدور الرقابي لمجلس تنسيق البرنامج المشترك، ضمن إطار ولايته، ولا سيما من خلال أعمال وتوصيات اللجنة الاستشارية المستقلة للرقابة الخارجية، التابعة لبرنامج الأمم المتحدة المشترك المعني بفيروس نقص المناعة البشرية/الإيدز، التي أنشئت في عام 2022 ضمن إطار الاستجابة لتوصيات وحدة التفتيش المشتركة الواردة في الاستعراض الذي أجرته الوحدة في عام 2019 للتنظيم والإدارة في البرنامج المشترك؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_195" class="MercuryDocument">
+        <num>19 -</num>
+        <content eId="para_195__content">
+          <p xml:space="preserve">	<span class="bold italic">يعرب عن جزعه الشديد</span> إزاء أزمة التمويل الحادة التي تواجهها جهود التصدي للفيروس، بما في ذلك تأثيرها على عمل البرنامج المشترك، وعدم الوفاء بالالتزام المنصوص عليه في الإعلان السياسي لعام 2021 بتعزيز التضامن العالمي وزيادة الاستثمارات السنوية المرصودة في البلدان النامية لمكافحة الفيروس إلى 29 بليون دولار من دولارات الولايات المتحدة بحلول عام 2025، ويدعو إلى اتخاذ إجراءات عاجلة، في مواجهة أكبر صدمة وتعطيل نُظُمِيَّين لبرامج مكافحة الفيروس في تاريخ التصدي للفيروس على الصعيد العالمي، من أجل استمرار التضامن العالمي للقضاء على الإيدز باعتباره تهديداً للصحة العامة وإسهاماً في تحقيق الغاية 3-3 من أهداف التنمية المستدامة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_214" class="MercuryDocument">
+        <num>20 -</num>
+        <content eId="para_214__content">
+          <p xml:space="preserve">	<span class="bold italic">يدعو</span> إلى توفير الموارد الكاملة للإطار الموحد للميزانية والنتائج والمساءلة، الذي سيتم تحديثه وفقا للنموذج التشغيلي المنقّح، وإلى تجديد الجهود المبذولة لحماية قدرة البرنامج المشترك على الاستمرار في الحفاظ على مستوى الطموح لدى هذا الإطار؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_234" class="MercuryDocument">
+        <num>21 -</num>
+        <content eId="para_234__content">
+          <p xml:space="preserve">	<span class="bold italic">يهيب</span> بالجهات المانحة منذ أمد طويل أن تحافظ على مساهماتها إلى البرنامج المشترك، وإذا أمكن، أن تجدّدها وتزيدها، ويرحّب بالمساهمات من البلدان النامية والمتقدمة النمو، ويوجه الدعوة إلى جهات مانحة جديدة من القطاعين العام والخاص، مع تشجيع كل الجهات المانحة على النظر في تخصيص تمويل أساسي متعدد السنوات من الإطار الموحد للميزانية والنتائج والمساءلة وتمويل غير أساسي أكثر مرونة، ويهيب بالدول الأعضاء أن تنظر بجدية في توصيات فرقة العمل غير الرسمية لأصحاب المصلحة المتعددين، التابعة لمجلس تنسيق البرنامج المشترك، بشأن حالة تمويل البرنامج المشترك<sup>(</sup><authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">	()	متاح على العنوان الشبكي التالي: <a href="https://www.unaids.org/sites/default/files/media_asset/ PCB51_Bureau_Report_UNAIDS_Funding_Final_041222.pdf">https://www.unaids.org/sites/default/files/media_asset/ PCB51_Bureau_Report_UNAIDS_Funding_Final_041222.pdf</a>.</p></authorialNote><sup>)</sup>؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_255" class="MercuryDocument">
+        <num>22 -</num>
+        <content eId="para_255__content">
+          <p xml:space="preserve">	<span class="bold italic">يشدد</span> على الأهمية الحاسمة لاستمرار الالتزام السياسي والقيادة من أجل القضاء على الإيدز بحلول عام 2030، ويقر بضرورة عقد اجتماع رفيع المستوى للجمعية العامة، يُحدَّد تاريخه في موعد أقصاه الدورة الثمانون للجمعية، على النحو الذي قررته الجمعية العامة وفقا لقرارها <a href="https://docs.un.org/ar/A/RES/75/284">75/284</a> المؤرخ 8 حزيران/يونيه 2021، لاستعراض التقدم المحرز في الالتزامات الواردة في الإعلان السياسي لعام 2021 وتنشيط جهود التصدي بهدف استعادة الزخم وإعادة وضع العالم على المسار الصحيح لتحقيق هدف القضاء على الإيدز بحلول عام 2030، في اتساق وتآزر وثيقين مع خطة التنمية المستدامة لعام 2030، بما في ذلك الغاية 3-3؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_277" class="MercuryDocument">
+        <num>23 -</num>
+        <content eId="para_277__content">
+          <p xml:space="preserve">	<span class="bold italic">يجدد طلبه</span> إلى الأمين العام أن يقدم تقريرا إلى المجلس عن توقعات الأداء فيما يتصل بشاغل منصب المدير التنفيذي للبرنامج المشترك بحلول حزيران/يونيه 2026، بما يعكس المناقشات التي أجراها مجلس تنسيق البرنامج المشترك في كانون الأول/ديسمبر 2023، تمشيا مع أفضل الممارسات المتبعة في منظومة الأمم المتحدة وعلى النحو الذي أوصت به وحدة التنسيق المشتركة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_300" class="MercuryDocument">
+        <num>24 -</num>
+        <content eId="para_300__content">
+          <p xml:space="preserve">	<span class="bold italic">يشجع</span> الأمين العام على الانخراط فورا في حوار بشأن فرض حد زمني أقصى قدره ولايتان مدة كل منهما أربع سنوات على منصب المدير التنفيذي المشترك، بما يتماشى مع أفضل الممارسات المتبعة في منظومة الأمم المتحدة وعلى نحو ما أوصت به وحدة التفتيش المشتركة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_324" class="MercuryDocument">
+        <num>25 -</num>
+        <content eId="para_324__content">
+          <p xml:space="preserve">	<span class="bold italic">يطلب</span> إلى الأمين العام أن يحيل إلى المجلس، في دورته لعام 2027، تقريرا تعده المديرة التنفيذية للبرنامج المشترك، بالتعاون مع الجهات المشاركة في رعاية البرنامج وغيرها من مؤسسات منظومة الأمم المتحدة وهيئاتها المعنية، عن التقدم الذي أحرزته منظومة الأمم المتحدة في تنفيذ إجراءات منسقة لمكافحة فيروس نقص المناعة البشرية ووباء الإيدز.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="39" refersTo="#adoptionMeeting">الجلسة العامة 39</location>
+          <eol />
+          <docDate date="2025-07-29" refersTo="#adoptionDate">29 تموز/يوليه 2025</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

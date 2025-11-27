@@ -1,0 +1,398 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-21/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-21/"></FRBRuri>
+          <FRBRdate date="2025-07-29" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-21/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-21/ara@/"></FRBRuri>
+          <FRBRdate date="2025-08-13" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-21/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-21/ara@.xml"></FRBRuri>
+          <FRBRdate date="2025-11-27" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Committee of Experts on the Transport of Dangerous Goods and on the Globally Harmonized System of Classification and Labelling of Chemicals" showAs="UN. Committee of Experts on the Transport of Dangerous Goods and on the Globally Harmonized System of Classification and Labelling of Chemicals" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Recommendations on the Transport of Dangerous Goods" showAs="UN Recommendations on the Transport of Dangerous Goods" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Model Regulations on the Transport of Dangerous Goods" showAs="UN Model Regulations on the Transport of Dangerous Goods" dictionary="DHLAUTH"></keyword>
+        <keyword value="Globally Harmonized System of Classification and Labelling of Chemicals" showAs="Globally Harmonized System of Classification and Labelling of Chemicals" dictionary="DHLAUTH"></keyword>
+        <keyword value="DANGEROUS GOODS TRANSPORT" href="http://metadata.un.org/thesaurus/1001492" showAs="DANGEROUS GOODS TRANSPORT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TRANSPORT REGULATIONS" href="http://metadata.un.org/thesaurus/1006662" showAs="TRANSPORT REGULATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CHEMICAL SAFETY" href="http://metadata.un.org/thesaurus/1000918" showAs="CHEMICAL SAFETY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CLASSIFICATION SYSTEMS" href="http://metadata.un.org/thesaurus/1001022" showAs="CLASSIFICATION SYSTEMS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="LABELLING" href="http://metadata.un.org/thesaurus/1003545" showAs="LABELLING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="19l" showAs="Transport of dangerous goods and the Globally Harmonized System of Classification and Labelling of Chemicals." shortForm="DANGEROUS GOODS TRANSPORT" dictionary="E/2025/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-05-28" outcome="recommendedForAdoption" as="E/2025/72" by="UN. Committee of Experts on the Transport of Dangerous Goods and on the Globally Harmonized System of Classification and Labelling of Chemicals" />
+        <step date="2025-08-13" outcome="adopted" as="Adopted without vote, 39th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2025/21</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">إن المجلس الاقتصادي والاجتماعي</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-08-13" class="rightSmall" refersTo="#dateOfIssuance">13 August 2025</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2025" eId="coverPage_1__session_1">دورة عام 2025</session>
+      </p>
+      <p>
+        <inline title="19 (ل)" name="agenda item">البند 19 (ل) من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">المسائل الاقتصادية والبيئية: نقل البضائع الخطرة والنظام المنسق عالميا لتصنيف المواد الكيميائية ووسمها</inline>
+      </p>
+      <p>
+        <docTitle>قرار اتخذه المجلس الاقتصادي والاجتماعي في 29 تموز/يوليه 2025</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent>[بناء على توصية لجنة الخبراء المعنية بنقل البضائع الخطرة وبالنظام المنسّق عالميا لتصنيف المواد الكيميائية ووسمها (<inline name="originating document">E/2025/72</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2025/21</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">أعمال لجنة الخبراء المعنية بنقل البضائع الخطرة وبالنظام المنسّق عالميا لتصنيف المواد الكيميائية ووسمها</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold italic">إن المجلس الاقتصادي والاجتماعي</span>،</p>
+      </formula>
+      <container name="إذ يشير" eId="container_2">
+        <p xml:space="preserve">	<span class="bold italic">إذ يشير</span> إلى قراريه <a href="https://docs.un.org/ar/E/RES/1999/65">1999/65</a> المؤرخ 26 تشرين الأول/أكتوبر 1999 و <a href="https://docs.un.org/ar/E/RES/2023/5">2023/5</a> المؤرخ 7 حزيران/يونيه 2023،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_3" class="MercuryDocument">
+        <content eId="para_3__content">
+          <p xml:space="preserve">	<span class="bold italic">وقد نظر</span> في تقرير الأمين العام عن أعمال لجنة الخبراء المعنية بنقل البضائع الخطرة وبالنظام المنسق عالميا لتصنيف المواد الكيميائية ووسمها خلال فترة السنتين 2023–2024<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	()	<a href="https://docs.un.org/ar/E/2025/72">E/2025/72</a>.</p></authorialNote><sup>)</sup>،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_4" class="MercuryDocument">
+        <content eId="para_4__content">
+          <p xml:space="preserve">
+            <span class="bold">		ألف</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_5" class="MercuryDocument">
+        <content eId="para_5__content">
+          <p xml:space="preserve">
+            <span class="bold">		أعمال اللجنة في ما يتعلق بنقل البضائع الخطرة</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_6" class="MercuryDocument">
+        <content eId="para_6__content">
+          <p xml:space="preserve">	<span class="bold italic">إذ يسلّم</span> بأهمية أعمال اللجنة في مجال مواءمة المدونات واللوائح التنظيمية المتعلقة بنقل البضائع الخطرة،</p>
+        </content>
+      </paragraph>
+      <crossHeading refersTo="#preamble" eId="preamble_7">
+        <span class="bold italic">وإذ يضع في اعتباره</span> ضرورة المحافظة على معايير السلامة في جميع الأوقات وتيسير التجارة، فضلاً عن أهمية تلك المسائل لمختلف المنظمات المسؤولة عن اللائحة التنظيمية للوسائط، مع الاستجابة في الوقت ذاته للشواغل المتزايدة بشأن حماية الأرواح والممتلكات والبيئة عن طريق النقل الآمن والمضمون للبضائع الخطرة،</crossHeading>
+      <crossHeading refersTo="#preamble" eId="preamble_8">
+        <span class="bold italic">وإذ يضع في اعتباره أيضا</span> التزام الدول الأعضاء بالعمل من أجل التنفيذ التام، بحلول عام 2030، لأهداف التنمية المستدامة والغايات ذات الصلة، على النحو الذي وافقت عليه الجمعية العامة في قرارها <a href="https://docs.un.org/ar/A/RES/70/1">70/1</a> المؤرخ 25 أيلول/سبتمبر 2015 المعنون ”تحويل عالمنا: خطة التنمية المستدامة لعام 2030“، ولا سيما الغاية 12-4 المتعلقة بتحقيق الإدارة السليمة بيئيا للمواد الكيميائية والنفايات طوال دورة عمرها، وفقا للأطر الدولية المتفق عليها،</crossHeading>
+      <crossHeading refersTo="#preamble" eId="preamble_9">
+        <span class="bold italic">وإذ يلاحظ</span> التزايد المستمر في حجم البضائع الخطرة التي يجري إدخالها للتداول في التجارة على النطاق العالمي والتوسع السريع للتكنولوجيا والابتكار،</crossHeading>
+      <crossHeading refersTo="#preamble" eId="preamble_10">
+        <span class="bold italic">وإذ يشير</span> إلى أنه على الرغم من أن الصكوك الدولية الرئيسية المنظِّمة لنقل البضائع الخطرة بمختلف وسائل النقل وعددا كبيرا من اللوائح التنظيمية الوطنية قد أصبح الآن متوائما على نحو أفضل مع اللائحة التنظيمية النموذجية المرفقة بتوصيات اللجنة بشأن نقل البضائع الخطرة، فإنه يلزم مزيد من العمل لمواءمة هذه الصكوك بغية زيادة السلامة وتيسير التجارة، وإذ يشير أيضا إلى أن تفاوُت التقدم في تحديث التشريعات الوطنية للنقل الداخلي في بعض بلدان العالم لا يزال يطرح تحديات خطيرة أمام النقل الدولي المتعدد الوسائط،</crossHeading>
+      <paragraph eId="para_11" class="MercuryDocument">
+        <num>1 -</num>
+        <content eId="para_11__content">
+          <p xml:space="preserve">	<span class="bold italic">يعرب عن تقديره</span> لأعمال لجنة الخبراء المعنية بنقل البضائع الخطرة وبالنظام المنسّق عالميا لتصنيف المواد الكيميائية ووسمها فيما يخص المسائل المتعلقة بنقل البضائع الخطرة، بما في ذلك أمنها خلال نقلها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12" class="MercuryDocument">
+        <num>2 -</num>
+        <list eId="para_12_list">
+          <intro eId="para_12_list_intro">
+            <p xml:space="preserve">	<span class="bold italic">يطلب</span> إلى الأمين العام:</p>
+          </intro>
+          <point eId="para_12_list_point_أ">
+            <num>(أ)</num>
+            <content eId="para_12_list_point_أ_content">
+              <p xml:space="preserve">	أن يُعمم التوصيات الجديدة والمعدَّلة المتعلقة بنقل البضائع الخطرة<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	()	انظر <a href="https://docs.un.org/ar/ST/SG/AC.10/52/Add.1">ST/SG/AC.10/52/Add.1</a> و <a href="https://docs.un.org/ar/ST/SG/AC.10/52/Add.2">ST/SG/AC.10/52/Add.2</a>.</p></authorialNote><sup>)</sup> على حكومات الدول الأعضاء، والوكالات المتخصصة، والوكالة الدولية للطاقة الذرية، وغيرها من المنظمات الدولية المعنية؛</p>
+            </content>
+          </point>
+          <point eId="para_12_list_point_ب">
+            <num>(ب)</num>
+            <content eId="para_12_list_point_ب_content">
+              <p xml:space="preserve">	أن ينشر الطبعة المنقحة الرابعة والعشرين من <span class="italic">التوصيات المتعلقة بنقل البضائع الخطرة: اللائحة التنظيمية النموذجية</span>، والتعديل 1 على الطبعة المنقحة الثامنة من <span class="italic">دليل الاختبارات والمعايير</span> بكل اللغات الرسمية للأمم المتحدة، وبأكثر الطرق فعالية من حيث التكاليف، وفي موعد لا يتجاوز نهاية عام 2025؛</p>
+            </content>
+          </point>
+          <point eId="para_12_list_point_ج">
+            <num>(ج)</num>
+            <content eId="para_12_list_point_ج_content">
+              <p xml:space="preserve">	أن يتيح هذه المنشورات في شكل كتاب وإلكترونيا وعلى الموقع الشبكي للجنة الاقتصادية لأوروبا التي تقدم خدمات الأمانة للجنة؛</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_14" class="MercuryDocument">
+        <num>3 -</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">	<span class="bold italic">يدعو</span> جميع الحكومات واللجان الإقليمية والوكالات المتخصصة والوكالة الدولية للطاقة الذرية وغيرها من المنظمات الدولية المعنية إلى أن تحيل إلى أمانة اللجنة آراءها بشأن أعمال اللجنة، مشفوعة بأي تعليقات قد تود إبداءها على التوصيات المتعلقة بنقل البضائع الخطرة؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="MercuryDocument">
+        <num>4 -</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve">	<span class="bold italic">يدعو</span> جميعَ الحكومات المهتمة واللجان الإقليمية والوكالات المتخصصة والمنظمات الدولية المعنية إلى أن تأخذ توصيات اللجنة في الاعتبار عند وضع أو تحديث المدونات واللوائح التنظيمية الملائمة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="MercuryDocument">
+        <num>5 -</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">	<span class="bold italic">يطلب</span> إلى اللجنة أن تدرس، بالتشاور مع المنظمة البحرية الدولية ومنظمة الطيران المدني الدولي واللجان الإقليمية والمنظمات الحكومية الدولية المعنية، إمكانيات تحسين تطبيق اللائحة التنظيمية النموذجية لنقل البضائع الخطرة في جميع البلدان من أجل كفالة تحقيق مستوى عالٍ من السلامة وإزالة الحواجز التقنية التي تعترض سبيل التجارة الدولية، بما في ذلك عن طريق مواصلة مواءمة الاتفاقات أو الاتفاقيات الدولية التي تحكم النقل الدولي للبضائع الخطرة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_26" class="MercuryDocument">
+        <num>6 -</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve">	<span class="bold italic">يدعو</span> جميعَ الحكومات، وكذلك اللجان والمنظمات الإقليمية المعنية، والمنظمة البحرية الدولية ومنظمة الطيران المدني الدولي إلى تقديم تعليقات إلى اللجنة بشأن أوجه التباين بين أحكام الصكوك القانونية الوطنية أو الإقليمية أو الدولية وأحكام اللائحة التنظيمية النموذجية، بهدف تمكين اللجنة من وضع مبادئ توجيهية تعاونية لتعزيز الاتساق بين هذه الشروط والتقليل من العوائق التي لا ضرورة لها؛ وتحديد ما هو قائم من اختلافات موضوعية دولية وإقليمية ووطنية، بهدف التقليل من تلك الاختلافات لدى المعالجة النموذجية إلى أكبر حد عملي ممكن وكفالة ألا تشكل هذه الاختلافات، متى كانت ضرورية، عقبات تحول دون النقل الآمن والمتسم بالكفاءة للبضائع الخطرة؛ وإجراء استعراض تحريري للائحة التنظيمية النموذجية وصكوك الوسائط المختلفة بغية تحسين وضوحها وتسهيل استخدامها وتيسير ترجمتها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="MercuryDocument">
+        <content eId="para_27__content">
+          <p xml:space="preserve">
+            <span class="bold">		باء</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="MercuryDocument">
+        <content eId="para_28__content">
+          <p xml:space="preserve">
+            <span class="bold">		أعمال اللجنة في ما يتعلق بالنظام المنسَّق عالميا لتصنيف المواد الكيميائية ووسمها</span>
+          </p>
+        </content>
+      </paragraph>
+      <crossHeading refersTo="#preamble" eId="preamble_29">
+        <span class="bold italic">إذ يشير</span> إلى أن مؤتمر القمة العالمي للتنمية المستدامة قد شجع البلدان، في الفقرة 23 (ج) من خطة التنفيذ (خطة جوهانسبرغ للتنفيذ)<sup>(</sup><authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	()	تقرير مؤتمر القمة العالمي للتنمية المستدامة، جوهانسبرغ، جنوب أفريقيا، 26 آب/أغسطس - 4 أيلول/سبتمبر 2002 (منشورات الأمم المتحدة، رقم المبيع A.03.II.A.1 والتصويب)، الفصل الأول، القرار 2، المرفق.</p></authorialNote><sup>)</sup>، على تطبيق النظام المنسق عالميا لتصنيف المواد الكيميائية ووسمها في أقرب وقت ممكن من أجل تفعيل هذا النظام بالكامل بحلول عام 2008،</crossHeading>
+      <crossHeading refersTo="#preamble" eId="preamble_30">
+        <span class="bold italic">وإذ يشير أيضا</span> إلى أن الجمعية العامة أقرت، في قرارها <a href="https://docs.un.org/ar/A/RES/57/253">57/253</a> المؤرخ 20 كانون الأول/ديسمبر 2002، خطة جوهانسبرغ للتنفيذ وطلبت إلى المجلس الاقتصادي والاجتماعي تنفيذ الأحكام المتصلة بولايته من الخطة، وبخاصة تعزيز تنفيذ جدول أعمال القرن 21<sup>(</sup><authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">	()	تقريـــر مؤتمــر الأمــم المتحـــدة المعــني بالبيئــة والتنميـة، ريـــو دي جانيرو، 14-3 حزيران/يونيه 1992، المجلد الأول، القرارات التي اتخذها المؤتمر (منشورات الأمــم المتحــدة، رقــم المبيع A.93.I.8 والتصويب)، القرار 1، المرفق الثاني.</p></authorialNote><sup>)</sup> بتدعيم التنسيق على نطاق المنظومة،</crossHeading>
+      <crossHeading refersTo="#preamble" eId="preamble_31">
+        <span class="bold italic">وإذ يضع في اعتباره</span> التزام الدول الأعضاء بالعمل من أجل التنفيذ الكامل، بحلول عام 2030، لأهداف التنمية المستدامة والغايات ذات الصلة، على النحو الذي وافقت عليه الجمعية العامة في قرارها <a href="https://docs.un.org/ar/A/RES/70/1">70/1</a> المؤرخ 25 أيلول/سبتمبر 2015، المعنون ”تحويل عالمنا: خطة التنمية المستدامة لعام 2030“، ولا سيما الغاية 12-4 المتعلقة بتحقيق الإدارة السليمة بيئيا للمواد الكيميائية والنفايات طوال دورة عمرها وفقا للأطر الدولية المتفق عليها،</crossHeading>
+      <crossHeading refersTo="#preamble" eId="preamble_32">
+        <span class="bold italic">وإذ يضع في اعتباره أيضاً</span> اعتماد الإطار العالمي المتعلق بالمواد الكيميائية - من أجل كوكب خالٍ من الأضرار الناجمة عن المواد الكيميائية والنفايات في أيلول/سبتمبر 2023 خلال الدورة الخامسة للمؤتمر الدولي المعني بإدارة المواد الكيميائية كخطة شاملة لتوجيه البلدان والجهات المعنية في النظر بشكل مشترك في دورة حياة المواد الكيميائية، ولا سيما الهدف باء-6 الذي يدعو جميعَ الحكومات إلى تنفيذ النظام المنسق عالمياً في جميع القطاعات ذات الصلة بحلول عام 2030 بما يتناسب وظروفها الوطنية،</crossHeading>
+      <crossHeading refersTo="#preamble" eId="preamble_33">
+        <span class="bold italic">	وإذ يلاحظ بارتياح</span>:</crossHeading>
+      <paragraph eId="para_34" class="MercuryDocument">
+        <num>(أ)</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	أن اللجنة الاقتصادية لأوروبا وجميع برامج الأمم المتحدة ووكالاتها المتخصصة المعنية بالسلامة الكيميائية في ميدان النقل أو البيئة، وبخاصة المنظمة البحرية الدولية ومنظمة الطيران المدني الدولي وبرنامج الأمم المتحدة للبيئة، قد اتخذت بالفعل الخطوات المناسبة لتعديل أو تحديث صكوكها القانونية بغية تطبيق النظام المنسّق عالميا،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_35" class="MercuryDocument">
+        <num>(ب)</num>
+        <content eId="para_35__content">
+          <p xml:space="preserve">	أن منظمة العمل الدولية ومنظمة الأغذية والزراعة للأمم المتحدة ومنظمة الصحة العالمية قد اتخذت أيضا الخطوات المناسبة لتكييف توصياتها ومدوناتها ومبادئها التوجيهية الحالية المتعلقة بالسلامة الكيميائية مع النظام المنسق عالميا، وبخاصة في مجالي الصحة والسلامة المهنيتين، ومنع وقوع حوادث صناعية كبرى، وإدارة مبيدات الآفات والوقاية من التسمم ومعالجته،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="MercuryDocument">
+        <num>(ج)</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve">	أن العديد من الدول الأعضاء قد أصدرت بالفعل تشريعات أو معايير وطنية موضوعة لتنفيذ النظام المنسق عالميا، أو تتيح تنفيذه، في قطاع واحد أو أكثر من قطاعات النقل،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="MercuryDocument">
+        <num>(د)</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve">	أن العمل على تطوير أو تنقيح التشريعات أو المعايير أو المبادئ التوجيهية الوطنية الموضوعة لتنفيذ النظام المنسق عالميا مستمر في بلدان أخرى، في حين تجرى حاليا بعض الأنشطة المتعلقة بوضع خطط تنفيذ قطاعية أو استراتيجيات تنفيذ وطنية أو من المتوقع أن يشرع فيها،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="MercuryDocument">
+        <num>(ه)</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve">	أن عددا من برامج الأمم المتحدة ووكالاتها المتخصصة والمنظمات الإقليمية، ولا سيما معهد الأمم المتحدة للتدريب والبحث وبرنامج الأمم المتحدة للبيئة ومنظمة العمل الدولية ومنظمة الصحة العالمية واللجنة الاقتصادية لأوروبا ومنتدى التعاون الاقتصادي لآسيا والمحيط الهادئ ومنظمة التعاون والتنمية في الميدان الاقتصادي والاتحاد الأوروبي والحكومات والمنظمات غير الحكومية الممثلة للصناعات الكيميائية، يواصل الدعوة من أجل تنفيذ النظام المنسّق عالميا من خلال تنظيم حلقات عمل وحلقات دراسية وأنشطة أخرى لبناء القدرات على كل من الصعد الدولي والإقليمي ودون الإقليمي والوطني وكذلك عن طريق تنفيذ أحكامه من خلال الصكوك القانونية أو مدونات الممارسات أو التوصيات أو المواد التوجيهية التي تقع تحت مسؤوليتها،</p>
+        </content>
+      </paragraph>
+      <crossHeading refersTo="#preamble" eId="preamble_45">
+        <span class="bold italic">وإذ يدرك</span> أن التطبيق الفعلي سيتطلب مزيدا من التعاون بين لجنة الخبراء الفرعية المعنية بالنظام المنسّق عالميا لتصنيف المواد الكيميائية ووسمها والهيئات الدولية المعنية، واستمرارَ الجهود التي تبذلها حكومات الدول الأعضاء، والتعاونَ مع الصناعة والجهات المعنية الأخرى، وتقديمَ دعم كبير لأنشطة بناء القدرات في البلدان التي تمر اقتصاداتها بمرحلة انتقالية والبلدان النامية،</crossHeading>
+      <crossHeading refersTo="#preamble" eId="preamble_46">
+        <span class="bold italic">وإذ يشير</span> إلى الأهمية الخاصة للشراكة العالمية لبناء القدرات من أجل تطبيق النظام المنسّق عالميا لتصنيف المواد الكيميائية ووسمها بين معهد الأمم المتحدة للتدريب والبحث ومنظمة العمل الدولية ومنظمة التعاون والتنمية في الميدان الاقتصادي من أجل بناء القدرات على جميع المستويات،</crossHeading>
+      <paragraph eId="para_47" class="MercuryDocument">
+        <num>1 -</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	<span class="bold italic">يثني</span> على الأمين العام لنشر الطبعة المنقحة العاشرة من <span class="italic">النظام المنسّق عالميا لتصنيف المواد الكيميائية ووسمها</span><sup>(</sup><authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">	()	منشورات الأمم المتحدة، 2023.</p></authorialNote><sup>)</sup> باللغات الرسمية الست للأمم المتحدة، إلكترونيا وفي شكل كتاب، وإتاحته مع ما يتصل به من مواد إعلامية على الموقع الشبكي للجنة الاقتصادية لأوروبا التي تقدم خدمات الأمانة للجنة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="MercuryDocument">
+        <num>2 -</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve">	<span class="bold italic">يعرب عن بالغ تقديره</span> للجنة وللجنة الاقتصادية لأوروبا ولبرامج الأمم المتحدة ووكالاتها المتخصصة والمنظمات الأخرى المعنية لتعاونها المثمر والتزامها بتطبيق النظام المنسق عالميا؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_50" class="MercuryDocument">
+        <num>3 -</num>
+        <list eId="para_50_list">
+          <intro eId="para_50_list_intro">
+            <p xml:space="preserve">	<span class="bold italic">يطلب </span>إلى الأمين العام:</p>
+          </intro>
+          <point eId="para_50_list_point_أ">
+            <num>(أ)</num>
+            <content eId="para_50_list_point_أ_content">
+              <p xml:space="preserve">	أن يعمم تعديلات<sup>(</sup><authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">	()	<a href="https://docs.un.org/ar/ST/SG/AC.10/52/Add.3">ST/SG/AC.10/52/Add.3</a>.</p></authorialNote><sup>)</sup> الطبعة المنقحة العاشرة من <span class="italic">النظام المنسّق عالميا</span> على حكومات الدول الأعضاء والوكالات المتخصصة وغيرها من المنظمات الدولية المعنية؛</p>
+            </content>
+          </point>
+          <point eId="para_50_list_point_ب">
+            <num>(ب)</num>
+            <content eId="para_50_list_point_ب_content">
+              <p xml:space="preserve">	أن ينشر الطبعة المنقحة الحادية عشرة من <span class="italic">النظام المنسق عالميا</span> بجميع اللغات الرسمية للأمم المتحدة، وبأكثر الطرق فعالية من حيث التكاليف، في موعد أقصاه نهاية عام 2025، وأن يتيحها إلكترونيا وعلى شكل كتاب وعلى الموقع الشبكي للجنة الاقتصادية لأوروبا؛</p>
+            </content>
+          </point>
+          <point eId="para_50_list_point_ج">
+            <num>(ج)</num>
+            <content eId="para_50_list_point_ج_content">
+              <p xml:space="preserve">	أن يواصل إتاحة المعلومات عن تطبيق النظام المنسق عالميا عبر الموقع الشبكي للجنة الاقتصادية لأوروبا<sup>(</sup><authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">	()	<a href="https://unece.org/ghs-implementation-0">https://unece.org/ghs-implementation-0</a>.</p></authorialNote><sup>)</sup>؛</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_53" class="MercuryDocument">
+        <num>4 -</num>
+        <content eId="para_53__content">
+          <p xml:space="preserve">	<span class="bold italic">يدعو</span> الحكومات التي لم تتخذ بعد الخطوات اللازمة لتطبيق النظام المنسق عالميا إلى أن تفعل ذلك في أقرب وقت ممكن من خلال اتخاذ إجراءات و/أو سن تشريعات وطنية مناسبة، وأن تواصل تحديثها على نحو يراعي التوصيات التي تقدمها اللجنة كل سنتين؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_57" class="MercuryDocument">
+        <num>5 -</num>
+        <content eId="para_57__content">
+          <p xml:space="preserve">	<span class="bold italic">يكرر تأكيد دعوته</span> للجان الإقليمية وبرامج الأمم المتحدة ووكالاتها المتخصصة والمنظمات الأخرى المعنية إلى أن تعزز تطبيق النظام المنسق عالميا وأن تقوم، عند الاقتضاء، بتعديل صكوكها القانونية الدولية الخاصة بها المتصلة بسلامة النقل أو السلامة في أماكن العمل أو حماية المستهلك أو حماية البيئة بغية وضع النظام المنسق عالميا موضع التطبيق عن طريق هذه الصكوك؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_62" class="MercuryDocument">
+        <num>6 -</num>
+        <content eId="para_62__content">
+          <p xml:space="preserve">	<span class="bold italic">يدعو</span> الحكومات واللجان الإقليمية وبرامج الأمم المتحدة ووكالاتها المتخصصة والمنظمات المعنية الأخرى إلى موافاة لجنة الخبراء الفرعية المعنية بالنظام المنسق عالميا لتصنيف المواد الكيميائية ووسمها بما لديها من تعليقات<sup>(</sup><authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">	()	انظر <a href="https://unece.org/transportdangerous-goods/ghs-implementation-information-submission-form">https://unece.org/transportdangerous-goods/ghs-implementation-information-submission-form</a>.</p></authorialNote><sup>)</sup> بشأن الخطوات المتخذة لتطبيق النظام المنسّق عالميا في جميع القطاعات ذات الصلة، عن طريق الصكوك القانونية الدولية والتوصيات والمدونات والمبادئ التوجيهية أو الإقليمية أو الوطنية، بما في ذلك، حسب الاقتضاء، معلومات عن الفترات الانتقالية لتطبيقه؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_68" class="MercuryDocument">
+        <num>7 -</num>
+        <content eId="para_68__content">
+          <p xml:space="preserve">	<span class="bold italic">يشجع</span> الحكومات واللجان الإقليمية وبرامج الأمم المتحدة ووكالاتها المتخصصة وغيرها من المنظمات الدولية والمنظمات غير الحكومية ذات الصلة، ولا سيما المنظمات التي تمثل قطاع الصناعة، على تعزيز دعمها لتطبيق النظام المنسّق عالميا بتقديم تبرعات مالية و/أو مساعدة تقنية لأنشطة بناء القدرات في البلدان النامية والبلدان التي تمر اقتصاداتها بمرحلة انتقالية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="MercuryDocument">
+        <content eId="para_69__content">
+          <p xml:space="preserve">
+            <span class="bold">		جيم</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_70" class="MercuryDocument">
+        <content eId="para_70__content">
+          <p xml:space="preserve">
+            <span class="bold">		نطاق وبرنامج عمل اللجنة</span>
+          </p>
+        </content>
+      </paragraph>
+      <crossHeading refersTo="#preamble" eId="preamble_71">
+        <span class="bold italic">إذ يحيط علما</span> ببرنامج عمل اللجنة لفترة السنتين 2025-2026 على النحو الوارد في الفقرات 51 إلى 56 من تقرير الأمين العام<sup>(</sup><authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">	()	<a href="https://docs.un.org/ar/E/2025/72">E/2025/72</a>.</p></authorialNote><sup>)</sup>،</crossHeading>
+      <crossHeading refersTo="#preamble" eId="preamble_72">
+        <span class="bold italic">وإذ يلاحظ</span> المستوى المتدني نسبيا لمشاركة الخبراء من البلدان النامية والبلدان التي تمر اقتصاداتها بمرحلة انتقالية في أعمال اللجنة وضرورة تعزيز مشاركتهم على نطاق أوسع في أعمالها،</crossHeading>
+      <crossHeading refersTo="#preamble" eId="preamble_73">
+        <span class="bold italic">وإذ يلاحظ أيضا</span> أنه في أعقاب إعادة تشكيل اللجنة وإنشاء لجنة الخبراء الفرعية المعنية بالنظام المنسّق عالميا لتصنيف المواد الكيميائية ووسمها وفقا للقرار <a href="https://docs.un.org/ar/E/RES/1999/65">1999/65</a> المؤرخ 26 تشرين الأول/ أكتوبر 1999، جرى توسيع نطاق عمل اللجنة ليشمل لا نقل البضائع الخطرة فحسب بل أيضا تنفيذ وتحديث النظام المنسّق عالميا،</crossHeading>
+      <paragraph eId="para_74" class="MercuryDocument">
+        <num>1 -</num>
+        <content eId="para_74__content">
+          <p xml:space="preserve">	<span class="bold italic">يقرر</span> الموافقة على برنامج عمل اللجنة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_75" class="MercuryDocument">
+        <num>2 -</num>
+        <content eId="para_75__content">
+          <p xml:space="preserve">	<span class="bold italic">يشدد</span> على أهمية مشاركة خبراء من البلدان النامية والبلدان التي تمر اقتصاداتها بمرحلة انتقالية في أعمال اللجنة ويدعو، في هذا الخصوص، إلى تقديم تبرعات لتيسير مشاركتهم، بما في ذلك عن طريق دعم تكاليف السفر وبدلات الإقامة اليومية، ويدعو الدول الأعضاء والمنظمات الدولية التي تستطيع المساهمة إلى أن تفعل ذلك؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_77" class="MercuryDocument">
+        <num>3 -</num>
+        <content eId="para_77__content">
+          <p xml:space="preserve">	<span class="bold italic">يطلب</span> إلى الأمين العام أن يقدم إلى المجلس الاقتصادي والاجتماعي، في دورته لعام 2027، تقريرا عن تنفيذ هذا القرار، والتوصيات المتعلقة بنقل البضائع الخطرة والنظام المنسق عالميا لتصنيف المواد الكيميائية ووسمها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_80" class="MercuryDocument">
+        <num>4 -</num>
+        <content eId="para_80__content">
+          <p xml:space="preserve">	<span class="bold italic">يقرر</span> الإبقاء على البند الفرعي المعنون ”نقل البضائع الخطرة والنظام المنسق عالمياً لتصنيف المواد الكيميائية ووسمها“ من البند المعنون ”المسائل الاقتصادية والبيئية“ كبند دائم في جدول أعماله.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="39" refersTo="#adoptionMeeting">الجلسة العامة 39</location>
+          <eol />
+          <docDate date="2025-07-29" refersTo="#adoptionDate">29 تموز/يوليه 2025</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

@@ -1,0 +1,409 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-30/2025-33/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-30/2025-33/"></FRBRuri>
+          <FRBRdate date="2025-07-30" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-30/2025-33/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-30/2025-33/ara@/"></FRBRuri>
+          <FRBRdate date="2025-08-13" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-30/2025-33/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-30/2025-33/ara@.xml"></FRBRuri>
+          <FRBRdate date="2025-10-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="HUMANITARIAN ASSISTANCE" href="http://metadata.un.org/thesaurus/1002992" showAs="HUMANITARIAN ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="LIVING CONDITIONS" href="http://metadata.un.org/thesaurus/1003782" showAs="LIVING CONDITIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PALESTINIANS" href="http://metadata.un.org/thesaurus/1004703" showAs="PALESTINIANS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TERRITORIES OCCUPIED BY ISRAEL" href="http://metadata.un.org/thesaurus/1006472" showAs="TERRITORIES OCCUPIED BY ISRAEL" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="WEST BANK" showAs="WEST BANK" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GAZA STRIP" showAs="GAZA STRIP" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="EAST JERUSALEM (STATE OF PALESTINE)" showAs="EAST JERUSALEM (STATE OF PALESTINE)" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GOLAN HEIGHTS" showAs="GOLAN HEIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SETTLEMENT POLICY" href="http://metadata.un.org/thesaurus/1005836" showAs="SETTLEMENT POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ISRAEL" href="http://metadata.un.org/thesaurus/1003439" showAs="ISRAEL" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="17" showAs="Economic and social repercussions of the Israeli occupation on the living conditions of the Palestinian people in the Occupied Palestinian Territory, including East Jerusalem, and the Arab population in the occupied Syrian Golan." shortForm="PALESTINIANS--TERRITORIES OCCUPIED BY ISRAEL--LIVING CONDITIONS" dictionary="E/2025/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-07-22" outcome="draftResolution" as="E/2025/L.27" by="Iraq (on behalf of the States Members of the United Nations that are members of the Group of 77 and China)" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-08-13" outcome="adopted" as="Adopted without vote, 41st plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2025/33</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">إن المجلس الاقتصادي والاجتماعي</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-08-13" class="rightSmall" refersTo="#dateOfIssuance">13 August 2025</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2025" eId="coverPage_1__session_1">دورة عام 2025</session>
+      </p>
+      <p>
+        <inline title="17" name="agenda item">البند 17 من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">الانعكاسات الاقتصادية والاجتماعية للاحتلال الإسرائيلي على الأحوال المعيشية للشعب الفلسطيني في الأرض الفلسطينية المحتلة، بما فيها القدس الشرقية، وللسكان العرب في الجولان السوري المحتل</inline>
+      </p>
+      <p>
+        <docTitle>قرار اتخذه المجلس الاقتصادي والاجتماعي في 30 تموز/يوليه 2025</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#plenaryMeeting">[بناء على مقترح نظر فيه في جلسة عامة (<inline name="originating document">E/2025/L.27</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2025/33</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	الانعكاسات الاقتصادية والاجتماعية للاحتلال الإسرائيلي على الأحوال المعيشية للشعب الفلسطيني في الأرض الفلسطينية المحتلة، بما فيها القدس الشرقية، وللسكان العرب في الجولان السوري المحتل</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold italic">إن المجلس الاقتصادي والاجتماعي</span>،</p>
+      </formula>
+      <container name="إذ يشير" eId="container_2">
+        <p xml:space="preserve">	<span class="bold italic">إذ يشير</span> إلى قراري الجمعية العامة <a href="https://docs.un.org/ar/A/RES/79/91">79/91</a> المؤرخ 4 كانون الأول/ديسمبر 2024 و <a href="https://docs.un.org/ar/A/RES/79/229">79/229</a> المؤرخ 19 كانون الأول/ديسمبر 2024،</p>
+      </container>
+      <container name="وإذ يشير أيضا" eId="container_3">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير أيضا</span> إلى قراره <a href="https://docs.un.org/ar/E/RES/2023/34">2023/34</a> المؤرخ 26 تموز/يوليه 2023،</p>
+      </container>
+      <container name="وإذ يسترشد" eId="container_4">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يسترشد</span> بمبادئ ميثاق الأمم المتحدة التي تؤكد عدم جواز الاستيلاء على الأرض بالقوة، وإذ يشير إلى قرارات مجلس الأمن ذات الصلة، بما فيها القرارات <a href="https://docs.un.org/ar/S/RES/242(1967)">242 (1967)</a> المؤرخ 22 تشرين الثاني/نوفمبر 1967 و <a href="https://docs.un.org/ar/S/RES/252(1968)">252 (1968)</a> المؤرخ 21 أيار/مايو 1968 و <a href="https://docs.un.org/ar/S/RES/338(1973)">338 (1973)</a> المؤرخ 22 تشرين الأول/أكتوبر 1973 و <a href="https://docs.un.org/ar/S/RES/465(1980)">465 (1980)</a> المؤرخ 1 آذار/مارس 1980 و <a href="https://docs.un.org/ar/S/RES/497(1981)">497 (1981)</a> المؤرخ 17 كانون الأول/ديسمبر 1981 و <a href="https://docs.un.org/ar/S/RES/2334(2016)">2334 (2016)</a> المؤرخ 23 كانون الأول/ديسمبر 2016،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_5">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير</span> إلى القرارات التي اتخذتها الجمعية العامة في دورتها الاستثنائية الطارئة العاشرة، بما فيها القرارات <a href="https://docs.un.org/ar/A/RES/ES-10/13">دإط-10/13</a> المؤرخ 21 تشرين الأول/أكتوبر 2003 و <a href="https://docs.un.org/ar/A/RES/ES-10/14">دإط-10/14</a> المؤرخ 8 كانون الأول/ ديسمبر2003 و <a href="https://docs.un.org/ar/A/RES/ES-10/15">دإط-10/15</a> المؤرخ 20 تموز/يوليه 2004 و <a href="https://docs.un.org/ar/A/RES/ES-10/17">دإط-10/17</a> المؤرخ 15 كانون الأول/ ديسمبر 2006،</p>
+      </container>
+      <container name="وإذ يحيط علما" eId="container_6">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يحيط علما</span> بتقرير اللجنة الاقتصادية والاجتماعية لغرب آسيا عن الانعكاسات الاقتصادية والاجتماعية للاحتلال الإسرائيلي على الأحوال المعيشية للشعب الفلسطيني في الأرض الفلسطينية المحتلة، بما فيها القدس الشرقية، وللسكان العرب في الجولان السوري المحتل، بالصيغة التي أحاله بها الأمين العام<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	()	<a href="https://docs.un.org/ar/A/79/975">A/79/975-E/2025/82</a>.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_7">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يؤكد من جديد</span> أن اتفاقية جنيف المتعلقة بحماية المدنيين وقت الحرب، المؤرخة 12 آب/أغسطس 1949<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	()	United Nations, <span class="italic">Treaty Series</span>, vol. 75, No. 973.</p></authorialNote><sup>)</sup>، تنطبق على الأرض الفلسطينية المحتلة، بما فيها القدس الشرقية، وعلى الأراضي العربية الأخرى التي تحتلها إسرائيل منذ عام 1967،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_8">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير</span> إلى العهد الدولي الخاص بالحقوق المدنية والسياسية<sup>(</sup><authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	()	انظر قرار الجمعية العامة 2200 ألف (د-21)، المرفق.</p></authorialNote><sup>)</sup> والعهد الدولي الخاص بالحقوق الاقتصادية والاجتماعية والثقافية<sup>(</sup><authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">	()	المرجع نفسه.</p></authorialNote><sup>)</sup> واتفاقية حقوق الطفل<sup>(</sup><authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">	()	United Nations, <span class="italic">Treaty Series</span>, vol. 1577, No. 27531.</p></authorialNote><sup>)</sup>، وإذ يؤكد أن هذه الصكوك المتعلقة بحقوق الإنسان سارية ويجب احترامها في الأرض الفلسطينية المحتلة، بما فيها القدس الشرقية، وفي الجولان السوري المحتل،</p>
+      </container>
+      <container name="وإذ يلاحظ بقلق" eId="container_9">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يلاحظ بقلق</span> أنه قد مضى أكثر من 77 سنة على اتخاذ الجمعية العامة قرارها 181 (د-2) المؤرخ 29 تشرين الثاني/نوفمبر 1947، ومرّ 58 سنة على احتلال الأرض الفلسطينية، بما في ذلك القدس الشرقية، في عام 1967،</p>
+      </container>
+      <container name="وإذ يحيط علما" eId="container_10">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يحيط علما</span>، في هذا الصدد، بانضمام فلسطين إلى عدد من معاهدات حقوق الإنسان، وإلى الاتفاقيات الأساسية المتعلقة بالقانون الإنساني، إضافة إلى معاهدات دولية أخرى،</p>
+      </container>
+      <container name="وإذ يحيط علما أيضا" eId="container_11">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يحيط علما أيضا</span> بقرار الجمعية العامة <a href="https://docs.un.org/ar/A/RES/67/19">67/19</a> المؤرخ 29 تشرين الثاني/نوفمبر 2012،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_12">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشدد</span> على الضرورة الملحة لوضع نهاية، دون تأخير، للاحتلال الإسرائيلي الذي بدأ في عام 1967 وتحقيق تسوية سلمية عادلة ودائمة وشاملة على جميع المسارات على أساس قرارات مجلس الأمن <a href="https://docs.un.org/ar/S/RES/242(1967)">242 (1967)</a> و <a href="https://docs.un.org/ar/S/RES/338(1973)">338 (1973)</a> و <a href="https://docs.un.org/ar/S/RES/425(1978)">425 (1978)</a> المؤرخ 19 آذار/مارس 1978 و <a href="https://docs.un.org/ar/S/RES/1397(2002)">1397 (2002)</a> المؤرخ 12 آذار/مارس 2002 و <a href="https://docs.un.org/ar/S/RES/1515(2003)">1515 (2003)</a> المؤرخ 19 تشرين الثاني/نوفمبر 2003 و <a href="https://docs.un.org/ar/S/RES/1544(2004)">1544 (2004)</a> المؤرخ 19 أيار/مايو 2004 و <a href="https://docs.un.org/ar/S/RES/1850(2008)">1850 (2008)</a> المؤرخ 16 كانون الأول/ديسمبر 2008 و <a href="https://docs.un.org/ar/S/RES/2334(2016)">2334 (2016)</a> ومبدأ الأرض مقابل السلام ومبادرة السلام العربية<sup>(</sup><authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">	()	<a href="https://docs.un.org/ar/A/56/1026">A/56/1026-S/2002/932</a>، المرفق الثاني، القرار <a href="https://docs.un.org/ar/A/RES/14/221">14/221</a>.</p></authorialNote><sup>)</sup> وخريطة الطريق التي وضعتها المجموعة الرباعية<sup>(</sup><authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">	()	<a href="https://docs.un.org/ar/S/2003/529">S/2003/529</a>، المرفق.</p></authorialNote><sup>)</sup>، وعلى الضرورة الملحة للامتثال للاتفاقات التي تم التوصل إليها بين حكومة إسرائيل ومنظمة التحرير الفلسطينية، ممثلة الشعب الفلسطيني،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_13">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يؤكد من جديد</span> مبدأ السيادة الدائمة للشعوب الواقعة تحت الاحتلال الأجنبي على مواردها الطبيعية، وإذ يعرب عن قلقه في هذا الصدد من قيام إسرائيل، السلطة القائمة بالاحتلال، والمستوطنين الإسرائيليين باستغلال الموارد الطبيعية وتعريضها للخطر واستنزافها في الأرض الفلسطينية المحتلة، بما فيها القدس الشرقية، وفي الجولان السوري المحتل، وبخاصة نتيجة للأنشطة الاستيطانية التي هي أنشطة غير قانونية بموجب القانون الدولي ومن المؤسف أنها تواصلت خلال الفترة المشمولة بالتقرير،</p>
+      </container>
+      <container name="واقتناعا منه" eId="container_14">
+        <p xml:space="preserve">	<span class="bold italic">واقتناعا منه</span> بأن الاحتلال الإسرائيلي يعوق بشكل خطير الجهود المبذولة لتحقيق التنمية المستدامة بيئيا وتهيئة بيئة اقتصادية سليمة في الأرض الفلسطينية المحتلة، بما فيها القدس الشرقية، وفي الجولان السوري المحتل، وإذ يعرب عن قلقه البالغ مما ينتج عن ذلك من تدهور في الأحوال الاقتصادية والمعيشية،</p>
+      </container>
+      <container name="وإذ يعرب عن الجزع" eId="container_15">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يعرب عن الجزع</span>، في هذا الصدد، إزاء الحالة الإنسانية الكارثية في قطاع غزة بسبب الحصار، والانعكاسات السلبية الخطيرة للعمليات العسكرية في قطاع غزة على البنى التحتية الاقتصادية والاجتماعية والظروف المعيشية،</p>
+      </container>
+      <container name="وإذ يشيد" eId="container_16">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشيد</span>، على الرغم من المعوقات العديدة، بما في ذلك العراقيل التي يفرضها الاحتلال الإسرائيلي المستمر، بالجهود التي تبذلها الحكومة الفلسطينية لتحسين الحالة الاقتصادية والاجتماعية في الأرض الفلسطينية المحتلة، وخصوصاً في مجالات الحوكمة وسيادة القانون وحقوق الإنسان وسبل كسب المعيشة والقطاعات الإنتاجية والتعليم والثقافة والصحة والحماية الاجتماعية والبنى التحتية والمياه،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_17">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشدد</span> على أهمية إطار الأمم المتحدة للتعاون من أجل التنمية المستدامة الذي يهدف إلى تحقيق أمور منها تعزيز الدعم والمساعدة المقدَّمين إلى الشعب الفلسطيني من أجل التنمية وتعزيز القدرات المؤسسية وفقاً للأولويات الوطنية الفلسطينية،</p>
+      </container>
+      <container name="وإذ يساوره بالغ القلق" eId="container_18">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يساوره بالغ القلق</span> من تسارع بناء المستوطنات وتنفيذ إسرائيل تدابير أخرى تتصل بذلك في الأرض الفلسطينية المحتلة، وبخاصة في القدس الشرقية المحتلة وحولها، وفي الجولان السوري المحتل، انتهاكاً للقانون الدولي الإنساني وقرارات الأمم المتحدة ذات الصلة، وإذ يشدد على أن هذه التدابير غير القانونية هي مصادر رئيسية للانتهاكات والسياسات التمييزية الإسرائيلية الأخرى،</p>
+      </container>
+      <container name="وإذ يشجع" eId="container_19">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشجع</span> جميع الدول والمنظمات الدولية على أن تواصل بنشاط اتباع سياسات تكفل احترام التزاماتها بموجب القانون الدولي في ما يتعلق بجميع الممارسات والتدابير الإسرائيلية غير القانونية في الأرض الفلسطينية المحتلة، بما فيها القدس الشرقية، وبخاصة المستوطنات الإسرائيلية،</p>
+      </container>
+      <container name="وإذ يحيط علما" eId="container_20">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يحيط علما</span> بتقرير البعثة الدولية المستقلة لتقصي الحقائق من أجل التحقيق في آثار بناء المستوطنات الإسرائيلية على الحقوق المدنية والسياسية والاقتصادية والاجتماعية والثقافية للشعب الفلسطيني في جميع أنحاء الأرض الفلسطينية المحتلة، بما فيها القدس الشرقية<sup>(</sup><authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">	()	<a href="https://docs.un.org/ar/A/HRC/22/63">A/HRC/22/63</a>.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ يعرب عن بالغ القلق" eId="container_21">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يعرب عن بالغ القلق</span> من تزايد أعمال العنف والمضايقات والاستفزاز والتخريب والتحريض في الأرض الفلسطينية المحتلة، بما فيها القدس الشرقية، وبخاصة الأعمال التي يقوم بها المستوطنون الإسرائيليون المسلحون غير القانونيين ضد المدنيين الفلسطينيين، بمن فيهم الأطفال، وضد ممتلكاتهم، بما فيها المنازل والمواقع التاريخية والدينية والأراضي الزراعية، وإذ يدعو إلى المحاسبة على الأعمال غير القانونية المرتكبة في هذا الصدد،</p>
+      </container>
+      <container name="وإذ يساوره بالغ القلق" eId="container_22">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يساوره بالغ القلق</span> من الانعكاسات الخطيرة على الأحوال الاقتصادية والاجتماعية للشعب الفلسطيني بسبب تشييد إسرائيل الجدار والنظام المرتبط به داخل الأرض الفلسطينية المحتلة، بما في ذلك في القدس الشرقية وحولها، وما يؤدي إليه ذلك من انتهاك لحقوق الشعب الفلسطيني الاقتصادية والاجتماعية، بما في ذلك حقه في العمل والصحة والتعليم والتملك والتمتع بمستوى معيشي لائق وبحرية الوصول والتنقل،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_23">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير</span> في هذا الصدد إلى الفتوى التي أصدرتها محكمة العدل الدولية في 9 تموز/يوليه 2004 بشأن الآثار القانونية الناشئة عن تشييد جدار في الأرض الفلسطينية المحتلة<sup>(</sup><authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">	()	انظر <a href="https://docs.un.org/ar/A/ES-10/273">A/ES-10/273</a> و <a href="https://docs.un.org/ar/A/ES-10/273/Corr.1">A/ES-10/273/Corr.1</a>.</p></authorialNote><sup>)</sup> وإلى قرار الجمعية العامة <a href="https://docs.un.org/ar/A/RES/ES-10/15">دإط-10/15</a>، وإذ يؤكد ضرورة التقيد بالالتزامات المذكورة فيهما،</p>
+      </container>
+      <container name="وإذ يشير أيضا" eId="container_24">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يشير أيضا </span>إلى الفتوى التي أصدرتها محكمة العدل الدولية في 19 تموز/يوليه 2024 بشأن الآثار القانونية الناشئة عن سياسات إسرائيل وممارساتها في الأرض الفلسطينية المحتلة، بما فيها القدس الشرقية، وعن عدم قانونية استمرار وجود إسرائيل في الأرض الفلسطينية المحتلة<sup>(</sup><authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">	()	<a href="https://docs.un.org/ar/A/78/968">A/78/968</a>.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ يعرب عن استيائه" eId="container_25">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يعرب عن استيائه</span> من جميع الخسائر في الأرواح والإصابات التي وقعت في صفوف المدنيين الأبرياء، وإذ يهيب بجميع الأطراف احترام القانون الدولي احتراماً تاماً، بما في ذلك القانون الدولي الإنساني والقانون الدولي لحقوق الإنسان، لأغراض منها حماية أرواح المدنيين، وكذلك من أجل تعزيز أمن الناس، وتهدئة الوضع القائم، وممارسة ضبط النفس، بما في ذلك إزاء الأعمال والخطابات الاستفزازية، وتهيئة بيئة مستقرة مواتية للسعي إلى تحقيق السلام،</p>
+      </container>
+      <container name="وإذ يعرب عن بالغ القلق" eId="container_26">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يعرب عن بالغ القلق</span> من الدمار الشديد الذي تلحقه إسرائيل، السلطة القائمة بالاحتلال، بالممتلكات، بما في ذلك التدمير المتزايد للمنازل والمؤسسات الاقتصادية والمعالم التاريخية والأراضي الزراعية والبساتين في الأرض الفلسطينية المحتلة، بما فيها القدس الشرقية، وبوجه خاص إزاء ما يتصل بتشييدها للمستوطنات والجدار ومصادرتها للأراضي، على نحو يتنافى مع القانون الدولي، في الأرض الفلسطينية المحتلة، بما في ذلك في القدس الشرقية وحولها،</p>
+      </container>
+      <container name="وإذ يعرب عن بالغ القلق أيضا" eId="container_27">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يعرب عن بالغ القلق أيضا</span> من استمرار النزوح القسري للمدنيين الفلسطينيين، بمن فيهم أهالي البدو، وسلب ممتلكاتهم بسبب استمرار وتكثيف سياسة هدم المنازل وطرد سكانها وإلغاء حقهم في الإقامة في القدس الشرقية المحتلة وحولها، ومن التدابير المتخذة لمواصلة عزل المدينة عن جوارها الفلسطيني الطبيعي، مما أدى إلى تفاقم خطير للحالة الاجتماعية والاقتصادية الحرجة أصلا التي يعيش فيها السكان الفلسطينيون،</p>
+      </container>
+      <container name="وإذ يعرب عن بالغ القلق كذلك" eId="container_28">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يعرب عن بالغ القلق كذلك</span> من استمرار ما تقوم به إسرائيل من عمليات عسكرية وسياسات قائمة على إغلاق المناطق وفرض قيود صارمة على تنقل الأشخاص ونقل البضائع وإغلاق المعابر وإقامة نقاط التفتيش والعمل بنظام للتصاريح في أرجاء الأرض الفلسطينية المحتلة، بما فيها القدس الشرقية، وما يخلفه ذلك من أثر سلبي في الحالة الاجتماعية والاقتصادية للشعب الفلسطيني، وبخاصة اللاجئون الفلسطينيون، الأمر الذي لا يزال يشكل أزمة إنسانية،</p>
+      </container>
+      <container name="وإذ يعرب عن بالغ القلق" eId="container_29">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يعرب عن بالغ القلق</span>، بوجه خاص، من الأزمة التي لا تزال قائمة في قطاع غزة بسبب إغلاق إسرائيل المناطق لفترات طويلة وفرضها قيوداً شديدة على النشاط الاقتصادي والتنقل، مما يشكل حصاراً فعلياً على القطاع، وإذ يؤكد أن هذا الوضع غير قابل للاستمرار، كما ورد في تقارير عديدة من بينها التقرير الصادر في 26 آب/أغسطس 2016 عن فريق الأمم المتحدة القطري، بعنوان ”غزة بعد مرور سنتين“، وإذ يدعو في هذا الصدد إلى تنفيذ قرار مجلس الأمن <a href="https://docs.un.org/ar/S/RES/1860(2009)">1860 (2009)</a> المؤرخ 8 كانون الثاني/يناير 2009 بالكامل لكفالة فتح معابر الحدود بصورة كاملة من أجل استمرار تنقل الأشخاص ونقل البضائع بصورة منتظمة، بما في ذلك إيصال المعونة الإنسانية والتدفقات التجارية ومواد البناء، وإذ يشدد على ضرورة كفالة الأمن لجميع السكان المدنيين،</p>
+      </container>
+      <container name="وإذ يعرب عن استيائه" eId="container_30">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يعرب عن استيائه</span> من النزاع الدائر في قطاع غزة والمناطق المحيطة به، وما أحدثه من خسائر في صفوف المدنيين، بما في ذلك قتل وجرح آلاف المدنيين الفلسطينيين، من بينهم الأطفال والنساء وكبار السن، والتدمير أو الإتلاف الواسع النطاق لآلاف المنازل والبنى التحتية المدنية الحيوية، بما فيها المدارس والمستشفيات ومرافق المياه والصرف الصحي وشبكات الكهرباء والممتلكات الاقتصادية والصناعية والزراعية والمؤسسات العامة والمواقع الدينية والمدارس والمرافق التابعة للأمم المتحدة، وكذلك النزوح الداخلي لمليونين من المدنيين، واستيائه من أي انتهاكات للقانون الدولي ارتكبت في هذا الصدد، بما في ذلك القانون الإنساني وقانون حقوق الإنسان،</p>
+      </container>
+      <container name="وإذ يساوره بالغ القلق" eId="container_31">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يساوره بالغ القلق</span> مما خلفته العمليات العسكرية من آثار سلبية طويلة الأمد وواسعة النطاق تضر بالأحوال الاقتصادية وبالخدمات الاجتماعية وبالظروف المعيشية الاجتماعية والإنسانية والمادية للسكان المدنيين الفلسطينيين، بمن فيهم اللاجئون الفلسطينيون،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_32">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير</span> في هذا الصدد إلى تقارير الأمم المتحدة ذات الصلة بالموضوع، بما فيها تقارير المجلس الاقتصادي والاجتماعي واللجنة الاقتصادية والاجتماعية لغرب آسيا ومجلس حقوق الإنسان،</p>
+      </container>
+      <container name="وإذ يعرب عن بالغ القلق" eId="container_33">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يعرب عن بالغ القلق</span> مما يُخلِّفه ما تقوم به إسرائيل، السلطة القائمة بالاحتلال، من تدمير واسع النطاق ومن عرقلة لعملية الإعمار، من آثار وخيمة في الأجلين القصير والطويل على الأحوال الاجتماعية والاقتصادية والإنسانية للسكان المدنيين الفلسطينيين في قطاع غزة الذي لا تزال الأزمة الإنسانية تشتد وطأة فيه، وإذ يدعو في هذا الصدد إلى التعجيل فوراً بعملية الإعمار وإتمامها في قطاع غزة بمساعدة البلدان المانحة، ودفع الأموال المتعهد بها، ونتطلع في هذا الصدد إلى المؤتمر الدولي المقبل، الذي سيُعقد في مصر بهدف حشد الدعم للخطة العربية الإسلامية للتعافي المبكر وإعادة إعمار وتنمية غزة،</p>
+      </container>
+      <container name="وإذ يساوره بالغ القلق" eId="container_34">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يساوره بالغ القلق</span> من مختلف التقارير الصادرة عن الأمم المتحدة والوكالات المتخصصة بشأن كثرة الاعتماد على المعونة بسبب إغلاق الحدود لفترات طويلة والارتفاع الحاد في معدلات البطالة وتفشي الفقر والمصاعب الإنسانية الجمة، بما في ذلك انعدام الأمن الغذائي وتزايد المشاكل المتصلة بالصحة، ومنها ارتفاع مستويات سوء التغذية في أوساط الشعب الفلسطيني، وبخاصة الأطفال، في الأرض الفلسطينية المحتلة، بما فيها القدس الشرقية،</p>
+      </container>
+      <container name="وإذ يعرب عن بالغ القلق" eId="container_35">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يعرب عن بالغ القلق</span> من الوفيات والإصابات التي لحقت بالمدنيين، بمن فيهم الأطفال والنساء والمتظاهرون سلمياً، وإذ يشدد على ضرورة حماية السكان المدنيين الفلسطينيين وفقاً للقانون الدولي الإنساني،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_36">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشدد</span> على أهمية سلامة جميع السكان المدنيين ورفاههم، وإذ يدعو إلى وقف جميع أعمال العنف، بما فيها جميع أعمال الترويع والاستفزاز والتحريض والتدمير، وكذلك جميع أعمال إطلاق الصواريخ،</p>
+      </container>
+      <container name="وإذ يعرب عن بالغ القلق" eId="container_37">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يعرب عن بالغ القلق</span> من أن آلاف الفلسطينيين، بمن فيهم الكثير من الأطفال والنساء، لا يزالون محتجزين في السجون أو مراكز الاحتجاز الإسرائيلية في ظروف قاسية تضر بسلامتهم وتشمل احتجازهم في ظروف غير صحية ووضعهم في الحبس الانفرادي والإفراط في اللجوء إلى الاحتجاز الإداري، بما في ذلك في حالات الأطفال، وعدم توفير الرعاية الطبية المناسبة والإهمال الطبي على نطاق واسع، بما في ذلك في حالات المرضى من الأسرى، مع ما يستتبعه ذلك من عواقب مهلكة، ومنع الزيارات الأسرية والحرمان من المحاكمة وفق الأصول القانونية، وإذ يعرب عن بالغ القلق أيضاً من سوء معاملة السجناء والمحتجزين الفلسطينيين ومضايقتهم ومن جميع التقارير التي تفيد بممارسة التعذيب،</p>
+      </container>
+      <container name="وإذ يدرك" eId="container_38">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يدرك</span> الضرورة الملحة لإعادة بناء البنى التحتية الاقتصادية والاجتماعية وتطويرها في الأرض الفلسطينية المحتلة، بما فيها القدس الشرقية، والضرورة الملحة للتصدي للأزمة الإنسانية التي يواجهها الشعب الفلسطيني، بوسائل منها كفالة توفير المساعدة الإنسانية دون معوقات واستمرار تدفق الأشخاص والبضائع من قطاع غزة وإليه بصورة منتظمة،</p>
+      </container>
+      <container name="وإذ ينوه" eId="container_39">
+        <p xml:space="preserve">	<span class="bold italic">وإذ ينوه</span> بالجهود التي تبذلها الحكومة الفلسطينية بدعم دولي لإصلاح مؤسساتها وبناها التحتية وتطويرها وتعزيزها، وإذ يشدد على ضرورة المحافظة على المؤسسات والبنى التحتية الفلسطينية وزيادة تطويرها، بالرغم من العراقيل التي يشكلها الاحتلال الإسرائيلي المتواصل، وإذ يشيد في هذا الصدد بالجهود الجاري بذلها من أجل بناء مؤسسات دولة فلسطينية مستقلة، بطرق منها تنفيذ خطة السياسات الوطنية الفلسطينية،</p>
+      </container>
+      <container name="وإذ يعرب عن القلق" eId="container_40">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يعرب عن القلق</span> من المخاطر التي تتعرض لها الإنجازات الكبيرة التي تحققت، على نحو ما أكدته التقييمات الإيجابية الصادرة عن مؤسسات دولية بشأن مدى الاستعداد لإقامة دولة، بما في ذلك التقييمات الصادرة عن البنك الدولي وصندوق النقد الدولي والأمم المتحدة ولجنة الاتصال المخصصة لتنسيق المساعدة الدولية المقدَّمة إلى الشعب الفلسطيني، وذلك بسبب الأثر السلبي المترتب عن حالة عدم الاستقرار وعن الأزمة المالية اللتين تواجههما حالياً الحكومة الفلسطينية واستمرار انعدام أفق سياسي ذي مصداقية،</p>
+      </container>
+      <container name="وإذ يشيد" eId="container_41">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشيد</span> في هذا الصدد بالأعمال المهمة التي تقوم بها الأمم المتحدة والوكالات المتخصصة والجهات المانحة دعماً للتنمية الاقتصادية والاجتماعية للشعب الفلسطيني، على نحو يتسق مع خطته الوطنية للتنمية وبناء الدولة، وكذلك بالمساعدة الحيوية التي تقدم في إطار المساعدة الإنسانية،</p>
+      </container>
+      <container name="وإذ يؤكد" eId="container_42">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يؤكد</span> الحاجة إلى دعم حكومة الوفاق الوطني الفلسطينية في تحمُّل كامل المسؤوليات الحكومية في كل من الضفة الغربية وقطاع غزة، في جميع الميادين، وكذلك من خلال وجودها عند المعابر الحدودية في غزة، والمصالحة الوطنية الفلسطينية، وإذ يشدد على ضرورة احترام السلامة الإقليمية للأرض الفلسطينية المحتلة، بما فيها القدس الشرقية، ووحدتها، والمحافظة عليهما،</p>
+      </container>
+      <container name="وإذ يهيب" eId="container_43">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يهيب</span> بكلا الطرفين الوفاء بالتزاماتهما بموجب خريطة الطريق بالتعاون مع المجموعة الرباعية،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_44" class="MercuryDocument">
+        <content eId="para_44__content">
+          <p xml:space="preserve">	<span class="bold italic">وإدراكا منه</span> لصعوبة تحقيق التنمية وتهيئة ظروف اقتصادية واجتماعية وبيئية صحية في ظل الاحتلال وأن السلام والاستقرار يوفران أفضل الظروف للقيام بذلك،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="MercuryDocument">
+        <num>1 -</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="bold italic">يدعو</span> إلى الفتح الكامل للمعابر الحدودية المؤدية إلى قطاع غزة، انسجاماً مع قرار مجلس الأمن <a href="https://docs.un.org/ar/S/RES/1860(2009)">1860 (2009)</a>، لكفالة وصول المساعدات الإنسانية واستمرار تدفق الأشخاص والبضائع بصورة منتظمة وإلى رفع جميع قيود التنقل المفروضة على الشعب الفلسطيني، بما فيها القيود الناشئة عن العمليات العسكرية الإسرائيلية الجارية ونظام إغلاق المناطق المتعدد المستويات، وإلى اتخاذ تدابير عاجلة أخرى للتخفيف من حدة الحالة الإنسانية الخطيرة في الأرض الفلسطينية المحتلة، وهي حالة مريعة في قطاع غزة، ويدعو أيضاً إلى تقيُّد إسرائيل، السلطة القائمة بالاحتلال، بجميع التزاماتها القانونية بموجب القانون الدولي الإنساني وقرارات الأمم المتحدة المتخذة في هذا الصدد؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="MercuryDocument">
+        <num>2 -</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve">	<span class="bold italic">يؤكد</span> ضرورة المحافظة على امتداد الأرض الفلسطينية المحتلة، بما فيها القدس الشرقية، ووحدتها وسلامتها الإقليمية، وضمان حرية تنقل الأشخاص ونقل البضائع في أرجاء الأرض الفلسطينية المحتلة، بما فيها القدس الشرقية، ومنها إلى العالم الخارجي ومنه إليها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="MercuryDocument">
+        <num>3 -</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve">	<span class="bold italic">يؤكد أيضا</span> ضرورة المحافظة على المؤسسات الوطنية والبنى التحتية الفلسطينية وتطويرها لتقديم الخدمات العامة الحيوية للسكان المدنيين الفلسطينيين وللمساهمة في تعزيز حقوق الإنسان وحمايتها، بما في ذلك الحقوق الاقتصادية والاجتماعية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="MercuryDocument">
+        <num>4 -</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve">	<span class="bold italic">يطالب</span> بأن تمتثل إسرائيل للبروتوكول المتعلق بالعلاقات الاقتصادية بين حكومة إسرائيل ومنظمة التحرير الفلسطينية الذي تم توقيعه في باريس في 29 نيسان/أبريل 1994<sup>(</sup><authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">	()	انظر <a href="https://docs.un.org/ar/A/49/180">A/49/180-S/1994/727</a>، المرفق المعنون ”الاتفاق حول قطاع غزة ومنطقة أريحا“، المرفق الرابع.</p></authorialNote><sup>)</sup> وتفرج فورا عن الإيرادات الفلسطينية المحتجزة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_55" class="MercuryDocument">
+        <num>5 -</num>
+        <content eId="para_55__content">
+          <p xml:space="preserve">	<span class="bold italic">يهيب</span> بإسرائيل أن تصلح الممتلكات المدنية والبنى التحتية الحيوية والأراضي الزراعية والمؤسسات الحكومية التي تضررت أو دُمرت من جراء عملياتها العسكرية في الأرض الفلسطينية المحتلة وإعادتها إلى ما كانت عليه؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_60" class="MercuryDocument">
+        <num>6 -</num>
+        <content eId="para_60__content">
+          <p xml:space="preserve">	<span class="bold italic">يكرر الدعوة</span> إلى التنفيذ التام لاتفاق التنقل والعبور المؤرخ 15 تشرين الثاني/ نوفمبر 2005، وبخاصة إعادة فتح جميع المعابر المؤدية إلى قطاع غزة بشكل عاجل ودون انقطاع، باعتبار ذلك عنصراً حيوياً لكفالة عبور المواد الغذائية والإمدادات التي لا غنى عنها، بما فيها مواد البناء وإمدادات الوقود الكافية، وتمكين وكالات الأمم المتحدة والوكالات المرتبطة بها والتدفقات التجارية المنتظمة الضرورية للانتعاش الاقتصادي من الوصول إلى الأرض الفلسطينية المحتلة والتنقل داخلها بلا عوائق، ويشدد على ضرورة أن يُكفل الأمن لجميع السكان المدنيين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_66" class="MercuryDocument">
+        <num>7 -</num>
+        <content eId="para_66__content">
+          <p xml:space="preserve">	<span class="bold italic">يهيب</span> بجميع الأطراف أن تحترم قواعد القانون الدولي الإنساني وتحجم عن ممارسة العنف ضد السكان المدنيين، وفقاً لاتفاقية جنيف المتعلقة بحماية المدنيين وقت الحرب، المؤرخة 12 آب/ أغسطس 1949؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_73" class="MercuryDocument">
+        <num>8 -</num>
+        <content eId="para_73__content">
+          <p xml:space="preserve">	<span class="bold italic">يؤكد من جديد</span> الحق غير القابل للتصرف للشعب الفلسطيني والسكان العرب في الجولان السوري المحتل في جميع مواردهم الطبيعية والاقتصادية، ويهيب بإسرائيل، السلطة القائمة بالاحتلال، ألا تستغل هذه الموارد أو تعرِّضها للخطر أو تتسبب في فقدانها أو استنزافها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_81" class="MercuryDocument">
+        <num>9 -</num>
+        <content eId="para_81__content">
+          <p xml:space="preserve">	<span class="bold italic">يهيب</span> بإسرائيل، السلطة القائمة بالاحتلال، أن تكف عن تدمير المنازل والممتلكات والمؤسسات الاقتصادية والأراضي الزراعية والبساتين في الأرض الفلسطينية المحتلة، بما فيها القدس الشرقية، وفي الجولان السوري المحتل، وأن تمنع المستوطنين الإسرائيليين من ارتكاب هذه الأعمال غير القانونية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_90" class="MercuryDocument">
+        <num>10 -</num>
+        <content eId="para_90__content">
+          <p xml:space="preserve">	<span class="bold italic">يهيب أيضا</span> بإسرائيل، السلطة القائمة بالاحتلال، أن تُنهي فوراً استغلالها للموارد الطبيعية، بما فيها الموارد المائية والمعدنية، وأن تتوقف عن إلقاء أي نوع من أنواع النفايات في الأرض الفلسطينية المحتلة، بما فيها القدس الشرقية، وفي الجولان السوري المحتل، لما يلحقه ذلك من أضرار جسيمة بالموارد الطبيعية لتلك المناطق، وهي الموارد المائية والأراضي وموارد الطاقة، ولما يشكله من خطر جسيم يهدد البيئة وصحة السكان المدنيين، ويهيب أيضاً بإسرائيل، السلطة القائمة بالاحتلال، أن تزيل جميع العوائق التي تحول دون تنفيذ المشاريع البيئية الحيوية، بما في ذلك محطات معالجة مياه الصرف الصحي في قطاع غزة، وأن توفر بصفة خاصة الطاقة الكهربائية اللازمة لتشغيل محطة شمال غزة الطارئة لمعالجة مياه الصرف الصحي ، ويؤكد في هذا الصدد الضرورة الملحة لإعادة بناء وتطوير البنى التحتية لتوفير المياه، بما في ذلك مشروع محطة تحلية المياه لقطاع غزة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_100" class="MercuryDocument">
+        <num>11 -</num>
+        <content eId="para_100__content">
+          <p xml:space="preserve">	<span class="bold italic">يدعو</span> إلى تقديم المساعدة اللازمة لكي تُزال في ظروف آمنة جميع الذخائر غير المنفجرة في قطاع غزة، التي تعرِّض أرواح الفلسطينيين للخطر وتؤثر سلباً على البيئة وعلى جهود الإعمار والتنمية، ويرحب بالجهود التي بذلتها حتى الآن دائرة الأمم المتحدة للإجراءات المتعلقة بالألغام؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_111" class="MercuryDocument">
+        <num>12 -</num>
+        <content eId="para_111__content">
+          <p xml:space="preserve">	<span class="bold italic">يؤكد من جديد</span> أن تشييد وتوسيع المستوطنات الإسرائيلية وما يتصل بها من بنى تحتية في الأرض الفلسطينية المحتلة، بما فيها القدس الشرقية، وفي الجولان السوري المحتل، إنما هي أعمال غير قانونية وتشكل عقبة رئيسية تحول دون تحقيق التنمية الاقتصادية والاجتماعية وإحلال السلام، ويدعو إلى الوقف التام لجميع أشكال الاستيطان وما يرتبط به من أنشطة، بما في ذلك الوقف التام لجميع التدابير الرامية إلى تغيير التركيبة الديمغرافية والوضع القانوني والطابع المميِّز للأراضي المحتلة، بما في ذلك على وجه الخصوص في القدس الشرقية المحتلة وحولها، امتثالا لقرارات مجلس الأمن ذات الصلة، ومن ضمنها القرار <a href="https://docs.un.org/ar/S/RES/2334(2016)">2334 (2016)</a>، والقانون الدولي، بما في ذلك اتفاقية جنيف المتعلقة بحماية المدنيين وقت الحرب؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_123" class="MercuryDocument">
+        <num>13 -</num>
+        <content eId="para_123__content">
+          <p xml:space="preserve">	<span class="bold italic">يدعو</span> إلى إعمال المساءلة عن الأعمال غير القانونية المرتكبة من قبل المستوطنين الإسرائيليين في الأرض الفلسطينية المحتلة، بما فيها القدس الشرقية، ويشير في هذا الصدد إلى قرار مجلس الأمن <a href="https://docs.un.org/ar/S/RES/904(1994)">904 (1994)</a> المؤرخ 18 آذار/مارس 1994 ويؤكد ضرورة تنفيذه؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_136" class="MercuryDocument">
+        <num>14 -</num>
+        <content eId="para_136__content">
+          <p xml:space="preserve">	<span class="bold italic">يدعو أيضا</span> إلى إيلاء الاهتمام بصورة عاجلة، وفقاً للقانون الدولي، لمحنة وحقوق السجناء والمحتجزين، ويدعو إلى بذل الجهود بين الجانبين لإطلاق سراح المزيد من السجناء والمحتجزين، ويشجب الممارسة المتمثلة في احتجاز جثامين من قتلوا، ويدعو إلى الإفراج عن الجثامين التي لم تتم بعد إعادتها إلى الأقرباء، بما يتمشى مع القانون الدولي الإنساني والقانون الدولي لحقوق الإنسان، حتى يتسنى لهؤلاء توديع موتاهم بشكل كريم وفقا لمعتقداتهم الدينية وتقاليدهم؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_150" class="MercuryDocument">
+        <num>15 -</num>
+        <content eId="para_150__content">
+          <p xml:space="preserve">	<span class="bold italic">يؤكد من جديد</span> أن تشييد إسرائيل المتواصل للجدار في الأرض الفلسطينية المحتلة، بما في ذلك في القدس الشرقية وحولها، يتنافى مع القانون الدولي ويعزل القدس الشرقية ويجزئ الضفة الغربية ويضعف بشدة التنمية الاقتصادية والاجتماعية للشعب الفلسطيني، ويدعو في هذا الصدد إلى الامتثال التام للالتزامات القانونية الواردة في فتوى محكمة العدل الدولية المؤرخة 9 تموز/يوليه 2004 وفي قرار الجمعية العامة <a href="https://docs.un.org/ar/A/RES/ES-10/15">دإط-10/15</a> والقرارات اللاحقة ذات الصلة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_165" class="MercuryDocument">
+        <num>16 -</num>
+        <content eId="para_165__content">
+          <p xml:space="preserve">	<span class="bold italic">يهيب</span> بإسرائيل أن تمتثل لأحكام اتفاقية جنيف المتعلقة بحماية المدنيين وقت الحرب، وأن تيسِّر زيارات المواطنين السوريين في الجولان السوري المحتل الذين يقطن ذووهم في وطنهم الأم، الجمهورية العربية السورية، عبر مدخل القنيطرة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_181" class="MercuryDocument">
+        <num>17 -</num>
+        <content eId="para_181__content">
+          <p xml:space="preserve">	<span class="bold italic">يشدد</span> على أهمية الأعمال التي تقوم بها مؤسسات الأمم المتحدة ووكالاتها في الأرض الفلسطينية المحتلة، بما فيها القدس الشرقية، والأعمال التي يقوم بها منسق الأمم المتحدة الخاص لعملية السلام في الشرق الأوسط والممثل الشخصي للأمين العام لدى منظمة التحرير الفلسطينية والسلطة الفلسطينية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_198" class="MercuryDocument">
+        <num>18 -</num>
+        <content eId="para_198__content">
+          <p xml:space="preserve">	<span class="bold italic">يرحب</span> بانخراط الأمين العام ومنسق الأمم المتحدة الخاص ويحثهما على مواصلة الانخراط في تقديم المساعدة، بالتعاون مع الشركاء المهتمين بالأمر، في الجهود المبذولة في سبيل تلبية الاحتياجات العاجلة في مجالات البنية التحتية والشؤون الإنسانية والتنمية الاقتصادية، بما في ذلك من خلال تنفيذ المشاريع التي أقرتها لجنة الاتصال المخصصة لتنسيق المساعدة الدولية المقدمة إلى الشعب الفلسطيني؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_216" class="MercuryDocument">
+        <num>19 -</num>
+        <content eId="para_216__content">
+          <p xml:space="preserve">	<span class="bold italic">يعرب عن تقديره</span> للدول الأعضاء وهيئات الأمم المتحدة والمنظمات الحكومية الدولية والمنظمات الإقليمية والمنظمات غير الحكومية التي قدمت ولا تزال تقدم المساعدة الاقتصادية والإنسانية للشعب الفلسطيني، الأمر الذي ساهم في تحسين أحواله الاقتصادية والاجتماعية الحرجة، ويحث على مواصلة تقديم المساعدة بما يتناسب وتزايد الاحتياجات الاجتماعية والاقتصادية والإنسانية، بالتعاون مع المؤسسات الفلسطينية الرسمية، وبما يتسق مع خطة التنمية الوطنية الفلسطينية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_235" class="MercuryDocument">
+        <num>20 -</num>
+        <content eId="para_235__content">
+          <p xml:space="preserve">	<span class="bold italic">يكرر تأكيد</span> أهمية وضرورة تكثيف الجهود الدولية وتجديدها على أساس قرارات الأمم المتحدة ذات الصلة، بما في ذلك قرارات مجلس الأمن <a href="https://docs.un.org/ar/S/RES/242(1967)">242 (1967)</a> و <a href="https://docs.un.org/ar/S/RES/338(1973)">338 (1973)</a> و <a href="https://docs.un.org/ar/S/RES/425(1978)">425 (1978)</a> و <a href="https://docs.un.org/ar/S/RES/1397(2002)">1397 (2002)</a> و <a href="https://docs.un.org/ar/S/RES/1515(2003)">1515 (2003)</a> و <a href="https://docs.un.org/ar/S/RES/1544(2004)">1544 (2004)</a> و <a href="https://docs.un.org/ar/S/RES/1850(2008)">1850 (2008)</a> و <a href="https://docs.un.org/ar/S/RES/2334(2016)">2334 (2016)</a> ومؤتمر مدريد ومبدأ الأرض مقابل السلام ومبادرة السلام العربية وخريطة الطريق التي وضعتها المجموعة الرباعية وأهمية الامتثال للاتفاقات التي تم التوصل إليها بين حكومة إسرائيل ومنظمة التحرير الفلسطينية، ممثلة الشعب الفلسطيني، بغرض تمهيد السبيل أمام إعمال الحل القائم على وجود دولتين، إسرائيل وفلسطين، تعيشان جنباً إلى جنب في سلام وأمن داخل حدود معترف بها، على أساس حدود ما قبل عام 1967، وتحقيق تسوية سلمية عادلة ودائمة وشاملة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_255" class="MercuryDocument">
+        <num>21 -</num>
+        <content eId="para_255__content">
+          <p xml:space="preserve">	<span class="bold italic">يطلب</span> إلى الأمين العام أن يقدم إلى الجمعية العامة في دورتها الحادية والثمانين، عن طريق المجلس الاقتصادي والاجتماعي، تقريراً عن تنفيذ هذا القرار وأن يواصل تضمين تقرير منسق الأمم المتحدة الخاص ما يستجد من معلومات عن الأحوال المعيشية للشعب الفلسطيني، بالتعاون مع وكالات الأمم المتحدة المعنية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_276" class="MercuryDocument">
+        <num>22 -</num>
+        <content eId="para_276__content">
+          <p xml:space="preserve">	<span class="bold italic">يقرر</span> أن يدرج البند المعنون ”الانعكاسات الاقتصادية والاجتماعية للاحتلال الإسرائيلي على الأحوال المعيشية للشعب الفلسطيني في الأرض الفلسطينية المحتلة، بما فيها القدس الشرقية، وللسكان العرب في الجولان السوري المحتل“ في جدول أعمال دورته لعام 2026.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="41" refersTo="#adoptionMeeting">الجلسة العامة 41</location>
+          <eol />
+          <docDate date="2025-07-30" refersTo="#adoptionDate">30 تموز/يوليه 2025</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

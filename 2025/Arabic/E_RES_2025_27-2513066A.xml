@@ -1,0 +1,260 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-27/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-27/"></FRBRuri>
+          <FRBRdate date="2025-07-29" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-27/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-27/ara@/"></FRBRuri>
+          <FRBRdate date="2025-08-13" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-27/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-27/ara@.xml"></FRBRuri>
+          <FRBRdate date="2025-10-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="Meeting of the Parties to the Convention on the Protection and Use of Transboundary Watercourses and International Lakes" showAs="Meeting of the Parties to the Convention on the Protection and Use of Transboundary Watercourses and International Lakes" dictionary="DHLAUTH"></keyword>
+        <keyword value="Convention on the Protection and Use of Transboundary Watercourses and International Lakes (1992)" showAs="Convention on the Protection and Use of Transboundary Watercourses and International Lakes (1992)" dictionary="DHLAUTH"></keyword>
+        <keyword value="CONFERENCE AND MEETING SERVICES" href="http://metadata.un.org/thesaurus/1001217" showAs="CONFERENCE AND MEETING SERVICES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="LANGUAGE SERVICES" href="http://metadata.un.org/thesaurus/1003618" showAs="LANGUAGE SERVICES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MULTILINGUALISM" href="http://metadata.un.org/thesaurus/1004271" showAs="MULTILINGUALISM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="16" showAs="Regional cooperation." shortForm="REGIONAL COOPERATION" dictionary="E/2025/100"></keyword>
+        <keyword refersTo="agenda" value="16[3]" showAs="REGIONAL COOPERATION--EUROPE" shortForm="REGIONAL COOPERATION--EUROPE" dictionary="E/2025/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-07-08" outcome="recommendedForAdoption" as="E/2025/15/Add.1/Rev.1" by="UN. ECE" />
+        <step date="2025-08-13" outcome="adopted" as="Adopted without vote, 40th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2025/27</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">إن المجلس الاقتصادي والاجتماعي</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-08-13" class="rightSmall" refersTo="#dateOfIssuance">13 August 2025</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2025" eId="coverPage_1__session_1">دورة عام 2025</session>
+      </p>
+      <p>
+        <inline title="16" name="agenda item">البند 16 من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">التعاون الإقليمي</inline>
+      </p>
+      <p>
+        <docTitle>قرار اتخذه المجلس الاقتصادي والاجتماعي في 29 تموز/يوليه 2025</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent>[بناء على توصية اللجنة الاقتصادية لأوروبا (<inline name="originating document">E/2025/15/Add.1/Rev.1</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2025/27</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">تعدد اللغات في الاجتماعات المعقودة في إطار اتفاقية حماية واستخدام المجاري المائية العابرة للحدود والبحيرات الدولية</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold italic">إن المجلس الاقتصادي والاجتماعي</span>،</p>
+      </formula>
+      <container name="إذ يحيط علما" eId="container_2">
+        <p xml:space="preserve">	<span class="bold italic">إذ يحيط علما</span> باعتماد اللجنة الاقتصادية لأوروبا في دورتها الحادية السبعين، المعقودة في جنيف يومي 9 و 10 نيسان/أبريل 2025، المقرر هاء (71) بشأن تعدد اللغات في الاجتماعات المعقودة في إطار اتفاقية حماية واستخدام المجاري المائية العابرة للحدود والبحيرات الدولية<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	()	United Nations, <span class="italic">Treaty Series</span>, vol. 1936, No. 33207.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_3" class="SingleTxt">
+        <content eId="para_3__content">
+          <p xml:space="preserve">
+            <span class="bold italic">	يؤيد</span> مقرر اللجنة الاقتصادية لأوروبا هاء (71)، المرفق بهذا القرار، ويطلب إلى الأمين العام أن يوفر خدمات الترجمة التحريرية والشفوية إلى الإسبانية والصينية والعربية، بالإضافة إلى الإنكليزية والروسية والفرنسية، في الدورات المقبلة لاجتماع الأطراف والاجتماعات الأخرى المعقودة في إطار اتفاقية حماية واستخدام المجاري المائية العابرة للحدود والبحيرات الدولية من الميزانية العادية للأمم المتحدة، بما في ذلك ترجمة الوثائق والمنشورات الرسمية للاتفاقية إلى الإسبانية والصينية والعربية، من أجل تمكين جميع الدول الأعضاء من المشاركة بفعالية وعلى قدم المساواة.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="40" refersTo="#adoptionMeeting">الجلسة العامة 40</location>
+          <eol />
+          <docDate date="2025-07-29" refersTo="#adoptionDate">29 تموز/يوليه 2025</docDate>
+        </event>
+      </p>
+    </conclusions>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-27/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-27/"></FRBRuri>
+                <FRBRdate date="2025-07-29" name="adoption"></FRBRdate>
+                <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-27/ara@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-27/ara@/"></FRBRuri>
+                <FRBRdate date="2025-08-13" name="publication"></FRBRdate>
+                <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="ara"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-27/ara@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-27/ara@.xml"></FRBRuri>
+                <FRBRdate date="2025-10-23" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_5" class="H1">
+              <heading>المرفق</heading>
+            </paragraph>
+            <paragraph eId="para_6" class="H1">
+              <heading>المقرر هاء (71)</heading>
+            </paragraph>
+            <paragraph eId="para_7" class="H1">
+              <heading>تعدد اللغات في الاجتماعات المعقودة في إطار اتفاقية حماية واستخدام المجاري المائية العابرة للحدود والبحيرات الدولية</heading>
+            </paragraph>
+            <paragraph eId="para_8" class="SingleTxt">
+              <content eId="para_8__content">
+                <p xml:space="preserve">
+                  <span class="bold italic">	إن اللجنة الاقتصادية لأوروبا</span>،</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_9" class="SingleTxt">
+              <content eId="para_9__content">
+                <p xml:space="preserve">	<span class="bold italic">إذ تقر</span> بالتقدم الكبير المحرز منذ بدء نفاذ اتفاقية حماية واستخدام المجاري المائية العابرة للحدود والبحيرات الدولية (اتفاقية المياه) في عام 1996، التي وفرت إطارا قانونيا سليما ومنبرا حكوميا دوليا فعالا لتعزيز التعاون والإدارة المستدامة للموارد المائية على مستوى الأحواض وعلى الصعيدين الإقليمي والدولي اللذين يشكلان عاملين أساسيين لتحقيق التنمية السلمية والمستدامة،</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_10" class="SingleTxt">
+              <content eId="para_10__content">
+                <p xml:space="preserve">	<span class="bold italic">وإذ تشير</span> إلى المقرر د-3/1<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	()	ECE/MP.WAT/14.</p></authorialNote><sup>)</sup> الصادر عن اجتماع الأطراف في اتفاقية المياه الذي فتح باب الانضمام إلى الاتفاقية أمام جميع الدول الأعضاء في الأمم المتحدة ودخولها حيز النفاذ في عام 2013،</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_11" class="SingleTxt">
+              <content eId="para_11__content">
+                <p xml:space="preserve">	<span class="bold italic">وإذ ترحب</span> بالاهتمام العالمي الكبير بالانضمام إلى اتفاقية المياه، والتي باتت منذ عام 2018 تضم 12 طرفًا جديدًا من أفريقيا (تشاد وتوغو وزامبيا وزمبابوي والسنغال وغامبيا وغانا وغينيا - بيساو والكاميرون وكوت ديفوار وناميبيا ونيجيريا)، وطرفًا واحدًا من أمريكا اللاتينية (بنما)، وطرفًا واحدًا من الشرق الأوسط (العراق)،</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_12" class="SingleTxt">
+              <content eId="para_12__content">
+                <p xml:space="preserve">	<span class="bold italic">وإذ ترحب أيضاً</span> بأن هناك أكثر من 20 بلداً آخر بصدد الانضمام إلى اتفاقية المياه وينبغي أن تصبح أطرافاً فيها قريباً، بما في ذلك خمسة بلدان ناطقة بالإسبانية وبلدان ناطقان بالعربية،</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_13" class="SingleTxt">
+              <content eId="para_13__content">
+                <p xml:space="preserve">	<span class="bold italic">وإذ تسلط الضوء</span> على أنه، بالإضافة إلى الأطراف الـ 55 الحالية في الاتفاقية، يشارك حوالي 80 بلدا آخر في الاجتماعات والأنشطة المعقودة في إطار الاتفاقية، ليصل بذلك مجموع الدول الأعضاء في الأمم المتحدة المشاركة إلى أكثر من 130 دولة،</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_14" class="SingleTxt">
+              <content eId="para_14__content">
+                <p xml:space="preserve">	<span class="bold italic">وإذ تشدد</span> على أن الاتفاقية توفر الإطار الحكومي الدولي الوحيد للأمم المتحدة للمناقشات السياساتية والتقنية بشأن الإدارة المستدامة لموارد المياه العابرة للحدود، وأن منبرها وعملها مفيدان لجميع البلدان التي تتقاسم موارد مياه، لا للأطراف فحسب،</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_15" class="SingleTxt">
+              <content eId="para_15__content">
+                <p xml:space="preserve">	<span class="bold italic">وإذ تشير</span> إلى قرارات الجمعية العامة المتعددة بشأن تعدد اللغات، بما في ذلك القرارات <a href="https://docs.un.org/ar/A/RES/71/328">71/328</a> و <a href="https://docs.un.org/ar/A/RES/73/346">73/346</a> و <a href="https://docs.un.org/ar/A/RES/76/268">76/268</a>، التي تؤكد الأهمية القصوى للمساواة بين اللغات الرسمية الست للأمم المتحدة،</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_16" class="SingleTxt">
+              <content eId="para_16__content">
+                <p xml:space="preserve">	<span class="bold italic">وإذ تلاحظ</span> اعتماد المقرر د-10/3، في الدورة العاشرة لاجتماع الأطراف في اتفاقية المياه (ليوبليانا، 23-25 تشرين الأول/أكتوبر 2024)، بشأن تعزيز المشاركة المتساوية والفعالة لجميع الأطراف في دورات اجتماع الأطراف والاجتماعات الأخرى المعقودة في إطار اتفاقية حماية واستخدام المجاري المائية العابرة للحدود والبحيرات الدولية من خلال الترجمة التحريرية والشفوية إلى الإسبانية والصينية والعربية،</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_17" class="SingleTxt">
+              <num>1 -</num>
+              <content eId="para_17__content">
+                <p xml:space="preserve">	<span class="bold italic">تقرر</span> أن تُكفل الترجمة التحريرية لجميع الوثائق والمنشورات الرسمية للاتفاقية إلى الإسبانية والصينية والعربية من أجل تمكين جميع الأطراف الحالية والمستقبلية والبلدان الأخرى من المشاركة على قدم المساواة وبفعالية في أنشطة الاتفاقية؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_18" class="SingleTxt">
+              <num>2 -</num>
+              <content eId="para_18__content">
+                <p xml:space="preserve">	<span class="bold italic">تقرر أيضاً</span> أن تُكفل الترجمة الشفوية إلى الإسبانية والصينية والعربية في دورات اجتماع الأطراف وغيرها من الاجتماعات الرسمية للاتفاقية من أجل تمكين الأطراف الحالية والمستقبلية والبلدان الأخرى من المشاركة على قدم المساواة وبفعالية في أنشطة الاتفاقية؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_19" class="SingleTxt">
+              <num>3 -</num>
+              <content eId="para_19__content">
+                <p xml:space="preserve">	<span class="bold italic">تطلب</span> إلى الأمين العام للأمم المتحدة أن يوفر خدمات الترجمة التحريرية والشفوية إلى الإسبانية والصينية والعربية، بالإضافة إلى الإنكليزية والروسية والفرنسية، في الدورات المقبلة لاجتماع الأطراف والاجتماعات الأخرى المعقودة في إطار الاتفاقية من الميزانية العادية للأمم المتحدة، بما في ذلك ترجمة الوثائق والمنشورات الرسمية للاتفاقية إلى الإسبانية والصينية والعربية، من أجل تمكين جميع الأطراف والبلدان الأخرى من المشاركة بفعالية وعلى قدم المساواة؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_20" class="SingleTxt">
+              <num>4 -</num>
+              <content eId="para_20__content">
+                <p xml:space="preserve">	<span class="bold italic">تقرر</span> أن تحيل إلى المجلس الاقتصادي والاجتماعي مشروع قرار بشأن هذه المسألة للنظر فيه وربما اتخاذه.</p>
+              </content>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>

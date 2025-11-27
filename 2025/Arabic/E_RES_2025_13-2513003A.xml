@@ -1,0 +1,230 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-13/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-13/"></FRBRuri>
+          <FRBRdate date="2025-06-10" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-13/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-13/ara@/"></FRBRuri>
+          <FRBRdate date="2025-08-12" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-13/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-13/ara@.xml"></FRBRuri>
+          <FRBRdate date="2025-10-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="World Population and Housing Census Programme 2030" showAs="World Population and Housing Census Programme 2030" dictionary="DHLAUTH"></keyword>
+        <keyword value="Principles and Recommendations for Population and Housing Censuses" showAs="Principles and Recommendations for Population and Housing Censuses" dictionary="DHLAUTH"></keyword>
+        <keyword value="POPULATION CENSUSES" href="http://metadata.un.org/thesaurus/1005019" showAs="POPULATION CENSUSES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HOUSING CENSUSES" href="http://metadata.un.org/thesaurus/1002941" showAs="HOUSING CENSUSES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GUIDELINES" href="http://metadata.un.org/thesaurus/1002790" showAs="GUIDELINES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="STANDARDS" href="http://metadata.un.org/thesaurus/1006169" showAs="STANDARDS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNICAL COOPERATION" href="http://metadata.un.org/thesaurus/1006413" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="19c" showAs="Statistics." shortForm="STATISTICS" dictionary="E/2025/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-03-04" outcome="draftResolution" as="E/CN.3/2025/L.5" by="submitted by the Bureau" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-01-01" outcome="recommendedForAdoption" as="E/2025/24" by="UN. Statistical Commission" />
+        <step date="2025-08-12" outcome="adopted" as="Adopted without vote, 23rd plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2025/13</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">إن المجلس الاقتصادي والاجتماعي</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-08-12" class="rightSmall" refersTo="#dateOfIssuance">12 August 2025</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2025" eId="coverPage_1__session_1">دورة عام 2025</session>
+      </p>
+      <p>
+        <inline title="19 (ج)" name="agenda item">البند 19 (ج) من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">المسائل الاقتصادية والبيئية: الإحصاءات</inline>
+      </p>
+      <p>
+        <docTitle>قرار اتخذه المجلس الاقتصادي والاجتماعي في 10 حزيران/يونيه 2025</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent>[بناء على توصية اللجنة الإحصائية (<inline name="originating document">E/2025/24</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2025/13</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	البرنامج العالمي لتعداد السكان والمساكن لعام 2030</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold italic">إن المجلس الاقتصادي والاجتماعي</span>،</p>
+      </formula>
+      <container name="إذ يشير" eId="container_2">
+        <p xml:space="preserve">	<span class="bold italic">إذ يشير</span> إلى قراره <a href="https://docs.un.org/ar/E/RES/2015/10">2015/10</a> المؤرخ 10 حزيران/يونيه 2015، الذي أقر فيه البرنامج العالمي لتعداد السكان والمساكن لعام 2020، وحث الدول الأعضاء على إجراء تعداد واحد على الأقل للسكان والمساكن في إطار البرنامج، وكذلك إلى قراراته السابقة التي أيد فيها البرامج العشرية السابقة،</p>
+      </container>
+      <container name="وإذ يقر" eId="container_3">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يقر</span> بأن تعدادات السكان والمساكن مصدر أساسي رئيسي للبيانات المصنفة اللازمة لصياغة وتنفيذ ورصد السياسات والبرامج الرامية إلى تحقيق التنمية الاجتماعية والاقتصادية الشاملة للجميع والاستدامة البيئية، بما يتماشى مع الالتزامات الإنمائية الوطنية والإقليمية والدولية، ومع مراعاة خطة التنمية المستدامة لعام 2030<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	()	قرار الجمعية العامة <a href="https://docs.un.org/ar/A/RES/70/1">70/1</a>.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ يعترف" eId="container_4">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يعترف</span> بالجهود الجديرة بالثناء التي بذلتها الدول الأعضاء في إجراء تعدادات السكان والمساكن في إطار البرنامج العالمي لتعداد السكان والمساكن لعام 2020، على الرغم من التحديات التي فرضتها جائحة مرض فيروس كورونا (كوفيد-19)،</p>
+      </container>
+      <container name="وإذ يقر" eId="container_5">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يقر</span> بالمشهد المتغير لمنهجيات التعداد، بما في ذلك ظهور نهُج التعداد المتعددة الوسائط التي محورها الوسائل الرقمية، والإسناد الجغرافي، وزيادة استخدام البيانات الإدارية،</p>
+      </container>
+      <container name="وإذ يقر ويشيد" eId="container_6">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يقر ويشيد</span> بالتقدم الكبير الذي أحرزته الدول الأعضاء في نشر بيانات التعداد في الوقت المناسب خلال جولة عام 2020، والتي شهدت سرعة ملحوظة في نشر البيانات بعد الحصر التعدادي،</p>
+      </container>
+      <container name="وإذ يدرك" eId="container_7">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يدرك</span> الطابع المركزي لتعدادات السكان والمساكن في نظم بيانات السكان، وأهمية إدماج البيانات لتعزيز الفعالية من حيث التكلفة، والحد من العبء على المجيبين، وتوليد بيانات وفيرة ومفصلة وفي الوقت المناسب،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_8">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير</span> إلى قراره 2006/6 المؤرخ 24 تموز/يوليه 2006، وقرار الجمعية العامة <a href="https://docs.un.org/ar/A/RES/68/261">68/261</a> المؤرخ 29 كانون الثاني/يناير 2014، ومقرر الجمعية العامة <a href="https://docs.un.org/ar/A/RES/71/313">71/313</a> المؤرخ 6 تموز/يوليه 2017،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_9" class="SingleTxt">
+        <num>1 -</num>
+        <content eId="para_9__content">
+          <p xml:space="preserve">	<span class="bold italic">يقر</span> البرنامج العالمي لتعداد السكان والمساكن لعام 2030، الذي يضم عددا من الأنشطة التي تهدف إلى ضمان أن تضطلع الدول الأعضاء بتعداد للسكان والمساكن خلال الفترة من عام 2025 إلى عام 2034 وتعزز على نحو تكاملي الإنتاج المتواصل للإحصاءات السكانية والاجتماعية الاقتصادية على مستوى المناطق الصغيرة من خلال تعزيز السجلات الإدارية والمسوح وغير ذلك من المصادر الإدارية والبديلة للبيانات، ويدعو إلى توفير دعم كامل للبرنامج؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="SingleTxt">
+        <num>2 -</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve">	<span class="bold italic">يوصي</span> بأن تنظر الدول الأعضاء في التنقيح الرابع <span class="italic">لمبادئ وتوصيات تعدادات السكان والمساكن</span>، بوصفها المعيار الدولي لإجراء تعدادات السكان والمساكن ولاستقاء المفاهيم والتعاريف والتصنيفات المتعلقة بالسكان والإحصاءات ذات الصلة، بغرض تعزيز التكامل بين مصادر البيانات والمجالات الإحصائية وتعزيز إمكانية مقارنة البيانات داخل البلدان وفيما بينها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12" class="SingleTxt">
+        <num>3 -</num>
+        <content eId="para_12__content">
+          <p xml:space="preserve">	<span class="bold italic">يحث</span> الدول الأعضاء على أن تجري تعدادا واحدا على الأقل للسكان والمساكن أو أن تنتج بوسائل أخرى إحصاءات سكانية وإحصاءات اجتماعية اقتصادية على مستوى المناطق الصغيرة في إطار البرنامج العالمي لتعداد السكان والمساكن لعام 2030، مع الحرص، حسب الاقتضاء، على مراعاة التنقيح الرابع <span class="italic">للمبادئ والتوصيات</span>، والتوصيات الدولية والإقليمية الأخرى ذات الصلة، وإيلاء أهمية خاصة للتخطيط المسبق للتعدادات، وجدوى تكلفتها، ونطاق تغطيتها، ونشر نتائجها في الوقت المناسب وإتاحة إمكانية اطّلاع الجميع عليها بسهولة، بهدف إرشاد القرارات وتيسير تنفيذ الخطط والبرامج الإنمائية بفعالية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15" class="SingleTxt">
+        <num>4 -</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve">	<span class="bold italic">يشدد</span> على ضرورة أن تضع البلدان معايير الجودة لإجراء تعدادات السكان والمساكن وتقييمها من أجل الحفاظ على نزاهة نتائج تعدادات السكان والمساكن وموثوقيتها ودقتها وقيمتها، بما يتماشى مع التنقيح الرابع <span class="italic">للمبادئ والتوصيات</span>، في ظل المراعاة التامة لإطار الأمم المتحدة لضمان الجودة الإحصائية وأطر الجودة الأخرى، بما في ذلك أطر ومعايير وأدوات الجودة الوطنية، وكذلك المبادئ الأساسية للإحصاءات الرسمية<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	()	قرار الجمعية العامة <a href="https://docs.un.org/ar/A/RES/68/261">68/261</a>.</p></authorialNote><sup>)</sup>؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxt">
+        <num>5 -</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="bold italic">يدعو</span> الدول الأعضاء إلى النظر في اتباع الإسناد الجغرافي لتعداداتها، مما يتيح تجميع البيانات في أدنى مستوى جغرافي مناسب، ونشر بيانات التعداد المرمزة جغرافياً، فضلاً عن إتاحة إدماج المعلومات الجغرافية المكانية وبيانات التعداد ومصادر البيانات الأخرى، مع ضمان سرية البيانات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxt">
+        <num>6 -</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="bold italic">يشجع</span> الدول الأعضاء على تعزيز استكشافها واستخدامها لمصادر البيانات الإدارية بغرض دعم عمليات التعداد، وعلى النظر في إنشاء سجلات إحصائية وطنية للسكان؛ وينبغي ألا يجري إنشاء هذه السجلات إلا بالامتثال التام لخططها وأولوياتها الإنمائية الوطنية ووفقا لأحكام المبادئ الأساسية للإحصاءات الرسمية، بما في ذلك شرط حماية سرية السجلات الفردية وخصوصيتها، وبموجب أحكام قانونية واضحة لا لبس فيها تشمل الإذن باستغلال السجل الإحصائي الوطني للسكان للأغراض الإحصائية فقط، ووفقا للقواعد والأنظمة الوطنية<sup>(</sup><authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	()	<span class="italic">الوثائق الرسمية للمجلس الاقتصادي والاجتماعي، 2022، الملحق رقم 4</span> (<a href="https://docs.un.org/ar/E/2022/24">E/2022/24</a>)، الفصل الأول، الفرع جيم، المقرر 53/107، الفقرة الفرعية (د).</p></authorialNote><sup>)</sup>؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxt">
+        <num>7 -</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="bold italic">يطلب</span> إلى الأمين العام أن يعمل على إعداد أو تحديث المعايير والأساليب والمبادئ التوجيهية الإحصائية الدولية لتيسير تخطيط وتنفيذ جولة تعدادات السكان والمساكن لعام 2030، وترجمة هذه المنشورات إلى اللغات الرسمية للأمم المتحدة بغرض تعزيز إمكانية الوصول إليها على نطاق أوسع؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxt">
+        <num>8 -</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve">	<span class="bold italic">يطلب أيضا</span> إلى الأمين العام أن يقدم المساعدة الفنية للمكاتب الإحصائية الوطنية، بناء على طلبها، وذلك بسبل منها الأنشطة الإقليمية ودون الإقليمية، ومع مراعاة اختلاف مستويات تطور الدول الأعضاء، بغرض تيسير تبادل الخبرات والدروس المستفادة، وتعزيز القدرة الوطنية على تنفيذ البرنامج العالمي لتعداد السكان والمساكن لعام 2030؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxt">
+        <num>9 -</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="bold italic">يطلب كذلك</span> إلى الأمين العام أن ينشئ منصات لتبادل المعارف والخبرات الوطنية والممارسات والدروس المستفادة في مجال إجراء تعدادات السكان والمساكن، بما في ذلك ما يتصل باستخدام المصادر الإدارية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxt">
+        <num>10 -</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve">	<span class="bold italic">يطلب</span> إلى الأمين العام أن يعزز التنسيق والتعاون بين الشركاء وأصحاب المصلحة ذوي الصلة لمساعدة الدول الأعضاء، بناء على طلبها، في تنفيذ البرنامج؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_64" class="SingleTxt">
+        <num>11 -</num>
+        <content eId="para_64__content">
+          <p xml:space="preserve">	<span class="bold italic">يطلب أيضا</span> إلى الأمين العام أن يقدم تقارير منتظمة عن تنفيذ البرنامج إلى اللجنة الإحصائية.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="23" refersTo="#adoptionMeeting">الجلسة العامة 23</location>
+          <eol />
+          <docDate date="2025-06-10" refersTo="#adoptionDate">10 حزيران/يونيه 2025</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
