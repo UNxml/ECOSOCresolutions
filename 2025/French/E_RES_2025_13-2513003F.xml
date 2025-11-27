@@ -1,0 +1,230 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-13/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-13/"></FRBRuri>
+          <FRBRdate date="2025-06-10" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-13/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-13/fra@/"></FRBRuri>
+          <FRBRdate date="2025-08-12" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-13/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-13/fra@.xml"></FRBRuri>
+          <FRBRdate date="2025-10-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="World Population and Housing Census Programme 2030" showAs="World Population and Housing Census Programme 2030" dictionary="DHLAUTH"></keyword>
+        <keyword value="Principles and Recommendations for Population and Housing Censuses" showAs="Principles and Recommendations for Population and Housing Censuses" dictionary="DHLAUTH"></keyword>
+        <keyword value="POPULATION CENSUSES" href="http://metadata.un.org/thesaurus/1005019" showAs="POPULATION CENSUSES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HOUSING CENSUSES" href="http://metadata.un.org/thesaurus/1002941" showAs="HOUSING CENSUSES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GUIDELINES" href="http://metadata.un.org/thesaurus/1002790" showAs="GUIDELINES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="STANDARDS" href="http://metadata.un.org/thesaurus/1006169" showAs="STANDARDS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNICAL COOPERATION" href="http://metadata.un.org/thesaurus/1006413" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="19c" showAs="Statistics." shortForm="STATISTICS" dictionary="E/2025/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-03-04" outcome="draftResolution" as="E/CN.3/2025/L.5" by="submitted by the Bureau" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-01-01" outcome="recommendedForAdoption" as="E/2025/24" by="UN. Statistical Commission" />
+        <step date="2025-08-12" outcome="adopted" as="Adopted without vote, 23rd plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">25-13003 (F)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2025/13</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Conseil économique et social</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-08-12" class="rightSmall" refersTo="#dateOfIssuance">12 août 2025</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2025" eId="coverPage_1__session_1">Session de 2025</session>
+      </p>
+      <p>
+        <inline title="19 c)" name="agenda item">Point 19 c) de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Questions relatives à l’économie et à l’environnement : statistiques</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par le Conseil économique et social le 10 juin 2025</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent>[sur recommandation de la Commission de statistique (<inline name="originating document">E/2025/24</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2025/13.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Programme mondial de recensements de la population et des logements de 2030</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Le Conseil économique et social</span>,</p>
+      </formula>
+      <container name="Rappelant" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Rappelant </span>sa résolution <a href="https://docs.un.org/fr/E/RES/2015/10">2015/10</a> du 10 juin 2015, dans laquelle il a approuvé le Programme mondial de recensements de la population et des logements de 2020 et prié instamment les États Membres de procéder à un recensement au moins de la population et des logements dans le cadre du Programme, ainsi que ses résolutions antérieures relatives à l’approbation des programmes décennaux précédents, </p>
+      </container>
+      <container name="Considérant" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Considérant</span> que les recensements de la population et des logements constituent une source primaire essentielle de données désagrégées nécessaires à la formulation, à la mise en œuvre et au suivi de politiques et programmes visant à réaliser un développement socioéconomique inclusif et une durabilité environnementale, en accord avec les engagements nationaux, régionaux et internationaux souscrits en matière de développement, et compte tenu du Programme de développement durable à l’horizon 2030<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		Résolution <a href="https://docs.un.org/fr/A/RES/70/1">70/1</a> de l’Assemblée générale.</p></authorialNote>,</p>
+      </container>
+      <container name="Prenant acte" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Prenant acte</span> des efforts louables déployés par les États Membres pour procéder à des recensements de la population et des logements dans le cadre du Programme mondial de recensements de la population et des logements de 2020, malgré les défis posés par la pandémie de maladie à coronavirus (COVID‑19), </p>
+      </container>
+      <container name="Considérant" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Considérant </span>l’évolution des méthodes de recensement, y compris l’essor d’approches multimodales fondées avant tout sur Internet, le recours au géoréférencement et l’utilisation accrue de données administratives,</p>
+      </container>
+      <container name="Reconnaissant et saluant" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Reconnaissant et saluant </span>les progrès significatifs réalisés par les États Membres dans la diffusion en temps voulu des données de recensement lors de la série de 2020, marquée par une vitesse notable de diffusion des données à l’issue du dénombrement,</p>
+      </container>
+      <container name="Conscient" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Conscient </span>du rôle central que jouent les recensements de la population et des logements dans les systèmes de données démographiques, et de l’importance de l’intégration des données à des fins d’amélioration du rapport coût-efficacité, de réduction de la charge de travail des répondantes et répondants et de production de données riches, granulaires et actualisées, </p>
+      </container>
+      <container name="Rappelant" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Rappelant </span>sa résolution 2006/6 du 24 juillet 2006, la résolution <a href="https://docs.un.org/fr/A/RES/68/261">68/261</a> de l’Assemblée générale, en date du 29 janvier 2014, et la résolution <a href="https://docs.un.org/fr/A/RES/71/313">71/313</a> de l’Assemblée générale, en date du 6 juillet 2017,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_9" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_9__content">
+          <p xml:space="preserve">	<span class="italic">Approuve </span>le Programme mondial de recensements de la population et des logements de 2030, qui comprend un certain nombre d’activités visant à garantir que les États Membres effectuent un recensement de la population et des logements au cours de la période allant de 2025 à 2034 et, de plus, qu’ils promeuvent la production continue de statistiques démographiques et socioéconomiques portant sur de petites zones en renforçant les registres administratifs, les enquêtes et les autres sources de données administratives ou alternatives, et demande que le Programme bénéficie d’un soutien sans faille ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve">	<span class="italic">Recommande </span>que les États Membres étudient la quatrième révision des <span class="italic">Principes et recommandations concernant les recensements de la population et des logements</span> comme la norme internationale pour la conduite de recensements de la population et des logements, ainsi que s’agissant des concepts, définitions et classifications relatifs à la population et des statistiques connexes, l’objectif étant de promouvoir l’intégration entre les sources de données et les domaines statistiques et d’améliorer la comparabilité des données à l’intérieur des pays et entre eux ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_12__content">
+          <p xml:space="preserve">	<span class="italic">Prie instamment</span> les États Membres de procéder à un recensement au moins ou de produire d’une autre manière des statistiques démographiques et socioéconomiques portant sur de petites zones dans le cadre du Programme mondial de recensements de la population et des logements de 2030, en tenant compte le cas échéant de la quatrième révision des <span class="italic">Principes et recommandations</span> et à d’autres recommandations internationales et régionales connexes, en s’attachant tout spécialement à programmer les activités de recensement suffisamment à l’avance, à limiter les coûts et à couvrir l’ensemble de la population, ainsi qu’à diffuser les résultats en temps utile et à les rendre aisément accessibles à tous, pour éclairer les décisions et faciliter la bonne application des plans et programmes de développement ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve">	<span class="italic">Souligne </span>la nécessité pour les pays de définir des normes de qualité quant à la conduite des recensements de la population et des logements et à l’évaluation des résultats, afin de préserver l’intégrité, la fiabilité, l’exactitude et la valeur de ces derniers, conformément à la quatrième révision des <span class="italic">Principes et recommandations</span> et en tenant pleinement compte du Cadre des Nations Unies relatif à l’assurance de la qualité des statistiques et d’autres cadres, normes et outils de qualité, dont les cadres nationaux d’assurance de la qualité, ainsi que des Principes fondamentaux de la statistique officielle<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	 	Résolution <a href="https://docs.un.org/fr/A/RES/68/261">68/261</a> de l’Assemblée générale.</p></authorialNote> ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="italic">Invite </span>les États Membres à envisager de géoréférencer les données de recensement, permettant une ventilation au niveau géographique approprié le plus bas et la diffusion de données de recensement géocodées, ainsi que l’intégration d’informations géospatiales, de données de recensement et d’autres sources de données, tout en garantissant la confidentialité des données ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="italic">Encourage </span>les États Membres à s’intéresser davantage aux sources de données administratives et à en accroître l’utilisation à l’appui des opérations de recensement, ainsi qu’à envisager la création de registres statistiques nationaux de la population – dans le plein respect des cadres et priorités nationaux en matière de développement et des dispositions des Principes fondamentaux de la statistique officielle, s’agissant notamment de la protection de la confidentialité et du caractère privé des dossiers individuels –, des dispositions juridiques claires et sans ambiguïté devant être appliquées, qui n’autorisent l’exploitation du Registre statistique national de la population qu’à des fins statistiques, dans le respect des règles et réglementations nationales<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		<span class="italic">Documents officiels du Conseil économique et social, 2022, Supplément n</span><sup>o</sup><span class="italic"> 4</span> (<a href="https://docs.un.org/fr/E/2022/24">E/2022/24</a>), chap. I, sect. C, décision 53/107, al. d).</p></authorialNote> ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="italic">Prie </span>le Secrétaire général d’élaborer des normes, méthodes et directives statistiques internationales pour faciliter la planification et la mise en œuvre de la série de recensements de la population et des logements de 2030 ou de mettre à jour les instruments existants, ainsi que de faire traduire ces publications dans les langues officielles de l’Organisation des Nations Unies afin d’en accroître l’accessibilité ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve">	<span class="italic">Prie également</span> le Secrétaire général de fournir une assistance technique aux organismes nationaux de statistique qui en font la demande, notamment dans le cadre d’activités régionales et sous-régionales, compte tenu des différences entre États Membres en termes de niveau de développement, afin de faciliter l’échange d’expériences et d’enseignements à retenir et de renforcer la capacité des pays à exécuter le Programme mondial de recensements de la population et des logements de 2030 ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="italic">Prie en outre</span> le Secrétaire général de mettre en place des plateformes pour l’échange de connaissances, de données d’expérience, de pratiques et d’enseignements tirés des recensements de la population et des logements, notamment en ce qui concerne l’utilisation de sources de données administratives ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve">	<span class="italic">Prie</span> le Secrétaire général de renforcer la coordination et la coopération entre les partenaires et les parties concernées afin d’aider les États Membres qui en font la demande à mettre en œuvre le Programme ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_64" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_64__content">
+          <p xml:space="preserve">	<span class="italic">Prie également</span> le Secrétaire général de rendre compte régulièrement de l’exécution du Programme à la Commission de statistique.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="23e" refersTo="#adoptionMeeting">23e séance plénière</location>
+          <eol />
+          <docDate date="2025-06-10" refersTo="#adoptionDate">10 juin 2025</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

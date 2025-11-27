@@ -1,0 +1,663 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-6/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-6/"></FRBRuri>
+          <FRBRdate date="2025-06-10" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-6/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-6/fra@/"></FRBRuri>
+          <FRBRdate date="2025-08-12" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-6/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-6/fra@.xml"></FRBRuri>
+          <FRBRdate date="2025-10-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="New Partnership for Africa's Development" showAs="New Partnership for Africa's Development" dictionary="DHLAUTH"></keyword>
+        <keyword value="2030 Agenda for Sustainable Development" showAs="2030 Agenda for Sustainable Development" dictionary="DHLAUTH"></keyword>
+        <keyword value="Addis Ababa Action Agenda of the Third International Conference on Financing for Development (2015)" showAs="Addis Ababa Action Agenda of the Third International Conference on Financing for Development (2015)" dictionary="DHLAUTH"></keyword>
+        <keyword value="Agenda 2063" showAs="Agenda 2063" dictionary="DHLAUTH"></keyword>
+        <keyword value="SOCIAL DEVELOPMENT" href="http://metadata.un.org/thesaurus/1005960" showAs="SOCIAL DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOCIAL POLICY" href="http://metadata.un.org/thesaurus/1005976" showAs="SOCIAL POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" href="http://metadata.un.org/thesaurus/1006319" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DEVELOPMENT POLICY" href="http://metadata.un.org/thesaurus/1001630" showAs="DEVELOPMENT POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="POVERTY MITIGATION" href="http://metadata.un.org/thesaurus/1005065" showAs="POVERTY MITIGATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="AFRICA" href="http://metadata.un.org/thesaurus/1000099" showAs="AFRICA" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="20b" showAs="Social development." shortForm="SOCIAL DEVELOPMENT" dictionary="E/2025/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-02-10" outcome="draftResolution" as="E/CN.5/2025/L.5" by="Irag (on behalf of the States Members of the United Nations that are members of the Group of 77 and China)" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-01-01" outcome="recommendedForAdoption" as="E/2025/26" by="UN. Commission for Social Development" />
+        <step date="2025-08-12" outcome="adopted" as="Adopted without vote, 22nd plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">25-12994 (F)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2025/6</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Conseil économique et social</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-08-12" class="rightSmall" refersTo="#dateOfIssuance">12 août 2025</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2025" eId="coverPage_1__session_1">Session de 2025</session>
+      </p>
+      <p>
+        <inline title="20 b)" name="agenda item">Point 20 b) de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Questions sociales et questions relatives aux droits humains : développement social</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par le Conseil économique et social le 10 juin 2025</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent>[sur recommandation de la Commission du développement social (<inline name="originating document">E/2025/26</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2025/6.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Aspects sociaux du Nouveau Partenariat pour le développement de l’Afrique</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Le Conseil économique et social</span>,</p>
+      </formula>
+      <container name="Rappelant" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> les textes issus du Sommet mondial pour le développement social, tenu à Copenhague du 6 au 12 mars 1995<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		<span class="italic">Rapport du Sommet mondial pour le développement social, Copenhague, 6-12 mars 1995</span> (publication des Nations Unies, numéro de vente : F.96.IV.8), chap. I, résolution 1, annexes I et II.</p></authorialNote>, et de la vingt-quatrième session extraordinaire de l’Assemblée générale intitulée « Sommet mondial pour le développement social et au‑delà : le développement social pour tous à l’heure de la mondialisation », tenue à Genève du 26 juin au 1<sup>er</sup> juillet 2000<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/S-24/2">S-24/2</a> de l’Assemblée générale, annexe.</p></authorialNote>, le Programme de développement durable à l’horizon 2030<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/70/1">70/1</a> de l’Assemblée générale.</p></authorialNote> et le Programme d’action d’Addis-Abeba issu de la troisième Conférence internationale sur le financement du développement<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/69/313">69/313</a> de l’Assemblée générale, annexe.</p></authorialNote>, et réaffirmant la Déclaration des Nations Unies sur le Nouveau Partenariat pour le développement de l’Afrique du 16 septembre 2002<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/57/2">57/2</a> de l’Assemblée générale.</p></authorialNote>,</p>
+      </container>
+      <container name="Notant" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Notant</span> les engagements pris à l’occasion du Sommet mondial de 2005 pour répondre aux besoins particuliers de l’Afrique<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/60/1">60/1</a> de l’Assemblée générale, par. 68.</p></authorialNote> et réaffirmés dans la déclaration politique sur les besoins de développement de l’Afrique adoptée à l’issue de la réunion de haut niveau tenue au Siège de l’Organisation des Nations Unies le 22 septembre 2008<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/63/1">63/1</a> de l’Assemblée générale.</p></authorialNote>, et prenant note des décisions prises lors des sommets de l’Union africaine concernant le Nouveau Partenariat pour le développement de l’Afrique<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		<a href="https://undocs.org/fr/A/57/304">A/57/304</a>, annexe.</p></authorialNote>,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant</span> les dispositions de la résolution <a href="https://undocs.org/fr/A/RES/70/1">70/1</a> de l’Assemblée générale, en date du 25 septembre 2015, intitulée « Transformer notre monde : le Programme de développement durable à l’horizon 2030 », dans laquelle l’Assemblée a adopté une série complète d’objectifs et de cibles ambitieux, universels, axés sur l’être humain et porteurs de changement, et réaffirmé qu’elle s’engage à œuvrer sans relâche pour que ce programme soit appliqué dans son intégralité d’ici à 2030, qu’elle considère que l’élimination de la pauvreté sous toutes ses formes et dans toutes ses dimensions, notamment de l’extrême pauvreté, constitue le plus grand défi auquel l’humanité doit faire face et une condition indispensable au développement durable, et qu’elle est attachée à réaliser le développement durable dans ses trois dimensions – économique, sociale et environnementale – d’une manière équilibrée et intégrée en tirant parti de ce qui a été fait dans le cadre des objectifs du Millénaire pour le développement, dont elle s’efforcera d’achever la réalisation,</p>
+      </container>
+      <container name="Réaffirmant également" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant également</span> la résolution <a href="https://undocs.org/fr/A/RES/69/313">69/313</a> de l’Assemblée générale, en date du 27 juillet 2015, qui contient le Programme d’action d’Addis-Abeba issu de la troisième Conférence internationale sur le financement du développement, qui fait partie intégrante du Programme de développement durable à l’horizon 2030,</p>
+      </container>
+      <container name="Réaffirmant en outre" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant en outre</span> la volonté de mobiliser les moyens nécessaires à la mise en œuvre du Programme 2030 grâce à un Partenariat mondial revitalisé pour le développement durable, mû par un esprit de solidarité renforcé, qui met l’accent sur les besoins des plus démunis et des plus vulnérables et auquel participent tous les pays, toutes les parties prenantes et tous les peuples,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant</span> la teneur du document intitulé « Agenda 2063 : L’Afrique que nous voulons », adopté par la Conférence des chefs d’État et de gouvernement de l’Union africaine à sa vingt-quatrième session ordinaire, tenue à Addis-Abeba les 30 et 31 janvier 2015, ainsi que le premier plan décennal de mise en œuvre (2014-2023) de l’Agenda 2063, dans lequel sont définis des projets phares, des domaines prioritaires et des mesures stratégiques destinés à appuyer l’application du cadre de développement continental, qui constituent le cadre stratégique pour une croissance inclusive et un développement durable en Afrique et visent à optimiser l’utilisation des ressources du continent au profit de tous ses habitants, et demandant de soutenir le deuxième plan décennal de mise en œuvre (2024-2033),</p>
+      </container>
+      <container name="Rappelant" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> la Position africaine commune sur les bonnes pratiques en matière d’élaboration et de mise en œuvre des politiques familiales, pour la célébration du vingtième anniversaire de l’Année internationale de la famille en 2014, et le Plan d’action continental révisé pour la Décennie africaine des personnes handicapées (2010-2019), qui ont été approuvés par les chefs d’État et de gouvernement des pays membres de l’Union africaine en janvier 2013, et prenant note de l’adoption, en janvier 2016, du Protocole à la Charte africaine des droits de l’homme et des peuples relatif aux droits des personnes âgées en Afrique,</p>
+      </container>
+      <container name="Considérant" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Considérant</span> qu’il importe d’appuyer l’Agenda 2063, y compris son programme de Nouveau Partenariat, qui fait partie intégrante du Programme de développement durable à l’horizon 2030, et de construire une Afrique intégrée, prospère et pacifique, sous la conduite de ses propres citoyens et représentant une force dynamique sur la scène mondiale, et soulignant à cet égard qu’il est essentiel de mettre en œuvre de façon cohérente et coordonnée l’Agenda 2063 et le Programme 2030,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant</span> la résolution <a href="https://undocs.org/fr/A/RES/71/254">71/254</a> de l’Assemblée générale, en date du 23 décembre 2016, intitulée « Cadre du nouveau partenariat entre l’Organisation des Nations Unies et l’Union africaine pour le programme d’intégration et de développement de l’Afrique 2017-2027 » et, à cet égard, se félicitant de la signature, le 27 janvier 2018, du Cadre Union africaine-Organisation des Nations Unies pour la mise en œuvre de l’Agenda 2063 et du Programme de développement durable à l’horizon 2030, qui vise à placer la mise en œuvre et le suivi de l’application de ces deux textes, ainsi que l’établissement de rapports à ce sujet, dans une logique d’intégration et de coordination, par la voie d’activités et de programmes communs,</p>
+      </container>
+      <container name="Reconnaissant" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Reconnaissant</span> que l’Agence de développement de l’Union africaine-Nouveau Partenariat pour le développement de l’Afrique demeure un outil de réalisation des objectifs de développement des sept aspirations et des projets phares de l’Agenda 2063 et qu’elle est essentielle pour garantir un niveau et une qualité de vie élevés et le bien-être de tous les citoyens de l’Afrique grâce à la sécurité des revenus, à l’emploi et au travail décent, à l’élimination de la pauvreté et de la faim, à la réduction des inégalités, à la sécurité sociale et à des socles de protection sociale, en particulier pour les personnes handicapées, à des logements modernes, abordables et décents et à des services de base de qualité, à la satisfaction des besoins en nourriture et à l’accès aux soins de santé, à des économies et des communautés respectueuses de l’environnement et résilientes face aux aléas climatiques, à l’égalité totale entre les genres dans tous les domaines de la vie, ainsi qu’à l’engagement et à l’autonomisation des jeunes et des enfants,</p>
+      </container>
+      <container name="Rappelant" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> le Programme de développement des infrastructures en Afrique adopté par l’Union africaine, qui préconise la création d’un environnement favorable aux investissements et l’adoption des réformes sectorielles destinées à promouvoir le développement économique et social et à réduire la pauvreté sur le continent par la mise en place de réseaux régionaux intégrés,</p>
+      </container>
+      <container name="Rappelant" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant</span> que, comme suite aux recommandations de la troisième session ordinaire du Comité technique spécialisé sur le développement, le travail et l’emploi, le Conseil exécutif de l’Union africaine a adopté en 2019 plusieurs cadres politiques, dont le Programme social 2063 de l’Union africaine, le programme conjoint Commission de l’Union africaine-Organisation internationale du Travail sur le travail décent pour la transformation de l’économie informelle (2020-2024), le Plan d’action décennal pour l’éradication du travail des enfants, du travail forcé, de la traite des êtres humains et de l’esclavage moderne en Afrique (2020-2030), les stratégies quinquennales pour la campagne de l’Union africaine visant à mettre fin au mariage des enfants et aux mutilations génitales féminines, y compris un cadre de responsabilité clair, le Cadre stratégique de l’Union africaine pour les personnes handicapées et le projet de protocole relatif au droit des citoyens à la protection et à la sécurité sociales,</p>
+      </container>
+      <container name="Prenant note avec préoccupation" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Prenant note avec préoccupation</span> de la forte persistance des mariages d’enfants, des mariages précoces et des mariages forcés, ainsi que des violences et d’autres pratiques néfastes à l’égard des enfants, notamment les mutilations génitales féminines, et rappelant à cet égard le lancement, à la quatrième session de la Conférence des ministres du développement social de l’Union africaine, qui s’est tenue à Addis-Abeba du 26 au 30 mai 2014, d’une campagne panafricaine visant à mettre fin au mariage des enfants en Afrique, la Loi type de la Communauté de développement de l’Afrique australe sur l’éradication du mariage des enfants et la protection des enfants déjà mariés, et l’approbation, en août 2016 par le Parlement panafricain, de l’interdiction des mutilations génitales féminines,</p>
+      </container>
+      <container name="Constatant" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Constatant</span> que de nombreux pays, particulièrement des pays en développement, continuent de faire face à des difficultés considérables et que certains ont davantage été laissés pour compte, soulignant que l’Union africaine et les communautés économiques régionales ont un rôle essentiel à jouer dans la mise en œuvre du programme du Nouveau Partenariat dans le cadre de l’Agenda 2063 et, à cet égard, invitant les pays d’Afrique, agissant avec l’aide de leurs partenaires de développement, à contribuer davantage au renforcement des capacités de ces institutions et à coordonner efficacement leur appui en la matière, ainsi qu’à promouvoir la coopération régionale et l’intégration sociale et économique du continent afin de ne laisser personne de côté,</p>
+      </container>
+      <container name="Considérant" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Considérant</span> qu’il est essentiel d’investir dans l’humain, en particulier en faveur de la protection sociale, de la santé et d’une éducation équitable, inclusive et de qualité et de possibilités d’apprentissage tout au long de la vie, pour améliorer la productivité dans tous les secteurs, y compris l’agriculture, et, partant, favoriser une croissance durable et équitable et la réduction de la pauvreté, grâce à la multiplication des créations d’emplois décents et au renforcement de l’employabilité pour tous, notamment pour les femmes et les jeunes, à l’amélioration de la sécurité alimentaire et de la nutrition et au renforcement de la résilience,</p>
+      </container>
+      <container name="Prenant note" eId="container_17">
+        <p xml:space="preserve">
+          <span class="italic">	Prenant note </span>de l’adoption de la déclaration politique issue de la réunion de haut niveau de l’Assemblée générale sur la prévention, la préparation et la riposte face aux pandémies, tenue à New York le 20 septembre 2023<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/78/3">78/3</a> de l’Assemblée générale, annexe.</p></authorialNote>, de la déclaration politique issue de la réunion de haut niveau sur la couverture sanitaire universelle, tenue à New York le 21 septembre 2023<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/78/4">78/4</a> de l’Assemblée générale, annexe.</p></authorialNote>, et de la déclaration politique issue de la réunion de haut niveau sur la lutte contre la tuberculose<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/78/5">78/5</a> de l’Assemblée générale, annexe.</p></authorialNote>, tenue à New York le 22 septembre 2023,</p>
+      </container>
+      <container name="Se félicitant" eId="container_18">
+        <p xml:space="preserve">
+          <span class="italic">	Se félicitant</span> de la tenue du Sommet de l’avenir, les 22 et 23 septembre 2024, au Siège de l’Organisation des Nations Unies, à New York, au cours duquel la résolution <a href="https://docs.un.org/fr/A/RES/79/1">79/1</a> du 22 septembre 2024, intitulée « Le Pacte pour l’avenir », et les annexes s’y rapportant ont été adoptées,</p>
+      </container>
+      <container name="Rappelant" eId="container_19">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant</span> la résolution <a href="https://docs.un.org/fr/A/RES/78/1">78/1</a> de l’Assemblée générale, en date du 29 septembre 2023, intitulée « Déclaration politique issue du forum politique de haut niveau pour le développement durable organisé sous les auspices de l’Assemblée générale », et demandant instamment que des mesures soient prises promptement en vue de sa bonne application,</p>
+      </container>
+      <container name="Considérant" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">Considérant</span> que l’égalité des genres et l’autonomisation de toutes les femmes et de toutes les filles, et la jouissance de tous les droits humains, apporteront une contribution capitale à la réalisation de l’ensemble des objectifs et des cibles de développement durable et qu’il faut absolument que le principe de l’égalité des genres soit systématiquement intégré dans la mise en œuvre du Programme de développement durable à l’horizon 2030 et, à cet égard, rappelant l’adoption du Protocole à la Charte africaine des droits de l’homme et des peuples relatif aux droits des femmes en Afrique lors de la deuxième session ordinaire de la Conférence de l’Union africaine, tenue à Maputo le 11 juillet 2003, saluant l’adoption de la Stratégie de l’Union africaine en matière de genre et d’autonomisation des femmes lors de la troisième session du Comité technique spécialisé sur le genre et l’autonomisation des femmes, tenue à Addis-Abeba du 7 au 11 mai 2018, et saluant également la proclamation de Décennie de l’inclusion financière et économique des femmes africaines (2020-2030) à la trente-troisième session ordinaire de la Conférence de l’Union africaine, qui s’est tenue à Addis-Abeba le 10 février 2020,</p>
+      </container>
+      <container name="Constatant" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">Constatant</span> que, du fait du manque d’accès à l’eau potable et à des services d’assainissement de qualité, la lutte contre les maladies, fardeau pour l’Afrique, progresse trop lentement, notamment chez les plus démunis, dans les villes comme dans les campagnes, et conscient des effets que l’absence de services d’assainissement a sur la santé des populations, la lutte contre la pauvreté, le développement économique et social et l’environnement, plus particulièrement les ressources en eau,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant</span> que l’une des stratégies les plus efficaces pour le relèvement de l’Afrique après la pandémie de maladie à coronavirus (COVID‑19) consiste à renforcer les liens entre les politiques et programmes concernant la santé publique, la lutte contre la pollution, l’action climatique, la préservation de la diversité biologique, l’intégrité des écosystèmes, l’équité socioéconomique, l’inclusion et la prospérité,</p>
+      </container>
+      <container name="Notant avec satisfaction" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">Notant avec satisfaction</span> que 33 pays d’Afrique remplissent ou pourraient remplir les conditions requises pour bénéficier d’un allègement de la dette au titre de l’Initiative en faveur des pays pauvres très endettés et de l’Initiative d’allègement de la dette multilatérale qui a suivi, y compris 30 ayant bénéficié d’un allègement total après avoir atteint leur point d’achèvement et la Somalie et le Soudan, qui ont fait des progrès tangibles pour ce qui est de mettre en place un ensemble robuste de mesures nécessaires pour franchir cette étape, et exhortant la communauté financière internationale à accélérer l’allègement de la dette et à continuer d’œuvrer de concert pour ramener à des niveaux soutenables le fardeau de la dette extérieure des pays les plus lourdement endettés,</p>
+      </container>
+      <container name="Soulignant" eId="container_24">
+        <p xml:space="preserve">
+          <span class="italic">	Soulignant</span> que la soutenabilité de la dette est une condition indispensable de la croissance, insistant sur l’importance que revêtent la soutenabilité, la transparence et la gestion efficace de la dette pour l’action menée en vue d’atteindre les objectifs de développement durable, soulignant également qu’il faut continuer à aider les pays en développement, y compris les pays d’Afrique, à éviter que la dette ne devienne insoutenable, en tenant compte des problèmes posés par le contexte économique mondial et des risques qui pèsent sur la soutenabilité de la dette dans un nombre croissant de pays en développement, ainsi que de la nécessité qui en découle d’élaborer des politiques coordonnées pour y faire face, reconnaissant le rôle important, au cas par cas, de l’allégement de la dette, notamment de l’annulation de la dette, s’il y a lieu, et de la restructuration de la dette, qui sont des outils de prévention, de gestion et de règlement de la crise de la dette, prenant note avec satisfaction des dispositions prises par le Groupe des 20 pour promouvoir davantage les mesures relatives à la dette, l’Initiative de suspension du service de la dette et le Cadre commun pour le traitement de la dette au‑delà de l’Initiative de suspension du service de la dette, et demandant à tous les créanciers bilatéraux officiels d’appliquer pleinement ces mesures de manière transparente, rapide et efficace, tout en notant qu’il convient d’en faire davantage, en particulier pour répondre aux besoins des pays qui ne bénéficient pas des mesures actuellement en place,</p>
+      </container>
+      <container name="Gardant à l’esprit" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">Gardant à l’esprit </span>que les pays d’Afrique sont responsables au premier chef de leur développement économique et social et que l’on ne saurait trop insister sur l’importance du rôle que jouent les politiques et les stratégies nationales de développement, gardant également à l’esprit que leurs efforts de développement doivent pouvoir s’appuyer sur la communauté internationale et sur un environnement économique international favorable, réaffirmant qu’il est essentiel que la communauté internationale respecte ses engagements concernant le développement économique et social de l’Afrique et rappelant à ce sujet l’appui accordé au Nouveau Partenariat par les Conférences internationales sur le financement du développement<authorialNote marker="12" placement="bottom" eId="authorialNote_12"><p xml:space="preserve">		Voir <span class="italic">Rapport de la Conférence internationale sur le financement du développement, Monterrey (Mexique), 18-22 mars 2002</span> (publication des Nations Unies, numéro de vente : F.02.II.A.7), chap. I, résolution 1, annexe ; Déclaration de Doha sur le financement du développement : document final de la Conférence internationale de suivi sur le financement du développement chargée d’examiner la mise en œuvre du Consensus de Monterrey (résolution <a href="https://docs.un.org/fr/A/RES/63/239">63/239</a> de l’Assemblée générale, annexe) ; Programme d’action d’Addis-Abeba issu de la troisième Conférence internationale sur le financement du développement (Programme d’action d’Addis-Abeba) (résolution <a href="https://undocs.org/fr/A/RES/69/313">69/313</a> de l’Assemblée générale, annexe).</p></authorialNote>,</p>
+      </container>
+      <container name="Soulignant" eId="container_26">
+        <p xml:space="preserve">	<span class="italic">Soulignant </span>que, dans tous les pays, les politiques publiques et la mobilisation et l’utilisation efficace des ressources intérieures, dans le respect du principe de l’appropriation nationale, sont un aspect essentiel de la quête commune du développement durable et donc de la réalisation des objectifs de développement durable, et constatant que les ressources intérieures sont avant tout engendrées par la croissance économique, moyennant un environnement favorable à tous les niveaux,</p>
+      </container>
+      <container name="Préoccupé de constater" eId="container_27">
+        <p xml:space="preserve">	<span class="italic">Préoccupé de constater</span> que les problèmes économiques et sociaux entraînés par la pandémie de COVID‑19 et aggravés par les changements climatiques perdurent et empirent et qu’ils entravent sérieusement le développement social de l’Afrique et, dans une grande mesure, anéantissent les progrès accomplis à moyen terme et exacerbent les vulnérabilités qui existaient avant la pandémie, laissant de côté davantage de personnes et ayant une incidence négative sur la capacité des gouvernements de concrétiser le Programme 2030 et d’atteindre les objectifs de développement durable, soulignant qu’en cette période critique de la décennie d’action en faveur des objectifs de développement durable, les visions et principes adoptés et les engagements pris au Sommet mondial pour le développement social restent valables et sont essentiels au règlement des problèmes mondiaux nouveaux et émergents, et rappelant que les politiques sociales ont un rôle clef à jouer dans la lutte contre les effets immédiats des crises,</p>
+      </container>
+      <container name="Notant avec une grande préoccupation" eId="container_28">
+        <p xml:space="preserve">
+          <span class="italic">	Notant avec une grande préoccupation</span> les répercussions prolongées des pandémies et autres urgences sanitaires ainsi que celles des nombreux défis mondiaux sur les pays d’Afrique, notamment les effets considérables sur la pauvreté, les inégalités, la sécurité alimentaire, l’emploi, le commerce, les chaînes d’approvisionnement, le tourisme et les flux financiers, ainsi que leurs conséquences sociales, surtout pour les plus pauvres et les plus vulnérables, notamment en ce qui concerne la violence faite aux femmes et aux filles, ce qui complique la tâche de ces pays pour ce qui est de mettre en œuvre le Programme 2030 et l’Agenda 2063, et constatant que les pays d’Afrique ont fait d’importants efforts pour lutter contre la pandémie de COVID‑19 afin de sauver des vies et de parvenir à un relèvement durable, inclusif et résilient,</p>
+      </container>
+      <container name="Rappelant" eId="container_29">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> que, bien que l’Organisation mondiale de la Santé ait annoncé que la COVID‑19 ne constituait plus une urgence de santé publique de portée internationale, la menace de futures pandémies demeure et le monde a besoin d’une architecture sanitaire mondiale plus forte, mieux coordonnée, inclusive et plus souple aux fins de la prévention, de la préparation, de la riposte et du relèvement en cas de pandémie, afin d’enrayer les graves conséquences de futures épidémies,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_30" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="italic">Salue</span> les progrès accomplis par les gouvernements africains pour ce qui est de s’acquitter des engagements qu’ils ont pris, dans le cadre de la mise en œuvre du Nouveau Partenariat pour le développement de l’Afrique, d’affermir la démocratie et les droits de la personne et d’assurer une bonne gouvernance et une gestion économique rigoureuse, et les encourage à intensifier, en y associant les parties prenantes, notamment la société civile et le secteur privé, les efforts qu’ils ont engagés dans ce domaine en créant et en consolidant les institutions nécessaires à la bonne gouvernance et en instaurant un climat favorable aux investissements étrangers directs en vue du développement de la région ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">	<span class="italic">Salue également</span> les progrès accomplis dans la mise en œuvre du Mécanisme africain d’évaluation par les pairs, en particulier l’adhésion volontaire de 44 pays d’Afrique au Mécanisme et l’achèvement de l’examen par les pairs de première génération dans 26 pays et de deuxième génération dans 5 pays ainsi que l’examen par les pairs ciblé dans 12 pays, salue en outre les progrès accomplis dans l’application des programmes d’action nationaux issus de ces examens et, à cet égard, invite instamment tous les États d’Afrique qui ne l’ont pas encore fait à envisager d’adhérer au Mécanisme, et note la décision prise concernant la réforme institutionnelle du Mécanisme, insiste sur l’appropriation par l’Afrique du processus et engage la communauté internationale à aider ceux des pays d’Afrique qui le demandent à mettre en œuvre leurs programmes d’action nationaux ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">	<span class="italic">Note</span> que les programmes du Nouveau Partenariat pour le développement de l’Afrique sont devenus la pierre angulaire et un moteur du développement en Afrique, les principaux objectifs du Nouveau Partenariat étant alignés sur le Programme de développement durable à l’horizon 2030, notamment l’élimination de la pauvreté, l’égalité des genres et l’autonomisation de toutes les femmes et de toutes les filles, la cohésion sociale par l’inclusion sociale et l’appropriation des initiatives de développement par les communautés, et le renforcement des priorités de développement social, telles que l’éducation, la santé et la sécurité alimentaire, occupant une place importante ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">
+            <span class="italic">	Réaffirme</span> qu’il importe d’appuyer le document intitulé « Agenda 2063 : L’Afrique que nous voulons », adopté par la Conférence des chefs d’État et de gouvernement de l’Union africaine à sa vingt-quatrième session ordinaire, tenue à Addis-Abeba les 30 et 31 janvier 2015, ainsi que son deuxième plan décennal de mise en œuvre (2024-2033), adopté et lancé lors de la trente-septième session ordinaire de la Conférence les 17 et 18 février 2024, dans lequel sont présentées sept ambitions (« moonshots »), alignées sur chacune des sept aspirations de l’Agenda 2063, qui décrivent de quelle manière le continent africain entend réaliser ses grandes priorités durant les 10 prochaines années ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve">	<span class="italic">Prend note</span> de l’élaboration du Cadre de suivi et d’évaluation du premier plan décennal de mise en œuvre de l’Agenda 2063 par les communautés économiques régionales d’Afrique, l’Agence de développement de l’Union africaine, la Commission économique pour l’Afrique, la Banque africaine de développement et le Symposium africain sur le développement de la statistique, et de la Stratégie pour l’harmonisation des statistiques en Afrique, deux instruments qui favorisent la convergence du suivi et de l’évaluation du premier plan décennal et des objectifs de développement durable, de même que d’un plan unifié d’application et de suivi de l’Agenda 2063 et du Programme de développement durable à l’horizon 2030, et constate que le premier plan décennal a été transposé dans les cadres de programmation nationaux de 42 pays ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="italic">Note</span> que l’Agenda 2063, qui complète le programme du Nouveau Partenariat, est le plan le plus complet pour le développement de l’Afrique et guide le programme de l’Afrique pour ce qui est d’atteindre les objectifs du Programme 2030 dans le contexte et la réalité de l’Afrique, et note également que le deuxième Sommet mondial pour le développement social, l’examen après 30 ans de la mise en œuvre de la Déclaration et du Programme d’action de Beijing et la quatrième Conférence internationale sur le financement du développement, qui se tiendront en 2025, donnent l’occasion de redoubler d’efforts pour honorer les engagements pris aux fins de l’élimination de la pauvreté, de la réduction des inégalités et de l’application du principe visant à ne laisser personne de côté en Afrique, notamment en intensifiant les investissements dans le capital humain et en améliorant l’accès équitable et d’un coût abordable à des services de développement social et à des services connexes de qualité ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve">	<span class="italic">Prend note avec satisfaction</span> de l’adoption, à la trente-cinquième session ordinaire du Conseil exécutif de l’Union africaine tenue à Niamey les 4 et 5 juillet 2019, des structures de gouvernance de l’Agence de développement de l’Union africaine, mécanisme de mise en œuvre de la stratégie de développement de l’Agenda 2063 de l’Union africaine dont la mission est de favoriser le développement du continent grâce à la planification et à la coordination de la mise en œuvre de l’Agenda 2063 avec les États Membres, les communautés économiques régionales et les institutions panafricaines d’une manière véritablement intégrée en tirant parti des partenariats et de la coopération technique ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve">	<span class="italic">Se félicite</span> des efforts faits par les pays d’Afrique et les organisations régionales et sous-régionales, dont l’Union africaine, en faveur de l’égalité des genres et de l’autonomisation de toutes les femmes et de toutes les filles dans la mise en œuvre du Nouveau Partenariat, notamment de l’application du Protocole à la Charte africaine des droits de l’homme et des peuples relatif aux droits des femmes en Afrique ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_66" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_66__content">
+          <p xml:space="preserve">	<span class="italic">Prend note avec satisfaction</span> de l’action menée par la Commission de l’Union africaine, qui a abouti au lancement de campagnes nationales pour mettre fin au mariage d’enfants et au mariage précoce ou forcé dans 24 pays, à l’adoption en 2017 de la Position commune africaine sur la Campagne de l’Union africaine visant à mettre fin au mariage d’enfants en Afrique, reconduite pour cinq ans de 2019 à 2023, à l’adoption par la Conférence de l’Union africaine en février 2019 de la décision sur la redynamisation de l’action politique dans le cadre de l’accélération de la lutte contre les mutilations génitales féminines en Afrique, par laquelle a été approuvée l’Initiative de l’Union africaine pour l’élimination des mutilations génitales féminines, dite Initiative Saleema, à l’adoption de lois nationales réprimant cette pratique dans 23 pays d’Afrique et à la mise en place, en avril 2022, du Cadre de responsabilité de l’Union africaine sur l’élimination des pratiques néfastes (African Union Accountability Framework on Eliminating Harmful Practices), mais demeure préoccupé par le fait que, dans certains pays d’Afrique, les risques de mariage d’enfants et de mariage précoce ou forcé ont été exacerbés par la pandémie de COVID‑19 ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_75" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_75__content">
+          <p xml:space="preserve">	<span class="italic">Prend également note avec satisfaction</span> du lancement par la Commission de l’Union africaine, le 24 août 2018 à Addis-Abeba, en collaboration avec l’Entité des Nations Unies pour l’égalité des sexes et l’autonomisation des femmes (ONU-Femmes) et l’Union internationale des télécommunications, de l’initiative « Les jeunes Africaines savent coder » (2018-2022), qui vise à améliorer la maîtrise des technologies de l’information et des communications par les filles et les femmes et, partant, à accroître leur contribution à l’innovation africaine dans ce domaine ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_85" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_85__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les pays d’Afrique à renforcer et à développer, au moyen d’investissements nationaux ou étrangers, les infrastructures locales et régionales et les infrastructures matérielles et immatérielles résilientes face aux changements climatiques, tout en soulignant qu’il importe d’investir dans des infrastructures de qualité, et à continuer de mettre en commun leurs meilleures pratiques, afin de renforcer l’intégration régionale et l’intégration à l’échelle du continent et, à cet égard, constate que les partenaires de développement de l’Afrique doivent axer leurs efforts sur l’appui au Programme de développement des infrastructures en Afrique, un portefeuille solide qui s’inscrit dans le plan d’action prioritaire 2 et se compose de 69 projets dans les domaines du transport, de l’énergie, de l’eau et des technologies de l’information et des communications devant être réalisés entre 2021 et 2030, et qu’ils doivent mettre en place un système plus robuste pour faire face aux catastrophes naturelles et aux phénomènes météorologiques extrêmes ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_96" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_96__content">
+          <p xml:space="preserve">	<span class="italic">Prend note avec satisfaction</span> de l’entrée en vigueur, le 30 mai 2019, de l’Accord portant création de la Zone de libre-échange continentale africaine, qui vise à stimuler les échanges commerciaux en Afrique et l’intégration du continent et peut favoriser la création d’emplois décents, la transformation structurelle, le développement des capacités productives et des infrastructures, la valeur ajoutée manufacturière, la bonne santé et l’enseignement de qualité, si les possibilités qu’il offre sont exploitées, et qui, en août 2024, avait recueilli la signature de 54 États membres, 48 d’entre eux ayant déposé leur instrument de ratification ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_108" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_108__content">
+          <p xml:space="preserve">	<span class="italic">Engage </span>les États Membres d’Afrique, leurs partenaires de développement et les institutions multilatérales à soutenir la mise en œuvre opérationnelle rapide de la Zone de libre-échange continentale africaine, notamment en investissant dans le renforcement des chaînes de valeur régionales pour faciliter les échanges commerciaux en Afrique et exploiter les possibilités offertes par la Zone pour promouvoir le travail décent, la transformation structurelle, les capacités productives et le développement des infrastructures, la valeur ajoutée manufacturière, la santé et l’enseignement de qualité ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_121" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_121__content">
+          <p xml:space="preserve">	<span class="italic">Rappelle</span> la Feuille de route de l’Union africaine sur la valorisation du dividende démographique par des investissements en faveur de la jeunesse et le premier programme prioritaire quinquennal sur l’emploi, l’éradication de la pauvreté et le développement inclusif (2017), et se félicite que l’Union africaine ait déclaré la période 2018-2027 Décennie africaine pour la formation et l’emploi des jeunes dans les domaines technique, professionnel et entrepreneurial, l’accent étant mis sur la création d’emplois décents pour les jeunes et les femmes, dans l’optique de garantir une croissance plus inclusive et d’éliminer durablement la pauvreté ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_135" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_135__content">
+          <p xml:space="preserve">	<span class="italic">Prend note</span> de la décision prise à la trente-sixième session ordinaire de la Conférence de l’Union africaine de retenir « Éducation » comme thème de l’Union africaine pour 2024, et de l’adoption de la feuille de route relative à l’application de cette décision à la trente-septième session ordinaire de la Conférence de l’Union africaine ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_150" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_150__content">
+          <p xml:space="preserve">	<span class="italic">Engage instamment</span> tous les pays qui ne l’ont pas encore fait à ratifier la Convention des Nations Unies contre la corruption<authorialNote marker="13" placement="bottom" eId="authorialNote_13"><p xml:space="preserve">		Nations Unies, <span class="italic">Recueil des Traités</span>, vol. 2349, n<sup>o</sup> 42146.</p></authorialNote> ou à y adhérer, engage les États parties à examiner son application, en affirmant leur détermination à faire en sorte que la Convention soit un instrument efficace pour décourager, détecter, prévenir et combattre la corruption active et passive, pour poursuivre les auteurs de faits de corruption et pour récupérer les avoirs volés et les restituer aux pays d’origine, selon qu’il conviendra, encourage la communauté internationale à élaborer des pratiques optimales concernant la restitution des actifs volés, soutient l’Initiative pour le recouvrement des avoirs volés lancée par l’Organisation des Nations Unies et la Banque mondiale ainsi que d’autres initiatives internationales allant dans le même sens, insiste pour que les conventions régionales relatives à la corruption soient mises à jour et ratifiées, et s’engage à œuvrer à l’élimination des paradis fiscaux, qui encouragent le transfert à l’étranger d’avoirs volés et les flux financiers illicites ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_166" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_166__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> aux gouvernements africains de ratifier le Protocole à la Charte africaine des droits de l’homme et des peuples relatif aux droits des personnes handicapées en Afrique et le Protocole à la Charte africaine des droits de l’homme et des peuples relatif aux droits des personnes âgées en Afrique, afin de démontrer l’attachement des États Membres à la dignité, à l’autonomisation et aux droits des personnes handicapées et des personnes âgées sur tout le continent ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_183" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_183__content">
+          <p xml:space="preserve">	<span class="italic">Note </span>que la santé est une condition préalable, un indicateur et un résultat du développement durable et que des efforts énergiques doivent être faits dans le cadre du Programme de développement durable à l’horizon 2030 si l’on veut intégrer de nouvelles questions ayant trait à la santé dans un programme général portant sur la santé et le développement, et, à cet égard, prend note de la déclaration adoptée par la Conférence des chefs d’État et de gouvernement de l’Union africaine, à sa trente-deuxième session ordinaire tenue à Addis-Abeba les 10 et 11 février 2019, dans laquelle celle-ci s’est engagée à appuyer et à améliorer la réforme du secteur de la santé en adoptant l’initiative La santé au cœur de toutes les politiques afin de mettre en place une couverture sanitaire universelle, de prendre des mesures visant à prévenir les grandes épidémies en Afrique et d’atteindre les objectifs de développement durable ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_201" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_201__content">
+          <p xml:space="preserve">	<span class="italic">Note avec satisfaction</span> que les chefs d’État et de gouvernement ont adopté, à la trente-deuxième session ordinaire de la Conférence de l’Union africaine en février 2019, le Traité portant création de l’Agence africaine du médicament, qui est chargée de renforcer les systèmes de réglementation afin d’améliorer l’accès à des médicaments de qualité, sans risque et efficaces et la fabrication de médicaments, de produits médicaux et de technologies pour garantir une bonne protection de la santé publique contre les futures pandémies et épidémies de maladies infectieuses en Afrique, traité qui, en août 2023, avait recueilli la signature de 37 États membres, 26 d’entre eux ayant déposé leur instrument de ratification, et note que d’autres initiatives ont été prises en la matière, comme la création de l’Équipe spéciale africaine d’acquisition de vaccins qui vise à accélérer le développement économique et social après la COVID ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_220" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_220__content">
+          <p xml:space="preserve">	<span class="italic">Prie instamment</span> les gouvernements africains d’accélérer la mise en œuvre de la Stratégie africaine pour la santé révisée (2016-2030), qui fournit des orientations générales pour l’élaboration de la Stratégie régionale africaine pour la nutrition, du Plan d’action de Maputo pour la mise en œuvre du Cadre d’orientation continental pour la promotion des droits et de la santé en matière de sexualité et de reproduction en Afrique 2016-2030, du Plan relatif à la fabrication de médicaments pour l’Afrique et du Cadre catalytique pour éliminer le sida, la tuberculose et le paludisme en Afrique à l’horizon 2030, accueille avec satisfaction la Déclaration adoptée par les ministres de la santé africains en 2016 sur l’accès universel à la vaccination comme fondement de la santé et du développement en Afrique et la déclaration de 2017 dans laquelle ceux-ci se sont engagés à accélérer l’application du Règlement sanitaire international (2005)<authorialNote marker="14" placement="bottom" eId="authorialNote_14"><p xml:space="preserve">		Organisation mondiale de la Santé, document WHA58/2005/REC/1, résolution 58.3, annexe.</p></authorialNote> et exhorte les gouvernements africains à atteindre des objectifs ambitieux, à effectuer une étude de viabilité et à définir des priorités stratégiques pour que ces trois maladies ne constituent plus une menace pour la santé publique d’ici à 2030 ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_240" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_240__content">
+          <p xml:space="preserve">	<span class="italic">Souligne</span> qu’il importe d’améliorer la santé maternelle et infantile et, à ce sujet, rappelle la déclaration adoptée au sommet de l’Union africaine sur la santé maternelle, néonatale et infantile et le développement, prend note de la décision de l’Union africaine de renforcer la Campagne pour l’accélération de la réduction de la mortalité maternelle, néonatale et infantile en Afrique pendant la période 2021-2030 et demande instamment que les engagements pris pour améliorer la santé maternelle et infantile soient respectés et mis en œuvre ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_261" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_261__content">
+          <p xml:space="preserve">	<span class="italic">Prend note</span> de la déclaration adoptée au sommet extraordinaire de l’Union africaine sur le VIH/sida, la tuberculose et le paludisme, qui s’est tenu à Abuja du 12 au 16 juillet 2013, relative aux progrès réalisés dans la mise en œuvre des engagements d’Abuja pour l’élimination du VIH et du sida, de la tuberculose et du paludisme en Afrique d’ici à 2030, prend également note de la « Déclaration politique sur le VIH et le sida : mettre fin aux inégalités et agir pour vaincre le sida d’ici à 2030 », adoptée le 8 juin 2021 à la réunion de haut niveau de l’Assemblée générale sur le VIH/sida<authorialNote marker="15" placement="bottom" eId="authorialNote_15"><p xml:space="preserve">		Résolution <a href="https://undocs.org/fr/A/RES/75/284">75/284</a> de l’Assemblée générale, annexe.</p></authorialNote>, et réaffirme la ferme volonté d’apporter une assistance en matière de prévention, de traitement et de soins, dans le but de débarrasser l’Afrique du VIH/sida, du paludisme et de la tuberculose, en répondant aux besoins de tous, en particulier à ceux des femmes, des enfants et des jeunes, ainsi que la nécessité urgente d’intensifier considérablement les efforts visant à assurer l’accès universel, dans les pays d’Afrique, à des programmes complets de prévention, de traitement, de soins et d’accompagnement liés au VIH/sida, d’accélérer et d’intensifier l’action menée pour élargir en Afrique l’accès à des médicaments de qualité peu coûteux, y compris des antirétroviraux, en encourageant les laboratoires pharmaceutiques à rendre ces médicaments disponibles, et d’assurer le renforcement du partenariat mondial et l’accroissement de l’aide bilatérale et multilatérale, si possible sous forme de dons, afin de lutter contre le VIH/sida, le paludisme et la tuberculose, ainsi que d’autres maladies infectieuses en Afrique, par le renforcement des systèmes de santé ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_283" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_283__content">
+          <p xml:space="preserve">	<span class="italic">Prend également note</span> de la décision de l’Union africaine de prolonger la durée de mise en œuvre de sa Feuille de route pour la responsabilité partagée et la solidarité mondiale dans la lutte contre le sida, la tuberculose et le paludisme en Afrique et d’en reporter la date de fin de 2016 à 2020, ainsi que de tirer parti de l’année 2021, qui marquait le vingtième anniversaire de la Déclaration d’Abuja sur le VIH/sida, la tuberculose et autres maladies infectieuses connexes, pour faire le point sur la situation et les conséquences de ces maladies en Afrique, note la revitalisation de Veille sida Afrique en tant que plateforme africaine de haut niveau chargée d’encourager l’action, le respect du principe de responsabilité et la mobilisation des ressources en vue de lutter contre le VIH/sida, la tuberculose et le paludisme en Afrique, et prie les partenaires de développement et les organismes des Nations Unies de soutenir, selon qu’il conviendra et dans le respect des obligations internationales pertinentes, les efforts que font les organisations et les pays d’Afrique pour atteindre les principaux objectifs énoncés dans la Feuille de route de l’Union africaine, y compris obtenir un financement durable et diversifié, mieux harmoniser la réglementation, renforcer la capacité de production locale de médicaments et mieux guider les ripostes et en améliorer la gouvernance ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_306" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_306__content">
+          <p xml:space="preserve">	<span class="italic">Engage</span> les partenaires de développement à continuer de soutenir les efforts que font les pays d’Afrique pour renforcer les capacités des systèmes nationaux de santé, notamment en fournissant du personnel de santé qualifié, des données fiables sur la santé et des équipements et des laboratoires de recherche, et à étendre les systèmes de veille sanitaire, sans oublier de mobiliser les moyens nécessaires pour aider l’Afrique à prévenir l’apparition de maladies et les épidémies, qui représentent chaque année plus de 100 urgences de santé publique, à s’y préparer et à y riposter, et, dans ce cadre, réaffirme son appui aux Centres africains de prévention et de contrôle des maladies, à la Déclaration de Kampala et au Programme pour une action mondiale ainsi qu’aux conférences de suivi, qui visent à faire face à la grave pénurie de personnel soignant en Afrique ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_330" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_330__content">
+          <p xml:space="preserve">	<span class="italic">Engage</span> les États Membres à continuer d’assurer une coopération internationale et un appui au renforcement des capacités des pays en développement, plus particulièrement des pays d’Afrique, en ce qui concerne les activités et programmes relatifs à l’eau et à l’assainissement, y compris la collecte de l’eau, le dessalement, l’utilisation rationnelle de l’eau, le traitement des eaux usées, le recyclage et les techniques de réutilisation, et prend note de la stratégie pour la période 2018-2030 du Conseil des ministres africains sur l’eau, lancée aux fins de la réalisation de la Vision africaine de l’eau pour 2025, de l’Agenda 2063 et des objectifs de développement durable ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_355" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_355__content">
+          <p xml:space="preserve">	<span class="italic">Souligne</span> que la mise en œuvre du Nouveau Partenariat dépend également d’un contexte national et international propice à la croissance et au développement de l’Afrique, et notamment de l’existence d’un cadre d’action favorable au développement du secteur privé, à la création d’entreprises et à la réalisation des objectifs de développement durable ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_381" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_381__content">
+          <p xml:space="preserve">	<span class="italic">Souligne également </span>que la démocratie, le respect de tous les droits humains et libertés fondamentales, y compris le droit au développement, la transparence de la gestion des affaires publiques et de l’administration dans tous les secteurs de la société et le respect du principe de responsabilité, ainsi qu’une véritable participation de la société civile, notamment des organisations locales et non gouvernementales, et du secteur privé comptent parmi les éléments de base indispensables à la réalisation d’un développement durable axé sur la société et sur l’individu ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_408" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_408__content">
+          <p xml:space="preserve">	<span class="italic">Souligne en outre</span> que la pauvreté, les inégalités et l’exclusion sociale dans la plupart des pays d’Afrique appellent une stratégie globale de formulation et de mise en œuvre des politiques sociales et économiques, notamment pour réduire la pauvreté, favoriser l’activité économique, la croissance et le développement durable afin de garantir la création d’emplois productifs et un travail décent pour tous, promouvoir des services d’éducation, de santé et de protection sociale de qualité, accroître l’égalité, l’inclusion sociale, la stabilité politique, la démocratie et la bonne gouvernance à tous les niveaux ainsi que la promotion et la défense des droits humains et des libertés fondamentales ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_436" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_436__content">
+          <p xml:space="preserve">	<span class="italic">Souligne </span>qu’il faut repérer et éliminer les obstacles à l’égalité des chances et assurer la protection et les services sociaux de base pour rompre le cycle de la pauvreté, de l’inégalité et de l’exclusion sociale ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_465" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_465__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les pays d’Afrique à accélérer l’action menée pour éliminer l’extrême pauvreté, offrir des emplois décents et faire face à l’urgence climatique en investissant dans une transition durable, inclusive et juste, notamment à appliquer des stratégies visant à promouvoir l’économie sociale et solidaire, qui permet de stimuler la croissance économique et de créer des emplois, et des stratégies d’atténuation des changements climatiques et d’adaptation, en modernisant les petites exploitations agricoles, en donnant de la valeur ajoutée aux produits primaires et en améliorant les institutions publiques et privées de gouvernance économique et politique ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_495" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_495__content">
+          <p xml:space="preserve">	<span class="italic">Insiste</span> sur le fait que le développement économique, notamment le développement d’une industrie faisant appel aux ressources nationales, à forte intensité de main-d’œuvre et prenant dûment en considération les impératifs d’une gestion et d’une utilisation durables des ressources naturelles, l’équipement et la transformation structurelle, en particulier en zone rurale, peut, s’il est fondé sur des politiques pragmatiques, ciblées, conformes aux priorités de développement nationales comme aux engagements internationaux et conçues pour renforcer les capacités de production de l’Afrique, être générateur d’emplois et de revenus pour tous les hommes et les femmes du continent, y compris les pauvres, et constituer ainsi un moteur pour l’élimination de la pauvreté, en soutien au cadre de l’Union africaine pour le développement industriel accéléré de l’Afrique, et la réalisation des objectifs de développement arrêtés au niveau international, dont les objectifs de développement durable ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_526" class="SingleTxt">
+        <num>32.</num>
+        <content eId="para_526__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les pays d’Afrique à continuer de promouvoir la stabilité politique, la paix et la sécurité et de renforcer la gouvernance, les politiques et l’environnement institutionnel afin de favoriser un développement durable qui profite à tous, et à créer un environnement permettant au secteur privé de contribuer à une transformation durable de l’économie et de stimuler la création d’emplois productifs et décents pour tous ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_558" class="SingleTxt">
+        <num>33.</num>
+        <content eId="para_558__content">
+          <p xml:space="preserve">	<span class="italic">Souligne</span> que la réalisation du développement durable et l’élimination de la pauvreté reposent sur la capacité et la volonté des pays de mobiliser efficacement les ressources intérieures, d’attirer des investissements étrangers directs, d’honorer leurs engagements au titre de l’aide publique au développement, d’utiliser cette aide à bon escient et de faciliter les transferts de technologie vers les pays en développement selon des modalités arrêtées d’un commun accord, et souligne également que le règlement des situations d’endettement insoutenable est essentiel pour les pays pauvres très endettés, tandis que les envois de fonds sont devenus une source importante de revenus et de financement pour les pays bénéficiaires et leur contribution à la réalisation du développement durable ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_591" class="SingleTxt">
+        <num>34.</num>
+        <content eId="para_591__content">
+          <p xml:space="preserve">	<span class="italic">Constate</span> que les données préliminaires montrent que le montant net de l’aide publique au développement bilatérale versé par les pays membres du Comité d’aide au développement en faveur de l’Afrique a recommencé à croître, atteignant 42 milliards de dollars des États-Unis en 2023, soit une augmentation de 2 pour cent en chiffres réels par rapport à 2022, montant qui comprend un montant net de 36 milliards de dollars versés aux pays d’Afrique subsaharienne, soit une augmentation de 5 pour cent en chiffres réels par rapport à 2022, l’aide publique au développement en chiffres relatifs étant restée bien inférieure à la part de 0,7 pour cent du revenu national brut que les États se sont engagés à y consacrer ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_625" class="SingleTxt">
+        <num>35.</num>
+        <content eId="para_625__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme</span> que la concrétisation de tous les engagements pris en matière d’aide publique au développement demeure primordiale, y compris l’engagement de nombreux pays développés de consacrer 0,7 pour cent de leur revenu national brut à l’aide publique au développement et 0,15 à 0,20 pour cent en faveur des pays les moins avancés, se félicite qu’un petit nombre de pays aient atteint ou dépassé l’objectif de consacrer 0,7 pour cent de leur revenu national brut à l’aide publique au développement et 0,15 à 0,20 pour cent à l’aide aux pays les moins avancés, et prie instamment les autres de redoubler d’efforts pour accroître leur aide et de faire des efforts concrets supplémentaires en vue d’atteindre les objectifs fixés en la matière ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_660" class="SingleTxt">
+        <num>36.</num>
+        <content eId="para_660__content">
+          <p xml:space="preserve">	<span class="italic">Est conscient</span> que les pays en développement, particulièrement les pays d’Afrique, connaissent encore de grandes difficultés pour parvenir au développement durable et que, pour pérenniser les résultats obtenus jusqu’ici, il faudrait intensifier les efforts visant à surmonter les difficultés actuelles par la coopération internationale et les partenariats pour le développement, notamment en élaborant des stratégies et des plans nationaux de développement pour guider l’intervention de tous les partenaires de développement en fonction des besoins et des priorités des pays, une meilleure coordination et un soutien amélioré et mieux ciblé de la part du système des Nations Unies pour le développement, des institutions financières internationales, des organisations régionales et d’autres parties prenantes et encourager l’augmentation des volumes d’aide publique au développement, d’investissements étrangers directs, de prêts concessionnels et de financement à long terme en conséquence, afin d’aider les pays à retrouver des marges de manœuvre budgétaire et décisionnelle ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_696" class="SingleTxt">
+        <num>37.</num>
+        <content eId="para_696__content">
+          <p xml:space="preserve">	<span class="italic">Sait </span>que, si le développement social incombe au premier chef aux autorités nationales, la coopération et l’aide internationales n’en sont pas moins indispensables pour atteindre pleinement cet objectif et demande à la communauté internationale de continuer d’aider les pays en développement et, en particulier, les pays les moins avancés, notamment en Afrique, à résoudre les difficultés qu’ils rencontrent et ainsi à atteindre par leurs propres moyens un développement durable ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_733" class="SingleTxt">
+        <num>38.</num>
+        <content eId="para_733__content">
+          <p xml:space="preserve">	<span class="italic">Salue</span> le concours apporté par les États Membres à la mise en œuvre du Nouveau Partenariat dans le cadre de la coopération Sud-Sud et invite la communauté internationale, notamment les institutions financières internationales, à aider les pays d’Afrique, y compris au moyen de la coopération triangulaire ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_771" class="SingleTxt">
+        <num>39.</num>
+        <content eId="para_771__content">
+          <p xml:space="preserve">	<span class="italic">Se félicite</span> des mesures prises par l’Organisation des Nations Unies et l’Union africaine pour réorganiser les groupes thématiques du Mécanisme de coordination régionale pour l’Afrique afin de traiter les principaux thèmes de l’Agenda 2063 et du Programme de développement durable à l’horizon 2030, et invite les partenaires de développement, notamment les organismes des Nations Unies, à continuer d’aider le Mécanisme à atteindre ses objectifs, en lui fournissant, par exemple, le financement dont il a besoin pour exécuter ses activités ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_810" class="SingleTxt">
+        <num>40.</num>
+        <content eId="para_810__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les pays d’Afrique à redoubler d’efforts afin de renforcer la capacité des systèmes statistiques infranationaux et nationaux de produire en temps voulu des statistiques et des indicateurs fiables pour assurer le suivi des politiques et stratégies nationales de développement et du respect des engagements pris et la réalisation de tous les objectifs de développement durable aux niveaux local, national, régional et international et, à cette fin, engage les organisations et pays donateurs, y compris les organismes des Nations Unies, et les organismes statistiques internationaux et régionaux à aider les pays d’Afrique à renforcer leurs capacités statistiques au service du développement ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_850" class="SingleTxt">
+        <num>41.</num>
+        <content eId="para_850__content">
+          <p xml:space="preserve">	<span class="italic">Prend note</span> de la Stratégie 2024 pour la science, la technologie et l’innovation en Afrique, qui vise à faire évoluer des secteurs d’activité essentiels tels que l’agriculture, l’énergie, l’environnement, la santé, le développement des infrastructures, les industries extractives, la sécurité et l’eau ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_891" class="SingleTxt">
+        <num>42.</num>
+        <content eId="para_891__content">
+          <p xml:space="preserve">	<span class="italic">Souligne</span> qu’il importe que les gouvernements africains renforcent, en priorité, la capacité de production de l’agriculture durable de façon à accroître les revenus ruraux et à permettre aux acheteurs nets d’aliments de s’approvisionner, qu’il faudrait s’employer davantage à promouvoir l’agriculture durable et à l’appliquer, et améliorer l’accès des petits exploitants agricoles, en particulier des femmes, aux ressources agricoles nécessaires, moyens de production inclus, et l’accès aux infrastructures, à l’information et aux marchés, et qu’il faudrait, en outre, favoriser les liens entre zones rurales et centres urbains en sollicitant les petites et moyennes entreprises qui contribuent à la croissance de l’emploi et des revenus tout au long de la chaîne de valeur agricole ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_933" class="SingleTxt">
+        <num>43.</num>
+        <content eId="para_933__content">
+          <p xml:space="preserve">	<span class="italic">Engage instamment </span>les gouvernements africains, agissant dans le cadre du Programme détaillé pour le développement de l’agriculture africaine, à porter les investissements en faveur de l’agriculture à au moins 10 pour cent du budget annuel du secteur public national tout en prenant les mesures nécessaires en matière de réforme des institutions et des politiques en vue d’améliorer les résultats des exploitations et systèmes agricoles ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_976" class="SingleTxt">
+        <num>44.</num>
+        <content eId="para_976__content">
+          <p xml:space="preserve">	<span class="italic">Est conscient</span> que les partenaires de développement de l’Afrique qui soutiennent l’agriculture, la sécurité alimentaire et la nutrition en Afrique doivent axer plus particulièrement leurs efforts sur l’appui au Programme détaillé pour le développement de l’agriculture africaine en se servant des plans d’investissement du Programme pour aligner le financement extérieur ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1020" class="SingleTxt">
+        <num>45.</num>
+        <content eId="para_1020__content">
+          <p xml:space="preserve">	<span class="italic">Se félicite</span> des avancées réalisées en matière de sécurité alimentaire avec l’adoption en octobre 2018 par le Parlement panafricain d’une résolution portant sur l’élaboration d’une loi type sur la sécurité alimentaire et la nutrition en Afrique, et la mise en place d’un projet de coopération technique visant à intégrer des plantes cultivées localement dans le panier alimentaire africain aux fins d’une plus grande sécurité alimentaire et de meilleures qualités nutritionnelles, et prend note de la Position commune de l’Afrique sur les systèmes alimentaires, qui est une synthèse des vues, des perspectives et des priorités exprimées par les États Membres d’Afrique, ainsi que de leurs ambitions, au sujet des principales questions qui influent sur les systèmes alimentaires de l’Afrique et du monde entier, établie à la lumière des dialogues tenus dans le cadre du Sommet des Nations Unies sur les systèmes alimentaires de 2021, notamment du dialogue régional africain, qui s’est tenu au Maroc le 13 juillet 2021 afin d’activer le renforcement des systèmes alimentaires selon une perspective régionale prenant racine dans les systèmes agricoles et alimentaires africains, les régimes alimentaires africains, les conditions de vie des populations africaines et les ambitions des sociétés africaines ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1065" class="SingleTxt">
+        <num>46.</num>
+        <content eId="para_1065__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme </span>que parmi les objectifs de la troisième Décennie des Nations Unies pour l’élimination de la pauvreté (2018-2027), proclamée par l’Assemblée générale dans sa résolution <a href="https://undocs.org/fr/A/RES/72/233">72/233</a> du 20 décembre 2017, figurent la préservation de la dynamique créée par la mise en œuvre de la deuxième Décennie et l’appui à apporter, de manière efficiente et coordonnée, aux objectifs de développement arrêtés au niveau international relatifs à l’élimination de la pauvreté, notamment les objectifs de développement durable visant à ne laisser personne de côté ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1111" class="SingleTxt">
+        <num>47.</num>
+        <content eId="para_1111__content">
+          <p xml:space="preserve">	<span class="italic">Engage instamment</span> les pays d’Afrique à être attentifs à une croissance sans exclusive, équitable et durable, susceptible de favoriser l’emploi, notamment par des investissements à forte intensité de main-d’œuvre, ayant pour but de réduire les inégalités, de créer des emplois productifs, de procurer un travail décent à tous, en particulier aux personnes vulnérables, notamment les femmes et les jeunes, et d’accroître les revenus réels par habitant tant dans les zones rurales qu’urbaines ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1158" class="SingleTxt">
+        <num>48.</num>
+        <content eId="para_1158__content">
+          <p xml:space="preserve">	<span class="italic">Souligne</span> la nécessité, en particulier pour les pays d’Afrique, de renforcer davantage les capacités aux fins du développement durable et, à cet égard, demande de resserrer la coopération technique et scientifique, notamment la coopération Nord‑Sud et Sud-Sud et la coopération triangulaire, et réaffirme qu’il importe de mettre dûment en valeur les ressources humaines, par la formation, l’échange de données d’expérience et de compétences spécialisées, le transfert des connaissances et l’assistance technique aux fins du renforcement des capacités, dont les capacités institutionnelles, notamment en matière de cohérence, de coordination et de mise en œuvre des politiques, ainsi qu’en matière de planification, de gestion et de suivi ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1206" class="SingleTxt">
+        <num>49.</num>
+        <content eId="para_1206__content">
+          <p xml:space="preserve">	<span class="italic">Souligne</span> qu’il importe d’accélérer les stratégies visant à combler le fossé entre les genres en ce qui concerne l’accès à l’éducation, aux soins de santé, à un travail décent, aux technologies numériques, y compris Internet, et aux services alimentaires et agricoles, et d’accroître la coopération internationale pour améliorer la qualité de l’éducation et l’accès à celle-ci, y compris les efforts visant à réaliser le droit des filles à l’éducation, en particulier pour les pays d’Afrique, notamment en construisant et en renforçant les infrastructures liées à l’éducation et en augmentant les investissements dans l’éducation, et prend note des initiatives continentales telles que le Centre international de l’Union africaine pour l’éducation des filles et des femmes en Afrique, qui a présenté à sa réunion technique tenue les 19 et 20 juillet 2022 en Afrique du Sud et consacrée à la promotion du programme de l’Union africaine en faveur de l’éducation des filles et des femmes, son troisième plan stratégique (2021-2025) axé sur le renforcement de la résilience pour le développement du capital humain de l’Afrique au moyen de l’éducation des filles et des femmes au service du développement durable, qui vise à réaliser l’égalité des genres tout en reconnaissant que les garçons et les hommes jouent un rôle crucial à cet égard ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1255" class="SingleTxt">
+        <num>50.</num>
+        <content eId="para_1255__content">
+          <p xml:space="preserve">	<span class="italic">Engage instamment</span> les pays d’Afrique et les partenaires de développement à répondre aux besoins des jeunes et à leur donner des moyens d’action, notamment à s’attaquer au chômage élevé constaté chez les jeunes en leur faisant bénéficier de programmes de qualité dans les domaines de l’éducation, de la formation professionnelle et de l’accompagnement à la création d’entreprises qui visent à lutter contre l’analphabétisme, à améliorer leur aptitude à l’emploi et leurs capacités, à faciliter le passage de l’école à la vie active et à élargir, le cas échéant, les programmes d’emploi garanti, en particulier pour les jeunes défavorisés des zones rurales et urbaines, et, à cet égard, prend note du lancement en 2022 de l’initiative de l’Union africaine pour l’inclusion économique et financière des femmes, qui vise à offrir à au moins un million de femmes et de jeunes africains d’ici à 2030 des possibilités de financement et à promouvoir la parité dans l’emploi, et de l’initiative 1 Million Next Level, qui vise à ouvrir des perspectives à 300 millions de jeunes africains d’ici à 2030, dans les domaines de l’éducation, de l’emploi, de l’entrepreneuriat, de l’engagement et de la santé et du bien-être ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1305" class="SingleTxt">
+        <num>51.</num>
+        <content eId="para_1305__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme</span> la volonté de l’Assemblée générale de réduire la fracture numérique et de combler le fossé des connaissances, sachant que cette démarche doit être pluridimensionnelle et tenir compte de l’aspect évolutif de l’accès, en mettant l’accent sur la qualité, et reconnaît que la vitesse, la stabilité, le coût, la langue, le contenu local et l’accessibilité pour les personnes handicapées sont désormais des éléments clefs de la qualité d’accès et que le haut débit est d’ores et déjà un facteur essentiel du développement durable ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1356" class="SingleTxt">
+        <num>52.</num>
+        <content eId="para_1356__content">
+          <p xml:space="preserve">	<span class="italic">Estime</span> qu’offrir à toutes les filles et à tous les garçons, notamment les plus pauvres et les plus vulnérables et marginalisés, un meilleur accès à l’école et de meilleures possibilités de recevoir un enseignement de qualité et améliorer la qualité de l’éducation au‑delà de l’école primaire peuvent favoriser l’autonomisation et la participation à la vie sociale, économique et politique, et donc la lutte contre la pauvreté et la faim, et contribuer directement à la réalisation des objectifs de développement arrêtés au niveau international, y compris les objectifs de développement durable ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1408" class="SingleTxt">
+        <num>53.</num>
+        <content eId="para_1408__content">
+          <p xml:space="preserve">	<span class="italic">Engage</span> les pays d’Afrique et leurs partenaires de développement à construire des systèmes éducatifs offrant un enseignement et une formation professionnelle de grande qualité, pertinents et inclusifs, notamment une formation aux compétences numériques, afin que les jeunes d’Afrique soient adaptés au XXI<sup>e</sup> siècle et qu’ils contribuent au développement global du continent, et à tirer parti du pouvoir de la science, de la technologie et de l’innovation pour améliorer l’accès à l’éducation ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1461" class="SingleTxt">
+        <num>54.</num>
+        <content eId="para_1461__content">
+          <p xml:space="preserve">	<span class="italic">Estime</span> que le fait que l’Afrique a une population jeune offre d’importantes possibilités pour le développement du continent et souligne, à ce propos, combien il importe que les pays d’Afrique créent des cadres d’orientation appropriés, de concert avec les organismes des Nations Unies, pour exploiter le dividende démographique, et qu’ils adoptent une démarche sans exclusive axée sur les résultats pour planifier et réaliser le développement conformément aux priorités et aux lois nationales ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1515" class="SingleTxt">
+        <num>55.</num>
+        <content eId="para_1515__content">
+          <p xml:space="preserve">	<span class="italic">Engage</span> les gouvernements, les organisations internationales, les institutions compétentes et les autres parties prenantes, selon qu’il conviendra, à dispenser aux jeunes des formations pour qu’ils acquièrent les compétences requises, à fournir des services de santé de qualité et à dynamiser le marché du travail pour employer cette population croissante ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1570" class="SingleTxt">
+        <num>56.</num>
+        <content eId="para_1570__content">
+          <p xml:space="preserve">	<span class="italic">Considère</span> que les gouvernements et la communauté internationale doivent faire plus pour accroître le flux de ressources nouvelles et additionnelles de toute provenance, publique et privée, intérieure et étrangère, destinées au financement du développement durable des pays d’Afrique, et se félicite des diverses initiatives importantes lancées par les pays d’Afrique et leurs partenaires de développement à cette fin ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1626" class="SingleTxt">
+        <num>57.</num>
+        <content eId="para_1626__content">
+          <p xml:space="preserve">	<span class="italic">Prend note</span> des activités menées dans les pays d’Afrique par les institutions de Bretton Woods et la Banque africaine de développement et invite ces institutions à continuer de soutenir la réalisation des priorités et des objectifs du Nouveau Partenariat ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1683" class="SingleTxt">
+        <num>58.</num>
+        <content eId="para_1683__content">
+          <p xml:space="preserve">	<span class="italic">Encourage </span>les pays d’Afrique et leurs partenaires de développement à placer les populations au centre de l’action menée par les gouvernements en faveur du développement, à consacrer les budgets nécessaires à la santé, à l’éducation et à la protection sociale, et à étudier en particulier les possibilités d’un accès universel à un système de sécurité sociale de base, considérant qu’un socle de protection sociale peut constituer un bon point de départ pour éliminer la pauvreté et réduire la vulnérabilité, et prend note à ce propos de la Recommandation de 2012 sur les socles de protection sociale (n<sup>o</sup> 202), que la Conférence internationale du Travail a adoptée à sa 101<sup>e</sup> session, le 14 juin 2012, et qui peut servir d’orientation pour l’investissement social ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1741" class="SingleTxt">
+        <num>59.</num>
+        <content eId="para_1741__content">
+          <p xml:space="preserve">	<span class="italic">Note </span>que les organismes des Nations Unies se concertent de plus en plus pour apporter leur soutien à l’Union africaine et à la mise en œuvre du Nouveau Partenariat et prie le Secrétaire général de continuer à les inviter à renforcer encore la cohérence des activités qu’ils mènent à ce sujet, selon les groupes thématiques du Mécanisme de coordination régionale pour l’Afrique ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1800" class="SingleTxt">
+        <num>60.</num>
+        <content eId="para_1800__content">
+          <p xml:space="preserve">	<span class="italic">Souligne </span>qu’il importe que le groupe traitant de la sensibilisation et de la communication continue de mobiliser un appui international en faveur du Nouveau Partenariat et invite instamment le système des Nations Unies à mettre davantage en avant le rôle joué par les synergies intersectorielles pour promouvoir une approche globale des phases successives de la planification et de l’exécution des programmes de développement social en Afrique ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1860" class="SingleTxt">
+        <num>61.</num>
+        <content eId="para_1860__content">
+          <p xml:space="preserve">	<span class="italic">Prie</span> la Commission du développement social de continuer d’examiner, dans le cadre de son programme de travail annuel, les programmes régionaux qui favorisent le développement social afin de permettre à toutes les régions de mettre en commun leurs données d’expérience et leurs meilleures pratiques, avec l’accord des pays concernés et, pour cela, de faire en sorte que ses programmes de travail portent, selon qu’il conviendra, sur les aspects sociaux du Nouveau Partenariat ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1921" class="SingleTxt">
+        <num>62.</num>
+        <content eId="para_1921__content">
+          <p xml:space="preserve">	<span class="italic">Décide</span> que la Commission du développement social devrait examiner les progrès accomplis en ce qui concerne les aspects sociaux du Nouveau Partenariat et tenir dûment compte de l’Agenda 2063 de l’Union africaine à sa soixante-quatrième session ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1983" class="SingleTxt">
+        <num>63.</num>
+        <content eId="para_1983__content">
+          <p xml:space="preserve">	<span class="italic">Prie</span> le Secrétaire général, agissant en collaboration avec le Bureau de la Conseillère spéciale pour l’Afrique et la Commission économique pour l’Afrique et tenant compte de la résolution <a href="https://docs.un.org/fr/A/RES/79/263">79/263</a> de l’Assemblée générale en date du 15 janvier 2025, intitulée « Nouveau Partenariat pour le développement de l’Afrique : progrès accomplis dans la mise en œuvre et appui international », de soumettre à la Commission du développement social, pour examen à sa soixante-quatrième session, un rapport axé sur les mesures prises assorti de recommandations sur les moyens d’accroître l’efficacité des travaux des organismes des Nations Unies concernant les aspects sociaux du Nouveau Partenariat pour le développement de l’Afrique comme moyen de mettre en œuvre l’Agenda 2063 et ses liens avec le Programme de développement durable à l’horizon 2030, compte tenu des processus en cours concernant le développement social en Afrique.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="22e" refersTo="#adoptionMeeting">22e séance plénière</location>
+          <eol />
+          <docDate date="2025-06-10" refersTo="#adoptionDate">10 juin 2025</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

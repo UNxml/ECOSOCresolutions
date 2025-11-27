@@ -1,0 +1,317 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-8/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-8/"></FRBRuri>
+          <FRBRdate date="2025-06-10" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-8/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-8/fra@/"></FRBRuri>
+          <FRBRdate date="2025-08-12" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-8/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-8/fra@.xml"></FRBRuri>
+          <FRBRdate date="2025-10-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="2030 Agenda for Sustainable Development" showAs="2030 Agenda for Sustainable Development" dictionary="DHLAUTH"></keyword>
+        <keyword value="Madrid International Plan of Action on Ageing (2002)" showAs="Madrid International Plan of Action on Ageing (2002)" dictionary="DHLAUTH"></keyword>
+        <keyword value="SOCIAL DEVELOPMENT" href="http://metadata.un.org/thesaurus/1005960" showAs="SOCIAL DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="AGEING PERSONS" href="http://metadata.un.org/thesaurus/1000115" showAs="AGEING PERSONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PROGRAMME IMPLEMENTATION" href="http://metadata.un.org/thesaurus/1005169" showAs="PROGRAMME IMPLEMENTATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="20b" showAs="Social development." shortForm="SOCIAL DEVELOPMENT" dictionary="E/2025/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-02-10" outcome="draftResolution" as="E/CN.5/2025/L.6" by=" submitted by the Vice-Chair of the Commission, AlMaha Mubarak Al-Thani (Qatar), on the basis of informal consultations" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-01-01" outcome="recommendedForAdoption" as="E/2025/26" by="UN. Commission for Social Development" />
+        <step date="2025-08-12" outcome="adopted" as="Adopted without vote, 22nd plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">25-12996 (F)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2025/8</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Conseil économique et social</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-08-12" class="rightSmall" refersTo="#dateOfIssuance">12 août 2025</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2025" eId="coverPage_1__session_1">Session de 2025</session>
+      </p>
+      <p>
+        <inline title="20 b)" name="agenda item">Point 20 b) de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Questions sociales et questions relatives aux droits humains : développement social</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par le Conseil économique et social le 10 juin 2025</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent>[sur recommandation de la Commission du développement social (<inline name="originating document">E/2025/26</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2025/8.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Modalités du cinquième cycle d’examen et d’évaluation du Plan d’action international de Madrid de 2002 sur le vieillissement</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Le Conseil économique et social</span>,</p>
+      </formula>
+      <container name="Rappelant" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Rappelant </span>que, dans le Plan d’action international de Madrid de 2002 sur le vieillissement, adopté à la deuxième Assemblée mondiale sur le vieillissement, tenue à Madrid du 8 au 12 avril 2002<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		<span class="italic">Rapport de la deuxième Assemblée mondiale sur le vieillissement, Madrid, 8-12 avril 2002</span> (publication des Nations Unies, numéro de vente : F.02.IV.4), chap. I, résolution 1, annexe II.</p></authorialNote>, il a été demandé de suivre de façon systématique la façon dont le Plan d’action était appliqué par les États Membres, cela étant indispensable si l’on veut améliorer la qualité de vie des personnes âgées,</p>
+      </container>
+      <container name="Rappelant également" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Rappelant également</span> que, dans sa résolution <a href="https://docs.un.org/fr/E/RES/2003/14">2003/14</a> du 21 juillet 2003, il a invité les gouvernements, le système des Nations Unies et la société civile, notamment les organisations de personnes âgées, à participer à une méthode d’examen et d’évaluation du Plan d’action de Madrid qui parte de la base, </p>
+      </container>
+      <container name="Ayant à l’esprit" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Ayant à l’esprit </span>que, dans sa résolution 42/1 du 13 février 2004, la Commission du développement social a décidé de procéder à l’examen et à l’évaluation du Plan d’action de Madrid tous les cinq ans<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		Voir <span class="italic">Documents officiels du Conseil économique et social, 2004, Supplément n</span><sup>o</sup><span class="italic"> 6</span> (<a href="https://docs.un.org/fr/E/2004/26">E/2004/26</a>), chap. I, sect. E.</p></authorialNote>,</p>
+      </container>
+      <container name="Notant" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Notant</span> que le cinquième cycle d’examen et d’évaluation du Plan d’action de Madrid aura lieu en 2028 et constatant que, parallèlement, le vingt-cinquième anniversaire de la deuxième Assemblée mondiale sur le vieillissement approche,</p>
+      </container>
+      <container name="Prenant note avec satisfaction" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Prenant note avec satisfaction</span> des travaux du Groupe de travail à composition non limitée sur le vieillissement créé par l’Assemblée générale dans sa résolution <a href="https://docs.un.org/fr/A/RES/65/182">65/182</a> du 21 décembre 2010, compte tenu de l’adoption par celui‑ci de sa décision 14/1<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		<a href="https://docs.un.org/fr/A/AC.278/2024/2">A/AC.278/2024/2</a>, par. 28.</p></authorialNote>, et rappelant la résolution <a href="https://docs.un.org/fr/A/RES/79/147">79/147</a> de l’Assemblée générale en date du 17 décembre 2024, dans laquelle celle-ci a mis fin au mandat du Groupe de travail,</p>
+      </container>
+      <container name="Rappelant" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> le Programme de développement durable à l’horizon 2030<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		Résolution <a href="https://docs.un.org/fr/A/RES/70/1">70/1</a> de l’Assemblée générale.</p></authorialNote> et soulignant qu’il est indispensable de veiller à ce que les personnes âgées soient prises en considération lors de son application afin que nul ne soit laissé pour compte, </p>
+      </container>
+      <container name="Rappelant également" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Rappelant également</span> la création, par la Commission de statistique, du Groupe de Titchfield pour l’étude des statistiques du vieillissement et des données ventilées par âge,</p>
+      </container>
+      <container name="Rappelant en outre" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Rappelant en outre </span>la Déclaration universelle des droits de l’homme<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		Résolution <a href="https://docs.un.org/fr/A/RES/217(III)">217 A (III)</a> de l’Assemblée générale.</p></authorialNote>, le Pacte international relatif aux droits civils et politiques<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		Voir résolution <a href="https://docs.un.org/fr/A/RES/2200(XXI)">2200 A (XXI)</a> de l’Assemblée générale, annexe.</p></authorialNote>, le Pacte international relatif aux droits économiques, sociaux et culturels<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		Ibid.</p></authorialNote>, la Convention sur l’élimination de toutes les formes de discrimination à l’égard des femmes<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		Nations Unies, <span class="italic">Recueil des Traités</span>, vol. 1249, n<sup>o</sup> 20378.</p></authorialNote>, la Convention relative aux droits des personnes handicapées<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		Ibid., vol. 2515, n<sup>o</sup> 44910.</p></authorialNote> et la Convention internationale sur l’élimination de toutes les formes de discrimination raciale<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">		Ibid., vol. 660, n<sup>o</sup> 9464.</p></authorialNote>,</p>
+      </container>
+      <container name="Prenant note" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Prenant note</span> des travaux de l’Experte indépendante chargée de promouvoir l’exercice par les personnes âgées de tous les droits de l’homme, nommée par le Conseil des droits de l’homme, qui a analysé les incidences sur les droits de l’homme de la mise en œuvre du Plan d’action de Madrid,</p>
+      </container>
+      <container name="Prenant note avec intérêt" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Prenant note avec intérêt</span> du rapport du Secrétaire général<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">		<a href="https://docs.un.org/fr/E/CN.5/2025/5">E/CN.5/2025/5</a>.</p></authorialNote>,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_12" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_12__content">
+          <p xml:space="preserve">	<span class="italic">Fait sien</span> le calendrier du cinquième cycle d’examen et d’évaluation du Plan d’action international de Madrid de 2002 sur le vieillissement, présenté dans le rapport du Secrétaire général, qui indique notamment que l’examen au niveau mondial aura lieu en 2028, et note à cet égard que l’année 2027 marque le vingt-cinquième anniversaire de la deuxième Assemblée mondiale sur le vieillissement ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_13__content">
+          <p xml:space="preserve">	<span class="italic">Décide</span> que le cinquième cycle d’examen et d’évaluation du Plan d’action de Madrid suivra la même procédure que celle retenue pour le quatrième cycle d’examen et d’évaluation ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve">	<span class="italic">Décide</span> que la Commission du développement social organisera l’examen et l’évaluation à l’échelle mondiale le troisième jour de sa soixante-sixième session, en 2028, et décide également d’inviter une personne représentant les personnes âgées à faire une déclaration lors de la séance d’ouverture ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">	<span class="italic">Décide en outre</span> que, conformément au règlement intérieur de la Commission, l’examen à l’échelle mondiale consistera en deux réunions, à savoir une réunion-débat de haut niveau sur les résultats du cinquième cycle d’examen et d’évaluation et une table ronde interactive multipartite à laquelle participeront les secrétaires exécutifs des commissions régionales ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">	<span class="italic">Invite</span> les États Membres à recenser les mesures qu’ils ont prises depuis le quatrième cycle d’examen et d’évaluation en vue de présenter les informations recueillies aux commissions régionales en 2027, et engage chaque État Membre à décider des mesures ou activités qu’il entend examiner, en utilisant une méthode participative partant de la base ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="MercuryDocument">
+        <num>6.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les États Membres à mettre en place un organisme ou un mécanisme national de coordination, ou à le renforcer, le cas échéant, notamment en vue de faciliter la mise en œuvre du Plan d’action de Madrid, y compris son examen et son évaluation ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="MercuryDocument">
+        <num>7.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">	<span class="italic">Encourage également</span> les États Membres à utiliser plus pleinement, dans leur contexte national, une méthode d’examen et d’évaluation participative du Plan d’action de Madrid partant de la base, en invitant notamment la société civile, y compris les organisations nationales et régionales de personnes âgées, à participer au cinquième cycle d’examen et d’évaluation et à communiquer leurs vues sur l’application du Plan d’action et des plans d’action régionaux, ainsi qu’à envisager de fournir l’appui voulu pour que la société civile puisse prendre part au cycle d’examen et d’évaluation ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="MercuryDocument">
+        <num>8.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve">	<span class="italic">Invite</span> les États Membres à envisager de recourir, lors de l’examen et de l’évaluation au niveau national, à la collecte et à l’analyse participatives de données quantitatives et qualitatives, ventilées par âge et aussi, le cas échéant, par d’autres facteurs pertinents, notamment le sexe et le handicap, et de procéder, selon qu’il conviendra, à un échange de pratiques optimales dans la collecte des données ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="MercuryDocument">
+        <num>9.</num>
+        <list eId="para_48_list">
+          <intro eId="para_48_list_intro">
+            <p xml:space="preserve">	<span class="italic">Demande</span> aux commissions régionales de continuer à concourir à l’examen et à l’évaluation au niveau régional, notamment par la tenue de consultations avec les organismes régionaux compétents, selon qu’il conviendra, en s’attachant notamment à :</p>
+          </intro>
+          <point eId="para_48_list_point_a">
+            <num>a)</num>
+            <content eId="para_48_list_point_a_content">
+              <p xml:space="preserve"> Aider les États Membres qui en font la demande à organiser l’examen et l’évaluation au niveau national ;</p>
+            </content>
+          </point>
+          <point eId="para_48_list_point_b">
+            <num>b)</num>
+            <content eId="para_48_list_point_b_content">
+              <p xml:space="preserve"> Organiser des réunions d’examen au niveau régional, en tenant compte du fait que ces réunions coïncideront avec le vingt-cinquième anniversaire de la deuxième Assemblée mondiale sur le vieillissement en 2027 ;</p>
+            </content>
+          </point>
+          <point eId="para_48_list_point_c">
+            <num>c)</num>
+            <content eId="para_48_list_point_c_content">
+              <p xml:space="preserve"> Aider les États Membres qui en font la demande à assurer le suivi des analyses résultant des examens menés au niveau régional ;</p>
+            </content>
+          </point>
+          <point eId="para_48_list_point_d">
+            <num>d)</num>
+            <content eId="para_48_list_point_d_content">
+              <p xml:space="preserve"> Utiliser une méthode coordonnée et inclusive pour ce qui est de faire participer la société civile à la planification et à l’évaluation du cycle d’examen et d’évaluation ;</p>
+            </content>
+          </point>
+          <point eId="para_48_list_point_e">
+            <num>e)</num>
+            <content eId="para_48_list_point_e_content">
+              <p xml:space="preserve"> Promouvoir l’établissement de réseaux et l’échange d’informations et de données d’expérience ;</p>
+            </content>
+          </point>
+          <point eId="para_48_list_point_f">
+            <num>f)</num>
+            <content eId="para_48_list_point_f_content">
+              <p xml:space="preserve"> Procéder à une analyse des principaux résultats, déterminer les domaines d’action prioritaires et pratiques exemplaires clefs et proposer des solutions d’ici à 2027 ;</p>
+            </content>
+          </point>
+          <point eId="para_48_list_point_g">
+            <num>g)</num>
+            <content eId="para_48_list_point_g_content">
+              <p xml:space="preserve"> Aider et conseiller les gouvernements qui en font la demande, dans la limite des ressources existantes, dans le cadre de la collecte, la synthèse et l’analyse des informations, ainsi que de la présentation des résultats des examens et des évaluations menés au niveau national ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_57" class="MercuryDocument">
+        <num>10.</num>
+        <content eId="para_57__content">
+          <p xml:space="preserve">	<span class="italic">Invite</span> les organisations non gouvernementales dotées du statut consultatif auprès de lui-même et disposant de compétences dans le domaine à s’inscrire auprès du Secrétariat pour assister à l’examen à l’échelle mondiale ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_67" class="MercuryDocument">
+        <num>11.</num>
+        <content eId="para_67__content">
+          <p xml:space="preserve">	<span class="italic">Invite</span> le système des Nations Unies, notamment le Groupe interorganisations chargé de la question du vieillissement, les fonds, les programmes, les institutions spécialisées et les commissions régionales, ainsi que les institutions financières internationales, à participer, conformément au Règlement intérieur de ses commissions techniques, et à contribuer à l’examen à l’échelle mondiale, dans le cadre de leur mandat ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_78" class="MercuryDocument">
+        <num>12.</num>
+        <content eId="para_78__content">
+          <p xml:space="preserve">	<span class="italic">Prie</span> les organismes des Nations Unies de continuer à épauler les États Membres dans les efforts qu’ils entreprennent au niveau national en vue de l’examen et de l’évaluation en leur fournissant, s’ils en font la demande, une assistance technique pour renforcer leurs capacités ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_90" class="MercuryDocument">
+        <num>13.</num>
+        <content eId="para_90__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les États Membres et les organismes des Nations Unies, selon qu’il conviendra, à aider les commissions régionales à concourir au cycle d’examen et d’évaluation et à organiser des réunions régionales pour étudier en 2027 les résultats des examens et évaluations réalisés au niveau national ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_103" class="MercuryDocument">
+        <num>14.</num>
+        <content eId="para_103__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les États Membres et les organismes, fonds et programmes des Nations Unies à prendre des mesures concrètes pour intégrer systématiquement les questions relatives au vieillissement, y compris les vues des personnes âgées, dans leurs propres programmes et dans les activités prescrites par les organes délibérants de l’Organisation des Nations Unies ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_117" class="MercuryDocument">
+        <num>15.</num>
+        <content eId="para_117__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les États Membres, les institutions internationales et les autres parties prenantes à soutenir le cinquième cycle d’examen et d’évaluation du Plan d’action de Madrid en versant des contributions volontaires au Fonds d’affectation spéciale des Nations Unies concernant le vieillissement ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_132" class="MercuryDocument">
+        <num>16.</num>
+        <content eId="para_132__content">
+          <p xml:space="preserve">	<span class="italic">Prie</span> le Secrétaire général de présenter à la Commission du développement social à sa soixante-cinquième session, en 2027, un rapport qui comporte notamment une analyse des résultats préliminaires du cinquième cycle d’examen et d’évaluation et un exposé des principales questions qui se posent et des possibilités d’action connexes ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_148" class="MercuryDocument">
+        <num>17.</num>
+        <content eId="para_148__content">
+          <p xml:space="preserve">	<span class="italic">Prie également</span> le Secrétaire général de présenter à la Commission à sa soixante-sixième session, en 2028, un rapport qui comporte notamment les conclusions du cinquième cycle d’examen et d’évaluation et un exposé des principales questions qui se posent et des possibilités d’action connexes.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="22e" refersTo="#adoptionMeeting">22e séance plénière</location>
+          <eol />
+          <docDate date="2025-06-10" refersTo="#adoptionDate">10 juin 2025</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
