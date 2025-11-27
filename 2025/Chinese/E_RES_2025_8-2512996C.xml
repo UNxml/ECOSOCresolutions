@@ -1,0 +1,315 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-8/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-8/"></FRBRuri>
+          <FRBRdate date="2025-06-10" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-8/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-8/zho@/"></FRBRuri>
+          <FRBRdate date="2025-08-12" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-8/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-8/zho@.xml"></FRBRuri>
+          <FRBRdate date="2025-10-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="2030 Agenda for Sustainable Development" showAs="2030 Agenda for Sustainable Development" dictionary="DHLAUTH"></keyword>
+        <keyword value="Madrid International Plan of Action on Ageing (2002)" showAs="Madrid International Plan of Action on Ageing (2002)" dictionary="DHLAUTH"></keyword>
+        <keyword value="SOCIAL DEVELOPMENT" href="http://metadata.un.org/thesaurus/1005960" showAs="SOCIAL DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="AGEING PERSONS" href="http://metadata.un.org/thesaurus/1000115" showAs="AGEING PERSONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PROGRAMME IMPLEMENTATION" href="http://metadata.un.org/thesaurus/1005169" showAs="PROGRAMME IMPLEMENTATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="20b" showAs="Social development." shortForm="SOCIAL DEVELOPMENT" dictionary="E/2025/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-02-10" outcome="draftResolution" as="E/CN.5/2025/L.6" by=" submitted by the Vice-Chair of the Commission, AlMaha Mubarak Al-Thani (Qatar), on the basis of informal consultations" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-01-01" outcome="recommendedForAdoption" as="E/2025/26" by="UN. Commission for Social Development" />
+        <step date="2025-08-12" outcome="adopted" as="Adopted without vote, 22nd plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2025/8</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">经济及社会理事会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-08-12" class="rightSmall" refersTo="#dateOfIssuance">12 August 2025</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" eId="coverPage_1__session_1"></session>
+      </p>
+      <p>
+        <inline title="20 (b)" name="agenda item">议程项目20 (b)</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">社会和人权问题：社会发展</inline>
+      </p>
+      <p>
+        <docTitle>2025年6月10日经济及社会理事会决议</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent>[根据社会发展委员会的建议 (<inline name="originating document">E/2025/26</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2025/8.</docNumber>
+        <docTitle refersTo="#resolutionTitle">2002年《马德里老龄问题国际行动计划》第五次审查和评价的方式</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">经济及社会理事会</span>，</p>
+      </formula>
+      <container name="回顾" eId="container_2">
+        <p xml:space="preserve">	<span class="bold">回顾</span>2002年4月8日至12日在马德里举行的第二次老龄问题世界大会通过的2002年《马德里老龄问题国际行动计划》<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		《第二次老龄问题世界大会的报告，2002年4月8日至12日，马德里》(联合国出版物，出售品编号：C.02.IV.4)，第一章，决议1，附件二。</p></authorialNote> 要求会员国有系统地审查该行动计划的执行情况，这对于成功提高老年人的生活品质至关重要，</p>
+      </container>
+      <container name="又回顾" eId="container_3">
+        <p xml:space="preserve">	<span class="bold">又回顾</span>经济及社会理事会在2003年7月21日第2003/14号决议中邀请各国政府、联合国系统和民间社会，包括老年人组织以自下而上的方式参与审查和评价《马德里行动计划》，</p>
+      </container>
+      <container name="铭记" eId="container_4">
+        <p xml:space="preserve">	<span class="bold">铭记</span>社会发展委员会在2004年2月13日第42/1号决议中决定每五年对《马德里行动计划》进行一次审查和评价，<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		见《经济及社会理事会正式记录，2004年，补编第6号》(<a href="https://docs.un.org/zh/E/2004/26(supp)">E/2004/26</a>)，第一章，E节。</p></authorialNote></p>
+      </container>
+      <container name="注意到" eId="container_5">
+        <p xml:space="preserve">	<span class="bold">注意到</span>将于2028年进行《马德里行动计划》第五次审查和评价，并认识到随着第五次审查和评价工作的进行，第二次老龄问题世界大会即将迎来其二十五周年纪念日，</p>
+      </container>
+      <container name="赞赏地注意到" eId="container_6">
+        <p xml:space="preserve">	<span class="bold">赞赏地注意到</span>大会2010年12月21日第<a href="https://docs.un.org/zh/A/RES/65/182">65/182</a>号决议所设老龄问题不限成员名额工作组的工作，该工作组已通过其第14/1号决定，<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		<a href="https://docs.un.org/zh/A/AC.278/2024/2">A/AC.278/2024/2</a>，第28段。</p></authorialNote> 并回顾大会2024年12月17日第<a href="https://docs.un.org/zh/A/RES/79/147">79/147</a>号决议，其中决定结束工作组的任务，</p>
+      </container>
+      <container name="回顾" eId="container_7">
+        <p xml:space="preserve">	<span class="bold">回顾</span>《2030年可持续发展议程》，<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		大会第<a href="https://docs.un.org/zh/A/RES/70/1">70/1</a>号决议。</p></authorialNote> 并强调指出需要确保在执行该议程过程中考虑到老年人，以确保不让任何一个人掉队，</p>
+      </container>
+      <container name="又回顾" eId="container_8">
+        <p xml:space="preserve">	<span class="bold">又回顾</span>统计委员会设立了老龄化相关统计和按年龄分列数据蒂奇菲尔德小组，</p>
+      </container>
+      <container name="还回顾" eId="container_9">
+        <p xml:space="preserve">	<span class="bold">还回顾</span>《世界人权宣言》、<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		大会第<a href="https://docs.un.org/zh/A/RES/217(III)">217 A(III)</a>号决议。</p></authorialNote> 《公民及政治权利国际公约》、<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		见大会第<a href="https://docs.un.org/zh/A/RES/2200(XXI)">2200 A(XXI)</a>号决议，附件。</p></authorialNote> 《经济社会文化权利国际公约》、<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		同上。</p></authorialNote> 《消除对妇女一切形式歧视公约》、<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		联合国，《条约汇编》，第1249卷，第20378号。</p></authorialNote> 《残疾人权利公约》<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		同上，第2515卷，第44910号。</p></authorialNote>和《消除一切形式种族歧视国际公约》，<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">		同上，第660卷，第9464号。</p></authorialNote></p>
+      </container>
+      <container name="注意到" eId="container_10">
+        <p xml:space="preserve">	<span class="bold">注意到</span>人权理事会任命的老年人享有所有人权问题独立专家为评估执行《马德里行动计划》对人权的影响而开展的工作，</p>
+      </container>
+      <container name="表示赞赏地注意到" eId="container_11">
+        <p xml:space="preserve">	<span class="bold">表示赞赏地注意到</span>秘书长的报告，<authorialNote marker="11" placement="bottom" eId="authorialNote_11"><p xml:space="preserve">		<a href="https://docs.un.org/zh/E/CN.5/2025/5">E/CN.5/2025/5</a>。</p></authorialNote></p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_12" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_12__content">
+          <p xml:space="preserve">	<span class="bold">核可</span>秘书长的报告所列2002年《马德里老龄问题国际行动计划》第五次审查和评价的时间表，其中除其他外决定于2028年进行全球审查，在这方面注意到2027年是第二次老龄问题世界大会二十五周年；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_13__content">
+          <p xml:space="preserve">	<span class="bold">决定</span>《马德里行动计划》第五次审查和评价的程序将遵循第四次审查和评价活动的既定程序；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve">	<span class="bold">又决定</span>社会发展委员会将在2028年第六十六届会议的第三天进行全球审查和评估，还决定邀请一位老年人代表在开幕部分期间发言；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">	<span class="bold">还决定</span>，根据委员会议事规则，全球审查将包括两次会议，即一次关于第五次审查和评价结果的高级别小组会议和一次与各区域委员会执行秘书举行的多利益攸关方互动式小组讨论；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">	<span class="bold">邀请</span>会员国查明它们自第四次审查和评价活动以来所采取的行动，以便在2027年期间将这一信息提交各区域委员会，并邀请各会员国自行决定其打算以自下而上的参与式方法审查的行动或活动；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="MercuryDocument">
+        <num>6.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>会员国酌情建立或加强国家协调机构或机制，以便除其他外为执行《马德里行动计划》、包括其审查和评价工作提供便利；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="MercuryDocument">
+        <num>7.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">	<span class="bold">又鼓励</span>会员国根据本国具体国情更充分地利用自下而上的参与式方法，如邀请包括老年人组织在内的民间社会参与国家和区域两级的第五次审查和评价周期，让其提交对执行《马德里行动计划》和区域行动计划的意见，以对《马德里行动计划》进行审查和评估，并进一步鼓励会员国考虑为民间社会参与审查和评价提供充分援助；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="MercuryDocument">
+        <num>8.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve">	<span class="bold">邀请</span>会员国考虑在其国家审查和评价工作中，一并收集定量和参与式定性数据并利用其收集和分析结果，数据按年龄分列，必要时还按性别和残疾等其他相关因素分列，并酌情分享这类数据收集工作中的最佳做法；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="MercuryDocument">
+        <num>9.</num>
+        <list eId="para_48_list">
+          <intro eId="para_48_list_intro">
+            <p xml:space="preserve">	<span class="bold">请</span>各区域委员会继续通过以下及其他方式，在区域一级协助审查和评价工作，包括酌情与有关区域机构进行协商：</p>
+          </intro>
+          <point eId="para_48_list_point_a">
+            <num>(a)</num>
+            <content eId="para_48_list_point_a_content">
+              <p xml:space="preserve">	根据请求在组织国家审查和评价活动方面向会员国提供援助；</p>
+            </content>
+          </point>
+          <point eId="para_48_list_point_b">
+            <num>(b)</num>
+            <content eId="para_48_list_point_b_content">
+              <p xml:space="preserve">	组织区域审查会议，同时考虑到这些会议将适逢第二次老龄问题世界大会在2027年迎来二十五周年；</p>
+            </content>
+          </point>
+          <point eId="para_48_list_point_c">
+            <num>(c)</num>
+            <content eId="para_48_list_point_c_content">
+              <p xml:space="preserve">	应请求协助会员国对区域审查的分析结果采取后续行动；</p>
+            </content>
+          </point>
+          <point eId="para_48_list_point_d">
+            <num>(d)</num>
+            <content eId="para_48_list_point_d_content">
+              <p xml:space="preserve">	对民间社会参与审查和评价工作的规划和评价进程采取包容各方、彼此协调的做法；</p>
+            </content>
+          </point>
+          <point eId="para_48_list_point_e">
+            <num>(e)</num>
+            <content eId="para_48_list_point_e_content">
+              <p xml:space="preserve">	促进建立网络，共享信息和经验；</p>
+            </content>
+          </point>
+          <point eId="para_48_list_point_f">
+            <num>(f)</num>
+            <content eId="para_48_list_point_f_content">
+              <p xml:space="preserve">	分析主要结论，确定关键优先行动领域和良好做法，并至迟于2027年提出对策建议；</p>
+            </content>
+          </point>
+          <point eId="para_48_list_point_g">
+            <num>(g)</num>
+            <content eId="para_48_list_point_g_content">
+              <p xml:space="preserve">	应各国政府的请求，在现有资源范围内协助各国政府收集、综合和分析信息以及介绍国家审查和评价结果，并向其提供咨询意见；</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_57" class="MercuryDocument">
+        <num>10.</num>
+        <content eId="para_57__content">
+          <p xml:space="preserve">	<span class="bold">邀请</span>具有经济及社会理事会咨商地位并具备相关专门知识的非政府组织在秘书处登记，以便参加全球审查；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_67" class="MercuryDocument">
+        <num>11.</num>
+        <content eId="para_67__content">
+          <p xml:space="preserve">	<span class="bold">邀请</span>联合国系统，包括老龄问题机构间工作组、基金、方案、专门机构和区域委员会以及国际金融机构，在各自任务范围内，依照经济及社会理事会各职司委员会议事规则参与全球审查并作出贡献；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_78" class="MercuryDocument">
+        <num>12.</num>
+        <content eId="para_78__content">
+          <p xml:space="preserve">	<span class="bold">请</span>联合国系统继续支持会员国的国家审查和评价工作，应请求在能力建设方面提供技术援助；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_90" class="MercuryDocument">
+        <num>13.</num>
+        <content eId="para_90__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>会员国和联合国各组织酌情支助各区域委员会推动审查和评价进程，并在2027年召开区域会议，审议国家审查和评价结果；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_103" class="MercuryDocument">
+        <num>14.</num>
+        <content eId="para_103__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>会员国和联合国系统，包括联合国系统各机构、基金和方案采取具体措施，将老龄问题，包括老年人的意见，纳入各自的方案拟订工作和联合国的现有任务；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_117" class="MercuryDocument">
+        <num>15.</num>
+        <content eId="para_117__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>会员国、国际机构和其他利益攸关方通过向联合国老龄问题信托基金自愿捐款，支持《马德里行动计划》第五次审查和评价；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_132" class="MercuryDocument">
+        <num>16.</num>
+        <content eId="para_132__content">
+          <p xml:space="preserve">	<span class="bold">请</span>秘书长向社会发展委员会2027年第六十五届会议提交一份报告，其中列入对第五次审查和评价工作初步结论的分析，明确普遍存在和新出现的问题，并提出相关政策选项；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_148" class="MercuryDocument">
+        <num>17.</num>
+        <content eId="para_148__content">
+          <p xml:space="preserve">	<span class="bold">又请</span>秘书长向委员会2028年第六十六届会议提交一份报告，其中列入第五次审查和评价工作的结论，明确普遍存在和新出现的问题，并提出相关政策选项。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="第22次" refersTo="#adoptionMeeting">第22次全体会议</location>
+          <eol />
+          <docDate date="2025-06-10" refersTo="#adoptionDate">2025年6月10日</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

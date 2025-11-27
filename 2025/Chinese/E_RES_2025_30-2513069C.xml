@@ -1,0 +1,156 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-30/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-30/"></FRBRuri>
+          <FRBRdate date="2025-07-29" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-30/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-30/zho@/"></FRBRuri>
+          <FRBRdate date="2025-08-13" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-30/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-30/zho@.xml"></FRBRuri>
+          <FRBRdate date="2025-10-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Inter-Agency Task Force on the Prevention and Control of Noncommunicable Diseases" showAs="UN Inter-Agency Task Force on the Prevention and Control of Noncommunicable Diseases" dictionary="DHLAUTH"></keyword>
+        <keyword value="INTER-AGENCY COOPERATION" href="http://metadata.un.org/thesaurus/1003249" showAs="INTER-AGENCY COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="NONCOMMUNICABLE DISEASES" showAs="NONCOMMUNICABLE DISEASES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DISEASE CONTROL" href="http://metadata.un.org/thesaurus/1001701" showAs="DISEASE CONTROL" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DISEASE PREVENTION" href="http://metadata.un.org/thesaurus/1001702" showAs="DISEASE PREVENTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="13d" showAs="Prevention and control of noncommunicable diseases." shortForm="NONCOMMUNICABLE DISEASES" dictionary="E/2025/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-07-22" outcome="draftResolution" as="E/2025/L.26" by="El Salvador and Philippines" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-08-13" outcome="adopted" as="Adopted without vote, 40th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2025/30</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">经济及社会理事会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-08-13" class="rightSmall" refersTo="#dateOfIssuance">13 August 2025</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" eId="coverPage_1__session_1"></session>
+      </p>
+      <p>
+        <inline title="13(d)" name="agenda item">议程项目13(d)</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">协调、方案和其他问题：预防和控制非传染性疾病</inline>
+      </p>
+      <p>
+        <docTitle>2025年7月29日经济及社会理事会决议</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#plenaryMeeting">[根据全体会议审议的一项提案 (<inline name="originating document">E/2025/L.26</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2025/30.</docNumber>
+        <docTitle refersTo="#resolutionTitle">联合国预防和控制非传染性疾病机构间工作队</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">经济及社会理事会</span>，</p>
+      </formula>
+      <container name="回顾" eId="container_2">
+        <p xml:space="preserve">	<span class="bold">回顾</span>其关于联合国预防和控制非传染性疾病机构间工作队的2013年7月22日第<a href="https://docs.un.org/zh/E/RES/2013/12">2013/12</a>号、2014年6月13日第<a href="https://docs.un.org/zh/E/RES/2014/10">2014/10</a>号、2015年6月9日第<a href="https://docs.un.org/zh/E/RES/2015/8">2015/8</a>号、2016年6月2日第<a href="https://docs.un.org/zh/E/RES/2016/5">2016/5</a>号、2017年6月7日第<a href="https://docs.un.org/zh/E/RES/2017/8">2017/8</a>号、2018年7月2日第<a href="https://docs.un.org/zh/E/RES/2018/13">2018/13</a>号、2019年6月7日第<a href="https://docs.un.org/zh/E/RES/2019/9">2019/9</a>号、2020年7月22日第<a href="https://docs.un.org/zh/E/RES/2020/22">2020/22</a>号、2021年7月22日第<a href="https://docs.un.org/zh/E/RES/2021/27">2021/27</a>号和2024年7月23日第<a href="https://docs.un.org/zh/E/RES/2024/17">2024/17</a>号决议以及2022年7月22日第2022/355号和2023年7月25日第2023/349号决定，</p>
+      </container>
+      <container name="欢迎" eId="container_3">
+        <p xml:space="preserve">	<span class="bold">欢迎</span>工作队通过机构间联合努力，在促进公共卫生和推动实现可持续发展目标中与非传染性疾病有关的具体目标方面取得进展，<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		见大会第<a href="https://docs.un.org/zh/A/RES/70/1">70/1</a>号决议。</p></authorialNote> 并酌情通过伙伴关系和联盟在预防和治疗非传染性疾病方面取得进展，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_4" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_4__content">
+          <p xml:space="preserve">	<span class="bold">表示注意到</span>世界卫生组织总干事关于联合国预防和控制非传染性疾病机构间工作队的报告<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="https://docs.un.org/zh/E/2025/66">E/2025/66</a>。</p></authorialNote> 及其所载建议，包括2025年向经济及社会理事会报告在执行理事会第<a href="https://docs.un.org/zh/E/RES/2013/12">2013/12</a>号决议和总干事2024年报告方面取得的进展，该报告阐述了工作队过去11年取得的进展；<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		<a href="https://docs.un.org/zh/E/2024/57">E/2024/57</a>。</p></authorialNote></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_5" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_5__content">
+          <p xml:space="preserve">	<span class="bold">请</span>秘书长在题为“协调、方案和其他问题”的项目中题为“预防和控制非传染性疾病”的分项下，向理事会2026年届会报告第<a href="https://docs.un.org/zh/E/RES/2013/12">2013/12</a>号决议的执行进展，同时表示注意到关于该分项审议周期的讨论。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="第40次" refersTo="#adoptionMeeting">第40次全体会议</location>
+          <eol />
+          <docDate date="2025-07-29" refersTo="#adoptionDate">2025年7月29日</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

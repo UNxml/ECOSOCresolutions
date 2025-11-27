@@ -1,0 +1,172 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-22/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-22/"></FRBRuri>
+          <FRBRdate date="2025-07-29" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-22/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-22/zho@/"></FRBRuri>
+          <FRBRdate date="2025-08-13" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-22/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-22/zho@.xml"></FRBRuri>
+          <FRBRdate date="2025-10-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Ad Hoc Advisory Group on Haiti" showAs="UN. Ad Hoc Advisory Group on Haiti" dictionary="DHLAUTH"></keyword>
+        <keyword value="AID COORDINATION" href="http://metadata.un.org/thesaurus/1000178" showAs="AID COORDINATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" href="http://metadata.un.org/thesaurus/1006319" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COORDINATION WITHIN UN SYSTEM" href="http://metadata.un.org/thesaurus/1001299" showAs="COORDINATION WITHIN UN SYSTEM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HAITI" href="http://metadata.un.org/thesaurus/1002808" showAs="HAITI" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="13e" showAs="Long-term programme of support for Haiti." shortForm="HAITI--ECONOMIC ASSISTANCE" dictionary="E/2025/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-07-21" outcome="draftResolution" as="E/2025/L.20" by="Antigua and Barbuda, Argentina, Bahamas (The), Barbados, Belize, Brazil, Canada, Chile, Colombia, Costa Rica, Dominican Republic, Ecuador, El Salvador, Equatorial Guinea, France, Germany, Guatemala, Haiti, Italy, Jamaica, Mexico, Peru, Portugal, Saint Kitts and Nevis, Saint Vincent and the Grenadines, Spain, Suriname, Trinidad and Tobago and Uruguay" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-08-13" outcome="adopted" as="Adopted without vote, 39th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2025/22</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">经济及社会理事会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-08-13" class="rightSmall" refersTo="#dateOfIssuance">13 August 2025</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" eId="coverPage_1__session_1"></session>
+      </p>
+      <p>
+        <inline title="13(e)" name="agenda item">议程项目13(e)</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">协调、方案和其他问题：长期支助海地方案</inline>
+      </p>
+      <p>
+        <docTitle>2025年7月29日经济及社会理事会决议</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#plenaryMeeting">[根据全体会议审议的一项提案 (<inline name="originating document">E/2025/L.20</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2025/22.</docNumber>
+        <docTitle refersTo="#resolutionTitle">海地问题特设咨询小组</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">经济及社会理事会</span>，</p>
+      </formula>
+      <container name="回顾" eId="container_2">
+        <p xml:space="preserve">	<span class="bold">回顾</span>其关于任命海地问题特设咨询小组其他成员的2024年7月23日第<a href="https://docs.un.org/zh/E/RES/2024/20">2024/20</a>号决议和以往所有相关决议以及2024年12月16日第2025/210号决定和以往相关决定，</p>
+      </container>
+      <container name="深为关切" eId="container_3">
+        <p xml:space="preserve">	<span class="bold">深为关切</span>海地复杂而多层面的危机，着重指出严重的粮食不安全和营养不良状况以及霍乱再发现象，原因在于武装团伙在首都及周边地区扩大控制范围，导致逃离暴力的流离失所者栖身的临时避难所日益过度拥挤、卫生条件日益恶化，</p>
+      </container>
+      <container name="铭记" eId="container_4">
+        <p xml:space="preserve">
+          <span class="bold">	铭记</span>海地危机对加勒比区域的严重影响，</p>
+      </container>
+      <container name="认识到" eId="container_5">
+        <p xml:space="preserve">	<span class="bold">认识到</span>需要采取紧急措施恢复安全，为此解决暴力的结构性原因，例如不平等、极端贫困、高失业率、侵犯人权、有罪不罚、腐败和公共机构薄弱等问题，并为重建民主体制创造有利条件，</p>
+      </container>
+      <container name="强调" eId="container_6">
+        <p xml:space="preserve">	<span class="bold">强调</span>迫切需要为联合国及合作伙伴在2025年海地人道主义需求和应急计划中发出的9.082亿美元的呼吁提供充足资金，以满足最紧迫的人道主义和保护需求，包括粮食安全、紧急生计援助和农业部门投资需求，从而保障海地最脆弱群体的复原力，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_7" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_7__content">
+          <p xml:space="preserve">	<span class="bold">欢迎</span>海地问题特设咨询小组的报告<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		<a href="https://docs.un.org/zh/E/2025/59">E/2025/59</a>。</p></authorialNote> 及其对海地人道主义局势和长期社会经济发展的重视；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_8" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_8__content">
+          <p xml:space="preserve">	<span class="bold">决定</span>将海地问题特设咨询小组的任务期限延长至2026年届会结束之时，以密切跟踪海地促进社会经济复原、重建和体制稳定的长期发展战略并就此与海地当局合作，特别注意需依据海地国家长期发展优先事项确保向海地提供的国际支助协调一致而且可持续，并强调指出需避免现有机制的重叠与重复；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve">	<span class="bold">请</span>海地问题特设咨询小组向经济及社会理事会提交工作报告并酌情提出建议，供理事会2026年届会审议。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="第39次" refersTo="#adoptionMeeting">第39次全体会议</location>
+          <eol />
+          <docDate date="2025-07-29" refersTo="#adoptionDate">2025年7月29日</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

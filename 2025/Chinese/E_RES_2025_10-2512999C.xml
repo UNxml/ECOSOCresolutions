@@ -1,0 +1,195 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-10/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-10/"></FRBRuri>
+          <FRBRdate date="2025-06-10" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-10/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-10/zho@/"></FRBRuri>
+          <FRBRdate date="2025-08-12" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-10/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-10/zho@.xml"></FRBRuri>
+          <FRBRdate date="2025-10-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Interregional Crime and Justice Research Institute" showAs="UN Interregional Crime and Justice Research Institute" dictionary="DHLAUTH"></keyword>
+        <keyword value="ORGANIZED CRIME" href="http://metadata.un.org/thesaurus/1004663" showAs="ORGANIZED CRIME" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TRANSNATIONAL CRIME" href="http://metadata.un.org/thesaurus/1006643" showAs="TRANSNATIONAL CRIME" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CRIMINAL JUSTICE" href="http://metadata.un.org/thesaurus/1001388" showAs="CRIMINAL JUSTICE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TRAINING AND RESEARCH INSTITUTIONS" href="http://metadata.un.org/thesaurus/1006624" showAs="TRAINING AND RESEARCH INSTITUTIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="21" showAs="United Nations research and training institutes." shortForm="UN--TRAINING AND RESEARCH INSTITUTIONS" dictionary="E/2025/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-05-23" outcome="draftResolution" as="E/2025/L.7" by="submitted by the Vice-President of the Council, Lok Bahadur Thapa (Nepal) and on the basis of informal consultations" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-08-12" outcome="adopted" as="Adopted without vote, 23rd plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2025/10</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">经济及社会理事会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-08-12" class="rightSmall" refersTo="#dateOfIssuance">12 August 2025</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" eId="coverPage_1__session_1"></session>
+      </p>
+      <p>
+        <inline title="21" name="agenda item">议程项目21</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">联合国研究和培训机构</inline>
+      </p>
+      <p>
+        <docTitle>2025年6月10日经济及社会理事会决议</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#plenaryMeeting">[根据全体会议审议的一项提案 (<inline name="originating document">E/2025/L.7</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2025/10.</docNumber>
+        <docTitle refersTo="#resolutionTitle">联合国区域间犯罪和司法研究所</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">经济及社会理事会</span>，</p>
+      </formula>
+      <container name="认识到" eId="container_2">
+        <p xml:space="preserve">	<span class="bold">认识到</span>自经济及社会理事会于1965年7月30日通过第1086 B(XXXIX)号决议呼吁扩大联合国在预防犯罪和刑事司法方面的努力以来，近六十年已经过去，</p>
+      </container>
+      <container name="又认识到" eId="container_3">
+        <p xml:space="preserve">	<span class="bold">又认识到</span>由此后来于1968年设立了联合国区域间犯罪和司法研究所，该研究所此后在预防犯罪、刑事司法和法治领域开展研究和培训，在联合国系统内发挥了宝贵的不可或缺的作用，</p>
+      </container>
+      <container name="回顾" eId="container_4">
+        <p xml:space="preserve">	<span class="bold">回顾</span>其关于该研究所工作的2023年6月7日第<a href="https://docs.un.org/zh/E/RES/2023/8">2023/8</a>号决议，</p>
+      </container>
+      <container name="确认" eId="container_5">
+        <p xml:space="preserve">	<span class="bold">确认</span>犯罪的跨国性、有组织性和复杂性日益增加，恐怖主义祸害持续存在，这些因素结合起来在司法、法治和可持续发展方面产生深远影响，</p>
+      </container>
+      <container name="意识到" eId="container_6">
+        <p xml:space="preserve">	<span class="bold">意识到</span>数字空间在这方面日益重要，以及技术的迅速发展既带来机遇，也构成风险，包括存在技术被滥用的可能性，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_7" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_7__content">
+          <p xml:space="preserve">	<span class="bold">确认</span>联合国区域间犯罪和司法研究所与《2030年可持续发展议程》<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		大会第<a href="https://docs.un.org/zh/A/RES/70/1">70/1</a>号决议。</p></authorialNote> 和《未来契约》<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		大会第<a href="https://docs.un.org/zh/A/RES/79/1">79/1</a>号决议。</p></authorialNote> 的愿景和方法是一致的，特别是在促进循证政策制定、加强法治和利用数据驱动战略应对跨国有组织犯罪和恐怖主义方面；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_8" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_8__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>该研究所继续将其循证和数据驱动的方法纳入其支持会员国的研究、培训和政策举措；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve">	<span class="bold">注意到</span>该研究所为处理其《2023-2026年战略方案框架》中确定的优先事项所做的努力，并鼓励该研究所继续落实其各项目标，同时着手筹备制定其下一个《2027-2030年战略方案框架》，确保这一框架继续与不断变化的全球挑战、《未来契约》所列优先事项和会员国的需求保持一致；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_13__content">
+          <p xml:space="preserve">	<span class="bold">表示深切赞赏</span>意大利近60年来作为该研究所的东道国为其履行任务和使命工作提供便利；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve">	<span class="bold">还表示赞赏</span>为协助该研究所进一步完成使命而向其提供支持或自愿捐助的会员国和战略伙伴；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>联合国系统所有组织充分、有效地利用该研究所提供的服务；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">	<span class="bold">呼吁</span>所有会员国考虑提供自愿支助，使该研究所能够通过研究和培训继续开展并扩大工作，以应对其《2023-2026年战略方案框架》中确定的挑战，同时注意到该研究所供资的预算外性质。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="第23次" refersTo="#adoptionMeeting">第23次全体会议</location>
+          <eol />
+          <docDate date="2025-06-10" refersTo="#adoptionDate">2025年6月10日</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

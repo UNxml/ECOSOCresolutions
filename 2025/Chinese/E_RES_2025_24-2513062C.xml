@@ -1,0 +1,153 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-24/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-24/"></FRBRuri>
+          <FRBRdate date="2025-07-29" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-24/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-24/zho@/"></FRBRuri>
+          <FRBRdate date="2025-08-13" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-24/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-24/zho@.xml"></FRBRuri>
+          <FRBRdate date="2025-10-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="9" href="http://metadata.un.org/sdg/9" showAs="sdg_9" dictionary="SDGO"></keyword>
+        <keyword value="innovation" href="http://eurovoc.europa.eu/1439" showAs="innovation" dictionary="EuroVoc"></keyword>
+        <keyword value="innovation" href="http://metadata.un.org/thesaurus/1003223" showAs="innovation" dictionary="UNBIS"></keyword>
+        <keyword value="industrialization" href="http://metadata.un.org/thesaurus/1003177" showAs="industrialization" dictionary="UNBIS"></keyword>
+        <keyword value="industrial_infrastructure" href="http://eurovoc.europa.eu/1434" showAs="industrial_infrastructure" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. ECA" showAs="UN. ECA" dictionary="DHLAUTH"></keyword>
+        <keyword refersTo="agenda" value="16" showAs="Regional cooperation." shortForm="REGIONAL COOPERATION" dictionary="E/2025/100"></keyword>
+        <keyword refersTo="agenda" value="16[1]" showAs="REGIONAL COOPERATION--AFRICA" shortForm="REGIONAL COOPERATION--AFRICA" dictionary="E/2025/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-07-08" outcome="recommendedForAdoption" as="E/2025/15/Add.1/Rev.1" by="UN. ECA" />
+        <step date="2025-08-13" outcome="adopted" as="Adopted without vote, 40th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2025/24</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">经济及社会理事会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-08-13" class="rightSmall" refersTo="#dateOfIssuance">13 August 2025</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" eId="coverPage_1__session_1"></session>
+      </p>
+      <p>
+        <inline title="16" name="agenda item">议程项目16</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">区域合作</inline>
+      </p>
+      <p>
+        <docTitle>2025年7月29日经济及社会理事会决议</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent>[根据非洲经济委员会的建议 (<inline name="originating document">E/2025/15/Add.1/Rev.1</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2025/24.</docNumber>
+        <docTitle refersTo="#resolutionTitle">非洲经济委员会第五十八届会议的地点和主题</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">经济及社会理事会，</span>
+        </p>
+      </formula>
+      <container name="表示注意到" eId="container_2">
+        <p xml:space="preserve">	<span class="bold">表示注意到</span>非洲经济委员会非洲财政、规划和经济发展部长会议通过的2025年3月18日第2025/100号决定，其中委员会建议2026年在摩洛哥举行其第五十八届会议，</p>
+      </container>
+      <container name="表示感谢" eId="container_3">
+        <p xml:space="preserve">	<span class="bold">表示感谢</span>摩洛哥政府慷慨提出主办这届会议，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_4" class="MercuryDocument">
+        <content eId="para_4__content">
+          <p xml:space="preserve">	<span class="bold">核准</span>在摩洛哥举行非洲经济委员会第五十八届会议，主题为“通过创新实现增长：利用数据和前沿技术促进非洲经济转型”。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="第40次" refersTo="#adoptionMeeting">第40次全体会议</location>
+          <eol />
+          <docDate date="2025-07-29" refersTo="#adoptionDate">2025年7月29日</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

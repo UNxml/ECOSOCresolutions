@@ -1,0 +1,355 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-20/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-20/"></FRBRuri>
+          <FRBRdate date="2025-07-29" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-20/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-20/zho@/"></FRBRuri>
+          <FRBRdate date="2025-08-13" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-20/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-20/zho@.xml"></FRBRuri>
+          <FRBRdate date="2025-10-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="Joint United Nations Programme on HIV/AIDS" showAs="Joint United Nations Programme on HIV/AIDS" dictionary="DHLAUTH"></keyword>
+        <keyword value="Joint United Nations Programme on HIV/AIDS. Executive Director" showAs="Joint United Nations Programme on HIV/AIDS. Executive Director" dictionary="DHLAUTH"></keyword>
+        <keyword value="HIV/AIDS" href="http://metadata.un.org/thesaurus/1000181" showAs="HIV/AIDS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HIV/AIDS PREVENTION" href="http://metadata.un.org/thesaurus/1000182" showAs="HIV/AIDS PREVENTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COORDINATION WITHIN UN SYSTEM" href="http://metadata.un.org/thesaurus/1001299" showAs="COORDINATION WITHIN UN SYSTEM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNICAL COOPERATION" href="http://metadata.un.org/thesaurus/1006413" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="13h" showAs="Joint United Nations Programme on HIV/AIDS." shortForm="HIV/AIDS" dictionary="E/2025/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-07-22" outcome="draftResolution" as="E/2025/L.25" by="submitted by the President of the Council and Bob Rae (Canada)" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-08-13" outcome="adopted" as="Adopted without vote, 39th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2025/20</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">经济及社会理事会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-08-13" class="rightSmall" refersTo="#dateOfIssuance">13 August 2025</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" eId="coverPage_1__session_1"></session>
+      </p>
+      <p>
+        <inline title="13(h)" name="agenda item">议程项目13(h)</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">协调、方案和其他问题：联合国 艾滋病毒/艾滋病联合规划署</inline>
+      </p>
+      <p>
+        <docTitle>2025年7月29日经济及社会理事会决议</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#plenaryMeeting">[根据全体会议审议的一项提案 (<inline name="originating document">E/2025/L.25</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2025/20.</docNumber>
+        <docTitle refersTo="#resolutionTitle">联合国艾滋病毒/艾滋病联合规划署</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">经济及社会理事会</span>，</p>
+      </formula>
+      <container name="重申" eId="container_2">
+        <p xml:space="preserve">	<span class="bold">重申</span>其设立联合国艾滋病毒/艾滋病联合规划署的1994年7月26日第1994/24号决议和1995年7月3日第1995/2号决议以及理事会关于该联合规划署的其后相关各项决议，包括2023年7月25日第<a href="https://docs.un.org/zh/E/RES/2023/30">2023/30</a>号决议，</p>
+      </container>
+      <container name="审议了" eId="container_3">
+        <p xml:space="preserve">	<span class="bold">审议了</span>联合国艾滋病毒/艾滋病联合规划署执行主任提交理事会的报告，<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		<a href="https://docs.un.org/zh/E/2025/73">E/2025/73</a>。</p></authorialNote> </p>
+      </container>
+      <container name="表示注意到" eId="container_4">
+        <p xml:space="preserve">	<span class="bold">表示注意到</span>2021年《关于艾滋病毒和艾滋病问题的政治宣言：结束不平等现象，走上到2030年消除艾滋病的轨道》<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		大会第<a href="https://docs.un.org/zh/A/RES/75/284">75/284</a>号决议，附件。</p></authorialNote> 以及《2021-2026年全球艾滋病战略——“终结不平等，终结艾滋病”》的重要性，并注意到它们与《2030年可持续发展议程》相辅相成，保持一致，<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		大会第<a href="https://docs.un.org/zh/A/RES/70/1">70/1</a>号决议。</p></authorialNote> </p>
+      </container>
+      <container name="重申" eId="container_5">
+        <p xml:space="preserve">	<span class="bold">重申</span>庄严载入《联合国宪章》的会员国主权权利，重申各国必须按照本国法律、国家发展优先事项和国际人权履行2021年《政治宣言》中作出的承诺和保证，</p>
+      </container>
+      <container name="欢迎" eId="container_6">
+        <p xml:space="preserve">	<span class="bold">欢迎</span>在降低艾滋病毒感染率和艾滋病死亡率以及在提高艾滋病毒治疗机率和预防新增艾滋病毒感染方面取得进展，许多国家在实现95-95-95目标方面取得进展，并为少女和年轻妇女及重点群体推出和扩大了预防艾滋病毒的创新办法，<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		正如《2021-2026年全球艾滋病战略——“终结不平等，终结艾滋病”》中所述以及2016年“预防差距报告”中所讨论的那样，每个国家都应该根据流行病学和社会情况，确定对本国疫情和应对措施至关重要的具体群体。</p></authorialNote> </p>
+      </container>
+      <container name="表示关切的是，" eId="container_7">
+        <p xml:space="preserve">	<span class="bold">表示关切的是，</span>尽管取得了进展，但国家之间和区域之间及其国家内部和区域内部、男女之间、对不同年龄组特别是那些受艾滋病毒影响尤其严重的儿童和青少年而言，以及对流行病学证据表明全球范围内艾滋病毒感染风险较高的重点群体而言仍存在许多差距和不平等，2021年《政治宣言》概述的2025年目标可能尚未实现，2024年有130万人新感染艾滋病毒，630 000人死于艾滋病相关原因，4 080万艾滋病毒感染者中有920万人尚未得到救生治疗，一些国家以及一些亚群和地区内新感染艾滋病毒的人数正在增加，部分原因在于未妥善实施有效、循证的艾滋病毒防治对策，</p>
+      </container>
+      <container name="表示深为关切的是" eId="container_8">
+        <p xml:space="preserve">	<span class="bold">表示深为关切的是</span>，由于官方发展援助和艾滋病毒防治供资减少，特别是对社区主导的艾滋病毒防治工作的供资减少，并由于世界许多地区对公民空间的限制、性别平等和国际人权法承认的人权这两方面的倒退以及艾滋病毒防治工作中持续存在的污名化和歧视，到2030年消除艾滋病这一公共卫生威胁的目标的实现受到不利影响，</p>
+      </container>
+      <container name="承认" eId="container_9">
+        <p xml:space="preserve">	<span class="bold">承认</span>现已有艾滋病毒循证干预措施可用，表示关切根据不同国情扩大干预措施的实施并不均衡，用于预防的资金支出速度缓慢导致预防工作出现重大差距，</p>
+      </container>
+      <container name="关切地注意到" eId="container_10">
+        <p xml:space="preserve">	<span class="bold">关切地注意到</span>一些可预防和可治疗的疾病和状况——包括结核病和其他混合感染、宫颈癌和精神健康问题以及其他传染性和非传染性疾病——与艾滋病毒感染、艾滋病毒治疗效果差和艾滋病毒携带者死亡率有关，</p>
+      </container>
+      <container name="关切" eId="container_11">
+        <p xml:space="preserve">	<span class="bold">关切</span>结核病，包括其耐药形式，依然是全球艾滋病毒携带者死亡的主要原因，2023年全世界结核病估计感染病例中有6.1%是艾滋病毒携带者，但在2023年，携带艾滋病毒的结核病估计病例中只有58%得到诊断，20%的已知结核病患者未得到艾滋病毒检测，也就未能得到治疗，导致可预防的死亡，<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		世界卫生组织《2024年全球结核病报告》(2024年，日内瓦)。</p></authorialNote> </p>
+      </container>
+      <container name="还表示关切" eId="container_12">
+        <p xml:space="preserve">	<span class="bold">还表示关切</span>与艾滋病毒有关的污名化、歧视和不平等，包括经济不利地位，依然是取得积极的艾滋病毒防治相关健康结果的一个障碍，特别是对女童和年轻妇女、处境脆弱者，包括流行病学证据表明全球范围内艾滋病毒感染风险较高的重点群体，以及遭受一种或多种形式歧视的所有人而言，</p>
+      </container>
+      <container name="表示关切" eId="container_13">
+        <p xml:space="preserve">	<span class="bold">表示关切</span>可能有碍所有人获取艾滋病毒预防、检测、诊断、治疗、护理和支助服务的法律、政策和做法，</p>
+      </container>
+      <container name="认识到" eId="container_14">
+        <p xml:space="preserve">	<span class="bold">认识到</span>民间社会切实参与全球艾滋病疫情应对工作的关键作用，重申促进、保护和实现所有人的所有人权和基本自由是全球应对艾滋病疫情的一个基本要素，包括在预防、检测、诊断、治疗、护理和支助领域，</p>
+      </container>
+      <container name="重申" eId="container_15">
+        <p xml:space="preserve">	<span class="bold">重申</span>实现全民健康覆盖的努力应借鉴从艾滋病毒多部门防治工作中汲取的经验教训，包括必须采取多种措施防治艾滋病；注重公平、结果和问责；遵循国际人权法和满足最边缘化群体的需求；创新筹集卫生资金；根据国情酌情提供基于社区和社区主导的艾滋病毒相关服务；注重健康的社会、经济和结构决定因素；必须克服污名化和歧视，</p>
+      </container>
+      <container name="认识到" eId="container_16">
+        <p xml:space="preserve">	<span class="bold">认识到</span>艾滋病毒多部门防治工作以及各国和各个社区如何利用艾滋病毒投资和基础设施来应对卫生和发展方面其他复杂挑战所带来的经验教训的价值，又认识到艾滋病毒防治工作的进展推进了更广泛的发展成果，</p>
+      </container>
+      <container name="重申" eId="container_17">
+        <p xml:space="preserve">	<span class="bold">重申</span>在按照大会2024年12月19日第<a href="https://docs.un.org/zh/A/RES/79/226">79/226</a>号和2015年9月25日第<a href="https://docs.un.org/zh/A/RES/70/1">70/1</a>号决议不让任何一个人掉队的更广泛努力背景下，联合国艾滋病毒/艾滋病联合规划署在激励和支持艾滋病毒多部门防治工作方面的关键作用，</p>
+      </container>
+      <container name="回顾" eId="container_18">
+        <p xml:space="preserve">	<span class="bold">回顾</span>联合规划署的目标是促成和促进全球就政策和方案方针达成共识，促进国内为预防和应对艾滋病毒和艾滋病进行广泛的政治和社会动员，确保国家防治工作有众多部门和机构参与，</p>
+      </container>
+      <container name="赞赏地注意到" eId="container_19">
+        <p xml:space="preserve">	<span class="bold">赞赏地注意到</span>会员国继续报告艾滋病毒防治工作进展以及联合规划署向会员国提供的支持，包括便利有更多机会获取和使用战略性多部门优质数据以衡量艾滋病毒防治工作的进展并完善战略，</p>
+      </container>
+      <container name="又表示深为关切" eId="container_20">
+        <p xml:space="preserve">	<span class="bold">又表示深为关切</span>艾滋病毒防治工作的资金依然短缺，特别是艾滋病毒负担沉重且依赖国际资金的发展中国家，而国际资金急剧减少，国内对艾滋病毒防治工作的投资持续不足，加剧了这种情况，</p>
+      </container>
+      <container name="认识到" eId="container_21">
+        <p xml:space="preserve">	<span class="bold">认识到</span>需要提供资金，研究和开发优质、安全、负担得起和有效的艾滋病毒新药，需要公平、及时和不受阻碍地获得这些救生药品的机会，</p>
+      </container>
+      <container name="关切地注意到" eId="container_22">
+        <p xml:space="preserve">	<span class="bold">关切地注意到</span>统一预算成果和问责制框架供资空前减少，秘书处工作人员、国家办事处及共同赞助方拨款和能力大幅削减，对联合规划署支持各国防治艾滋病毒的能力产生负面影响，进而有碍全球在到2030年及以后消除艾滋病这一公共卫生威胁方面持续取得进展，</p>
+      </container>
+      <container name="重申" eId="container_23">
+        <p xml:space="preserve">	<span class="bold">重申</span>方案协调委员会非政府组织代表团在联合规划署方案协调委员会治理方面发挥的重要作用，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_24" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="bold">表示注意到</span>联合国艾滋病毒/艾滋病联合规划署执行主任提交经济及社会理事会的报告；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="bold">认识到</span>艾滋病毒新增感染和艾滋病相关死亡未能按照2021年《关于艾滋病毒和艾滋病问题的政治宣言：结束不平等现象，走上到2030年消除艾滋病的轨道》所述实现2030年具体目标所需的幅度下降，强调指出需采取紧急行动以实现2030年具体目标，作为到2030年消除艾滋病疫情这一公共卫生威胁的先决条件；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>联合规划署按照任务规定进一步支持有效、循证、及时和多部门地执行《2021-2026年全球艾滋病战略——“终结不平等，终结艾滋病”》和2021年《政治宣言》，鼓励各国政府、民间社会、参与艾滋病毒防治工作且由社区主导的组织、私营部门和其他相关攸关方根据国家政策和优先事项加强艾滋病毒防治工作，以加快推进《2021-2026年战略》和2021年《政治宣言》的目标，作为实现包括具体目标3.3在内的可持续发展目标的重要推动因素，期待《2026-2031年全球艾滋病战略》的持续拟定；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="bold">呼吁</span>会员国、联合国系统、民间社会、参与艾滋病毒防治工作且由社区主导的组织、私营部门和其他相关利益攸关方采取紧急行动并结成伙伴关系，扩大艾滋病毒的循证预防、检测、治疗、护理和随访服务，包括获得安全、有效、优质、免费或负担得起的药品包括仿制药，以确保这些服务惠及最需要这些服务者，包括少女和年轻妇女以及流行病学证据表明全球范围内艾滋病毒感染风险较高的重点群体，还有携带艾滋病毒的儿童，这些儿童的艾滋病毒治疗覆盖率低于成人覆盖率，艾滋病相关死亡比例也相对较高；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>会员国继续增加国内供资并采取区别对待的办法，考虑到国情，通过面向所有人的综合预防一揽子计划和面向风险最高群体的定制一揽子计划，包括负担得起的长效接触前预防措施，向人们提供艾滋病毒预防服务，同时加快行动，消除少女和年轻妇女以及重点群体面临的有碍扩大预防服务的政策和结构性障碍，鼓励全球艾滋病毒预防联盟成员加快实施2025年艾滋病毒预防路线图；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="MercuryDocument">
+        <num>6.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">	<span class="bold">又敦促</span>会员国继续制定艾滋病毒防治可持续性路线图，包括在联合规划署的支持下制定路线图；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="MercuryDocument">
+        <num>7.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>联合规划署继续努力推动在消除小儿艾滋病方面取得进展，包括与消除小儿艾滋病全球联盟成员国合作，倡导增加对儿童和青少年早期检测和最佳治疗的投资，推动预防艾滋病毒新增感染，缩小孕妇和哺乳期妇女在治疗方面面临的差距，支持国家和全球努力消除艾滋病毒垂直传播，促进性别平等，并在任务范围内支持各国履行国际人权法规定的义务以促进人权和基本自由，消除有效防治艾滋病毒的社会、经济和结构性障碍；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="MercuryDocument">
+        <num>8.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>会员国在可行情况下紧急消除限制发展中国家在提供负担得起而且有效的艾滋病毒预防和治疗产品、诊断、药品和商品及其他医药产品方面能力的障碍；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_60" class="MercuryDocument">
+        <num>9.</num>
+        <content eId="para_60__content">
+          <p xml:space="preserve">	<span class="bold">呼吁</span>加强努力，在艾滋病毒问题上保护人权和促进性别平等，并应对社会风险因素，例如性健康和生殖健康保护不足以及健康问题的社会和经济决定因素，旨在减少国家内部和国家之间在健康方面的不平等；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="MercuryDocument">
+        <num>10.</num>
+        <content eId="para_69__content">
+          <p xml:space="preserve">	<span class="bold">又呼吁</span>会员国、联合国系统、民间社会、社区主导的组织、私营部门和其他相关利益攸关方加大力度协调艾滋病毒防治与其他卫生方案和部门之间的努力，特别注重卫生和社会保护系统内及创新预防措施的整合，以此作为艾滋病毒防治工作可持续性的部分举措，同时确保对治疗可及性实行问责，并支持促进整合的进程；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="MercuryDocument">
+        <num>11.</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>联合规划署以透明、包容各方和协商的方式与会员国、民间社会和社区协同工作，确保所有相关利益攸关方积极参与联合规划署的活动；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_90" class="MercuryDocument">
+        <num>12.</num>
+        <content eId="para_90__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>联合规划署在当前财政危机背景下紧急实施缓解措施，以便能够根据任务规定继续努力参与全球卫生优先事项并开展协作，强调必须从艾滋病毒防治多部门办法中吸取经验教训，以应对其他全球卫生挑战，同时确保公平仍然是一项核心原则；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_102" class="MercuryDocument">
+        <num>13.</num>
+        <content eId="para_102__content">
+          <p xml:space="preserve">	<span class="bold">回顾</span>《公共卫生、创新和知识产权全球战略和行动计划》和世界卫生大会2008年5月24日第61.21号决议，<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		见世界卫生组织，WHA61/2008/REC/1号文件。</p></authorialNote> 其中敦促会员国积极支持《全球战略和行动计划》的广泛执行，促请相关国际组织和其他相关利益攸关方在各自的任务和方案内优先考虑实施《全球战略和行动计划》，并请会员国结合国家优先事项考虑专家审查小组提出的符合《全球战略和行动计划》的建议；<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		可查阅<a href="https://www.who.int/publications/m/item/gspa-phi3011rev">https://www.who.int/publications/m/item/gspa-phi3011rev</a>。</p></authorialNote></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_115" class="MercuryDocument">
+        <num>14.</num>
+        <content eId="para_115__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>联合规划署继续发挥联合国不同机构和相关伙伴在按照联合规划署和各自的任务规定快速推进和加强艾滋病防治多部门办法方面的比较优势，并利用订正业务模式所反映的联合规划署在更广泛联合国系统内的现行转型；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_129" class="MercuryDocument">
+        <num>15.</num>
+        <content eId="para_129__content">
+          <p xml:space="preserve">	<span class="bold">重申</span>联合规划署的共同赞助方和治理模式继续为联合国系统提供了大会关于联合国系统发展方面业务活动四年期全面政策审查的第<a href="https://docs.un.org/zh/A/RES/79/226">79/226</a>号决议所述的战略协调一致、包容型治理和在国家一级取得成效方面的有益范例；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_144" class="MercuryDocument">
+        <num>16.</num>
+        <content eId="para_144__content">
+          <p xml:space="preserve">	<span class="bold">注意到</span>联合规划署方案协调委员会关于修订联合规划署防治工作业务模式的决定及2027年审查，以期更有效地支持各国，敦促联合规划署继续这一进程，同时考虑到联合国80周年倡议；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_160" class="MercuryDocument">
+        <num>17.</num>
+        <content eId="para_160__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>联合规划署继续按照方案协调委员会《工作方式》和理事会第1995/2号决议的规定便利和支持方案协调委员会非政府组织代表团参加方案协调委员会的工作；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_177" class="MercuryDocument">
+        <num>18.</num>
+        <content eId="para_177__content">
+          <p xml:space="preserve">	<span class="bold">重申赞赏</span>继续加强方案协调委员会在其任务范围内的监督作用，特别是通过联合国艾滋病毒/艾滋病联合规划署独立外部监督咨询委员会的工作和建议予以加强，该咨询委员会是2022年根据2019年联合检查组对联合国艾滋病毒/艾滋病联合规划署管理和行政的审查建议设立；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_195" class="MercuryDocument">
+        <num>19.</num>
+        <content eId="para_195__content">
+          <p xml:space="preserve">	<span class="bold">表示</span>严重关切艾滋病毒防治工作——包括联合规划署的工作——面临严峻的资金危机，2021年《政治宣言》中关于加强全球团结、到2025年将发展中国家艾滋病毒防治工作年度投资增加到290亿美元的承诺未能落实，呼吁面对全球艾滋病毒防治史上最大的系统性冲击和艾滋病毒方案中断情况采取紧急行动，继续促进全球团结，以消除艾滋病这一公共卫生威胁，并促进实现可持续发展目标具体目标3.3；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_214" class="MercuryDocument">
+        <num>20.</num>
+        <content eId="para_214__content">
+          <p xml:space="preserve">	<span class="bold">呼吁</span>为将根据订正业务模式更新的统一预算、成果和问责制框架提供充足资源，并呼吁为保护联合规划署继续有能力维持统一预算、成果和问责框架的宏大目标作出新的努力；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_234" class="MercuryDocument">
+        <num>21.</num>
+        <content eId="para_234__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>长期捐助方维持并在可能情况下继续和增加对联合规划署的捐款，欢迎来自发展中国家和发达国家的捐款，邀请公私部门新的捐助方加入，同时鼓励所有捐助方考虑为统一预算、成果和问责制框架提供多年期核心供资和更灵活的非核心供资，并促请会员国认真考虑方案协调委员会非正式多利益攸关方工作队关于联合规划署供资情况的建议；<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		可查阅<a href="https://www.unaids.org/sites/default/files/media_asset/PCB51_Bureau_Report_UNAIDS_Funding_Final_041222.pdf">https://www.unaids.org/sites/default/files/media_asset/PCB51_Bureau_Report_UNAIDS_ Funding_Final_041222.pdf</a>。</p></authorialNote></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_255" class="MercuryDocument">
+        <num>22.</num>
+        <content eId="para_255__content">
+          <p xml:space="preserve">	<span class="bold">强调指出</span>务须继续作出政治承诺和发挥领导作用，以期到2030年消除艾滋病，认识到需要按照大会2021年6月8日第<a href="https://docs.un.org/zh/A/RES/75/284">75/284</a>号决议中的决定举行一次大会高级别会议，具体日期待定，但不迟于大会第八十届会议，以审查2021年《政治宣言》内所作承诺的落实进展，重振防治工作，以便与《2030年可持续发展议程》包括具体目标3.3密切衔接并发挥协同增效作用，恢复势头，使世界重返到2030年消除艾滋病的轨道；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_277" class="MercuryDocument">
+        <num>23.</num>
+        <content eId="para_277__content">
+          <p xml:space="preserve">	<span class="bold">再次请</span>秘书长按照联合国系统的最佳做法并按照联合检查组的建议，在2026年6月底之前向理事会提交报告，说明对联合规划署执行主任职位的绩效预期并反映方案协调委员会2023年12月的讨论情况；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_300" class="MercuryDocument">
+        <num>24.</num>
+        <content eId="para_300__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>秘书长按照联合国系统的最佳做法并按照联合检查组的建议，迅速就联合规划署执行主任职位的两个四年任期限制问题进行对话；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_324" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_324__content">
+          <p xml:space="preserve">	<span class="bold">请</span>秘书长向理事会2027年届会转递联合规划署执行主任与规划署共同赞助方以及联合国系统其他相关组织和机构合作编写的关于联合国系统协调应对艾滋病毒和艾滋病疫情的进展情况报告。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="第39次" refersTo="#adoptionMeeting">第39次全体会议</location>
+          <eol />
+          <docDate date="2025-07-29" refersTo="#adoptionDate">2025年7月29日</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

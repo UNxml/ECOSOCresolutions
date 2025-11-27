@@ -1,0 +1,224 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-26/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-26/"></FRBRuri>
+          <FRBRdate date="2025-07-29" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-26/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-26/zho@/"></FRBRuri>
+          <FRBRdate date="2025-08-13" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-26/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-26/zho@.xml"></FRBRuri>
+          <FRBRdate date="2025-10-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. ECE" showAs="UN. ECE" dictionary="DHLAUTH"></keyword>
+        <keyword value="GEOSPATIAL INFORMATION MANAGEMENT" href="http://metadata.un.org/thesaurus/1002664" showAs="GEOSPATIAL INFORMATION MANAGEMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="STATISTICS" href="http://metadata.un.org/thesaurus/020700" showAs="STATISTICS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="16" showAs="Regional cooperation." shortForm="REGIONAL COOPERATION" dictionary="E/2025/100"></keyword>
+        <keyword refersTo="agenda" value="16[3]" showAs="REGIONAL COOPERATION--EUROPE" shortForm="REGIONAL COOPERATION--EUROPE" dictionary="E/2025/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-07-08" outcome="recommendedForAdoption" as="E/2025/15/Add.1/Rev.1" by="UN. ECE" />
+        <step date="2025-08-13" outcome="adopted" as="Adopted without vote, 40th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2025/26</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">经济及社会理事会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-08-13" class="rightSmall" refersTo="#dateOfIssuance">13 August 2025</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" eId="coverPage_1__session_1"></session>
+      </p>
+      <p>
+        <inline title="16" name="agenda item">议程项目16</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">区域合作</inline>
+      </p>
+      <p>
+        <docTitle>2025年7月29日经济及社会理事会决议</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent>[根据欧洲经济委员会的建议 (<inline name="originating document">E/2025/15/Add.1/Rev.1</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2025/26.</docNumber>
+        <docTitle refersTo="#resolutionTitle">加强统计与地理学的结合</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">经济及社会理事会，</span>
+        </p>
+      </formula>
+      <container name="注意到" eId="container_2">
+        <p xml:space="preserve">	<span class="bold">注意到</span>欧洲经济委员会在2025年4月9日和10日在日内瓦举行的第七十一届会议上通过了关于加强统计与地理学的结合的D(71)号决定，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_3" class="MercuryDocument">
+        <content eId="para_3__content">
+          <p xml:space="preserve">	<span class="bold">核可</span>本决议所附欧洲经济委员会D(71)号决定，并请秘书长加强统计界和地理空间界之间的相互联系，在委员会统计次级方案下制定统计/数据与地理学相结合的互操作性方法。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="第40次" refersTo="#adoptionMeeting">第40次全体会议</location>
+          <eol />
+          <docDate date="2025-07-29" refersTo="#adoptionDate">2025年7月29日</docDate>
+        </event>
+      </p>
+    </conclusions>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-26/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-26/"></FRBRuri>
+                <FRBRdate date="2025-07-29" name="adoption"></FRBRdate>
+                <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-26/zho@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-26/zho@/"></FRBRuri>
+                <FRBRdate date="2025-08-13" name="publication"></FRBRdate>
+                <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="zho"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-26/zho@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-26/zho@.xml"></FRBRuri>
+                <FRBRdate date="2025-10-23" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_5" class="MercuryDocument">
+              <content eId="para_5__content">
+                <p xml:space="preserve">		附件</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_6" class="MercuryDocument">
+              <content eId="para_6__content">
+                <p xml:space="preserve">		C(71)号决定</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_7" class="MercuryDocument">
+              <content eId="para_7__content">
+                <p xml:space="preserve">		加强统计与地理学的结合</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_8" class="MercuryDocument">
+              <content eId="para_8__content">
+                <p xml:space="preserve">	<span class="bold">欧洲经济委员会</span>，</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_9" class="MercuryDocument">
+              <content eId="para_9__content">
+                <p xml:space="preserve">	<span class="bold">考虑到</span>经济及社会理事会关于设立联合国全球地理空间信息管理专家委员会的第2011/24号决议、关于加强地理空间信息管理体制安排的第<a href="https://docs.un.org/zh/E/RES/2016/27">2016/27</a>号决议和关于加强全球地理空间信息管理安排的第<a href="https://docs.un.org/zh/E/RES/2022/24">2022/24</a>号决议，</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_10" class="MercuryDocument">
+              <content eId="para_10__content">
+                <p xml:space="preserve">	在其第七十一届会议上<span class="bold">注意到</span>地理空间参考信息对于循证决策的至关重要性，</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_11" class="MercuryDocument">
+              <content eId="para_11__content">
+                <p xml:space="preserve">	<span class="bold">回顾</span>对欧洲经委会统计次级方案的经常预算支助(包括人员配置)多年来一直未变，</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_12" class="MercuryDocument">
+              <num>1.</num>
+              <content eId="para_12__content">
+                <p xml:space="preserve">	<span class="bold">请</span>秘书长加强欧洲经委会秘书处在加强统计界和地理空间界之间的相互联系以及在欧洲经委会统计次级方案下制定统计/数据与地理学相结合的互操作性方法方面的作用；</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_13" class="MercuryDocument">
+              <num>2.</num>
+              <content eId="para_13__content">
+                <p xml:space="preserve">	<span class="bold">决定</span>向经济及社会理事会转递关于这一问题的决议草案，供其审议并酌情通过。</p>
+              </content>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>

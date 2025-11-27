@@ -1,0 +1,266 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-30/2025-34/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-30/2025-34/"></FRBRuri>
+          <FRBRdate date="2025-07-30" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-30/2025-34/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-30/2025-34/zho@/"></FRBRuri>
+          <FRBRdate date="2025-08-13" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-30/2025-34/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-30/2025-34/zho@.xml"></FRBRuri>
+          <FRBRdate date="2025-10-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="WOMEN'S RIGHTS" href="http://metadata.un.org/thesaurus/1007035" showAs="WOMEN'S RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PALESTINE REFUGEES" href="http://metadata.un.org/thesaurus/1004701" showAs="PALESTINE REFUGEES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PALESTINIANS" href="http://metadata.un.org/thesaurus/1004703" showAs="PALESTINIANS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="WOMEN REFUGEES" href="http://metadata.un.org/thesaurus/1007048" showAs="WOMEN REFUGEES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMANITARIAN ASSISTANCE" href="http://metadata.un.org/thesaurus/1002992" showAs="HUMANITARIAN ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TERRITORIES OCCUPIED BY ISRAEL" href="http://metadata.un.org/thesaurus/1006472" showAs="TERRITORIES OCCUPIED BY ISRAEL" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="17" showAs="Economic and social repercussions of the Israeli occupation on the living conditions of the Palestinian people in the Occupied Palestinian Territory, including East Jerusalem, and the Arab population in the occupied Syrian Golan." shortForm="PALESTINIANS--TERRITORIES OCCUPIED BY ISRAEL--LIVING CONDITIONS" dictionary="E/2025/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-07-22" outcome="draftResolution" as="E/2025/L.28" by="Iraq (on behalf of the States Members of the United Nations that are members of the Group of 77 and China)" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-08-13" outcome="adopted" as="Adopted without vote, 41st plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2025/34</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">经济及社会理事会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-08-13" class="rightSmall" refersTo="#dateOfIssuance">13 August 2025</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" eId="coverPage_1__session_1"></session>
+      </p>
+      <p>
+        <inline title="17" name="agenda item">议程项目17</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">以色列占领对包括东耶路撒冷在内巴勒斯坦 被占领土上的巴勒斯坦人民和被占领叙利亚 戈兰的阿拉伯居民的生活条件造成的经济和 社会影响</inline>
+      </p>
+      <p>
+        <docTitle>2025年7月30日经济及社会理事会决议</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#plenaryMeeting">[根据全体会议审议的一项提案 (<inline name="originating document">E/2025/L.28</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2025/34.</docNumber>
+        <docTitle refersTo="#resolutionTitle">巴勒斯坦妇女状况和向巴勒斯坦妇女提供援助</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">经济及社会理事会</span>，</p>
+      </formula>
+      <container name="审议了" eId="container_2">
+        <p xml:space="preserve">	<span class="bold">审议了</span>秘书长的报告，<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		<a href="https://docs.un.org/zh/A/80/86">A/80/86-E/2025/71</a>。</p></authorialNote></p>
+      </container>
+      <container name="回顾" eId="container_3">
+        <p xml:space="preserve">	<span class="bold">回顾</span>其相关决议和联合国其他所有相关决议，</p>
+      </container>
+      <container name="又回顾" eId="container_4">
+        <p xml:space="preserve">
+          <span class="bold">	又回顾</span>安全理事会2000年10月31日第<a href="https://docs.un.org/zh/S/RES/1325(2000)">1325(2000)</a>号决议，包括其中呼吁武装冲突各方充分尊重适用于平民、尤其是妇女和女童的权利和保护的国际法，强调所有国家都有责任终止有罪不罚现象，</p>
+      </container>
+      <container name="还回顾" eId="container_5">
+        <p xml:space="preserve">	<span class="bold">还回顾</span>《消除对妇女一切形式歧视公约》，<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		联合国，《条约汇编》，第1249卷，第20378号。</p></authorialNote></p>
+      </container>
+      <container name="回顾" eId="container_6">
+        <p xml:space="preserve">	<span class="bold">回顾</span>《消除对妇女的暴力行为宣言》<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		大会第<a href="https://docs.un.org/zh/A/RES/48/104">48/104</a>号决议。</p></authorialNote> 关于保护平民的条款，</p>
+      </container>
+      <container name="重申" eId="container_7">
+        <p xml:space="preserve">	<span class="bold">重申</span>会员国和武装冲突各方有义务遵守适用的国际人道法和国际人权法，并需要终止一切违反国际人道法的行为以及一切侵犯和践踏人权的行为，</p>
+      </container>
+      <container name="又重申" eId="container_8">
+        <p xml:space="preserve">	<span class="bold">又重申</span>《提高妇女地位内罗毕前瞻性战略》、<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		《审查和评价联合国妇女十年：平等、发展与和平成就世界会议的报告，1985年7月15日至26日，内罗毕》(联合国出版物，出售品编号：C.85.IV.10)，第一章，A节。</p></authorialNote> 《北京宣言》和《行动纲要》、<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		《第四次妇女问题世界会议的报告，1995年9月4日至15日，北京》(联合国出版物，出售品编号：C.96.IV.13)，第一章，决议1，附件一和二。</p></authorialNote> 题为“2000年妇女：二十一世纪性别平等、发展与和平”的大会第二十三届特别会议成果、<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		大会<a href="https://docs.un.org/zh/A/RES/S-23/2">S-23/2</a>号决议，附件；<a href="https://docs.un.org/zh/A/RES/S-23/3">S-23/3</a>号决议，附件。</p></authorialNote> 妇女地位委员会第六十九届会议在第四次妇女问题世界会议三十周年之际通过的政治宣言，<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		见《经济及社会理事会正式记录，2025年，补编第7号》(<a href="https://docs.un.org/zh/E/2025/27">E/2025/27</a>)，第一章，C节。</p></authorialNote> 并重申决心充分、有效、迅速地予以执行，</p>
+      </container>
+      <container name="还重申" eId="container_9">
+        <p xml:space="preserve">	<span class="bold">还重申</span>必须增强妇女在建设和平以及预防冲突及和平解决冲突的相关决策方面的作用，作为确保该区域所有妇女的安全与福祉的一项努力，强调必须让妇女平等参加和参与实现、维护及促进和平与安全的各项努力，在这方面欢迎2020年7月1日国际妇女领袖发出的呼吁，</p>
+      </container>
+      <container name="表示严重关切" eId="container_10">
+        <p xml:space="preserve">	<span class="bold">表示严重关切</span>占领国以色列继续系统侵犯巴勒斯坦人民的人权并对妇女和女童造成影响，</p>
+      </container>
+      <container name="又表示严重关切" eId="container_11">
+        <p xml:space="preserve">	<span class="bold">又表示严重关切</span>所造成的包括儿童、妇女、和平示威者和记者在内的平民伤亡情况，强调各方必须依照国际人道法保护平民，</p>
+      </container>
+      <container name="强烈谴责" eId="container_12">
+        <p xml:space="preserve">	在这方面<span class="bold">强烈谴责</span>杀害记者希琳·阿布·阿克利赫的行为，并强调应确保立即追究责任，</p>
+      </container>
+      <container name="强调指出" eId="container_13">
+        <p xml:space="preserve">	<span class="bold">强调指出</span>应保护民间社会行为者，使其能够自由开展工作，不必担心受到任何一方的袭击和骚扰，并反对任何针对民间社会的袭击，</p>
+      </container>
+      <container name="又强调指出" eId="container_14">
+        <p xml:space="preserve">	<span class="bold">又强调指出</span>必须确保追究所有违反国际人道法和国际人权法行为的责任，以消除有罪不罚现象，确保伸张正义，遏制进一步侵犯行为，保护平民，促进和平，</p>
+      </container>
+      <container name="深为关切" eId="container_15">
+        <p xml:space="preserve">	<span class="bold">深为关切</span>全世界存在各种不同形式和表现的暴力侵害妇女和女童行为，而且对这些行为认识不够、举报不足，在社区一级尤其如此，这些行为的普遍性反映出存在强化陈规定型观念和性别不平等的歧视性规范以及相关的有罪不罚和缺乏责任追究现象，重申需要加紧努力在全世界所有区域防止和消除公私领域内一切形式的暴力侵害妇女和女童行为，再次强调暴力侵害妇女和女童行为侵犯她们的人权并妨碍她们充分享受所有人权，</p>
+      </container>
+      <container name="注意到" eId="container_16">
+        <p xml:space="preserve">	<span class="bold">注意到</span>巴勒斯坦加入了若干人权条约、核心人道法公约和其他国际条约，强调需要充分履行这些文书规定的义务，保护妇女和女童的权利，包括在冲突期间和冲突后予以保护，</p>
+      </container>
+      <container name="又注意到" eId="container_17">
+        <p xml:space="preserve">	<span class="bold">又注意到</span>必须高度优先地迅速通过《个人地位法》，以确保妇女和女童免受性别暴力，包括家庭暴力，</p>
+      </container>
+      <container name="着重指出" eId="container_18">
+        <p xml:space="preserve">	<span class="bold">着重指出</span>在包括东耶路撒冷在内的巴勒斯坦被占领土上的巴勒斯坦管辖权受到限制，这削弱巴勒斯坦政府在某些地区保护巴勒斯坦妇女和女童的能力，</p>
+      </container>
+      <container name="注意到" eId="container_19">
+        <p xml:space="preserve">	<span class="bold">注意到</span>联合国系统机构、组织和机关在按照大会2024年12月19日第<a href="https://docs.un.org/zh/A/RES/79/226">79/226</a>号决议促进提高妇女在发展中的地位和增强其权能方面的重要性，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_20" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">	<span class="bold">重申</span>以色列的占领仍然是巴勒斯坦妇女和女童享有权利、提高地位、自力更生和参与社会发展的主要障碍；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>占领国以色列立即停止一切违反国际法的措施，以及在包括东耶路撒冷在内的巴勒斯坦被占领土上侵犯巴勒斯坦人民人权的歧视性立法、政策和行动，并强调指出巴勒斯坦平民，特别是妇女和儿童，在受到冲突不利影响的民众中占绝大多数；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="bold">呼吁</span>根据国际人道法相关规定并响应安全理事会1994年3月18日第<a href="https://docs.un.org/zh/S/RES/904(1994)">904(1994)</a>号决议的呼吁，采取紧急措施确保包括东耶路撒冷在内的巴勒斯坦被占领土上巴勒斯坦平民的安全和对他们的保护；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_26" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>缔约国、包括作为《消除对妇女一切形式歧视公约》的缔约国充分履行义务，同时充分考虑消除对妇女歧视委员会的结论意见和一般性建议；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="bold">肯定</span>国家联盟和委员会在促进妇女权利方面的贡献，包括与第<a href="https://docs.un.org/zh/S/RES/1325(2000)">1325(2000)</a>号决议、《消除对妇女一切形式歧视公约》和打击暴力侵害妇女行为有关的贡献；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_35" class="MercuryDocument">
+        <num>6.</num>
+        <content eId="para_35__content">
+          <p xml:space="preserve">	<span class="bold">欢迎</span>巴勒斯坦政府通过执行第<a href="https://docs.un.org/zh/S/RES/1325(2000)">1325(2000)</a>号决议的国家行动计划以及促进妇女权利的立法、行政和安全举措，特别是家庭法和打击暴力侵害妇女行为的有关举措；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="MercuryDocument">
+        <num>7.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>国际社会继续特别关注促进和保护巴勒斯坦妇女和女童的人权，并强化措施改善巴勒斯坦妇女及其家庭、包括生活在以色列占领下的巴勒斯坦妇女及其家庭面临的困难条件，认识到必须在人道主义方案拟订工作中考虑性别平等问题，力求确保提供获得保护的机会以及各种医疗、法律、生计和心理社会服务，包括为性暴力和性别暴力的幸存者提供服务，不予歧视，并确保妇女和妇女团体能够平等切实地参与，支持她们领导人道主义行动；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="MercuryDocument">
+        <num>8.</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>国际社会包括联合国特别是联合国近东巴勒斯坦难民救济和工程处继续提供迫切需要的援助(特别是紧急援助)和服务，同时特别铭记《2030年可持续发展议程》<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		大会第<a href="https://docs.un.org/zh/A/RES/70/1">70/1</a>号决议。</p></authorialNote> 和国家优先事项，努力减轻巴勒斯坦妇女及其家人面临的严峻人道主义危机，尤其解决加沙地带的灾难性人道主义危机和正在恶化的社会经济和心理社会状况；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_56" class="MercuryDocument">
+        <num>9.</num>
+        <content eId="para_56__content">
+          <p xml:space="preserve">	<span class="bold">回顾</span>武装冲突各方需要尊重难民营的平民和人道主义性质，并考虑妇女和女童的特殊需要，强调指出巴勒斯坦难民、包括妇女和女童的处境依然令人严重关切，她们依然需要援助，以满足基本的保健、教育和生活需要，直到按照大会1948年12月11日第<a href="https://docs.un.org/zh/A/RES/194(III)">194(III)</a>号决议公正解决巴勒斯坦难民问题；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_65" class="MercuryDocument">
+        <num>10.</num>
+        <content eId="para_65__content">
+          <p xml:space="preserve">	<span class="bold">重申</span>必须全面和平解决巴勒斯坦问题这一阿以冲突的核心，并在这方面敦促加紧和加快国际和区域新的外交努力和支持，以便在联合国相关决议、马德里框架，包括土地换和平原则、《阿拉伯和平倡议》、<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		<a href="https://docs.un.org/zh/A/56/1026">A/56/1026-S/2002/932</a>，附件二，第14/221号决议。</p></authorialNote>《四方路线图》<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">		<a href="https://docs.un.org/zh/S/2003/529">S/2003/529</a>，附件。</p></authorialNote> 和结束以色列1967年开始的占领基础上，毫不拖延地实现中东的全面、公正和持久和平；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_75" class="MercuryDocument">
+        <num>11.</num>
+        <content eId="para_75__content">
+          <p xml:space="preserve">	<span class="bold">强调指出</span>必须努力增强巴勒斯坦妇女在决策中的作用，必须使她们充分平等切实地参加和参与实现、维护和促进和平与安全的一切努力，鼓励会员国和观察员国以及联合国系统确保系统关注、肯定和支持巴勒斯坦妇女在各级的关键作用，为此特别促进妇女在政治、经济和人道主义决策中的能力、领导作用、参加和参与，并改善高级文职政府职位和安全职能中的性别均衡情况，同时认识到应保护参与公共生活的妇女免受威胁和报复；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_86" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_86__content">
+          <p xml:space="preserve">	<span class="bold">请</span>秘书长继续审查局势，采用一切可用的手段，包括其报告中所述的手段，帮助巴勒斯坦妇女，并在向经济及社会理事会2026年届会提交的关于以色列占领对包括东耶路撒冷在内巴勒斯坦被占领土上的巴勒斯坦人民和被占领叙利亚戈兰的阿拉伯居民的生活条件造成的经济和社会影响的报告中，说明占领对不同性别产生的影响和本决议执行进展情况。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="第41次" refersTo="#adoptionMeeting">第41次全体会议</location>
+          <eol />
+          <docDate date="2025-07-30" refersTo="#adoptionDate">2025年7月30日</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

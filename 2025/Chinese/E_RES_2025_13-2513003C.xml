@@ -1,0 +1,234 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-13/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-13/"></FRBRuri>
+          <FRBRdate date="2025-06-10" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-13/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-13/zho@/"></FRBRuri>
+          <FRBRdate date="2025-08-12" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-13/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-13/zho@.xml"></FRBRuri>
+          <FRBRdate date="2025-10-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="World Population and Housing Census Programme 2030" showAs="World Population and Housing Census Programme 2030" dictionary="DHLAUTH"></keyword>
+        <keyword value="Principles and Recommendations for Population and Housing Censuses" showAs="Principles and Recommendations for Population and Housing Censuses" dictionary="DHLAUTH"></keyword>
+        <keyword value="POPULATION CENSUSES" href="http://metadata.un.org/thesaurus/1005019" showAs="POPULATION CENSUSES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HOUSING CENSUSES" href="http://metadata.un.org/thesaurus/1002941" showAs="HOUSING CENSUSES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GUIDELINES" href="http://metadata.un.org/thesaurus/1002790" showAs="GUIDELINES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="STANDARDS" href="http://metadata.un.org/thesaurus/1006169" showAs="STANDARDS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNICAL COOPERATION" href="http://metadata.un.org/thesaurus/1006413" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="19c" showAs="Statistics." shortForm="STATISTICS" dictionary="E/2025/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-03-04" outcome="draftResolution" as="E/CN.3/2025/L.5" by="submitted by the Bureau" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-01-01" outcome="recommendedForAdoption" as="E/2025/24" by="UN. Statistical Commission" />
+        <step date="2025-08-12" outcome="adopted" as="Adopted without vote, 23rd plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2025/13</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">经济及社会理事会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-08-12" class="rightSmall" refersTo="#dateOfIssuance">12 August 2025</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" eId="coverPage_1__session_1"></session>
+      </p>
+      <p>
+        <inline title="19 (c)" name="agenda item">议程项目19 (c)</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">经济和环境问题：统计</inline>
+      </p>
+      <p>
+        <docTitle>2025年6月10日经济及社会理事会决议</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent>[根据统计委员会的建议 (<inline name="originating document">E/2025/24</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2025/13.</docNumber>
+        <docTitle refersTo="#resolutionTitle">2030年世界人口和住房普查方案</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">经济及社会理事会</span>，</p>
+      </formula>
+      <container name="回顾" eId="container_2">
+        <p xml:space="preserve">
+          <span class="bold">	回顾</span>其2015年6月10日第<a href="https://docs.un.org/zh/E/RES/2015/10">2015/10</a>号决议，其中认可2020年世界人口和住房普查方案，并敦促会员国根据该方案至少进行一次人口和住房普查，还回顾以往认可先前各项十年一度方案的决议，</p>
+      </container>
+      <container name="认识到" eId="container_3">
+        <p xml:space="preserve">
+          <span class="bold">	认识到</span>人口和住房普查是根据国家、区域和国际发展承诺并兼顾《2030年可持续发展议程》，制定、实施和监测旨在实现包容性社会经济发展和环境可持续性的政策和方案所需的分列数据的主要来源，<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		大会第<a href="https://docs.un.org/zh/A/RES/70/1">70/1</a>号决议。</p></authorialNote></p>
+      </container>
+      <container name="承认" eId="container_4">
+        <p xml:space="preserve">
+          <span class="bold">	承认</span>尽管冠状病毒病(COVID-19)大流行带来了挑战，但会员国在根据2020年世界人口和住房普查方案开展人口和住房普查方面做出了值得称赞的努力，</p>
+      </container>
+      <container name="认识到" eId="container_5">
+        <p xml:space="preserve">
+          <span class="bold">	认识到</span>普查方法不断演变，包括互联网优先、多模式方法兴起、地理坐标参照和行政数据使用增加，</p>
+      </container>
+      <container name="承认并赞扬" eId="container_6">
+        <p xml:space="preserve">
+          <span class="bold">	承认并赞扬</span>会员国在2020年普查期间及时传播普查数据方面取得的重大进展，普查计数后数据传播速度明显加快，</p>
+      </container>
+      <container name="承认" eId="container_7">
+        <p xml:space="preserve">
+          <span class="bold">	承认</span>人口和住房普查在人口数据系统中的中心地位，以及数据整合对于提高成本效率、减轻受访人负担和生成丰富、详细和及时数据的重要性，</p>
+      </container>
+      <container name="回顾" eId="container_8">
+        <p xml:space="preserve">	<span class="bold">回顾</span>其2006年7月24日第<a href="https://docs.un.org/zh/E/RES/2006/6">2006/6</a>号决议、大会2014年1月29日第<a href="https://docs.un.org/zh/A/RES/68/261">68/261</a>号决议和大会2017年7月6日第<a href="https://docs.un.org/zh/A/RES/71/313">71/313</a>号决议，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_9" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_9__content">
+          <p xml:space="preserve">	<span class="bold">认可</span>2030年世界人口和住房普查方案并呼吁全面支持该方案，该方案包括若干活动，旨在确保会员国在2025年至2034年期间开展人口和住房普查并相辅相成地促进通过加强行政登记、调查及其他行政和替代数据来源，持续生成小范围人口和社会经济统计数据；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve">	<span class="bold">建议</span>会员国考虑将《人口和住房普查的原则和建议》第四次修订版作为进行人口和住房普查以及人口和相关统计概念、定义和分类的国际标准，促进数据来源和统计领域的整合，提高国家内部和国家之间的数据可比性；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_12__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>会员国根据《2030年世界人口和住房普查方案》至少进行一次人口和住房普查或以其他方式编制小范围人口和社会经济统计数据，酌情考虑到《原则和建议》第四次修订版以及其他相关的国际和区域建议，并特别注意提前规划、成本效率、覆盖范围、及时传播普查结果，以及便于所有人利用普查结果作出知情决定并促进发展计划和方案的有效实施；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve">	<span class="bold">着重指出</span>需要各国根据《原则和建议》第四次修订版并充分考虑到《联合国统计数据质量保证框架》、包括国家质量框架在内的其他质量框架、标准和工具以及《官方统计基本原则》，设定开展及评价人口和住房普查的质量标准，以维护人口和住房普查结果的完整性、可靠性、准确性和重要性；<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		大会第<a href="https://docs.un.org/zh/A/RES/68/261">68/261</a>号决议。</p></authorialNote></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="bold">邀请</span>会员国考虑为其普查进行地理坐标参照，以便将普查数据汇总到最低的适当地理层面，传播地理编码普查数据，并使地理空间信息、普查数据和其他数据来源能够整合，同时确保数据保密性；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>会员国加强行政数据源探讨和利用工作以支持普查工作，并考虑建立国家统计人口登记册；此类登记册的建立应仅在完全符合其国家发展计划和优先事项的情况下依照《官方统计基本原则》的规定进行，包括遵守保护个人记录机密性和隐私性的要求和清晰明确的法律规定，包括仅允许为符合国家规则和条例的统计目的利用国家统计人口登记册的规定；<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		《经济及社会理事会正式记录，2022年，补编第4号》(<a href="https://docs.un.org/zh/E/2022/24">E/2022/24</a>)，第一章，C节，第53/107号决定，(d)分段。</p></authorialNote></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="bold">请</span>秘书长编写或更新国际统计标准、方法和准则，为2030年人口和住房普查的规划和实施提供便利，并将这些出版物翻译成联合国正式语文，促进扩大可及性；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve">	<span class="bold">又请</span>秘书长应国家统计机构的请求向其提供技术援助，包括通过区域和次区域活动促进交流经验教训，同时考虑到会员国的不同发展水平，并加强国家实施2030年世界人口和住房普查方案的能力；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="bold">还请</span>秘书长建立平台，交流在开展人口和住房普查包括利用行政源方面的知识、国家经验、做法和教训；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve">	<span class="bold">请</span>秘书长加强合作伙伴和相关利益攸关方之间的协调与合作，应会员国的请求协助其实施该方案；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_64" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_64__content">
+          <p xml:space="preserve">	<span class="bold">又请</span>秘书长定期向统计委员会报告方案实施情况。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="第23次" refersTo="#adoptionMeeting">第23次全体会议</location>
+          <eol />
+          <docDate date="2025-06-10" refersTo="#adoptionDate">2025年6月10日</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
