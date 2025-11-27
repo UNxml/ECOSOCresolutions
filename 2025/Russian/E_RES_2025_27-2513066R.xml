@@ -1,0 +1,270 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-27/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-27/"></FRBRuri>
+          <FRBRdate date="2025-07-29" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-27/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-27/rus@/"></FRBRuri>
+          <FRBRdate date="2025-08-13" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-27/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-27/rus@.xml"></FRBRuri>
+          <FRBRdate date="2025-10-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="Meeting of the Parties to the Convention on the Protection and Use of Transboundary Watercourses and International Lakes" showAs="Meeting of the Parties to the Convention on the Protection and Use of Transboundary Watercourses and International Lakes" dictionary="DHLAUTH"></keyword>
+        <keyword value="Convention on the Protection and Use of Transboundary Watercourses and International Lakes (1992)" showAs="Convention on the Protection and Use of Transboundary Watercourses and International Lakes (1992)" dictionary="DHLAUTH"></keyword>
+        <keyword value="CONFERENCE AND MEETING SERVICES" href="http://metadata.un.org/thesaurus/1001217" showAs="CONFERENCE AND MEETING SERVICES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="LANGUAGE SERVICES" href="http://metadata.un.org/thesaurus/1003618" showAs="LANGUAGE SERVICES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MULTILINGUALISM" href="http://metadata.un.org/thesaurus/1004271" showAs="MULTILINGUALISM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="16" showAs="Regional cooperation." shortForm="REGIONAL COOPERATION" dictionary="E/2025/100"></keyword>
+        <keyword refersTo="agenda" value="16[3]" showAs="REGIONAL COOPERATION--EUROPE" shortForm="REGIONAL COOPERATION--EUROPE" dictionary="E/2025/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-07-08" outcome="recommendedForAdoption" as="E/2025/15/Add.1/Rev.1" by="UN. ECE" />
+        <step date="2025-08-13" outcome="adopted" as="Adopted without vote, 40th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">25-13066 (R)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2025/27</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Экономический и Социальный Совет</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-08-13" class="rightSmall" refersTo="#dateOfIssuance">13 August 2025</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2025" eId="coverPage_1__session_1">Сессия 2025 года</session>
+      </p>
+      <p>
+        <inline title="16" name="agenda item">Пункт 16 повестки дня</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Региональное сотрудничество</inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Экономическим и Социальным Советом 29 июля 2025 года</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent>[по рекомендации Европейской экономической комиссии (<inline name="originating document">E/2025/15/Add.1/Rev.1</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2025/27.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Многоязычие на совещаниях в рамках Конвенции по охране и использованию трансграничных водотоков и международных озер</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Экономический и Социальный Совет</span>,</p>
+      </formula>
+      <container name="отмечая" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">отмечая </span>принятие Европейской экономической комиссией на ее семьдесят первой сессии, состоявшейся в Женеве 9 и 10 апреля 2025 года, решения Е (71) об обеспечении многоязычия на совещаниях в рамках Конвенции по охране и использованию трансграничных водотоков и международных озер<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		United Nations, <span class="italic">Treaty Series</span>, vol. 1936, No. 33207.</p></authorialNote>,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_3" class="MercuryDocument">
+        <content eId="para_3__content">
+          <p xml:space="preserve">	<span class="italic">одобряет </span>решение E (71) Европейской экономической комиссии, прилагаемое к настоящей резолюции, и просит Генерального секретаря обеспечить предоставление услуг по письменному и устному переводу на арабский, испанский и китайский языки в дополнение к английскому, русскому и французскому на будущих сессиях Совещания сторон и других совещаниях в рамках Конвенции по охране и использованию трансграничных водотоков и международных озер за счет средств регулярного бюджета Организации Объединенных Наций, включая письменный перевод официальных документов и публикаций Конвенции на арабский, испанский и китайский языки, с тем чтобы обеспечить эффективное и равное участие всех государств-членов.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="40-е" refersTo="#adoptionMeeting">40‑е пленарное заседание</location>
+          <eol />
+          <docDate date="2025-07-29" refersTo="#adoptionDate">29 июля 2025 года</docDate>
+        </event>
+      </p>
+    </conclusions>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-27/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-27/"></FRBRuri>
+                <FRBRdate date="2025-07-29" name="adoption"></FRBRdate>
+                <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-27/rus@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-27/rus@/"></FRBRuri>
+                <FRBRdate date="2025-08-13" name="publication"></FRBRdate>
+                <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="rus"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-27/rus@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-27/rus@.xml"></FRBRuri>
+                <FRBRdate date="2025-10-23" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_5" class="MercuryDocument">
+              <content eId="para_5__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Приложение</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_6" class="MercuryDocument">
+              <content eId="para_6__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Решение E (71) </span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_7" class="MercuryDocument">
+              <content eId="para_7__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Многоязычие на совещаниях в рамках Конвенции по охране и использованию трансграничных водотоков и международных озер</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_8" class="MercuryDocument">
+              <content eId="para_8__content">
+                <p xml:space="preserve">	<span class="italic">Европейская экономическая комиссия</span>,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_9" class="MercuryDocument">
+              <content eId="para_9__content">
+                <p xml:space="preserve">	<span class="italic">признавая </span>значительный прогресс, достигнутый с момента вступления в силу в 1996 году Конвенции по охране и использованию трансграничных водотоков и международных озер (Конвенция по водам), которая обеспечила надежную правовую основу и эффективную межправительственную платформу для развития сотрудничества и устойчивого управления водными ресурсами на уровне бассейнов и региональном и международном уровнях, что имеет ключевое значение для мирного и устойчивого развития,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_10" class="MercuryDocument">
+              <content eId="para_10__content">
+                <p xml:space="preserve">	<span class="italic">напоминая </span>о решении III/1<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		ECE/MP.WAT/14.</p></authorialNote> Совещания сторон Конвенции по водам, открывающем Конвенцию для присоединения всех государств — членов Организации Объединенных Наций и вступившем в силу в 2013 году,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_11" class="MercuryDocument">
+              <content eId="para_11__content">
+                <p xml:space="preserve">	<span class="italic">приветствуя </span>значительный глобальный интерес к присоединению к Конвенции по водам, которая с 2018 года насчитывает 12 новых сторон из Африки (Гамбия, Гана, Гвинея-Бисау, Замбия, Зимбабве, Камерун, Кот‑д’Ивуар, Намибия, Нигерия, Сенегал, Того и Чад), одну из Латинской Америки (Панама) и одну с Ближнего Востока (Ирак),</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_12" class="MercuryDocument">
+              <content eId="para_12__content">
+                <p xml:space="preserve">	<span class="italic">приветствуя также</span> тот факт, что более 20 других стран находятся в процессе присоединения к Конвенции по водам и вскоре должны стать ее сторонами, включая пять испаноязычных стран и две арабоязычные страны,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_13" class="MercuryDocument">
+              <content eId="para_13__content">
+                <p xml:space="preserve">	<span class="italic">подчеркивая</span>, что помимо 55 нынешних сторон Конвенции в совещаниях и мероприятиях в рамках Конвенции принимают участие еще около 80 стран, что в общей сложности составляет более 130 государств — членов Организации Объединенных Наций,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_14" class="MercuryDocument">
+              <content eId="para_14__content">
+                <p xml:space="preserve">	<span class="italic">подчеркивая также</span>, что Конвенция представляет собой единственный межправительственный механизм Организации Объединенных Наций для проведения политических и технических обсуждений по вопросам устойчивого управления трансграничными водными ресурсами и что ее платформа и проводимая по ее линии работа полезны для всех стран, имеющих общие водные ресурсы, а не только для ее сторон,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_15" class="MercuryDocument">
+              <content eId="para_15__content">
+                <p xml:space="preserve">	<span class="italic">ссылаясь</span> на многочисленные резолюции Генеральной Ассамблеи о многоязычии, включая резолюции <a href="https://docs.un.org/ru/A/RES/71/328">71/328</a>, <a href="https://docs.un.org/ru/A/RES/73/346">73/346</a> и <a href="https://docs.un.org/ru/A/RES/76/268">76/268</a>, в которых отмечается чрезвычайная важность равенства всех шести официальных языков Организации Объединенных Наций,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_16" class="MercuryDocument">
+              <content eId="para_16__content">
+                <p xml:space="preserve">	<span class="italic">отмечая </span>принятие на десятой сессии Совещания сторон Конвенции по водам (Любляна, 23–25 октября 2024 года) решения X/3 о содействии равному и эффективному участию всех сторон в сессиях Совещания сторон и других совещаниях в рамках Конвенции по охране и использованию трансграничных водотоков и международных озер путем предоставления услуг по письменному и устному переводу на арабский, испанский и китайский языки,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_17" class="MercuryDocument">
+              <num>1.</num>
+              <content eId="para_17__content">
+                <p xml:space="preserve">	<span class="italic">постановляет </span>обеспечивать письменный перевод всех официальных документов и публикаций Конвенции на арабский, испанский и китайский языки, чтобы гарантировать равное и эффективное участие всех нынешних и будущих сторон и других стран в деятельности по Конвенции;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_18" class="MercuryDocument">
+              <num>2.</num>
+              <content eId="para_18__content">
+                <p xml:space="preserve">	<span class="italic">постановляет также</span> предоставлять услуги по устному переводу на арабский, испанский и китайский языки на сессиях Совещания сторон и других официальных совещаниях в рамках Конвенции, чтобы обеспечивать равное и эффективное участие нынешних и будущих сторон и других стран в деятельности по Конвенции;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_19" class="MercuryDocument">
+              <num>3.</num>
+              <content eId="para_19__content">
+                <p xml:space="preserve">	<span class="italic">просит </span>Генерального секретаря Организации Объединенных Наций обеспечить предоставление услуг по письменному и устному переводу на арабский, испанский и китайский языки в дополнение к английскому, русскому и французскому на будущих сессиях Совещания сторон и других совещаниях в рамках Конвенции за счет средств регулярного бюджета Организации Объединенных Наций, включая письменный перевод официальных документов и публикаций Конвенции на арабский, испанский и китайский языки, с тем чтобы обеспечить эффективное и равное участие всех сторон и других стран;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_20" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_20__content">
+                <p xml:space="preserve">	<span class="italic">постановляет </span>передать Экономическому и Социальному Совету проект резолюции по этому вопросу для его рассмотрения и возможного принятия.</p>
+              </content>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>

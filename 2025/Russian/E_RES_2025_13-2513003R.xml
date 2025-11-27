@@ -1,0 +1,236 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-13/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-13/"></FRBRuri>
+          <FRBRdate date="2025-06-10" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-13/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-13/rus@/"></FRBRuri>
+          <FRBRdate date="2025-08-12" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-13/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-13/rus@.xml"></FRBRuri>
+          <FRBRdate date="2025-10-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="World Population and Housing Census Programme 2030" showAs="World Population and Housing Census Programme 2030" dictionary="DHLAUTH"></keyword>
+        <keyword value="Principles and Recommendations for Population and Housing Censuses" showAs="Principles and Recommendations for Population and Housing Censuses" dictionary="DHLAUTH"></keyword>
+        <keyword value="POPULATION CENSUSES" href="http://metadata.un.org/thesaurus/1005019" showAs="POPULATION CENSUSES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HOUSING CENSUSES" href="http://metadata.un.org/thesaurus/1002941" showAs="HOUSING CENSUSES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GUIDELINES" href="http://metadata.un.org/thesaurus/1002790" showAs="GUIDELINES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="STANDARDS" href="http://metadata.un.org/thesaurus/1006169" showAs="STANDARDS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNICAL COOPERATION" href="http://metadata.un.org/thesaurus/1006413" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="19c" showAs="Statistics." shortForm="STATISTICS" dictionary="E/2025/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-03-04" outcome="draftResolution" as="E/CN.3/2025/L.5" by="submitted by the Bureau" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-01-01" outcome="recommendedForAdoption" as="E/2025/24" by="UN. Statistical Commission" />
+        <step date="2025-08-12" outcome="adopted" as="Adopted without vote, 23rd plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">25-13003 (R)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2025/13</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Экономический и Социальный Совет</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-08-12" class="rightSmall" refersTo="#dateOfIssuance">12 August 2025</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2025" eId="coverPage_1__session_1">Сессия 2025 года</session>
+      </p>
+      <p>
+        <inline title="19 c)" name="agenda item">Пункт 19 c) повестки дня</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Экономические и экологические вопросы: статистика</inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Экономическим и Социальным Советом 10 июня 2025 года</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent>[по рекомендации Статистической комиссии (<inline name="originating document">E/2025/24</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2025/13.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Всемирная программа переписей населения и жилищного фонда 2030 года</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Экономический и Социальный Совет</span>,</p>
+      </formula>
+      <container name="ссылаясь" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	ссылаясь</span> на свою резолюцию <a href="https://docs.un.org/ru/E/RES/2015/10">2015/10</a> от 10 июня 2015 года, в которой он одобрил Всемирную программу переписей населения и жилищного фонда 2020 года и настоятельно призвал государства-члены провести по меньшей мере одну перепись населения и жилищного фонда в рамках Программы, а также на свои предыдущие резолюции, в которых он одобрял предшествующие десятилетние программы,</p>
+      </container>
+      <container name="признавая" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">признавая</span> переписи населения и жилищного фонда одним из ключевых и основных источников дезагрегированных данных, необходимых для разработки, реализации и контроля за осуществлением стратегий и программ, направленных на обеспечение инклюзивного характера процесса социально-экономического развития и экологической устойчивости в соответствии с национальными, региональными и международными обязательствами в области развития, и принимая во внимание Повестку дня в области устойчивого развития на период до 2030 года<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		Резолюция <a href="https://docs.un.org/ru/A/RES/70/1">70/1</a> Генеральной Ассамблеи.</p></authorialNote>, </p>
+      </container>
+      <container name="отмечая" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">	отмечая </span>достойные похвалы усилия государств-членов по проведению переписей населения и жилищного фонда в рамках Всемирной программы переписей населения и жилищного фонда 2020 года, несмотря на проблемы, возникшие в связи с пандемией коронавирусного заболевания (COVID‑19), </p>
+      </container>
+      <container name="признавая" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	признавая</span> меняющуюся ситуацию в сфере методологий проведения переписи, в том числе активизацию применения основанных на использовании Интернета мультимодальных подходов и географической привязки данных и более широкого использования административных данных,</p>
+      </container>
+      <container name="признавая и высоко оценивая" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">	признавая и высоко оценивая </span>значительный прогресс, достигнутый государствами-членами в своевременном распространении данных переписей в ходе цикла 2020 года, в ходе которого наблюдалась существенная скорость распространения данных после проведения переписи,</p>
+      </container>
+      <container name="признавая" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">	признавая</span> центральную роль переписей населения и жилищного фонда в системах данных о населении и важность интеграции данных для повышения эффективности с точки зрения затрат, снижения нагрузки на респондентов и получения богатого массива подробных и своевременных данных, </p>
+      </container>
+      <container name="ссылаясь" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">	ссылаясь </span>на свою резолюцию <a href="https://ecosoc.un.org/sites/default/files/documents/2023/resolution-2006-6.pdf">2006/6</a> от 24 июля 2006 года, резолюцию <a href="https://docs.un.org/ru/A/RES/68/261">68/261</a> Генеральной Ассамблеи от 29 января 2014 года и резолюцию <a href="https://docs.un.org/ru/A/RES/71/313">71/313</a> Генеральной Ассамблеи от 6 июля 2017 года,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_9" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_9__content">
+          <p xml:space="preserve">	<span class="italic">одобряет </span>Всемирную программу переписей населения и жилищного фонда 2030 года, в которой предусмотрен ряд мероприятий, нацеленных на обеспечение того, чтобы государства-члены провели перепись населения и жилищного фонда в период с 2025 по 2034 год и оказали дополнительное содействие в непрерывной подготовке демографической и социально-экономической статистики на уровне небольших районов путем укрепления административных регистров, обследований и других административных и альтернативных источников данных, и призывает к полномасштабной поддержке Программы; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> государствам-членам считать четвертое пересмотренное издание «Принципов и рекомендаций в отношении переписей населения и жилого фонда» международным стандартом для проведения переписей населения и жилищного фонда и для концепций, определений и классификаций в области статистики населения и смежных областях статистики, чтобы способствовать интеграции между источниками данных и областями статистики и повысить сопоставимость данных внутри стран и между ними;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_12__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает</span> государства-члены провести по меньшей мере одну перепись населения и жилищного фонда или каким-либо иным образом подготовить демографическую и социально-экономическую статистику на уровне небольших районов в рамках Всемирной программы переписей населения и жилищного фонда 2030 года с учетом, сообразно обстоятельствам, четвертого пересмотренного издания «Принципов и рекомендаций» и других соответствующих международных и региональных рекомендаций, уделяя особое внимание предварительному планированию, эффективности с точки зрения затрат, охвату, своевременному распространению результатов переписи и удобному доступу к ним для всех в целях использования этих сведений для принятия решений и содействия эффективному осуществлению планов и программ в области развития; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает </span>необходимость установления странами стандартов качества для проведения переписей населения и жилищного фонда и оценки их результатов в целях соблюдения критериев целостности, надежности, точности и ценности результатов переписей населения и жилищного фонда в соответствии с четвертым пересмотренным изданием «Принципов и рекомендаций» и с полным учетом Рамочной программы обеспечения качества статистики Организации Объединенных Наций, других рамочных программ обеспечения качества, в том числе национальных рамочных программ обеспечения качества, стандартов и инструментов, а также Основополагающих принципов официальной статистики<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		Резолюция <a href="https://docs.un.org/ru/A/RES/68/261">68/261</a> Генеральной Ассамблеи.</p></authorialNote>; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="italic">предлагает</span> государствам-членам рассмотреть возможность географической привязки их переписей, что позволит объединять данные до самого низкого соответствующего географического уровня, распространения геокодированных данных переписей, а также интеграции геопространственной информации, данных переписей и других источников данных при обеспечении конфиденциальности данных;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="MercuryDocument">
+        <num>6.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> государствам-членам активизировать изучение и использование источников административных данных для поддержки проведения переписей и рассмотреть вопрос о создании национальных статистических регистров населения; создание таких регистров должно осуществляться в полном соответствии с национальными планами и приоритетами в области развития и в соответствии с положениями Основополагающих принципов официальной статистики, включая требование о защите конфиденциальности и неприкосновенности личных записей, а также в соответствии с четкими и недвусмысленными правовыми положениями, включающими разрешение на использование национального статистического регистра населения исключительно для статистических целей в соответствии с национальными правилами и положениями<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		<span class="italic">Официальные отчеты Экономического и Социального Совета, 2022 год, Дополнение № 4</span> (<a href="https://docs.un.org/ru/E/2022/24">E/2022/24</a>), глава I, раздел C, решение 53/107, подпункт d).</p></authorialNote>; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="MercuryDocument">
+        <num>7.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="italic">просит </span>Генерального секретаря подготовить или обновить международные статистические стандарты, методы и руководящие принципы для оказания содействия в планировании и проведении цикла переписей населения и жилищного фонда 2030 года и обеспечить перевод этих публикаций на официальные языки Организации Объединенных Наций для предоставления более широкого доступа к ним;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="MercuryDocument">
+        <num>8.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve">	<span class="italic">просит также</span> Генерального секретаря оказывать техническую помощь национальным статистическим службам по их просьбе, в том числе посредством проведения региональных и субрегиональных мероприятий и с учетом различных уровней развития государств-членов, в целях содействия обмену опытом и извлеченными уроками и укрепления национального потенциала для осуществления Всемирной программы переписей населения и жилищного фонда 2030 года;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="MercuryDocument">
+        <num>9.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="italic">просит далее</span> Генерального секретаря разработать платформы для обмена знаниями, национальным опытом, практикой и извлеченными уроками в области проведения переписей населения и жилищного фонда, в том числе в области использования административных источников;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="MercuryDocument">
+        <num>10.</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve">	<span class="italic">просит</span> Генерального секретаря укреплять координацию и сотрудничество между партнерами и соответствующими заинтересованными сторонами для оказания государствам-членам по их просьбе помощи в осуществлении Программы;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_64" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_64__content">
+          <p xml:space="preserve">	<span class="italic">просит также </span>Генерального секретаря регулярно докладывать Статистической комиссии о ходе осуществления Программы.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="23-е" refersTo="#adoptionMeeting">23‑е пленарное заседание</location>
+          <eol />
+          <docDate date="2025-06-10" refersTo="#adoptionDate">10 июня 2025 года</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

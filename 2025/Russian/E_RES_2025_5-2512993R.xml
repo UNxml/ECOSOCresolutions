@@ -1,0 +1,259 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-5/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-5/"></FRBRuri>
+          <FRBRdate date="2025-06-10" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-5/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-5/rus@/"></FRBRuri>
+          <FRBRdate date="2025-08-12" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-5/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-5/rus@.xml"></FRBRuri>
+          <FRBRdate date="2025-10-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Commission for Social Development" showAs="UN. Commission for Social Development" dictionary="DHLAUTH"></keyword>
+        <keyword value="SOCIAL DEVELOPMENT" href="http://metadata.un.org/thesaurus/1005960" showAs="SOCIAL DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOCIAL POLICY" href="http://metadata.un.org/thesaurus/1005976" showAs="SOCIAL POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="20b" showAs="Social development." shortForm="SOCIAL DEVELOPMENT" dictionary="E/2025/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-02-10" outcome="draftResolution" as="E/CN.5/2025/L.7" by="submitted by the Vice-Chair of the Commission, Oliver Gruenbacher (Austria), on the basis of informal consultations" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-01-01" outcome="recommendedForAdoption" as="E/2025/26" by="UN. Commission for Social Development" />
+        <step date="2025-08-12" outcome="adopted" as="Adopted without vote, 22nd plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">25-12993 (R)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2025/5</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Экономический и Социальный Совет</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-08-12" class="rightSmall" refersTo="#dateOfIssuance">12 August 2025</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2025" eId="coverPage_1__session_1">Сессия 2025 года</session>
+      </p>
+      <p>
+        <inline title="20 b)" name="agenda item">Пункт 20 b) повестки дня</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Социальные вопросы и вопросы прав человека: социальное развитие</inline>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Экономическим и Социальным Советом 10 июня 2025 года</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent>[по рекомендации Комиссии социального развития (<inline name="originating document">(E/2025/26</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2025/5.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold"> 	Организация и методы работы Комиссии социального развития в будущем</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Экономический и Социальный Совет</span>,</p>
+      </formula>
+      <container name="ссылаясь" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">ссылаясь </span>на свои резолюции 2005/11 от 21 июля 2005 года, 2006/18 от 26 июля 2006 года, 2008/19 от 24 июля 2008 года, 2010/10 от 22 июля 2010 года, <a href="https://docs.un.org/ru/E/RES/2012/7">2012/7</a> от 26 июля 2012 года, <a href="https://docs.un.org/ru/E/RES/2014/3">2014/3</a> от 12 июня 2014 года, <a href="https://docs.un.org/ru/E/RES/2016/6">2016/6</a> от 2 июня 2016 года, <a href="https://docs.un.org/ru/E/RES/2018/3">2018/3</a> от 17 апреля 2018 года, <a href="https://docs.un.org/ru/E/RES/2019/4">2019/4</a> от 6 июня 2019 года, <a href="https://docs.un.org/ru/E/RES/2021/8">2021/8</a> от 8 июня 2021 года и <a href="https://docs.un.org/ru/E/RES/2023/12">2023/12</a> от 7 июня 2023 года об организации и методах работы Комиссии социального развития в будущем, </p>
+      </container>
+      <container name="ссылаясь также" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">ссылаясь также</span> на резолюцию <a href="https://docs.un.org/ru/A/RES/50/161">50/161</a> Генеральной Ассамблеи от 22 декабря 1995 года об осуществлении решений Всемирной встречи на высшем уровне в интересах социального развития и итоговых документов Всемирной встречи на высшем уровне<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		<span class="italic">Доклад Всемирной встречи на высшем уровне в интересах социального развития, Копенгаген, 6–12 марта 1995 года</span> (издание Организации Объединенных Наций, в продаже под № R.96.IV.8), гл. I, резолюция 1, приложения I и II.</p></authorialNote> и двадцать четвертой специальной сессии Ассамблеи<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		Резолюция <a href="https://docs.un.org/ru/A/RES/S-24/2">S-24/2</a> Генеральной Ассамблеи, приложение.</p></authorialNote>, </p>
+      </container>
+      <container name="ссылаясь далее" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">ссылаясь далее</span> на резолюцию <a href="https://docs.un.org/ru/A/RES/70/1">70/1</a> Генеральной Ассамблеи от 25 сентября 2015 года под названием «Преобразование нашего мира: Повестка дня в области устойчивого развития на период до 2030 года» и подчеркивая важность осуществления этой новой амбициозной повестки дня, </p>
+      </container>
+      <container name="ссылаясь" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">ссылаясь </span>на резолюцию <a href="https://docs.un.org/ru/A/RES/68/1">68/1</a> Генеральной Ассамблеи от 20 сентября 2013 года под названием «Обзор хода осуществления резолюции <a href="https://docs.un.org/ru/A/RES/61/16">61/16</a> Генеральной Ассамблеи об укреплении Экономического и Социального Совета» и на ее последующие резолюции <a href="https://docs.un.org/ru/A/RES/72/305">72/305</a> от 23 июля 2018 года, <a href="https://docs.un.org/ru/A/RES/74/298">74/298</a> от 12 августа 2020 года, <a href="https://docs.un.org/ru/A/RES/75/290a">75/290</a> A от 25 июня 2021 года и <a href="https://docs.un.org/ru/A/RES/78/285">78/285</a> от 7 июня 2024 года, </p>
+      </container>
+      <container name="ссылаясь также" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">ссылаясь также</span> на свою резолюцию 1996/7 от 22 июля 1996 года, в которой он постановил, что Комиссия при выполнении своего мандата должна помогать Совету проводить мониторинг, анализ и оценку результатов, достигнутых в осуществлении Копенгагенской декларации о социальном развитии и Программы действий Всемирной встречи на высшем уровне в интересах социального развития, и проблем, возникших в ходе их осуществления, и представлять Совету соответствующие рекомендации,</p>
+      </container>
+      <container name="отмечая" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">отмечая</span>, что в своей резолюции <a href="https://docs.un.org/ru/A/RES/78/285">78/285</a> Генеральная Ассамблея определила главные темы сессий Экономического и Социального Совета и политического форума высокого уровня по устойчивому развитию в 2025, 2026 и 2027 годах, </p>
+      </container>
+      <container name="ссылаясь" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">ссылаясь </span>на резолюцию 42/1 Комиссии социального развития от 13 февраля 2004 года<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		См. <span class="italic">Официальные отчеты Экономического и Социального Совета, 2004 год, Дополнение № 6</span> (<a href="https://undocs.org/ru/E/2004/26(supp)">E/2004/26</a>), гл. I, разд. E.</p></authorialNote>, в которой Комиссия постановила проводить обзор и оценку Мадридского международного плана действий по проблемам старения 2002 года<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		<span class="italic">Доклад второй Всемирной ассамблеи по проблемам старения, Мадрид, 8–12 апреля 2002 года</span> (издание Организации Объединенных Наций, в продаже под № R.02.IV.4), гл. I, резолюция 1, приложение II.</p></authorialNote> каждые пять лет, </p>
+      </container>
+      <container name="ссылаясь также" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">ссылаясь также </span>на резолюцию <a href="https://docs.un.org/ru/A/RES/78/174">78/174</a> Генеральной Ассамблеи от 19 декабря 2023 года, в которой Ассамблея призвала Комиссию продолжать заниматься решением проблемы неравенства во всех его проявлениях в контексте осуществления Копенгагенской декларации и Программы действий, а также осуществления Повестки дня на период до 2030 года и предложила Комиссии уделять особое внимание расширению обмена национальным, региональным и международным опытом, углубленным и интерактивным диалогам между экспертами и практическими работниками и обмену передовой практикой и извлеченными уроками, </p>
+      </container>
+      <container name="ссылаясь далее" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">ссылаясь далее</span> на резолюцию <a href="https://docs.un.org/ru/A/RES/78/261">78/261</a> Генеральной Ассамблеи от 26 февраля 2024 года, в которой Ассамблея постановила созвать в 2025 году Всемирный социальный саммит под названием «Вторая Всемирная встреча на высшем уровне в интересах социального развития», чтобы устранить пробелы и подтвердить приверженность Копенгагенской декларации и Программе действий и их реализации, а также придать импульс усилиям по осуществлению Повестки дня на период до 2030 года, </p>
+      </container>
+      <container name="ссылаясь" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">ссылаясь </span>на резолюцию <a href="https://docs.un.org/ru/A/RES/78/318">78/318</a> Генеральной Ассамблеи от 16 июля 2024 года, в которой Ассамблея постановила, что Саммит будет проведен на уровне глав государств и правительств в Катаре с 4 по 6 ноября 2025 года и что на нем будет принята четкая и ориентированная на конкретные действия политическая декларация, которая будет заранее согласована на основе консенсуса в ходе межправительственных переговоров в Нью‑Йорке и которая должна предусматривать применение ориентированного на социальное развитие подхода и придать импульс усилиям по осуществлению Повестки дня на период до 2030 года, </p>
+      </container>
+      <container name="учитывая" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">учитывая</span>, что осуществление Копенгагенской декларации и Программы действий, итоговых документов двадцать четвертой специальной сессии Генеральной Ассамблеи, Мадридского плана действий, Всемирной программы действий, касающейся молодежи<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		Резолюции Генеральной Ассамблеи <a href="https://docs.un.org/ru/A/RES/50/81">50/81</a>, приложение, и <a href="https://docs.un.org/ru/A/RES/62/126">62/126</a>, приложение.</p></authorialNote>, целей Международного года семьи и связанных с ним последующих процессов и итогового документа заседания Генеральной Ассамблеи высокого уровня по вопросу о реализации целей в области развития, сформулированных в Декларации тысячелетия, и других согласованных на международном уровне целей в области развития в интересах инвалидов, озаглавленного «Путь вперед: охватывающая проблему инвалидности повестка дня в области развития на период до 2015 года и далее»<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		Резолюция <a href="https://docs.un.org/ru/A/RES/68/3">68/3</a> Генеральной Ассамблеи.</p></authorialNote>, выполнение обязательств государств-участников по Конвенции о правах инвалидов<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		United Nations, <span class="italic">Treaty Series</span>, vol. 2515, No. 44910.</p></authorialNote> и по другим соответствующим важнейшим документам и реализация социальных аспектов Повестки дня на период до 2030 года подкрепляют друг друга в плане достижения социального развития для всех, </p>
+      </container>
+      <container name="с удовлетворением отмечая" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">с удовлетворением отмечая</span> проведение 22 и 23 сентября 2024 года в Центральных учреждениях Организации Объединенных Наций в Нью‑Йорке Саммита будущего, на котором были приняты резолюция <a href="https://docs.un.org/ru/A/RES/79/1">79/1</a> под названием «Пакт во имя будущего» и приложения к ней, и обязательство инвестировать в людей с целью ликвидировать нищету и укрепить доверие и социальную сплоченность, чтобы никто не был обойден вниманием, </p>
+      </container>
+      <container name="признавая" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">признавая </span>важную роль неправительственных организаций, а также других субъектов гражданского общества в содействии осуществлению Копенгагенской декларации и Программы действий и, следовательно, работе Комиссии, </p>
+      </container>
+      <container name="напоминая" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">напоминая </span>о том, что Совету необходимо рассмотреть и принять меры по рационализации его повестки дня с целью устранить случаи дублирования и параллелизма и повысить взаимодополняемость при рассмотрении и обсуждении аналогичных и смежных вопросов, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_16" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">	<span class="italic">подтверждает</span>, что в порядке содействия комплексному подходу к вопросам социального развития в системе Организации Объединенных Наций Комиссия социального развития, являющаяся главным форумом Организации Объединенных Наций для интенсивного глобального диалога по вопросам социального развития, как одна из функциональных комиссий Экономического и Социального Совета несет главную ответственность за периодический обзор вопросов, касающихся осуществления Копенгагенской декларации о социальном развитии, Программы действий Всемирной встречи на высшем уровне в интересах социального развития и итоговых документов двадцать четвертой специальной сессии Генеральной Ассамблеи и последующей деятельности в связи с ними, сообразуясь при этом с функциями и вкладом соответствующих органов, организаций и структур системы Организации Объединенных Наций, и должна выносить Совету рекомендации по этим вопросам; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve">	<span class="italic">подтверждает также</span>, что в порядке выполнения ее нынешнего мандата Комиссия будет способствовать деятельности по осуществлению Повестки дня в области устойчивого развития на период до 2030 года<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">		Резолюция <a href="https://docs.un.org/ru/A/RES/70/1">70/1</a> Генеральной Ассамблеи.</p></authorialNote>, содействуя проведению в рамках политического форума высокого уровня по устойчивому развитию тематических обзоров хода достижения целей в области устойчивого развития, включая сквозные вопросы, отражающие комплексный характер этих целей и связи между ними, стараясь при этом заручиться поддержкой всех соответствующих заинтересованных сторон и обеспечить вклад в работу политического форума высокого уровня и увязку с циклом его проведения, в соответствии с организационными процедурами, установленными Генеральной Ассамблеей и Советом; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="italic">ссылается </span>на резолюцию <a href="https://docs.un.org/ru/A/RES/75/290a">75/290</a> A Генеральной Ассамблеи, в которой Ассамблея постановила, в частности, что вспомогательные органы Экономического и Социального Совета будут утверждать свои соответствующие темы, согласующиеся с основной темой политического форума высокого уровня по устойчивому развитию, проводимого под эгидой Совета, продолжая при этом рассматривать вопросы или темы, необходимые для выполнения ими своих функций; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">	<span class="italic">напоминает </span>о том, что на каждой сессии Комиссия рассматривает одну приоритетную тему на основе осуществления и обзора решений Всемирной встречи на высшем уровне и ее связей с социальными аспектами Повестки дня на период до 2030 года и предлагает ориентированную на конкретные действия резолюцию, включающую рекомендации Совету в целях содействия его работе; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_26" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve">	<span class="italic">подтверждает </span>свое решение о том, что в дополнение к последующей деятельности в связи со Всемирной встречей на высшем уровне, двадцать четвертой специальной сессией Генеральной Ассамблеи и Повесткой дня на период до 2030 года и обзору осуществления их решений и положений при выборе своих приоритетных тем Комиссия будет принимать во внимание программу работы Совета и основную тему политического форума высокого уровня по устойчивому развитию, с тем чтобы повысить кумулятивный эффект и способствовать работе Совета; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">	<span class="italic">просит </span>Комиссию после проведения обзора резолюции <a href="https://docs.un.org/ru/A/RES/70/299">70/299</a> Генеральной Ассамблеи от 29 июля 2016 года принять в ходе рассмотрения вопроса об организации и методах работы Комиссии в будущем на ее шестьдесят пятой сессии многолетнюю программу работы, с тем чтобы обеспечить предсказуемость и достаточное время для подготовки; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve">	<span class="italic">постановляет</span>, что приоритетной темой шестьдесят четвертой сессии Комиссии, которая позволит ей содействовать работе Совета, будет «Содействие социальному развитию и социальной справедливости на основе проведения скоординированной, справедливой и инклюзивной политики»; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve">	<span class="italic">постановляет также</span>, что на своей шестьдесят четвертой сессии Комиссия примет решение о выборе приоритетной темы своей шестьдесят пятой сессии в соответствии с положениями настоящей резолюции; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	<span class="italic">предлагает </span>Департаменту по экономическим и социальным вопросам Секретариата, соответствующим специализированным учреждениям, региональным комиссиям, фондам и программам системы Организации Объединенных Наций и международным финансовым учреждениям представлять информацию о своих соответствующих мероприятиях и свои доклады, что может способствовать более глубокому рассмотрению приоритетной темы, в том числе в ходе интерактивных диалогов с государствами-членами и соответствующими заинтересованными сторонами; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_61" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_61__content">
+          <p xml:space="preserve">	<span class="italic">предлагает </span>бюро Комиссии продолжать выступать с предложениями о проведении интерактивных диалогов, таких как мероприятия на высоком уровне и практикумы на уровне министров и экспертов, с участием государств-членов и соответствующих заинтересованных сторон, с тем чтобы стимулировать диалог и повысить отдачу от ее работы, в том числе посредством рассмотрения вопроса о реализации социальных аспектов Повестки дня на период до 2030 года, последующей деятельности в связи с ними и обзоре их реализации; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_71" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_71__content">
+          <p xml:space="preserve">	<span class="italic">подтверждает </span>свое решение содействовать повышению эффективности своей работы путем перевода работы над резолюциями Комиссии на двухгодичный цикл, с тем чтобы повысить значимость резолюции по приоритетной теме, устранить случаи дублирования и параллелизма в работе Совета и Генеральной Ассамблеи и повысить взаимодополняемость при рассмотрении и обсуждении ими аналогичных или смежных вопросов;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_82" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_82__content">
+          <p xml:space="preserve">	<span class="italic">призывает </span>неправительственные организации и других субъектов гражданского общества в соответствии с резолюцией 1996/31 Совета от 25 июля 1996 года как можно более активно участвовать в работе Комиссии и в наблюдении за ходом осуществления и в самом процессе осуществления Копенгагенской декларации и Программы действий Всемирной встречи на высшем уровне и итоговых документов двадцать четвертой специальной сессии Генеральной Ассамблеи; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_94" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_94__content">
+          <p xml:space="preserve">	<span class="italic">постановляет</span>, что на своей шестьдесят пятой сессии Комиссия продолжит пересмотр методов своей работы, в том числе применительно к срокам и продолжительности ее сессий, с тем чтобы подстроиться, сообразно обстоятельствам, под работу Совета в соответствии с результатами обзора Генеральной Ассамблеей вопроса об укреплении Совета и процесса переориентации системы развития Организации Объединенных Наций.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="22-е" refersTo="#adoptionMeeting">22‑е пленарное заседание</location>
+          <eol />
+          <docDate date="2025-06-10" refersTo="#adoptionDate">10 июня 2025 года</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
