@@ -1,0 +1,357 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-20/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-20/"></FRBRuri>
+          <FRBRdate date="2025-07-29" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-20/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-20/eng@/"></FRBRuri>
+          <FRBRdate date="2025-08-13" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-20/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-20/eng@.xml"></FRBRuri>
+          <FRBRdate date="2025-10-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="Joint United Nations Programme on HIV/AIDS" showAs="Joint United Nations Programme on HIV/AIDS" dictionary="DHLAUTH"></keyword>
+        <keyword value="Joint United Nations Programme on HIV/AIDS. Executive Director" showAs="Joint United Nations Programme on HIV/AIDS. Executive Director" dictionary="DHLAUTH"></keyword>
+        <keyword value="HIV/AIDS" href="http://metadata.un.org/thesaurus/1000181" showAs="HIV/AIDS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HIV/AIDS PREVENTION" href="http://metadata.un.org/thesaurus/1000182" showAs="HIV/AIDS PREVENTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COORDINATION WITHIN UN SYSTEM" href="http://metadata.un.org/thesaurus/1001299" showAs="COORDINATION WITHIN UN SYSTEM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNICAL COOPERATION" href="http://metadata.un.org/thesaurus/1006413" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="13h" showAs="Joint United Nations Programme on HIV/AIDS." shortForm="HIV/AIDS" dictionary="E/2025/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-07-22" outcome="draftResolution" as="E/2025/L.25" by="submitted by the President of the Council and Bob Rae (Canada)" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-08-13" outcome="adopted" as="Adopted without vote, 39th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">25-13053 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2025/20</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Economic and Social Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-08-13" class="rightSmall" refersTo="#dateOfIssuance">13 August 2025</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2025" eId="coverPage_1__session_1">2025 session</session>
+      </p>
+      <p>
+        <inline title="13 (h)" name="agenda item">Agenda item 13 (h)</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Coordination, programme and other questions: Joint United Nations Programme on HIV/AIDS</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the Economic and Social Council on 29 July 2025</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#plenaryMeeting">[on a proposal considered in plenary meeting (<inline name="originating document">E/2025/L.25</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2025/20.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Joint United Nations Programme on HIV/AIDS</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Economic and Social Council</span>,</p>
+      </formula>
+      <container name="Reaffirming" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> its resolutions 1994/24 of 26 July 1994 and 1995/2 of 3 July 1995, by which the Council established the Joint United Nations Programme on HIV/AIDS, and all subsequent resolutions of the Council on the Joint Programme, including resolution <a href="https://docs.un.org/en/E/RES/2023/30">2023/30</a> of 25 July 2023,</p>
+      </container>
+      <container name="Having considered" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Having considered</span> the report of the Executive Director of the Joint United Nations Programme on HIV/AIDS to the Council,<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	 	<a href="https://docs.un.org/en/E/2025/73">E/2025/73</a>.</p></authorialNote></p>
+      </container>
+      <container name="Taking note" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of the importance of the 2021 Political Declaration on HIV and AIDS: Ending Inequalities and Getting on Track to End AIDS by 2030<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	 	General Assembly resolution <a href="https://docs.un.org/en/A/RES/75/284">75/284</a>, annex.</p></authorialNote> as well as the Global AIDS Strategy 2021–2026, “End Inequalities, End AIDS”, and noting that they are complementary and aligned with the 2030 Agenda for Sustainable Development,<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	 	General Assembly resolution <a href="https://docs.un.org/en/A/RES/70/1">70/1</a>.</p></authorialNote> </p>
+      </container>
+      <container name="Reaffirming" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> the sovereign rights of Member States, as enshrined in the Charter of the United Nations, and the need for all countries to implement their commitments and pledges in the 2021 Political Declaration consistent with national laws, national development priorities and international human rights, </p>
+      </container>
+      <container name="Welcoming" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the progress made in reducing HIV incidence and AIDS mortality, and in increasing access to HIV treatment and preventing new HIV infections, as many countries have made progress towards the 95-95-95 targets and introduced and scaled up HIV prevention innovations for adolescent girls and young women and key populations,<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">	 	As referred to in the Global AIDS Strategy 2021–2026, “End Inequalities, End AIDS”, and discussed in the 2016 “Prevention gap report”, each country should define the specific populations that are key to its epidemic and response based on the epidemiological and social context.</p></authorialNote> </p>
+      </container>
+      <container name="Expressing concern" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Expressing concern</span> that, despite the progress made, there remain many disparities and inequalities between and within countries and regions, between men and women, for different age groups, especially for children and adolescents who are disproportionally affected by HIV, and for key populations that epidemiological evidence shows to be globally at higher risk of HIV infection, and that the 2025 targets outlined in the 2021 Political Declaration may not have been met, and that, in 2024, 1.3 million people were newly infected with HIV and 630,000 people died from AIDS-related causes, and of the 40.8 million people living with HIV, 9.2 million were not yet receiving life-saving treatment, with new HIV infections on the rise in some countries and within some subpopulations and locations, owing in part to poor implementation of effective, evidence-based HIV responses, </p>
+      </container>
+      <container name="Expressing deep concern" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Expressing deep concern</span> that reaching the goal of ending AIDS as a public health threat by 2030 is negatively impacted by declining official development assistance and HIV funding, in particular to community-led HIV responses and, in many parts of the world, restrictions on civic space, regression of gender equality and human rights as recognized by international human rights law, and persistent stigma and discrimination in the HIV response, </p>
+      </container>
+      <container name="Acknowledging" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Acknowledging</span> the availability of evidence-based HIV interventions, and expressing concern regarding their uneven scale-up, according to national contexts, as well as the slow rates of expenditure of prevention funds resulting in critical gaps in prevention efforts,</p>
+      </container>
+      <container name="Noting with concern" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Noting with concern</span> that some preventable and treatable diseases and conditions – including tuberculosis and other co-infections, cervical cancer and mental health conditions and other communicable and noncommunicable diseases – are associated with HIV infection, poor HIV treatment outcomes and mortality among people living with HIV,</p>
+      </container>
+      <container name="Concerned" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Concerned</span> that tuberculosis, including its drug-resistant forms, remains the leading global cause of death among people living with HIV and that 6.1 per cent of estimated incident tuberculosis cases worldwide in 2023 were among people living with HIV, yet, in 2023, only 58 per cent of the estimated tuberculosis cases in people living with HIV were diagnosed, and that 20 per cent of known tuberculosis patients were not tested for HIV, precluding treatment and resulting in preventable deaths,<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">	 	World Health Organization, <span class="italic">Global Tuberculosis Report 2024</span> (Geneva, 2024). </p></authorialNote></p>
+      </container>
+      <container name="Further expressing concern" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Further expressing concern</span> that HIV-related stigma and discrimination and inequalities, including economic disadvantage, remain an impediment to achieving positive HIV-related health outcomes, especially for adolescent girls and young women, those in vulnerable situations, including key populations that epidemiological evidence shows to be globally at higher risk of HIV infection, and all those experiencing one or more forms of discrimination, </p>
+      </container>
+      <container name="Expressing concern" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Expressing concern</span> over laws, policies and practices that may hinder access for all people to HIV prevention, testing, diagnosis, treatment, care and support services, </p>
+      </container>
+      <container name="Recognizing" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> the critical role that meaningful involvement of civil society plays in the global response to the AIDS epidemic, and reaffirming that the promotion, protection and fulfilment of all human rights and fundamental freedoms for all is an essential element in the global response to the AIDS epidemic, including in the areas of prevention, testing, diagnosis, treatment, care and support, </p>
+      </container>
+      <container name="Reaffirming" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> that efforts to achieve universal health coverage should be informed by the lessons learned from the multisectoral HIV response, including the importance of the application of a wide range of measures to tackle HIV, a focus on equity, outcomes and accountability, responsiveness to international human rights law and the needs of the most marginalized, innovation in health financing, community-based and community-led HIV service delivery, as appropriate in the national context, a focus on the social, economic and structural determinants of health, and the importance of addressing stigma and discrimination, </p>
+      </container>
+      <container name="Recognizing" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> the value of lessons learned from the multisectoral response to HIV and how countries and communities have leveraged their HIV investments and infrastructure in addressing other complex health and development challenges, and that progress in the HIV response has led to progress on broader development outcomes, </p>
+      </container>
+      <container name="Reaffirming" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> the pivotal role of the Joint United Nations Programme on HIV/AIDS in galvanizing and supporting multisectoral HIV responses in the context of broader efforts to leave no one behind, in line with General Assembly resolutions <a href="https://docs.un.org/en/A/RES/79/226">79/226</a> of 19 December 2024 and <a href="https://docs.un.org/en/A/RES/70/1">70/1</a> of 25 September 2015, </p>
+      </container>
+      <container name="Recalling" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> the objectives of the Joint Programme to achieve and promote global consensus on policy and programmatic approaches and promote broad-based political and social mobilization to prevent and respond to HIV and AIDS within countries, ensuring that national responses involve a wide range of sectors and institutions,</p>
+      </container>
+      <container name="Noting with appreciation" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">Noting with appreciation</span> the continued reporting by Member States on progress in their HIV responses and the support provided by the Joint Programme to Member States, including by enabling increased access to and use of strategic multisectoral, quality data to measure progress and refine strategies in the HIV response, </p>
+      </container>
+      <container name="Expressing deep concern also" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">Expressing deep concern also</span> that there is a continuing shortfall in the financing of the HIV response, especially with respect to developing countries with a high HIV burden that are dependent on international funding, exacerbated by the dramatic reduction in international funding, and persistent insufficient domestic investment in the HIV response, </p>
+      </container>
+      <container name="Recognizing" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> the need for funding, research and development of new quality, safe, affordable and effective HIV medicines as well as equitable, timely and unhindered access to these life-saving medicines,</p>
+      </container>
+      <container name="Noting with concern" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">Noting with concern</span> the unprecedented reduction of Unified Budget, Results and Accountability Framework funding and the negative impact of this on the capacity of the Joint Programme to support countries in responding to HIV in order to sustain global progress towards ending AIDS as a public health threat by 2030 and beyond as a result of substantial reductions in secretariat staff, country offices and co-sponsor allocations and capacities,</p>
+      </container>
+      <container name="Reaffirming" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> the important role played by the Programme Coordinating Board NGO Delegation in the governance of the Programme Coordinating Board of the Joint Programme,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_24" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="italic">Takes note</span> of the report of the Executive Director of the Joint United Nations Programme on HIV/AIDS to the Economic and Social Council;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> that new HIV infections and AIDS-related deaths are not declining in line with the trajectory needed to achieve the 2030 targets outlined in the 2021 Political Declaration on HIV and AIDS: Ending Inequalities and Getting on Track to End AIDS by 2030, and stresses the need to act with urgency to meet the 2030 targets, as a prerequisite for ending the AIDS epidemic as a public health threat by 2030;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> the Joint Programme to further support the effective, evidence-based, timely and multisectoral implementation of the Global AIDS Strategy 2021–2026, “End Inequalities, End AIDS” and the 2021 Political Declaration, in line with its mandate, encourages Governments, civil society, community-led organizations engaged in the HIV response, the private sector and other relevant stakeholders to strengthen the HIV response, in accordance with national policies and priorities, to accelerate progress towards the goals of the 2021–2026 Strategy and the 2021 Political Declaration, as an important enabler for the achievement of the Sustainable Development Goals, including target 3.3, and looks forward to the ongoing development of the Global AIDS Strategy 2026–2031;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="italic">Calls for</span> urgent action and partnership by Member States, the United Nations system, civil society, community-led organizations engaged in the HIV response, the private sector and other relevant stakeholders to scale up evidence-based HIV prevention, testing, treatment, care and retention services, including access to safe, effective, quality and free or affordable medicines, including generics, to ensure that those services reach the people who need them the most, including adolescent girls and young women as well as key populations that epidemiological evidence shows to be globally at higher risk of HIV infection, and children living with HIV, who have poorer HIV treatment coverage than adults and comprise a higher relative proportion of AIDS-related deaths;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> Member States to continue to increase domestic funding and implement differentiated approaches to reaching people with HIV prevention services, taking into account the national context, through a comprehensive prevention package for all and tailored packages, including affordable long-acting pre‑exposure prophylaxis, for the most at-risk populations, along with accelerated actions to address policy and structural barriers faced by adolescent girls and young women and key populations that hinder the scale-up of prevention services, encouraging members of the Global HIV Prevention Coalition to accelerate implementation of the HIV Prevention 2025 Road Map;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">	<span class="italic">Also urges</span> Member States to continue to develop HIV sustainability road maps, including with the support of the Joint Programme;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the Joint Programme to continue work to advance progress to end paediatric AIDS, including work with the countries of the Global Alliance to End AIDS in Children, advocacy for increased investments in early testing and optimal treatment for children and adolescents, promoting the prevention of new HIV infections and closing the treatment gap during pregnancy and breastfeeding, supporting national and global efforts towards the elimination of vertical transmission of HIV and advancing gender equality, and, within its mandate, to support countries in fulfilling their obligations under international human rights law to advance human rights and fundamental freedoms and addressing social, economic and structural barriers to effective HIV responses;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	<span class="italic">Urges </span>Member States to urgently remove, where feasible, obstacles that limit the capacity of developing countries to provide affordable and effective HIV prevention and treatment products, diagnostics, medicines and commodities and other pharmaceutical products;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_60" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_60__content">
+          <p xml:space="preserve">	<span class="italic">Calls for</span> reinvigorated efforts to protect human rights and promote gender equality in the context of HIV and to address social risk factors, such as insufficient protection of sexual and reproductive health as well as social and economic determinants of health, with the aim of reducing health inequities within and between countries; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_69__content">
+          <p xml:space="preserve">	<span class="italic">Also calls for</span> strengthened efforts by Member States, the United Nations system, civil society, community-led organizations, the private sector and other relevant stakeholders to coordinate efforts between HIV and other health programmes and sectors, with a particular focus on integration within health and social protection systems and prevention innovation as part of the sustainability of the HIV response, while also ensuring accountability for access to treatment and supporting processes that facilitate integration;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> the Joint Programme to work collaboratively with Member States, civil society and communities, in a transparent, inclusive and consultative manner, ensuring active participation of all relevant stakeholders in its activities;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_90" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_90__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the Joint Programme to urgently implement mitigation measures in the current financial crisis to be able to sustain its efforts in engaging and collaborating on global health priorities in accordance with its mandate, and emphasizes the importance of drawing lessons from the multisectoral approach to HIV to tackle other global health challenges while ensuring that equity remains a central principle;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_102" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_102__content">
+          <p xml:space="preserve">	<span class="italic">Recalls</span> the Global Strategy and Plan of Action on Public Health, Innovation and Intellectual Property and World Health Assembly resolution 61.21 of 24 May 2008,<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">	 	See World Health Organization, document WHA61/2008/REC/1.</p></authorialNote> that urges Member States to support actively the wide implementation of the Global Strategy and Plan of Action and that calls upon relevant international organizations and other relevant stakeholders to give priority within their respective mandates and programmes to implementing the Global Strategy and Plan of Action, and requests Member States to take into account the recommendations of the expert review panel,<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">	 	Available at <a href="https://www.who.int/publications/m/item/gspa-phi3011rev">https://www.who.int/publications/m/item/gspa-phi3011rev</a>.</p></authorialNote> consistent with the Global Strategy and Plan of Action, in line with national priorities;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_115" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_115__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> the Joint Programme to continue to leverage the comparative advantages of diverse United Nations bodies and relevant partners in fast-tracking and strengthening a multisectoral response to AIDS in line with its and their respective mandates, and the ongoing transition of the Joint Programme within the wider United Nations system as reflected in the revised operating model;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_129" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_129__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms</span> that the Joint Programme’s co-sponsor and governance model continues to provide the United Nations system with a useful example of strategic coherence, inclusive governance, and country-level impact, as set out in General Assembly resolution <a href="https://docs.un.org/en/A/RES/79/226">79/226</a> on the quadrennial comprehensive policy review of operational activities for development of the United Nations system;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_144" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_144__content">
+          <p xml:space="preserve">	<span class="italic">Notes</span> the decisions taken by the Programme Coordinating Board on the revision of the operating model of the Joint Programme response, and its review by 2027, to more effectively support countries, and urges the Joint Programme to continue this process, taking into account the UN80 Initiative;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_160" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_160__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the Joint Programme to continue facilitating and supporting the participation of the Programme Coordinating Board NGO Delegation in the work of the Programme Coordinating Board as set out in the Modus Operandi of the Board and Council resolution 1995/2;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_177" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_177__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms appreciation</span> for the continued strengthening of the Programme Coordinating Board’s oversight role within its mandate, and in particular through the work and recommendations of the Independent External Oversight Advisory Committee of the Joint United Nations Programme on HIV/AIDS, established in 2022 following the recommendations of the 2019 Joint Inspection Unit review of the management and administration of the Joint Programme;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_195" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_195__content">
+          <p xml:space="preserve">	<span class="italic">Expresses grave alarm</span> over the acute funding crisis for the HIV response, including for the work of the Joint Programme, and the failure to achieve the commitment set out in the 2021 Political Declaration to enhance global solidarity and increase annual HIV investments in developing countries to 29 billion United States dollars by 2025, and calls for urgent action, in the face of the greatest systemic shock and disruption of HIV programmes in the history of the global HIV response, for continued global solidarity to end AIDS as a public health threat and in contribution to the achievement of Sustainable Development Goal target 3.3;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_214" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_214__content">
+          <p xml:space="preserve">	<span class="italic">Calls for</span> a Unified Budget, Results and Accountability Framework, which is to be updated in accordance with the revised operating model, to be fully resourced, and for renewed efforts to protect the ability of the Joint Programme to continue to maintain the level of ambition of the Unified Budget, Results and Accountability Framework;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_234" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_234__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> long-standing donors to maintain, and if possible, renew and increase their contributions to the Joint Programme, welcomes contributions from developing and developed countries, and invites new donors, from both the public and private sectors, while encouraging all donors to consider multiannual core Unified Budget, Results and Accountability Framework funding and more flexible non‑core funding, and calls upon Member States to seriously consider the recommendations of the informal multi-stakeholder task team of the Programme Coordinating Board on the funding situation of the Joint Programme;<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">	 	Available at <a href="https://www.unaids.org/sites/default/files/media_asset/PCB51_Bureau_Report_UNAIDS_Funding_Final_041222.pdf">https://www.unaids.org/sites/default/files/media_asset/PCB51_Bureau_Report_ UNAIDS_Funding_Final_041222.pdf</a>.</p></authorialNote></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_255" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_255__content">
+          <p xml:space="preserve">	<span class="italic">Stresses</span> the critical importance of continued political commitment and leadership to end AIDS by 2030, and recognizes the need to convene a high-level meeting of the General Assembly, the date of which is to be determined no later than at the eightieth session of the Assembly, as decided by the Assembly in accordance with its resolution <a href="https://docs.un.org/en/A/RES/75/284">75/284</a> of 8 June 2021, to review progress on the commitments made in the 2021 Political Declaration and reinvigorate the response in order to regain momentum and place the world back on track to achieve the end of AIDS by 2030, in close alignment and synergy with the 2030 Agenda for Sustainable Development, including target 3.3;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_277" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_277__content">
+          <p xml:space="preserve">	<span class="italic">Renews its request</span> to the Secretary-General to submit a report to the Council on the performance expectations for the position of Executive Director of the Joint Programme by June 2026, reflecting the discussions by the Programme Coordinating Board in December 2023, in line with the best practices of the United Nations system and as recommended by the Joint Inspection Unit;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_300" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_300__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the Secretary-General to promptly engage in dialogue on establishing two 4-year term limits for the position of Executive Director of the Joint Programme, in line with the best practices of the United Nations system and as recommended by the Joint Inspection Unit;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_324" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_324__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to transmit to the Council, at its 2027 session, a report prepared by the Executive Director of the Joint Programme in collaboration with its co-sponsors and other relevant organizations and bodies of the United Nations system, on progress made in implementing a coordinated response by the United Nations system to the HIV and AIDS epidemic. </p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="39th" refersTo="#adoptionMeeting">39th plenary meeting</location>
+          <eol />
+          <docDate date="2025-07-29" refersTo="#adoptionDate">29 July 2025</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
