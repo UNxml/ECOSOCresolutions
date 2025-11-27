@@ -1,0 +1,278 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-30/2025-34/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-30/2025-34/"></FRBRuri>
+          <FRBRdate date="2025-07-30" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-30/2025-34/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-30/2025-34/spa@/"></FRBRuri>
+          <FRBRdate date="2025-08-13" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-30/2025-34/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-30/2025-34/spa@.xml"></FRBRuri>
+          <FRBRdate date="2025-10-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="WOMEN'S RIGHTS" href="http://metadata.un.org/thesaurus/1007035" showAs="WOMEN'S RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PALESTINE REFUGEES" href="http://metadata.un.org/thesaurus/1004701" showAs="PALESTINE REFUGEES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PALESTINIANS" href="http://metadata.un.org/thesaurus/1004703" showAs="PALESTINIANS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="WOMEN REFUGEES" href="http://metadata.un.org/thesaurus/1007048" showAs="WOMEN REFUGEES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMANITARIAN ASSISTANCE" href="http://metadata.un.org/thesaurus/1002992" showAs="HUMANITARIAN ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TERRITORIES OCCUPIED BY ISRAEL" href="http://metadata.un.org/thesaurus/1006472" showAs="TERRITORIES OCCUPIED BY ISRAEL" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="17" showAs="Economic and social repercussions of the Israeli occupation on the living conditions of the Palestinian people in the Occupied Palestinian Territory, including East Jerusalem, and the Arab population in the occupied Syrian Golan." shortForm="PALESTINIANS--TERRITORIES OCCUPIED BY ISRAEL--LIVING CONDITIONS" dictionary="E/2025/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-07-22" outcome="draftResolution" as="E/2025/L.28" by="Iraq (on behalf of the States Members of the United Nations that are members of the Group of 77 and China)" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-08-13" outcome="adopted" as="Adopted without vote, 41st plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">25-13075 (S)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Naciones Unidas</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2025/34</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Consejo Económico y Social</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-08-13" class="rightSmall" refersTo="#dateOfIssuance">13 de agosto de 2025</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2025" eId="coverPage_1__session_1">Período de sesiones de 2025</session>
+      </p>
+      <p>
+        <inline title="17" name="agenda item">Tema 17 del programa</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Consecuencias económicas y sociales de la ocupación israelí para las condiciones de vida del pueblo palestino en el Territorio Palestino Ocupado, incluida Jerusalén Oriental, y de la población árabe en el Golán sirio ocupado</inline>
+      </p>
+      <p>
+        <docTitle>Resolución aprobada por el Consejo Económico y Social el 30 de julio de 2025</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#plenaryMeeting">[sobre la base de una propuesta examinada en sesión plenaria (<inline name="originating document">E/2025/L.28</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2025/34.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Situación de la mujer palestina y asistencia en su apoyo</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">El Consejo Económico y Social</span>,</p>
+      </formula>
+      <container name="Habiendo examinado" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Habiendo examinado </span>el informe del Secretario General<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		<a href="https://docs.un.org/es/A/80/86">A/80/86-E/2025/71</a>.</p></authorialNote>, </p>
+      </container>
+      <container name="Recordando" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Recordando </span>sus resoluciones sobre la cuestión y todas las demás resoluciones pertinentes de las Naciones Unidas,</p>
+      </container>
+      <container name="Recordando también" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Recordando también </span>la resolución <a href="https://docs.un.org/es/S/RES/1325(2000)">1325 (2000)</a> del Consejo de Seguridad, de 31 de octubre de 2000, en la que el Consejo exhortó a todas las partes en un conflicto armado a que respetasen plenamente el derecho internacional aplicable a los derechos y a la protección de las mujeres y niñas, especialmente en cuanto civiles, y subrayó la responsabilidad de todos los Estados de poner fin a la impunidad,</p>
+      </container>
+      <container name="Recordando además" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Recordando además</span> la Convención sobre la Eliminación de Todas las Formas de Discriminación contra la Mujer<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	 	Naciones Unidas, <span class="italic">Treaty Series</span>, vol. 1249, núm. 20378.</p></authorialNote>, </p>
+      </container>
+      <container name="Recordando" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Recordando</span> la Declaración sobre la Eliminación de la Violencia contra la Mujer<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	 	Resolución <a href="https://docs.un.org/es/A/RES/48/104">48/104</a> de la Asamblea General.</p></authorialNote> en lo que se refiere a la protección de la población civil,</p>
+      </container>
+      <container name="Reafirmando" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Reafirmando </span>que los Estados y todas las partes en los conflictos armados tienen la obligación de acatar las disposiciones aplicables del derecho internacional humanitario y el derecho internacional de los derechos humanos, y que es necesario poner fin a todas las violaciones del derecho internacional humanitario y a todas las violaciones y abusos de los derechos humanos,</p>
+      </container>
+      <container name="Reafirmando también" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">	Reafirmando también</span> las Estrategias de Nairobi Orientadas hacia el Futuro para el Adelanto de la Mujer<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		<span class="italic">Informe de la Conferencia Mundial para el Examen y la Evaluación de los Logros del Decenio de las Naciones Unidas para la Mujer: Igualdad, Desarrollo y Paz, Nairobi, 15 a 26 de julio de 1985</span> (publicación de las Naciones Unidas, núm. de venta S.85.IV.10), cap. I, secc. A.</p></authorialNote>, la Declaración y la Plataforma de Acción de Beijing<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		<span class="italic">Informe de la Cuarta Conferencia Mundial sobre la Mujer</span>, Beijing, 4 a 15 de septiembre de 1995 (publicación de las Naciones Unidas, núm. de venta S.96.IV.13), cap. I, resolución 1, anexos I y II.</p></authorialNote>, el documento final del vigésimo tercer período extraordinario de sesiones de la Asamblea General, titulado “La mujer en el año 2000: igualdad entre los géneros, desarrollo y paz para el siglo XXI”<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">		Resoluciones de la Asamblea General <a href="https://docs.un.org/es/A/RES/S-23/2">S-23/2</a>, anexo, y <a href="https://docs.un.org/es/A/RES/S-23/3">S-23/3</a>, anexo.</p></authorialNote>, y la declaración política con ocasión del 30º aniversario de la Cuarta Conferencia Mundial sobre la Mujer, aprobada por la Comisión de la Condición Jurídica y Social de la Mujer en su 69º período de sesiones <authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">		Véase <span class="italic">Documentos Oficiales del Consejo Económico y Social, 2025, suplemento núm. 7</span> (<a href="https://docs.un.org/es/E/2025/27">E/2025/27</a>), cap. I, secc. C.</p></authorialNote>, y reafirmando su compromiso con la aplicación plena, efectiva y acelerada de lo dispuesto en esos documentos,</p>
+      </container>
+      <container name="Reafirmando además" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Reafirmando además</span> la importancia de aumentar la participación de las mujeres en la consolidación de la paz y en la adopción de decisiones relativas a la prevención y las solución pacífica de los conflictos, como parte de los esfuerzos para garantizar la seguridad y el bienestar de todas las mujeres de la región, destacando la importancia de que las mujeres participen e intervengan de manera igualitaria en todas las iniciativas encaminadas al logro, el mantenimiento y el fomento de la paz y la seguridad, y acogiendo con beneplácito a este respecto el llamamiento mundial de las líderes internacionales efectuado el 1 de julio de 2020,</p>
+      </container>
+      <container name="Expresando grave preocupación" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">	Expresando grave preocupación</span> por las continuas violaciones sistemáticas de los derechos humanos del pueblo palestino por parte de Israel, la Potencia ocupante, y sus efectos en las mujeres y las niñas,</p>
+      </container>
+      <container name="Expresando grave preocupación también" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">	Expresando grave preocupación también</span> por las muertes y lesiones causadas a civiles, incluidos niños y niñas, mujeres, manifestantes pacíficos y periodistas, y poniendo de relieve que la población civil debe ser protegida por todas las partes de conformidad con el derecho internacional humanitario,</p>
+      </container>
+      <container name="Condenando enérgicamente" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">	Condenando enérgicamente</span> a este respecto la muerte de la periodista Shireen Abu Akleh, y destacando la necesidad de asegurar que se rindan cuentas prontamente,</p>
+      </container>
+      <container name="Destacando" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">	Destacando </span>la necesidad de proteger a los agentes de la sociedad civil para que puedan realizar su labor libremente y sin miedo a los ataques o al acoso por ninguna de las partes, y rechazando cualquier tipo de ataque contra la sociedad civil,</p>
+      </container>
+      <container name="Destacando también" eId="container_14">
+        <p xml:space="preserve">
+          <span class="italic">	Destacando también</span> la necesidad de asegurar que se rindan cuentas por todas las violaciones del derecho internacional humanitario y del derecho internacional de los derechos humanos para poner fin a la impunidad, garantizar la justicia, disuadir de nuevas violaciones, proteger a los civiles y promover la paz,</p>
+      </container>
+      <container name="Profundamente preocupado" eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">	Profundamente preocupado</span> por la violencia perpetrada contra las mujeres y las niñas en todas sus distintas formas y manifestaciones en todo el mundo, que no se reconoce ni denuncia como se debiera, sobre todo a nivel comunitario, y por el hecho de que esté tan extendida, lo que denota unas normas discriminatorias que refuerzan los estereotipos y la desigualdad entre los géneros y, por consiguiente, la impunidad y la falta de rendición de cuentas, reiterando la necesidad de intensificar los esfuerzos para prevenir y eliminar todas las formas de violencia contra las mujeres y las niñas en los ámbitos público y privado en todas las regiones del mundo, y poniendo de relieve nuevamente que la violencia contra las mujeres y las niñas constituye una violación de todos los derechos humanos y les impide disfrutarlos plenamente,</p>
+      </container>
+      <container name="Observando" eId="container_16">
+        <p xml:space="preserve">
+          <span class="italic">	Observando </span>que Palestina se ha adherido a varios tratados de derechos humanos y a las convenciones fundamentales del derecho humanitario, así como a otros tratados internacionales, y destacando la necesidad de cumplir plenamente las obligaciones contraídas en virtud de los instrumentos que protegen los derechos de las mujeres y las niñas, incluso durante y después de un conflicto,</p>
+      </container>
+      <container name="Observando también" eId="container_17">
+        <p xml:space="preserve">
+          <span class="italic">	Observando también</span> la importancia de que se conceda elevada prioridad a la rápida aprobación de la Ley del Estatuto Personal para garantizar que las mujeres y las niñas estén protegidas contra la violencia de género, incluida la violencia doméstica,</p>
+      </container>
+      <container name="Subrayando" eId="container_18">
+        <p xml:space="preserve">
+          <span class="italic">	Subrayando </span>las limitaciones impuestas a la jurisdicción palestina en el Territorio Palestino Ocupado, incluida Jerusalén Oriental, que menoscaban la capacidad del Gobierno palestino de proteger a las mujeres y niñas palestinas en determinadas zonas,</p>
+      </container>
+      <container name="Observando" eId="container_19">
+        <p xml:space="preserve">
+          <span class="italic">	Observando </span>la importancia de los organismos, organizaciones y órganos del sistema de las Naciones Unidas en lo que respecta a facilitar el adelanto y el empoderamiento de las mujeres en el desarrollo, de conformidad con la resolución <a href="https://docs.un.org/es/A/RES/79/226">79/226</a> de la Asamblea General, de 19 de diciembre de 2024,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_20" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">	<span class="italic">Reafirma </span>que la ocupación israelí sigue siendo un grave obstáculo para las mujeres y las niñas palestinas en lo que respecta a la realización de sus derechos, así como a su adelanto, autosuficiencia e integración en el desarrollo de la sociedad palestina;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta </span>a Israel, la Potencia ocupante, a que ponga fin de inmediato a todas las medidas contrarias al derecho internacional, así como a las leyes, políticas y medidas discriminatorias en el Territorio Palestino Ocupado, incluida Jerusalén Oriental, que violan los derechos humanos del pueblo palestino, y destaca que los civiles palestinos, en particular las mujeres y los niños y niñas, constituyen la inmensa mayoría de los perjudicados por el conflicto;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="italic">Pide </span>que se adopten medidas urgentes para garantizar la seguridad y la protección de la población civil palestina en el Territorio Palestino Ocupado, incluida Jerusalén Oriental, de conformidad con las disposiciones pertinentes del derecho internacional humanitario y en cumplimiento de la petición formulada por el Consejo de Seguridad en su resolución <a href="https://docs.un.org/es/S/RES/904(1994)">904 (1994)</a>, de 18 de marzo de 1994;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_26" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta </span>a las partes a que cumplan plenamente las obligaciones que les incumben, especialmente en cuanto Estados Partes en la Convención sobre la Eliminación de Todas las Formas de Discriminación contra la Mujer, y a que tengan en cuenta todas las observaciones finales y las recomendaciones generales del Comité para la Eliminación de la Discriminación contra la Mujer;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce </span>la contribución de las coaliciones y comités nacionales en la promoción de los derechos de las mujeres, incluidos los relativos a la resolución <a href="https://docs.un.org/es/S/RES/1325(2000)">1325 (2000)</a>, la Convención y la labor para hacer frente a la violencia contra las mujeres;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_35" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_35__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> que el Gobierno palestino haya aprobado un plan de acción nacional para aplicar la resolución <a href="https://docs.un.org/es/S/RES/1325(2000)">1325 (2000)</a>, así como iniciativas en los planos legislativo, administrativo y de la seguridad para promover los derechos de las mujeres, en particular en relación con el derecho de familia y la labor para hacer frente a la violencia contra las mujeres;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="italic">Insta </span>a la comunidad internacional a que siga prestando especial atención a la promoción y protección de los derechos humanos de las mujeres y las niñas palestinas y a que redoble sus esfuerzos por mejorar las difíciles condiciones que enfrentan las mujeres palestinas y sus familias, especialmente las que viven bajo la ocupación israelí, y reconoce la importancia de integrar las consideraciones de género en toda la programación humanitaria procurando garantizar el acceso a la protección y a toda la gama de servicios médicos, jurídicos, psicosociales y relativos a los medios de subsistencia, incluidos los servicios para las supervivientes de la violencia sexual y por razón de género, sin discriminación, y asegurando que las mujeres y los grupos de mujeres puedan participar de manera igualitaria y significativa en la acción humanitaria y se respalde su liderazgo en esa esfera;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta </span>a la comunidad internacional, incluidas las Naciones Unidas, en particular el Organismo de Obras Públicas y Socorro de las Naciones Unidas para los Refugiados de Palestina en el Cercano Oriente, a que siga prestando la asistencia y los servicios que se necesitan urgentemente, en especial ayuda de emergencia, teniendo presentes, entre otras cosas, la Agenda 2030 para el Desarrollo Sostenible<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">	 	Resolución <a href="https://docs.un.org/es/A/RES/70/1">70/1</a> de la Asamblea General.</p></authorialNote> y las prioridades nacionales, para aliviar la gravísima crisis humanitaria que afrontan las mujeres palestinas y sus familias, en particular para subsanar la catastrófica crisis humanitaria y el deterioro de las condiciones socioeconómicas y psicosociales en la Franja de Gaza;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_56" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_56__content">
+          <p xml:space="preserve">	<span class="italic">Recuerda </span>la necesidad de que todas las partes en los conflictos armados respeten el carácter civil y humanitario de los campamentos de refugiados y tengan en cuenta las necesidades particulares de las mujeres y las niñas, y destaca que la situación de los refugiados palestinos, incluidas las mujeres y las niñas, sigue siendo motivo de grave preocupación y que siguen necesitando asistencia para satisfacer sus necesidades básicas en materia de salud, educación y subsistencia, en espera de que se resuelva de manera justa el problema de los refugiados palestinos de conformidad con lo dispuesto en la resolución <a href="https://docs.un.org/es/A/RES/194(III)">194 (III)</a> de la Asamblea General, de 11 de diciembre de 1948;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_65" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_65__content">
+          <p xml:space="preserve">	<span class="italic">Reafirma </span>la necesidad de lograr un arreglo pacífico de la cuestión de Palestina, núcleo del conflicto árabe-israelí, en todos sus aspectos y, en ese sentido, insta a que se intensifiquen y aceleren, en los planos regional e internacional, el apoyo y los esfuerzos diplomáticos renovados con objeto de lograr sin demora una paz justa, duradera y general en Oriente Medio, sobre la base de las resoluciones pertinentes de las Naciones Unidas, los principios de referencia de la Conferencia de Madrid, incluido el principio de territorio por paz, la Iniciativa de Paz Árabe<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">		<a href="https://docs.un.org/es/A/56/1026">A/56/1026-S/2002/932</a>, anexo II, resolución 14/221.</p></authorialNote> y la hoja de ruta del Cuarteto<authorialNote marker="10" placement="bottom" eId="authorialNote_10"><p xml:space="preserve">		<a href="https://docs.un.org/es/S/2003/529">S/2003/529</a>, anexo.</p></authorialNote>, y de poner fin a la ocupación israelí que comenzó en 1967;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_75" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_75__content">
+          <p xml:space="preserve">	<span class="italic">Destaca </span>la importancia de las iniciativas encaminadas a dar a las mujeres palestinas un mayor papel en la adopción de decisiones y de su participación plena, igualitaria y significativa en todas las iniciativas para lograr, mantener y promover la paz y la seguridad, y alienta a los Estados Miembros y los Estados observadores, así como al sistema de las Naciones Unidas, a que velen por que el papel fundamental de las mujeres palestinas en todos los niveles reciba atención sistemática, reconocimiento y apoyo, lo cual implica, entre otras cosas, promover la capacidad, el liderazgo, la participación y la intervención de las mujeres en la adopción de decisiones en las esferas política, económica y humanitaria y mejorar el equilibrio entre los géneros en los altos cargos de la administración civil y en las funciones de seguridad, reconociendo al mismo tiempo la necesidad de proteger de amenazas y represalias a las mujeres que participan en los espacios públicos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_86" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_86__content">
+          <p xml:space="preserve">	<span class="italic">Solicita </span>al Secretario General que siga examinando la situación, preste asistencia a las mujeres palestinas por todos los medios disponibles, incluidos los indicados en su informe, y consigne información desglosada por género sobre los efectos de la ocupación y los progresos que se hayan hecho en la aplicación de la presente resolución en el informe que le presente en su período de sesiones de 2026 sobre las consecuencias económicas y sociales de la ocupación israelí para las condiciones de vida del pueblo palestino en el Territorio Palestino Ocupado, incluida Jerusalén Oriental, y de la población árabe en el Golán sirio ocupado.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="41a" refersTo="#adoptionMeeting">41a sesión plenaria</location>
+          <eol />
+          <docDate date="2025-07-30" refersTo="#adoptionDate">30 de julio de 2025</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

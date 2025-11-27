@@ -1,0 +1,357 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-20/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-20/"></FRBRuri>
+          <FRBRdate date="2025-07-29" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-20/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-20/spa@/"></FRBRuri>
+          <FRBRdate date="2025-08-13" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-20/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-20/spa@.xml"></FRBRuri>
+          <FRBRdate date="2025-10-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="Joint United Nations Programme on HIV/AIDS" showAs="Joint United Nations Programme on HIV/AIDS" dictionary="DHLAUTH"></keyword>
+        <keyword value="Joint United Nations Programme on HIV/AIDS. Executive Director" showAs="Joint United Nations Programme on HIV/AIDS. Executive Director" dictionary="DHLAUTH"></keyword>
+        <keyword value="HIV/AIDS" href="http://metadata.un.org/thesaurus/1000181" showAs="HIV/AIDS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HIV/AIDS PREVENTION" href="http://metadata.un.org/thesaurus/1000182" showAs="HIV/AIDS PREVENTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COORDINATION WITHIN UN SYSTEM" href="http://metadata.un.org/thesaurus/1001299" showAs="COORDINATION WITHIN UN SYSTEM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNICAL COOPERATION" href="http://metadata.un.org/thesaurus/1006413" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="13h" showAs="Joint United Nations Programme on HIV/AIDS." shortForm="HIV/AIDS" dictionary="E/2025/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-07-22" outcome="draftResolution" as="E/2025/L.25" by="submitted by the President of the Council and Bob Rae (Canada)" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-08-13" outcome="adopted" as="Adopted without vote, 39th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">25-13053 (S)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Naciones Unidas</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2025/20</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Consejo Económico y Social</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-08-13" class="rightSmall" refersTo="#dateOfIssuance">13 de agosto de 2025</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2025" eId="coverPage_1__session_1">Período de sesiones de 2025</session>
+      </p>
+      <p>
+        <inline title="13 h)" name="agenda item">Tema 13 h) del programa</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Cuestiones de coordinación y de programas y otras cuestiones: Programa Conjunto de las Naciones Unidas sobre el VIH/Sida</inline>
+      </p>
+      <p>
+        <docTitle>Resolución aprobada por el Consejo Económico y Social el 29 de julio de 2025</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#plenaryMeeting">[sobre la base de una propuesta examinada en sesión plenaria (<inline name="originating document">E/2025/L.25</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2025/20.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Programa Conjunto de las Naciones Unidas sobre el VIH/Sida</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">El Consejo Económico y Social</span>,</p>
+      </formula>
+      <container name="Reafirmando" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Reafirmando </span>sus resoluciones 1994/24, de 26 de julio de 1994, y 1995/2, de 3 de julio de 1995, por las que el Consejo estableció el Programa Conjunto de las Naciones Unidas sobre el VIH/Sida, y todas sus resoluciones posteriores relativas al Programa Conjunto, incluida su resolución <a href="https://docs.un.org/es/E/RES/2023/30">2023/30</a>, de 25 de julio de 2023, </p>
+      </container>
+      <container name="Habiendo examinado" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Habiendo examinado</span> el informe de la Directora Ejecutiva del Programa Conjunto de las Naciones Unidas sobre el VIH/Sida<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	 	<a href="https://docs.un.org/es/E/2025/73">E/2025/73</a>.</p></authorialNote>, </p>
+      </container>
+      <container name="Tomando nota" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Tomando nota</span> de la importancia de la Declaración Política sobre el VIH y el Sida: Acabar con las Desigualdades y Estar en Condiciones de Poner Fin al Sida para 2030<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		Resolución <a href="https://docs.un.org/es/A/RES/75/284">75/284</a> de la Asamblea General, anexo.</p></authorialNote>, de 2021, así como de la Estrategia Mundial contra el Sida 2021-2026, “Acabar con las desigualdades, acabar con el sida”, y observando que son complementarias y están en consonancia con la Agenda 2030 para el Desarrollo Sostenible<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	 	Resolución <a href="https://docs.un.org/es/A/RES/70/1">70/1</a> de la Asamblea General.</p></authorialNote>, </p>
+      </container>
+      <container name="Reafirmando" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Reafirmando </span>los derechos soberanos de los Estados Miembros, consagrados en la Carta de las Naciones Unidas, y la necesidad de que todos los países cumplan sus compromisos y promesas enunciados en la Declaración Política de 2021, de conformidad con su legislación interna, las prioridades nacionales en materia de desarrollo y las normas internacionales de derechos humanos, </p>
+      </container>
+      <container name="Acogiendo con beneplácito" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Acogiendo con beneplácito</span> los progresos realizados en la reducción de la incidencia del VIH y la mortalidad por sida, en el aumento del acceso al tratamiento del VIH y en la prevención de nuevas infecciones por el VIH, ya que muchos países han avanzado hacia las metas de 95-95-95 y han introducido y ampliado innovaciones para la prevención del VIH dirigidas a las adolescentes y las mujeres jóvenes y los grupos de población clave<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">	 	Como se señala en la Estrategia Mundial contra el Sida 2021-2026, “Acabar con las desigualdades, acabar con el sida”, y se analiza en el informe “Prevention gap report” de 2016, cada país debe determinar los grupos de población vulnerables para responder a la epidemia teniendo en cuenta el contexto epidemiológico y social.</p></authorialNote>, </p>
+      </container>
+      <container name="Expresando preocupación" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Expresando preocupación</span> por el hecho de que, a pesar de los progresos realizados, siguen existiendo muchas disparidades y desigualdades entre países y regiones y dentro de ellos, entre hombres y mujeres, entre los diferentes grupos de edad, especialmente en el caso de los niños y adolescentes, afectados de manera desproporcionada por el VIH, y entre los grupos de población clave que, según los datos epidemiológicos, están expuestos a un mayor riesgo de infección por el VIH en todo el mundo, y por el hecho de que quizá no se hayan alcanzado las metas fijadas para 2025 en la Declaración Política de 2021, así como por el hecho de que, en 2024, 1,3 millones de personas contrajeron el VIH y 630.000 personas murieron por causas relacionadas con el sida, y de los 40,8 millones de personas que vivían con el VIH, 9,2 millones todavía no recibían tratamiento vital, y las nuevas infecciones por el VIH estaban aumentando en algunos países y dentro de algunas subpoblaciones y lugares, en parte como consecuencia de la insuficiente aplicación de respuestas al VIH eficaces y con base empírica, </p>
+      </container>
+      <container name="Expresando profunda preocupación" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Expresando profunda preocupación</span> porque el logro del objetivo de poner fin al sida como amenaza de salud pública para 2030 se está viendo negativamente afectado por la disminución de la asistencia oficial para el desarrollo y del financiamiento dedicado al VIH, en particular en el caso de las respuestas comunitarias al VIH y, en muchas partes del mundo, por las restricciones del espacio cívico, la regresión de la igualdad de género y de los derechos humanos reconocidos por el derecho internacional de los derechos humanos, y la persistencia del estigma y la discriminación en la respuesta al VIH, </p>
+      </container>
+      <container name="Reconociendo" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Reconociendo </span>que existen intervenciones avaladas por pruebas empíricas para la prevención del VIH, y expresando preocupación por la desigual escala de utilización de esas intervenciones, según los contextos nacionales, así como por el escaso gasto dedicado a la prevención, lo que crea deficiencias cruciales en las iniciativas de prevención,</p>
+      </container>
+      <container name="Observando con preocupación" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Observando con preocupación</span> que algunas enfermedades y afecciones que se pueden prevenir y tratar, como la tuberculosis y otras coinfecciones, el cáncer de cuello uterino y los trastornos de salud mental y otras enfermedades transmisibles y no transmisibles, están relacionadas con la infección por el VIH, los malos resultados en los tratamientos del VIH y la mortalidad entre las personas que viven con el VIH,</p>
+      </container>
+      <container name="Preocupado" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Preocupado </span>por el hecho de que la tuberculosis, en particular sus formas farmacorresistentes, sigue siendo la principal causa de muerte entre las personas que viven con el VIH y el 6,1 % del número de casos estimados de tuberculosis en todo el mundo en 2023 se dieron en personas que vivían con el VIH y, pese a ello, en 2023 solo se diagnosticaron el 58 % de los casos estimados de tuberculosis de personas con VIH, y no se realizaron pruebas del VIH al 20 % de los pacientes de tuberculosis conocidos, lo que impidió que se recibiera tratamiento y causó muertes prevenibles<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">	 	Organización Mundial de la Salud, <span class="italic">Informe Mundial sobre la Tuberculosis 2024</span> (Ginebra, 2024). </p></authorialNote>,</p>
+      </container>
+      <container name="Expresando preocupación además" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Expresando preocupación además </span>por el hecho de que el estigma y la discriminación y las desigualdades, incluidas las desventajas económicas, asociados con el VIH siguen siendo un impedimento para lograr resultados de salud positivos con relación al VIH, especialmente en el caso de las adolescentes y las mujeres jóvenes, las personas en situación de vulnerabilidad, en particular los grupos de población clave que, según los datos epidemiológicos, están expuestos a un mayor riesgo de infección por el VIH en todo el mundo, y todas las personas que experimentan formas de discriminación de un tipo u otro, </p>
+      </container>
+      <container name="Expresando preocupación" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Expresando preocupación </span>por las leyes, políticas y prácticas que pueden dificultar el acceso de todas las personas a servicios de prevención, realización de pruebas, diagnóstico, tratamiento, atención y apoyo en relación con el VIH, </p>
+      </container>
+      <container name="Reconociendo" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Reconociendo </span>el papel fundamental que desempeña la implicación efectiva de la sociedad civil en la respuesta mundial a la epidemia del sida, y reafirmando que la promoción, protección y realización de todos los derechos humanos y libertades fundamentales de todas las personas es un elemento esencial de la respuesta mundial a la epidemia del sida, incluso en las esferas de la prevención, la realización de pruebas, el diagnóstico, el tratamiento, la atención y el apoyo, </p>
+      </container>
+      <container name="Reafirmando" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Reafirmando </span>que en los esfuerzos por lograr la cobertura universal de salud se deben tener en cuenta las enseñanzas extraídas de la respuesta multisectorial al VIH, en particular la importancia de aplicar una amplia gama de medidas para hacer frente al VIH, la necesidad de centrar la atención en la equidad, los resultados y la rendición de cuentas, la receptividad respecto de las cuestiones relativas al derecho internacional de los derechos humanos y las necesidades de los más marginados, la innovación en la financiación de la salud, la prestación de servicios relacionados con el VIH basados en la comunidad y dirigidos por esta, según proceda en el contexto nacional, los determinantes sociales, económicos y estructurales de la salud y la importancia de hacer frente al estigma y a la discriminación, </p>
+      </container>
+      <container name="Reconociendo" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Reconociendo </span>que las enseñanzas extraídas de la respuesta multisectorial al VIH y de la forma en que los países y las comunidades han sabido aprovechar las inversiones e infraestructuras relacionadas con el VIH resultan útiles para afrontar otros problemas complejos de salud y desarrollo, y que los progresos realizados en la respuesta al VIH han permitido obtener resultados más amplios en materia de desarrollo, </p>
+      </container>
+      <container name="Reafirmando" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Reafirmando</span> el papel fundamental que desempeña el Programa Conjunto de las Naciones Unidas sobre el VIH/Sida en la promoción y el apoyo de respuestas multisectoriales al VIH en el contexto de los esfuerzos más amplios para no dejar a nadie atrás, de conformidad con las resoluciones de la Asamblea General <a href="https://docs.un.org/es/A/RES/79/226">79/226</a>, de 19 de diciembre de 2024, y <a href="https://docs.un.org/es/A/RES/70/1">70/1</a>, de 25 de septiembre de 2015, </p>
+      </container>
+      <container name="Recordando" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Recordando </span>los objetivos del Programa Conjunto de lograr y promover un consenso global sobre los enfoques políticos y programáticos y favorecer una movilización política y social de amplio alcance para prevenir el VIH y el sida y darle una respuesta en los países, velando por que una amplia gama de sectores e instituciones participe en las respuestas nacionales,</p>
+      </container>
+      <container name="Observando con aprecio" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">Observando con aprecio</span> los informes que siguen presentando los Estados Miembros sobre los progresos realizados en sus respuestas al VIH y el apoyo que presta el Programa Conjunto a los Estados Miembros, entre otras cosas aumentando el acceso a datos de calidad y estratégicos multisectoriales y su uso para medir los progresos y perfeccionar las estrategias de respuesta al VIH, </p>
+      </container>
+      <container name="Expresando profunda preocupación también" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">Expresando profunda preocupación también </span>por el hecho de que la financiación de la respuesta al VIH sigue siendo insuficiente, especialmente en los países en desarrollo que tienen una elevada carga de VIH y que dependen de la financiación internacional, lo que se ve exacerbado por la drástica reducción de la financiación internacional y la persistente insuficiencia de la inversión nacional en la respuesta al VIH, </p>
+      </container>
+      <container name="Reconociendo" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">Reconociendo </span>la necesidad de financiación, investigación y desarrollo de nuevos medicamentos de calidad, seguros, asequibles y eficaces contra el VIH, así como de un acceso equitativo, oportuno y sin trabas a estos medicamentos vitales, </p>
+      </container>
+      <container name="Observando con preocupación" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">Observando con preocupación</span> la disminución sin precedentes de la financiación del Marco Unificado de Presupuesto, Resultados y Rendición de Cuentas, y las repercusiones negativas que esto tiene en la capacidad del Programa Conjunto para apoyar a los países en la respuesta al VIH con miras a mantener los progresos mundiales hacia el fin del sida como amenaza de salud pública para 2030 y posteriormente, como consecuencia de la reduccion sustancial del personal de la secretaría, las oficinas nacionales y las asignaciones y capacidades de los copatrocinadores,</p>
+      </container>
+      <container name="Reafirmando" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">Reafirmando </span>el importante papel que desempeña la Delegación de ONG de la Junta Coordinadora del Programa en la gobernanza de la Junta Coordinadora del Programa Conjunto,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_24" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="italic">Toma nota</span> del informe de la Directora Ejecutiva del Programa Conjunto de las Naciones Unidas sobre el VIH/Sida al Consejo Económico y Social;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce </span>que las nuevas infecciones por el VIH y las muertes relacionadas con el sida no están disminuyendo conforme a la trayectoria necesaria para alcanzar las metas establecidas para 2030 en la Declaración Política sobre el VIH y el Sida: Acabar con las Desigualdades y Estar en Condiciones de Poner Fin al Sida para 2030, de 2021, y destaca la necesidad de actuar urgentemente para cumplir las metas establecidas para 2030, como requisito previo para poner fin a la epidemia del sida como amenaza para la salud pública de aquí a 2030;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta </span>al Programa Conjunto a que siga apoyando la aplicación efectiva, con base empírica, oportuna y multisectorial de la Estrategia Mundial contra el Sida 2021-2026, “Acabar con las desigualdades, acabar con el sida”, y de la Declaración Política de 2021, en consonancia con su mandato, alienta a los Gobiernos, la sociedad civil, las organizaciones comunitarias activas en la respuesta al VIH, el sector privado y otras partes interesadas pertinentes a reforzar la respuesta al VIH, de conformidad con las políticas y las prioridades nacionales, para así acelerar el progreso hacia las metas de la Estrategia 2021-2026 y la Declaración Política de 2021, como factor importante para el logro de los Objetivos de Desarrollo Sostenible, incluida la meta 3.3, y aguarda con interés el progresivo desarrollo de la Estrategia Mundial contra el Sida 2026-2031;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="italic">Pide </span>a los Estados Miembros, el sistema de las Naciones Unidas, la sociedad civil, las organizaciones comunitarias activas en la respuesta al VIH, el sector privado y otros interesados pertinentes que adopten medidas urgentes y establezcan alianzas con el fin de ampliar la escala de los servicios con base empírica relacionados con el VIH en los ámbitos de la prevención, la realización de pruebas, el tratamiento, la atención y la retención de los pacientes, en particular los relativos al acceso a medicamentos seguros, eficaces, de calidad y gratuitos o asequibles, incluidos los genéricos, para asegurar que esos servicios lleguen a las personas que más los necesitan, en especial a las adolescentes y las mujeres jóvenes, así como a los grupos de población clave que, según los datos epidemiológicos, están expuestos a un mayor riesgo de infección por el VIH en todo el mundo, y a los niños que viven con el VIH, cuya cobertura del tratamiento del VIH es más deficiente que la de los adultos y que representan una proporción relativa más elevada de las muertes relacionadas con el sida;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="italic">Insta </span>a los Estados Miembros a que sigan aumentando la financiación nacional y aplicando enfoques diferenciados para llevar los servicios de prevención del VIH a las personas, teniendo en cuenta el contexto nacional, a través de un conjunto amplio de medidas de prevención para todos y de conjuntos adaptados para las poblaciones de mayor riesgo que incluyan una profilaxis preexposición asequible y de acción prolongada, además de medidas aceleradas para hacer frente a las barreras normativas y estructurales a las que se enfrentan las adolescentes y las mujeres jóvenes y los grupos de población clave y que obstaculizan la ampliación de los servicios de prevención, alentando a los miembros de la Coalición Mundial para la Prevención del VIH a que aceleren la aplicación de la hoja de ruta de 2025 para la prevención del VIH;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">	<span class="italic">Insta también</span> a los Estados Miembros a que sigan desarrollando hojas de ruta para la sostenibilidad en torno al VIH, también con el apoyo del Programa Conjunto;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>al Programa Conjunto a que continúe con sus avances para acabar con el sida pediátrico, lo que incluye la labor desarrollada con los países de la Alianza Mundial para Poner fin al Sida en la Infancia, la promoción de mayores inversiones en pruebas tempranas y tratamiento óptimo para niños y adolescentes, el refuerzo de la prevención de nuevas infecciones por el VIH y el cierre de la brecha terapéutica durante el embarazo y la lactancia, el apoyo de las medidas nacionales y mundiales dirigidas a eliminar la transmisión vertical del VIH, y el fomento de la igualdad de género, y a que, en el marco de su mandato, siga apoyando a los países en el cumplimiento de las obligaciones que les imponen los tratados internacionales de derechos humanos para promover los derechos humanos y las libertades fundamentales y hacer frente a los obstáculos sociales, económicos y estructurales que impiden dar respuestas eficaces al VIH;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	<span class="italic">Insta </span>a los Estados Miembros a que eliminen cuanto antes, siempre que sea viable, los obstáculos que limitan la capacidad de los países en desarrollo para suministrar productos, equipo de diagnóstico, medicamentos y productos básicos de prevención y tratamiento del VIH y otros productos farmacéuticos asequibles y eficaces;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_60" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_60__content">
+          <p xml:space="preserve">	<span class="italic">Pide </span>que se redoblen los esfuerzos para proteger los derechos humanos y promover la igualdad de género en el contexto del VIH y para hacer frente a los factores sociales de riesgo, como la protección insuficiente de la salud sexual y reproductiva, así como a los determinantes sociales y económicos de la salud, con el objetivo de reducir las inequidades en materia de salud dentro de los países y entre ellos; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_69__content">
+          <p xml:space="preserve">	<span class="italic">Pide también</span> a los Estados Miembros, el sistema de las Naciones Unidas, la sociedad civil, las organizaciones dirigidas por la comunidad, el sector privado y otras partes interesadas pertinentes que redoblen los esfuerzos para coordinar las actividades relativas al VIH y otros programas y sectores en el ámbito de la salud, centrando la atención en particular en la integración dentro de los sistemas de salud y protección social y en la innovación en materia de prevención como parte de la sostenibilidad de la respuesta al VIH, y que al mismo tiempo se asegure la rendición de cuentas en cuanto al acceso a tratamiento y se apoyen procesos que faciliten la integración;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve">	<span class="italic">Insta </span>al Programa Conjunto a que trabaje en colaboración con los Estados Miembros, la sociedad civil y las comunidades de forma transparente, inclusiva y consultiva, garantizando la participación activa de todos los interesados en sus actividades;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_90" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_90__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>al Programa Conjunto a que aplique urgentemente medidas de mitigación ante la crisis financiera actual a fin de poder mantener sus esfuerzos de participación y colaboración en las prioridades de salud mundiales de conformidad con su mandato, y subraya la importancia de extraer enseñanzas del enfoque multisectorial del VIH para abordar otros desafíos de salud mundiales, velando al mismo tiempo por que la equidad siga siendo un principio central;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_102" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_102__content">
+          <p xml:space="preserve">	<span class="italic">Recuerda </span>la Estrategia Mundial y Plan de Acción sobre Salud Pública, Innovación y Propiedad Intelectual y resolución 61.21 de la Asamblea Mundial de la Salud, de 24 de mayo de 2008<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">	 	Véase Organización Mundial de la Salud, documento WHA61/2008/REC/1.</p></authorialNote>, en que se insta a los Estados Miembros a que apoyen activamente la amplia aplicación de la Estrategia Mundial y Plan de Acción y se exhorta a las organizaciones internacionales competentes y a otras partes interesadas a que, en el marco de sus respectivos mandatos y programas, den prioridad a la aplicación de la Estrategia Mundial y Plan de Acción, y solicita a los Estados Miembros que tengan en cuenta las recomendaciones del grupo de examen de expertos<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">	 	Disponible en <a href="https://www.who.int/publications/m/item/gspa-phi3011rev">https://www.who.int/publications/m/item/gspa-phi3011rev</a>.</p></authorialNote> conformes a la Estrategia Mundial y Plan de Acción, de acuerdo con las prioridades nacionales;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_115" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_115__content">
+          <p xml:space="preserve">	<span class="italic">Insta </span>al Programa Conjunto a que siga aprovechando las ventajas comparativas de los diversos órganos de las Naciones Unidas y los asociados pertinentes para acelerar y fortalecer la respuesta multisectorial al sida de conformidad con sus respectivos mandatos, y la transición en curso del Programa Conjunto dentro del sistema de las Naciones Unidas en su conjunto, tal como se refleja en el modelo operacional revisado;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_129" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_129__content">
+          <p xml:space="preserve">	<span class="italic">Reafirma </span>que el modelo de copatrocinio y gobernanza del Programa Conjunto sigue ofreciendo al sistema de las Naciones Unidas un ejemplo útil de coherencia estratégica, gobernanza inclusiva e impacto a nivel de los países, de conformidad con lo dispuesto en la resolución <a href="https://docs.un.org/es/A/RES/79/226">79/226</a> de la Asamblea General sobre la revisión cuadrienal amplia de la política relativa a las actividades operacionales del sistema de las Naciones Unidas para el desarrollo;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_144" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_144__content">
+          <p xml:space="preserve">	<span class="italic">Observa </span>las decisiones adoptadas por la Junta Coordinadora del Programa sobre la revisión del modelo operacional de la respuesta del Programa Conjunto, y su examen previsto para 2027, con el fin de prestar un apoyo más eficaz a los países, e insta al Programa Conjunto a que continúe este proceso, teniendo en cuenta la Iniciativa ONU80;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_160" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_160__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>al Programa Conjunto a que siga facilitando y apoyando la participación de la Delegación de ONG de la Junta Coordinadora del Programa en la labor de la Junta Coordinadora del Programa, tal como se establece en el <span class="italic">Modus Operandi </span>de la Junta y en la resolución 1995/2 del Consejo;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_177" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_177__content">
+          <p xml:space="preserve">	<span class="italic">Reafirma su reconocimiento</span> por el continuo fortalecimiento de la función de supervisión de la Junta Coordinadora del Programa en el marco de su mandato y, en particular mediante la labor y las recomendaciones del Comité Asesor de Supervisión Externa Independiente del Programa Conjunto de las Naciones Unidas sobre el VIH/Sida, establecido en 2022 a raíz de las recomendaciones del examen de la gestión y administración del Programa Conjunto llevado a cabo por la Dependencia Común de Inspección en 2019;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_195" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_195__content">
+          <p xml:space="preserve">	<span class="italic">Expresa gran alarma </span>por la grave crisis de financiación en que está sumida la respuesta al VIH, incluida la labor del Programa Conjunto, y por el hecho de que no se haya cumplido el compromiso establecido en la Declaración Política de 2021 de reforzar la solidaridad mundial y aumentar las inversiones anuales en materia de VIH en los países en desarrollo hasta alcanzar los 29.000 millones de dólares de los Estados Unidos en 2025, y pide que, ante la mayor conmoción sistémica y disrupción de los programas de VIH de la historia de la respuesta mundial al VIH, se adopten medidas urgentes orientadas a mantener la solidaridad mundial para poner fin al sida como amenaza de salud pública y para contribuir a alcanzar la meta 3.3 de los Objetivos de Desarrollo Sostenible;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_214" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_214__content">
+          <p xml:space="preserve">	<span class="italic">Pide </span>que se cuente con un Marco Unificado de Presupuesto, Resultados y Rendición de Cuentas, actualizado de acuerdo con el modelo operacional revisado, que disponga de todos los recursos necesarios, y que se renueven los esfuerzos para proteger la capacidad del Programa Conjunto para seguir manteniendo los ambiciosos objetivos del Marco Unificado de Presupuesto, Resultados y Rendición de Cuentas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_234" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_234__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta </span>a los donantes de larga data a que mantengan y, si es posible, renueven y aumenten sus contribuciones al Programa Conjunto, acoge con beneplácito las contribuciones de países en desarrollo y desarrollados, e invita a otros donantes del sector público y privado a sumarse a ellos, sin dejar de alentar a todos los donantes a que contemplen una financiación básica plurianual del Marco Unificado de Presupuesto, Resultados y Rendición de Cuentas y una financiación complementaria más flexible, y exhorta a los Estados Miembros a que consideren seriamente las recomendaciones del equipo de tareas oficioso de múltiples partes interesadas de la Junta Coordinadora del Programa en relación con la situación de la financiación del Programa Conjunto<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">	 	Disponible en <a href="https://www.unaids.org/sites/default/files/media_asset/PCB51_Bureau_Report_UNAIDS_Funding_Final_041222.pdf">https://www.unaids.org/sites/default/files/media_asset/PCB51_Bureau_Report_ UNAIDS_Funding_Final_041222.pdf</a>.</p></authorialNote>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_255" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_255__content">
+          <p xml:space="preserve">	<span class="italic">Destaca </span>la importancia decisiva de mantener el compromiso y el liderazgo políticos con objeto de poner fin al sida para 2030, y reconoce la necesidad de celebrar una reunión de alto nivel de la Asamblea General, cuya fecha se determinará a más tardar en el octogésimo período de sesiones de la Asamblea, de conformidad con lo dispuesto en la resolución <a href="https://docs.un.org/es/A/RES/75/284">75/284</a> de la Asamblea, de 8 de junio de 2021, con el fin de examinar los progresos respecto de los compromisos contraídos en la Declaración Política de 2021 y revitalizar la respuesta para renovar el impulso y volver a situar al mundo en una trayectoria que permita poner fin al sida para 2030, en un marco de estrecho alineamiento y sinergia con la Agenda 2030 para el Desarrollo Sostenible, incluida la meta 3.3;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_277" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_277__content">
+          <p xml:space="preserve">	<span class="italic">Renueva su solicitud </span>al Secretario General de que, a más tardar en junio de 2026, le presente un informe sobre las expectativas de desempeño para el cargo de Director Ejecutivo del Programa Conjunto en el que se reflejen los debates mantenidos por la Junta Coordinadora del Programa en diciembre de 2023, en consonancia con las mejores prácticas del sistema de las Naciones Unidas y teniendo en cuenta la recomendación de la Dependencia Común de Inspección;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_300" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_300__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>al Secretario General a que entable sin demora un diálogo sobre el establecimiento de un límite de dos mandatos de cuatro años para el cargo de Director Ejecutivo del Programa Conjunto, en consonancia con las mejores prácticas del sistema de las Naciones Unidas y teniendo en cuenta la recomendación de la Dependencia Común de Inspección;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_324" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_324__content">
+          <p xml:space="preserve">	<span class="italic">Solicita </span>al Secretario General que en el período de sesiones de 2027 del Consejo le transmita un informe preparado por la Directora Ejecutiva del Programa Conjunto, en colaboración con sus copatrocinadores y otras organizaciones y órganos competentes del sistema de las Naciones Unidas, sobre los progresos realizados en la implementación de una respuesta coordinada del sistema de las Naciones Unidas a la epidemia del VIH y el sida.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="39a" refersTo="#adoptionMeeting">39a sesión plenaria</location>
+          <eol />
+          <docDate date="2025-07-29" refersTo="#adoptionDate">29 de julio de 2025</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

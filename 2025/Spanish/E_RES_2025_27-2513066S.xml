@@ -1,0 +1,270 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-27/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-27/"></FRBRuri>
+          <FRBRdate date="2025-07-29" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-27/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-27/spa@/"></FRBRuri>
+          <FRBRdate date="2025-08-13" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-27/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-27/spa@.xml"></FRBRuri>
+          <FRBRdate date="2025-10-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="Meeting of the Parties to the Convention on the Protection and Use of Transboundary Watercourses and International Lakes" showAs="Meeting of the Parties to the Convention on the Protection and Use of Transboundary Watercourses and International Lakes" dictionary="DHLAUTH"></keyword>
+        <keyword value="Convention on the Protection and Use of Transboundary Watercourses and International Lakes (1992)" showAs="Convention on the Protection and Use of Transboundary Watercourses and International Lakes (1992)" dictionary="DHLAUTH"></keyword>
+        <keyword value="CONFERENCE AND MEETING SERVICES" href="http://metadata.un.org/thesaurus/1001217" showAs="CONFERENCE AND MEETING SERVICES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="LANGUAGE SERVICES" href="http://metadata.un.org/thesaurus/1003618" showAs="LANGUAGE SERVICES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MULTILINGUALISM" href="http://metadata.un.org/thesaurus/1004271" showAs="MULTILINGUALISM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="16" showAs="Regional cooperation." shortForm="REGIONAL COOPERATION" dictionary="E/2025/100"></keyword>
+        <keyword refersTo="agenda" value="16[3]" showAs="REGIONAL COOPERATION--EUROPE" shortForm="REGIONAL COOPERATION--EUROPE" dictionary="E/2025/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-07-08" outcome="recommendedForAdoption" as="E/2025/15/Add.1/Rev.1" by="UN. ECE" />
+        <step date="2025-08-13" outcome="adopted" as="Adopted without vote, 40th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">25-13066 (S)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Naciones Unidas</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2025/27</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Consejo Económico y Social</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-08-13" class="rightSmall" refersTo="#dateOfIssuance">13 de agosto de 2025</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2025" eId="coverPage_1__session_1">Período de sesiones de 2025</session>
+      </p>
+      <p>
+        <inline title="16" name="agenda item">Tema 16 del programa</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Cooperación regional</inline>
+      </p>
+      <p>
+        <docTitle>Resolución aprobada por el Consejo Económico y Social el 29 de julio de 2025</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent>[por recomendación de la Comisión Económica para Europa (<inline name="originating document">E/2025/15/Add.1/Rev.1</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2025/27.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Multilingüismo en las reuniones en el marco del Convenio sobre la Protección y Utilización de los Cursos de Agua Transfronterizos y de los Lagos Internacionales</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">El Consejo Económico y Social</span>,</p>
+      </formula>
+      <container name="Observando" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Observando</span> la adopción por la Comisión Económica para Europa, en su 71º período de sesiones, celebrado en Ginebra los días 9 y 10 de abril de 2025, de la decisión E (71) sobre el multilingüismo en las reuniones celebradas en el marco del Convenio sobre la Protección y Utilización de los Cursos de Agua Transfronterizos y de los Lagos Internacionales<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		Naciones Unidas, <span class="italic">Treaty Series</span>, vol. 1936, núm. 33207.</p></authorialNote>,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_3" class="MercuryDocument">
+        <content eId="para_3__content">
+          <p xml:space="preserve">	<span class="italic">Hace suya</span> la decisión E (71) de la Comisión Económica para Europa, que figura en el anexo de la presente resolución, y solicita al Secretario General que preste servicios de traducción e interpretación al árabe, el chino y el español, además de al inglés, al francés y al ruso, en los futuros períodos de sesiones de la Reunión de las Partes y otras reuniones que se celebren en el marco del Convenio sobre la Protección y Utilización de los Cursos de Agua Transfronterizos y de los Lagos Internacionales, con cargo al presupuesto ordinario de las Naciones Unidas, incluida la traducción de documentos y publicaciones oficiales del Convenio al árabe, al chino y al español, a fin de hacer posible la participación efectiva y en pie de igualdad de todos los Estados Miembros.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="40a" refersTo="#adoptionMeeting">40a sesión plenaria</location>
+          <eol />
+          <docDate date="2025-07-29" refersTo="#adoptionDate">29 de julio de 2025</docDate>
+        </event>
+      </p>
+    </conclusions>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-27/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-27/"></FRBRuri>
+                <FRBRdate date="2025-07-29" name="adoption"></FRBRdate>
+                <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-27/spa@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-27/spa@/"></FRBRuri>
+                <FRBRdate date="2025-08-13" name="publication"></FRBRdate>
+                <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="spa"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-27/spa@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-07-29/2025-27/spa@.xml"></FRBRuri>
+                <FRBRdate date="2025-10-23" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_5" class="MercuryDocument">
+              <content eId="para_5__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Anexo</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_6" class="MercuryDocument">
+              <content eId="para_6__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Decisión E (71) </span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_7" class="MercuryDocument">
+              <content eId="para_7__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Multilingüismo en las reuniones en el marco del Convenio sobre la Protección y Utilización de los Cursos de Agua Transfronterizos y de los Lagos Internacionales</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_8" class="MercuryDocument">
+              <content eId="para_8__content">
+                <p xml:space="preserve">	<span class="italic">La Comisión Económica para Europa</span>,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_9" class="MercuryDocument">
+              <content eId="para_9__content">
+                <p xml:space="preserve">	<span class="italic">Reconociendo</span> los importantes progresos realizados desde la entrada en vigor en 1996 del Convenio sobre la Protección y Utilización de los Cursos de Agua Transfronterizos y de los Lagos Internacionales (Convenio del Agua), que ha proporcionado un marco jurídico sólido y una plataforma intergubernamental eficaz para el fomento de la cooperación y la gestión sostenible de los recursos hídricos a nivel de cuenca, regional e internacional, que son fundamentales para un desarrollo pacífico y sostenible,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_10" class="MercuryDocument">
+              <content eId="para_10__content">
+                <p xml:space="preserve">	<span class="italic">Recordando</span> la decisión III/1<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	 	ECE/MP.WAT/14.</p></authorialNote> de la Reunión de las Partes del Convenio del Agua por la que se abre el Convenio a la adhesión de todos los Estados Miembros de las Naciones Unidas y su entrada en vigor en 2013,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_11" class="MercuryDocument">
+              <content eId="para_11__content">
+                <p xml:space="preserve">	<span class="italic">Acogiendo con beneplácito</span> el considerable interés mundial por adherirse al Convenio del Agua, que desde 2018 cuenta con 12 nuevas Partes de África (Camerún, Chad, Côte d’Ivoire, Gambia, Ghana, Guinea-Bissau, Namibia, Nigeria, Senegal, Togo, Zambia y Zimbabwe), una de América Latina (Panamá) y una de Oriente Medio (Iraq),</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_12" class="MercuryDocument">
+              <content eId="para_12__content">
+                <p xml:space="preserve">	<span class="italic">Acogiendo también con beneplácito</span> el hecho de que más de otros 20 países están tramitando su adhesión al Convenio del Agua y pronto han de ser Partes, entre ellos cinco países de habla hispana y dos de habla árabe,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_13" class="MercuryDocument">
+              <content eId="para_13__content">
+                <p xml:space="preserve">	<span class="italic">Destacando</span> que, además de las 55 Partes actuales en el Convenio, alrededor de otros 80 países participan en reuniones y actividades en el marco del Convenio, por lo que hay más de 130 Estados Miembros de las Naciones Unidas que participan,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_14" class="MercuryDocument">
+              <content eId="para_14__content">
+                <p xml:space="preserve">	<span class="italic">Haciendo hincapié</span> en que el Convenio ofrece el único marco intergubernamental de las Naciones Unidas para los debates normativos y técnicos sobre la gestión sostenible de los recursos hídricos transfronterizos, y que su plataforma y su trabajo son útiles para todos los países que comparten recursos hídricos, no sólo para las Partes,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_15" class="MercuryDocument">
+              <content eId="para_15__content">
+                <p xml:space="preserve">	<span class="italic">Recordando</span> las múltiples resoluciones de la Asamblea General sobre el multilingüismo, incluidas las resoluciones <a href="https://docs.un.org/es/A/RES/71/328">71/328</a>, <a href="https://docs.un.org/es/A/RES/73/346">73/346</a> y <a href="https://docs.un.org/es/A/RES/76/268">76/268</a>, que hacen hincapié en la importancia primordial de la igualdad de los seis idiomas oficiales de las Naciones Unidas,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_16" class="MercuryDocument">
+              <content eId="para_16__content">
+                <p xml:space="preserve">	<span class="italic">Observando</span> la adopción, en el 10º período de sesiones de la Reunión de las Partes en el Convenio del Agua (Liubliana, 23 a 25 de octubre de 2024), de la Decisión X/3 sobre la promoción de la participación igual y efectiva de todas las Partes en las sesiones de la Reunión de las Partes y otras reuniones en el marco del Convenio sobre la Protección y Utilización de los Cursos de Agua Transfronterizos y de los Lagos Internacionales mediante la traducción e interpretación al árabe, al chino y al español,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_17" class="MercuryDocument">
+              <num>1.</num>
+              <content eId="para_17__content">
+                <p xml:space="preserve">	<span class="italic">Decide</span> que se garantice la traducción de todos los documentos y publicaciones oficiales del Convenio al árabe, al chino y al español para permitir la participación igualitaria y efectiva de todas las Partes actuales y futuras y de otros países en las actividades del Convenio;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_18" class="MercuryDocument">
+              <num>2.</num>
+              <content eId="para_18__content">
+                <p xml:space="preserve">	<span class="italic">Decide también</span> que se garantice la interpretación al árabe, al chino y al español en los períodos de sesiones de la Reunión de las Partes y en otras reuniones oficiales del Convenio, a fin de permitir la participación igualitaria y efectiva de las Partes actuales y futuras y de otros países en las actividades del Convenio;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_19" class="MercuryDocument">
+              <num>3.</num>
+              <content eId="para_19__content">
+                <p xml:space="preserve">	<span class="italic">Solicita</span> al Secretario General que preste servicios de traducción e interpretación al árabe, al chino y al español, además de al inglés, al francés y al ruso, en los futuros períodos de sesiones de la Reunión de las Partes y otras reuniones que se celebren en el marco del Convenio sobre la Protección y Utilización de los Cursos de Agua Transfronterizos y de los Lagos Internacionales, con cargo al presupuesto ordinario de las Naciones Unidas, incluida la traducción de documentos y publicaciones oficiales del Convenio al árabe, al chino y al español, a fin de hacer posible la participación efectiva y en pie de igualdad de todos los Estados Miembros.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_20" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_20__content">
+                <p xml:space="preserve">	<span class="italic">Decide</span> transmitir al Consejo Económico y Social un proyecto de resolución sobre esta cuestión para que lo examine y en su caso lo apruebe.</p>
+              </content>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>

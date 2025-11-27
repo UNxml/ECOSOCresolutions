@@ -1,0 +1,236 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-13/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-13/"></FRBRuri>
+          <FRBRdate date="2025-06-10" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-13/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-13/spa@/"></FRBRuri>
+          <FRBRdate date="2025-08-12" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-13/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2025-06-10/2025-13/spa@.xml"></FRBRuri>
+          <FRBRdate date="2025-10-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="World Population and Housing Census Programme 2030" showAs="World Population and Housing Census Programme 2030" dictionary="DHLAUTH"></keyword>
+        <keyword value="Principles and Recommendations for Population and Housing Censuses" showAs="Principles and Recommendations for Population and Housing Censuses" dictionary="DHLAUTH"></keyword>
+        <keyword value="POPULATION CENSUSES" href="http://metadata.un.org/thesaurus/1005019" showAs="POPULATION CENSUSES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HOUSING CENSUSES" href="http://metadata.un.org/thesaurus/1002941" showAs="HOUSING CENSUSES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GUIDELINES" href="http://metadata.un.org/thesaurus/1002790" showAs="GUIDELINES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="STANDARDS" href="http://metadata.un.org/thesaurus/1006169" showAs="STANDARDS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNICAL COOPERATION" href="http://metadata.un.org/thesaurus/1006413" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="19c" showAs="Statistics." shortForm="STATISTICS" dictionary="E/2025/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-03-04" outcome="draftResolution" as="E/CN.3/2025/L.5" by="submitted by the Bureau" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2025-01-01" outcome="recommendedForAdoption" as="E/2025/24" by="UN. Statistical Commission" />
+        <step date="2025-08-12" outcome="adopted" as="Adopted without vote, 23rd plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">25-13003 (S)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Naciones Unidas</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2025/13</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Consejo Económico y Social</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-08-12" class="rightSmall" refersTo="#dateOfIssuance">12 de agosto de 2025</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2025" eId="coverPage_1__session_1">Período de sesiones de 2025</session>
+      </p>
+      <p>
+        <inline title="19 c)" name="agenda item">Tema 19 c) del programa</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Cuestiones económicas y ambientales: estadística</inline>
+      </p>
+      <p>
+        <docTitle>Resolución aprobada por el Consejo Económico y Social el 10 de junio de 2025</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent>[por recomendación de la Comisión de Estadística (<inline name="originating document">E/2025/24</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2025/13.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Programa Mundial de Censos de Población y Vivienda de 2030</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">El Consejo Económico y Social,</span>
+        </p>
+      </formula>
+      <container name="Recordando" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	Recordando</span> su resolución <a href="https://docs.un.org/es/E/RES/2015/10">2015/10</a>, de 10 de junio de 2015, en la que hizo suyo el Programa Mundial de Censos de Población y Vivienda de 2020 e instó a los Estados Miembros a que levantaran al menos un censo de población y vivienda en el marco del Programa, así como sus resoluciones anteriores en las que hizo suyos los programas para los decenios previos, </p>
+      </container>
+      <container name="Reconociendo" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo</span> que los censos de población y vivienda son una fuente primaria clave de datos desglosados necesarios para formular, aplicar y supervisar políticas y programas encaminados a lograr un desarrollo socioeconómico inclusivo y la sostenibilidad ambiental, en consonancia con los compromisos nacionales, regionales e internacionales en materia de desarrollo, y teniendo en cuenta la Agenda 2030 para el Desarrollo Sostenible<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	 	Resolución <a href="https://docs.un.org/es/A/RES/70/1">70/1</a> de la Asamblea General.</p></authorialNote>, </p>
+      </container>
+      <container name="Reconociendo también" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Reconociendo también</span> los encomiables esfuerzos realizados por los Estados Miembros en lo relativo al levantamiento de censos de población y vivienda como parte del Programa Mundial de Censos de Población y Vivienda de 2020, a pesar de las dificultades que trajo consigo la pandemia de enfermedad por coronavirus (COVID‑19), </p>
+      </container>
+      <container name="Reconociendo además" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo además</span> el panorama cambiante de las metodologías censales, en particular el auge de los enfoques multimodales que conceden prioridad a Internet, la georreferenciación y el mayor uso de datos administrativos,</p>
+      </container>
+      <container name="Reconociendo y encomiando" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo y encomiando</span> los importantes progresos realizados por los Estados Miembros en la difusión a tiempo de los datos censales durante la ronda de 2020, en la que la difusión de los datos tras el empadronamiento se realizó con una rapidez notable,</p>
+      </container>
+      <container name="Reconociendo" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo</span> la función esencial que desempeñan los censos de población y vivienda en los sistemas de datos demográficos y la relevancia de la integración de los datos para aumentar la eficacia en función de los costos, reducir la carga para los encuestados y generar datos ricos, granulares y oportunos, </p>
+      </container>
+      <container name="Recordando" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Recordando</span> su resolución <a href="https://docs.un.org/es/E/RES/2006/6">2006/6</a>, de 24 de julio de 2006, la resolución <a href="https://docs.un.org/es/A/RES/68/261">68/261</a> de la Asamblea General, de 29 de enero de 2014, y la resolución <a href="https://docs.un.org/es/A/RES/71/313">71/313</a> de la Asamblea General, de 6 de julio de 2017,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_9" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_9__content">
+          <p xml:space="preserve">	<span class="italic">Hace suyo</span> el Programa Mundial de Censos de Población y Vivienda de 2030, que comprende una serie de actividades destinadas a garantizar que los Estados Miembros levanten un censo de población y vivienda durante el período comprendido entre 2025 y 2034 y promuevan de forma complementaria la producción continua de estadísticas demográficas y socioeconómicas al nivel de áreas pequeñas mediante el fortalecimiento de los registros administrativos, las encuestas y otras fuentes de datos administrativas y alternativas, y pide que se apoye plenamente el Programa; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve">	<span class="italic">Recomienda</span> a los Estados Miembros que consideren la cuarta revisión de los <span class="italic">Principios y recomendaciones para los censos de población y habitación</span> como la norma internacional para la realización de censos de población y vivienda y para los conceptos, las definiciones y las clasificaciones relativos a las estadísticas demográficas y afines, con el fin de promover la armonización de las fuentes de datos y los ámbitos estadísticos y mejorar la comparabilidad de los datos dentro de los países y entre ellos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_12__content">
+          <p xml:space="preserve">	<span class="italic">Insta</span> a los Estados Miembros a que levanten al menos un censo de población y vivienda o elaboren de otro modo estadísticas demográficas y socioeconómicas de áreas pequeñas en el marco del Programa Mundial de Censos de Población y Vivienda de 2030, teniendo en cuenta, cuando corresponda, la cuarta revisión de los <span class="italic">Principios y recomendaciones </span>y las demás recomendaciones internacionales y regionales conexas, prestando especial atención a la planificación anticipada, la eficacia en función de los costos, la cobertura y la difusión oportuna de los resultados de los censos y el fácil acceso a los mismos para todos, a fin de fundamentar las decisiones y facilitar la ejecución efectiva de los planes y programas de desarrollo; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve">	<span class="italic">Recalca</span> la necesidad de que los países establezcan normas de calidad para la realización y evaluación de los censos de población y vivienda a fin de preservar la integridad, la fiabilidad, la exactitud y el valor de sus resultados, en consonancia con la cuarta revisión de los <span class="italic">Principios y recomendaciones </span>y teniendo plenamente en cuenta el Marco de las Naciones Unidas para el Aseguramiento de la Calidad de las Estadísticas, otros marcos, normas y herramientas de calidad, incluidos los marcos nacionales de calidad, y los Principios Fundamentales de las Estadísticas Oficiales<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	 	Resolución <a href="https://docs.un.org/es/A/RES/68/261">68/261</a> de la Asamblea General.</p></authorialNote>; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="italic">Invita</span> a los Estados Miembros a que consideren la posibilidad de georreferenciar sus censos, de modo que sea posible la agregación al nivel geográfico apropiado más bajo y la difusión de datos censales geocodificados, así como la integración de la información geoespacial, los datos censales y otras fuentes de datos, garantizándose en todo momento la confidencialidad de los datos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="italic">Alienta</span> a los Estados Miembros a explorar y utilizar en mayor medida las fuentes de datos administrativos para apoyar las operaciones censales y a estudiar la posibilidad de establecer registros estadísticos nacionales de población. La creación de dichos registros solo debe llevarse a cabo cumpliendo plenamente sus planes y prioridades nacionales de desarrollo y de conformidad con las disposiciones de los Principios Fundamentales de las Estadísticas Oficiales, entre ellos el requisito de proteger la confidencialidad y la privacidad de los registros individuales, y en virtud de disposiciones legales claras e inequívocas, incluido el permiso para explotar el registro estadístico nacional de población únicamente con fines estadísticos, en consonancia con las normas y reglamentos nacionales<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	 	<span class="italic">Documentos Oficiales del Consejo Económico y Social, 2022, suplemento núm. 4</span> (<a href="https://docs.un.org/es/E/2022/24">E/2022/24</a>), cap. I, secc. C, decisión 53/107, apartado d).</p></authorialNote>; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="italic">Solicita</span> al Secretario General que prepare o actualice normas, métodos y directrices estadísticos internacionales para facilitar la planificación y la ejecución de la ronda de censos de población y vivienda de 2030 y que traduzca dichas publicaciones a los idiomas oficiales de las Naciones Unidas para promover una mayor accesibilidad;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve">	<span class="italic">Solicita también</span> al Secretario General que proporcione asistencia técnica a las oficinas nacionales de estadística, cuando estas la soliciten, incluso mediante actividades regionales y subregionales, y teniendo en cuenta los distintos niveles de desarrollo de los Estados Miembros, para facilitar el intercambio de experiencias y lecciones aprendidas y para fortalecer la capacidad nacional con miras a ejecutar el Programa Mundial de Censos de Población y Vivienda de 2030;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="italic">Solicita además </span>al Secretario General que cree plataformas para el intercambio de conocimientos, experiencias nacionales, prácticas y lecciones aprendidas en lo relativo al levantamiento de censos de población y vivienda, incluido el uso de fuentes administrativas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve">	<span class="italic">Solicita</span> al Secretario General que refuerce la coordinación y la cooperación entre los asociados y las partes interesadas pertinentes con miras a ayudar a los Estados Miembros, cuando estos lo soliciten, a ejecutar el Programa;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_64" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_64__content">
+          <p xml:space="preserve">	<span class="italic">Solicita también</span> al Secretario General que informe periódicamente a la Comisión de Estadística sobre la ejecución del Programa.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="23a" refersTo="#adoptionMeeting">23a sesión plenaria</location>
+          <eol />
+          <docDate date="2025-06-10" refersTo="#adoptionDate">10 de junio de 2025</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
