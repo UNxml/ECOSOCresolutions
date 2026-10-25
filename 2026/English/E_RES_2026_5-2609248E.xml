@@ -1,0 +1,335 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-06-10/2026-5/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-06-10/2026-5/"></FRBRuri>
+          <FRBRdate date="2026-06-10" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-06-10/2026-5/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-06-10/2026-5/eng@/"></FRBRuri>
+          <FRBRdate date="2026-06-23" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-06-10/2026-5/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-06-10/2026-5/eng@.xml"></FRBRuri>
+          <FRBRdate date="2026-09-25" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Guiding Principles on Alternative Development (2013)" showAs="UN Guiding Principles on Alternative Development (2013)" dictionary="DHLAUTH"></keyword>
+        <keyword value="NARCOTIC DRUGS" href="http://metadata.un.org/thesaurus/1004312" showAs="NARCOTIC DRUGS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ILLICIT TRAFFIC" href="http://metadata.un.org/thesaurus/1003051" showAs="ILLICIT TRAFFIC" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DRUG CONTROL" href="http://metadata.un.org/thesaurus/1001775" showAs="DRUG CONTROL" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CROP SUBSTITUTION" href="http://metadata.un.org/thesaurus/1001407" showAs="CROP SUBSTITUTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DEVELOPMENT STRATEGIES" href="http://metadata.un.org/thesaurus/1001634" showAs="DEVELOPMENT STRATEGIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PRINCIPLES" href="http://metadata.un.org/thesaurus/1005108" showAs="PRINCIPLES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="19d" showAs="Narcotic drugs" shortForm="NARCOTIC DRUGS" dictionary="E/2026/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2026-03-11" outcome="draftResolution" as="E/CN.7/2026/L.4/Rev.1" by="Albania, Andorra, Bolivia (Plurinational State of), Brazil, Canada, China, Colombia, Cyprus (on behalf of the States Members of the United Nations that are members of the European Union), Japan, Nigeria, Norway, Malaysia, Peru, Singapore, Switzerland, Thailand, Ukraine, the United Kingdom and Uruguay" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2026-01-01" outcome="recommendedForAdoption" as="E/2026/28" by="" />
+        <step date="2026-06-23" outcome="adopted" as="Adopted without vote, 23rd plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">26-09248 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2026/5</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Economic and Social Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2026-06-23" class="rightSmall" refersTo="#dateOfIssuance">23 June 2026</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2026" eId="coverPage_1__session_1">2026 session</session>
+      </p>
+      <p>
+        <inline title="19 (d)" name="agenda item">Agenda item 19 (d)</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Social and human rights questions: narcotic drugs</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the Economic and Social Council on 10 June 2026</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent>[on the recommendation of the Commission on Narcotic Drugs (<inline name="originating document">E/2026/28</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2026/5.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Appendix to Complement the United Nations Guiding Principles on Alternative Development</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Economic and Social Council</span>
+        </p>
+      </formula>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_2" class="SingleTxt">
+        <content eId="para_2__content">
+          <p xml:space="preserve">	<span class="italic">Recommends</span> to the General Assembly the adoption of the following draft resolution:
+<embeddedStructure>
+<container name="formula"><p xml:space="preserve">	
+<span class="italic">The General Assembly</span>,</p></container>
+<container name="Underscoring" eId="container_4"><p xml:space="preserve">	
+<span class="italic">Underscoring</span> that the Single Convention on Narcotic Drugs of 1961 as amended by the 1972 Protocol,<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		United Nations, 
+<span class="italic">Treaty Series</span>, vol. 976, No. 14152.</p></authorialNote> the Convention on Psychotropic Substances of 1971<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		Ibid., vol. 1019, No. 14956.</p></authorialNote> and the United Nations Convention against Illicit Traffic in Narcotic Drugs and Psychotropic Substances of 1988,<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		Ibid., vol. 1582, No. 27627.</p></authorialNote> together with other relevant international instruments, constitute the cornerstone of the international drug control system,</p></container>
+<container name="Reaffirming" eId="container_5"><p xml:space="preserve">	
+<span class="italic">Reaffirming </span>that drug policies and programmes, including in the field of development, should be undertaken in accordance with the purposes and principles of the Charter of the United Nations, international law and the Universal Declaration of Human Rights<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		General Assembly resolution <a href="https://docs.un.org/en/A/RES/217(III)">217 A (III)</a>.</p></authorialNote> and, in particular, with full respect for the sovereignty and territorial integrity of States, the principle of non‑intervention in the internal affairs of States, all human rights, fundamental freedoms, the inherent dignity of all individuals and the principles of equal rights and mutual respect among States, as well as the principle of common and shared responsibility, recalling the Sustainable Development Goals, and taking into account the specific situations of countries and regions,</p></container>
+<container name="Recalling" eId="container_6"><p xml:space="preserve">	
+<span class="italic">Recalling</span> the United Nations Guiding Principles on Alternative Development, adopted by the General Assembly in its resolution <a href="https://docs.un.org/en/A/RES/68/196">68/196</a> of 18 December 2013,</p></container>
+<container name="Recalling" eId="container_7"><p xml:space="preserve">	
+<span class="italic">Recalling </span>Commission on Narcotic Drugs resolution 68/3 of 14 March 2025, in which the Commission decided to initiate a process to complement the United Nations Guiding Principles on Alternative Development in order to address the challenges posed by the evolving dynamics of the illicit drug economy, including the illicit cultivation of crops used for the production of narcotic drugs and psychotropic substances and the illicit manufacture and production of and trafficking in drugs, as well as other illicit drug-related activities,</p></container>
+<container name="Acknowledging" eId="container_8"><p xml:space="preserve">	
+<span class="italic">Acknowledging</span> that the design and implementation of future alternative development programmes should address current, persistent and evolving challenges related to the illicit cultivation of drug crops and other relevant illicit drug-related activities, as well as the risk of involvement therein, and noting that the experts of the expert group meeting on alternative development identified those challenges as including climate change, environmental degradation, biodiversity loss and challenges regarding food security, territorial approaches, public security, the displacement of people, and the empowerment and engagement of Indigenous Peoples and of local communities, as well as gender equality and the empowerment of all women and girls,</p></container>
+<container name="Welcoming" eId="container_9"><p xml:space="preserve">	
+<span class="italic">Welcoming </span>the holding of the tenth expert group meeting on alternative development in Lima from 5 to 7 November 2025, which provided substantive recommendations to complement the United Nations Guiding Principles on Alternative Development, as reflected in the Appendix to Complement the United Nations Guiding Principles on Alternative Development, annexed to the present resolution,</p></container>
+<container name="Taking note" eId="container_10"><p xml:space="preserve">	
+<span class="italic">Taking note </span>of the conference room paper submitted jointly by Germany, Peru and Thailand and the United Nations Office on Drugs and Crime at the sixty-ninth session of the Commission on Narcotic Drugs, entitled “Complementing the United Nations Guiding Principles on Alternative Development”, on the outcomes of the tenth expert group meeting on alternative development, bearing in mind its non‑binding nature and that it does not necessarily reflect the position of all participants,</p></container>
+<paragraph eId="para_11" class="SingleTxt">
+<num>1.</num>
+<content eId="para_11__content"><p xml:space="preserve">	<span class="italic">Adopts</span> the Appendix to Complement the United Nations Guiding Principles on Alternative Development, annexed to the present resolution;</p></content></paragraph>
+<paragraph eId="para_12" class="SingleTxt">
+<num>2.</num>
+<content eId="para_12__content"><p xml:space="preserve">	<span class="italic">Encourages</span> Member States, relevant international organizations, international financial institutions, regional bodies, civil society, academia and the private sector to use the United Nations Guiding Principles on Alternative Development<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">		General Assembly resolution <a href="https://docs.un.org/en/A/RES/68/196">68/196</a>, annex.</p></authorialNote> as complemented by the Appendix when designing, implementing, monitoring and evaluating alternative development policies, strategies and programmes;</p></content></paragraph>
+<paragraph eId="para_14" class="SingleTxt">
+<num>3.</num>
+<content eId="para_14__content"><p xml:space="preserve">	<span class="italic">Requests</span> the Executive Director of the United Nations Office on Drugs and Crime, in cooperation with all relevant United Nations entities and agencies, to continue to provide technical assistance and capacity-building to Member States in the implementation of the United Nations Guiding Principles on Alternative Development as complemented by the Appendix, subject to extrabudgetary funding;</p></content></paragraph>
+<paragraph eId="para_17" class="SingleTxt">
+<num>4.</num>
+<content eId="para_17__content"><p xml:space="preserve">	<span class="italic">Requests</span> the United Nations Office on Drugs and Crime, within its mandate, subject to the availability of extrabudgetary resources, to assist Member States in the organization of an inclusive expert group meeting on alternative development in 2026 in Thailand, which will provide guidelines and orientation by experts for the implementation of the Appendix to Complement the United Nations Guiding Principles on Alternative Development and examine the potential application of alternative development in the context of synthetic drugs;</p></content></paragraph>
+<paragraph eId="para_21" class="SingleTxt">
+<num>5.</num>
+<content eId="para_21__content"><p xml:space="preserve">	<span class="italic">Invites</span> Member States and other donors to provide extrabudgetary resources for the purposes described above in accordance with the financial rules and procedures of the United Nations.</p></content>
+</paragraph>
+</embeddedStructure>
+          </p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="23rd" refersTo="#adoptionMeeting">23rd plenary meeting</location>
+          <eol />
+          <docDate date="2026-06-10" refersTo="#adoptionDate">10 June 2026</docDate>
+        </event>
+      </p>
+    </conclusions>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-06-10/2026-5/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-06-10/2026-5/"></FRBRuri>
+                <FRBRdate date="2026-06-10" name="adoption"></FRBRdate>
+                <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-06-10/2026-5/eng@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-06-10/2026-5/eng@/"></FRBRuri>
+                <FRBRdate date="2026-06-23" name="publication"></FRBRdate>
+                <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="eng"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-06-10/2026-5/eng@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-06-10/2026-5/eng@.xml"></FRBRuri>
+                <FRBRdate date="2026-09-25" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_22" class="H23">
+              <subheading>Annex</subheading>
+            </paragraph>
+            <paragraph eId="para_23" class="H23">
+              <subheading>Appendix to Complement the United Nations Guiding Principles on Alternative Development</subheading>
+            </paragraph>
+            <paragraph eId="para_24" class="H23">
+              <num>A.</num>
+              <subheading>	General provisions</subheading>
+            </paragraph>
+            <paragraph eId="para_25" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_25__content">
+                <p xml:space="preserve">	Alternative development programmes promote viable licit economic alternatives to the illicit cultivation of drug crops, as well as, where appropriate, to other illicit drug-related activities in rural and urban areas, that target, in particular, those communities and regions affected by or at risk of the illicit cultivation of crops used for the production of narcotic drugs and psychotropic substances and the illicit manufacture and production of and trafficking in drugs, including through long-term, comprehensive, inclusive and sustainable development interventions and initiatives that benefit all, in accordance with the three international drug control conventions.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_26" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_26__content">
+                <p xml:space="preserve">	Alternative development programmes can contribute to the efforts of Member States to address people in vulnerable situations, which include poverty, unemployment, a lack of opportunities, discrimination and social marginalization.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_27" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_27__content">
+                <p xml:space="preserve">	Alternative development is a measure aligned with the commitment to respecting, protecting and fulfilling all human rights, fundamental freedoms, the inherent dignity of all individuals and the rule of law in the development and implementation of such programmes.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_28" class="H23">
+              <num>B.</num>
+              <subheading>	Actions and implementation measures</subheading>
+            </paragraph>
+            <paragraph eId="para_29" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_29__content">
+                <p xml:space="preserve">	Member States of the United Nations, international organizations, regional organizations, development agencies, donors and international financial institutions, as well as civil society, should apply their utmost efforts, as appropriate:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_30" class="SingleTxt">
+              <content eId="para_30__content">
+                <p xml:space="preserve">	(a)	To mainstream a gender perspective into and ensure the involvement of women in all stages of the development, implementation, monitoring and evaluation of alternative development programmes, and to develop and disseminate gender-responsive and age-appropriate measures that take into account the specific needs of and circumstances faced by women and girls with regard to the illicit cultivation of drug crops and other illicit drug-related activities in rural and urban areas;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_31" class="SingleTxt">
+              <content eId="para_31__content">
+                <p xml:space="preserve">	(b)	To recognize and support women as drivers of change and community leaders as well as key contributors to the success and sustainability of alternative development programmes;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_32" class="SingleTxt">
+              <content eId="para_32__content">
+                <p xml:space="preserve">	(c)	To undertake reforms within alternative development policies and programmes to give women equal rights to economic resources, as well as access to ownership and control over land and other forms of property, financial services, inheritance and natural resources, in accordance with national laws;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_33" class="SingleTxt">
+              <content eId="para_33__content">
+                <p xml:space="preserve">	(d)	To examine and address the negative impact on the environment of the illicit cultivation of drug crops and other illicit drug-related activities, which may lead to deforestation and the pollution of soil and water, and to seize the opportunities offered by alternative development with regard to the restoration, conservation and sustainable use of the environment and the protection of biodiversity;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_34" class="SingleTxt">
+              <content eId="para_34__content">
+                <p xml:space="preserve">	(e)	To take into account and strengthen climate change mitigation and adaptation, biodiversity, conservation, restoration and other policies and measures to protect the environment when implementing alternative development programmes in a properly sequenced manner in the context of long-term, inclusive, integrated, comprehensive and sustainable development-oriented and balanced drug control policies;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_35" class="SingleTxt">
+              <content eId="para_35__content">
+                <p xml:space="preserve">	(f)	To design and implement alternative development programmes in ways that also reduce negative impacts on the environment and contribute to conservation efforts and to take note of opportunities for communities affected by or at risk of illicit cultivation of drug crops, as appropriate, to access public and private investment and climate and biodiversity finance, including carbon credit schemes and payments for ecosystem services, in accordance with domestic legislation;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_36" class="SingleTxt">
+              <content eId="para_36__content">
+                <p xml:space="preserve">	(g)	To ensure that alternative development programmes and complementing drug policy interventions respect fundamental human rights and take due account of traditional licit uses, where there is historical evidence of such use, and of the protection of the environment, in accordance with the three international drug control conventions;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_37" class="SingleTxt">
+              <content eId="para_37__content">
+                <p xml:space="preserve">	(h)	To ensure the engagement of Indigenous Peoples and of local communities affected by or at risk of the illicit cultivation of drug crops and the illicit manufacture and production of and trafficking in drugs, as well as other illicit drug-related activities, in the development and implementation of policies and actions aimed at promoting sustainable and inclusive alternative development, taking into account their cultures, knowledge and traditions;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_38" class="SingleTxt">
+              <content eId="para_38__content">
+                <p xml:space="preserve">	(i)	To consider developing and implementing sustainable and inclusive alternative development initiatives, including, as appropriate, preventive alternative development programmes, and to provide viable economic alternatives for communities affected by the illicit cultivation of drug crops and other illicit drug-related activities in rural and urban areas;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_39" class="SingleTxt">
+              <content eId="para_39__content">
+                <p xml:space="preserve">	(j)	To consider a territorial approach to alternative development as a people-centred, rights-based, area-based and multi-stakeholder participatory framework that is coordinated with multisectoral policies and actions across all levels of government and with development agencies to promote inclusive and sustainable alternative development within a defined territory;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_40" class="SingleTxt">
+              <content eId="para_40__content">
+                <p xml:space="preserve">	(k)	To explore synergies to address the nexus between illicit drug-related activities, crimes that affect the environment and convergent crimes through development-oriented measures, including alternative development, with an integrated and complementary approach;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_41" class="SingleTxt">
+              <content eId="para_41__content">
+                <p xml:space="preserve">	(l)	To consider integrating measures to guarantee food security at the household and community levels into alternative development programmes, thereby promoting diversified production, including, for example, vegetable gardens and small animal husbandry, to address immediate basic needs alongside income generation;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_42" class="SingleTxt">
+              <content eId="para_42__content">
+                <p xml:space="preserve">	(m)	To improve the assessment of the impact and effectiveness of alternative development programmes, including through the use of relevant human development indicators, environmental sustainability criteria and other appropriate measurements, and, where appropriate, to further strengthen context-specific methodologies for their measurement, monitoring and evaluation;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_43" class="SingleTxt">
+              <content eId="para_43__content">
+                <p xml:space="preserve">	(n)	To consider facilitating long-term, strategic and innovative public-private partnerships that go beyond market access for products, to further include investment, mentorship, access to finance and adherence to sustainability standards to incentivize the integration of local alternative development products into domestic, regional and international value chains;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_44" class="SingleTxt">
+              <content eId="para_44__content">
+                <p xml:space="preserve">	(o)	To further promote the diversification and sustainability of licit livelihoods, including through value-added agricultural products, timber and non‑timber forest products as part of sustainable forest management, non‑agricultural economic activities (e.g. ecotourism, handicrafts and services) to maximize income, reduce risks and leverage e-commerce and digital platforms for market access;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_45" class="SingleTxt">
+              <content eId="para_45__content">
+                <p xml:space="preserve">	(p)	To ensure long-term political commitment and sustained financial support for alternative development programmes, including through fair and transparent long-term and flexible funding, integration into multi-year national development plans, national drug strategies and multisectoral and multilevel coordination, and by exploring innovative financing mechanisms to leverage public and private investment (e.g. tax incentives, subsidies and climate finance).</p>
+              </content>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>
