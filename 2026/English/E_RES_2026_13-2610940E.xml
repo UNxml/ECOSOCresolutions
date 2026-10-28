@@ -1,0 +1,694 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-13/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-13/"></FRBRuri>
+          <FRBRdate date="2026-07-21" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-13/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-13/eng@/"></FRBRuri>
+          <FRBRdate date="2026-07-24" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-13/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-13/eng@.xml"></FRBRuri>
+          <FRBRdate date="2026-09-25" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="9" href="http://metadata.un.org/sdg/9" showAs="sdg_9" dictionary="SDGO"></keyword>
+        <keyword value="innovation" href="http://eurovoc.europa.eu/1439" showAs="innovation" dictionary="EuroVoc"></keyword>
+        <keyword value="innovation" href="http://metadata.un.org/thesaurus/1003223" showAs="innovation" dictionary="UNBIS"></keyword>
+        <keyword value="industrialization" href="http://metadata.un.org/thesaurus/1003177" showAs="industrialization" dictionary="UNBIS"></keyword>
+        <keyword value="industrial_infrastructure" href="http://eurovoc.europa.eu/1434" showAs="industrial_infrastructure" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="10" href="http://metadata.un.org/sdg/10" showAs="sdg_10" dictionary="SDGO"></keyword>
+        <keyword value="equality" href="http://metadata.un.org/thesaurus/1002102" showAs="equality" dictionary="UNBIS"></keyword>
+        <keyword value="social_inequality" href="http://eurovoc.europa.eu/1420" showAs="social_inequality" dictionary="EuroVoc"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2026-05-08" outcome="recommendedForAdoption" as="E/2026/31" by="UN. Commission on Science and Technology for Development" />
+        <step date="2026-07-21" outcome="adopted" as="40th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">26-10940 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2026/13</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Economic and Social Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2026-07-24" class="rightSmall" refersTo="#dateOfIssuance">24 July 2026</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2026" eId="coverPage_1__session_1">2026 session</session>
+      </p>
+      <p>
+        <inline title="18 (b)" name="agenda item">Agenda item 18 (b)</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Economic and environmental questions: science and technology for development</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the Economic and Social Council on 21 July 2026</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent>[on the recommendation of the Commission on Science and Technology for Development (<inline name="originating document">E/2026/31</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2026/13.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Assessment of the progress made in the implementation of and follow-up to the outcomes of the World Summit on the Information Society</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Economic and Social Council</span>,</p>
+      </formula>
+      <container name="Recalling" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	Recalling </span>the outcome documents of the World Summit on the Information Society,<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	 	See <a href="https://docs.un.org/en/A/C.2/59/3">A/C.2/59/3</a> and <a href="https://docs.un.org/en/A/60/687">A/60/687</a>.</p></authorialNote></p>
+      </container>
+      <container name="Recalling also" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	Recalling also </span>its resolution 2006/46 of 28 July 2006 on the follow-up to the World Summit and review of the Commission on Science and Technology for Development and the mandate that it gave to the Commission,</p>
+      </container>
+      <container name="Recalling further" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">	Recalling further</span> its resolution <a href="https://unctad.org/system/files/official-document/ecosoc_res_2025d18_en.pdf">2025/18</a> of 29 July 2025 on the assessment of the progress made in the implementation of and follow-up to the outcomes of the World Summit<span class="italic">,</span></p>
+      </container>
+      <container name="Recalling" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	Recalling </span>General Assembly resolution <a href="https://docs.un.org/en/A/RES/70/1">70/1</a> of 25 September 2015, entitled “Transforming our world: the 2030 Agenda for Sustainable Development”, </p>
+      </container>
+      <container name="Recalling also" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Recalling also</span> General Assembly resolution <a href="https://docs.un.org/en/A/RES/80/173">80/173</a> of 17 December 2025, entitled “Outcome document of the high-level meeting of the General Assembly on the overall review of the implementation of the outcomes of the World Summit on the Information Society”, adopted at its eightieth session, </p>
+      </container>
+      <container name="Reaffirming" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">	Reaffirming</span> the centrality of the World Summit action lines, defined in the Geneva Plan of Action,<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	 	See <a href="https://docs.un.org/en/A/C.2/59/3">A/C.2/59/3</a>, annex. </p></authorialNote> as the main framework for translating the World Summit vision into concrete outcomes,</p>
+      </container>
+      <container name="Welcoming" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">	Welcoming</span> General Assembly resolutions <a href="https://docs.un.org/en/A/RES/79/1">79/1</a> of 22 September 2024, in which the Assembly adopted the Pact for the Future which includes the Global Digital Compact and the Declaration on Future Generations, and <a href="https://docs.un.org/en/A/RES/80/118">80/118</a> of 15 December 2025 on information and communications technologies for sustainable development, and recalling Assembly resolutions <a href="https://docs.un.org/en/A/RES/80/147">80/147</a> of 15 December 2025 on science, technology and innovation for sustainable development, <a href="https://docs.un.org/en/A/RES/78/265">78/265</a> of 21 March 2024 on seizing the opportunities of safe, secure and trustworthy artificial intelligence systems for sustainable development and <a href="https://docs.un.org/en/A/RES/78/311">78/311</a> of 1 July 2024 on enhancing international cooperation on capacity-building of artificial intelligence, </p>
+      </container>
+      <container name="Recalling" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Recalling </span>that the Economic and Social Council was tasked by the General Assembly, in its resolution <a href="https://docs.un.org/en/A/RES/60/252">60/252</a> of 27 March 2006, with overseeing, through the Commission on Science and Technology for Development, the system-wide follow-up to the outcomes of the Geneva and Tunis phases of the World Summit and its decennial reviews, </p>
+      </container>
+      <container name="Emphasizing" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Emphasizing</span> the need to uphold these commitments in areas of vulnerability and persistent low level of digital development that hinder safe and equitable access to information and communications technologies for all,</p>
+      </container>
+      <container name="Recognizing" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Recognizing </span>the importance of ensuring coherence in the implementation of the outcomes of the World Summit on the Information Society, the 2030 Agenda for Sustainable Development and the Global Digital Compact, by strengthening synergies between them to ensure their effective implementation and avoiding duplication of resources and decision-making processes, building on existing agreed frameworks and relevant mandates for the World Summit, the 2030 Agenda and the Compact,</p>
+      </container>
+      <container name="Recognizing in particular" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">	Recognizing in particular</span> the importance of enabling all Governments and other stakeholders from all countries to play a full part in achieving their fulfilment,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_13" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_13__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes and urges</span> the full implementation of General Assembly resolution <a href="https://docs.un.org/en/A/RES/80/173">80/173</a>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> that the World Summit on the Information Society has proven to be a dynamic process that has evolved over the years and is continuing to address the impacts of new and emerging technologies, as well as digital cooperation; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms </span>the overarching World Summit vision to build a people-centred, inclusive and development-oriented information society as the foundation for aligning the World Summit system and implementation of the Global Digital Compact,<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	 	General Assembly resolution <a href="https://docs.un.org/en/A/RES/79/1">79/1</a>, annex I.</p></authorialNote> contributing to the achievement of the Sustainable Development Goals; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="H23">
+        <subheading>		I</subheading>
+      </paragraph>
+      <paragraph eId="para_18" class="H23">
+        <subheading>		Stocktaking: reviewing the scenario, commitments and baselines for implementation of the outcomes of the World Summit on the Information Society</subheading>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> that the evolution and diffusion of information and communications technologies, underpinned by the contributions of both public and private sectors, which have seen penetration into almost all corners of the globe, created new opportunities for social interaction, enabled new business models and contributed to economic growth and development in all other sectors; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">	<span class="italic">Underlines</span> the need for digital, media and information literacy, civic participation and online safety, expresses concern about the many forms of digital divides remaining between and within countries and regions, including in access, usage and development of digital technologies, such as artificial intelligence, and in this regard calls for efforts to promote access to information and communications technology, as well as to address prevailing challenges to bridge digital divides, as they persist across income, age, gender and geography, to ensure digital inclusion and participation and the enjoyment of all human rights, including the right to development;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> the critical importance of closing digital divides to fulfil the World Summit vision and ensure that everyone can create, access, utilize and share information and knowledge in order to take advantage of opportunities to benefit from digital technologies and improve their quality of life, and in this regard notes with great concern that many developing countries still lack universal, meaningful and affordable access to information and communications technologies, while others are still far from having the capacity necessary to develop and harness the benefits of those technologies, including artificial intelligence; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">Recalls </span>that protecting, promoting and respecting human rights are important in the implementation of all action lines, and also recalls that the Office of the United Nations High Commissioner for Human Rights continues to contribute to their facilitation and assessment; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes </span>that the outcomes of the World Summit are anchored in international law, including the Charter of the United Nations and international human rights law, commits to fostering an inclusive, open, safe and secure digital space for all that respects, protects and promotes all human rights and fundamental freedoms, reaffirms our commitment that the same rights that people have offline must also be protected online, and the importance of safeguarding journalists, media workers and other civil society actors, and calls upon all business enterprises, including surveillance technology companies and companies responsible for social media platforms, to respect human rights in line with the Guiding Principles on Business and Human Rights: Implementing the United Nations “Protect, Respect and Remedy” Framework;<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">	 	<a href="https://docs.un.org/en/A/HRC/17/31">A/HRC/17/31</a>, annex.</p></authorialNote></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="italic">Notes with great concern</span> the persistence of the gender digital divide on a global level, which impacts women’s and girls’ access to and use of information and communications technologies, in this regard encourages all stakeholders to ensure the full, equal, safe and meaningful participation of girls and women in the digital space, as well as to ensure access to new technologies, especially by significantly enhancing women’s and girls’ education and promoting the adoption of safety-by-design approaches in the development and deployment of digital tools and technologies, and in this regard stresses the value of gender-disaggregated data to contribute to bridging the gender digital divides, and calls for combating technology-facilitated gender-based violence, such as exploitation, harassment and abuse against women and girls; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> all stakeholders to bridge all digital divides by, among other actions, strengthened and enabling policy environments, international cooperation to improve affordability, access to technology, education, capacity-building, multilingualism, cultural preservation, investment and appropriate financing;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	<span class="italic">Underlines</span> the need for digital, media and information literacy, civic participation and online safety, and reaffirms the objective to put into effect sound strategies, in accordance with national regulatory frameworks, that empower individuals with the skills and knowledge needed to make informed choices about their personal data, identify reliable information that will help them to gain access to opportunities, including work and skilling opportunities, and improve their quality of life, and take appropriate steps to safeguard their online security and privacy, as well as meaningfully contribute to the development of digital government, including through improving access to reliable and affordable broadband at the grass-roots level; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_55" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_55__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates </span>that States are strongly urged to refrain from promulgating and applying unilateral economic measures not in accordance with international law and the Charter of the United Nations that impede the full achievement of economic and social development, particularly in developing countries;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_64" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_64__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms</span> its understanding that the success of the 2030 Agenda will depend on increasing universal, meaningful and affordable access to information and communications technology, and acknowledges the importance of digital measurement and monitoring tools to support the measurement of progress towards the Sustainable Development Goals; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_74" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_74__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> that the implementation of the World Summit action lines contributing to digital development and digital inclusion is a critical instrument in enabling progress towards the Sustainable Development Goals, and reaffirms the importance of cooperation to ensure that the benefits of digital cooperation are fairly distributed and do not exacerbate existing inequalities or impede the full achievement of sustainable development;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_85" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_85__content">
+          <p xml:space="preserve">	<span class="italic">Recalls </span>its commitment to the 2030 Agenda, target 9.c, which aims to significantly increase access to information and communications technology by striving to provide universal and affordable access to the Internet in least developed countries by 2020, and in this regard notes the importance of the Connect 2030 Agenda for Global Telecommunication/Information and Communication Technology, including Broadband, for Sustainable Development; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_97" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_97__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> all stakeholders to promote an enabling policy environment for investment and to foster public-private cooperation and partnership for sustainable investment in information and communications technology infrastructure, applications and services, content and digital skills, with the aim of ensuring the meaningful connectivity needed to advance the Sustainable Development Goals; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_110" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_110__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms </span>the call to encourage the international community to promote policies and programmes with a view to assisting developing countries to take advantage of technology in their pursuit of development through, inter alia, technical cooperation and the building of scientific and technological capacity in our efforts to bridge the digital and development divides; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_124" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_124__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> the work of the United Nations Development Programme, which is aimed at harnessing the potential of digital technology to support the achievement of the Sustainable Development Goals, and in this regard reiterates the importance of the United Nations Development Programme continuing to focus on such assistance and digital capacity development for countries, in particular developing countries, in collaboration with other relevant United Nations agencies;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_139" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_139__content">
+          <p xml:space="preserve">	<span class="italic">Also recognizes</span> the rapid growth in broadband access networks, especially in developed countries, and in this regard underscores the need to urgently address the growing digital divides in the availability, affordability, quality of access and use of broadband between and within high-, middle- and low-income countries and other regions, with special emphasis on supporting the least developed countries, landlocked developing countries, small island developing States and Africa as a continent;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_155" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_155__content">
+          <p xml:space="preserve">	<span class="italic">Further recognizes</span> the work of the International Telecommunication Union in providing technical assistance, capacity‑building and strategic guidance to Member States for the effective implementation of digital transformation initiatives that contribute to the achievement of the Sustainable Development Goals;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_172" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_172__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> all stakeholders, in this regard, to prioritize the development of innovative mechanisms to stimulate the provision of universal, meaningful and affordable access to broadband infrastructure for developing countries; this approach should allow broadband services to support the development of an inclusive, development-oriented and people-centred information society, and minimize the digital divides, including the gender digital divide; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_190" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_190__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> the work of the United Nations Educational, Scientific and Cultural Organization in advancing inclusive, human‑centred and rights‑based digital transformation, including through its normative and policy work on artificial intelligence, Internet universality, cultural diversity and multilingualism, digital education, freedom of expression and information integrity, in support of the achievement of the Sustainable Development Goals;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_209" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_209__content">
+          <p xml:space="preserve">	<span class="italic">Acknowledges</span> that developing countries face major impediments in accessing new technologies in an inclusive manner, such as insufficient resources and investment, inappropriate infrastructure and connectivity, and lack of education and capacity, as well as issues related to technology ownership, standards and flows, and in this regard calls upon all stakeholders to contribute and provide adequate resources, enhanced capacity-building and transfer of technology and knowledge to developing countries, particularly the least developed countries, towards a digitally empowered society and knowledge economy;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_229" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_229__content">
+          <p xml:space="preserve">	<span class="italic">Recalls</span> the commitment to pay particular attention to the unique and emerging information and communications technology challenges faced by all countries, in particular developing countries, as envisaged in General Assembly resolution <a href="https://docs.un.org/en/A/RES/80/173">80/173</a>, and encourages the development of international partnerships on artificial intelligence capacity-building to develop education and training programmes, increase access to resources including open artificial intelligence models and systems, open training data and compute, facilitate artificial intelligence model training and development, promote the participation of micro-, small and medium-sized enterprises in the digital economy, and leverage existing United Nations and multi-stakeholder mechanisms to support artificial intelligence capacity-building to bridge artificial intelligence divides, facilitate access to artificial intelligence applications and build capacity in high-performance computing and related skills in developing countries; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_250" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_250__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> that without the appropriate and adequate provision of means of implementation, the rapid pace and scale of digitalization may outpace the ability and readiness of some countries to adapt to digital transformation and its subsequent social and economic challenges, and also recognizes that equitable and meaningful inclusion in the digital economy requires efforts to tackle concentrations of technological capacity and market power in order to ensure that the benefits of digital cooperation are fairly distributed and do not exacerbate existing inequalities or impede the full achievement of sustainable development; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_272" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_272__content">
+          <p xml:space="preserve">	<span class="italic">Also recognizes</span> the special and specific funding needs of the developing world, as referred to in paragraph 16 of the Geneva Declaration of Principles of 2003;<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">	 	See <a href="https://docs.un.org/en/A/C.2/59/3">A/C.2/59/3</a>, annex. </p></authorialNote> </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_295" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_295__content">
+          <p xml:space="preserve">	<span class="italic">Further recognizes</span> that financing of information and communications technologies for development needs to be placed in the context of the growing importance of the role of information and communications technologies, not only as a medium of communication, but also as a development enabler, and as a tool for the achievement of the internationally agreed development goals and objectives, including the Sustainable Development Goals;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_319" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_319__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms </span>the call in the outcome document of the Fourth International Conference on Financing for Development, the Sevilla Commitment, endorsed by the General Assembly in its resolution <a href="https://docs.un.org/en/A/RES/79/323">79/323</a> of 25 August 2025, for the development of financing plans and coordination of investment in digital infrastructure, including digital public infrastructure and digital public goods, and for international collaboration between national Governments, development finance institutions, multilateral development banks and relevant international organizations and private sector actors to support countries in their design of digital infrastructure, its financing models and impact measurement;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_344" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_344__content">
+          <p xml:space="preserve">	<span class="italic">Recalls</span> the commitment to renew the impetus to address and close digital divides, calls for strengthened international cooperation to address the financial and other constraints impeding the achievement of digital inclusion for all, and, in particular, calls upon governments, multilateral development banks, relevant international organizations and the private sector to develop financing mechanisms and incentives, including through North-South, South-South and triangular cooperation, to connect the unconnected to the Internet and to improve the quality and affordability of connectivity; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_370" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_370__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span>, in this regard, the establishment of an internal task force led by the International Telecommunication Union, as the secretariat of the United Nations Group on the Information Society, working with the World Summit action line facilitators and other members of the Group, to conduct an assessment of gaps and challenges and to submit concrete recommendations on strengthening financial mechanisms for digital development for developing countries, building on and complementing existing best practices, including those of multilateral financial institutions, development partners and other relevant stakeholders, such as the private sector; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_397" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_397__content">
+          <p xml:space="preserve">	<span class="italic">Acknowledges</span> that developing digital public goods and digital public infrastructure are critical drivers of inclusive digital transformation and innovation and recognizes the need to increase investment in their successful development with the participation of all stakeholders; digital public goods include open-source software, open data, open artificial intelligence models, open standards and open content that adhere to the right to privacy and other applicable international laws, standards and best practices; recognizes that there are multiple models and definitions of digital public infrastructure, and that each society will develop and use shared digital systems according to its particular priorities and needs; and also recognizes that appropriate governance frameworks are essential to enhance trust in technology and data use by ensuring inclusion, fairness and human rights;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_425" class="SingleTxt">
+        <num>32.</num>
+        <content eId="para_425__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> that Internet governance must continue to be global and multi‑stakeholder in nature, with the full involvement of Governments, the private sector, civil society, international organizations, technical and academic communities and all other relevant stakeholders in accordance with their respective roles and responsibilities, and reaffirms that Internet governance should continue to follow the provisions set forth in the outcomes of the summits held in Geneva and Tunis, including in relation to enhanced cooperation; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_454" class="SingleTxt">
+        <num>33.</num>
+        <content eId="para_454__content">
+          <p xml:space="preserve">	<span class="italic">Recalls</span> the work of the Working Group on Enhanced Cooperation on Public Policy Issues Pertaining to the Internet, established by the Chair of the Commission on Science and Technology for Development as requested by the General Assembly in its resolution <a href="https://docs.un.org/en/A/RES/70/125">70/125</a> of 16 December 2015, to develop recommendations on how to further implement enhanced cooperation as envisioned in the Tunis Agenda for the Information Society;<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">	 	See <a href="https://docs.un.org/en/A/60/687">A/60/687</a>.</p></authorialNote></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_484" class="SingleTxt">
+        <num>34.</num>
+        <content eId="para_484__content">
+          <p xml:space="preserve">	<span class="italic">Takes note</span> of the NETmundial+10 guidelines for multi-stakeholder collaboration and consensus-building, endorsed in April 2024, as a contribution to strengthening Internet governance through inclusive participation, balanced representation and openness;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_515" class="SingleTxt">
+        <num>35.</num>
+        <content eId="para_515__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> that the Internet is a critical global facility for inclusive and equitable digital transformation, that the open, interoperable nature of the Internet has underpinned the development of an extraordinary range of services and applications, reaching across the range of human society, including governance, economy, development and human rights, and that, to fully benefit all, it must be open, global, interoperable, stable and secure, and reaffirms the need to promote international cooperation among all stakeholders to prevent, identify and address risks of fragmentation of the Internet;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_547" class="SingleTxt">
+        <num>36.</num>
+        <content eId="para_547__content">
+          <p xml:space="preserve">	<span class="italic">Acknowledges</span> the importance of the Internet Governance Forum established by the Secretary-General, which provides the primary multi-stakeholder platform for discussion of Internet governance issues, including emerging issues, as reflected in paragraph 72 of the Tunis Agenda for the Information Society; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_580" class="SingleTxt">
+        <num>37.</num>
+        <content eId="para_580__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes </span>the evolution of the Internet Governance Forum from an annual meeting into a broader ecosystem encompassing intersessional and other activities, including dynamic coalitions, best practice forums and policy networks, particularly welcomes the emergence of more than 180 national, regional and youth Internet governance forums, which have enhanced multi-stakeholder discussion of relevant issues in all continents, many subregions and a majority of Member States, also welcomes the work of the Multi-stakeholder Advisory Group of the Forum and the establishment by the Secretary-General of the Leadership Panel of the Forum, and looks forward to their future efforts in fulfilling the requests to the Forum as specified in General Assembly resolution <a href="https://docs.un.org/en/A/RES/80/173">80/173</a>; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_614" class="SingleTxt">
+        <num>38.</num>
+        <content eId="para_614__content">
+          <p xml:space="preserve">	<span class="italic">Also welcomes</span> the decision of the General Assembly to make the Internet Governance Forum a permanent forum of the United Nations, with a continued secretariat hosted by the Department of Economic and Social Affairs, on a stable and sustainable basis with appropriate staffing and resources; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_649" class="SingleTxt">
+        <num>39.</num>
+        <content eId="para_649__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes </span>the need to increase and broaden the participation in the Internet Governance Forum of Governments and other stakeholders from all countries, particularly from developing countries and underrepresented groups, such as African countries, the least developed countries, landlocked developing countries and small island developing States, build stronger relationships with other digital discussion forums and enable more substantive outcomes that can achieve greater impact; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_685" class="SingleTxt">
+        <num>40.</num>
+        <content eId="para_685__content">
+          <p xml:space="preserve">	<span class="italic">Also recognizes</span> the need to focus on capacity-development policies, innovation ecosystems and sustainable support to further enhance the impact of activities and initiatives at the national and local levels aimed at providing advice, services and support, particularly in developing countries, with a view to building an inclusive, people-centred and development-oriented information society; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_722" class="SingleTxt">
+        <num>41.</num>
+        <content eId="para_722__content">
+          <p xml:space="preserve">	<span class="italic">Notes</span> that, while a solid foundation for capacity-building in information and communications technologies, including in artificial intelligence, has been laid in many areas with regard to building the information society, there is still a need for continuing efforts to address the ongoing challenges, especially for developing countries and the least developed countries, and in this respect draws attention to the positive impact of broadened capacity development that involves institutions, organizations and entities dealing with information and communications technologies and Internet governance issues; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_760" class="SingleTxt">
+        <num>42.</num>
+        <content eId="para_760__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> a continued focus on maximizing development gains from digital trade, recognizes, in this regard, United Nations Conference on Trade and Development initiatives, such as eTrade for All, eTrade for Women, the Automated System for Customs Data programme, the digital government platform, as well as the Digital Economy Report and the global call for inclusive digital economy solutions, and takes positive note of the implementation by the United Nations Conference on Trade and Development of the rapid e-trade readiness assessments of least developed countries, in cooperation with other donors and organizations, in order to raise awareness of opportunities and challenges related to leveraging digital trade in the least developed countries; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_799" class="SingleTxt">
+        <num>43.</num>
+        <content eId="para_799__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> the need for further funding and capacity-building of national statistical systems and methodologies to enable all countries to meet the demand for improved data and statistics, calls upon development partners to provide additional resources, share best practices and support capacity development, particularly in developing countries, and urges the private sector to contribute by making appropriate data available to support the gathering and analysis of statistical evidence on the development of the information society, thereby strengthening research, policy development and the work of Governments, civil society, academia and other stakeholders; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_839" class="SingleTxt">
+        <num>44.</num>
+        <content eId="para_839__content">
+          <p xml:space="preserve">	<span class="italic">Also recognizes</span> that responsible and interoperable data governance is essential to advance development objectives, protect human rights, foster innovation and promote economic growth;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_880" class="SingleTxt">
+        <num>45.</num>
+        <content eId="para_880__content">
+          <p xml:space="preserve">	<span class="italic">Recalls</span> the role of the Commission on Science and Technology for Development on data governance, in light of the mandate it was given under the Global Digital Compact, on the establishment of a dedicated working group to engage in a comprehensive and inclusive multi-stakeholder dialogue on data governance at all levels as relevant for development, including on follow-up recommendations towards equitable and interoperable data governance arrangements;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_922" class="SingleTxt">
+        <num>46.</num>
+        <content eId="para_922__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> all stakeholders to promote digital literacy and awareness-raising efforts to empower individuals, especially those in vulnerable situations, to understand and exercise their data protection and privacy rights, make informed choices about their personal data and take appropriate steps to safeguard their online security and privacy;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_965" class="SingleTxt">
+        <num>47.</num>
+        <content eId="para_965__content">
+          <p xml:space="preserve">	<span class="italic">Encourages </span>the development and implementation of robust legal frameworks, policies and data protection and accountability measures to foster privacy by design across technologies and services, and highlights the importance of enabling cross-border data flows and data free flow with trust, while respecting applicable legal frameworks in this context, and reaffirming the role of data for development;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1009" class="SingleTxt">
+        <num>48.</num>
+        <content eId="para_1009__content">
+          <p xml:space="preserve">	<span class="italic">Acknowledges</span> the importance of data and statistics, including the need for more comprehensive indicators reflecting access, use and impact, including disaggregated data for gender equality, to support information and communications technology for development, and calls for further quantitative data to support evidence-based decision-making, as well as the inclusion of information and communications technology data in national strategies for the development of statistics and regional statistical work programmes; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1054" class="SingleTxt">
+        <num>49.</num>
+        <content eId="para_1054__content">
+          <p xml:space="preserve">	<span class="italic">Emphasizes </span>the vital importance of multilingualism and local content and the integrity of information, and in this regard urges all stakeholders to encourage the creation of and access to educational, cultural and scientific content online, aiming at promoting inclusive and meaningful access to the Internet in all languages, including Indigenous languages, and ensuring that all people and cultures can express themselves;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1100" class="SingleTxt">
+        <num>50.</num>
+        <content eId="para_1100__content">
+          <p xml:space="preserve">	<span class="italic">Notes</span> that information and communications technologies have had substantial impacts on diversity of cultural expression and the development of the cultural and creative sectors, and urges all stakeholders to recognize the importance of ensuring the preservation of cultural heritage, including digital content, and promoting access to cultural resources;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1101" class="H23">
+        <subheading>		II </subheading>
+      </paragraph>
+      <paragraph eId="para_1102" class="H23">
+        <subheading>		Overview of the implementation of the World Summit on the Information Society</subheading>
+      </paragraph>
+      <paragraph eId="para_1103" class="SingleTxt">
+        <num>51.</num>
+        <content eId="para_1103__content">
+          <p xml:space="preserve">	<span class="italic">Takes note with satisfaction </span>of the report of the Secretary-General on the progress made in the implementation of and follow-up to the outcomes of the World Summit at the regional and international levels, including the 20-year review thereof;<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">	 	<a href="https://docs.un.org/en/A/81/62">A/81/62-E/2025/48</a>.</p></authorialNote> </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1104" class="SingleTxt">
+        <num>52.</num>
+        <content eId="para_1104__content">
+          <p xml:space="preserve">	<span class="italic">Notes</span> the ongoing implementation of the outcomes of the World Summit, emphasizing, in particular, its multi-stakeholder nature and the role played in this regard by leading agencies, acknowledges that the implementation of the outcomes of the World Summit at the regional level is facilitated by the regional commissions, as observed in the report of the Secretary-General on the progress made in the implementation of and follow-up to the outcomes of the World Summit at the regional and international levels, including on the steps taken in this respect, and emphasizes the need to continue to address issues of specific interest to each region, focusing on the challenges and obstacles that each region may be facing with regard to the implementation of all goals and principles established by the World Summit; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1106" class="SingleTxt">
+        <num>53.</num>
+        <content eId="para_1106__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the many initiatives of United Nations organizations to support the implementation of the World Summit action lines, and encourages all action line facilitators to continue this work, reiterates the importance of the World Summit on the Information Society Forum for sharing best practices at all levels through the World Summit stocktaking platform, and recognizes the World Summit prizes contest, which rewards excellence in the implementation of projects and initiatives that further the goals of the World Summit; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1109" class="SingleTxt">
+        <num>54.</num>
+        <content eId="para_1109__content">
+          <p xml:space="preserve">	<span class="italic">Notes</span> the World Summit process and 2030 Agenda-Global Digital Compact matrix, prepared by the United Nations Group on the Information Society, which maps the objectives and commitments of the Global Digital Compact to existing World Summit structures, mechanisms and activities, providing a structured approach for effective follow-up and implementation, and, building on this work and consistent with the recommendations of the Economic and Social Council and within existing mandates and resources, takes note of the first version of the joint implementation road map prepared the United Nations Group on the Information Society, which aims to strengthen coherence between the World Summit and the Global Digital Compact, ensuring a unified, resource-efficient approach to digital cooperation that avoids duplication and maximizes synergies across the United Nations system; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1113" class="SingleTxt">
+        <num>55.</num>
+        <content eId="para_1113__content">
+          <p xml:space="preserve">	<span class="italic">Acknowledges</span> the approaches to international governance of artificial intelligence for the benefit of humanity adopted by the General Assembly in the Global Digital Compact, and in this regard welcomes the establishment, pursuant to Assembly resolution <a href="https://docs.un.org/en/A/RES/79/325">79/325</a> of 26 August 2025, of the Independent International Scientific Panel on Artificial Intelligence and the Global Dialogue on Artificial Intelligence Governance, as platforms for evidence-based assessments and international cooperation on artificial intelligence governance; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1118" class="SingleTxt">
+        <num>56.</num>
+        <content eId="para_1118__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> the annual World Summit on the Information Society Forum, which has become an important platform for the sharing of information and best practice and for multi-stakeholder dialogue and collaboration and for developing networks and coordinating initiatives to implement the World Summit vision; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1119" class="H23">
+        <subheading>		III</subheading>
+      </paragraph>
+      <paragraph eId="para_1120" class="H23">
+        <subheading>		The road ahead</subheading>
+      </paragraph>
+      <paragraph eId="para_1121" class="SingleTxt">
+        <num>57.</num>
+        <content eId="para_1121__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms</span> the centrality of the World Summit action lines, as defined in the Geneva Plan of Action, as the main framework for translating the World Summit vision into concrete outcomes;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1122" class="SingleTxt">
+        <num>58.</num>
+        <content eId="para_1122__content">
+          <p xml:space="preserve">	<span class="italic">Recalls </span>that, in its resolution <a href="https://docs.un.org/en/A/RES/80/173">80/173</a>, the General Assembly requested continuation of the reports on the implementation of the outcomes of the World Summit, through the Commission on Science and Technology for Development, to the Economic and Social Council; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1124" class="SingleTxt">
+        <num>59.</num>
+        <content eId="para_1124__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to submit to the Commission on Science and Technology for Development, on a biennial basis, a report on the implementation of the recommendations contained in the present resolution as well as in the other Council resolutions on the assessment of the quantitative and qualitative progress made in the implementation of and follow-up to the outcomes of the World Summit; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1127" class="SingleTxt">
+        <num>60.</num>
+        <content eId="para_1127__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms</span> the role of the Commission on Science and Technology for Development, as set forth in Council resolution 2006/46, in assisting the Council as the focal point in the system-wide follow-up, in particular the review and assessment of progress made in implementing the outcomes of the World Summit, as well as in the follow-up and review process of the Global Digital Compact;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1131" class="SingleTxt">
+        <num>61.</num>
+        <content eId="para_1131__content">
+          <p xml:space="preserve">	<span class="italic">Encourages </span>World Summit action line facilitators to ensure close alignment with the 2030 Agenda and the Global Digital Compact when considering new work to implement the outcomes of the World Summit, according to their existing mandates and resources; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1136" class="SingleTxt">
+        <num>62.</num>
+        <content eId="para_1136__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> United Nations organizations, within their mandates and responsibilities, as well as other relevant organizations and forums, to promote assessment of the impact of information and communications technologies on sustainable development; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1142" class="SingleTxt">
+        <num>63.</num>
+        <content eId="para_1142__content">
+          <p xml:space="preserve">	<span class="italic">Recalls</span> the continuation and strengthening of the work of the United Nations Group on the Information Society, with a Chair rotating on an annual basis and a secretariat provided by the International Telecommunication Union, as the United Nations system inter-agency mechanism for advancing policy coherence and programme coordination on digital matters, also recalls the invitation to the Group to enhance its agility, efficiency and effectiveness and expand its membership to further United Nations entities, with a view to fostering multi-stakeholder dialogue, partnership-building and a review of progress on digital cooperation, and invites the Group to inform on progress made thereon for the consideration of the Commission on Science and Technology for Development at its thirtieth session, in 2027;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1149" class="SingleTxt">
+        <num>64.</num>
+        <content eId="para_1149__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> the Commission on Science and Technology for Development and action line facilitators, within their respective mandates, to share experience on the enabling environment and support the development of demand-driven policy guidance, technical assistance and capacity-building, as appropriate, to realize them; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1157" class="SingleTxt">
+        <num>65.</num>
+        <content eId="para_1157__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms</span> the commitment to maintain and improve cooperation between the activities of international and intergovernmental organizations and other stakeholders concerned with Internet governance; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1166" class="SingleTxt">
+        <num>66.</num>
+        <content eId="para_1166__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Internet Governance Forum to report annually on progress towards implementation of the outcomes of the World Summit to the Commission on Science and Technology for Development, and further calls upon the United Nations Group on the Information Society and all relevant United Nations entities, action line facilitators, the Commission and the World Summit on the Information Society Forum to take Internet Governance Forum outcomes into account in their work and proceedings; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1176" class="SingleTxt">
+        <num>67.</num>
+        <content eId="para_1176__content">
+          <p xml:space="preserve">	<span class="italic">Recalls</span> the request of the General Assembly for the World Summit action line facilitators, in coordination with the United Nations Group on the Information Society, to develop targeted and result-oriented implementation road maps for their respective action lines and the outcomes of resolution <a href="https://docs.un.org/en/A/RES/80/173">80/173</a>, linking the World Summit action lines with relevant Sustainable Development Goal targets and Global Digital Compact commitments, including clear analysis of opportunities and challenges, measurable targets, indicators and metrics to facilitate monitoring and measurement, and to report on the outcomes of this work to the Commission on Science and Technology for Development at its thirtieth session, in 2027;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1187" class="SingleTxt">
+        <num>68.</num>
+        <content eId="para_1187__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> all action line facilitators, in coordination with the United Nations Group on the Information Society, to conduct an annual update briefing, organized by the secretariat of the Commission on Science and Technology for Development, on work done, providing a synthesis of all initiatives carried out by each organization under its corresponding mandate; the briefing should be carried out before each annual session of the Commission, serving as a technical input for the World Summit implementation overview of the resolution, as well as the biennial report of the Secretary-General; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1199" class="SingleTxt">
+        <num>69.</num>
+        <content eId="para_1199__content">
+          <p xml:space="preserve">	<span class="italic">Calls</span>, in order to increase transparency and coherence within the United Nations system, for the United Nations Group on the Information Society to submit to the Commission on Science and Technology for Development on an annual basis a report on updated versions of the joint implementation road map, including clear analysis of opportunities and challenges, containing measures such as detailed timelines, clear responsibilities and measurable targets, embedded within a forward-looking and operational implementation framework, to ensure a unified, resource-efficient approach to digital cooperation that avoids duplication and maximizes synergies;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1212" class="SingleTxt">
+        <num>70.</num>
+        <content eId="para_1212__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the internal task force on strengthening financial mechanisms for digital development for developing countries to conduct an assessment of gaps and challenges and to submit concrete recommendations on strengthening financial mechanisms for digital development for developing countries, building on and complementing existing best practices, including those of multilateral financial institutions, development partners and other relevant stakeholders, such as the private sector, to the Commission on Science and Technology for Development at its thirtieth session, in 2027, for consideration by Member States, and invites the internal task force to monitor financial commitments for the implementation of these outcomes;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1226" class="SingleTxt">
+        <num>71.</num>
+        <content eId="para_1226__content">
+          <p xml:space="preserve">	<span class="italic">Acknowledges</span> the request of the General Assembly, in its resolution <a href="https://docs.un.org/en/A/RES/80/173">80/173</a>, to hold a high-level meeting on the overall review of the implementation of the outcomes of the World Summit on the Information Society in 2035, involving the input and participation of all stakeholders, including in the preparatory process; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1241" class="SingleTxt">
+        <num>72.</num>
+        <content eId="para_1241__content">
+          <p xml:space="preserve">	<span class="italic">Recalls</span> the role of the Commission on Science and Technology for Development in data governance within the United Nations system, and requests the working group established in line with the Global Digital Compact to report on its progress to the General Assembly, by no later than the eighty-first session; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1257" class="SingleTxt">
+        <num>73.</num>
+        <content eId="para_1257__content">
+          <p xml:space="preserve">	<span class="italic">Commits</span> to strengthening international cooperation to close the current serious gaps on data for development and champion the responsible use and sharing of data within and between countries to advance progress across the Sustainable Development Goals;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1274" class="SingleTxt">
+        <num>74.</num>
+        <content eId="para_1274__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> United Nations entities to continue actively cooperating in the implementation of and follow-up to the outcomes of the World Summit through the United Nations system, by taking the steps necessary to build a people-centred, inclusive and development-oriented information society, as well as to catalyse the attainment of the internationally agreed development goals, including those contained in the 2030 Agenda;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1292" class="SingleTxt">
+        <num>75.</num>
+        <content eId="para_1292__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon </span>United Nations organizations and other relevant organizations and forums, in accordance with the outcomes of the World Summit, to take into account the methodologies for information and communications technology indicators, different levels of development and national circumstances, and calls upon the United Nations and other relevant organizations and forums to periodically review these methodologies for information and communications technology indicators and share information about country case studies;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1311" class="SingleTxt">
+        <num>76.</num>
+        <content eId="para_1311__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Partnership on Measuring Information and Communications Technology for Development, in cooperation with action line facilitators and with the support of the Statistical Commission, to conduct a systematic review of existing indicators and methodologies, to consider, in this context, the development of enhanced metrics that go beyond access and connectivity, in order to better capture participation, influence and impact in the digital economy, including women and girls, and to report its findings to the Commission on Science and Technology for Development at its thirtieth session, in 2027; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1331" class="SingleTxt">
+        <num>77.</num>
+        <content eId="para_1331__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that the Commission on Science and Technology for Development will review the resolution on a biennial basis starting in 2028, unless otherwise agreed, and also decides to continue undertaking its annual review and assessment of progress made in implementing the outcomes of the World Summit.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="40th" refersTo="#adoptionMeeting">40th plenary meeting</location>
+          <eol />
+          <docDate date="2026-07-21" refersTo="#adoptionDate">21 July 2026</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
