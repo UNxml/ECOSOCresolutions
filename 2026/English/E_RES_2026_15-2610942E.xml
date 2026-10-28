@@ -1,0 +1,245 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-15/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-15/"></FRBRuri>
+          <FRBRdate date="2026-07-21" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-15/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-15/eng@/"></FRBRuri>
+          <FRBRdate date="2026-07-24" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-15/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-15/eng@.xml"></FRBRuri>
+          <FRBRdate date="2026-09-25" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Office on Drugs and Crime" showAs="UN Office on Drugs and Crime" dictionary="DHLAUTH"></keyword>
+        <keyword value="FRAUD" href="http://metadata.un.org/thesaurus/1002516" showAs="FRAUD" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CRIME PREVENTION" href="http://metadata.un.org/thesaurus/1001376" showAs="CRIME PREVENTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CRIMINAL JUSTICE" href="http://metadata.un.org/thesaurus/1001388" showAs="CRIMINAL JUSTICE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL COOPERATION" href="http://metadata.un.org/thesaurus/1003291" showAs="INTERNATIONAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="19c" showAs="Crime prevention and criminal justice" shortForm="CRIME PREVENTION" dictionary="E/2026/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2026-06-17" outcome="recommendedForAdoption" as="E/2026/30" by="UN. Commission on Crime Prevention and Criminal Justice" />
+        <step date="2026-07-24" outcome="adopted" as="Adopted without vote, 40th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">26-10942 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2026/15</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Economic and Social Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2026-07-24" class="rightSmall" refersTo="#dateOfIssuance">24 July 2026</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2026" eId="coverPage_1__session_1">2026 session</session>
+      </p>
+      <p>
+        <inline title="19 (c)" name="agenda item">Agenda item 19 (c)</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Social and human rights questions: crime prevention and criminal justice</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the Economic and Social Council on 21 July 2026</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent>[on the recommendation of the Commission on Crime Prevention and Criminal Justice (<inline name="originating document">E/2026/30</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2026/15.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Strengthening crime prevention and criminal justice responses to prevent and combat fraud</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Economic and Social Council</span>
+        </p>
+      </formula>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_2" class="SingleTxt">
+        <content eId="para_2__content">
+          <p xml:space="preserve">	<span class="italic">Recommends</span> to the General Assembly the adoption of the following draft resolution:
+<embeddedStructure>
+<container name="formula"><p xml:space="preserve">
+<span class="italic">	The General Assembly</span>,</p></container>
+<container name="Recalling" eId="container_4"><p xml:space="preserve">
+<span class="italic">	Recalling</span> Economic and Social Council resolution <a href="https://docs.un.org/E/RES/2013/39">2013/39</a> of 25 July 2013 on international cooperation in the prevention, investigation, prosecution and punishment of economic fraud and identity-related crime, as well as Council resolutions <a href="https://docs.un.org/E/RES/2004/26">2004/26</a> of 21 July 2004, <a href="https://docs.un.org/E/RES/2007/20">2007/20</a> of 26 July 2007, <a href="https://docs.un.org/E/RES/2009/22">2009/22</a> of 30 July 2009 and <a href="https://docs.un.org/E/RES/2011/35">2011/35</a> of 28 July 2011,</p></container>
+<container name="Recognizing" eId="container_5"><p xml:space="preserve">
+<span class="italic">	Recognizing </span>that fraud is rapidly evolving as an increasingly sophisticated crime that threatens security, individual well-being, economic stability and trust in financial systems, and that it can cause economic, emotional and psychological harm to victims and communities worldwide,</p></container>
+<container name="Deeply concerned" eId="container_6"><p xml:space="preserve">
+<span class="italic">	Deeply concerned </span>about the growing scale of transnational fraud committed by organized criminal groups, including cyber-enabled and other forms of digital fraud, and the industrialization of fraud in scam centres and through other criminal organizations involved in fraud,</p></container>
+<container name="Recognizing" eId="container_7"><p xml:space="preserve">
+<span class="italic">	Recognizing</span> that proceeds of transnational fraud committed by organized criminal groups are increasingly converted into and concealed as virtual assets, and noting that such groups may commit other crimes such as money-laundering, corruption, bribery, trafficking in drugs, trafficking in cultural property and trafficking in persons for the purpose of forced criminality,</p></container>
+<container name="Recalling" eId="container_8"><p xml:space="preserve">
+<span class="italic">	Recalling </span>General Assembly resolution <a href="https://docs.un.org/A/RES/79/243">79/243</a> of 24 December 2024, by which the General Assembly adopted the United Nations Convention against Cybercrime; Strengthening International Cooperation for Combating Certain Crimes Committed by Means of Information and Communications Technology Systems and for the Sharing of Evidence in Electronic Form of Serious Crimes, and noting, pending the entry into force of that Convention, its relevance for preventing and combating cyber-enabled fraud, as well as for the collection, preservation and sharing of electronic evidence,</p></container>
+<container name="Recognizing" eId="container_9"><p xml:space="preserve">
+<span class="italic">	Recognizing </span>that effective crime prevention and criminal justice responses against fraud require sustained political will and effective national efforts across sectors, including, in accordance with domestic law, the active involvement of the private sector and other relevant stakeholders, as well as coordinated actions across national borders, as appropriate,</p></container>
+<container name="Recognizing also" eId="container_10"><p xml:space="preserve">	
+<span class="italic">Recognizing also</span> the potential of advanced and emerging technologies, including, within each domestic cybercontext, the use of digital forensics and data analytics to support the prevention, detection, investigation and prosecution of fraud cases, while noting the need to address risks relating to data quality, privacy and data protection in accordance with domestic law, and noting the work undertaken by the United Nations Office on Drugs and Crime with regard to training for law enforcement services on new and emerging technologies,</p></container>
+<container name="Recognizing further" eId="container_11"><p xml:space="preserve">	
+<span class="italic">Recognizing further</span> the role of appropriate national bodies, including central banks, financial intelligence units and other relevant public authorities, in safeguarding the integrity, stability and resilience of the financial and digital systems with the aim of, inter alia, supporting the prevention, detection, investigation and mitigation of fraud and financial crimes,</p></container>
+<container name="Recognizing" eId="container_12"><p xml:space="preserve">	
+<span class="italic">Recognizing</span>, in accordance with domestic law, the role of financial institutions, online platforms, telecommunication providers and other relevant stakeholders in safeguarding the integrity, stability and resilience of the financial and digital systems, including through, as appropriate, the prevention, detection, investigation and mitigation of fraud and financial crimes,</p></container>
+<container name="Concerned" eId="container_13"><p xml:space="preserve">	
+<span class="italic">Concerned</span> that fraud increasingly constitutes a source of financing for transnational organized criminal groups that exploit financial systems and virtual assets to move, conceal and launder the proceeds of their criminal activities,</p></container>
+<container name="Emphasizing" eId="container_14"><p xml:space="preserve">
+<span class="italic">	Emphasizing </span>the importance of timely, secure and relevant multisectoral information-sharing, in accordance with domestic law and regulations, in preventing and combating fraud, including through cooperation between public authorities and the private sector, including through public-private partnerships, as well as multi-agency and specialized multinational task forces, as appropriate and with a view to, inter alia, achieving criminal justice outcomes,</p></container>
+<container name="Recognizing" eId="container_15"><p xml:space="preserve">
+<span class="italic">	Recognizing </span>the need to deny criminals the ability to profit from the proceeds of fraud, including by strengthening international cooperation through asset seizure and the freezing, confiscation, recovery and return of proceeds of fraud offences, and the need to support victims, including through restitution, in accordance with domestic law,</p></container>
+<container name="Reaffirming" eId="container_16"><p xml:space="preserve">	
+<span class="italic">Reaffirming</span> the importance of strengthening the provision of impactful and effective technical assistance to Member States, taking into consideration the needs and priorities identified by requesting States, in order to support their efforts in preventing and combating fraud, and acknowledging the importance of achievable results and the important role of the United Nations Office on Drugs and Crime in that regard,</p></container>
+<container name="Expressing appreciation" eId="container_17"><p xml:space="preserve">
+<span class="italic">	Expressing appreciation</span> to the United Nations Office on Drugs and Crime, the International Criminal Police Organization (INTERPOL) and donors for convening the Global Fraud Summit 2026, and taking note of the outcome documents of the Summit, namely the Call to Action on Combating Fraud and the Global Public-Private Partnership Framework against Fraud,</p></container>
+<paragraph eId="para_18" class="SingleTxt">
+<num>1.</num>
+<content eId="para_18__content"><p xml:space="preserve">	<span class="italic">Urges </span>Member States to consider organized fraud as a serious crime, as defined in article 2 (b) of the United Nations Convention on Transnational Organized Crime,<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		United Nations, <span class="italic">Treaty Series</span>, vol. 2225, No. 39574.</p></authorialNote> in accordance with their national legislation, in order to ensure that, where the offence is transnational in nature and involves an organized criminal group, effective international cooperation can be afforded under the Convention, and calls upon Member States to continue to develop and implement targeted and evidence-based crime prevention measures and criminal justice responses to prevent and combat fraud;</p></content></paragraph>
+<paragraph eId="para_19" class="SingleTxt">
+<num>2.</num>
+<content eId="para_19__content"><p xml:space="preserve">	<span class="italic">Calls upon</span> Member States, where appropriate, to promote and implement multi-stakeholder and multisectoral fraud awareness and crime prevention initiatives, such as educational and public messaging campaigns to increase resilience and reduce vulnerability to fraud, including through a better understanding of emerging fraud threats and by reducing vulnerability to deceptive recruitment practices;</p></content></paragraph>
+<paragraph eId="para_21" class="SingleTxt">
+<num>3.</num>
+<content eId="para_21__content"><p xml:space="preserve">	<span class="italic">Also calls upon </span>Member States to take steps to thoroughly investigate and, where appropriate, duly prosecute fraud cases and hold perpetrators of fraud accountable, while recognizing prosecutorial discretion and judicial independence, including through, where appropriate and in accordance with domestic law and applicable international law, mutual legal assistance, extradition, the recovery and return of proceeds of crimes and the denial of safe haven;</p></content></paragraph>
+<paragraph eId="para_24" class="SingleTxt">
+<num>4.</num>
+<content eId="para_24__content"><p xml:space="preserve">	<span class="italic">Urges</span> Member States, through their appropriate national bodies, including central banks, financial supervisory authorities and financial intelligence units, to take steps to ensure that regulated financial institutions adopt robust fraud risk management frameworks, in accordance with domestic law;</p></content></paragraph>
+<paragraph eId="para_28" class="SingleTxt">
+<num>5.</num>
+<content eId="para_28__content"><p xml:space="preserve">	<span class="italic">Calls upon</span> Member States, through their appropriate national authorities, regulators, competent authorities and public-private partnerships, to encourage, where appropriate, online platforms, telecommunication providers and other relevant stakeholders to implement effective systems and controls to prevent, detect and disrupt fraudulent activity and misuse of their services and to cooperate with law enforcement authorities, in accordance with domestic law;</p></content></paragraph>
+<paragraph eId="para_33" class="SingleTxt">
+<num>6.</num>
+<content eId="para_33__content"><p xml:space="preserve">	<span class="italic">Encourages</span> Member States to establish or maintain legislation to criminalize conduct involved in the commission of cyber-enabled fraud and allow for improved international cooperation for the effective investigation and prosecution of cyber-enabled fraud;</p></content></paragraph>
+<paragraph eId="para_39" class="SingleTxt">
+<num>7.</num>
+<content eId="para_39__content"><p xml:space="preserve">	<span class="italic">Calls upon </span>Member States to strengthen international cooperation and domestic measures to identify, freeze, seize, confiscate and return the proceeds of crime derived from fraud, prioritizing compensating victims or return to legitimate owners in accordance with their domestic law and international obligations;</p></content></paragraph>
+<paragraph eId="para_46" class="SingleTxt">
+<num>8.</num>
+<content eId="para_46__content"><p xml:space="preserve">	<span class="italic">Encourages</span> Member States to consider establishing dedicated bodies for preventing and combating fraud, where appropriate, such as specialized fraud combating units or organized crime units that address fraud, with a clear mandate to, inter alia, manage and coordinate the investigation of cases of fraud and associated crimes to support competent authorities in addressing organized and systemic fraud threats, and coordinate complex and cross-border cases;</p></content></paragraph>
+<paragraph eId="para_54" class="SingleTxt">
+<num>9.</num>
+<content eId="para_54__content"><p xml:space="preserve">	<span class="italic">Strongly encourages </span>Member States to take effective measures to identify, disrupt and dismantle organized fraud operations, such as scam centres and other operations involving trafficking in persons for the purpose of committing fraud, including by disrupting deceptive worker recruitment practices and dismantling financial networks and supply chains used by organized criminal groups to commit fraud;</p></content></paragraph>
+<paragraph eId="para_63" class="SingleTxt">
+<num>10.</num><list eId="para_63_list"><intro eId="para_63_list_intro"><p xml:space="preserve">	<span class="italic">Encourages</span> Member States, in accordance with domestic law and within their means, to implement and strengthen appropriate measures to protect and support victims of fraud and victims of trafficking in persons for the purpose of forced criminality in fraud operations, including:</p></intro><point eId="para_63_list_point_a">
+<num>(a)</num>
+<content eId="para_63_list_point_a_content"><p xml:space="preserve">	By establishing or enhancing appropriate procedures for providing access to compensation, restitution, support services or other appropriate remedies for those victims;</p></content></point><point eId="para_63_list_point_b">
+<num>(b)</num>
+<content eId="para_63_list_point_b_content"><p xml:space="preserve">	By ensuring that victims of trafficking in persons for the purpose of forced criminality in fraud operations are treated with respect and dignity and are not inappropriately penalized or adversely affected by laws, policies and actions taken by government authorities for acts that they committed as a direct consequence of their trafficking situation;</p></content></point></list></paragraph>
+<paragraph eId="para_73" class="SingleTxt">
+<num>11.</num>
+<content eId="para_73__content"><p xml:space="preserve">	<span class="italic">Calls upon</span> Member States to take the appropriate measures, in accordance with their domestic law, to prevent, detect, counter and disrupt technical fraud facilitators, including the misuse of digital infrastructure, communication services and financial systems, and also calls upon Member States to investigate and, where appropriate, prosecute the natural and legal persons that, including through such acts as money-laundering and corruption, aid and abet fraud;</p></content></paragraph>
+<paragraph eId="para_84" class="SingleTxt">
+<num>12.</num>
+<content eId="para_84__content"><p xml:space="preserve">	<span class="italic">Encourages </span>Member States to strengthen international cooperation, including mutual legal assistance, extradition, coordination on asset recovery among fraud combating units, financial intelligence units and other competent authorities, joint or parallel investigations, as appropriate, and the exchange of information in accordance with domestic legislation and applicable international law, with a view to disrupting criminality and dismantling transnational organized criminal groups engaged in fraud;</p></content></paragraph>
+<paragraph eId="para_96" class="SingleTxt">
+<num>13.</num>
+<content eId="para_96__content"><p xml:space="preserve">	<span class="italic">Also encourages </span>Member States, when preventing, investigating and prosecuting fraud, to use the information, in accordance with domestic law and regulations and, where appropriate, provided by their fraud combating units, financial intelligence units and other competent authorities, and to strengthen cooperation between their financial intelligence units through the appropriate use of existing channels and networks for information-sharing;</p></content></paragraph>
+<paragraph eId="para_109" class="SingleTxt">
+<num>14.</num>
+<content eId="para_109__content"><p xml:space="preserve">	<span class="italic">Calls upon </span>Member States to strengthen international cooperation to prevent and combat fraud by enhancing information-sharing and operational collaboration among law enforcement authorities and specialized multinational and multi-agency task forces, and encourages Member States to make use of the channels and capabilities of competent investigative authorities, judicial authorities and international cooperation networks, including the channels and capabilities of the International Criminal Police Organization (INTERPOL), to support the secure and timely transmission of data, while ensuring compliance with their domestic law and international obligations;</p></content></paragraph>
+<paragraph eId="para_123" class="SingleTxt">
+<num>15.</num><list eId="para_123_list"><intro eId="para_123_list_intro"><p xml:space="preserve">	<span class="italic">Encourages </span>Member States to take steps to promote action by private industry partners, including financial institutions, online platforms and services, telecommunications providers, virtual asset service providers and other relevant sectors, to prevent, detect and disrupt fraud, by means of:</p></intro><point eId="para_123_list_point_a">
+<num>(a)</num>
+<content eId="para_123_list_point_a_content"><p xml:space="preserve">	Strengthening anti‑fraud safeguards;</p></content></point><point eId="para_123_list_point_b">
+<num>(b)</num>
+<content eId="para_123_list_point_b_content"><p xml:space="preserve">	Enhancing timely and secure information-sharing and support for operational responses with appropriate public authorities, such as law enforcement and financial intelligence units, in accordance with domestic law, to detect and disrupt fraud and facilitators of fraud;</p></content></point></list></paragraph>
+<paragraph eId="para_138" class="SingleTxt">
+<num>16.</num>
+<content eId="para_138__content"><p xml:space="preserve">	<span class="italic">Also encourages</span> Member States to consider, within their means, the use of advanced and emerging technologies, including, within their domestic cybercontext, digital forensics and data analytics as tools to support efforts aimed at facilitating the prevention, investigation and prosecution of fraud cases, with full respect for human rights, privacy and data protection, in accordance with their domestic law and international obligations;</p></content></paragraph>
+<paragraph eId="para_154" class="SingleTxt">
+<num>17.</num>
+<content eId="para_154__content"><p xml:space="preserve">	<span class="italic">Further encourages</span> Member States to strengthen the provision of impactful and effective technical assistance, including through the United Nations Office on Drugs and Crime, taking into consideration the needs and priorities identified by requesting States, to support achievable results in preventing and combating fraud;</p></content></paragraph>
+<paragraph eId="para_171" class="SingleTxt">
+<num>18.</num><list eId="para_171_list"><intro eId="para_171_list_intro"><p xml:space="preserve">	<span class="italic">Requests </span>the United Nations Office on Drugs and Crime, within its mandate and subject to the availability of extrabudgetary resources and subject to review by the Commission on Crime Prevention and Criminal Justice, after three years, to:</p></intro><point eId="para_171_list_point_a">
+<num>(a)</num>
+<content eId="para_171_list_point_a_content"><p xml:space="preserve">	Collect information from States, on a voluntary basis, regarding emerging crime trends, typologies, good practices, capacity gaps and challenges in preventing and combating fraud, and to make that information available every two years to the Commission on Crime Prevention and Criminal Justice;</p></content></point><point eId="para_171_list_point_b">
+<num>(b)</num>
+<content eId="para_171_list_point_b_content"><p xml:space="preserve">	Support Member States in implementing the present resolution;</p></content></point></list></paragraph>
+<paragraph eId="para_189" class="SingleTxt">
+<num>19.</num>
+<content eId="para_189__content"><p xml:space="preserve">	<span class="italic">Invites</span> Member States that endorsed the outcome documents of the Global Fraud Summit 2026, namely the Call to Action on Combating Fraud and the Global Public-Private Partnership Framework against Fraud, to benefit from those documents in their domestic efforts to prevent and combat fraud;</p></content></paragraph>
+<paragraph eId="para_208" class="SingleTxt">
+<num>20.</num>
+<content eId="para_208__content"><p xml:space="preserve">	<span class="italic">Invites</span> Member States and other stakeholders to consider providing voluntary contributions for the purposes set out in the present resolution, and requests the United Nations Office on Drugs and Crime to utilize any extrabudgetary resources provided for those purposes efficiently and effectively.</p></content></paragraph></embeddedStructure></p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="40th" refersTo="#adoptionMeeting">40th plenary meeting</location>
+          <eol />
+          <docDate date="2026-07-21" refersTo="#adoptionDate">21 July 2026</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
