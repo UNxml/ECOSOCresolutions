@@ -1,0 +1,173 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-8/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-8/"></FRBRuri>
+          <FRBRdate date="2026-07-21" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-8/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-8/spa@/"></FRBRuri>
+          <FRBRdate date="2026-07-24" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-8/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-8/spa@.xml"></FRBRuri>
+          <FRBRdate date="2026-09-25" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Ad Hoc Advisory Group on Haiti" showAs="UN. Ad Hoc Advisory Group on Haiti" dictionary="DHLAUTH"></keyword>
+        <keyword value="AID COORDINATION" href="http://metadata.un.org/thesaurus/1000178" showAs="AID COORDINATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" href="http://metadata.un.org/thesaurus/1006319" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COORDINATION WITHIN UN SYSTEM" href="http://metadata.un.org/thesaurus/1001299" showAs="COORDINATION WITHIN UN SYSTEM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HAITI" href="http://metadata.un.org/thesaurus/1002808" showAs="HAITI" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="12e" showAs="Long-term programme of support for Haiti" shortForm="HAITI--ECONOMIC ASSISTANCE" dictionary="E/2026/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2026-06-22" outcome="draftResolution" as="E/2026/L.13" by="Bahamas (The), Barbados, Belize, Brazil, Canada, Chile, Colombia, Costa Rica, Dominican Republic, Germany, Guatemala, Haiti, Italy, Jamaica, Mexico, Saint Kitts and Nevis, Saint Vincent and the Grenadines, Spain and Suriname" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2026-07-24" outcome="adopted" as="Adopted without vote, 39th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">26-10935 (S)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Naciones Unidas</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2026/8</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Consejo Económico y Social</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2026-07-24" class="rightSmall" refersTo="#dateOfIssuance">24 de julio de 2026</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2026" eId="coverPage_1__session_1">Período de sesiones de 2026</session>
+      </p>
+      <p>
+        <inline title="12 e)" name="agenda item">Tema 12 e) del programa</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Cuestiones de coordinación y de programas y otras cuestiones: Programa a largo plazo en apoyo de Haití</inline>
+      </p>
+      <p>
+        <docTitle>Resolución aprobada por el Consejo Económico y Social el 21 de julio de 2026</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#plenaryMeeting">[sobre la base de una propuesta examinada en sesión plenaria (<inline name="originating document">E/2026/L.13</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2026/8.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Grupo Asesor Especial sobre Haití</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">El Consejo Económico y Social</span>,</p>
+      </formula>
+      <container name="Recordando" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recordando</span> su resolución <a href="https://docs.un.org/es/E/RES/2025/22">2025/22</a>, de 29 de julio de 2025, y todas las resoluciones anteriores pertinentes, así como su decisión 2025/210 B, de 29 de julio de 2025, y las decisiones anteriores relativas al nombramiento de miembros adicionales del Grupo Asesor Especial sobre Haití,</p>
+      </container>
+      <container name="Profundamente preocupado" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Profundamente preocupado</span> por la compleja y polifacética crisis de Haití y subrayando el elevado grado de violencia e inseguridad causado por las bandas armadas, que sigue provocando abusos y violaciones de los derechos humanos especialmente de la infancia, considerables retrocesos en el desarrollo y crecientes dificultades humanitarias, así como inseguridad alimentaria y malnutrición,</p>
+      </container>
+      <container name="Teniendo presentes" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Teniendo presentes</span> las graves consecuencias que acarrea la crisis de Haití para la región del Caribe,</p>
+      </container>
+      <container name="Reconociendo" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Reconociendo</span> la necesidad de adoptar medidas urgentes para restablecer la seguridad abordando las causas estructurales de la violencia, como las desigualdades, la pobreza extrema, las altas tasas de desempleo, las violaciones de los derechos humanos, la impunidad, la corrupción y la debilidad de las instituciones públicas, y creando condiciones favorables para el restablecimiento de las instituciones democráticas,</p>
+      </container>
+      <container name="Poniendo de relieve" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Poniendo de relieve</span> la urgente necesidad de que se recauden íntegramente los 880 millones de dólares de los Estados Unidos solicitados por las Naciones Unidas y sus asociados en el Plan de Respuesta y Necesidades Humanitarias para Haití de 2026, a fin de hacer frente a las necesidades humanitarias y de protección más inmediatas, incluida la seguridad alimentaria, la ayuda de emergencia para la subsistencia y la inversión en el sector agrícola para reforzar la capacidad de los haitianos más vulnerables de resistir las consecuencias de la crisis,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_7" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_7__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> el informe del Grupo Asesor Especial sobre Haití<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	 	<a href="https://docs.un.org/es/E/2026/59">E/2026/59</a>. </p></authorialNote> y la atención que presta a la situación humanitaria y el desarrollo socioeconómico a largo plazo de Haití;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_8" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_8__content">
+          <p xml:space="preserve">	<span class="italic">Decide</span> prorrogar el mandato del Grupo Asesor Especial sobre Haití hasta la conclusión del período de sesiones de 2027 con el fin de que siga de cerca la estrategia de desarrollo a largo plazo de Haití y colabore al respecto con las autoridades haitianas para promover la recuperación socioeconómica, la reconstrucción y la estabilidad institucional, prestando especial atención a la necesidad de asegurar la coherencia y la sostenibilidad del apoyo internacional para Haití, sobre la base de las prioridades nacionales de desarrollo a largo plazo de Haití, y destacando la necesidad de evitar la superposición y duplicación con los mecanismos existentes;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve">	<span class="italic">Solicita</span> al Grupo Asesor Especial sobre Haití que le presente un informe sobre sus actividades, con las recomendaciones que proceda, para examinarlo en su período de sesiones de 2027.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="39a" refersTo="#adoptionMeeting">39a sesión plenaria</location>
+          <eol />
+          <docDate date="2026-07-21" refersTo="#adoptionDate">21 de julio de 2026</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
