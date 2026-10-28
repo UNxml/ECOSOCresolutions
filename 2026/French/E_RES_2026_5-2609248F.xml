@@ -1,0 +1,331 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-06-10/2026-5/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-06-10/2026-5/"></FRBRuri>
+          <FRBRdate date="2026-06-10" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-06-10/2026-5/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-06-10/2026-5/fra@/"></FRBRuri>
+          <FRBRdate date="2026-06-23" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-06-10/2026-5/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-06-10/2026-5/fra@.xml"></FRBRuri>
+          <FRBRdate date="2026-09-25" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Guiding Principles on Alternative Development (2013)" showAs="UN Guiding Principles on Alternative Development (2013)" dictionary="DHLAUTH"></keyword>
+        <keyword value="NARCOTIC DRUGS" href="http://metadata.un.org/thesaurus/1004312" showAs="NARCOTIC DRUGS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ILLICIT TRAFFIC" href="http://metadata.un.org/thesaurus/1003051" showAs="ILLICIT TRAFFIC" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DRUG CONTROL" href="http://metadata.un.org/thesaurus/1001775" showAs="DRUG CONTROL" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CROP SUBSTITUTION" href="http://metadata.un.org/thesaurus/1001407" showAs="CROP SUBSTITUTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DEVELOPMENT STRATEGIES" href="http://metadata.un.org/thesaurus/1001634" showAs="DEVELOPMENT STRATEGIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PRINCIPLES" href="http://metadata.un.org/thesaurus/1005108" showAs="PRINCIPLES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="19d" showAs="Narcotic drugs" shortForm="NARCOTIC DRUGS" dictionary="E/2026/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2026-03-11" outcome="draftResolution" as="E/CN.7/2026/L.4/Rev.1" by="Albania, Andorra, Bolivia (Plurinational State of), Brazil, Canada, China, Colombia, Cyprus (on behalf of the States Members of the United Nations that are members of the European Union), Japan, Nigeria, Norway, Malaysia, Peru, Singapore, Switzerland, Thailand, Ukraine, the United Kingdom and Uruguay" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2026-01-01" outcome="recommendedForAdoption" as="E/2026/28" by="" />
+        <step date="2026-06-23" outcome="adopted" as="Adopted without vote, 23rd plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">26-09248 (F)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2026/5</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Conseil économique et social</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2026-06-23" class="rightSmall" refersTo="#dateOfIssuance">23 juin 2026</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" eId="coverPage_1__session_1"></session>
+      </p>
+      <p>
+        <inline title="19 d)" name="agenda item">Point 19 d) de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Questions sociales et questions relatives aux droits humains : stupéfiants</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par le Conseil économique et social le 10 juin 2026</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent>[sur recommandation de la Commission des stupéfiants (<inline name="originating document">E/2026/28</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2026/5.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Appendice complétant les Principes directeurs des Nations Unies sur le développement alternatif</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Le Conseil économique et social</span>,</p>
+      </formula>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_2" class="SingleTxt">
+        <content eId="para_2__content">
+          <p xml:space="preserve">	<span class="italic">Recommande</span> à l’Assemblée générale d’adopter le projet de résolution suivant :
+<embeddedStructure>
+<container name="formula"><p xml:space="preserve">	
+<span class="italic">L’Assemblée générale</span>,</p></container>
+<container name="Soulignant" eId="container_4"><p xml:space="preserve">		
+<span class="italic">Soulignant</span> que la Convention unique sur les stupéfiants de 1961 telle que modifiée par le Protocole de 1972<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		Nations Unies, 
+<span class="italic">Recueil des Traités</span>, vol. 976, n<sup>o</sup> 14152.</p></authorialNote>, la Convention sur les substances psychotropes de 1971<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		Ibid., vol. 1019, n<sup>o</sup> 14956.</p></authorialNote> et la Convention des Nations Unies contre le trafic illicite de stupéfiants et de substances psychotropes de 1988<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		Ibid., vol. 1582, n<sup>o</sup> 27627.</p></authorialNote> constituent, avec les autres instruments internationaux pertinents, la pierre angulaire du régime international de contrôle des drogues,</p></container>
+<container name="Réaffirmant" eId="container_5"><p xml:space="preserve">		
+<span class="italic">Réaffirmant</span> qu’en matière de drogues, les politiques et programmes, y compris ceux qui relèvent du domaine du développement, devraient être exécutés conformément aux buts et principes de la Charte des Nations Unies, du droit international et de la Déclaration universelle des droits de l’homme<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">		Résolution <a href="https://docs.un.org/fr/A/RES/217(III)">217 A (III)</a> de l’Assemblée générale. </p></authorialNote> et, en particulier, dans le plein respect de la souveraineté et de l’intégrité territoriale des États, du principe de non-ingérence dans leurs affaires intérieures, de tous les droits humains et libertés fondamentales, de la dignité inhérente à toutes les personnes et des principes de l’égalité de droits et du respect mutuel des États ainsi que du principe de la responsabilité commune et partagée, en ayant à l’esprit les objectifs de développement durable et en tenant compte de la situation spécifique des pays et régions,</p></container>
+<container name="Rappelant" eId="container_6"><p xml:space="preserve">		
+<span class="italic">Rappelant</span> les Principes directeurs des Nations Unies sur le développement alternatif qu’elle a adoptés dans sa résolution <a href="http://undocs.org/fr/A/RES/68/196">68/196</a> du 18 décembre 2013, </p></container>
+<container name="Rappelant" eId="container_7"><p xml:space="preserve">		
+<span class="italic">Rappelant</span> la résolution 68/3 de la Commission des stupéfiants en date du 14 mars 2025, dans laquelle la Commission a décidé d’engager un processus visant à compléter les Principes directeurs des Nations Unies sur le développement alternatif afin de relever les défis que pose la dynamique évolutive de l’économie illicite de la drogue, notamment la culture illicite de plantes dont on tire des stupéfiants et des substances psychotropes et la fabrication, la production et le trafic illicites de drogues, ainsi que d’autres activités illicites liées à la drogue,</p></container>
+<container name="Reconnaissant" eId="container_8"><p xml:space="preserve">		
+<span class="italic">Reconnaissant</span> que la conception et l’exécution des futurs programmes de développement alternatif devraient apporter des réponses aux défis actuels, persistants et en constante évolution que posent la culture illicite de plantes dont on tire des drogues et certaines autres activités illicites liées à la drogue, ainsi que le risque d’implication dans de telles activités, et notant que les personnes ayant participé à la réunion du groupe d’experts sur le développement alternatif ont désigné comme faisant partie de ces défis les changements climatiques, la dégradation de l’environnement, la perte de biodiversité et les défis concernant la sécurité alimentaire, les approches territoriales, la sécurité publique, le déplacement de populations, l’autonomisation et la participation des peuples autochtones et des populations locales, ainsi que l’égalité des genres et l’autonomisation des femmes et des filles,</p></container>
+<container name="Se félicitant" eId="container_9"><p xml:space="preserve">		
+<span class="italic">Se félicitant</span> de la tenue de la dixième réunion du groupe d’experts sur le développement alternatif à Lima du 5 au 7 novembre 2025, qui a donné lieu à des recommandations de fond visant à compléter les Principes directeurs des Nations Unies sur le développement alternatif, comme il ressort de l’Appendice complétant les Principes directeurs des Nations Unies sur le développement alternatif annexé à la présente résolution,</p></container>
+<container name="Prenant note" eId="container_10"><p xml:space="preserve">		
+<span class="italic">Prenant note</span> du document de séance présenté conjointement par l’Allemagne, le Pérou et la Thaïlande et par l’Office des Nations Unies contre la drogue et le crime à la soixante-neuvième session de la Commission des stupéfiants sous le titre « Complementing the United Nations Guiding Principles on Alternative Development » (Compléter les Principes directeurs des Nations Unies sur le développement alternatif), concernant les conclusions formulées à la dixième réunion du groupe d’experts sur le développement alternatif, en gardant à l’esprit le caractère non contraignant de ce document et le fait que celui‑ci ne reflète pas nécessairement la position de toutes les personnes participantes,</p></container>
+<paragraph eId="para_11" class="SingleTxt">
+<num>1.</num>
+<content eId="para_11__content"><p xml:space="preserve">	<span class="italic">Adopte</span> l’Appendice complétant les Principes directeurs des Nations Unies sur le développement alternatif annexé à la présente résolution ;</p></content></paragraph>
+<paragraph eId="para_12" class="SingleTxt">
+<num>2.</num>
+<content eId="para_12__content"><p xml:space="preserve">	<span class="italic">Encourage</span> les États Membres, les organisations internationales compétentes, les institutions financières internationales, les organismes régionaux, la société civile, les milieux universitaires et le secteur privé à se référer aux Principes directeurs des Nations Unies sur le développement alternatif<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">	 	Résolution <a href="https://docs.un.org/fr/A/RES/68/196">68/196</a> de l’Assemblée générale, annexe.</p></authorialNote> complétés par l’Appendice lors de la conception, de la mise en œuvre, du suivi et de l’évaluation des politiques, stratégies et programmes de développement alternatif ;</p></content></paragraph>
+<paragraph eId="para_14" class="SingleTxt">
+<num>3.</num>
+<content eId="para_14__content"><p xml:space="preserve">	<span class="italic">Prie</span> la Direction exécutive de l’Office des Nations Unies contre la drogue et le crime de continuer, en coopération avec tous les organismes et entités des Nations Unies compétents, à fournir des services d’assistance technique et de renforcement des capacités aux États Membres aux fins de l’application des Principes directeurs des Nations Unies sur le développement alternatif complétés par l’Appendice, sous réserve de la disponibilité de ressources extrabudgétaires ;</p></content></paragraph>
+<paragraph eId="para_17" class="SingleTxt">
+<num>4.</num>
+<content eId="para_17__content"><p xml:space="preserve">	<span class="italic">Prie</span> l’Office des Nations Unies contre la drogue et le crime, agissant dans les limites de son mandat et sous réserve de la disponibilité de ressources extrabudgétaires, d’aider les États Membres à organiser en 2026 en Thaïlande une réunion d’experts sur le développement alternatif associant toutes les parties et chargée d’élaborer des directives et des orientations sur la mise en œuvre de l’Appendice complétant les Principes directeurs des Nations Unies sur le développement alternatif et de réfléchir à l’éventuelle mise en pratique du développement alternatif dans le contexte des drogues de synthèse ;</p></content></paragraph>
+<paragraph eId="para_21" class="SingleTxt">
+<num>5.</num>
+<content eId="para_21__content"><p xml:space="preserve">	<span class="italic">Invite</span> les États Membres et les autres donateurs à fournir des ressources extrabudgétaires aux fins décrites ci‑dessus, conformément aux règles et procédures financières de l’Organisation des Nations Unies.</p></content></paragraph></embeddedStructure></p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="23e" refersTo="#adoptionMeeting">23e séance plénière</location>
+          <eol />
+          <docDate date="2026-06-10" refersTo="#adoptionDate">10 juin 2026</docDate>
+        </event>
+      </p>
+    </conclusions>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-06-10/2026-5/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-06-10/2026-5/"></FRBRuri>
+                <FRBRdate date="2026-06-10" name="adoption"></FRBRdate>
+                <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-06-10/2026-5/fra@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-06-10/2026-5/fra@/"></FRBRuri>
+                <FRBRdate date="2026-06-23" name="publication"></FRBRdate>
+                <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="fra"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-06-10/2026-5/fra@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-06-10/2026-5/fra@.xml"></FRBRuri>
+                <FRBRdate date="2026-09-25" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_22" class="H23">
+              <subheading>Annexe</subheading>
+            </paragraph>
+            <paragraph eId="para_23" class="H23">
+              <subheading>Appendice complétant les Principes directeurs des Nations Unies sur le développement alternatif</subheading>
+            </paragraph>
+            <paragraph eId="para_24" class="H23">
+              <num>A.</num>
+              <subheading>	Dispositions générales</subheading>
+            </paragraph>
+            <paragraph eId="para_25" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_25__content">
+                <p xml:space="preserve">	Les programmes de développement alternatif encouragent des solutions économiques licites et viables en remplacement de la culture illicite de plantes dont on tire des drogues et, le cas échéant, d’autres activités illicites liées aux drogues en zones rurales et urbaines, à l’adresse en particulier des collectivités et régions touchées ou risquant d’être touchées par la culture illicite de plantes servant à produire des stupéfiants et des substances psychotropes et par la fabrication, la production et le trafic illicites de drogues, notamment au moyen d’interventions et d’initiatives de développement à long terme complètes, inclusives et durables qui profitent à tous et à toutes, conformément aux trois conventions internationales relatives au contrôle des drogues.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_26" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_26__content">
+                <p xml:space="preserve">	Les programmes de développement alternatif peuvent contribuer aux efforts déployés par les États Membres en faveur des personnes en situation de vulnérabilité, que celle-ci soit due à la pauvreté, au chômage, au manque de perspectives, à la discrimination ou à la marginalisation sociale.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_27" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_27__content">
+                <p xml:space="preserve">	Le développement alternatif est une mesure qui s’inscrit dans le cadre de l’engagement à respecter, à protéger et à réaliser tous les droits humains, toutes les libertés fondamentales, la dignité inhérente à toutes les personnes et l’état de droit lors de l’élaboration et de la mise en œuvre de tels programmes.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_28" class="H23">
+              <num>B.</num>
+              <subheading>	Mesures à prendre et action concrète</subheading>
+            </paragraph>
+            <paragraph eId="para_29" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_29__content">
+                <p xml:space="preserve">	Les États Membres de l’Organisation des Nations Unies, les organisations internationales, les organisations régionales, les organismes de développement, les donateurs et les institutions financières internationales, ainsi que la société civile, devraient s’employer avec la plus grande énergie, selon qu’il conviendra, à faire ce qui suit :</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_30" class="SingleTxt">
+              <content eId="para_30__content">
+                <p xml:space="preserve">		a) Prendre systématiquement en considération les questions de genre et veiller à ce que les femmes interviennent à toutes les étapes de la conception, de la mise en œuvre, du suivi et de l’évaluation des programmes de développement alternatif, et mettre au point et promouvoir des mesures différenciées selon le genre et l’âge qui tiennent compte des situations et besoins particuliers des femmes et des filles eu égard à la question des cultures illicites et autres activités liées à la drogue en zones rurales et urbaines ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_31" class="SingleTxt">
+              <content eId="para_31__content">
+                <p xml:space="preserve">		b) Reconnaître et soutenir les femmes en tant qu’actrices du changement et dirigeantes locales, ainsi que comme contributrices essentielles au succès et à la viabilité des programmes de développement alternatif ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_32" class="SingleTxt">
+              <content eId="para_32__content">
+                <p xml:space="preserve">		c) Entreprendre des réformes dans le cadre des politiques et programmes de développement alternatif afin de donner aux femmes les mêmes droits aux ressources économiques, ainsi que l’accès à la propriété et au contrôle des terres et à d’autres formes de propriété, aux services financiers, à l’héritage et aux ressources naturelles, dans le respect de la législation interne ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_33" class="SingleTxt">
+              <content eId="para_33__content">
+                <p xml:space="preserve">		d) Examiner et combattre les effets néfastes sur l’environnement de la culture illicite de plantes dont on tire des drogues et des autres activités illicites liées à la drogue, qui peuvent provoquer la déforestation et la pollution des sols et des eaux, et saisir les possibilités qu’offre le développement alternatif en ce qui concerne la restauration, la conservation et l’utilisation durable de l’environnement et la protection de la biodiversité ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_34" class="SingleTxt">
+              <content eId="para_34__content">
+                <p xml:space="preserve">		e) Prendre en compte et renforcer les politiques et mesures visant à atténuer les changements climatiques, à s’y adapter et à conserver et restaurer la biodiversité et les autres politiques et mesures visant à protéger l’environnement lors de la mise en œuvre de programmes de développement alternatif, de manière judicieusement échelonnée, dans le cadre de politiques de lutte contre la drogue à long terme inclusives, intégrées, globales, axées sur le développement durable et équilibrées ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_35" class="SingleTxt">
+              <content eId="para_35__content">
+                <p xml:space="preserve">		f) Concevoir et mettre en œuvre les programmes de développement alternatif de manière à réduire également les effets néfastes sur l’environnement et à contribuer aux efforts de conservation, et prendre note des possibilités données aux populations locales touchées ou risquant d’être touchées par la culture illicite de plantes dont on tire des drogues, selon qu’il convient, d’accéder à des investissements publics et privés et au financement de l’action climatique et de la biodiversité, notamment aux systèmes de crédits d’émission de carbone et aux paiements des services écosystémiques, conformément à la législation interne ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_36" class="SingleTxt">
+              <content eId="para_36__content">
+                <p xml:space="preserve">		g) Veiller à ce que les programmes de développement alternatif et les mesures complémentaires relevant de la politique de lutte contre la drogue respectent les droits humains fondamentaux et tiennent dûment compte des usages licites traditionnels, lorsqu’il en existe des preuves historiques, ainsi que de la protection de l’environnement, conformément aux trois conventions internationales relatives au contrôle des drogues ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_37" class="SingleTxt">
+              <content eId="para_37__content">
+                <p xml:space="preserve">		h) Veiller à ce que les peuples autochtones et les populations locales touchés ou risquant d’être touchés par la culture illicite de plantes dont on tire des drogues et par la fabrication, la production et le trafic illicites de drogues et d’autres activités illicites liées à la drogue soient associés à l’élaboration et à la mise en œuvre de politiques et de mesures visant à promouvoir un développement alternatif durable et inclusif, dans le respect de leurs cultures, de leur savoir et de leurs traditions ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_38" class="SingleTxt">
+              <content eId="para_38__content">
+                <p xml:space="preserve">		i) Envisager d’élaborer et de mettre en œuvre des projets de développement alternatif durable et inclusif, y compris, selon qu’il conviendra, préventif, et d’offrir des solutions de remplacement économiques viables aux collectivités touchées par la culture illicite de plantes dont on tire des drogues et par d’autres activités illicites liées à la drogue en zones rurales et urbaines ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_39" class="SingleTxt">
+              <content eId="para_39__content">
+                <p xml:space="preserve">		j) Envisager une approche territoriale du développement alternatif qui s’inscrive dans un cadre axé sur l’être humain, fondé sur les droits, tenant compte des spécificités locales et impliquant de multiples parties prenantes, coordonné avec les politiques et actions multisectorielles à tous les niveaux de l’administration et avec les organismes de développement afin de promouvoir un développement alternatif inclusif et durable sur un territoire défini ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_40" class="SingleTxt">
+              <content eId="para_40__content">
+                <p xml:space="preserve">		k) Explorer les synergies permettant de s’attaquer aux liens entre les activités illicites liées à la drogue, les crimes qui portent atteinte à l’environnement et la criminalité convergente grâce à des mesures axées sur le développement, y compris le développement alternatif, dans le cadre d’une approche intégrée et complémentaire ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_41" class="SingleTxt">
+              <content eId="para_41__content">
+                <p xml:space="preserve">		l) Envisager d’intégrer des mesures visant à garantir la sécurité alimentaire des ménages et des populations locales dans les programmes de développement alternatif, afin de promouvoir une production diversifiée, comprenant par exemple la culture de potagers et l’élevage de petits animaux, l’objectif étant de répondre aux besoins fondamentaux immédiats tout en générant des revenus ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_42" class="SingleTxt">
+              <content eId="para_42__content">
+                <p xml:space="preserve">		m) Mieux évaluer les effets et l’efficacité des programmes de développement alternatif, notamment en recourant aux indicateurs de développement humain pertinents, à des critères relatifs à la viabilité écologique et à d’autres outils de mesure et, selon qu’il conviendra, renforcer encore les méthodes de mesure, de suivi et d’évaluation adaptées au contexte ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_43" class="SingleTxt">
+              <content eId="para_43__content">
+                <p xml:space="preserve">		n) Envisager de faciliter des partenariats public-privé à long terme, stratégiques et novateurs, qui ne se limitent pas à assurer l’accès des produits au marché mais qui concernent également l’investissement, le mentorat, l’accès au financement et le respect des normes de durabilité, l’objectif étant d’encourager l’intégration des produits locaux issus du développement alternatif dans les chaînes de valeur nationales, régionales et internationales ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_44" class="SingleTxt">
+              <content eId="para_44__content">
+                <p xml:space="preserve">		o) Promouvoir davantage la diversification et la durabilité des moyens de subsistance licites, notamment au moyen de produits agricoles à valeur ajoutée, du bois d’œuvre et d’autres produits forestiers dans le cadre d’une gestion durable des forêts, d’activités économiques non agricoles (par exemple, l’écotourisme, l’artisanat et les services) afin de maximiser les revenus, de réduire les risques et de tirer parti du commerce électronique et des plateformes numériques pour accéder aux marchés ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_45" class="SingleTxt">
+              <content eId="para_45__content">
+                <p xml:space="preserve">	p) Garantir un engagement politique à long terme et un soutien financier durable en faveur des programmes de développement alternatif, notamment grâce à un financement à long terme équitable, transparent et souple, à l’intégration dans les plans nationaux de développement pluriannuels, les stratégies nationales de lutte contre la drogue et les dispositifs de coordination multisectoriels et à plusieurs niveaux, et en explorant des mécanismes de financement novateurs propres à mobiliser des investissements publics et privés (par exemple, des mesures d’incitation fiscale, des subventions et le financement de l’action climatique).</p>
+              </content>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>

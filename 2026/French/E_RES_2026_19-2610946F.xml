@@ -1,0 +1,701 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-19/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-19/"></FRBRuri>
+          <FRBRdate date="2026-07-21" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-19/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-19/fra@/"></FRBRuri>
+          <FRBRdate date="2026-07-24" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-19/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-19/fra@.xml"></FRBRuri>
+          <FRBRdate date="2026-09-25" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="6" href="http://metadata.un.org/sdg/6" showAs="sdg_6" dictionary="SDGO"></keyword>
+        <keyword value="water" href="http://eurovoc.europa.eu/597" showAs="water" dictionary="EuroVoc"></keyword>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/030500" showAs="water" dictionary="UNBIS"></keyword>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/1006939" showAs="water" dictionary="UNBIS"></keyword>
+        <keyword value="sanitation" href="http://metadata.un.org/thesaurus/1005701" showAs="sanitation" dictionary="UNBIS"></keyword>
+        <keyword value="public_hygiene" href="http://eurovoc.europa.eu/3371" showAs="public_hygiene" dictionary="EuroVoc"></keyword>
+        <keyword value="water_management" href="http://eurovoc.europa.eu/3144" showAs="water_management" dictionary="EuroVoc"></keyword>
+        <keyword value="water_management" href="http://metadata.un.org/thesaurus/1006948" showAs="water_management" dictionary="UNBIS"></keyword>
+        <keyword value="use_of_water" href="http://eurovoc.europa.eu/4628" showAs="use_of_water" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="14" href="http://metadata.un.org/sdg/14" showAs="sdg_14" dictionary="SDGO"></keyword>
+        <keyword value="marine_resources" href="http://metadata.un.org/thesaurus/030800" showAs="marine_resources" dictionary="UNBIS"></keyword>
+        <keyword value="marine_resources" href="http://metadata.un.org/thesaurus/1003922" showAs="marine_resources" dictionary="UNBIS"></keyword>
+        <keyword value="oceans_and_seas" href="http://metadata.un.org/thesaurus/170600" showAs="oceans_and_seas" dictionary="UNBIS"></keyword>
+        <keyword value="ocean" href="http://eurovoc.europa.eu/2107" showAs="ocean" dictionary="EuroVoc"></keyword>
+        <keyword value="ocean" href="http://metadata.un.org/thesaurus/1004576" showAs="ocean" dictionary="UNBIS"></keyword>
+        <keyword value="marine_environment" href="http://eurovoc.europa.eu/5742" showAs="marine_environment" dictionary="EuroVoc"></keyword>
+        <keyword value="marine_environment" href="http://metadata.un.org/thesaurus/1003911" showAs="marine_environment" dictionary="UNBIS"></keyword>
+        <keyword value="marine_life" href="http://eurovoc.europa.eu/3149" showAs="marine_life" dictionary="EuroVoc"></keyword>
+        <keyword value="sea" href="http://eurovoc.europa.eu/1870" showAs="sea" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="8" href="http://metadata.un.org/sdg/8" showAs="sdg_8" dictionary="SDGO"></keyword>
+        <keyword value="unemployment" href="http://eurovoc.europa.eu/5974" showAs="unemployment" dictionary="EuroVoc"></keyword>
+        <keyword value="unemployment" href="http://metadata.un.org/thesaurus/1006773" showAs="unemployment" dictionary="UNBIS"></keyword>
+        <keyword value="economic_growth" href="http://eurovoc.europa.eu/310" showAs="economic_growth" dictionary="EuroVoc"></keyword>
+        <keyword value="economic_growth" href="http://metadata.un.org/thesaurus/1001854" showAs="economic_growth" dictionary="UNBIS"></keyword>
+        <keyword value="employment" href="http://metadata.un.org/thesaurus/1002007" showAs="employment" dictionary="UNBIS"></keyword>
+        <keyword value="full_employment" href="http://eurovoc.europa.eu/2427" showAs="full_employment" dictionary="EuroVoc"></keyword>
+        <keyword value="full_employment" href="http://metadata.un.org/thesaurus/1002563" showAs="full_employment" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Asian and Pacific Digital Solutions Centre for Sustainable Development" showAs="UN. Asian and Pacific Digital Solutions Centre for Sustainable Development" dictionary="DHLAUTH"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" href="http://metadata.un.org/thesaurus/1006319" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DIGITAL TECHNOLOGY" href="http://metadata.un.org/thesaurus/1001655" showAs="DIGITAL TECHNOLOGY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUBSIDIARY BODIES" href="http://metadata.un.org/thesaurus/1006260" showAs="SUBSIDIARY BODIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ASIA AND THE PACIFIC" href="http://metadata.un.org/thesaurus/1000413" showAs="ASIA AND THE PACIFIC" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="15" showAs="Regional cooperation" shortForm="REGIONAL COOPERATION" dictionary="E/2026/100"></keyword>
+        <keyword refersTo="agenda" value="15[2]" showAs="REGIONAL COOPERATION--ASIA AND THE PACIFIC" shortForm="REGIONAL COOPERATION--ASIA AND THE PACIFIC" dictionary="E/2026/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2026-05-29" outcome="recommendedForAdoption" as="E/2026/15/Add.1" by="UN. Asian and Pacific Digital Solutions Centre for Sustainable Development" />
+        <step date="2026-07-24" outcome="adopted" as="Adopted without vote, 40th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">26-10946 (F)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2026/19</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Conseil économique et social</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2026-07-24" class="rightSmall" refersTo="#dateOfIssuance">24 juillet 2026</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2026" eId="coverPage_1__session_1">Session de 2026</session>
+      </p>
+      <p>
+        <inline title="15" name="agenda item">Point 15 de l’ordre du jour</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Coopération régionale</inline>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par le Conseil économique et social le 21 juillet 2026</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent>[sur recommandation de la Commission économique et sociale pour l’Asie et le Pacifique (<inline name="originating document">E/2026/15/Add.1</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2026/19.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Création du Centre de solutions numériques pour le développement durable en Asie et dans le Pacifique</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Le Conseil économique et social</span>,</p>
+      </formula>
+      <container name="Notant" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	Notant </span>l’adoption par la Commission économique et sociale pour l’Asie et le Pacifique, à sa quatre-vingt-deuxième session tenue à Bangkok du 20 au 24 avril 2026, de la résolution 82/4 du 24 avril 2026, dans laquelle elle a décidé de créer le Centre des solutions numériques pour le développement durable en Asie et dans le Pacifique en tant qu’organe subsidiaire de la Commission économique et sociale pour l’Asie et le Pacifique, lequel contribuera au programme de travail de la Commission dans le domaine des technologies de l’information et de la communication en faisant en sorte que ses activités ne fassent pas double emploi avec celles des institutions régionales existantes de la Commission ou de la Banque de technologies pour les pays les moins avancés et n’empiètent pas sur lesdites activités, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_3" class="SingleTxt">
+        <content eId="para_3__content">
+          <p xml:space="preserve">
+            <span class="italic">	Approuve </span>la résolution 82/4 de la Commission économique et sociale pour l’Asie et le Pacifique, figurant en annexe à la présente résolution, ainsi que les statuts du Centre de solutions numériques pour le développement durable en Asie et dans le Pacifique, figurant en annexe à la résolution 82/4, qui encadreront le fonctionnement du Centre, et prie la Secrétaire exécutive de la Commission de prendre toutes les mesures nécessaires à la mise en service du Centre.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="40e" refersTo="#adoptionMeeting">40e séance plénière</location>
+          <eol />
+          <docDate date="2026-07-21" refersTo="#adoptionDate">21 juillet 2026</docDate>
+        </event>
+      </p>
+    </conclusions>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-19/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-19/"></FRBRuri>
+                <FRBRdate date="2026-07-21" name="adoption"></FRBRdate>
+                <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-19/fra@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-19/fra@/"></FRBRuri>
+                <FRBRdate date="2026-07-24" name="publication"></FRBRdate>
+                <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="fra"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-19/fra@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-19/fra@.xml"></FRBRuri>
+                <FRBRdate date="2026-09-25" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_5" class="MercuryDocument">
+              <content eId="para_5__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Annexe</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_6" class="MercuryDocument">
+              <content eId="para_6__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Résolution 82/4</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_7" class="MercuryDocument">
+              <content eId="para_7__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Création du Centre de solutions numériques pour le développement durable en Asie et dans le Pacifique</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_8" class="MercuryDocument">
+              <content eId="para_8__content">
+                <p xml:space="preserve">
+                  <span class="italic">	La Commission économique et sociale pour l’Asie et le Pacifique</span>,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_9" class="MercuryDocument">
+              <content eId="para_9__content">
+                <p xml:space="preserve">
+                  <span class="italic">	Rappelant</span> ses résolutions 79/10 du 19 mai 2023 et 80/1 du 26 avril 2024, dans lesquelles elle a noté avec satisfaction l’initiative du Gouvernement kazakhstanais de créer un centre de solutions numériques pour le développement durable qui aurait pour vocation de fournir des solutions pratiques fondées sur le numérique en Asie centrale et au‑delà,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_10" class="MercuryDocument">
+              <content eId="para_10__content">
+                <p xml:space="preserve">
+                  <span class="italic">	Réaffirmant </span>la Déclaration ministérielle d’Astana sur l’inclusion et la transformation numériques en Asie et dans le Pacifique<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		<a href="https://docs.un.org/fr/ESCAP/MCDIT/5/Add.1">ESCAP/MCDIT/5/Add.1</a>.</p></authorialNote>, dans laquelle les membres et les membres associés de la Commission économique et sociale pour l’Asie et le Pacifique se sont félicités de la poursuite de l’examen de la proposition du Gouvernement kazakhstanais de créer un centre de solutions numériques pour le développement durable, sous les auspices de la Commission dans le cadre de son appareil de conférence,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_11" class="MercuryDocument">
+              <content eId="para_11__content">
+                <p xml:space="preserve">
+                  <span class="italic">	Rappelant</span> sa résolution 81/4 du 25 avril 2025, dans laquelle elle a noté le processus engagé en vue d’examiner plus avant la proposition du Gouvernement kazakhstanais de créer un centre Asie-Pacifique de solutions numériques pour le développement durable, au Kazakhstan, en tant qu’institution régionale de la Commission,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_12" class="MercuryDocument">
+              <content eId="para_12__content">
+                <p xml:space="preserve">
+                  <span class="italic">	Prenant note</span> du rapport du Secrétaire général intitulé « Notre Programme commun »<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		<a href="https://docs.un.org/fr/A/75/982">A/75/982</a>.</p></authorialNote>, et notamment de l’accent mis sur l’amélioration de la coopération numérique et la réduction de la fracture numérique,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_13" class="MercuryDocument">
+              <content eId="para_13__content">
+                <p xml:space="preserve">
+                  <span class="italic">	Ayant à l’esprit </span>la recommandation adoptée par le Comité des technologies de l’information et de la communication, de la science, de la technologie et de l’innovation lors de sa quatrième session, tenue à Bangkok et en ligne du 30 août au 1<sup>er</sup> septembre 2022, dans laquelle le Comité a pris note avec satisfaction de l’initiative du Gouvernement kazakhstanais de créer un centre de solutions numériques pour le développement durable afin de fournir des solutions pratiques fondées sur le numérique en Asie centrale et au‑delà,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_14" class="MercuryDocument">
+              <content eId="para_14__content">
+                <p xml:space="preserve">
+                  <span class="italic">	Ayant à l’esprit également</span> que le groupe de travail thématique sur l’innovation et la technologie au service du développement durable du Programme spécial des Nations Unies pour les pays d’Asie centrale, à sa quatrième session tenue à Tachkent et en ligne le 19 octobre 2023, a noté avec satisfaction l’initiative du Gouvernement kazakhstanais de créer un centre de solutions numériques pour le développement durable,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_15" class="MercuryDocument">
+              <content eId="para_15__content">
+                <p xml:space="preserve">
+                  <span class="italic">	Prenant note</span> des conclusions et des recommandations issues du Forum économique de 2023 du Programme spécial des Nations Unies pour les pays d’Asie centrale, tenu à Bakou les 21 et 22 novembre 2023, dans lequel il a été pris note de l’initiative du Gouvernement kazakhstanais de créer un centre de solutions numériques pour le développement durable pour le Programme spécial des Nations Unies pour les pays d’Asie centrale et au‑delà,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_16" class="MercuryDocument">
+              <content eId="para_16__content">
+                <p xml:space="preserve">
+                  <span class="italic">	Ayant à l’esprit</span> le rapport sur les travaux de la huitième session du Comité directeur de l’Autoroute Asie-Pacifique de l’information, qui s’est tenue à Jeju (République de Corée), les 25 et 26 septembre 2024 en parallèle de l’examen régional de la mise en œuvre des grandes orientations arrêtées lors du Sommet mondial sur la société de l’information,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_17" class="MercuryDocument">
+              <content eId="para_17__content">
+                <p xml:space="preserve">
+                  <span class="italic">	Remerciant </span>le Gouvernement kazakhstanais de sa généreuse proposition d’accueillir le centre et de prendre à sa charge ses coûts institutionnels, programmatiques et de fonctionnement, notamment de son engagement à apporter une contribution initiale de 15 millions de dollars des États-Unis sur cinq ans, </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_18" class="MercuryDocument">
+              <content eId="para_18__content">
+                <p xml:space="preserve">
+                  <span class="italic">	Notant</span> que les activités du centre seraient organisées de sorte qu’elles apportent une réponse au besoin croissant d’examiner la question de l’émergence et du développement rapide des technologies numériques,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_19" class="MercuryDocument">
+              <content eId="para_19__content">
+                <p xml:space="preserve">
+                  <span class="italic">	Notant également</span> les activités pertinentes menées par les entités des Nations Unies en vue d’élaborer des mesures de protection dans le domaine numérique, et prenant note du Dispositif de garanties universelles pour les infrastructures publiques numériques élaboré par le Programme des Nations Unies pour le développement,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_20" class="MercuryDocument">
+              <content eId="para_20__content">
+                <p xml:space="preserve">
+                  <span class="italic">	Notant en outre</span> qu’il est nécessaire d’éviter un éventuel chevauchement des activités menées par le centre, les institutions régionales de la Commission, la Banque de technologies pour les pays les moins avancés et d’autres organisations internationales concernées, selon le cas,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_21" class="MercuryDocument">
+              <content eId="para_21__content">
+                <p xml:space="preserve">
+                  <span class="italic">	Consciente </span>qu’une coopération étroite est indispensable afin de compléter les travaux des institutions régionales existantes de la Commission et de la Banque de technologies pour les pays les moins avancés eu égard aux activités portant sur les pays les moins avancés,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_22" class="MercuryDocument">
+              <content eId="para_22__content">
+                <p xml:space="preserve">
+                  <span class="italic">	Notant</span> l’initiative du Gouvernement tadjik visant à créer, à Douchanbé, un centre régional dédié à l’intelligence artificielle, lequel pourrait notamment contribuer à atteindre plus rapidement les objectifs de développement durable en Asie centrale,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_23" class="MercuryDocument">
+              <content eId="para_23__content">
+                <p xml:space="preserve">
+                  <span class="italic">	Prenant note</span> des efforts sincères qu’a déployés le Gouvernement kazakhstanais afin de poser les bases du fonctionnement du centre de solutions numériques pour le développement durable,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_24" class="MercuryDocument">
+              <content eId="para_24__content">
+                <p xml:space="preserve">
+                  <span class="italic">	Prenant note également </span>des conclusions du groupe de travail spécial chargé d’examiner, en toute transparence, les résultats de l’étude de faisabilité indépendante et de recommander une feuille de route pour le renforcement du partage de solutions numériques pratiques pour la région Asie-Pacifique,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_25" class="MercuryDocument">
+              <num>1.</num>
+              <content eId="para_25__content">
+                <p xml:space="preserve">	<span class="italic">Décide</span> de créer le Centre de solutions numériques pour le développement durable en Asie et dans le Pacifique, en tant qu’organe subsidiaire de la Commission économique et sociale pour l’Asie et le Pacifique, lequel contribuera au programme de travail de la Commission dans le domaine des technologies de l’information et de la communication en faisant en sorte que ses activités ne fassent pas double emploi avec celles des institutions régionales existantes de la Commission ou de la Banque de technologies pour les pays les moins avancés et n’empiètent pas sur lesdites activités ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_26" class="MercuryDocument">
+              <num>2.</num>
+              <content eId="para_26__content">
+                <p xml:space="preserve">	<span class="italic">Adopte</span> les statuts du Centre, dont le texte est annexé à la présente résolution, qui régissent son fonctionnement ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_27" class="MercuryDocument">
+              <num>3.</num>
+              <content eId="para_27__content">
+                <p xml:space="preserve">	<span class="italic">Décide</span> que le coût des activités institutionnelles, programmatiques et de fonctionnement du Centre et les dépenses pouvant découler de la mise en œuvre de la présente résolution seront couverts par des contributions volontaires du Gouvernement kazakhstanais, des membres et des membres associés, du secteur privé et de mécanismes de financement novateurs, selon qu’il conviendra, sans recourir aux contributions statutaires de l’Organisation des Nations Unies, notant que les ressources financières du Centre doivent être administrées conformément au Règlement financier et aux règles de gestion financière de l’Organisation des Nations Unies ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_28" class="MercuryDocument">
+              <num>4.</num>
+              <content eId="para_28__content">
+                <p xml:space="preserve">	<span class="italic">Encourage</span> l’Organisation des Nations Unies et les autres organisations et institutions internationales, ainsi que les organisations non gouvernementales œuvrant dans les domaines pertinents, selon qu’il conviendra, à apporter un appui au Centre et à coopérer en vue de la réalisation de ses objectifs et de l’exécution de son programme de travail ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_29" class="MercuryDocument">
+              <num>5.</num>
+              <content eId="para_29__content">
+                <p xml:space="preserve">	<span class="italic">Prie</span> la Secrétaire exécutive :</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_30" class="MercuryDocument">
+              <content eId="para_30__content">
+                <p xml:space="preserve">	a) De prendre toutes les mesures nécessaires à la mise en service du Centre et de veiller à la conclusion d’un accord de siège entre le pays hôte et l’Organisation des Nations Unies ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_31" class="MercuryDocument">
+              <content eId="para_31__content">
+                <p xml:space="preserve">	b) De rendre compte au Comité des technologies de l’information et de la communication, de la science, de la technologie et de l’innovation et à la Commission des progrès accomplis dans la mise en place du Conseil d’administration et du Centre et, une fois que le Conseil d’administration sera opérationnel, de rendre compte chaque année à la Commission des progrès réalisés par le Centre ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_32" class="MercuryDocument">
+              <content eId="para_32__content">
+                <p xml:space="preserve">	c) De lui rendre compte, à sa quatre-vingt-quatrième session, des progrès accomplis dans l’exécution de la présente résolution ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_33" class="MercuryDocument">
+              <num>6.</num>
+              <content eId="para_33__content">
+                <p xml:space="preserve">	<span class="italic">Décide</span> d’évaluer le fonctionnement du Centre, sur la base des résultats d’un examen général indépendant financé par des contributions volontaires, à sa quatre-vingt-septième session, et de se prononcer par la suite sur le maintien des activités du Centre en tant qu’institution régionale de la Commission.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_34" class="MercuryDocument">
+              <content eId="para_34__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Annexe à la résolution 82/4</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_35" class="MercuryDocument">
+              <content eId="para_35__content">
+                <p xml:space="preserve">
+                  <span class="bold">		Statuts du Centre de solutions numériques pour le développement durable en Asie et dans le Pacifique</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_36" class="MercuryDocument">
+              <num>A.</num>
+              <content eId="para_36__content">
+                <p xml:space="preserve">
+                  <span class="bold">	Création</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_37" class="MercuryDocument">
+              <num>1.</num>
+              <content eId="para_37__content">
+                <p xml:space="preserve">	Le Centre de solutions numériques pour le développement durable en Asie et dans le Pacifique est un organe subsidiaire de la Commission économique et sociale pour l’Asie et le Pacifique, situé à Almaty, au Kazakhstan.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_38" class="MercuryDocument">
+              <num>2.</num>
+              <content eId="para_38__content">
+                <p xml:space="preserve">	La composition du Centre est la même que celle de la Commission.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_39" class="MercuryDocument">
+              <num>B.</num>
+              <content eId="para_39__content">
+                <p xml:space="preserve">
+                  <span class="bold">	Objectif </span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_40" class="MercuryDocument">
+              <num>3.</num>
+              <content eId="para_40__content">
+                <p xml:space="preserve">	Le Centre a pour objectif de faciliter le partage de solutions numériques entre les pays de l’Asie et du Pacifique, lorsque les membres ou les membres associés bénéficiaires lui en font la demande, y compris dans le cadre d’une coopération multipartite, selon qu’il convient, afin de contribuer à la réalisation du Programme de développement durable à l’horizon 2030 et des objectifs de développement durable.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_41" class="MercuryDocument">
+              <num>C.</num>
+              <content eId="para_41__content">
+                <p xml:space="preserve">
+                  <span class="bold">	Fonctions</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_42" class="MercuryDocument">
+              <num>4.</num>
+              <content eId="para_42__content">
+                <p xml:space="preserve">	Dans le respect des règles et règlements de l’Organisation des Nations Unies et sous réserve de la disponibilité de ressources provenant de contributions financières volontaires et en nature, le Centre assume les fonctions suivantes :</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_43" class="MercuryDocument">
+              <content eId="para_43__content">
+                <p xml:space="preserve">	a) Servir de plateforme internationale qui facilite le partage de solutions numériques en Asie et dans le Pacifique et favorise la création d’une communauté d’ingénieur(e)s, d’expert(e)s juridiques, de responsables politiques et d’autres parties prenantes, selon qu’il convient, dont les conseils et l’assistance technique seraient mis à la disposition des membres ou des membres associés bénéficiaires et, entre autres, des pays les moins avancés, des pays en développement sans littoral et des petits États insulaires en développement, et leur seraient fournis à titre volontaire et selon des modalités arrêtées d’un commun accord ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_44" class="MercuryDocument">
+              <content eId="para_44__content">
+                <p xml:space="preserve">	b) Recenser, en concertation avec le membre ou le membre associé bénéficiaire, les solutions numériques permettant de réaliser des progrès significatifs vers la réalisation des objectifs de développement durable ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_45" class="MercuryDocument">
+              <content eId="para_45__content">
+                <p xml:space="preserve">	c) Faciliter l’accès à ces technologies numériques, sur demande, en particulier pour les pays les moins avancés, les pays en développement sans littoral et les petits États insulaires en développement :</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_46" class="MercuryDocument">
+              <content eId="para_46__content">
+                <p xml:space="preserve">	i) En encourageant le partage de solutions numériques sûres et sécurisées, incluant les logiciels libres, le membre ou membre associé bénéficiaire étant libre d’adapter, de réviser, de mettre à jour, d’étendre ou de réaffecter à d’autres fonctions ces solutions selon ses besoins et ses priorités, en vue d’atteindre les objectifs de développement durable ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_47" class="MercuryDocument">
+              <content eId="para_47__content">
+                <p xml:space="preserve">	ii)	En élaborant un ensemble de mesures de protection pour que le membre ou le membre associé bénéficiaire puisse adopter ces technologies, conformément aux normes pertinentes de l’Organisation des Nations Unies ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_48" class="MercuryDocument">
+              <content eId="para_48__content">
+                <p xml:space="preserve">	iii)	En s’assurant que toutes les solutions numériques proposées par l’intermédiaire du Centre soient exemptes de frais initiaux pour le membre ou le membre associé bénéficiaire et puissent être étendues ou réaffectées à d’autres fonctions à leurs frais, conformément aux cadres juridiques applicables, et que ces solutions soient fournies « en l’état », sans garantie d’aucune sorte, expresse ou tacite, notamment en ce qui concerne leur valeur marchande, leur utilité à telle ou telle fin et la non-violation des droits de propriété intellectuelle, et que l’Organisation des Nations Unies n’assume aucune responsabilité de quelque nature que ce soit.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_49" class="MercuryDocument">
+              <num>5.</num>
+              <content eId="para_49__content">
+                <p xml:space="preserve">	Les solutions numériques qui sont au cœur du mandat du Centre couvrent l’éventail complet des technologies numériques nécessaires pour soutenir la réalisation des objectifs de développement durable.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_50" class="MercuryDocument">
+              <num>6.</num>
+              <content eId="para_50__content">
+                <p xml:space="preserve">	Le Centre :</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_51" class="MercuryDocument">
+              <content eId="para_51__content">
+                <p xml:space="preserve">	a) Réalise, sur demande et selon des modalités arrêtées d’un commun accord, une évaluation factuelle des besoins en matière de technologies numériques nécessaires à la réalisation des objectifs de développement durable, en tenant compte des priorités de développement du membre ou du membre associé bénéficiaire. Ces évaluations reposeront sur des consultations rigoureuses avec les parties prenantes aux échelons national, régional et international, notamment le secteur privé, les milieux universitaires et la société civile, et devraient permettre de recenser des solutions technologiques adaptées qui correspondent aux priorités du membre ou du membre associé bénéficiaire ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_52" class="MercuryDocument">
+              <content eId="para_52__content">
+                <p xml:space="preserve">	b) Facilite la communication entre les membres et les membres associés bénéficiaires et les membres et les membres associés contributeurs, et aide ceux qui lui en font la demande à élaborer des projets viables en vue de l’adoption des technologies convenues entre eux ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_53" class="MercuryDocument">
+              <content eId="para_53__content">
+                <p xml:space="preserve">	c) Mène des activités de partage des connaissances et de renforcement des capacités afin de faciliter l’adoption des technologies numériques, sur demande ; </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_54" class="MercuryDocument">
+              <content eId="para_54__content">
+                <p xml:space="preserve">	d) Met en œuvre des programmes d’amélioration des compétences, de formation et de reconversion professionnelle dans les domaines liés au déploiement, à l’adoption et à la maintenance des technologies numériques au service du développement durable qui ont été mises en place avec l’aide du Centre. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_55" class="MercuryDocument">
+              <num>7.</num>
+              <content eId="para_55__content">
+                <p xml:space="preserve">	Les activités du Centre sont conformes aux grandes orientations adoptées par l’Assemblée générale, le Conseil économique et social et la Commission. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_56" class="MercuryDocument">
+              <num>D.</num>
+              <content eId="para_56__content">
+                <p xml:space="preserve">
+                  <span class="bold">	Conseil d’administration</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_57" class="MercuryDocument">
+              <num>8.</num>
+              <content eId="para_57__content">
+                <p xml:space="preserve">	Le Centre a un Conseil d’administration. Le Conseil d’administration est composé d’un(e) représentant(e) désigné(e) par le Gouvernement kazakhstanais et de huit représentant(e)s désigné(e)s par les autres membres et membres associés de la Commission. Les représentant(e)s des membres et des membres associés sont élu(e)s par la Commission pour un mandat de trois ans et sont rééligibles. Le (la) Secrétaire exécutif(ve) de la Commission ou son (sa) représentant(e) assiste aux sessions du Conseil d’administration.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_58" class="MercuryDocument">
+              <num>9.</num>
+              <content eId="para_58__content">
+                <p xml:space="preserve">	Le (la) Directeur(trice) du Centre fait fonction de Secrétaire du Conseil d’administration.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_59" class="MercuryDocument">
+              <num>10.</num>
+              <content eId="para_59__content">
+                <p xml:space="preserve">	Les représentant(e)s des entités ci‑après peuvent être invité(e)s par le (la) Secrétaire exécutif(ve) à assister aux sessions du Conseil d’administration : a) les États qui ne sont pas membres du Conseil d’administration ; b) les organismes et institutions spécialisées des Nations Unies et les organismes apparentés ; c) toute autre organisation que le Conseil d’administration juge appropriée, de même que des spécialistes de domaines intéressant le Conseil d’administration.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_60" class="MercuryDocument">
+              <num>11.</num>
+              <content eId="para_60__content">
+                <p xml:space="preserve">	Le Conseil d’administration adopte son règlement intérieur et se réunit au moins une fois par an. Les sessions ordinaires du Conseil d’administration sont convoquées par le (la) Secrétaire exécutif(ve) de la Commission. Des sessions extraordinaires peuvent être organisées si le (la) Secrétaire exécutif(ve) le propose ou à la demande d’une majorité des membres du Conseil d’administration.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_61" class="MercuryDocument">
+              <num>12.</num>
+              <content eId="para_61__content">
+                <p xml:space="preserve">	Lors des sessions du Conseil d’administration, la présence de la majorité des membres constitue le quorum.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_62" class="MercuryDocument">
+              <num>13.</num>
+              <content eId="para_62__content">
+                <p xml:space="preserve">	Chaque membre du Conseil d’administration dispose d’une voix. Les décisions et recommandations du Conseil d’administration sont adoptées par consensus ou, à défaut, à la majorité des membres présents et votants. À chaque session ordinaire, le Conseil d’administration élit un(e) président(e) et un(e) vice-président(e) qui demeurent en fonctions jusqu’à la session ordinaire suivante. Le (la) président(e) ou, en son absence, le (la) vice-président(e), assure la présidence des sessions du Conseil d’administration. Si le (la) président(e) est dans l’incapacité d’accomplir l’intégralité du mandat pour lequel il (elle) a été élu(e), le (la) vice-président(e) le (la) remplace jusqu’au terme de ce mandat.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_63" class="MercuryDocument">
+              <num>14.</num>
+              <content eId="para_63__content">
+                <p xml:space="preserve">	Le Conseil d’administration examine la situation administrative et financière du Centre et l’exécution de son programme de travail. Le (la) Secrétaire exécutif(ve) de la Commission communique le rapport annuel du Conseil d’administration à la Commission à sa session annuelle.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_64" class="MercuryDocument">
+              <num>15.</num>
+              <content eId="para_64__content">
+                <p xml:space="preserve">	Le Conseil d’administration examine et approuve des plans de travail annuels et à long terme conformes au programme de travail. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_65" class="MercuryDocument">
+              <num>E.</num>
+              <content eId="para_65__content">
+                <p xml:space="preserve">
+                  <span class="bold">	Directeur(trice) et personnel</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_66" class="MercuryDocument">
+              <num>16.</num>
+              <content eId="para_66__content">
+                <p xml:space="preserve">	Le Centre a un directeur(trice) et son personnel, qui s’acquittent de leurs fonctions en qualité de fonctionnaires de la Commission nommés suivant les règlements, règles et instructions administratives en vigueur de l’Organisation des Nations Unies.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_67" class="MercuryDocument">
+              <num>17.</num>
+              <content eId="para_67__content">
+                <p xml:space="preserve">	Le Conseil d’administration est invité à présenter des candidat(e)s au poste de directeur(trice) lorsque la vacance du poste est annoncée et, s’il y a lieu, à formuler un avis. Les autres membres et membres associés de la Commission peuvent aussi présenter des candidat(e)s.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_68" class="MercuryDocument">
+              <num>18.</num>
+              <content eId="para_68__content">
+                <p xml:space="preserve">	Le (la) directeur(trice) rend compte au (à la) Secrétaire exécutif(ve) de la Commission. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_69" class="MercuryDocument">
+              <num>19.</num>
+              <content eId="para_69__content">
+                <p xml:space="preserve">	Les membres et les membres associés sont encouragés à apporter une contribution, notamment en détachant des spécialistes et du personnel, conformément aux règlements, règles et instructions administratives appropriés de l’Organisation des Nations Unies. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_70" class="MercuryDocument">
+              <num>F.</num>
+              <content eId="para_70__content">
+                <p xml:space="preserve">
+                  <span class="bold">	Ressources</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_71" class="MercuryDocument">
+              <num>20.</num>
+              <content eId="para_71__content">
+                <p xml:space="preserve">	Le Gouvernement kazakhstanais prend à sa charge les coûts afférents à la création du Centre, ainsi qu’à l’exécution de ses activités institutionnelles, programmatiques et opérationnelles, et le fonctionnement du Centre ne doit pas nécessiter de ressources supplémentaires au titre du budget ordinaire de la Commission. Tous les membres et les membres associés peuvent verser des contributions volontaires à l’appui du fonctionnement du Centre. L’Organisation des Nations Unies administre un fonds commun d’affectation spéciale auquel ces contributions sont versées en vue d’être employées pour les seules activités du Centre.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_72" class="MercuryDocument">
+              <num>21.</num>
+              <content eId="para_72__content">
+                <p xml:space="preserve">	Les ressources financières du Centre sont administrées conformément au Règlement financier et aux règles de gestion financière de l’Organisation des Nations Unies. La Commission tient une comptabilité distincte pour le Centre.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_73" class="MercuryDocument">
+              <num>22.</num>
+              <content eId="para_73__content">
+                <p xml:space="preserve">	Le Centre s’efforce de mobiliser des ressources suffisantes pour financer ses activités.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_74" class="MercuryDocument">
+              <num>23.</num>
+              <content eId="para_74__content">
+                <p xml:space="preserve">	L’Organisation des Nations Unies maintient des fonds d’affectation spéciale distincts pour les contributions volontaires destinées aux projets de coopération technique ou autres contributions volontaires exceptionnelles destinées aux activités du Centre.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_75" class="MercuryDocument">
+              <num>G.</num>
+              <content eId="para_75__content">
+                <p xml:space="preserve">
+                  <span class="bold">	Modifications</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_76" class="MercuryDocument">
+              <num>24.</num>
+              <content eId="para_76__content">
+                <p xml:space="preserve">	La Commission adopte les modifications des présents statuts par voie de résolution.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_77" class="MercuryDocument">
+              <num>H.</num>
+              <content eId="para_77__content">
+                <p xml:space="preserve">
+                  <span class="bold">	Questions non couvertes par les présents statuts</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_78" class="MercuryDocument">
+              <num>25.</num>
+              <content eId="para_78__content">
+                <p xml:space="preserve">	Toute question de procédure non prévue par les présents statuts ou par le règlement intérieur adopté par le Conseil d’administration en vertu du paragraphe 11 des présents statuts, relève des articles pertinents du Règlement intérieur de la Commission.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_79" class="MercuryDocument">
+              <num>I.</num>
+              <content eId="para_79__content">
+                <p xml:space="preserve">
+                  <span class="bold">	Entrée en vigueur</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_80" class="SingleTxt">
+              <num>26.</num>
+              <content eId="para_80__content">
+                <p xml:space="preserve">	Les présents statuts entreront en vigueur à la date de leur adoption par la Commission.</p>
+              </content>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>
