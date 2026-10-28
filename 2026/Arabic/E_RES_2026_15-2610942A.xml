@@ -1,0 +1,247 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-15/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-15/"></FRBRuri>
+          <FRBRdate date="2026-07-21" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-15/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-15/ara@/"></FRBRuri>
+          <FRBRdate date="2026-07-24" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-15/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-15/ara@.xml"></FRBRuri>
+          <FRBRdate date="2026-09-25" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Office on Drugs and Crime" showAs="UN Office on Drugs and Crime" dictionary="DHLAUTH"></keyword>
+        <keyword value="FRAUD" href="http://metadata.un.org/thesaurus/1002516" showAs="FRAUD" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CRIME PREVENTION" href="http://metadata.un.org/thesaurus/1001376" showAs="CRIME PREVENTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CRIMINAL JUSTICE" href="http://metadata.un.org/thesaurus/1001388" showAs="CRIMINAL JUSTICE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL COOPERATION" href="http://metadata.un.org/thesaurus/1003291" showAs="INTERNATIONAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="19c" showAs="Crime prevention and criminal justice" shortForm="CRIME PREVENTION" dictionary="E/2026/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2026-06-17" outcome="recommendedForAdoption" as="E/2026/30" by="UN. Commission on Crime Prevention and Criminal Justice" />
+        <step date="2026-07-24" outcome="adopted" as="Adopted without vote, 40th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2026/15</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">إن المجلس الاقتصادي والاجتماعي</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2026-07-24" class="rightSmall" refersTo="#dateOfIssuance">24 July 2026</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2026" eId="coverPage_1__session_1">دورة عام 2026</session>
+      </p>
+      <p>
+        <inline title="19 (ج)" name="agenda item">البند 19 (ج) من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">المسائل الاجتماعية ومسائل حقوق الإنسان: منع الجريمة والعدالة الجنائية</inline>
+      </p>
+      <p>
+        <docTitle>قرار اتخذه المجلس الاقتصادي والاجتماعي في 21 تموز/يوليه 2026</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent>[بناء على توصية اللجنة المعنية بتسخير العلم والتكنولوجيا لأغراض التنمية (<inline name="originating document">E/2026/30</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2026/15</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	تعزيز التدابير المتخذة في مجال منع الجريمة والعدالة الجنائية من أجل منع الاحتيال ومكافحته</span>
+        </docTitle>
+      </p>
+    </preface>
+    <mainBody>
+      <paragraph eId="para_1" class="SingleTxt">
+        <content eId="para_1__content">
+          <p xml:space="preserve">
+            <span class="bold italic">	إن المجلس الاقتصادي والاجتماعي</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_2" class="SingleTxt">
+        <content eId="para_2__content">
+          <p xml:space="preserve">
+            <span class="bold italic">	يوصي</span> بأن تعتمد الجمعية العامة مشروع القرار التالي:
+<embeddedStructure>
+<container name="formula"><p xml:space="preserve">	
+<span class="italic">إن الجمعية العامة</span>،</p></container>
+<container name="إذ تشير" eId="container_4"><p xml:space="preserve">	
+<span class="bold italic">إذ تشير</span> إلى قرار المجلس الاقتصادي والاجتماعي <a href="https://docs.un.org/E/RES/2013/39">2013/39</a> المؤرخ 25 تموز/يوليه 2013 والمعنون ”التعاون الدولي على منع الاحتيال الاقتصادي والجرائم المتصلة بالهوية والتحقيق فيها وملاحقة مرتكبيها قضائيا ومعاقبتهم“، وكذلك إلى قرارات المجلس <a href="https://docs.un.org/E/RES/2004/26">2004/26</a> المؤرخ 21 تموز/يوليه 2004، و<a href="https://docs.un.org/E/RES/2007/20">2007/20</a> المؤرخ 26 تموز/يوليه 2007، و<a href="https://docs.un.org/E/RES/2009/22">2009/22</a> المؤرخ 30 تموز/يوليه 2009، و<a href="https://docs.un.org/E/RES/2011/35">2011/35</a> المؤرخ 28 تموز/يوليه 2011،</p></container>
+<container name="وإذ تدرك" eId="container_5"><p xml:space="preserve">	
+<span class="bold italic">وإذ تدرك</span> أن الاحتيال جريمة تتطور بسرعة وتزداد تعقيدا، وتهدد الأمن ورفاهية الأفراد والاستقرار الاقتصادي والثقة في النظم المالية ويمكن أن تتسبب في أضرار اقتصادية وعاطفية ونفسية كبيرة للضحايا والمجتمعات المحلية في جميع أنحاء العالم،</p></container>
+<container name="وإذ يساورها قلق بالغ" eId="container_6"><p xml:space="preserve">	
+<span class="bold italic">وإذ يساورها قلق بالغ</span> إزاء تزايد حجم الاحتيال عبر الوطني الذي ترتكبه الجماعات الإجرامية المنظمة، بما في ذلك الاحتيال الميسر بالتكنولوجيا السيبرانية والأشكال الأخرى من الاحتيال الرقمي، وتحويل الاحتيال إلى صناعة في مراكز للاحتيال ومن خلال منظمات إجرامية أخرى متورطة في الاحتيال،</p></container>
+<container name="وإذ تدرك" eId="container_7"><p xml:space="preserve">	
+<span class="bold italic">وإذ تدرك</span> أن عائدات الاحتيال عبر الوطني الذي ترتكبه الجماعات الإجرامية المنظمة تُحوَّل بشكل متزايد إلى أصول افتراضية وتخفى في تلك الأصول، وتلاحظ أن تلك الجماعات قد ترتكب جرائم أخرى مثل غسل الأموال والفساد والرشوة والاتجار بالمخدرات والاتجار بالممتلكات الثقافية والاتجار بالأشخاص لغرض الإجرام القسري،</p></container>
+<container name="وإذ تشير" eId="container_8"><p xml:space="preserve">	
+<span class="bold italic">وإذ تشير</span> إلى قرار الجمعية العامة <a href="https://docs.un.org/A/RES/79/243">79/243</a> المؤرخ 24 كانون الأول/ديسمبر 2024، الذي اعتمدت بموجبه الجمعية العامة اتفاقية الأمم المتحدة لمكافحة الجريمة السيبرانية؛ تعزيز التعاون الدولي لمكافحة جرائم معينة مرتكبة بواسطة نظم تكنولوجيا المعلومات والاتصالات ولتبادل الأدلة في شكل إلكتروني على الجرائم الخطيرة، وتلاحظ، ريثما تدخل تلك الاتفاقية حيز النفاذ، أهميتها لمنع الاحتيال الميسر بالتكنولوجيا السيبرانية ومكافحته، وكذلك لجمع الأدلة الإلكترونية وحفظها وتبادلها،</p></container>
+<container name="وإذ تدرك" eId="container_9"><p xml:space="preserve">	
+<span class="bold italic">وإذ تدرك</span> أن فعالية التدابير المتخذة في مجال منع الجريمة والعدالة الجنائية من أجل التصدي للاحتيال تتطلب إرادة سياسية مستمرة وجهودا وطنية فعالة في مختلف القطاعات، تشمل، وفقا للقانون الداخلي، الإشراك الفاعل للقطاع الخاص وسائر الجهات المعنية صاحبة المصلحة، وكذلك اتخاذ إجراءات منسقة عبر الحدود الوطنية وعبر القطاعات، حسب الاقتضاء،</p></container>
+<container name="وإذ تدرك أيضا" eId="container_10"><p xml:space="preserve">	
+<span class="bold italic">وإذ تدرك أيضا</span> الإمكانات التي تنطوي عليها التكنولوجيات المتطورة والمستجدة، بما في ذلك، ضمن كل سياق سيبراني داخلي، استخدام الاستدلال الجنائي الرقمي وتحليل البيانات، من أجل دعم منع حالات الاحتيال وكشفها والتحقيق فيها وملاحقة مرتكبيها قضائيا، مع الإشارة إلى ضرورة معالجة المخاطر المتعلقة بجودة البيانات والخصوصية وحماية البيانات وفقا للقانون الداخلي، وملاحظة العمل الذي اضطلع به مكتب الأمم المتحدة المعني بالمخدرات والجريمة فيما يتعلق بتدريب أجهزة إنفاذ القانون على التكنولوجيات الجديدة والناشئة،</p></container>
+<container name="وإذ تدرك كذلك" eId="container_11"><p xml:space="preserve">	
+<span class="bold italic">وإذ تدرك كذلك</span> الدور الذي تضطلع به الهيئات الوطنية المختصة، بما في ذلك المصارف المركزية ووحدات الاستخبارات المالية والسلطات العمومية الأخرى ذات الصلة، في صون نزاهة واستقرار النظامين المالي والرقمي وقدرتهما على المواجهة، من أجل جملة أمور منها دعم جهود منع الاحتيال والجرائم المالية وكشفها والتحقيق فيها والتخفيف من آثارها،</p></container>
+<container name="وإذ تقر" eId="container_12"><p xml:space="preserve">	
+<span class="bold italic">وإذ تقر</span>، وفقا للقانون الداخلي، بدور المؤسسات المالية والمنصات الإلكترونية ومقدمي خدمات الاتصالات وسائر الجهات المعنية صاحبة المصلحة في صون نزاهة واستقرار النظامين المالي والرقمي وقدرتهما على المواجهة، بسبل منها، حسب الاقتضاء، منع الاحتيال والجرائم المالية وكشفها والتحقيق فيها والتخفيف من آثارها،</p></container>
+<container name="وإذ يساورها القلق" eId="container_13"><p xml:space="preserve">	
+<span class="bold italic">وإذ يساورها القلق</span> من أن الاحتيال أصبح يشكل على نحو متزايد مصدرا لتمويل الجماعات الإجرامية المنظمة عبر الوطنية، ولاستغلال النظم المالية والأصول الافتراضية لنقل وإخفاء وغسل عائدات أنشطتها الإجرامية،</p></container>
+<container name="وإذ تشدد" eId="container_14"><p xml:space="preserve">	
+<span class="bold italic">وإذ تشدد</span> على أهمية تبادل المعلومات المتعددة القطاعات في الوقت المناسب وبطريقة آمنة  وذات أهمية، وفقا للقوانين واللوائح التنظيمية الداخلية، لمنع الاحتيال ومكافحته، بسبل منها التعاون بين السلطات العمومية والقطاع الخاص، عن طريق أمور منها الشراكات بين القطاعين العام والخاص، وكذلك من خلال أفرقة عمل متعددة الجنسيات، متعددة الوكالات ومتخصصة، حسب الاقتضاء، وبهدف تحقيق جملة أمور منها تحقيق نتائج في مجال العدالة الجنائية،</p></container>
+<container name="وإذ تدرك" eId="container_15"><p xml:space="preserve">	
+<span class="bold italic">وإذ تدرك</span> الحاجة إلى حرمان المجرمين من القدرة على تحقيق مكاسب من الاحتيال، بسبل منها تعزيز التعاون الدولي من خلال حجز الموجودات وتجميدها ومصادرتها واسترداد وإعادة عائدات جرائم الاحتيال، والحاجة إلى دعم الضحايا، بسبل منها التعويضات، وفقا للقانون الداخلي،</p></container>
+<container name="وإذ تعيد تأكيد" eId="container_16"><p xml:space="preserve">	
+<span class="bold italic">وإذ تعيد تأكيد</span> أهمية تعزيز تقديم المساعدة التقنية المؤثرة والفعالة إلى الدول الأعضاء، مع مراعاة الاحتياجات والأولويات التي تحددها الدول التي تطلب تلك المساعدة، من أجل دعم جهودها في منع الاحتيال ومكافحته، وإذ تعترف بأهمية النتائج التي يمكن إنجازها، والدور الهام الذي يؤديه مكتب الأمم المتحدة المعني بالمخدرات والجريمة في هذا الصدد،</p></container>
+<container name="وإذ تعرب" eId="container_17"><p xml:space="preserve">	
+<span class="bold italic">وإذ تعرب</span> 
+<span class="bold italic">عن تقديرها</span> لمكتب الأمم المتحدة المعني بالمخدرات والجريمة، والمنظمة الدولية للشرطة الجنائية (الإنتربول)، والجهات المانحة على تنظيم القمة العالمية بشأن الاحتيال 2026، وإذ تحيط علما بالوثيقتين الختاميتين الصادرتين عن القمة، وهما ”الدعوة إلى العمل لمكافحة الاحتيال“ و ”إطار الشراكة العالمية بين القطاعين العام والخاص للتصدي للاحتيال“،</p></container>
+<paragraph eId="para_18" class="MercuryDocument">
+<num>1 -</num>
+<content eId="para_18__content"><p xml:space="preserve">	<span class="bold italic">تحث</span> الدول الأعضاء على اعتبار الاحتيال المنظم جريمة خطيرة، حسب التعريف الوارد في المادة 2 (ب) من اتفاقية الأمم المتحدة للجريمة المنظمة عبر الوطنية<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	()	United Nations, <span class="italic">Treaty Series</span>, vol. 2225, No. 39574.</p></authorialNote><sup>)</sup>، وفقا لتشريعاتها الوطنية، بغرض ضمان توفير التعاون الدولي الفعال بموجب الاتفاقية حيثما كان الجرم ذا طابع عبر وطني وتكون ضالعة فيه جماعة إجرامية منظمة، <span class="italic">وتهيب</span> بالدول الأعضاء مواصلة وضع وتنفيذ تدابير محددة الأهداف وقائمة على الأدلة لمنع الجريمة واتخاذ تدابير في مجال العدالة الجنائية من أجل منع الاحتيال ومكافحته؛</p></content></paragraph>
+<paragraph eId="para_19" class="MercuryDocument">
+<num>2 -</num>
+<content eId="para_19__content"><p xml:space="preserve">	<span class="bold italic">تهيب</span> بالدول الأعضاء، عند الاقتضاء، تعزيز وتنفيذ مبادرات متعددة أصحاب المصلحة والقطاعات للتوعية بالاحتيال ومنع الجريمة، مثل الحملات التثقيفية وحملات التوعية العامة، بهدف تعزيز القدرة على المواجهة والحد من إمكانية التعرض للاحتيال، بسبل منها تحسين فهم التهديدات المستجدة في مجال الاحتيال وبتقليل التعرض لممارسات التوظيف الخادعة؛</p></content></paragraph>
+<paragraph eId="para_21" class="MercuryDocument">
+<num>3 -</num>
+<content eId="para_21__content"><p xml:space="preserve">	<span class="bold italic">تهيب أيضا</span> بالدول الأعضاء اتخاذ خطوات لإجراء تحقيقات حثيثة في حالات الاحتيال، وعند الاقتضاء ملاحقة مرتكبيها قضائيا على النحو الواجب ومساءلتهم، مع الاعتراف في الوقت نفسه بالسلطة التقديرية للنيابة العامة واستقلال القضاء، بسبل منها، عند الاقتضاء ووفقا للقانون الداخلي والقانون الدولي المنطبق، المساعدة القضائية المتبادلة وتسليم المطلوبين واسترداد عائدات الجريمة وإعادتها، والحرمان من الملاذ الآمن؛</p></content></paragraph>
+<paragraph eId="para_24" class="MercuryDocument">
+<num>4 -</num>
+<content eId="para_24__content"><p xml:space="preserve">	<span class="bold italic">تحث</span> الدول الأعضاء، من خلال هيئاتها الوطنية المعنية، بما في ذلك المصارف المركزية وهيئات الإشراف المالي ووحدات الاستخبارات المالية، على اتخاذ الخطوات التي تضمن أن المؤسسات المالية الخاضعة للتنظيم تعتمد أطرا قوية في مجال إدارة مخاطر الاحتيال، وفقا للقانون الداخلي؛</p></content></paragraph>
+<paragraph eId="para_28" class="MercuryDocument">
+<num>5 -</num>
+<content eId="para_28__content"><p xml:space="preserve">	<span class="bold italic">تهيب</span> بالدول الأعضاء أن تشجع، من خلال سلطاتها الوطنية المعنية وهيئات التنظيم الرقابي والسلطات المختصة والشراكات بين القطاعين العام والخاص، وعند الاقتضاء، المنصات الإلكترونية ومقدمي خدمات الاتصالات والجهات المعنية صاحبة المصلحة على تطبيق نظم وضوابط فعالة لمنع الأنشطة الاحتيالية وإساءة استخدام خدماتها وكشفها وإحباطها، والتعاون مع سلطات إنفاذ القانون وفقا للقانون الداخلي؛</p></content></paragraph>
+<paragraph eId="para_33" class="MercuryDocument">
+<num>6 -</num>
+<content eId="para_33__content"><p xml:space="preserve">	<span class="bold italic">تشجع</span> الدول الأعضاء على سن أو تعهُّد تشريعات تجرم السلوك المرتبط بارتكاب الاحتيال الميسر بالتكنولوجيا السيبرانية، وعلى إتاحة المجال لتعزيز التعاون الدولي من أجل التحقيق في الاحتيال الميسر بالتكنولوجيا السيبرانية وملاحقة مرتكبيه قضائيا بصورة فعالة؛</p></content></paragraph>
+<paragraph eId="para_39" class="MercuryDocument">
+<num>7 -</num>
+<content eId="para_39__content"><p xml:space="preserve">	<span class="bold italic">تهيب</span> بالدول الأعضاء أن تعزز التعاون الدولي والتدابير المحلية من أجل استبانة وتجميد وحجز ومصادرة وإعادة عائدات الجريمة المتأتية من الاحتيال، مع إيلاء الأولوية لتعويض الضحايا، أو إرجاع تلك العائدات إلى مالكيها الشرعيين وفقا لقوانينها الداخلية والتزاماتها الدولية؛</p></content></paragraph>
+<paragraph eId="para_46" class="MercuryDocument">
+<num>8 -</num>
+<content eId="para_46__content"><p xml:space="preserve">	<span class="bold italic">تشجع</span> الدول الأعضاء على النظر في إنشاء هيئات مكرسة لمنع الاحتيال ومكافحته، في الحالات المناسبة، مثل وحدات مكافحة الفساد أو وحدات الجريمة المنظمة المتخصصة التي تتعامل مع الاحتيال وتكلف بولاية واضحة في جملة أمور منها إدارة وتنسيق التحقيقات في قضايا الاحتيال والجرائم المرتبطة بها من أجل دعم السلطات المختصة في التصدي لتهديدات الاحتيال المنظم والنُظُمي، وتنسيق القضايا المعقدة والعابرة للحدود؛</p></content></paragraph>
+<paragraph eId="para_54" class="MercuryDocument">
+<num>9 -</num>
+<content eId="para_54__content"><p xml:space="preserve">	<span class="bold italic">تشجع بقوة</span> الدول الأعضاء على أن تتخذ تدابير فعالة من أجل كشف عمليات الاحتيال المنظمة، مثل مراكز الاحتيال وغيرها من العمليات التي تنطوي على الاتجار بالأشخاص لغرض ارتكاب الاحتيال، وتعطيلها وتفكيكها، بسبل منها تعطيل الممارسات الخادعة لتوظيف العمال وتفكيك الشبكات المالية وسلاسل التوريد التي تستخدمها الجماعات الإجرامية المنظمة لارتكاب جرائم الاحتيال؛</p></content></paragraph>
+<paragraph eId="para_63" class="MercuryDocument">
+<num>10 -</num><list eId="para_63_list"><intro eId="para_63_list_intro"><p xml:space="preserve">	<span class="bold italic">تشجع</span> الدول الأعضاء، وفقا لقوانينها الداخلية وفي حدود إمكانياتها، على تنفيذ وتعزيز التدابير المناسبة لحماية ودعم ضحايا الاحتيال وضحايا الاتجار بالأشخاص لغرض الإجرام القسري  في عمليات الاحتيال، بما في ذلك:</p></intro><point eId="para_63_list_point_أ">
+<num>(أ)</num>
+<content eId="para_63_list_point_أ_content"><p xml:space="preserve">	عن طريق وضع أو تعزيز الإجراءات المناسبة التي تقدم لهؤلاء الضحايا سبل الحصول على التعويض أو استرداد الحقوق أو خدمات الدعم أو غير ذلك من سبل الانتصاف المناسبة؛</p></content></point><point eId="para_63_list_point_ب">
+<num>(ب)</num>
+<content eId="para_63_list_point_ب_content"><p xml:space="preserve">	عن طريق كفالة أن ضحايا الاتجار بالأشخاص لغرض الإجرام القسري في عمليات الاحتيال يعاملون باحترام وكرامة ولا يعاقبون أو يتأثرون سلبا على نحو غير ملائم بالقوانين والسياسات والإجراءات التي تتخذها السلطات الحكومية على الأعمال التي ارتكبوها كنتيجة مباشرة لحالة الاتجار بهم؛</p></content></point></list></paragraph>
+<paragraph eId="para_73" class="MercuryDocument">
+<num>11 -</num>
+<content eId="para_73__content"><p xml:space="preserve">	<span class="bold italic">تهيب</span> بالدول الأعضاء اتخاذ التدابير المناسبة، وفقا لقوانينها الداخلية، لمنع وكشف ومكافحة وتعطيل أنشطة ميسري الاحتيال التقني، بما في ذلك إساءة استخدام البنية التحتية الرقمية وخدمات الاتصالات والنظم المالية، وتهيب أيضا بالدول الأعضاء أن تحقق وتنفذ في الحالات المناسبة الملاحقات القضائية، في حق الأشخاص الطبيعيين والاعتباريين الذين يساعدون، عن طريق أفعال من قبيل غسل الأموال والفساد، على ارتكاب الاحتيال ويحرضون عليه؛</p></content></paragraph>
+<paragraph eId="para_84" class="MercuryDocument">
+<num>12 -</num>
+<content eId="para_84__content"><p xml:space="preserve">	<span class="bold italic">تشجع</span> الدول الأعضاء على تعزيز التعاون الدولي، بما في ذلك المساعدة القضائية المتبادلة وتسليم المطلوبين والتنسيق في مجال استرداد الأصول بين وحدات مكافحة الاحتيال ووحدات الاستخبارات المالية والسلطات المختصة الأخرى، وإجراء تحقيقات مشتركة أو متوازية، حسب الاقتضاء، وتبادل المعلومات وفقا للتشريعات الداخلية والقانون الدولي المنطبق، بغية تعطيل الأنشطة الإجرامية وتفكيك الجماعات الإجرامية المنظمة عبرة الوطنية المتورطة في أعمال الاحتيال؛</p></content></paragraph>
+<paragraph eId="para_96" class="MercuryDocument">
+<num>13 -</num>
+<content eId="para_96__content"><p xml:space="preserve">	<span class="bold italic">تشجع أيضا</span> الدول الأعضاء، في إجراءاتها لمنع الاحتيال والتحقيق فيه وملاحقة مرتكبيه قضائيا، على استخدام المعلومات، وفقا للقوانين واللوائح التنظيمية الداخلية وحسب الاقتضاء، التي توفرها وحدات مكافحة الاحتيال ووحدات الاستخبارات المالية والسلطات المختصة الأخرى لديها، وعلى تعزيز التعاون بين وحدات الاستخبارات المالية التابعة لها من خلال الاستخدام الملائم للقنوات والشبكات القائمة لتبادل المعلومات؛</p></content></paragraph>
+<paragraph eId="para_109" class="MercuryDocument">
+<num>14 -</num>
+<content eId="para_109__content"><p xml:space="preserve">	<span class="bold italic">تهيب</span> بالدول الأعضاء تعزيز التعاون الدولي لمنع الاحتيال ومكافحته من خلال تحسين تبادل المعلومات والتعاون العملياتي بين سلطات إنفاذ القانون وأفرقة العمل المتخصصة المتعددة الجنسيات والمتعددة الوكالات، <span class="italic">وتشجع</span> الدول الأعضاء على الاستفادة من قنوات وقدرات سلطات التحقيق المختصة والسلطات القضائية وشبكات التعاون الدولي، بما في ذلك قنوات وقدرات المنظمة الدولية للشرطة الجنائية (الإنتربول)، لدعم نقل البيانات بشكل آمن وفي الوقت المناسب، مع ضمان الامتثال لقوانينها الداخلية والتزاماتها الدولية؛</p></content></paragraph>
+<paragraph eId="para_123" class="MercuryDocument">
+<num>15 -</num><list eId="para_123_list"><intro eId="para_123_list_intro"><p xml:space="preserve">	<span class="bold italic">تشجع</span> الدول الأعضاء على اتخاذ خطوات لتعزيز الإجراءات التي يتخذها الشركاء من القطاع الخاص، بما في ذلك المؤسسات المالية والمنصات والخدمات الشبكية ومقدمو خدمات الاتصالات ومقدمو خدمات الأصول الافتراضية والقطاعات الأخرى ذات الصلة، على منع الاحتيال وكشفه وإحباطه، عن طريق:</p></intro><point eId="para_123_list_point_أ">
+<num>(أ)</num>
+<content eId="para_123_list_point_أ_content"><p xml:space="preserve">	تعزيز ضمانات الحماية من الاحتيال؛</p></content></point><point eId="para_123_list_point_ب">
+<num>(ب)</num>
+<content eId="para_123_list_point_ب_content"><p xml:space="preserve">	تعزيز تبادل المعلومات في الوقت المناسب وبطريقة آمنة، وتعزيز الدعم المقدم لتدابير التصدي العملياتية بالتعاون مع السلطات العمومية المعنية، مثل أجهزة إنفاذ القانون ووحدات الاستخبارات المالية، وفقا للقانون الداخلي، من أجل كشف وتعطيل الاحتيال وميسريه؛</p></content></point></list></paragraph>
+<paragraph eId="para_138" class="MercuryDocument">
+<num>16 -</num>
+<content eId="para_138__content"><p xml:space="preserve">	<span class="bold italic">تشجع أيضا</span> الدول الأعضاء، ضمن حدود إمكانياتها، على النظر في استخدام التكنولوجيات المتطورة والمستجدة، بما في ذلك، في سياقها السيبراني المحلي، الاستدلال الجنائي الرقمي وتحليل البيانات كأدوات لدعم الجهود الرامية إلى تيسير منع حالات الاحتيال والتحقيق فيها وملاحقة مرتكبيها قضائيا، في إطار مراعاة كاملة لحقوق الإنسان وحقوق الخصوصية وحماية البيانات، ووفقا لقوانينها الداخلية والتزاماتها الدولية؛</p></content></paragraph>
+<paragraph eId="para_154" class="MercuryDocument">
+<num>17 -</num>
+<content eId="para_154__content"><p xml:space="preserve">	<span class="bold italic">تشجع كذلك</span> الدول الأعضاء على تعزيز تقديم مساعدة تقنية، مؤثرة وفعالة، بما يشمل تلك المقدمة بواسطة مكتب الأمم المتحدة المعني بالمخدرات والجريمة، مع مراعاة الاحتياجات والأولويات التي تحددها الدول التي تطلب تلك المساعدة، لدعم تحقيق نتائج قابلة للإنجاز، في مجال منع الاحتيال ومكافحته؛</p></content></paragraph>
+<paragraph eId="para_171" class="MercuryDocument">
+<num>18 -</num><list eId="para_171_list"><intro eId="para_171_list_intro"><p xml:space="preserve">	<span class="bold italic">تطلب</span> إلى مكتب الأمم المتحدة المعني بالمخدرات والجريمة، في إطار ولايته ورهنا بتوافر موارد من خارج الميزانية ورهنا باستعراض لجنة منع الجريمة والعدالة الجنائية بعد ثلاث سنوات، ما يلي:</p></intro><point eId="para_171_list_point_أ">
+<num>(أ)</num>
+<content eId="para_171_list_point_أ_content"><p xml:space="preserve">	جمع معلومات من الدول، على أساس طوعي، بشأن الاتجاهات المستجدة في مجال الجريمة وأنماطها والممارسات الجيدة والفجوات في القدرات والتحديات أمام منع الاحتيال ومكافحته، وإتاحة تلك المعلومات كل سنتين للجنة منع الجريمة والعدالة الجنائية؛</p></content></point><point eId="para_171_list_point_ب">
+<num>(ب)</num>
+<content eId="para_171_list_point_ب_content"><p xml:space="preserve">	دعم الدول الأعضاء في تنفيذ هذا القرار؛</p></content></point></list></paragraph>
+<paragraph eId="para_189" class="MercuryDocument">
+<num>19 -</num>
+<content eId="para_189__content"><p xml:space="preserve">	<span class="bold italic">تدعو</span> الدول الأعضاء التي أقرت الوثيقتين الختاميتين الصادرتين عن القمة العالمية بشأن الاحتيال 2026، وهما ”الدعوة إلى العمل لمكافحة الاحتيال“ و ”إطار الشراكة العالمية بين القطاعين العام والخاص للتصدي للاحتيال“، إلى الاستفادة من هاتين الوثيقتين في الجهود التي تبذلها داخليا من أجل منع الاحتيال ومكافحته؛</p></content></paragraph>
+<paragraph eId="para_208" class="MercuryDocument">
+<num>20 -</num>
+<content eId="para_208__content"><p xml:space="preserve">	<span class="bold italic">تدعو</span> الدول الأعضاء والجهات المعنية الأخرى إلى النظر في تقديم تبرعات للأغراض المحددة في هذا القرار، وتطلب إلى مكتب الأمم المتحدة المعني بالمخدرات والجريمة أن يستخدم أي موارد من خارج الميزانية تقدم لتلك الأغراض بكفاءة وفعالية.</p></content></paragraph></embeddedStructure></p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="40" refersTo="#adoptionMeeting">الجلسة العامة 40</location>
+          <eol />
+          <docDate date="2026-07-21" refersTo="#adoptionDate">21 تموز/يوليه 2026</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

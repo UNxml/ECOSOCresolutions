@@ -1,0 +1,711 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-13/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-13/"></FRBRuri>
+          <FRBRdate date="2026-07-21" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-13/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-13/ara@/"></FRBRuri>
+          <FRBRdate date="2026-07-24" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-13/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-13/ara@.xml"></FRBRuri>
+          <FRBRdate date="2026-09-25" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="9" href="http://metadata.un.org/sdg/9" showAs="sdg_9" dictionary="SDGO"></keyword>
+        <keyword value="innovation" href="http://eurovoc.europa.eu/1439" showAs="innovation" dictionary="EuroVoc"></keyword>
+        <keyword value="innovation" href="http://metadata.un.org/thesaurus/1003223" showAs="innovation" dictionary="UNBIS"></keyword>
+        <keyword value="industrialization" href="http://metadata.un.org/thesaurus/1003177" showAs="industrialization" dictionary="UNBIS"></keyword>
+        <keyword value="industrial_infrastructure" href="http://eurovoc.europa.eu/1434" showAs="industrial_infrastructure" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="10" href="http://metadata.un.org/sdg/10" showAs="sdg_10" dictionary="SDGO"></keyword>
+        <keyword value="equality" href="http://metadata.un.org/thesaurus/1002102" showAs="equality" dictionary="UNBIS"></keyword>
+        <keyword value="social_inequality" href="http://eurovoc.europa.eu/1420" showAs="social_inequality" dictionary="EuroVoc"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2026-05-08" outcome="recommendedForAdoption" as="E/2026/31" by="UN. Commission on Science and Technology for Development" />
+        <step date="2026-07-21" outcome="adopted" as="40th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2026/13</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">إن المجلس الاقتصادي والاجتماعي</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2026-07-24" class="rightSmall" refersTo="#dateOfIssuance">24 July 2026</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2026" eId="coverPage_1__session_1">دورة عام 2026</session>
+      </p>
+      <p>
+        <inline title="18 (ب)" name="agenda item">البند 18 (ب) من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">المسائل الاقتصادية والبيئية: تسخير العلم والتكنولوجيا لأغراض التنمية</inline>
+      </p>
+      <p>
+        <docTitle>قرار اتخذه المجلس الاقتصادي والاجتماعي في 21 تموز/يوليه 2026</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent>[بناء على توصية اللجنة المعنية بتسخير العلم والتكنولوجيا لأغراض التنمية (<inline name="originating document">E/2026/31</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2026/13</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	تقييم التقدم المحرز في تنفيذ نتائج القمة العالمية لمجتمع المعلومات ومتابعتها</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold italic">إن المجلس الاقتصادي والاجتماعي</span>،</p>
+      </formula>
+      <container name="إذ يشير" eId="container_2">
+        <p xml:space="preserve">	<span class="bold italic">إذ يشير</span> إلى الوثائق الختامية للقمة العالمية لمجتمع المعلومات<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	()	انظر <a href="https://docs.un.org/ar/A/C.2/59/3">A/C.2/59/3</a> و <a href="https://docs.un.org/ar/A/60/687">A/60/687</a>.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ يشير أيضا" eId="container_3">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير أيضا</span> إلى قراره 2006/46 المؤرخ 28 تموز/يوليه 2006 المتعلق بمتابعة نتائج القمة العالمية واستعراض اللجنة المعنية بتسخير العلم والتكنولوجيا لأغراض التنمية، وإلى الولاية المسندة بموجبه إلى اللجنة،</p>
+      </container>
+      <container name="وإذ يشير كذلك" eId="container_4">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير كذلك</span> إلى قراره <a href="https://docs.un.org/ar/E/RES/2025/18">2025/18</a> المؤرخ 29 تموز/يوليه 2025 بشأن تقييم التقدم المحرز في تنفيذ نتائج القمة العالمية ومتابعتها،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_5">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير</span> إلى قرار الجمعية العامة <a href="https://docs.un.org/ar/A/RES/70/1">70/1</a> المؤرخ 25 أيلول/سبتمبر 2015 المعنون ”تحويل عالمنا: خطة التنمية المستدامة لعام 2030“،</p>
+      </container>
+      <container name="وإذ يشير أيضا" eId="container_6">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير أيضا</span> إلى قرار الجمعية العامة <a href="https://docs.un.org/ar/A/RES/80/173">80/173</a> المؤرخ 17 كانون الأول/ديسمبر 2025 المعنون ”الوثيقة الختامية للاجتماع الرفيع المستوى للجمعية العامة بشأن الاستعراض العام لتنفيذ نتائج القمة العالمية لمجتمع المعلومات“، الذي اتخذ في دورتها الثمانين،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_7">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يؤكد من جديد</span> الأهمية المحورية لمسارات عمل القمة العالمية، المحددة في خطة عمل جنيف<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	()	انظر <a href="https://docs.un.org/ar/A/C.2/59/3">A/C.2/59/3</a>، المرفق.</p></authorialNote><sup>)</sup>، باعتبارها الإطار الرئيسي لترجمة رؤية القمة العالمية إلى نتائج ملموسة،</p>
+      </container>
+      <container name="وإذ يرحب" eId="container_8">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يرحب</span> بقرار الجمعية العامة <a href="https://docs.un.org/ar/A/RES/79/1">79/1</a> المؤرخ 22 أيلول/سبتمبر 2024، الذي اعتمدت فيه الجمعية ميثاق المستقبل الذي يشمل التعاهد الرقمي العالمي وإعلان الأجيال المقبلة، وبقرارها <a href="https://docs.un.org/ar/A/RES/80/118">80/118</a> المؤرخ 15 كانون الأول/ديسمبر 2025 المتعلق بتسخير تكنولوجيات المعلومات والاتصالات لأغراض التنمية المستدامة، وإذ يشير إلى قرار الجمعية <a href="https://docs.un.org/ar/A/RES/80/147">80/147</a> المؤرخ 15 كانون الأول/ديسمبر 2025 المتعلق بتسخير العلم والتكنولوجيا والابتكار لأغراض التنمية المستدامة، وإلى قرارها <a href="https://docs.un.org/ar/A/RES/78/265">78/265</a> المؤرخ 21 آذار/مارس 2024 بشأن اغتنام الفرص التي تتيحها نظم الذكاء الاصطناعي المأمونة والمؤمَّنة والموثوقة لأغراض التنمية المستدامة، وإلى قرارها <a href="https://docs.un.org/ar/A/RES/78/311">78/311</a> المؤرخ 1 تموز/يوليه 2024 المتعلق بتعزيز التعاون الدولي بشأن بناء القدرات في مجال الذكاء الاصطناعي،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_9">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير</span> إلى أن الجمعية العامة كلفت المجلس الاقتصادي والاجتماعي، في قرارها <a href="https://docs.un.org/ar/A/RES/60/252">60/252</a> المؤرخ 27 آذار/مارس 2006، بالإشراف، من خلال اللجنة المعنية بتسخير العلم والتكنولوجيا لأغراض التنمية، على متابعة نتائج مرحلتي جنيف وتونس من مؤتمر القمة العالمية واستعراضاتها العشرية على نطاق المنظومة،</p>
+      </container>
+      <container name="وإذ يؤكد" eId="container_10">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يؤكد</span> على ضرورة الوفاء بهذه الالتزامات في المناطق التي تعاني من الضعف ومن استمرار تدني مستوى التطور الرقمي الذي يعيق وصول الجميع على نحو آمن ومنصف إلى تكنولوجيات المعلومات والاتصالات واستخدامها لأغراض التنمية المستدامة،</p>
+      </container>
+      <container name="وإذ يقر" eId="container_11">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يقر </span>بأهمية كفالة الاتساق في تنفيذ نتائج القمة العالمية لمجتمع المعلومات، وخطة التنمية المستدامة لعام 2030، والتعاهد الرقمي العالمي، بتعزيز أوجه التآزر فيما بينها لكفالة تنفيذها بشكل فعال وتجنب ازدواجية الموارد وعمليات صنع القرار، وذلك بالاستناد إلى الأطر المتفق عليها القائمة والولايات ذات الصلة بالقمة العالمية وخطة عام 2030 والتعاهد،</p>
+      </container>
+      <container name="وإذ يقر على وجه الخصوص" eId="container_12">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يقر على وجه الخصوص</span> بأهمية تمكين جميع الحكومات وسائر أصحاب المصلحة من جميع البلدان من القيام بدور كامل في تحقيق هذه الغايات،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_13" class="MercuryDocument">
+        <num>1 -</num>
+        <content eId="para_13__content">
+          <p xml:space="preserve">	<span class="bold italic">يرحب</span> بالتنفيذ التام لقرار الجمعية العامة <a href="https://docs.un.org/ar/A/RES/80/173">80/173</a> ويحث على ذلك؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="SingleTxt">
+        <num>2 -</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">	<span class="bold italic">يسلّم</span> بأنه ثبت أن القمة العالمية لمجتمع المعلومات عملية دينامية تطورت على مر السنين وتواصل معالجة آثار التكنولوجيات الجديدة والناشئة، إضافة إلى التعاون الرقمي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="MercuryDocument">
+        <num>3 -</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">	<span class="bold italic">يعيد تأكيد</span> الرؤية الشاملة للقمة العالمية المتمثلة في بناء مجتمع معلومات يشمل الجميع محوره الإنسان ويركز على التنمية باعتبار ذلك الأساس في المواءمة بين نظام القمة العالمية وتنفيذ التعاهد الرقمي العالمي<sup>(</sup><authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	<span class="bold">()</span>	قرار الجمعية العامة <a href="https://docs.un.org/ar/A/RES/79/1">79/1</a>، المرفق الأول.</p></authorialNote><sup>)</sup>، والمساهمة في تحقيق أهداف التنمية المستدامة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="MercuryDocument">
+        <content eId="para_17__content">
+          <p xml:space="preserve">
+            <span class="bold">		أولا</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="MercuryDocument">
+        <content eId="para_18__content">
+          <p xml:space="preserve">
+            <span class="bold">		تقييم الوضع الحالي: استعراض السيناريو والالتزامات وخطوط الأساس المتعلقة بتنفيذ نتائج القمة العالمية لمجتمع المعلومات</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxt">
+        <num>4 -</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="bold italic">يسلّم</span> بأن تطور تكنولوجيات المعلومات والاتصالات وانتشارها، بفضل إسهامات القطاع العام والقطاع الخاص على السواء، حيث انتشرت في جميع أركان المعمورة تقريبا، أسفرا عن تهيئة فرص جديدة للتفاعل الاجتماعي، وأفسحا المجال لظهور نماذج أعمال تجارية جديدة، وأسهما في النمو الاقتصادي والتنمية في جميع القطاعات الأخرى؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxt">
+        <num>5 -</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">	<span class="bold italic">يؤكد</span> على ضرورة الدراية الرقمية الإعلامية والمعلوماتية، والمشاركة المدنية، والسلامة على الإنترنت، ويعرب عن قلقه إزاء كثرة أشكال الفجوات الرقمية التي لا تزال قائمة بين البلدان والمناطق وداخلها، التي تشمل ما يتعلق منها بالوصول إلى التكنولوجيات الرقمية، من قبيل الذكاء الاصطناعي، واستخدامها وتطويرها، ويدعو في هذا الصدد إلى بذل الجهود لتعزيز الوصول إلى تكنولوجيا المعلومات والاتصالات، ومعالجة التحديات السائدة من أجل سد الفجوات الرقمية، نظرا لأنها لا تزال قائمة عبر فئات الدخل والعمر ونوع الجنس والجغرافيا، وذلك لكفالة الإدماج والمشاركة الرقميين والتمتع بجميع حقوق الإنسان، بما في ذلك الحق في التنمية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="MercuryDocument">
+        <num>6 -</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">	<span class="bold italic">يدرك</span> الأهمية البالغة لسد الفجوات الرقمية في تحقيق رؤية القمة العالمية وكفالة تمكن كل فرد من استحداث المعلومات والمعارف والحصول عليها واستخدامها وتبادلها من أجل الاستفادة من الفرص التي تتيحها التكنولوجيات الرقمية وتحسين نوعية حياتهم. وفي هذا الصدد، يلاحظ بقلق بالغ أن بلدانا نامية كثيرة لا تزال تفتقر إلى إمكانية الوصول الشامل والفعال والميسور التكلفة إلى تكنولوجيات المعلومات والاتصالات، في حين أن بلداناً أخرى لا تزال بعيدة كل البعد عن امتلاك القدرات اللازمة لتطوير تلك التكنولوجيات، بما في ذلك الذكاء الاصطناعي، والاستفادة من مزاياها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxt">
+        <num>7 -</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="bold italic">يذكر</span> بأن حماية حقوق الإنسان وتعزيزها واحترامها عناصر مهمة في تنفيذ جميع مسارات العمل، ويذكر أيضًا بأن مفوّضية الأمم المتحدة السامية لحقوق الإنسان تواصل المساهمة في تيسيرها وتقييمها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="MercuryDocument">
+        <num>8 -</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="bold italic">يقر</span> بأن نتائج القمة العالمية تستند إلى القانون الدولي، بما في ذلك ميثاق الأمم المتحدة والقانون الدولي لحقوق الإنسان، ويتعهد بتهيئة السبل لوجود فضاء رقمي شامل ومنفتح ومأمون ومؤمّن للجميع يحترم جميع حقوق الإنسان والحريات الأساسية ويحميها ويعززها، ويؤكد من جديد التزامنا بضرورة توفير الحماية على شبكة الإنترنت للحقوق ذاتها أيضا التي يتمتع بها الأفراد خارج شبكة الإنترنت، وبأهمية حماية الصحفيين، والعاملين في مجال الإعلام وسائر الجهات الفاعلة في المجتمع المدني، ويدعو جميع مؤسسات الأعمال، بما في ذلك شركات تكنولوجيا المراقبة والشركات المسؤولة عن منصات التواصل الاجتماعي، إلى احترام حقوق الإنسان بما يتماشى مع المبادئ التوجيهية بشأن الأعمال التجارية وحقوق الإنسان: تنفيذ إطار الأمم المتحدة المعنون ”الحماية والاحترام والانتصاف“<sup>(</sup><authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">	<span class="bold">()</span>	<a href="https://docs.un.org/ar/A/HRC/17/31">A/HRC/17/31</a>، المرفق.</p></authorialNote><sup>)</sup>؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxt">
+        <num>9 -</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="bold italic">يلاحظ</span> <span class="bold italic">بقلق بالغ</span> استمرار الفجوة الرقمية بين الجنسين على الصعيد العالمي، مما يؤثر على وصول النساء والفتيات إلى تكنولوجيات المعلومات والاتصالات واستخدامها، ويشجع في هذا الصدد جميع الأطراف المعنية على كفالة مشاركة الفتيات والنساء في الفضاء الرقمي مشاركة كاملة وعلى قدم المساواة وبشكل آمن وهادف، وكذلك كفالة الوصول إلى التكنولوجيات الجديدة، لا سيما بتعزيز تعليم النساء والفتيات إلى حد كبير والترويج لاعتماد ونشر نُهج السلامة في مرحلة التصميم لدى استحداث الأدوات والتكنولوجيات الرقمية، وفي هذا الصدد، يشدد على أهمية البيانات المصنفة حسب نوع الجنس للمساهمة في سد الفجوات الرقمية بين الجنسين، ويدعو إلى مكافحة العنف الجنساني الذي تيسره التكنولوجيا، من قبيل أعمال الاستغلال والتحرش والانتهاك التي تطال النساء والفتيات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="SingleTxt">
+        <num>10 -</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve">	<span class="bold italic">يدعو</span> جميع الأطراف المعنية إلى سد جميع الثغرات الرقمية باتخاذ إجراءات من بينها تهيئة بيئات من سياسات التعزيز والتمكين، والتعاون الدولي، بغية تحسين التوافر بتكلفة ميسورة، وإمكانيات الوصول إلى التكنولوجيا، والتعليم، وبناء القدرات، وتعدد اللغات، والمحافظة على التراث الثقافي، والاستثمار، والتمويل المناسب؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="MercuryDocument">
+        <num>11 -</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	<span class="bold italic">يؤكد</span> على ضرورة الدراية الرقمية الإعلامية والمعلوماتية والمشاركة المدنية، والسلامة على الإنترنت، ويؤكد من جديد على الهدف المتمثل في تنفيذ استراتيجيات سليمة، وفقًا للأطر التنظيمية الوطنية، تمكّن الأفراد بإكسابهم المهارات والمعارف اللازمة لاتخاذ خيارات مستنيرة بشأن بياناتهم الشخصية، وتحديد المعلومات الموثوقة التي ستساعدهم على الحصول على الفرص، بما في ذلك فرص العمل واكتساب المهارات، وتحسين نوعية حياتهم، واتخاذ الخطوات المناسبة لحماية أمنهم وخصوصيتهم على الإنترنت، وكذلك المساهمة بشكل مجد في تطوير الحكومة الرقمية، بسبل منها تحسين الوصول إلى شبكات النطاق العريض الموثوق بها والميسورة التكلفة على مستوى القاعدة الشعبية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_55" class="MercuryDocument">
+        <num>12 -</num>
+        <content eId="para_55__content">
+          <p xml:space="preserve">	<span class="bold italic">يكرر</span> <span class="bold italic">التأكيد</span> على أن الدول مدعوة بقوة إلى الامتناع عن سن أي تدابير اقتصادية انفرادية وتطبيقها بما يتنافى مع القانون الدولي وميثاق الأمم المتحدة من شأنها عرقلة التحقيق الكامل للتنمية الاقتصادية والاجتماعية، لا سيما في البلدان النامية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_64" class="MercuryDocument">
+        <num>13 -</num>
+        <content eId="para_64__content">
+          <p xml:space="preserve">	<span class="bold italic">يؤكد من جديد</span> فهمَه أن النجاح في تحقيق خطة عام 2030 سيكون رهن زيادة فرص وصول الجميع إلى تكنولوجيا المعلومات والاتصالات بصورة مُجدية وبتكلفة ميسورة، ويقر بأهمية أدوات القياس والرصد الرقمية لدعم قياس التقدم المحرز نحو تحقيق أهداف التنمية المستدامة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_74" class="SingleTxt">
+        <num>14 -</num>
+        <content eId="para_74__content">
+          <p xml:space="preserve">	<span class="bold italic">يسلّم</span> بأن تنفيذ مسارات عمل القمة العالمية بما يسهم في تحقيق التنمية الرقمية والشمول الرقمي يشكل أداة بالغة الأهمية في تمكين التقدم نحو تحقيق أهداف التنمية المستدامة، ويؤكد من جديد أهمية التعاون لكفالة أن توزَّع فوائد التعاون الرقمي بشكل عادل وألا تؤدي إلى تفاقم أوجه عدم المساواة القائمة أو إعاقة تحقيق التنمية المستدامة بشكل كامل؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_85" class="SingleTxt">
+        <num>15 -</num>
+        <content eId="para_85__content">
+          <p xml:space="preserve">	<span class="bold italic">يشير</span> إلى التزامه بالغاية 9-ج من خطة عام 2030، التي تهدف إلى تحقيق زيادة كبيرة في فرص الحصول على تكنولوجيا المعلومات والاتصالات من خلال السعي إلى توفير فرص الوصول الشامل والميسور التكلفة إلى شبكة الإنترنت في أقل البلدان نموا بحلول عام 2020، ويلاحظ في هذا الصدد أهمية برنامج التوصيل في عام 2030 من أجل التنمية العالمية للاتصالات/تكنولوجيا المعلومات والاتصالات، بما في ذلك النطاق العريض، لصالح التنمية المستدامة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_97" class="MercuryDocument">
+        <num>16 -</num>
+        <content eId="para_97__content">
+          <p xml:space="preserve">	<span class="bold italic">يهيب</span> بجميع الأطراف المعنية إلى تهيئة بيئة سياساتية مواتية للاستثمار وتعزيز التعاون والشراكة بين القطاعين العام والخاص من أجل الاستثمار المستدام في الهياكل الأساسية لتكنولوجيا المعلومات والاتصالات، وتطبيقاتها وخدماتها، والمحتوى، والمهارات الرقمية، وذلك بهدف كفالة التوصيلية المجدية اللازمة للنهوض بأهداف التنمية المستدامة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_110" class="SingleTxt">
+        <num>17 -</num>
+        <content eId="para_110__content">
+          <p xml:space="preserve">	<span class="bold italic">يؤكد من جديد</span> الدعوة إلى تشجيع المجتمع الدولي على تعزيز سياسات وبرامج بهدف مساعدة البلدان النامية على الاستفادة من التكنولوجيا في سعيها إلى تحقيق التنمية بسبل منها التعاون التقني وبناء القدرات العلمية والتكنولوجية في جهودنا الرامية إلى سد الفجوات الرقمية والإنمائية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_124" class="SingleTxt">
+        <num>18 -</num>
+        <content eId="para_124__content">
+          <p xml:space="preserve">	<span class="bold italic">يقر</span> بعمل برنامج الأمم المتحدة الإنمائي الذي يهدف إلى تسخير إمكانات التكنولوجيا الرقمية لدعم تحقيق أهداف التنمية المستدامة، ويكرر، في هذا الصدد، التأكيد على أهمية مواصلة برنامج الأمم المتحدة الإنمائي التركيز على هذه المساعدة وتنمية القدرات الرقمية للبلدان، ولا سيما البلدان النامية، بالتعاون مع سائر وكالات الأمم المتحدة المعنية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_139" class="SingleTxt">
+        <num>19 -</num>
+        <content eId="para_139__content">
+          <p xml:space="preserve">	<span class="bold italic">يقر أيضا</span> بالنمو السريع في الوصول إلى الشبكات ذات النطاق العريض، وبخاصة في البلدان المتقدمة النمو، ويشدد في هذا الصدد على الحاجة الملحة إلى التصدي للفجوات الرقمية المتزايدة في مجالات توافر هذه الشبكات وتوافرها بتكلفة ميسورة وجودة الوصول إليها واستخدامها فيما بين البلدان المرتفعة والمتوسطة والمنخفضة الدخل والمناطق الأخرى وداخلها، مع التركيز بوجه خاص على دعم أقل البلدان نموا والبلدان النامية غير الساحلية والقارة الأفريقية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_155" class="SingleTxt">
+        <num>20 -</num>
+        <content eId="para_155__content">
+          <p xml:space="preserve">	<span class="bold italic">يقر كذلك</span> بالعمل الذي يقوم به الاتحاد الدولي للاتصالات في مجال تقديم المساعدة التقنية وبناء القدرات والتوجيه الاستراتيجي للدول الأعضاء من أجل التنفيذ الفعال لمبادرات التحول الرقمي التي تسهم في تحقيق أهداف التنمية المستدامة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_172" class="SingleTxt">
+        <num>21 -</num>
+        <content eId="para_172__content">
+          <p xml:space="preserve">	<span class="bold italic">يحث</span> جميع الأطراف المعنية، في هذا الصدد، على إعطاء الأولوية لوضع آليات ابتكارية تحفز إتاحة الهياكل الأساسية للنطاق العريض للجميع بصورة مُجدية وبتكلفة ميسورة في البلدان النامية؛ وينبغي أن يتيح هذا النهج لخدمات النطاق العريض دعم تطوير مجتمع معلومات يشمل الجميع محوره الإنسان ويركز على التنمية، ولتضييق الفجوات الرقمية إلى أدنى حد، بما في ذلك الفجوة الرقمية بين الجنسين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_190" class="SingleTxt">
+        <num>22 -</num>
+        <content eId="para_190__content">
+          <p xml:space="preserve">	<span class="bold italic">يقر</span> أيضا بالعمل الذي تقوم به منظمة الأمم المتحدة للتربية والعلم والثقافة في مجال تعزيز التحول الرقمي الشامل الذي يركز على الإنسان ويستند إلى الحقوق، بسبل منها أعمالها المعيارية والسياساتية المتعلقة بالذكاء الاصطناعي، وعالمية الإنترنت، والتنوع الثقافي وتعدد اللغات، والتعليم الرقمي، وحرية التعبير، وسلامة المعلومات، دعماً لتحقيق أهداف التنمية المستدامة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_209" class="SingleTxt">
+        <num>23 -</num>
+        <content eId="para_209__content">
+          <p xml:space="preserve">	<span class="bold italic">يعترف</span> بأن البلدان النامية تواجه عوائق كبيرة في الوصول إلى التكنولوجيات الجديدة بطريقة شاملة للجميع، من قبيل عدم كفاية الموارد والاستثمارات، وعدم ملاءمة البنية التحتية والتوصيلية، والافتقار إلى التعليم والقدرات، وكذلك المسائل المتصلة بملكية التكنولوجيا ومعاييرها وتدفقها، ويهيب في هذا الصدد بجميع الأطراف المعنية إلى المساهمة وتوفير الموارد الكافية للبلدان النامية، ولا سيما أقل البلدان نموا، وتعزيز بناء قدراتها ونقل التكنولوجيا والمعارف إليها، وذلك من أجل إيجاد مجتمع متمكن رقميا واقتصاد يقوم على المعرفة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_229" class="SingleTxt">
+        <num>24 -</num>
+        <content eId="para_229__content">
+          <p xml:space="preserve">	<span class="bold italic">يشير</span> إلى الالتزام بإيلاء اهتمام خاص للتحديات الفريدة والناشئة في مجال تكنولوجيا المعلومات والاتصالات التي تواجهها جميع البلدان، ولا سيما البلدان النامية، كما هو منصوص عليه في قرار الجمعية العامة <a href="https://docs.un.org/ar/A/RES/80/173">80/173</a>، ويشجع على إقامة شراكات دولية بشأن بناء القدرات في مجال الذكاء الاصطناعي لوضع برامج تعليمية وتدريبية، وزيادة فرص الحصول على الموارد، بما فيها نماذج ونظم الذكاء الاصطناعي المفتوحة، وبيانات ومعدات التدريب المفتوحة، وتيسير تدريب وإنشاء نماذج الذكاء الاصطناعي، وتعزيز مشاركة المؤسسات المتناهية الصغر والصغيرة والمتوسطة، والاستفادة من آليات الأمم المتحدة القائمة وآليات الأطراف المعنية المتعددة الموجودة لدعم بناء القدرات في مجال الذكاء الاصطناعي لسد الفجوات في هذا المجال، وتيسير الوصول إلى تطبيقات الذكاء الاصطناعي وبناء القدرات في مجال الحوسبة العالية الأداء والمهارات ذات الصلة في البلدان النامية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_250" class="SingleTxt">
+        <num>25 -</num>
+        <content eId="para_250__content">
+          <p xml:space="preserve">	<span class="bold italic">يقر</span> بأنه دون توفير وسائل التنفيذ بالشكل المناسب والقدر الكافي، فإن الوتيرة السريعة للرقمنة وحجمها قد يفوقان قدرة واستعداد بعض البلدان على التكيف مع التحول الرقمي وما يتبعه من تحديات اجتماعية واقتصادية، ويقر أيضا بأن الإدماج المنصف والمجدي في الاقتصاد الرقمي يتطلب جهودا لمعالجة تركز القدرات التكنولوجية والقوة السوقية من أجل ضمان أن توزع فوائد التعاون الرقمي بشكل عادل وألا تؤدي إلى تفاقم أوجه عدم المساواة القائمة أو إعاقة تحقيق التنمية المستدامة بشكل كامل؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_272" class="MercuryDocument">
+        <num>26 -</num>
+        <content eId="para_272__content">
+          <p xml:space="preserve">	<span class="bold italic">يقر أيضا</span> بالاحتياجات التمويلية الخاصة والمحددة للعالم النامي، على النحو المشار إليه في الفقرة 16 من إعلان جنيف للمبادئ الصادر عام 2003<sup>(</sup><authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">	()	انظر <a href="https://docs.un.org/ar/A/C.2/59/3">A/C.2/59/3</a>، المرفق.</p></authorialNote><sup>)</sup>؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_295" class="SingleTxt">
+        <num>27 -</num>
+        <content eId="para_295__content">
+          <p xml:space="preserve">	<span class="bold italic">يقر كذلك</span> بضرورة وضع تمويل عملية تسخير تكنولوجيا المعلومات والاتصالات لأغراض التنمية في سياق الأهمية المتزايدة لدور تكنولوجيا المعلومات والاتصالات، لا باعتبارها وسيلة للاتصال فحسب، بل باعتبارها أيضاً وسيلة لتمكين التنمية، وباعتبارها أداة لتحقيق الأهداف والغايات الإنمائية المتفق عليها دوليا، بما في ذلك أهداف التنمية المستدامة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_319" class="MercuryDocument">
+        <num>28 -</num>
+        <content eId="para_319__content">
+          <p xml:space="preserve">	<span class="bold italic">يؤكد من جديد</span> الدعوة الواردة في الوثيقة الختامية للمؤتمر الدولي الرابع لتمويل التنمية، التزام إشبيلية، التي اعتمدتها الجمعية العامة في قرارها <a href="https://docs.un.org/ar/A/RES/79/323">79/323</a> المؤرخ 25 أغسطس/آب 2025، إلى وضع خطط للتمويل وتنسيق الاستثمار في البنية التحتية الرقمية، بما في ذلك البنية التحتية العامة الرقمية، والمنافع العامة الرقمية، وإلى التعاون الدولي بين الحكومات الوطنية ومؤسسات التمويل الإنمائي والمصارف الإنمائية المتعددة الأطراف والمنظمات الدولية المعنية والجهات الفاعلة في القطاع الخاص، دعما لجهود البلدان لدى قيامها بتصميم البنية التحتية الرقمية ونماذج تمويلها وقياس أثرها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_344" class="MercuryDocument">
+        <num>29 -</num>
+        <content eId="para_344__content">
+          <p xml:space="preserve">	<span class="bold italic">يشير</span> إلى الالتزام بتجديد الزخم بغية معالجة الفجوات الرقمية وسدها، ويدعو إلى تعزيز التعاون الدولي على معالجة سائر العوائق التي تحول دون تحقيق الشمول الرقمي للجميع، ويهيب، على وجه الخصوص، بالحكومات والمصارف الإنمائية المتعددة الأطراف والمنظمات الدولية المعنية والقطاع الخاص إلى وضع آليات وحوافز تمويلية، بسبل منها التعاون بين بلدان الشمال والجنوب وفيما بين بلدان الجنوب والتعاون الثلاثي، لربط غير الموصولين بالإنترنت وتحسين جودة الربط الشبكي والقدرة على تحمل تكاليفه؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_370" class="SingleTxt">
+        <num>30 -</num>
+        <content eId="para_370__content">
+          <p xml:space="preserve">	<span class="bold italic">يرحب</span><span class="italic">، </span>في هذا الصدد، بإنشاء فرقة عمل داخلية بقيادة الاتحاد الدولي للاتصالات، بصفته أمانة فريق الأمم المتحدة المعني بمجتمع المعلومات، تعمل بالتعاون مع ميسري مسارات عمل القمة العالمية وسائر أعضاء الفريق، على إجراء تقييم للثغرات والتحديات وتُقدّم توصيات عملية بشأن تعزيز الآليات المالية لأغراض التنمية الرقمية في البلدان النامية، استناداً إلى أفضل الممارسات القائمة وتكميلا لها، بما في ذلك ممارسات المؤسسات المالية المتعددة الأطراف وشركاء التنمية وسائر الأطراف المعنية ذات الصلة، من قبيل القطاع الخاص؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_397" class="SingleTxt">
+        <num>31 -</num>
+        <content eId="para_397__content">
+          <p xml:space="preserve">	<span class="bold italic">يقر</span> بأن التطورات في المنافع العامة الرقمية والبنية التحتية العامة الرقمية محركات بالغة الأهمية للتحول والابتكار الشاملين للجميع في المجال الرقمي، ويسلم بالحاجة إلى زيادة الاستثمار في تطوير تلك المنافع بنجاح بمشاركة جميع الأطراف المعنية؛ وتشمل المنافع العامة الرقمية البرامجيات المفتوحة المصدر والبيانات المفتوحة ونماذج الذكاء الاصطناعي المفتوحة والمعايير المفتوحة والمحتويات المفتوحة التي تحترم الحق في الخصوصية وسائر القوانين الدولية والمعايير وأفضل الممارسات المنطبقة؛ ويقر بأن هناك نماذج وتعاريف متعددة للبنية التحتية العامة الرقمية، وأن كل مجتمع سوف يستحدث ويستخدم نظما رقمية مشتركة وفقاً لأولوياته واحتياجاته الخاصة؛ ويقر أيضا بأن أطر الحوكمة الملائمة ضرورية لتعزيز الثقة في استخدام التكنولوجيا والبيانات من خلال كفالة الشمولية والإنصاف واحترام حقوق الإنسان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_425" class="MercuryDocument">
+        <num>32 -</num>
+        <content eId="para_425__content">
+          <p xml:space="preserve">	<span class="bold italic">يقر</span> بأن حوكمة الإنترنت يجب أن تظل عالمية ومتعددة أصحاب المصلحة بطابعها، بمشاركة كاملة من الحكومات والقطاع الخاص والمجتمع المدني والمنظمات الدولية والأوساط التقنية والأكاديمية وسائر الأطراف المعنية وفقاً للأدوار والمسؤوليات المنوطة بكل منها، ويؤكد من جديد أن حوكمة الإنترنت ينبغي أن تظل متقيدة بالأحكام المنصوص عليها في نتائج مؤتمر القمة المعقود في جنيف وتونس العاصمة، بما في ذلك ما يتعلق منها بتعزيز التعاون؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_454" class="SingleTxt">
+        <num>33 -</num>
+        <content eId="para_454__content">
+          <p xml:space="preserve">	<span class="bold italic">يشير</span> إلى العمل الذي يضطلع به الفريق العامل المعني بتعزيز التعاون بشأن قضايا السياسة العامة المتصلة بالإنترنت، الذي أنشأته رئاسةُ اللجنة المعنية بتسخير العلم والتكنولوجيا لأغراض التنمية، على نحو ما طلبته الجمعية العامة في قرارها <a href="https://docs.un.org/ar/A/RES/70/125">70/125</a> المؤرخ 16 كانون الأول/ديسمبر 2015، من أجل وضع توصيات عن كيفية مواصلة تنفيذ التعاون المعزز على النحو المتوخى في برنامج عمل تونس بشأن مجتمع المعلومات<sup>(</sup><authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">	<span class="bold">()</span>	نظر <a href="https://docs.un.org/ar/A/60/687">A/60/687</a>.</p></authorialNote><sup>)</sup>؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_484" class="SingleTxt">
+        <num>34 -</num>
+        <content eId="para_484__content">
+          <p xml:space="preserve">	<span class="bold italic">يحيط علما</span> بالمبادئ التوجيهية للتعاون بين أصحاب المصلحة المتعددين وبناء توافق في الآراء (NETmundial+10)، التي اعتُمدت في نيسان/أبريل 2024، باعتبارها مساهمة في تعزيز حوكمة الإنترنت من خلال المشاركة الشاملة والتمثيل المتوازن والانفتاح؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_515" class="SingleTxt">
+        <num>35 -</num>
+        <content eId="para_515__content">
+          <p xml:space="preserve">	<span class="bold italic">يقر</span> بأن الإنترنت مرفق عالمي بالغ الأهمية لتحقيق تحول رقمي شامل ومنصف، وأن طابعه المفتوح وقابليته للتشغيل البيني، يدعمان وضع مجموعة استثنائية من الخدمات والتطبيقات التي تغطي مختلف مجالات المجتمع البشري، بما في ذلك الحوكمة والاقتصاد والتنمية وحقوق الإنسان، وأنه لكي يستفيد الجميع استفادة كاملة، يجب أن يكون الإنترنت مفتوحا وعالميا وقابلا للتشغيل البيني ومستقرا وآمنا، ويعيد التأكيد على ضرورة تعزيز التعاون الدولي فيما بين جميع الأطراف المعنية بغية منع مخاطر تجزؤ الإنترنت وتحديد تلك المخاطر ومعالجتها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_547" class="SingleTxt">
+        <num>36 -</num>
+        <content eId="para_547__content">
+          <p xml:space="preserve">	<span class="bold italic">يسلّم</span> بأهمية منتدى حوكمة الإنترنت الذي أنشأه الأمين العام، والذي يوفر لأصحاب المصلحة المتعددين المنصة الرئيسية لمناقشة مسائل حوكمة الإنترنت، بما في ذلك المسائل الناشئة، على النحو الوارد في الفقرة 72 من برنامج عمل تونس بشأن مجتمع المعلومات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_580" class="SingleTxt">
+        <num>37 -</num>
+        <content eId="para_580__content">
+          <p xml:space="preserve">	<span class="bold italic">يرحب</span> بتطور منتدى حوكمة الإنترنت من مجرد اجتماع سنوي إلى منظومة أوسع نطاقاً تشمل أنشطة ما بين الدورات وأنشطة أخرى، بما في ذلك التحالفات الديناميكية ومنتديات أفضل الممارسات وشبكات السياسات، ويرحب بشكل خاص بظهور أكثر من 180 منتدىً وطنياً وإقليمياً وشبابياً لحوكمة الإنترنت، مما يعزز النقاش بين أصحاب المصلحة المتعددين بشأن القضايا ذات الصلة في جميع القارات، والعديد من المناطق الفرعية وأغلبية الدول الأعضاء، ويرحب أيضا بعمل الفريق الاستشاري لأصحاب المصلحة المتعددين التابع للمنتدى، وبإنشاء الأمين العام لفريق القيادة التابع للمنتدى، ويتطلع إلى الجهود التي سيبذلونها مستقبلاً من أجل تلبية الطلبات الموجهة إلى المنتدى على النحو المحدد في قرار الجمعية العامة <a href="https://docs.un.org/ar/A/RES/80/173">80/173</a>؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_614" class="SingleTxt">
+        <num>38 -</num>
+        <content eId="para_614__content">
+          <p xml:space="preserve">	<span class="bold italic">يرحب أيضا</span> بقرار الجمعية العامة بجعل منتدى حوكمة الإنترنت منتدى دائماً تابعاً للأمم المتحدة، على أن تواصل إدارة الشؤون الاقتصادية والاجتماعية التابعة للأمانة العامة استضافة أمانته، على أساس مستقر ومستدام، على أساس مستقر ومستدام مع تزويده بما يناسبه من ملاك وظيفي وموارد؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_649" class="SingleTxt">
+        <num>39 -</num>
+        <content eId="para_649__content">
+          <p xml:space="preserve">	<span class="bold italic">يقر</span> بضرورة زيادة وتوسيع نطاق المشاركة في منتدى حوكمة الإنترنت من جانب الحكومات وسائر الأطراف المعنية من جميع البلدان، ولا سيما من البلدان النامية والفئات غير الممثلة تمثيلاً كافياً، من قبيل البلدان الأفريقية وأقل البلدان نمواً والبلدان النامية غير الساحلية والدول الجزرية النامية الصغيرة، وبضرورة إقامة علاقات أقوى مع سائر منتديات النقاش الرقمية، والتمكين من تحقيق مزيد من النتائج الجوهرية التي يمكن أن تحقق أثرا أكبر؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_685" class="MercuryDocument">
+        <num>40 -</num>
+        <content eId="para_685__content">
+          <p xml:space="preserve">	<span class="bold italic">يقر أيضا</span> بضرورة التركيز على سياسات تنمية القدرات ومنظومات الابتكار وتقديم دعم مستدام لمواصلة تعزيز أثر الأنشطة والمبادرات على الصعيدين الوطني والمحلي الرامية إلى توفير المشورة والخدمات والدعم، لاسيما في البلدان النامية، بهدف بناء مجتمع معلومات يشمل الجميع محوره الإنسان ويركز على التنمية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_722" class="MercuryDocument">
+        <num>41 -</num>
+        <content eId="para_722__content">
+          <p xml:space="preserve">	<span class="bold italic">يلاحظ</span> أنه، على الرغم من أن أساساً متيناً لبناء القدرات في مجال تكنولوجيات المعلومات والاتصالات، بما في ذلك الذكاء الاصطناعي، قد أرسي في العديد من المجالات المتعلقة ببناء مجتمع المعلومات، لا يزال من الضروري مواصلة بذل الجهود لمواجهة التحديات الراهنة، ولا سيما التحديات التي تواجهها البلدان النامية وأقل البلدان نمواً، ويوجه الانتباه، في هذا الصدد، إلى التأثير الإيجابي لتوسيع نطاق تنمية القدرات ليشمل المؤسسات والمنظمات والكيانات المعنية بالمسائل المتعلقة بتكنولوجيات المعلومات والاتصالات وبحوكمة الإنترنت؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_760" class="MercuryDocument">
+        <num>42 -</num>
+        <content eId="para_760__content">
+          <p xml:space="preserve">	<span class="bold italic">يحث</span> على مواصلة التركيز على تعظيم المكاسب الإنمائية المتأتية من التجارة الرقمية، ويقر، في هذا الصدد، بمبادرات مؤتمر الأمم المتحدة للتجارة والتنمية، من قبيل التجارة الإلكترونية للجميع، والتجارة الإلكترونية للمرأة، وبرنامج النظام الآلي للبيانات الجمركية، ومنصة الحكومة الرقمية، وكذلك تقرير الاقتصاد الرقمي والدعوة العالمية إلى إيجاد حلول شاملة للاقتصاد الرقمي، ويحيط علماً بشكل إيجابي بقيام مؤتمر الأمم المتحدة للتجارة والتنمية بإجراء عمليات التقييم السريع لمستوى استعداد أقل البلدان نموا للتجارة الإلكترونية، بالتعاون مع جهات مانحة ومنظمات أخرى، من أجل التوعية بالفرص المتاحة والتحديات الماثلة فيما يتعلق بالاستفادة من التجارة الإلكترونية في أقل البلدان نموا؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_799" class="MercuryDocument">
+        <num>43 -</num>
+        <content eId="para_799__content">
+          <p xml:space="preserve">	<span class="bold italic">يقر</span> بضرورة توفير مزيد من التمويل وبناء القدرات للنظم والمنهجيات الإحصائية الوطنية لتمكين جميع البلدان من تلبية الطلب على بيانات وإحصاءات محسنة، ويهيب بشركاء التنمية إلى توفير موارد إضافية، وتبادل أفضل الممارسات، ودعم تنمية القدرات، لا سيما في البلدان النامية، ويحث القطاع الخاص على الإسهام من خلال إتاحة البيانات المناسبة دعما لعمليات جمع وتحليل الأدلة الإحصائية بشأن تطور مجتمع المعلومات، مما يعزز البحوث ووضع السياسات وعمل الحكومات والمجتمع المدني والأوساط الأكاديمية وسائر الأطراف المعنية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_839" class="MercuryDocument">
+        <num>44 -</num>
+        <content eId="para_839__content">
+          <p xml:space="preserve">	<span class="bold italic">يقر أيضا</span> بأن حوكمة البيانات على نحو مسؤول وقابل للتشغيل البيني ضروري للنهوض بأهداف التنمية وحماية حقوق الإنسان وتعزيز الابتكار وتشجيع النمو الاقتصادي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_880" class="SingleTxt">
+        <num>45 -</num>
+        <content eId="para_880__content">
+          <p xml:space="preserve">	<span class="bold italic">يشير</span> إلى الدور الذي تضطلع به اللجنة المعنية بتسخير العلم والتكنولوجيا لأغراض التنمية في مجال حوكمة البيانات، في ضوء الولاية الموكلة إليها بموجب التعاهد الرقمي العالمي، فيما يتعلق بإنشاء فريق عامل مخصص للشروع في حوار شامل وجامع فيما بين الأطراف المعنية بشأن حوكمة البيانات على جميع المستويات ذات الصلة بالتنمية، بما في ذلك توصيات للمتابعة من أجل وضع ترتيبات لحوكمة البيانات تكون منصفة وقابلة للتشغيل البيني؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_922" class="SingleTxt">
+        <num>46 -</num>
+        <content eId="para_922__content">
+          <p xml:space="preserve">	<span class="bold italic">يهيب</span> بجميع الجهات صاحبة المصلحة إلى تعزيز الدراية الرقمية وجهود التوعية لتمكين الأفراد، ولا سيما الذين يعيشون منهم في أوضاع هشة، وفهم وممارسة حقوقهم في حماية البيانات والخصوصية، واتخاذ خيارات مستنيرة بشأن بياناتهم الشخصية واتخاذ الخطوات المناسبة لحماية أمنهم وخصوصيتهم على الإنترنت؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_965" class="MercuryDocument">
+        <num>47 -</num>
+        <content eId="para_965__content">
+          <p xml:space="preserve">	<span class="bold italic">يشجع</span> على وضع وتنفيذ أطر قانونية وسياسات وتدابير قوية لحماية البيانات والمساءلة بغية تعزيز الخصوصية منذ مرحلة التصميم في جميع التقنيات والخدمات، ويسلط الضوء على أهمية تمكين تدفق البيانات عبر الحدود والتدفق الحر للبيانات مع توافر الثقة، مع احترام الأطر القانونية المعمول بها في هذا السياق، وإعادة التأكيد على دور البيانات لأغراض التنمية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1009" class="SingleTxt">
+        <num>48 -</num>
+        <content eId="para_1009__content">
+          <p xml:space="preserve">	<span class="bold italic">يسلّم</span> بأهمية البيانات والإحصاءات، بما في ذلك الحاجة إلى مؤشرات أكثر شمولاً تعكس فرص الحصول على البيانات واستخدامها وأثرها، بما في ذلك البيانات المصنفة لأغراض تحقيق المساواة بين الجنسين، من أجل دعم تسخير تكنولوجيا المعلومات والاتصالات لأغراض التنمية، ويدعو إلى جمع مزيد من البيانات النوعية لدعم اتخاذ القرارات بناء على الأدلة، وكذلك إدراج بيانات تكنولوجيا المعلومات والاتصالات في الاستراتيجيات الوطنية لتطوير الإحصاءات وفي برامج العمل الإحصائية الإقليمية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1054" class="MercuryDocument">
+        <num>49 -</num>
+        <content eId="para_1054__content">
+          <p xml:space="preserve">	<span class="bold italic">يؤكد</span> على الأهمية الحيوية لتعدد اللغات والمحتوى المحلي وسلامة المعلومات، ويحث في هذا الصدد جميع الأطراف المعنية على تشجيع إنتاج محتوى تربوي وثقافي وعلمي على الإنترنت وتشجيع الوصول إليه، بهدف تعزيز الوصول الشامل والمجدي إلى الإنترنت بجميع اللغات، بما في ذلك لغات الشعوب الأصلية، وكفالة تمكين جميع الشعوب والثقافات من التعبير عن نفسها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1100" class="MercuryDocument">
+        <num>50 -</num>
+        <content eId="para_1100__content">
+          <p xml:space="preserve">	<span class="bold italic">يلاحظ</span> أن تكنولوجيات المعلومات والاتصالات تؤثر بشكل كبير في تنوع التعبير الثقافي وتطوير القطاعات الثقافية والإبداعية، ويحث جميع الأطراف المعنية على الاعتراف بأهمية كفالة الحفاظ على التراث الثقافي، بما في ذلك المحتوى الرقمي، وتعزيز الحصول على الموارد الثقافية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1101" class="MercuryDocument">
+        <content eId="para_1101__content">
+          <p xml:space="preserve">
+            <span class="bold">		ثانيا</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1102" class="MercuryDocument">
+        <content eId="para_1102__content">
+          <p xml:space="preserve">
+            <span class="bold">		لمحة عامة عن تنفيذ نتائج القمة العالمية لمجتمع المعلومات</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1103" class="SingleTxt">
+        <num>51 -</num>
+        <content eId="para_1103__content">
+          <p xml:space="preserve">	<span class="bold italic">يحيط علما</span> مع الارتياح بتقرير الأمين العام عن التقدم المحرز في تنفيذ نتائج القمة العالمية ومتابعتها على الصعيدين الإقليمي والدولي، بما في ذلك الاستعراض العشريني للقمة<sup>(</sup><authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">	()	<a href="https://docs.un.org/ar/A/81/62">A/81/62-E/2025/48</a>.</p></authorialNote><sup>)</sup>؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1104" class="SingleTxt">
+        <num>52 -</num>
+        <content eId="para_1104__content">
+          <p xml:space="preserve">	<span class="bold italic">يلاحظ</span> التنفيذ الجاري لنتائج القمة العالمية، مشدداً، بوجه خاص، على طابعها المتعددة الأطراف والدور الذي تضطلع به الوكالات الرائدة في هذا الصدد، ويسلم بأن تنفيذ نتائج القمة العالمية على الصعيد الإقليمي تعمل على تيسيره اللجان الإقليمية، على النحو المشار إليه تقرير الأمين العام عن التقدم المحرز في تنفيذ نتائج القمة العالمية ومتابعتها على الصعيدين الإقليمي والدولي، بما في ذلك ما يتعلق بالخطوات المتخذة في هذا الصدد، ويشدد على ضرورة مواصلة معالجة القضايا التي تهم كل منطقة على حدة، مع التركيز على التحديات والعقبات التي قد تواجهها كل منطقة فيما يتعلق بتنفيذ جميع الأهداف والمبادئ التي حددتها القمة العالمية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1106" class="SingleTxt">
+        <num>53 -</num>
+        <content eId="para_1106__content">
+          <p xml:space="preserve">	<span class="bold italic">يرحب</span> بالمبادرات العديدة التي اتخذتها مؤسسات الأمم المتحدة لدعم تنفيذ مسارات عمل القمة العالمية، ويشجع جميع منسقي مسارات العمل على مواصلة هذا العمل، ويكرر التأكيد على أهمية منتدى القمة العالمية لمجتمع المعلومات في تبادل أفضل الممارسات على جميع المستويات من خلال منصة التقييم الخاصة بالقمة العالمية، ويعترف بمسابقة جوائز القمة العالمية التي تكافئ التميز في تنفيذ المشاريع والمبادرات التي تعزز أهداف القمة العالمية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1109" class="SingleTxt">
+        <num>54 -</num>
+        <content eId="para_1109__content">
+          <p xml:space="preserve">	<span class="bold italic">يلاحظ</span> أن عملية القمة العالمية ومصفوفة خطة عام 2030 والتعاهد الرقمي العالمي التي أعدها فريق الأمم المتحدة المعني بمجتمع المعلومات والتي تربط الأهداف والالتزامات الواردة في التعاهد الرقمي العالمي بهياكل القمة العالمية وآلياتها وأنشطتها الحالية، وتتيح نهجاً منظماً يتيح المتابعة والتنفيذ بشكل فعال، واستنادًا إلى هذا العمل واتساقًا مع توصيات المجلس الاقتصادي والاجتماعي وفي إطار الولايات والموارد الموجودة، يحيط علما بالنسخة الأولى من خريطة الطريق للتنفيذ المشترك التي أعدها فريق الأمم المتحدة المعني بمجتمع المعلومات، التي تهدف إلى تعزيز الاتساق بين القمة العالمية والتعاهد الرقمي العالمي، بما يكفل اتباع نهج موحد وفعال من حيث الموارد إزاء التعاون الرقمي، يتجنب الازدواجية ويعظم من أوجه التآزر على نطاق منظومة الأمم المتحدة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1113" class="SingleTxt">
+        <num>55 -</num>
+        <content eId="para_1113__content">
+          <p xml:space="preserve">	<span class="bold italic">يعترف</span> بالنُهج المتبعة إزاء الحوكمة الدولية للذكاء الاصطناعي لصالح البشرية التي اعتمدتها الجمعية العامة في التعاهد الرقمي العالمي، ويرحب في هذا الصدد بإنشاء الفريق العلمي الدولي المستقل المعني بالذكاء الاصطناعي والحوار العالمي بشأن حوكمة الذكاء الاصطناعي، عملاً بقرار الجمعية العامة <a href="https://docs.un.org/ar/A/RES/79/325">79/325</a> المؤرخ 26 آب/أغسطس 2025، باعتبارهما منصتين لإجراء تقييمات تستند إلى الأدلة والتعاون الدولي في مجال حوكمة الذكاء الاصطناعي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1118" class="SingleTxt">
+        <num>56 -</num>
+        <content eId="para_1118__content">
+          <p xml:space="preserve">	<span class="bold italic">يعترف</span> بالمنتدى السنوي للقمة العالمية لمجتمع المعلومات الذي أصبح منصة هامة لتبادل المعلومات وأفضل الممارسات، وللحوار والتعاون فيما بين الأطراف المعنية المتعددة، ولتطوير الشبكات وتنسيق المبادرات الرامية إلى تنفيذ رؤية القمة العالمية؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1119" class="MercuryDocument">
+        <content eId="para_1119__content">
+          <p xml:space="preserve">
+            <span class="bold">		ثالثا</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1120" class="MercuryDocument">
+        <content eId="para_1120__content">
+          <p xml:space="preserve">
+            <span class="bold">		سبل المضي قدما</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1121" class="SingleTxt">
+        <num>57 -</num>
+        <content eId="para_1121__content">
+          <p xml:space="preserve">	<span class="bold italic">يؤكد من جديد</span> الأهمية المحورية لمسارات عمل القمة العالمية، على النحو المحدد في خطة عمل جنيف، باعتبارها الإطار الرئيسي لترجمة رؤية القمة العالمية إلى نتائج ملموسة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1122" class="SingleTxt">
+        <num>58 -</num>
+        <content eId="para_1122__content">
+          <p xml:space="preserve">	<span class="bold italic">يشير</span> إلى أن الجمعية العامة طلبت، في قرارها <a href="https://docs.un.org/ar/A/RES/80/173">80/173</a>، مواصلة تزويد المجلس الاقتصادي والاجتماعي، عن طريق اللجنة المعنية بتسخير العلم والتكنولوجيا لأغراض التنمية، بالتقارير المتعلقة بتنفيذ نتائج القمة العالمية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1124" class="SingleTxt">
+        <num>59 -</num>
+        <content eId="para_1124__content">
+          <p xml:space="preserve">	<span class="bold italic">يطلب</span> إلى الأمين العام أن يقدم كل سنتين إلى اللجنة المعنية بتسخير العلم والتكنولوجيا لأغراض التنمية تقريرا عن تنفيذ التوصيات الواردة في هذا القرار وكذلك في قرارات المجلس الأخرى المتعلقة بتقييم التقدم المحرز كمًّا ونوعًا في تنفيذ نتائج القمة العالمية ومتابعتها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1127" class="SingleTxt">
+        <num>60 -</num>
+        <content eId="para_1127__content">
+          <p xml:space="preserve">	<span class="bold italic">يؤكد من جديد</span> على دور اللجنة المعنية بتسخير العلم والتكنولوجيا لأغراض التنمية، كما هو مبين في قرار المجلس 2006/46، في تقديم المساعدة إلى المجلس باعتباره جهة التنسيق المعنية بالمتابعة على نطاق المنظومة، وبخاصة استعراض وتقييم التقدم المحرز في تنفيذ نتائج القمة العالمية، وكذلك في عملية متابعة واستعراض التعاهد الرقمي العالمي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1131" class="SingleTxt">
+        <num>61 -</num>
+        <content eId="para_1131__content">
+          <p xml:space="preserve">	<span class="bold italic">يشجع</span> ميسري مسارات عمل القمة العالمية على كفالة المواءمة الدقيقة مع خطة عام 2030 والتعاهد الرقمي العالمي عند النظر في الاضطلاع بأعمال جديدة لتنفيذ نتائج القمة العالمية، وفقا لولاياتها ومواردها الحالية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1136" class="SingleTxt">
+        <num>62 -</num>
+        <content eId="para_1136__content">
+          <p xml:space="preserve">	<span class="bold italic">يشجع</span> مؤسسات الأمم المتحدة، في إطار ولايات ومسؤوليات كل منها، وكذلك سائر المنظمات والمنتديات ذات الصلة، على تعزيز تقييم الأثر الذي تخلفه تكنولوجيات المعلومات والاتصالات في التنمية المستدامة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1142" class="SingleTxt">
+        <num>63 -</num>
+        <content eId="para_1142__content">
+          <p xml:space="preserve">	<span class="bold italic">يشير </span>إلى مواصلة وتعزيز عمل فريق الأمم المتحدة المعني بمجتمع المعلومات، من خلال تزويده برئاسة تتناوب سنوياً وأمانة يتولى الاتحاد الدولي للاتصالات تقديم خدماتها، وذلك بوصفه الآلية المشتركة بين وكالات منظومة الأمم المتحدة للنهوض باتساق السياسات وتنسيق البرامج المعنية بالمسائل الرقمية، ويشير أيضا إلى الدعوة الموجهة إلى الفريق لتعزيز مرونته وكفاءته وفعاليته وتوسيع عضويته لتشمل مزيدا من كيانات الأمم المتحدة، بهدف تعزيز الحوار بين أصحاب المصلحة المتعددين وبناء الشراكات واستعراض التقدم المحرز في مجال التعاون الرقمي، ويدعو الفريق إلى الإبلاغ عن التقدم المحرز في هذا الصدد لكي تنظر فيه اللجنة المعنية بتسخير العلم والتكنولوجيا لأغراض التنمية في دورتها الثلاثين المقرر عقدها في عام 2027؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1149" class="SingleTxt">
+        <num>64 -</num>
+        <content eId="para_1149__content">
+          <p xml:space="preserve">	<span class="bold italic">يهيب</span> باللجنة المعنية بتسخير العلم والتكنولوجيا لأغراض التنمية وبميسري مسارات العمل، في إطار ولاية كل منهم، إلى تبادل الخبرات بشأن البيئة المؤاتية ودعم توفير التوجيهات السياساتية القائمة على الطلب، والمساعدة التقنية وبناء القدرات، حسب الاقتضاء، من أجل تحقيقها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1157" class="SingleTxt">
+        <num>65 -</num>
+        <content eId="para_1157__content">
+          <p xml:space="preserve">	<span class="bold italic">يؤكد من جديد</span> على الالتزام بمواصلة وتحسين التعاون بين أنشطة المنظمات الدولية والمنظمات الحكومية الدولية وسائر الأطراف المعنية بحوكمة الإنترنت؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1166" class="SingleTxt">
+        <num>66 -</num>
+        <content eId="para_1166__content">
+          <p xml:space="preserve">	<span class="bold italic">يطلب</span> إلى منتدى حوكمة الإنترنت أن يقدم تقريراً سنوياً عن التقدم المحرز صوب تنفيذ نتائج القمة العالمية إلى اللجنة المعنية بتسخير العلم والتكنولوجيا لأغراض التنمية، ويهيب كذلك بفريق الأمم المتحدة المعني بمجتمع المعلومات وجميع كيانات الأمم المتحدة ذات الصلة، وميسري مسارات العمل، واللجنة، ومنتدى القمة العالمية لمجتمع المعلومات إلى مراعاة نتائج منتدى حوكمة الإنترنت في أعمالهم وإجراءاتهم؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1176" class="SingleTxt">
+        <num>67 -</num>
+        <content eId="para_1176__content">
+          <p xml:space="preserve">	<span class="bold italic">يشير</span> إلى الطلب الذي قدمته الجمعية العامة إلى ميسري مسارات العمل القمة العالمية القيام، بالتنسيق مع فريق الأمم المتحدة المعني بمجتمع المعلومات، بوضع خرائط طريق تنفيذية محددة الأهداف وموجهة نحو تحقيق النتائج لمسارات عمل كل منهم ونتائج القرار <a href="https://docs.un.org/ar/A/RES/80/173">80/173</a>، بما يكفل ربط مسارات عمل القمة العالمية بغايات أهداف التنمية المستدامة ذات الصلة والالتزامات الواردة في التعاهد الرقمي العالمي، بما في ذلك إجراء تحليل واضح للفرص والتحديات، والأهداف القابلة للقياس والمؤشرات والمقاييس بغية تيسير الرصد والقياس، والإبلاغ عن نتائج هذا العمل إلى اللجنة المعنية بتسخير العلم والتكنولوجيا لأغراض التنمية في دورتها الثلاثين، المقرر عقدها في عام 2027؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1187" class="SingleTxt">
+        <num>68 -</num>
+        <content eId="para_1187__content">
+          <p xml:space="preserve">	<span class="bold italic">يطلب</span> إلى جميع منسقي مسارات العمل القيام، بالتنسيق مع فريق الأمم المتحدة المعني بمجتمع المعلومات، بعقد جلسة إحاطة سنوية لعرض آخر المستجدات، تنظمها أمانة اللجنة المعنية بتسخير العلم والتكنولوجيا لأغراض التنمية، بشأن الأعمال المنجزة، مع تقديم موجز تجميعي لكافلة المبادرات التي تنفذها كل منظمة في إطار ولاية كل منها؛ وينبغي أن تُعقد هذه الإحاطة قبل موعد انعقاد كل دورة سنوية للجنة، بحيث تُشكل مُدخلا تقنيا في اللمحة العامة عن تنفيذ قرار القمة العالمية، وكذلك في التقرير الذي يقدمه الأمين العام كل سنتين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1199" class="SingleTxt">
+        <num>69 -</num>
+        <content eId="para_1199__content">
+          <p xml:space="preserve">	<span class="bold italic">يدعو</span> فريقَ الأمم المتحدة المعني بمجتمع المعلومات إلى القيام، من أجل زيادة الشفافية والاتساق داخل منظومة الأمم المتحدة، بتقديم تقرير سنوي إلى اللجنة المعنية بتسخير العلم والتكنولوجيا لأغراض التنمية، يتضمن نسخاً محدثة من خريطة الطريق للتنفيذ المشترك، بما في ذلك تحليل واضح للفرص والتحديات، يحتوي على تدابير من قبيل جداول زمنية مفصلة ومسؤوليات واضحة وأهداف قابلة للقياس، ضمن إطار تنفيذ تطلعي وعملي، بغية كفالة اتباع نهج موحد وفعال من حيث الموارد في مجال التعاون الرقمي، يتجنب الازدواجية ويزيد من أوجه التآزر على نطاق منظومة الأمم المتحدة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1212" class="SingleTxt">
+        <num>70 -</num>
+        <content eId="para_1212__content">
+          <p xml:space="preserve">	<span class="bold italic">يطلب</span> إلى فرقة العمل الداخلية المعنية بتعزيز الآليات المالية للتنمية الرقمية في البلدان النامية أن تجري تقييماً للثغرات والتحديات وتقدم توصيات عملية بشأن تعزيز الآليات المالية لأغراض التنمية الرقمية في البلدان النامية، استناداً إلى أفضل الممارسات القائمة وتكميلا لها، بما في ذلك ممارسات المؤسسات المالية المتعددة الأطراف وشركاء التنمية وسائر الأطراف المعنية، من قبيل القطاع الخاص، إلى اللجنة المعنية بتسخير العلوم والتكنولوجيا لأغراض التنمية في دورتها الثلاثين، المقرر عقدها في عام 2027، لكي تنظر فيها الدول الأعضاء، ويدعو فرقة العمل الداخلية إلى رصد الالتزامات المالية المتعلقة بتنفيذ هذه النتائج؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1226" class="SingleTxt">
+        <num>71 -</num>
+        <content eId="para_1226__content">
+          <p xml:space="preserve">	<span class="bold italic">يعترف</span> بطلب الجمعية العامة، الوارد في قرارها <a href="https://docs.un.org/ar/A/RES/80/173">80/173</a>، عقد اجتماع رفيع المستوى في عام 2035 بشأن الاستعراض العام لتنفيذ نتائج القمة العالمية لمجتمع المعلومات، بما يشمل تقديم المدخلات والمشاركة من جانب جميع الأطراف المعنية، في العملية التحضيرية وغيرها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1241" class="SingleTxt">
+        <num>72 -</num>
+        <content eId="para_1241__content">
+          <p xml:space="preserve">	<span class="bold italic">يشير </span>إلى الدور الذي تضطلع به اللجنة المعنية بتسخير العلم والتكنولوجيا لأغراض التنمية في مجال حوكمة البيانات داخل منظومة الأمم المتحدة، وتطلب إلى الفريق العامل الذي أُنشئ تماشيا مع التعاهد الرقمي العالمي أن يقدم تقريراً إلى الجمعية العامة عن التقدم الذي أحرزه، في موعد أقصاه الدورة الحادية والثمانين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1257" class="MercuryDocument">
+        <num>73 -</num>
+        <content eId="para_1257__content">
+          <p xml:space="preserve">	<span class="bold italic">يتعهد</span> بتعزيز التعاون الدولي لسد الفجوات الجسيمة القائمة في البيانات المستخدمة لأغراض التنمية ويؤيد الاستخدام المسؤول للبيانات وإتاحتها للآخرين داخل البلدان وفيما بينها من أجل إحراز تقدم في تحقيق أهداف التنمية المستدامة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1274" class="SingleTxt">
+        <num>74 -</num>
+        <content eId="para_1274__content">
+          <p xml:space="preserve">	<span class="bold italic">يشجع </span>كيانات الأمم المتحدة على مواصلة التعاون الفعال في تنفيذ نتائج القمة العالمية ومتابعتها عن طريق منظومة الأمم المتحدة، باتخاذ الخطوات اللازمة لإقامة مجتمع معلومات يشمل الجميع محوره الإنسان ويركز على التنمية، وكذلك القيام بدور محفز لتحقيق الأهداف الإنمائية المتفق عليها دوليا، بما فيها الأهداف الواردة في خطة عام 2030؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1292" class="SingleTxt">
+        <num>75 -</num>
+        <content eId="para_1292__content">
+          <p xml:space="preserve">	<span class="bold italic">يهيب </span>بمنظمات الأمم المتحدة وسائر المنظمات والمنتديات ذات الصلة، وفقاً لنتائج القمة العالمية، إلى مراعاة منهجيات مؤشرات تكنولوجيا المعلومات والاتصالات، ومختلف مستويات التنمية والظروف الوطنية، ويهيب بالأمم المتحدة وسائر المنظمات والمنتديات ذات الصلة إلى إجراء استعراض دوري لهذه المنهجيات المتعلقة بمؤشرات تكنولوجيا المعلومات والاتصالات، وتبادل المعلومات بشأن دراسات الحالات القطرية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1311" class="SingleTxt">
+        <num>76 -</num>
+        <content eId="para_1311__content">
+          <p xml:space="preserve">	<span class="bold italic">يطلب</span> إلى الشراكة المعنية بقياس تكنولوجيا المعلومات والاتصالات لأغراض التنمية أن تجري، بالتعاون مع منسقي مسارات العمل وبدعم من اللجنة الإحصائية، استعراضاً منهجياً للمؤشرات والمنهجيات الحالية، وأن تنظر، في هذا السياق، في وضع مقاييس محسّنة تتجاوز مجرد الوصول الرقمي والتوصيلية الشبكية، من أجل تحسين رصد المشاركة والتأثير والأثر في الاقتصاد الرقمي، بما في ذلك بالنسبة للنساء والفتيات، وإبلاغ اللجنة المعنية بتسخير العلم والتكنولوجيا لأغراض التنمية بنتائجه في دورتها الثلاثين، المقرر عقدها في عام 2027؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1331" class="SingleTxt">
+        <num>77 -</num>
+        <content eId="para_1331__content">
+          <p xml:space="preserve">	<span class="bold italic">يقرر</span> أن تقوم اللجنة المعنية بتسخير العلم والتكنولوجيا لأغراض التنمية باستعراض القرار كل سنتين اعتباراً من عام 2028، ما لم يُتفق على خلاف ذلك، ويقرر أيضا أن تواصل إجراء استعراضها وتقييمها السنويين للتقدم المحرز في تنفيذ نتائج القمة العالمية.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="40" refersTo="#adoptionMeeting">الجلسة العامة 40</location>
+          <eol />
+          <docDate date="2026-07-21" refersTo="#adoptionDate">21 تموز/يوليه 2026</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

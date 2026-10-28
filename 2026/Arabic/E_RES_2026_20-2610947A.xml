@@ -1,0 +1,145 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-20/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-20/"></FRBRuri>
+          <FRBRdate date="2026-07-21" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-20/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-20/ara@/"></FRBRuri>
+          <FRBRdate date="2026-07-24" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-20/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-20/ara@.xml"></FRBRuri>
+          <FRBRdate date="2026-09-25" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. ESCAP" showAs="UN. ESCAP" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNITED STATES" href="http://metadata.un.org/thesaurus/1006789" showAs="UNITED STATES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="15" showAs="Regional cooperation" shortForm="REGIONAL COOPERATION" dictionary="E/2026/100"></keyword>
+        <keyword refersTo="agenda" value="15[2]" showAs="REGIONAL COOPERATION--ASIA AND THE PACIFIC" shortForm="REGIONAL COOPERATION--ASIA AND THE PACIFIC" dictionary="E/2026/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2026-05-29" outcome="recommendedForAdoption" as="E/2026/15/Add.1" by="UN. ESCAP" />
+        <step date="2026-07-24" outcome="adopted" as="Adopted without vote, 40th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2026/20</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">إن المجلس الاقتصادي والاجتماعي</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2026-07-24" class="rightSmall" refersTo="#dateOfIssuance">24 July 2026</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2026" eId="coverPage_1__session_1">دورة عام 2026</session>
+      </p>
+      <p>
+        <inline title="15" name="agenda item">البند 15 من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">التعاون الإقليمي</inline>
+      </p>
+      <p>
+        <docTitle>قرار اتخذه المجلس الاقتصادي والاجتماعي في 21 تموز/يوليه 2026</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent>[بناء على توصية اللجنة الاقتصادية والاجتماعية لآسيا والمحيط الهادئ (<inline name="originating document">E/2026/15/Add.1</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2026/20</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	انسحاب الولايات المتحدة الأمريكية من عضوية اللجنة الاقتصادية والاجتماعية لآسيا والمحيط الهادئ: تعديل اختصاصات اللجنة</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold italic">إن المجلس الاقتصادي والاجتماعي</span>،</p>
+      </formula>
+      <container name="إذ يحيط علماً" eId="container_2">
+        <p xml:space="preserve">	<span class="bold italic">إذ يحيط علماً</span> بالرسالة المؤرخة 30 كانون الثاني/يناير 2026 الواردة من كبير الموظفين بمكتب شؤون المنظمات الدولية التابع لوزارة خارجية الولايات المتحدة الأمريكية، والتي أبلغ فيها الأمينة التنفيذية للجنة الاقتصادية والاجتماعية لآسيا والمحيط الهادئ بانسحاب الولايات المتحدة من عضوية اللجنة بأثر فوري<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	()	ESCAP/82/30، المرفق.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_3" class="SingleTxt">
+        <content eId="para_3__content">
+          <p xml:space="preserve">	<span class="bold italic">يقرّر</span> تعديل الفقرة 3 من اختصاصات اللجنة الاقتصادية والاجتماعية لآسيا والمحيط الهادئ، تبعاً لذلك.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="40" refersTo="#adoptionMeeting">الجلسة العامة 40</location>
+          <eol />
+          <docDate date="2026-07-21" refersTo="#adoptionDate">21 تموز/يوليه 2026</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

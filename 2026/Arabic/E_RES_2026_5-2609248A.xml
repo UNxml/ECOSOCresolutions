@@ -1,0 +1,341 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-06-01/2026-5/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-06-01/2026-5/"></FRBRuri>
+          <FRBRdate date="2026-06-01" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-06-01/2026-5/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-06-01/2026-5/ara@/"></FRBRuri>
+          <FRBRdate date="2026-06-23" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-06-01/2026-5/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-06-01/2026-5/ara@.xml"></FRBRuri>
+          <FRBRdate date="2026-09-25" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Guiding Principles on Alternative Development (2013)" showAs="UN Guiding Principles on Alternative Development (2013)" dictionary="DHLAUTH"></keyword>
+        <keyword value="NARCOTIC DRUGS" href="http://metadata.un.org/thesaurus/1004312" showAs="NARCOTIC DRUGS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ILLICIT TRAFFIC" href="http://metadata.un.org/thesaurus/1003051" showAs="ILLICIT TRAFFIC" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DRUG CONTROL" href="http://metadata.un.org/thesaurus/1001775" showAs="DRUG CONTROL" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CROP SUBSTITUTION" href="http://metadata.un.org/thesaurus/1001407" showAs="CROP SUBSTITUTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DEVELOPMENT STRATEGIES" href="http://metadata.un.org/thesaurus/1001634" showAs="DEVELOPMENT STRATEGIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PRINCIPLES" href="http://metadata.un.org/thesaurus/1005108" showAs="PRINCIPLES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="19d" showAs="Narcotic drugs" shortForm="NARCOTIC DRUGS" dictionary="E/2026/100"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2026-03-11" outcome="draftResolution" as="E/CN.7/2026/L.4/Rev.1" by="Albania, Andorra, Bolivia (Plurinational State of), Brazil, Canada, China, Colombia, Cyprus (on behalf of the States Members of the United Nations that are members of the European Union), Japan, Nigeria, Norway, Malaysia, Peru, Singapore, Switzerland, Thailand, Ukraine, the United Kingdom and Uruguay" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2026-01-01" outcome="recommendedForAdoption" as="E/2026/28" by="" />
+        <step date="2026-06-23" outcome="adopted" as="Adopted without vote, 23rd plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2026/5</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">إن المجلس الاقتصادي والاجتماعي</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2026-06-23" class="rightSmall" refersTo="#dateOfIssuance">23 June 2026</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2026" eId="coverPage_1__session_1">دورة عام 2026</session>
+      </p>
+      <p>
+        <inline title="19 (د)" name="agenda item">البند 19 (د) من جدول الأعمال</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">المسائل الاجتماعية ومسائل حقوق الإنسان: المخدرات</inline>
+      </p>
+      <p>
+        <docTitle>قرار اتخذه المجلس الاقتصادي والاجتماعي في 10 حزيران/يونيه 2026</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent>[بناء على توصية لجنة المخدرات (<inline name="originating document">E/2026/28</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2026/5</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	التذييل المكمِّل لمبادئ الأمم المتحدة الإرشادية المتعلقة بالتنمية البديلة</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+          <p xml:space="preserve">	<span class="italic">إن الجمعية العامة</span><span class="bold">،</span></p>
+      </formula>
+      <container name="إذ تشدد" eId="container_2">
+        <p xml:space="preserve">	<span class="bold italic">إذ تشدد</span><span class="italic"> على</span> أن الاتفاقية الوحيدة للمخدرات لسنة 1961 بصيغتها المعدلة ببروتوكول سنة 1972<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	()	United Nations, <span class="italic">Treaty Series</span>, vol. 976, No. 14152.</p></authorialNote><sup>)</sup>، واتفاقية المؤثرات العقلية لسنة 1971<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	()	المرجع نفسه، المجلد 1019، الرقم 14956. </p></authorialNote><sup>)</sup>، واتفاقية الأمم المتحدة لمكافحة الاتجار غير المشروع في المخدرات والمؤثرات العقلية لسنة 1988<sup>(</sup><authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	()	المرجع نفسه، المجلد 1582، الرقم 27627. </p></authorialNote>)، وكذلك سائر الصكوك الدولية ذات الصلة، تشكل حجر الزاوية في النظام الدولي لمراقبة المخدرات،</p>
+      </container>
+      <container name="وإذ تؤكد من جديد" eId="container_3">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تؤكد من جديد</span> أن السياسات والبرامج المتعلقة بالمخدرات، في مجالات منها التنمية، ينبغي أن يُضطلع بها على نحو يتوافق مع مقاصد ومبادئ ميثاق الأمم المتحدة والقانون الدولي والإعلان العالمي لحقوق الإنسان<sup>(</sup><authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">	()	قرار الجمعية العامة 217 ألف (د-3).</p></authorialNote><sup>)</sup>، وخصوصا مع الاحترام التام لسيادة الدول وسلامتها الإقليمية، ومبدأ عدم التدخل في الشؤون الداخلية للدول، وجميع حقوق الإنسان والحريات الأساسية والكرامة المتأصلة للأفراد كافة، ومبدأي التساوي في الحقوق والاحترام المتبادل بين الدول، وكذلك مبدأ المسؤولية العامة والمشتركة، وإذ تشير إلى أهداف التنمية المستدامة وتأخذ في الاعتبار الظروف الخاصة للبلدان والمناطق،</p>
+      </container>
+      <container name="وإذ تشير" eId="container_4">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشير</span> إلى مبادئ الأمم المتحدة الإرشادية المتعلقة بالتنمية البديلة، التي اعتمدتها الجمعية العامة في قرارها <a href="https://docs.un.org/ar/A/RES/68/196">68/196</a> المؤرخ 18 كانون الأول/ديسمبر 2013،</p>
+      </container>
+      <container name="وإذ تشير" eId="container_5">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تشير</span> إلى قرار لجنة المخدرات <a href="https://docs.un.org/ar/A/RES/68/3">68/3</a> المؤرخ 14 آذار/مارس 2025، الذي قررت فيه اللجنة الشروع في عملية لاستكمال مبادئ الأمم المتحدة الإرشادية المتعلقة بالتنمية البديلة من أجل التصدي للتحديات التي تطرحها الديناميات المتغيرة لاقتصاد المخدرات غير المشروعة، بما في ذلك الزراعة غير المشروعة للمحاصيل التي تستخدم في إنتاج العقاقير المخدرة والمؤثرات العقلية وصنع المخدرات وإنتاجها والاتجار بها بصورة غير مشروعة، وغيرها من الأنشطة غير المشروعة المتصلة بالمخدرات،</p>
+      </container>
+      <container name="وإذ تعترف" eId="container_6">
+        <p xml:space="preserve">	<span class="bold italic">وإذ تعترف</span> بأنه ينبغي، في تصميم وتنفيذ برامج التنمية البديلة المقبلة، التصدي للتحديات الراهنة والمستمرة والمتغيرة المتصلة بزراعة محاصيل المخدرات غير المشروعة وغيرها من الأنشطة غير المشروعة ذات الصلة المرتبطة بالمخدرات، فضلا عن خطر الانخراط فيها، وإذ تلاحظ أن الخبراء المشاركين في اجتماع فريق الخبراء المعني بالتنمية البديلة استبانوا أن تلك التحديات تتضمن تغير المناخ، والتدهور البيئي، وفقدان التنوع البيولوجي، والتحديات المتعلقة بالأمن الغذائي، والنُّهج الإقليمية، والأمن العام، وتشريد الناس، وتمكين الشعوب الأصلية والمجتمعات المحلية وإشراكها، وكذلك المساواة بين الجنسين وتمكين جميع النساء والفتيات،</p>
+      </container>
+      <container name="وإذ ترحب" eId="container_7">
+        <p xml:space="preserve">	<span class="bold italic">وإذ ترحب</span> بعقد الاجتماع العاشر لفريق الخبراء المعني بالتنمية البديلة، في ليما في الفترة من 5 إلى 7 تشرين الثاني/نوفمبر 2025، الذي قدم توصيات موضوعية لاستكمال مبادئ الأمم المتحدة الإرشادية المتعلقة بالتنمية البديلة، على النحو الوارد في التذييل المكمِّل لمبادئ الأمم المتحدة الإرشادية المتعلقة بالتنمية البديلة، المرفق بهذا القرار،</p>
+      </container>
+      <container name="وإذ" eId="container_8">
+        <p xml:space="preserve">	<span class="bold italic">وإذ</span> <span class="bold italic">تحيط علما</span> بورقة الاجتماع التي اشتركت في تقديمها ألمانيا وبيرو وتايلند ومكتب الأمم المتحدة المعني بالمخدرات والجريمة في الدورة التاسعة والستين للجنة المخدرات تحت عنوان ”استكمال مبادئ الأمم المتحدة الإرشادية المتعلقة بالتنمية البديلة“، والتي تناولت نتائج الاجتماع العاشر لفريق الخبراء المعني بالتنمية البديلة، مع مراعاة طابعها غير الملزم وأنها لا تعبر بالضرورة عن موقف جميع المشاركين،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_9" class="SingleTxt">
+        <num>1 -</num>
+        <content eId="para_9__content">
+          <p xml:space="preserve">	<span class="bold italic">تعتمد</span> التذييل المكمِّل لمبادئ الأمم المتحدة الإرشادية المتعلقة بالتنمية البديلة، الملحق بهذا القرار؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="SingleTxt">
+        <num>2 -</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve">	<span class="bold italic">تشجع</span> الدول الأعضاء والجهات المعنية من المنظمات الدولية والمؤسسات المالية الدولية والهيئات الإقليمية والمجتمع المدني والأوساط الأكاديمية والقطاع الخاص على أن تستخدم مبادئ الأمم المتحدة الإرشادية المتعلقة بالتنمية البديلة<sup>(</sup><authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">	()	قرار الجمعية العامة <a href="https://docs.un.org/ar/A/RES/68/196">68/196</a>، المرفق.</p></authorialNote><sup>)</sup> بصيغتها المكمَّلة بالتذييل عند تصميم سياسات واستراتيجيات وبرامج التنمية البديلة وتنفيذها ورصدها وتقييمها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12" class="SingleTxt">
+        <num>3 -</num>
+        <content eId="para_12__content">
+          <p xml:space="preserve">	<span class="bold italic">تطلب</span> إلى المدير التنفيذي لمكتب الأمم المتحدة المعني بالمخدرات والجريمة، بالتعاون مع جميع كيانات ووكالات الأمم المتحدة ذات الصلة، أن يواصل تقديم المساعدة التقنية وبناء القدرات إلى الدول الأعضاء فيما يخص تنفيذ مبادئ الأمم المتحدة الإرشادية المتعلقة بالتنمية البديلة بصيغتها المكمَّلة بالتذييل، رهنا بتوافر تمويل من خارج الميزانية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15" class="SingleTxt">
+        <num>4 -</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve">	<span class="bold italic">تطلب</span> إلى مكتب الأمم المتحدة المعني بالمخدرات والجريمة أن يساعد الدول الأعضاء، في إطار ولايته ورهنا بتوافر موارد من خارج الميزانية، على تنظيم اجتماع لفريق خبراء شامل بشأن التنمية البديلة في عام 2026 في تايلند، يقدم مبادئ توجيهية وإرشادات يعدها الخبراء لتنفيذ التذييل المكمِّل لمبادئ الأمم المتحدة الإرشادية المتعلقة بالتنمية البديلة ويدرس إمكانية تطبيق التنمية البديلة في سياق المخدرات الاصطناعية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxt">
+        <num>5 -</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="bold italic">تدعو</span> الدول الأعضاء وسائر الجهات المانحة إلى توفير موارد من خارج الميزانية للأغراض المبينة أعلاه وفقا لقواعد الأمم المتحدة وإجراءاتها المالية.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="23" refersTo="#adoptionMeeting">الجلسة العامة 23</location>
+          <eol />
+          <docDate date="2026-06-01" refersTo="#adoptionDate">1 حزيران/يونيه 2026</docDate>
+        </event>
+      </p>
+    </conclusions>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-06-01/2026-5/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-06-01/2026-5/"></FRBRuri>
+                <FRBRdate date="2026-06-01" name="adoption"></FRBRdate>
+                <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-06-01/2026-5/ara@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-06-01/2026-5/ara@/"></FRBRuri>
+                <FRBRdate date="2026-06-23" name="publication"></FRBRdate>
+                <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="ara"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-06-01/2026-5/ara@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-06-01/2026-5/ara@.xml"></FRBRuri>
+                <FRBRdate date="2026-09-25" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_20" class="H23">
+              <subheading>المرفق</subheading>
+            </paragraph>
+            <paragraph eId="para_21" class="H23">
+              <subheading>التذييل المكمِّل لمبادئ الأمم المتحدة الإرشادية المتعلقة بالتنمية البديلة</subheading>
+            </paragraph>
+            <paragraph eId="para_22" class="H23">
+              <subheading>ألف -	أحكام عامة</subheading>
+            </paragraph>
+            <paragraph eId="para_23" class="SingleTxt">
+              <num>1 -</num>
+              <content eId="para_23__content">
+                <p xml:space="preserve">	تشجع برامج التنمية البديلة البدائل الاقتصادية المشروعة المجدية لزراعة محاصيل المخدرات غير المشروعة وكذلك، عند الاقتضاء، للأنشطة الأخرى المتصلة بالمخدرات غير المشروعة في المناطق الريفية والحضرية، التي تستهدف، على وجه الخصوص، المجتمعات المحلية والمناطق المتأثرة بالزراعة غير المشروعة للمحاصيل التي تستخدم في إنتاج العقاقير المخدرة والمؤثرات العقلية وبصنع المخدرات وإنتاجها والاتجار بها بصورة غير مشروعة، أو المعرضة لمخاطر تلك الأنشطة، بسبل منها تدخلات ومبادرات تنموية طويلة الأجل وجامعة وشاملة للجميع ومستدامة تعود بالنفع على الجميع، وفقاً للاتفاقيات الدولية الثلاث لمراقبة المخدرات.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_24" class="SingleTxt">
+              <num>2 -</num>
+              <content eId="para_24__content">
+                <p xml:space="preserve">	يمكن لبرامج التنمية البديلة أن تسهم في جهود الدول الأعضاء الرامية إلى التعامل مع الأشخاص الذين يعيشون أوضاعا هشة، تشمل الفقر والبطالة وانعدام الفرص والتمييز والتهميش الاجتماعي.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_25" class="SingleTxt">
+              <num>3 -</num>
+              <content eId="para_25__content">
+                <p xml:space="preserve">	التنمية البديلة هي تدبير يتسق مع الالتزام باحترام وحماية وإعمال جميع حقوق الإنسان والحريات الأساسية والكرامة المتأصلة للأفراد كافة وسيادة القانون لدى صوغ وتنفيذ هذه البرامج.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_26" class="H23">
+              <subheading>باء -	الإجراءات وتدابير التنفيذ</subheading>
+            </paragraph>
+            <paragraph eId="para_27" class="SingleTxt">
+              <num>4 -</num>
+              <content eId="para_27__content">
+                <p xml:space="preserve">	ينبغي أن تبذل الدول الأعضاء في الأمم المتحدة والمنظمات الدولية والمنظمات الإقليمية ووكالات التنمية والجهات المانحة والمؤسسات المالية الدولية والمجتمع المدني قصارى جهودها، حسب الاقتضاء، للقيام بما يلي:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_28" class="SingleTxt">
+              <content eId="para_28__content">
+                <p xml:space="preserve">	(أ)	إدماج منظور جنساني في جميع مراحل صوغ وتنفيذ ورصد وتقييم برامج التنمية البديلة، وضمان إشراك النساء في كل ذلك، واستحداث وتعميم تدابير مراعية لنوع الجنس وملائمة للسن تأخذ بعين الاعتبار ما للنساء والفتيات من احتياجات خاصة وما يواجهنه من ظروف خاصة فيما يتعلق بالزراعة غير المشروعة لمحاصيل المخدرات والأنشطة الأخرى غير المشروعة المتصلة بالمخدرات في المناطق الريفية والحضرية؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_29" class="SingleTxt">
+              <content eId="para_29__content">
+                <p xml:space="preserve">	(ب)	الاعتراف بالمرأة ودعمها باعتبارها محركا للتغيير وقائدا للمجتمع المحلي، فضلا عن كونها مساهما رئيسيا في نجاح واستدامة برامج التنمية البديلة؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_30" class="SingleTxt">
+              <content eId="para_30__content">
+                <p xml:space="preserve">	(ج)	إجراء إصلاحات، في إطار سياسات وبرامج التنمية البديلة، لمنح المرأة حقوقا متساوية في الموارد الاقتصادية، ولمنحها أيضا إمكانية الحصول على حق الملكية والسيطرة على الأرض وغيرها من أشكال الملكية، وعلى الخدمات المالية، والميراث والموارد الطبيعية، وفقا للقوانين الوطنية؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_31" class="SingleTxt">
+              <content eId="para_31__content">
+                <p xml:space="preserve">	(د)	دراسة ما للزراعة غير المشروعة لمحاصيل المخدرات وسائر الأنشطة غير المشروعة المتصلة بالمخدرات من أثر سلبي على البيئة، قد يؤدي إلى إزالة الغابات وتلوث التربة والمياه، والتصدي لذلك الأثر، واغتنام الفرص التي تتيحها التنمية البديلة على صعيد إعادة ترميم البيئة والحفاظ عليها واستخدامها استخداما مستداما وحماية التنوع البيولوجي؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_32" class="SingleTxt">
+              <content eId="para_32__content">
+                <p xml:space="preserve">	(ه)	مراعاة وتعزيز التخفيف من حدة تغير المناخ والتكيف معه، ومراعاة وتقوية التنوع البيولوجي، والحفاظ على البيئة، وترميمها، وغيرها من السياسات والتدابير الرامية إلى حماية البيئة عند تنفيذ برامج التنمية البديلة بطريقة متسلسلة بشكل سليم في سياق سياسات مراقبة المخدرات الطويلة الأجل والشاملة للجميع والمتكاملة والجامعة والمتوازنة والموجهة نحو التنمية المستدامة؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_33" class="SingleTxt">
+              <content eId="para_33__content">
+                <p xml:space="preserve">	(و)	تصميم وتنفيذ برامج التنمية البديلة بطرق تقلل أيضا من الآثار السلبية على البيئة وتسهم في جهود حفظ البيئة، والاهتمام بالفرص المتاحة للمجتمعات المحلية المتأثرة بالزراعة غير المشروعة لمحاصيل المخدرات أو المعرضة لخطرها، حسب الاقتضاء، التي تمكنها من الحصول على استثمارات عامة وخاصة، وتمويل متعلق بالمناخ والتنوع البيولوجي، بما في ذلك خطط أرصدة الكربون، ومدفوعات مقابل خدمات النظم الإيكولوجية، وفقا للتشريعات المحلية؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_34" class="SingleTxt">
+              <content eId="para_34__content">
+                <p xml:space="preserve">	(ز)	ضمان أن برامج التنمية البديلة والتدخلات المكملة لها في إطار السياسات المتعلقة بالمخدرات تحترم حقوق الإنسان الأساسية وتأخذ في الاعتبار على النحو الواجب استخداماتها المشروعة التقليدية حيثما كانت هناك شواهد تاريخية على ذلك الاستخدام، وتراعي حماية البيئة، وفقا لأحكام الاتفاقيات الدولية الثلاث لمراقبة المخدرات؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_35" class="SingleTxt">
+              <content eId="para_35__content">
+                <p xml:space="preserve">	(ح)	ضمان مشاركة الشعوب الأصلية والمجتمعات المحلية المتأثرة بالزراعة غير المشروعة لمحاصيل المخدرات وبصنع المخدرات وإنتاجها والاتجار بها بصورة غير مشروعة، وغيرها من الأنشطة غير المشروعة المتصلة بالمخدرات، أو المعرضة لمخاطر تلك الأنشطة، في وضع وتنفيذ السياسات والإجراءات الرامية إلى تعزيز التنمية البديلة المستدامة والشاملة للجميع، مع مراعاة ثقافات تلك الشعوب ومعارفها وتقاليدها؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_36" class="SingleTxt">
+              <content eId="para_36__content">
+                <p xml:space="preserve">	(ط)	النظر في وضع وتنفيذ مبادرات للتنمية البديلة المستدامة والشاملة للجميع، بما في ذلك، حسب الاقتضاء، برامج التنمية البديلة الوقائية، وتوفير بدائل اقتصادية قابلة للتطبيق للمجتمعات المحلية المتأثرة بالزراعة غير المشروعة لمحاصيل المخدرات وغيرها من الأنشطة غير المشروعة المتصلة بالمخدرات في المناطق الريفية والحضرية؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_37" class="SingleTxt">
+              <content eId="para_37__content">
+                <p xml:space="preserve">	(ي)	النظر في اعتماد نهج إقليمي للتنمية البديلة باعتباره إطارا تشاركيا محوره الإنسان يستند إلى الحقوق ويعتمد على المناطق ويضم العديد من أصحاب المصلحة، ويجري تنسيقه مع السياسات والإجراءات المتعددة القطاعات على جميع مستويات الحكومة ومع وكالات التنمية من أجل تعزيز التنمية البديلة الشاملة للجميع والمستدامة داخل إقليم محدد؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_38" class="SingleTxt">
+              <content eId="para_38__content">
+                <p xml:space="preserve">	(ك)	استكشاف أوجه التآزر لمعالجة الصلة بين الأنشطة غير المشروعة المتصلة بالمخدرات والجرائم التي تضر بالبيئة والجرائم المتقاطعة من خلال تدابير موجهة نحو التنمية، بما في ذلك التنمية البديلة، مع اتباع نهج متكامل وتكميلي؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_39" class="SingleTxt">
+              <content eId="para_39__content">
+                <p xml:space="preserve">	(ل)	النظر في إدماج تدابير لضمان الأمن الغذائي على مستوى الأسرة والمجتمع المحلي في برامج التنمية البديلة، مما يشجع تنويع الإنتاج، بما في ذلك، على سبيل المثال، زراعة حدائق الخضروات وتربية الحيوانات الصغيرة، لتلبية الاحتياجات الأساسية العاجلة إلى جانب توليد الدخل؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_40" class="SingleTxt">
+              <content eId="para_40__content">
+                <p xml:space="preserve">	(م)	تحسين تقييم أثر وفعالية برامج التنمية البديلة، بوسائل منها استخدام مؤشرات التنمية البشرية ذات الصلة ومعايير الاستدامة البيئية وغيرها من المقاييس المناسبة وكذلك، عند الاقتضاء، مواصلة تعزيز المنهجيات المحددة السياق لقياسها ورصدها وتقييمها؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_41" class="SingleTxt">
+              <content eId="para_41__content">
+                <p xml:space="preserve">	(ن)	النظر في تيسير إقامة شراكات طويلة الأجل واستراتيجية ومبتكرة بين القطاعين العام والخاص تتجاوز مجرد إيصال المنتجات إلى الأسواق، لتشمل كذلك الاستثمار والتوجيه والوصول إلى التمويل والالتزام بمعايير الاستدامة لتحفيز إدماج منتجات التنمية البديلة المحلية في سلاسل القيمة المحلية والإقليمية والدولية؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_42" class="SingleTxt">
+              <content eId="para_42__content">
+                <p xml:space="preserve">	(س)	مواصلة تشجيع تنويع واستدامة سبل العيش المشروعة، بوسائل منها عرض المنتجات الزراعية ذات القيمة المضافة، والمنتجات الحرجية الخشبية وغير الخشبية كجزء من الإدارة المستدامة للغابات، والأنشطة الاقتصادية غير الزراعية (مثل السياحة البيئية، والحرف اليدوية، والخدمات) من أجل تعظيم الدخل، والحد من المخاطر، والاستفادة من التجارة الإلكترونية والمنصات الرقمية للوصول إلى الأسواق؛</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_43" class="SingleTxt">
+              <content eId="para_43__content">
+                <p xml:space="preserve">	(ع)	ضمان الالتزام السياسي الطويل الأجل والدعم المالي المستدام لبرامج التنمية البديلة، بسبل منها التمويل المنصف والشفاف والمرن والطويل الأجل، والدمج في خطط التنمية الوطنية المتعددة السنوات، والاستراتيجيات الوطنية لمكافحة المخدرات، والتنسيق عبر قطاعات ومستويات متعددة، وعن طريق استكشاف آليات تمويل مبتكرة للاستفادة من الاستثمارات العامة والخاصة (مثل الحوافز الضريبية والإعانات والتمويل المتعلق بالمناخ).</p>
+              </content>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>
