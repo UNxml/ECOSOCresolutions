@@ -1,0 +1,545 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-14/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-14/"></FRBRuri>
+          <FRBRdate date="2026-07-21" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-14/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-14/eng@/"></FRBRuri>
+          <FRBRdate date="2026-07-24" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-14/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-14/eng@.xml"></FRBRuri>
+          <FRBRdate date="2026-09-25" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <workflow source="#un">
+        <step date="2026-05-08" outcome="recommendedForAdoption" as="E/2026/31" by="UN. Commission on Science and Technology for Development" />
+        <step date="2026-07-21" outcome="adopted" as="40th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">26-10941 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2026/14</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Economic and Social Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2026-07-24" class="rightSmall" refersTo="#dateOfIssuance">24 July 2026</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" value="2026" eId="coverPage_1__session_1">2026 session</session>
+      </p>
+      <p>
+        <inline title="18 (b)" name="agenda item">Agenda item 18 (b)</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">Economic and environmental questions: science and technology for development</inline>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the Economic and Social Council on 21 July 2026</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent>[on the recommendation of the Commission on Science and Technology for Development (<inline name="originating document">E/2026/31</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2026/14.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Science, technology and innovation for development</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Economic and Social Council</span>,</p>
+      </formula>
+      <container name="Recognizing" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	Recognizing </span>the role of the Commission on Science and Technology for Development, as the United Nations focal point for science, technology and innovation for development, in analysing how science, technology and innovation, including information and communications technologies, serve as enablers of the 2030 Agenda for Sustainable Development<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">	 	General Assembly resolution <a href="https://docs.un.org/en/A/RES/70/1">70/1</a>.</p></authorialNote> by acting as a forum for strategic planning, sharing lessons learned and best practices, providing foresight about critical trends in science, technology and innovation in key sectors of the economy, the environment and society, and drawing attention to new and emerging technologies,</p>
+      </container>
+      <container name="Recognizing also" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	Recognizing also </span>the critical role of science, technology and innovation, including information and communications technologies, in fostering sustainable development, enhancing economic competitiveness, and addressing global challenges, and highlighting their role as key enablers of the 2030 Agenda,</p>
+      </container>
+      <container name="Reaffirming" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">	Reaffirming </span>that strengthened international cooperation in science, technology and innovation, particularly between developed and developing countries, is essential for accelerating progress towards the Sustainable Development Goals, and acknowledging the importance of multi-stakeholder partnerships, capacity-building and knowledge-sharing to facilitate the transfer and diffusion of technologies on mutually agreed terms in line with sustainable development priorities, taking into account national circumstances and differing levels of development,</p>
+      </container>
+      <container name="Noting" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	Noting </span>that most developing countries are facing specific challenges with a weak level of digital development and limited access to science, technology and innovation, necessitating adapted approaches to overcome these obstacles and to support resilient and sustainable development, and recognizing the particular challenges of countries facing infrastructure limitations and financial constraints, </p>
+      </container>
+      <container name="Recalling" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">	Recalling </span>General Assembly resolution <a href="https://docs.un.org/en/A/RES/80/173">80/173</a> of 17 December 2025, entitled “Outcome document of the high-level meeting of the General Assembly on the overall review of the implementation of the outcomes of the World Summit on the Information Society”, in which it was recognized that science, technology and innovation are integral to digital development, </p>
+      </container>
+      <container name="Recalling also" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">	Recalling also </span>the United Nations Framework Convention on Climate Change<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">	 	United Nations, <span class="italic">Treaty Series</span>, vol. 1771, No. 30822.</p></authorialNote> and the Paris Agreement,<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">	 	See <a href="https://docs.un.org/en/FCCC/CP/2015/10/Add.1">FCCC/CP/2015/10/Add.1</a>, decision 1/CP.21, annex.</p></authorialNote> </p>
+      </container>
+      <container name="Recalling further" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">	Recalling further </span>that, in its resolution <a href="https://docs.un.org/en/A/RES/80/138">80/138</a> of 15 December 2025, the General Assembly acknowledged that action on adaptation to climate change is an urgent priority and a global challenge faced by all countries, in particular developing countries, especially those that are particularly vulnerable to the adverse effects of climate change, and reiterated the urgency of scaling up action and support, as appropriate, including finance, technology transfer and capacity-building, for implementing approaches for averting, minimizing and addressing loss and damage associated with the adverse effects of climate change in developing country Parties that are particularly vulnerable to these effects,</p>
+      </container>
+      <container name="Recognizing" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">	Recognizing </span>that, in its resolution <a href="https://docs.un.org/en/A/RES/80/138">80/138</a>, the General Assembly recognized that the current need for adaptation is significant, emphasizing the importance of continuing to take actions to promote the adequacy and predictability of adaptation finance, taking into account the role of the Adaptation Fund in delivering dedicated support for adaptation, and acknowledging the growing impact of digital technologies and artificial intelligence on environmental sustainability, </p>
+      </container>
+      <container name="Recognizing also" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">	Recognizing also </span>that the General Assembly, in its resolution <a href="https://docs.un.org/en/A/RES/80/147">80/147</a> of 15 December 2025 on science, technology and innovation for sustainable development, encouraged the United Nations Conference on Trade and Development to continue to undertake science, technology and innovation policy reviews, with a view to assisting developing countries, upon request, in identifying the priorities and measures that are needed to integrate science, technology and innovation policies into their national development strategies so that policies and programmes are supportive of national development agendas,<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">	 	The framework for national science, technology and innovation policy reviews was developed by the United Nations Conference on Trade and Development (see document UNCTAD/DTL/ STICT/2019/4).</p></authorialNote> as appropriate, </p>
+      </container>
+      <container name="Recalling" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">	Recalling </span>Economic and Social Council decision 2025/322 of 29 July 2025 providing for the extension, until 2030, of the mandate of the Gender Advisory Board of the Commission on Science and Technology for Development, and reaffirming the need to address the barriers to equal access for women and girls to science and technology and the integration of a gender perspective into development policies and programmes,</p>
+      </container>
+      <container name="Recognizing" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">	Recognizing </span>the commitments made within the United Nations system, as well as other global and regional initiatives, to promote gender equality and support the empowerment and participation of women and girls in science, technology and innovation, digital skills development and innovation ecosystems aimed at addressing the gender digital divide, and of those in vulnerable situations such as youth, older persons and persons with disabilities, </p>
+      </container>
+      <container name="Noting with concern" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">	Noting with concern </span>the existing disparities between developed and developing countries in terms of conditions, possibilities and capacities to produce new scientific and technological knowledge, and emphasizing that science, technology and innovation cooperation and collaboration as well as international support are fundamental to enhancing developing countries’ ability to benefit from technological advances and to produce, nurture, access, comprehend, select, adapt and use science, technology and innovation knowledge,</p>
+      </container>
+      <container name="Taking into account" eId="container_14">
+        <p xml:space="preserve">
+          <span class="italic">	Taking into account </span>the importance of international cooperation in science, technology and innovation to achieve the international community’s commitment to sustainable development and leaving no one behind, and the role of global partnerships in facilitating the co-creation of global solutions to tackling global challenges, including diverse knowledge systems and traditional knowledge,</p>
+      </container>
+      <container name="Recognizing" eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">	Recognizing </span>that capabilities in science, technology, engineering and mathematics, as well as social sciences and humanities, design, management, and entrepreneurial skills are central for effective innovation, but are unevenly distributed across and within countries and regions, and that the availability, accessibility and affordability of inclusive and equitable quality education at the primary, secondary and tertiary levels, as well as lifelong learning opportunities in science, technology and mathematics, are essential and should be funded, promoted, prioritized and coordinated, in order to create an inclusive social environment conducive to the advancement of science, technology and innovation,</p>
+      </container>
+      <container name="Noting" eId="container_16">
+        <p xml:space="preserve">
+          <span class="italic">	Noting </span>that rapid technological change can contribute to the faster achievement of the 2030 Agenda, including its 17 Sustainable Development Goals, by improving real incomes, enabling faster and wider deployment of novel solutions to economic, social and environmental obstacles, supporting more inclusive forms of participation in social and economic life, bridging the digital divides in all their forms, replacing environmentally costly modes of production with more sustainable ones and giving policymakers powerful tools to design and plan development interventions,</p>
+      </container>
+      <container name="Noting also" eId="container_17">
+        <p xml:space="preserve">
+          <span class="italic">	Noting also </span>that new technologies create new jobs and development opportunities, thus increasing the demand for quality digital skills and competencies in science, technology and innovation, and underlining the importance of building such skills and competencies so that societies can adapt to and benefit from relevant technological changes,</p>
+      </container>
+      <container name="Recalling" eId="container_18">
+        <p xml:space="preserve">
+          <span class="italic">	Recalling </span>General Assembly resolution <a href="https://docs.un.org/en/A/RES/79/334">79/334</a> of 5 September 2025, in which the Assembly requested the Technology Facilitation Mechanism and the Commission on Science and Technology for Development, through the Economic and Social Council, to give due consideration to the impact of key rapid technological changes on the achievement of the Sustainable Development Goals within their respective mandates and existing resources,</p>
+      </container>
+      <container name="Welcoming" eId="container_19">
+        <p xml:space="preserve">
+          <span class="italic">	Welcoming </span>the work of the Commission on its current priority theme, “Science, technology and innovation in the age of artificial intelligence”, underlining the importance of ethical, safe and inclusive development and deployment of artificial intelligence, in accordance with international human rights law and taking into account the principles established in the Global Digital Compact,<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">	 	General Assembly resolution <a href="https://docs.un.org/en/A/RES/79/1">79/1</a>, annex I.</p></authorialNote> the outcome document of the 20-year review of the implementation of the outcomes of the World Summit on the Information Society<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">	 	General Assembly resolution <a href="https://docs.un.org/en/A/RES/80/173">80/173</a>.</p></authorialNote> and General Assembly resolution <a href="https://docs.un.org/en/A/RES/79/325">79/325</a> of 26 August 2025, promoting international cooperation and capacity-building to enable all countries, particularly developing countries, to harness artificial intelligence for sustainable development,</p>
+      </container>
+      <container name="Recognizing" eId="container_20">
+        <p xml:space="preserve">
+          <span class="italic">	Recognizing </span>the need for innovative approaches that respond to the needs of those in vulnerable situations in developing and developed countries, while protecting personal data from misuse and respecting privacy, the ownership of personal data, cybersecurity and responsible use of emerging technologies, including artificial intelligence, that involve them in innovation processes and that embed capacity-building in the areas of science, technology and innovation as a crucial component of national development plans, inter alia, through collaboration between the relevant ministries and regulatory bodies,</p>
+      </container>
+      <container name="Recognizing also" eId="container_21">
+        <p xml:space="preserve">
+          <span class="italic">	Recognizing also </span>the importance of the right to privacy, data protection and consumer protection in the context of science and technology for development, and broader ethical and linguistic considerations in science, technology and innovation development,</p>
+      </container>
+      <container name="Recognizing further" eId="container_22">
+        <p xml:space="preserve">
+          <span class="italic">	Recognizing further </span>that technology foresight and assessment exercises, including gender-sensitive and environmentally sensitive technologies, could help policymakers and stakeholders in the implementation of the 2030 Agenda through the identification of challenges and opportunities that can be addressed strategically, and that technology trends should be analysed, keeping in view the wider socioeconomic context,</p>
+      </container>
+      <container name="Recognizing" eId="container_23">
+        <p xml:space="preserve">
+          <span class="italic">	Recognizing </span>the increased regional integration efforts across the world and the associated regional dimension of science, technology and innovation issues, in particular in developing regions such as, among others, Africa, where regional integration initiatives, including regional digital markets, play a key role in advancing science, technology and innovation,</p>
+      </container>
+      <container name="Welcoming" eId="container_24">
+        <p xml:space="preserve">
+          <span class="italic">	Welcoming</span> the convening of the Fourth International Conference on Financing for Development from 30 June to 3 July 2025 in Sevilla, Spain, and reaffirming its outcome document, the Sevilla Commitment, endorsed by the General Assembly in its resolution <a href="https://docs.un.org/en/A/RES/79/323">79/323</a> of 25 August 2025, </p>
+      </container>
+      <container name="Recognizing" eId="container_25">
+        <p xml:space="preserve">
+          <span class="italic">	Recognizing </span>the need to renew commitments to mobilize and scale up financing for innovation, especially in developing countries, least developed countries, landlocked developing countries and small island developing States in support of the Sustainable Development Goals, and encouraging the implementation of initiatives and programmes that facilitate sustainable investments and participation in the digital economy, </p>
+      </container>
+      <container name="Noting" eId="container_26">
+        <p xml:space="preserve">
+          <span class="italic">	Noting </span>that the success of using technology and innovation policies at the national level is facilitated by, among other things, creating policy environments that enable education and research institutions, businesses and industry to innovate, invest in and transform science, technology and innovation into employment and economic growth, incorporating all interrelated elements, including knowledge transfer and financial and technical assistance support,</p>
+      </container>
+      <container name="Recalling" eId="container_27">
+        <p xml:space="preserve">
+          <span class="italic">	Recalling </span>that, in its resolution <a href="https://docs.un.org/en/A/RES/74/306">74/306</a> of 11 September 2020, the General Assembly called upon Member States and all relevant stakeholders to promote research and development and capacity-building initiatives, as well as to enhance cooperation on and access to science, innovation, technologies, technical assistance and knowledge-sharing, including through improved coordination among existing mechanisms, especially with developing countries, in a collaborative, coordinated and transparent manner towards advancing the Sustainable Development Goals,</p>
+      </container>
+      <container name="Recognizing" eId="container_28">
+        <p xml:space="preserve">
+          <span class="italic">	Recognizing </span>the intricate relationship between data and sustainable development and the complexity of data governance,</p>
+      </container>
+      <container name="Recalling" eId="container_29">
+        <p xml:space="preserve">
+          <span class="italic">	Recalling </span>that, in its resolution <a href="https://docs.un.org/en/A/RES/79/1">79/1</a> of 22 September 2024, the General Assembly adopted the Pact for the Future as part of the outcomes of the Summit of the Future, which includes a dedicated section on science, technology and innovation and digital cooperation and an annexed Global Digital Compact, and recalling also that, in paragraph 48 of the Global Digital Compact, the Commission on Science and Technology for Development was requested to establish a dedicated working group to engage in a comprehensive and inclusive multi-stakeholder dialogue on data governance at all levels as relevant for development,</p>
+      </container>
+      <container name="Recognizing" eId="container_30">
+        <p xml:space="preserve">
+          <span class="italic">	Recognizing </span>the contribution of science, technology and innovation in building resilient communities by empowering and giving a voice to people, including those in vulnerable situations, through, among others, extending access to education and health, monitoring environmental and social risks, connecting people, enabling early warning systems, driving economic diversification, and economic development, while considering negative effects on the environment,</p>
+      </container>
+      <container name="Taking into consideration" eId="container_31">
+        <p xml:space="preserve">
+          <span class="italic">	Taking into consideration </span>that traditional knowledge, including that of Indigenous Peoples, with due respect for their rights, including free, prior and informed consent, as well as local communities, can be a basis for technological development and the sustainable management and use of natural resources, </p>
+      </container>
+      <container name="Recognizing" eId="container_32">
+        <p xml:space="preserve">
+          <span class="italic">	Recognizing </span>the role of the United Nations Conference on Trade and Development as the secretariat of the Commission on Science and Technology for Development and its efforts to support the establishment of the Commission’s Multi‑stakeholder Working Group on Data Governance at All Levels, as Relevant for Development,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_33" class="SingleTxt">
+        <num>1.</num>
+        <list eId="para_33_list">
+          <intro eId="para_33_list_intro">
+            <p xml:space="preserve">	<span class="italic">Recommends </span>the following for consideration by national Governments, the Commission on Science and Technology for Development and the United Nations Conference on Trade and Development:</p>
+          </intro>
+          <point eId="para_33_list_point_a">
+            <num>(a)</num>
+            <content eId="para_33_list_point_a_content">
+              <p xml:space="preserve">	Governments, individually and collectively, are encouraged to take into account the findings of the Commission and to consider taking the following actions:</p>
+            </content>
+          </point>
+          <sublist eId="para_33_list_point_a_sublist">
+            <point eId="para_33_list_point_a_sublist_point_i">
+              <num>(i)</num>
+              <content eId="para_33_list_point_a_sublist_point_i_content">
+                <p xml:space="preserve">	To integrate science, technology and innovation into national strategies to develop resilient and affordable digital infrastructure to promote access to information and communications technologies, and to conduct specific analysis of the impact of technological change on development and support the development of pilot projects;</p>
+              </content>
+            </point>
+            <point eId="para_33_list_point_a_sublist_point_ii">
+              <num>(ii)</num>
+              <content eId="para_33_list_point_a_sublist_point_ii_content">
+                <p xml:space="preserve">	To establish a close link between science, technology, innovation and sustainable development strategies, giving a prominent place to institutional, infrastructure and human resource capacity-building in information and communications technologies and science, technology and innovation in the future vision and planning of national development;</p>
+              </content>
+            </point>
+            <point eId="para_33_list_point_a_sublist_point_iii">
+              <num>(iii)</num>
+              <content eId="para_33_list_point_a_sublist_point_iii_content">
+                <p xml:space="preserve">	To promote local innovation capabilities for inclusive and sustainable economic development by bringing together local scientific, vocational and engineering knowledge, including Indigenous and traditional knowledge systems, mobilizing resources from multiple channels, improving core information and communications technology and supporting infrastructure development, including smart infrastructure, through collaboration with and among national programmes;</p>
+              </content>
+            </point>
+            <point eId="para_33_list_point_a_sublist_point_iv">
+              <num>(iv)</num>
+              <content eId="para_33_list_point_a_sublist_point_iv_content">
+                <p xml:space="preserve">	To encourage and support the science, technology and innovation efforts leading to the development of infrastructure and policies that support the global expansion of information and communications technology infrastructure, products and services, including broadband Internet access, to all people, particularly women, girls and youth, and persons with disabilities and from remote, rural and local communities, catalysing multi-stakeholder efforts to accelerate the growth in the number of new Internet users, endeavouring to improve the affordability of such products and services, and ensuring online safety for children;</p>
+              </content>
+            </point>
+            <point eId="para_33_list_point_a_sublist_point_v">
+              <num>(v)</num>
+              <content eId="para_33_list_point_a_sublist_point_v_content">
+                <p xml:space="preserve">	To support the development, deployment and sustainable use of emerging and open-source technologies and support policies towards open science and open innovation and know-how for the achievement of the Sustainable Development Goals, especially in developing countries, and to scale up the means of implementation to developing countries to strengthen their science, technology and innovation capacities, including by harnessing technologies and scientific knowledge as a global public good through the enhancement of the use of open science and affordable open-source technology;</p>
+              </content>
+            </point>
+            <point eId="para_33_list_point_a_sublist_point_vi">
+              <num>(vi)</num>
+              <content eId="para_33_list_point_a_sublist_point_vi_content">
+                <p xml:space="preserve">	To work, with input from a variety of stakeholders, including appropriate United Nations agencies and all relevant entities and forums, such as the Commission and the multi-stakeholder forum on science, technology and innovation for the Sustainable Development Goals, to formulate, adopt and implement science, technology and innovation policies aimed at contributing to the implementation of the Goals;</p>
+              </content>
+            </point>
+            <point eId="para_33_list_point_a_sublist_point_vii">
+              <num>(vii)</num>
+              <content eId="para_33_list_point_a_sublist_point_vii_content">
+                <p xml:space="preserve">	To continue giving due consideration to the impact of key rapid technological changes on the achievement of the Sustainable Development Goals within their respective mandates and existent resources, in accordance with General Assembly resolution <a href="https://docs.un.org/en/A/RES/79/334">79/334</a>;</p>
+              </content>
+            </point>
+            <point eId="para_33_list_point_a_sublist_point_viii">
+              <num>(viii)</num>
+              <content eId="para_33_list_point_a_sublist_point_viii_content">
+                <p xml:space="preserve">	To use strategic foresight exercises as a process to identify potential digital and other gaps or constraints in quality education in the medium and long terms, and to encourage structured debate among all stakeholders, including representatives of government, science, industry, civil society and the private sector, particularly small and medium-sized enterprises, towards creating a shared understanding of long-term issues, such as the changing nature of work, building consensus on future policies, and addressing such gaps through a policy mix, including connecting schools to the Internet, taking into account the specific needs of women and girls in the promotion of gender-responsive science, technology, engineering and mathematics education, vocational training and digital and data literacy, in order to help to meet current and emerging demands for competence and adaptation to change in a manner relevant to specific national and local situations and needs;</p>
+              </content>
+            </point>
+            <point eId="para_33_list_point_a_sublist_point_ix">
+              <num>(ix)</num>
+              <content eId="para_33_list_point_a_sublist_point_ix_content">
+                <p xml:space="preserve">	To incorporate the provision of digital competencies, including but not limited to entrepreneurship and complementary soft skills, in technical and vocational education and training and formal education curricula and lifelong learning opportunities, while taking into consideration best practices, local contexts and needs, and ensuring broad and up-to-date technological knowledge and that education is technology-neutral;</p>
+              </content>
+            </point>
+            <point eId="para_33_list_point_a_sublist_point_x">
+              <num>(x)</num>
+              <content eId="para_33_list_point_a_sublist_point_x_content">
+                <p xml:space="preserve">	To develop responsive and sustainable policies to leverage frontier technologies for inclusive economic diversification, ensuring ethical and responsible use of emerging technologies, and underscoring the important role of digital public infrastructure, open innovation, capacity-building and equitable international cooperation in enabling countries to keep pace with technological advancements and diversify industries with higher value-added production that benefits all sectors of society and promotes climate resilience and social equity;</p>
+              </content>
+            </point>
+            <point eId="para_33_list_point_a_sublist_point_xi">
+              <num>(xi)</num>
+              <content eId="para_33_list_point_a_sublist_point_xi_content">
+                <p xml:space="preserve">	To foster an open, fair, inclusive, development-oriented and non‑discriminatory environment for scientific and technological development and cooperation; </p>
+              </content>
+            </point>
+            <point eId="para_33_list_point_a_sublist_point_xii">
+              <num>(xii)</num>
+              <content eId="para_33_list_point_a_sublist_point_xii_content">
+                <p xml:space="preserve">	To undertake strategic foresight initiatives on global and regional challenges at regular intervals and cooperate with other Member States, making use of existing regional mechanisms, and in collaboration with relevant stakeholders;</p>
+              </content>
+            </point>
+            <point eId="para_33_list_point_a_sublist_point_xiii">
+              <num>(xiii)</num>
+              <content eId="para_33_list_point_a_sublist_point_xiii_content">
+                <p xml:space="preserve">	To encourage assessments of national innovation systems, including digital ecosystems, taking into account the needs and perspectives of women and girls, and gender-sensitive aspects, drawing from foresight exercises, at regular intervals, to identify weaknesses in the systems and make effective policy interventions to strengthen their weaker components, and share outcomes with other Member States, and, on a voluntary basis, to provide financial support and expertise towards the implementation of the framework for national science, technology and innovation policy reviews in interested developing countries;</p>
+              </content>
+            </point>
+            <point eId="para_33_list_point_a_sublist_point_xiv">
+              <num>(xiv)</num>
+              <content eId="para_33_list_point_a_sublist_point_xiv_content">
+                <p xml:space="preserve">	To encourage digital natives and digital learners to play a key role in a community-based approach, including gender-responsive approaches, to science, technology and innovation capacity-building, and facilitate the use of information and communications technologies in the context of the 2030 Agenda for Sustainable Development;</p>
+              </content>
+            </point>
+            <point eId="para_33_list_point_a_sublist_point_xv">
+              <num>(xv)</num>
+              <content eId="para_33_list_point_a_sublist_point_xv_content">
+                <p xml:space="preserve">	To put in place policies that support the development of digital ecosystems and facilitate sustainable investment, bearing in mind the potential of emerging digital technologies to leapfrog existing technologies for development, that are inclusive and take into account the socioeconomic and political context of countries and attract and support private investment and innovation, as well as public-private partnerships, based on mutually beneficial, equitable and transparent cooperation between public and private entities in the development and deployment of technologies, particularly encouraging the development of local content and entrepreneurship and making available disaggregated data sources for science, technology and innovation;</p>
+              </content>
+            </point>
+            <point eId="para_33_list_point_a_sublist_point_xvi">
+              <num>(xvi)</num>
+              <content eId="para_33_list_point_a_sublist_point_xvi_content">
+                <p xml:space="preserve">	To collaborate with all relevant stakeholders, to promote the application of information and communications technologies in all sectors, in order to improve environmental sustainability, food security, the creation, reuse and sharing of suitable facilities to recycle and dispose of e-waste and promote sustainable consumption and production patterns; </p>
+              </content>
+            </point>
+            <point eId="para_33_list_point_a_sublist_point_xvii">
+              <num>(xvii)</num>
+              <content eId="para_33_list_point_a_sublist_point_xvii_content">
+                <p xml:space="preserve">	To promote science, technology, engineering and mathematics education, quality education in science, technology and innovation and statistical literacy, particularly among women and girls, while also recognizing the importance of complementary soft skills, such as entrepreneurship, by encouraging mentoring and supporting other efforts to attract and retain women and girls in those fields, as well as mainstreaming a gender perspective when developing and implementing policies that harness science, technology and innovation; </p>
+              </content>
+            </point>
+            <point eId="para_33_list_point_a_sublist_point_xviii">
+              <num>(xviii)</num>
+              <content eId="para_33_list_point_a_sublist_point_xviii_content">
+                <p xml:space="preserve">	To support the policies and activities of developing countries in the fields of science and technology through North-South as well as South-South and triangular cooperation, as complementary to but not substituting for each other, by encouraging financial and technical assistance, knowledge-sharing, capacity-building, technology transfer on mutually agreed terms and conditions and technical training programmes or courses, and implement targeted policies to support local startups and small and medium-sized technology enterprises, including through access to financing, public procurement, digital infrastructure and business support programmes;</p>
+              </content>
+            </point>
+            <point eId="para_33_list_point_a_sublist_point_xix">
+              <num>(xix)</num>
+              <content eId="para_33_list_point_a_sublist_point_xix_content">
+                <p xml:space="preserve">	To encourage countries to support education and progressively increase high-quality skilled human resources at all levels by providing an environment for building a critical mass of human resource capacity, harnessing and effectively participating in the application of science, technology and innovation for value addition activities, in different sectors, solving problems and enhancing human welfare, while fostering an enabling environment for improved career prospects, decent work and social justice;</p>
+              </content>
+            </point>
+            <point eId="para_33_list_point_a_sublist_point_xx">
+              <num>(xx)</num>
+              <content eId="para_33_list_point_a_sublist_point_xx_content">
+                <p xml:space="preserve">	To consider engaging in an inclusive global discourse about all aspects of rapid technological change and its impact on sustainable development;</p>
+              </content>
+            </point>
+            <point eId="para_33_list_point_a_sublist_point_xxi">
+              <num>(xxi)</num>
+              <content eId="para_33_list_point_a_sublist_point_xxi_content">
+                <p xml:space="preserve">	To promote comprehensive policies that ensure the safety and ethical use of data, robust cybersecurity practices, and privacy, data protection, and consumer protection and promoting the economic valorization of data as a driver of sustainable development; </p>
+              </content>
+            </point>
+            <point eId="para_33_list_point_a_sublist_point_xxii">
+              <num>(xxii)</num>
+              <content eId="para_33_list_point_a_sublist_point_xxii_content">
+                <p xml:space="preserve">	To support policies that increase financial inclusion and deepen the sources of financing and direct investments towards innovations that address the Sustainable Development Goals, in the context of the Sevilla Commitment endorsed by the General Assembly in its resolution <a href="https://docs.un.org/en/A/RES/79/323">79/323</a> of 25 August 2025; </p>
+              </content>
+            </point>
+            <point eId="para_33_list_point_a_sublist_point_xxiii">
+              <num>(xxiii)</num>
+              <content eId="para_33_list_point_a_sublist_point_xxiii_content">
+                <p xml:space="preserve">	To encourage the inclusiveness of innovation, especially with regard to Indigenous Peoples as well as local communities and those in vulnerable situations, women and girls, youth, children, older persons and persons with disabilities, to ensure that the scaling and diffusion of new technologies are inclusive, safe and do not create further risk for children or deepen divides;</p>
+              </content>
+            </point>
+            <point eId="para_33_list_point_a_sublist_point_xxiv">
+              <num>(xxiv)</num>
+              <content eId="para_33_list_point_a_sublist_point_xxiv_content">
+                <p xml:space="preserve">	To support the Technology Bank for the Least Developed Countries as a mechanism to improve the scientific research and innovation base of least developed countries, promote networking among researchers and research institutions, help least developed countries to gain access to and utilize technology, draw together bilateral initiatives and support by multilateral institutions and the private sector and implement projects that contribute to the use of science, technology and innovation for economic development in least developed countries;</p>
+              </content>
+            </point>
+          </sublist>
+          <point eId="para_33_list_point_b">
+            <num>(b)</num>
+            <content eId="para_33_list_point_b_content">
+              <p xml:space="preserve">	The Commission is encouraged:</p>
+            </content>
+          </point>
+          <sublist eId="para_33_list_point_b_sublist">
+            <point eId="para_33_list_point_b_sublist_point_i">
+              <num>(i)</num>
+              <content eId="para_33_list_point_b_sublist_point_i_content">
+                <p xml:space="preserve">	To continue providing high-level advice to the Economic and Social Council and the General Assembly on relevant science, technology, engineering and innovation issues, and in this regard to contribute to informing the high-level thematic debate on the topic of the impact of rapid technological change on the achievement of the Sustainable Development Goals and targets, to be convened by the President of the General Assembly at its eighty-first session, and to the discussion of progress made in the implementation of General Assembly resolutions <a href="https://docs.un.org/en/A/RES/77/320">77/320</a> of 25 July 2023 and <a href="https://docs.un.org/en/A/RES/79/334">79/334</a> at its eighty-first session;</p>
+              </content>
+            </point>
+            <point eId="para_33_list_point_b_sublist_point_ii">
+              <num>(ii)</num>
+              <content eId="para_33_list_point_b_sublist_point_ii_content">
+                <p xml:space="preserve">	To help to articulate the important role of information and communications technologies and science, technology and innovation as enablers in the 2030 Agenda by acting as a forum for strategic planning, providing foresight about critical trends in science, technology and innovation in key sectors of the economy and drawing attention to new and emerging technologies;</p>
+              </content>
+            </point>
+            <point eId="para_33_list_point_b_sublist_point_iii">
+              <num>(iii)</num>
+              <content eId="para_33_list_point_b_sublist_point_iii_content">
+                <p xml:space="preserve">	To promote, in the spirit of the 2030 Agenda and the Sevilla Commitment, international cooperation in the field of science and technology for development, including innovative financing models, capacity-building and technology transfer on mutually agreed terms and conditions;</p>
+              </content>
+            </point>
+            <point eId="para_33_list_point_b_sublist_point_iv">
+              <num>(iv)</num>
+              <content eId="para_33_list_point_b_sublist_point_iv_content">
+                <p xml:space="preserve">	To invite countries to report to the Commission on Science and Technology for Development on progress made, good practices, lessons learned and challenges encountered in implementing science, technology and innovation policies, and to encourage the United Nations Conference on Trade and Development to continue its focus on science, technology and innovation policy reviews;</p>
+              </content>
+            </point>
+            <point eId="para_33_list_point_b_sublist_point_v">
+              <num>(v)</num>
+              <content eId="para_33_list_point_b_sublist_point_v_content">
+                <p xml:space="preserve">	To raise awareness among policymakers about the process of innovation and to identify particular opportunities for developing countries to benefit from such innovation, with special attention being placed on new trends in innovation that can offer novel possibilities for developing countries;</p>
+              </content>
+            </point>
+            <point eId="para_33_list_point_b_sublist_point_vi">
+              <num>(vi)</num>
+              <content eId="para_33_list_point_b_sublist_point_vi_content">
+                <p xml:space="preserve">	To support multi-stakeholder collaboration in policy learning and capacity-building, including in the context of workstream 6 on capacity-building of the United Nations inter-agency task team on science, technology and innovation for the Sustainable Development Goals;</p>
+              </content>
+            </point>
+            <point eId="para_33_list_point_b_sublist_point_vii">
+              <num>(vii)</num>
+              <content eId="para_33_list_point_b_sublist_point_vii_content">
+                <p xml:space="preserve">	To harness emerging technologies for the acceleration of achievement of Sustainable Development Goals, raise awareness and deepen understanding of potential risks of emerging technologies, and take actions to mitigate these risks, and enhance the skills and competencies necessary as well as international cooperation to address them;</p>
+              </content>
+            </point>
+            <point eId="para_33_list_point_b_sublist_point_viii">
+              <num>(viii)</num>
+              <content eId="para_33_list_point_b_sublist_point_viii_content">
+                <p xml:space="preserve">	To support countries in their efforts to identify future trends and challenges in terms of capacity-building needs, including through foresight exercises;</p>
+              </content>
+            </point>
+            <point eId="para_33_list_point_b_sublist_point_ix">
+              <num>(ix)</num>
+              <content eId="para_33_list_point_b_sublist_point_ix_content">
+                <p xml:space="preserve">	To promote cooperation through the conduct of capacity-building and research and development initiatives among Member States, in collaboration with relevant stakeholders, including appropriate United Nations agencies, working to facilitate the strengthening of innovation systems that support innovators, particularly in developing countries, to boost their efforts to contribute to the achievement of sustainable development, and to provide a forum for sharing not only success stories and best practices, but also failures, key challenges and learning from such cooperation;</p>
+              </content>
+            </point>
+            <point eId="para_33_list_point_b_sublist_point_x">
+              <num>(x)</num>
+              <content eId="para_33_list_point_b_sublist_point_x_content">
+                <p xml:space="preserve">	To continue to play an active role in creating awareness of the potential contribution of science, technology and innovation to the 2030 Agenda through substantive inputs, as appropriate, to relevant processes and bodies of the United Nations, and to share findings and good practices on science, technology and innovation among Member States and beyond; </p>
+              </content>
+            </point>
+            <point eId="para_33_list_point_b_sublist_point_xi">
+              <num>(xi)</num>
+              <content eId="para_33_list_point_b_sublist_point_xi_content">
+                <p xml:space="preserve">	To highlight the importance of the work of the Commission related to the implementation of and follow-up to the areas of information and communications technologies and science, technology and innovation related to the Sustainable Development Goals, with the Chair of the Commission to report at appropriate reviews and meetings of the Economic and Social Council, the high-level political forum on sustainable development and other relevant forums;</p>
+              </content>
+            </point>
+            <point eId="para_33_list_point_b_sublist_point_xii">
+              <num>(xii)</num>
+              <content eId="para_33_list_point_b_sublist_point_xii_content">
+                <p xml:space="preserve">	To strengthen and deepen collaboration between the Commission on Science and Technology for Development and the Commission on the Status of Women, including sharing good practices and lessons learned in integrating a gender perspective into science, technology and innovation policymaking and implementation, and to play an active role in creating awareness in support of the Technology Bank for the Least Developed Countries;</p>
+              </content>
+            </point>
+            <point eId="para_33_list_point_b_sublist_point_xiii">
+              <num>(xiii)</num>
+              <content eId="para_33_list_point_b_sublist_point_xiii_content">
+                <p xml:space="preserve">	To request the Gender Advisory Board of the Commission to provide inputs to the policy deliberations and documentation of the Commission, expressing appreciation for the contribution of the Gender Advisory Board to the discussions of the Commission at its twenty-ninth session, in particular at the panel on science, technology and innovation in the age of artificial intelligence;</p>
+              </content>
+            </point>
+            <point eId="para_33_list_point_b_sublist_point_xiv">
+              <num>(xiv)</num>
+              <content eId="para_33_list_point_b_sublist_point_xiv_content">
+                <p xml:space="preserve">	To report to the General Assembly, by no later than the eighty-first session, on the progress made by the Commission on Science and Technology for Development Multi-stakeholder Working Group on Data Governance at All Levels, as Relevant for Development;</p>
+              </content>
+            </point>
+          </sublist>
+          <point eId="para_33_list_point_c">
+            <num>(c)</num>
+            <content eId="para_33_list_point_c_content">
+              <p xml:space="preserve">	The United Nations Conference on Trade and Development is encouraged:</p>
+            </content>
+          </point>
+          <sublist eId="para_33_list_point_c_sublist">
+            <point eId="para_33_list_point_c_sublist_point_i">
+              <num>(i)</num>
+              <content eId="para_33_list_point_c_sublist_point_i_content">
+                <p xml:space="preserve">	To seek funding proactively for the expansion of science, technology and innovation policy reviews, with an emphasis on the critical role of strategic foresight, innovation ecosystem assessment, gender perspective and digital technologies in empowering science, technology and innovation and engineering capacity-building and utilization, and the implementation of the recommendations on those reviews, as appropriate, in close cooperation with United Nations agencies and international organizations;</p>
+              </content>
+            </point>
+            <point eId="para_33_list_point_c_sublist_point_ii">
+              <num>(ii)</num>
+              <content eId="para_33_list_point_c_sublist_point_ii_content">
+                <p xml:space="preserve">	To encourage Governments to use the Technology Bank for the Least Developed Countries as a mechanism to support science, technology and innovation in least developed countries and to assist least developed countries to further develop their own technologies;</p>
+              </content>
+            </point>
+            <point eId="para_33_list_point_c_sublist_point_iii">
+              <num>(iii)</num>
+              <content eId="para_33_list_point_c_sublist_point_iii_content">
+                <p xml:space="preserve">	To continue to provide support for the States members of the Commission in their joint initiatives aimed at promoting science, technology and innovation in line with the achievement of the 2030 Agenda;</p>
+              </content>
+            </point>
+            <point eId="para_33_list_point_c_sublist_point_iv">
+              <num>(iv)</num>
+              <content eId="para_33_list_point_c_sublist_point_iv_content">
+                <p xml:space="preserve">	To strengthen support to the Commission and the Secretariat, including through resources mobilization;</p>
+              </content>
+            </point>
+          </sublist>
+        </list>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="italic">Also recommends </span>that the Commission continue the informal process of consultations among member States, ahead of its thirtieth session, in order to improve the efficiency of the resolution on science, technology and innovation, mindful of the goal of the Commission to foster science, technology and innovation for development, respecting the Sustainable Development Goals, and taking into account that this process will include the interests of all member States, especially developing countries, in a balanced and comprehensive manner on the basis of the present resolution, retaining the equilibrium reached in previous years.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="40th" refersTo="#adoptionMeeting">40th plenary meeting</location>
+          <eol />
+          <docDate date="2026-07-21" refersTo="#adoptionDate">21 July 2026</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
