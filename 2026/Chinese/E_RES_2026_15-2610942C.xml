@@ -1,0 +1,346 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-14/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-14/"></FRBRuri>
+          <FRBRdate date="2026-07-21" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-14/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-14/zho@/"></FRBRuri>
+          <FRBRdate date="2026-07-24" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-14/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-14/zho@.xml"></FRBRuri>
+          <FRBRdate date="2026-09-25" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <workflow source="#un">
+        <step date="2026-06-17" outcome="recommendedForAdoption" as="E/2026/30" by="UN. Commission on Crime Prevention and Criminal Justice" />
+        <step date="2026-07-24" outcome="adopted" as="Adopted without vote, 40th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2026/14</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">经济及社会理事会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2026-07-24" class="rightSmall" refersTo="#dateOfIssuance">24 July 2026</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" eId="coverPage_1__session_1"></session>
+      </p>
+      <p>
+        <inline title="19 (c)" name="agenda item">议程项目19 (c)</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">社会与人权问题：预防犯罪和刑事司法</inline>
+      </p>
+      <p>
+        <docTitle>2026年7月21日经济及社会理事会决议</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent>[根据预防犯罪和刑事司法委员会的建议 (<inline name="originating document">E/2026/30</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2026/15.</docNumber>
+        <docTitle refersTo="#resolutionTitle">加强预防犯罪和刑事司法对策预防和打击欺诈行为</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">经济及社会理事会，</span>
+        </p>
+      </formula>
+    </preamble>
+      <mainBody>
+        <paragraph eId="para_2" class="SingleTxt">
+          <content eId="para_2__content">
+            <p xml:space="preserve">	<span class="bold">建议</span>大会通过以下决议草案：
+              <embeddedStructure>
+<container name="formula"><p xml:space="preserve">
+<span class="bold">	大会</span>，</p></container>
+      <container name="回顾" eId="container_6">
+        <p xml:space="preserve">	<span class="bold">回顾</span>经济及社会理事会2013年7月25日关于开展国际合作预防、侦查、起诉和惩治经济欺诈与身份相关犯罪的第<a href="https://docs.un.org/E/RES/2013/39">2013/39</a>号决议，以及经济及社会理事会2004年7月21日第<a href="https://docs.un.org/E/RES/2004/26">2004/26</a>号决议、2007年7月26日第<a href="https://docs.un.org/E/RES/2007/20">2007/20</a>号决议、2009年7月30日第<a href="https://docs.un.org/E/RES/2009/22">2009/22</a>号决议以及2011年7月28日第<a href="https://docs.un.org/E/RES/2011/35">2011/35</a>号决议，</p>
+      </container>
+      <container name="认识到" eId="container_7">
+        <p xml:space="preserve">	<span class="bold">认识到</span>欺诈正迅速演变为一种日益复杂的犯罪，威胁着安全、个人福祉、经济稳定以及对金融体系的信任，并可能对世界各地的受害人和社区造成经济、情感和心理上的伤害，</p>
+      </container>
+      <container name="深为关切" eId="container_8">
+        <p xml:space="preserve">	<span class="bold">深为关切</span>有组织犯罪集团实施的跨国欺诈规模日益扩大，包括借助网络手段的欺诈和其他形式的数字欺诈，以及诈骗中心和其他参与欺诈活动的犯罪组织使欺诈产业化，</p>
+      </container>
+      <container name="认识到" eId="container_9">
+        <p xml:space="preserve">	<span class="bold">认识到</span>有组织犯罪集团实施的跨国欺诈所得正越来越多地被转换为虚拟资产并以此隐匿，并注意到此类集团可能实施洗钱、腐败、贿赂、贩毒、贩运文化财产以及为强迫犯罪目的贩运人口等其他犯罪，</p>
+      </container>
+      <container name="回顾" eId="container_10">
+        <p xml:space="preserve">	<span class="bold">回顾</span>大会2024年12月24日第<a href="https://docs.un.org/A/RES/79/243">79/243</a>号决议，其中大会通过了《联合国打击网络犯罪以及为打击使用信息通信技术系统实施的某些犯罪并共享严重犯罪电子证据而加强国际合作公约》，并注意到这部尚待生效的公约对于预防和打击利用网络实施的欺诈以及收集、保全和共享电子证据都具有切实意义，</p>
+      </container>
+      <container name="认识到" eId="container_11">
+        <p xml:space="preserve">
+          <span class="bold">	认识到</span>要采取有效的预防犯罪和刑事司法对策打击欺诈，需要持久的政治意愿和有效的国家跨部门努力，包括根据国内法律，让私营部门和其他相关利益攸关方积极参与，还需要酌情采取跨国界协调行动，</p>
+      </container>
+      <container name="还认识到" eId="container_12">
+        <p xml:space="preserve">	<span class="bold">还认识到</span>先进和新兴技术的潜力，包括在各国国内网络环境中使用数字法证和数据分析支持预防、发现、侦查和起诉欺诈案件，同时注意到需要根据国内法应对与数据质量、隐私和数据保护相关的风险，还注意到联合国毒品和犯罪问题办公室在为执法机关提供新技术和新兴技术培训方面开展的工作，</p>
+      </container>
+      <container name="又认识到" eId="container_13">
+        <p xml:space="preserve">	<span class="bold">又认识到</span>包括中央银行、金融情报机构和其他相关公共机关在内的有关国家机构在保障金融系统和数字系统的完整性、稳定性和韧性方面的作用，其目的主要包括支持预防、发现、调查和减缓欺诈和金融犯罪，</p>
+      </container>
+      <container name="认识到" eId="container_14">
+        <p xml:space="preserve">
+          <span class="bold">	认识到</span>金融机构、网络平台、电信服务提供商和其他相关利益攸关方根据国内法律在保障金融系统和数字系统的完整性、稳定性和韧性方面所发挥的作用，其途径酌情包括预防、发现、调查和减缓欺诈和金融犯罪，</p>
+      </container>
+      <container name="关切" eId="container_15">
+        <p xml:space="preserve">	<span class="bold">关切</span>欺诈日益成为跨国有组织犯罪集团的资金来源，这些集团利用金融系统和虚拟资产转移、隐匿和清洗其犯罪活动所得，</p>
+      </container>
+      <container name="强调" eId="container_16">
+        <p xml:space="preserve">	<span class="bold">强调</span>根据国内法律和法规及时、安全和有针对性地开展多部门信息共享对于预防和打击欺诈至关重要，包括通过公共机构与私营部门之间的合作，其方式包括公私合作伙伴关系，以及酌情通过多机构工作队和专门的多国工作队，以期除其他外实现刑事司法成果，</p>
+      </container>
+      <container name="认识到" eId="container_17">
+        <p xml:space="preserve">	<span class="bold">认识到</span>有必要使犯罪分子无法从欺诈所得中获利，包括通过扣押资产以及冻结、没收、追回和返还欺诈犯罪所得来加强国际合作，并有必要根据国内法律，通过补偿等方式支持受害人，</p>
+      </container>
+      <container name="重申" eId="container_18">
+        <p xml:space="preserve">	<span class="bold">重申</span>应向会员国提供有影响力和有效的技术援助，同时考虑到请求国所确定的需求和优先事项，以便支持其预防和打击欺诈的努力，并承认可实现的成果的重要性，以及联合国毒品和犯罪问题办公室在这方面发挥的重要作用，</p>
+      </container>
+      <container name="表示赞赏" eId="container_19">
+        <p xml:space="preserve">	<span class="bold">表示赞赏</span>联合国毒品和犯罪问题办公室、国际刑事警察组织（国际刑警组织）和各捐助方召开2026年全球反欺诈峰会，并注意到此次峰会的成果文件，即《打击欺诈行动呼吁》和《全球公私合作反欺诈框架》，</p>
+      </container>
+      <paragraph eId="para_20" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>会员国根据国内法律，将有组织欺诈视为《联合国打击跨国有组织犯罪公约》<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		联合国，《条约汇编》，第2225卷，第39574号。</p></authorialNote> 第2条(b)项所界定的严重犯罪，以确保在相关犯罪具有跨国性质并涉及有组织犯罪集团的情况下，可根据《公约》提供有效的国际合作，并吁请会员国继续制定和实施有针对性的循证预防犯罪措施和刑事司法对策，从而预防和打击欺诈；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>会员国酌情推动和实施多利益攸关方和多部门反诈宣传和预防犯罪举措，例如开展教育和公众宣传活动，以提高抵御能力并降低易受欺诈侵害的脆弱性，包括更好地了解新出现的欺诈威胁以及降低易受欺骗性招工做法侵害的脆弱性；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="bold">还吁请</span>会员国采取措施，彻底调查并酌情适当起诉欺诈案件，追究欺诈行为人的责任，同时承认检察裁量权和司法独立，包括根据国内法律和适用的国际法，酌情通过司法协助、引渡、追回和返还犯罪所得以及拒绝提供避风港等方式；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_26" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>会员国根据国内法，通过其相应的国家机构，包括中央银行、金融监管机构和金融情报机构，采取措施确保受监管的金融机构采用强有力的欺诈风险管理框架；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>会员国根据国内法，通过其相应的国家机构、监管机构、主管机关和公私合作伙伴关系，酌情鼓励网络平台、电信服务提供商和其他相关利益攸关方实施有效的系统和控制措施，以预防、发现和阻断欺诈活动和滥用其服务的行为，并与执法机关合作；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_35" class="MercuryDocument">
+        <num>6.</num>
+        <content eId="para_35__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>会员国制定或维持相关法律，将涉及实施网络欺诈的行为定为犯罪，并允许加强国际合作，以有效调查和起诉网络欺诈行为；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="MercuryDocument">
+        <num>7.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>会员国根据国内法律和国际义务，加强国际合作和国内措施，以识别、冻结、扣押、没收和返还欺诈产生的犯罪所得，优先赔偿受害人或返还合法所有人；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="MercuryDocument">
+        <num>8.</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>会员国考虑设立专门机构以酌情预防和打击欺诈行为，例如专门的反欺诈部门或处理欺诈行为的打击有组织犯罪部门，赋予其明确的任务授权，主要是管理和协调对欺诈案件和相关犯罪的调查以支持主管机关应对有组织的和系统性的欺诈威胁，以及协调复杂案件和跨境案件；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_56" class="MercuryDocument">
+        <num>9.</num>
+        <content eId="para_56__content">
+          <p xml:space="preserve">	<span class="bold">大力鼓励</span>会员国采取有效措施，查明、瓦解和捣毁有组织欺诈活动，例如诈骗中心以及涉及以实施欺诈为目的贩运人口的其他活动，包括瓦解欺骗性的招工做法以及摧毁有组织犯罪集团用于实施欺诈的金融网络和供应链；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_65" class="MercuryDocument">
+        <num>10.</num>
+        <list eId="para_65_list">
+          <intro eId="para_65_list_intro">
+            <p xml:space="preserve">	<span class="bold">鼓励</span>会员国根据国内法律并在力所能及的范围内，实施和加强适当措施，保护和支持欺诈受害人和被贩运后被迫在欺诈活动中实施犯罪的受害人，包括：</p>
+          </intro>
+          <point eId="para_65_list_point_a">
+            <num>(a)</num>
+            <content eId="para_65_list_point_a_content">
+              <p xml:space="preserve">	建立或完善适当程序，使这些受害人能够获得赔偿、补偿、支持服务或其他适当救济；</p>
+            </content>
+          </point>
+          <point eId="para_65_list_point_b">
+            <num>(b)</num>
+            <content eId="para_65_list_point_b_content">
+              <p xml:space="preserve">	确保为被贩运后被迫在欺诈活动中实施犯罪的受害人受到尊重和有尊严的对待，并且不会因被贩运情形直接导致其实施的行为受到法律、政策和政府机构所实施的行动的不适当惩罚或不利影响；</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_75" class="MercuryDocument">
+        <num>11.</num>
+        <content eId="para_75__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>会员国根据国内法律采取适当措施，预防、侦查、打击和瓦解为欺诈提供技术便利的行为，包括滥用数字基础设施、通信服务和金融系统，并吁请会员国调查和酌情起诉通过洗钱和腐败等行为协助和教唆欺诈的自然人和法人；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_86" class="MercuryDocument">
+        <num>12.</num>
+        <content eId="para_86__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>会员国根据国内法律和适用的国际法加强国际合作，包括司法协助、引渡、就追回资产在打击欺诈单位、金融情报机构和其他主管机关之间进行协调、酌情开展联合调查或平行调查，以及交换信息，以期瓦解犯罪活动并摧毁从事欺诈活动的跨国有组织犯罪集团；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_98" class="MercuryDocument">
+        <num>13.</num>
+        <content eId="para_98__content">
+          <p xml:space="preserve">	<span class="bold">还鼓励</span>会员国在预防、调查和起诉欺诈行为时，根据国内法律和法规并在适当情况下，利用打击欺诈单位、金融情报机构和其他主管机关提供的信息，并通过适当利用现有的信息共享渠道和网络，加强各自金融情报机构之间的合作；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_111" class="MercuryDocument">
+        <num>14.</num>
+        <content eId="para_111__content">
+          <p xml:space="preserve">	<span class="bold">吁请</span>会员国通过加强执法机关以及专门的多国工作队和多机构工作队之间的信息共享和行动协作，加强国际合作预防和打击欺诈行为，并鼓励会员国利用主管调查机关、司法机关和国际合作网络的渠道和能力，包括国际刑事警察组织（国际刑警组织）的渠道和能力，支持安全及时的数据传输，同时确保遵守国内法律和适用的国际义务；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_125" class="MercuryDocument">
+        <num>15.</num>
+        <list eId="para_125_list">
+          <intro eId="para_125_list_intro">
+            <p xml:space="preserve">	<span class="bold">鼓励</span>会员国采取步骤，推动包括金融机构、网络平台和服务、电信服务提供商、虚拟资产服务提供商和其他相关部门在内的私营行业合作伙伴采取行动，预防、发现和阻断欺诈行为，方式包括：</p>
+          </intro>
+          <point eId="para_125_list_point_a">
+            <num>(a)</num>
+            <content eId="para_125_list_point_a_content">
+              <p xml:space="preserve">	加强反欺诈保障措施；</p>
+            </content>
+          </point>
+          <point eId="para_125_list_point_b">
+            <num>(b)</num>
+            <content eId="para_125_list_point_b_content">
+              <p xml:space="preserve">	根据国内法律，加强与执法机构和金融情报机构等有关公共机关的及时安全的信息共享和对行动对策的支持，以侦查和阻断欺诈行为以及为欺诈提供便利的因素；</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_140" class="MercuryDocument">
+        <num>16.</num>
+        <content eId="para_140__content">
+          <p xml:space="preserve">	<span class="bold">还鼓励</span>会员国考虑在力所能及的范围内使用先进技术和新兴技术，包括在各自国内网络环境中使用数字法证和数据分析，以此为工具支持旨在促进预防、调查和起诉欺诈案件的工作，同时充分尊重人权、隐私和数据保护；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_156" class="MercuryDocument">
+        <num>17.</num>
+        <content eId="para_156__content">
+          <p xml:space="preserve">	<span class="bold">又鼓励</span>会员国加强通过联合国毒品和犯罪问题办公室等途径提供具有影响力和实效的技术援助，同时考虑到请求国所确定的需求和优先事项，以便支持在预防和打击欺诈方面取得可实现的成果；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_173" class="MercuryDocument">
+        <num>18.</num>
+        <list eId="para_173_list">
+          <intro eId="para_173_list_intro">
+            <p xml:space="preserve">	<span class="bold">请</span>联合国毒品和犯罪问题办公室在其任务授权范围内并在可获得预算外资源的情况下，开展以下行动，在三年后接受预防犯罪和刑事司法委员会审查：</p>
+          </intro>
+          <point eId="para_173_list_point_a">
+            <num>(a)</num>
+            <content eId="para_173_list_point_a_content">
+              <p xml:space="preserve">	收集各国自愿提供的关于新出现的犯罪趋势、类型、预防和打击欺诈方面的良好做法、能力差距和挑战的信息，并每两年向预防犯罪和刑事司法委员会提供这些信息；</p>
+            </content>
+          </point>
+          <point eId="para_173_list_point_b">
+            <num>(b)</num>
+            <content eId="para_173_list_point_b_content">
+              <p xml:space="preserve">	支持会员国执行本决议；</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_191" class="MercuryDocument">
+        <num>19.</num>
+        <content eId="para_191__content">
+          <p xml:space="preserve">	<span class="bold">邀请</span>已核可2026年全球反欺诈峰会的成果文件即《打击欺诈行动呼吁》和《全球公私合作反欺诈框架》的会员国借助这些文件推动本国国内预防和打击欺诈的工作；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_210" class="MercuryDocument">
+        <num>20.</num>
+        <content eId="para_210__content">
+          <p xml:space="preserve">	<span class="bold">邀请</span>会员国和其他利益攸关方考虑为本决议所述目的提供自愿捐款，并请联合国毒品和犯罪问题办公室高效、有效地利用为此目的提供的任何预算外资源。</p>
+        </content>
+      </paragraph>
+              </embeddedStructure>
+            </p>
+          </content>
+        </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="第40次" refersTo="#adoptionMeeting">第40次全体会议</location>
+          <eol />
+          <docDate date="2026-07-21" refersTo="#adoptionDate">2026年7月21日</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>

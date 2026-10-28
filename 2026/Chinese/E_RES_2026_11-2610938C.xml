@@ -1,0 +1,182 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-11/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-11/"></FRBRuri>
+          <FRBRdate date="2026-07-21" name="adoption"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-11/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-11/zho@/"></FRBRuri>
+          <FRBRdate date="2026-07-24" name="publication"></FRBRdate>
+          <FRBRauthor href="ecosoc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-11/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unecosoc/2026-07-21/2026-11/zho@.xml"></FRBRuri>
+          <FRBRdate date="2026-09-26" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <workflow source="#un">
+        <step date="2026-07-09" outcome="draftResolution" as="E/2026/L.18" by="Peru and Philippines" />
+        <step date="2026-07-21" outcome="adopted" as="39th plenary meeting" by="economicAndSocialCouncil" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="adoptedWithoutVote">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="ecosoc" href="/akn/ontology/organization/un/economicAndSocialCouncil" showAs="Economic and Social Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">E/RES/2026/11</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">经济及社会理事会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2026-07-24" class="rightSmall" refersTo="#dateOfIssuance">24 July 2026</docDate>
+      </p>
+      <p>
+        <session refersTo="#ecosoc" eId="coverPage_1__session_1"></session>
+      </p>
+      <p>
+        <inline title="12(d)" name="agenda item">议程项目12(d)</inline>
+      </p>
+      <p>
+        <inline name="agenda item name">协调、方案和其他问题：非传染性疾病预防和控制</inline>
+      </p>
+      <p>
+        <docTitle>2026年7月21日经济及社会理事会决议</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docProponent refersTo="#plenaryMeeting">[根据全体会议审议的一项提案 (<inline name="originating document">E/2026/L.18</inline>)]</docProponent>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2026/11.</docNumber>
+        <docTitle refersTo="#resolutionTitle">联合国预防和控制非传染性疾病机构间工作队</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">经济及社会理事会</span>，</p>
+      </formula>
+      <container name="回顾" eId="container_2">
+        <p xml:space="preserve">	<span class="bold">回顾</span>其关于联合国预防和控制非传染性疾病机构间工作队的2013年7月22日第<a href="https://docs.un.org/zh/E/RES/2013/12">2013/12</a>号、2014年6月13日第<a href="https://docs.un.org/zh/E/RES/2014/10">2014/10</a>号、2015年6月9日第<a href="https://docs.un.org/zh/E/RES/2015/8">2015/8</a>号、2016年6月2日第<a href="https://docs.un.org/zh/E/RES/2016/5">2016/5</a>号、2017年6月7日第<a href="https://docs.un.org/zh/E/RES/2017/8">2017/8</a>号、2018年7月2日第<a href="https://docs.un.org/zh/E/RES/2018/13">2018/13</a>号、2019年6月7日第<a href="https://docs.un.org/zh/E/RES/2019/9">2019/9</a>号、2020年7月22日第<a href="https://docs.un.org/zh/E/RES/2020/22">2020/22</a>号、2021年7月22日第<a href="https://docs.un.org/zh/E/RES/2021/27">2021/27</a>号、2024年7月23日第<a href="https://docs.un.org/zh/E/RES/2024/17">2024/17</a>号和2025年7月29日第<a href="https://docs.un.org/zh/E/RES/2025/30">2025/30</a>号决议，以及2022年7月22日第2022/355号和2023年7月25日第2023/349号决定，</p>
+      </container>
+      <container name="欢迎" eId="container_3">
+        <p xml:space="preserve">	<span class="bold">欢迎</span>工作队通过机构间联合努力，在促进公共卫生和推动实现可持续发展目标中与非传染性疾病有关的具体目标方面继续取得进展，<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">		见大会第<a href="https://docs.un.org/zh/A/RES/70/1">70/1</a>号决议。</p></authorialNote> 并酌情通过伙伴关系和联盟在预防和治疗非传染性疾病方面取得进展，</p>
+      </container>
+      <container name="又欢迎" eId="container_4">
+        <p xml:space="preserve">	<span class="bold">又欢迎</span>2025年12月15日通过的大会第四次预防和控制非传染性疾病以及促进精神卫生和福祉问题高级别会议的政治宣言及其所载承诺，<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">		大会第<a href="https://docs.un.org/zh/A/RES/80/117">80/117</a>号决议，附件。</p></authorialNote> 其中除其他外，促请联合国各机构在各自任务范围内，通过催化性发展援助，包括通过联合国预防和控制非传染性疾病机构间工作队及联合国促进非传染性疾病和精神卫生领域国家行动多伙伴信托基金，以协调一致的方式扩大和动员对会员国的支持，</p>
+      </container>
+      <container name="认识到" eId="container_5">
+        <p xml:space="preserve">
+          <span class="bold">	认识到</span>，卫生部门以外的领导力、政治承诺、行动、合作与协调，对于促进和加快采取具有成本效益、可及、可负担的人群层面干预措施，以促进健康生活方式并预防非传染性疾病和精神健康问题，具有重要意义，</p>
+      </container>
+      <container name="表示注意到" eId="container_6">
+        <p xml:space="preserve">
+          <span class="bold">	表示注意到</span>世界卫生组织管理层对工作队独立评价的回应，其中确认针对非传染性疾病采取多部门行动的重要性，并注意到按照第四次关于预防和控制非传染性疾病及促进心理健康和福祉的高级别会议政治宣言及秘书长联合国80周年倡议，同时鉴于多边和更广泛发展系统当前面临的财务挑战，目前正在持续努力进一步加强工作队在支持会员国方面的成效和响应能力，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_7" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_7__content">
+          <p xml:space="preserve">	<span class="bold">表示注意到</span>世界卫生组织总干事关于联合国预防和控制非传染性疾病机构间工作队的报告，<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">		<a href="https://docs.un.org/zh/E/2026/66">E/2026/66</a>。</p></authorialNote> 以及工作队在支持会员国减轻非传染性疾病负担、改善精神卫生和实现更广泛的卫生相关可持续发展目标方面所做工作的持续影响；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_8" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_8__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>工作队应会员国请求，继续支持会员国将全球承诺转化为经核算成本的国家多部门行动计划和投资方案，以有效预防和控制非传染性疾病并促进精神健康，同时顾及各国国情和优先事项，并与加强全民健康覆盖和初级卫生保健的努力保持一致；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>工作队及其成员在其任务规定范围内，应会员国请求支持其加强监管、财政和法律框架的能力，以促进在非传染性疾病和精神健康方面取得有利的健康成果；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_13__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>双边和多边捐助方以及其他利益攸关方，包括慈善基金会、民间社会和私营部门，酌情为工作队的方案工作调动人力和财政资源，包括通过联合国促进非传染性疾病和精神卫生领域国家行动多伙伴信托基金；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>工作队加强与联合国驻地协调员和联合国国家工作队的协作，支持将非传染性疾病和精神卫生纳入联合国可持续发展合作框架，并继续采用方案周期办法来改进监测、问责和可衡量的成果，从而增强自身在国家一级的影响力；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="MercuryDocument">
+        <num>6.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">	<span class="bold">请</span>秘书长在题为“协调、方案和其他问题”的项目中题为“非传染性疾病预防和控制”的分项下，向理事会2027年届会报告第<a href="https://docs.un.org/zh/E/RES/2013/12">2013/12</a>号决议及其后决议执行进展情况。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location title="第39次" refersTo="#adoptionMeeting">第39次全体会议</location>
+          <eol />
+          <docDate date="2026-07-21" refersTo="#adoptionDate">2026年7月21日</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
